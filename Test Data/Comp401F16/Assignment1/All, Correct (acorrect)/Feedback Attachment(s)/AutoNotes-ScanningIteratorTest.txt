@@ -1,0 +1,1 @@
+  -- Did not find a class in:[(.*)ScanningIterator(.*)]%Did not find a class in:[(.*)ScanningIterator(.*)]

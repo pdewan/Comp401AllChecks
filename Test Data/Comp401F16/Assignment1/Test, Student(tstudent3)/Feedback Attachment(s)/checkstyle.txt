@@ -1,0 +1,6 @@
+Starting audit...
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\src\main\Assignment1.java:0: expectedTypes: Expected type names/tags [main.Assignment(.*), ScanningIterator//EC]
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call        (.*)!hasNext:->boolean//EC 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call        (.*)!next:->String//EC
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\src\main\Assignment1.java:5: typeDefined: (Assignment1.java:5) Class/Interface Assignment1 matching tag main.Assignment(.*) defined
+Audit done.
