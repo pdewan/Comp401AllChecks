@@ -26,3 +26,233 @@
 1472345263712,20:47:43,ProjectStepStarted,mmany,extraCOMMMA credit 
 1472345270889,20:47:50,ProjectStepEnded,mmany,mistakesCOMMMA many,38.85,36.6,0.0,1.05,,,0
 1472345270889,20:47:50,ProjectStepperEnded
+1473525441620,12:37:21,ProjectStepperStarted
+1473525442996,12:37:22,NavigationKindChange,Automatic
+1473525443012,12:37:23,NavigationStarted
+1473525443012,12:37:23,AutomaticNavigationStarted
+1473525443169,12:37:23,ProjectStepStarted,acorrect,
+1473525457879,12:37:37,ProjectStepEnded,acorrect,allCOMMMA correct ,5.25,5.0,0.0,1.05,,,0
+1473525457895,12:37:37,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473525461413,12:37:41,ProjectStepEnded,ecredit,extraCOMMMA credit ,0.0,0.0,0.0,1.05,,,0
+1473525461428,12:37:41,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473525464542,12:37:44,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1473525464542,12:37:44,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473525466595,12:37:46,ProjectStepEnded,tstudent,testCOMMMA student,5.25,5.0,0.0,1.05,,,0
+1473525466610,12:37:46,AutomaticNavigationEnded
+1473525466610,12:37:46,NavigationKindChange,Manual
+1473525466610,12:37:46,NavigationStarted
+1473525466610,12:37:46,ManualNavigationStarted
+1473525466610,12:37:46,ProjectStepStarted,acorrect,testCOMMMA student
+1473525466813,12:37:46,ManualNavigationEnded
+1473525486935,12:38:06,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473525487892,12:38:07,UserNextStep,acorrect,allCOMMMA correct 
+1473525487986,12:38:07,ProjectStepEnded,acorrect,allCOMMMA correct ,5.25,5.0,0.0,1.05,,,0
+1473525488012,12:38:08,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473525498708,12:38:18,UserNextStep,ecredit,extraCOMMMA credit 
+1473525498708,12:38:18,ProjectStepEnded,ecredit,extraCOMMMA credit ,0.0,0.0,0.0,1.05,,,0
+1473525498724,12:38:18,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473525510108,12:38:30,UserNextStep,mmany,mistakesCOMMMA many
+1473525510108,12:38:30,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1473525510131,12:38:30,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473525637454,12:40:37,ProjectStepperStarted
+1473525637612,12:40:37,NavigationKindChange,Automatic
+1473525637612,12:40:37,NavigationStarted
+1473525637612,12:40:37,AutomaticNavigationStarted
+1473525637644,12:40:37,ProjectStepStarted,acorrect,
+1473525645446,12:40:45,ProjectStepEnded,acorrect,allCOMMMA correct ,5.25,5.0,0.0,1.05,,,0
+1473525645446,12:40:45,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473525648448,12:40:48,ProjectStepEnded,ecredit,extraCOMMMA credit ,0.0,0.0,0.0,1.05,,,0
+1473525648448,12:40:48,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473525651115,12:40:51,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1473525651115,12:40:51,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473525653269,12:40:53,ProjectStepEnded,tstudent,testCOMMMA student,5.25,5.0,0.0,1.05,,,0
+1473525653300,12:40:53,AutomaticNavigationEnded
+1473525653300,12:40:53,NavigationKindChange,Manual
+1473525653316,12:40:53,NavigationStarted
+1473525653316,12:40:53,ManualNavigationStarted
+1473525653316,12:40:53,ProjectStepStarted,acorrect,testCOMMMA student
+1473525653499,12:40:53,ManualNavigationEnded
+1473527542761,13:12:22,MainVisited,acorrect,allCOMMMA correct 
+1473527545297,13:12:25,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473527546837,13:12:26,UserNextStep,acorrect,allCOMMMA correct 
+1473527546852,13:12:26,ProjectStepEnded,acorrect,allCOMMMA correct ,5.25,5.0,0.0,1.05,,,0
+1473527546879,13:12:26,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473528010940,13:20:10,MainVisited,ecredit,extraCOMMMA credit 
+1473528041982,13:20:41,ProjectStepEnded,ecredit,extraCOMMMA credit ,0.0,0.0,0.0,1.05,,,0
+1473528041998,13:20:41,ProjectStepperEnded
+1473528183358,13:23:03,ProjectStepperStarted
+1473528183520,13:23:03,NavigationKindChange,Automatic
+1473528183520,13:23:03,NavigationStarted
+1473528183520,13:23:03,AutomaticNavigationStarted
+1473528183551,13:23:03,ProjectStepStarted,acorrect,
+1473528190864,13:23:10,ProjectStepEnded,acorrect,allCOMMMA correct ,5.25,5.0,0.0,1.05,,,0
+1473528190864,13:23:10,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473528192572,13:23:12,ProjectStepEnded,ecredit,extraCOMMMA credit ,0.0,0.0,0.0,1.05,,,0
+1473528192572,13:23:12,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473528194634,13:23:14,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1473528194634,13:23:14,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473528196471,13:23:16,ProjectStepEnded,tstudent,testCOMMMA student,5.25,5.0,0.0,1.05,,,0
+1473528196487,13:23:16,AutomaticNavigationEnded
+1473528196487,13:23:16,NavigationKindChange,Manual
+1473528196502,13:23:16,NavigationStarted
+1473528196502,13:23:16,ManualNavigationStarted
+1473528196502,13:23:16,ProjectStepStarted,acorrect,testCOMMMA student
+1473528196565,13:23:16,ManualNavigationEnded
+1473528207516,13:23:27,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473528882187,13:34:42,ProjectStepperStarted
+1473528882448,13:34:42,NavigationKindChange,Automatic
+1473528882451,13:34:42,NavigationStarted
+1473528882452,13:34:42,AutomaticNavigationStarted
+1473528882477,13:34:42,ProjectStepStarted,acorrect,
+1473528932378,13:35:32,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473528932382,13:35:32,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473528938782,13:35:38,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473528938782,13:35:38,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473528945774,13:35:45,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473528945776,13:35:45,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473528954725,13:35:54,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473528954740,13:35:54,AutomaticNavigationEnded
+1473528954740,13:35:54,NavigationKindChange,Manual
+1473528954740,13:35:54,NavigationStarted
+1473528954740,13:35:54,ManualNavigationStarted
+1473528954740,13:35:54,ProjectStepStarted,acorrect,testCOMMMA student
+1473528954818,13:35:54,ManualNavigationEnded
+1473529022280,13:37:02,MainVisited,acorrect,allCOMMMA correct 
+1473529024545,13:37:04,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473529025714,13:37:05,UserNextStep,acorrect,allCOMMMA correct 
+1473529025729,13:37:05,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473529025745,13:37:05,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473529079171,13:37:59,MainVisited,ecredit,extraCOMMMA credit 
+1473529108852,13:38:28,UserNextStep,ecredit,extraCOMMMA credit 
+1473529108852,13:38:28,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473529108875,13:38:28,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473529120955,13:38:40,UserNextStep,mmany,mistakesCOMMMA many
+1473529120955,13:38:40,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473529120971,13:38:40,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473529207411,13:40:07,MainVisited,tstudent,testCOMMMA student
+1473529214441,13:40:14,UserPreviousStep,tstudent,testCOMMMA student
+1473529214441,13:40:14,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473529214459,13:40:14,ProjectStepStarted,mmany,testCOMMMA student
+1473531584812,14:19:44,ProjectStepperStarted
+1473531585111,14:19:45,NavigationKindChange,Automatic
+1473531585115,14:19:45,NavigationStarted
+1473531585116,14:19:45,AutomaticNavigationStarted
+1473531585134,14:19:45,ProjectStepStarted,acorrect,
+1473531597542,14:19:57,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473531597545,14:19:57,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473531604789,14:20:04,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473531604791,14:20:04,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473531611751,14:20:11,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473531611751,14:20:11,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473531620601,14:20:20,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473531620630,14:20:20,AutomaticNavigationEnded
+1473531620631,14:20:20,NavigationKindChange,Manual
+1473531620631,14:20:20,NavigationStarted
+1473531620631,14:20:20,ManualNavigationStarted
+1473531620631,14:20:20,ProjectStepStarted,acorrect,testCOMMMA student
+1473531620693,14:20:20,ManualNavigationEnded
+1473531748694,14:22:28,MainVisited,acorrect,allCOMMMA correct 
+1473531810021,14:23:30,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473531811046,14:23:31,UserNextStep,acorrect,allCOMMMA correct 
+1473531811062,14:23:31,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473531811081,14:23:31,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473532459676,14:34:19,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473532459676,14:34:19,ProjectStepperEnded
+1473532750848,14:39:10,ProjectStepperStarted
+1473532751101,14:39:11,NavigationKindChange,Automatic
+1473532751107,14:39:11,NavigationStarted
+1473532751108,14:39:11,AutomaticNavigationStarted
+1473532751129,14:39:11,ProjectStepStarted,acorrect,
+1473532761111,14:39:21,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473532761111,14:39:21,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473532767269,14:39:27,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473532767269,14:39:27,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473532775599,14:39:35,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473532775606,14:39:35,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473532788234,14:39:48,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473532788258,14:39:48,AutomaticNavigationEnded
+1473532788266,14:39:48,NavigationKindChange,Manual
+1473532788267,14:39:48,NavigationStarted
+1473532788268,14:39:48,ManualNavigationStarted
+1473532788269,14:39:48,ProjectStepStarted,acorrect,testCOMMMA student
+1473532788397,14:39:48,ManualNavigationEnded
+1473532807945,14:40:07,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473532809158,14:40:09,UserNextStep,acorrect,allCOMMMA correct 
+1473532809158,14:40:09,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473532809173,14:40:09,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473532817226,14:40:17,UserNextStep,ecredit,extraCOMMMA credit 
+1473532817226,14:40:17,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473532817248,14:40:17,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473532825725,14:40:25,UserNextStep,mmany,mistakesCOMMMA many
+1473532825730,14:40:25,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473532825744,14:40:25,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473532837378,14:40:37,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473532837378,14:40:37,ProjectStepperEnded
+1473532862700,14:41:02,ProjectStepperStarted
+1473532862904,14:41:02,NavigationKindChange,Automatic
+1473532862904,14:41:02,NavigationStarted
+1473532862904,14:41:02,AutomaticNavigationStarted
+1473532866530,14:41:06,GraderSettingsStarted,Comp401f16,Assignment1,acorrect,tstudent3,Automatic,Grading Status,All
+1473533071319,14:44:31,ProjectStepperStarted
+1473533071617,14:44:31,NavigationKindChange,Automatic
+1473533071620,14:44:31,NavigationStarted
+1473533071625,14:44:31,AutomaticNavigationStarted
+1473533073644,14:44:33,GraderSettingsStarted,Comp401f16,Assignment1,acorrect,tstudent3,Automatic,Grading Status,All
+1473533135207,14:45:35,NavigationKindChange,Automatic and then manual
+1473533135270,14:45:35,NavigationParameterChange,All
+1473533135285,14:45:35,GradingStatusUserChange,All
+1473533135317,14:45:35,DownloadPathUserChange,D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1
+1473533149689,14:45:49,NavigationInitiated
+1473533149798,14:45:49,GraderSettingsEnded
+1473533152763,14:45:52,GraderSettingsStarted,Comp401f16,Assignment1,acorrect,tstudent3,Automatic and then manual,Grading Status,All
+1473533196790,14:46:36,ProjectStepperStarted
+1473533197096,14:46:37,NavigationKindChange,Automatic
+1473533197098,14:46:37,NavigationStarted
+1473533197099,14:46:37,AutomaticNavigationStarted
+1473533197155,14:46:37,ProjectStepStarted,acorrect,
+1473533207744,14:46:47,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473533207747,14:46:47,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473533214478,14:46:54,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473533214486,14:46:54,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473533228935,14:47:08,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473533228939,14:47:08,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473533239122,14:47:19,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473533239154,14:47:19,ProjectStepStarted,tstudent3,testCOMMMA student
+1473533244937,14:47:24,ProjectStepEnded,tstudent3,testCOMMMA student,60.9,57.6,0.0,1.05,,,0
+1473533244986,14:47:24,AutomaticNavigationEnded
+1473533244987,14:47:24,NavigationKindChange,Manual
+1473533244988,14:47:24,NavigationStarted
+1473533244989,14:47:24,ManualNavigationStarted
+1473533244990,14:47:24,ProjectStepStarted,acorrect,testCOMMMA student
+1473533245070,14:47:25,ManualNavigationEnded
+1473533256989,14:47:36,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1473533258229,14:47:38,UserNextStep,acorrect,allCOMMMA correct 
+1473533258244,14:47:38,ProjectStepEnded,acorrect,allCOMMMA correct ,57.75,55.0,0.0,1.05,,,0
+1473533258260,14:47:38,ProjectStepStarted,ecredit,allCOMMMA correct 
+1473533266959,14:47:46,UserNextStep,ecredit,extraCOMMMA credit 
+1473533266959,14:47:46,ProjectStepEnded,ecredit,extraCOMMMA credit ,45.15,42.5,0.0,1.05,,,0
+1473533266978,14:47:46,ProjectStepStarted,mmany,extraCOMMMA credit 
+1473533276358,14:47:56,UserNextStep,mmany,mistakesCOMMMA many
+1473533276358,14:47:56,ProjectStepEnded,mmany,mistakesCOMMMA many,18.900000000000002,17.5,0.0,1.05,,,0
+1473533276384,14:47:56,ProjectStepStarted,tstudent,mistakesCOMMMA many
+1473533285092,14:48:05,UserNextStep,tstudent,testCOMMMA student
+1473533285092,14:48:05,ProjectStepEnded,tstudent,testCOMMMA student,44.1,41.6,0.0,1.05,,,0
+1473533285108,14:48:05,ProjectStepStarted,tstudent3,testCOMMMA student
+1473533402019,14:50:02,SourceVisited,tstudent3,testCOMMMA student
+1473533406437,14:50:06,MainVisited,tstudent3,testCOMMMA student
+1473536151347,15:35:51,MainVisited,tstudent3,testCOMMMA student
+1473536154088,15:35:54,ProjectStepEnded,tstudent3,testCOMMMA student,60.9,57.6,0.0,1.05,,,0
+1473536154088,15:35:54,ProjectStepperEnded
+1473537220193,15:53:40,ProjectStepperStarted
+1473537220534,15:53:40,NavigationKindChange,Automatic
+1473537220536,15:53:40,NavigationStarted
+1473537220537,15:53:40,AutomaticNavigationStarted
+1473537220577,15:53:40,ProjectStepStarted,tstudent3,
+1473537232921,15:53:52,ProjectStepEnded,tstudent3,testCOMMMA student,60.9,57.6,0.0,1.05,,,0
+1473537232937,15:53:52,AutomaticNavigationEnded
+1473537232937,15:53:52,NavigationKindChange,Manual
+1473537232953,15:53:52,NavigationStarted
+1473537232953,15:53:52,ManualNavigationStarted
+1473537232953,15:53:52,ProjectStepStarted,tstudent3,testCOMMMA student
+1473537233062,15:53:53,ManualNavigationEnded
+1473537392779,15:56:32,MainVisited,tstudent3,testCOMMMA student

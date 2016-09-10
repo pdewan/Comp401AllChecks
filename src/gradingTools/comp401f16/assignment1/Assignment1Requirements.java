@@ -14,65 +14,62 @@ import gradingTools.comp401f15.assignment1.testcases.MinDeclaredMethodsInSameOrD
 import gradingTools.comp401f15.assignment1.testcases.TerminateWithPeriodTestCase;
 import gradingTools.comp401f15.assignment1.testcases.VariableSpacesTestCase;
 import gradingTools.comp401f16.assignment1.testcases.Assignment1Suite;
+import gradingTools.sharedTestCase.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 
-/**
- * Created with IntelliJ IDEA.
- * User: josh
- * Date: 11/6/13
- * Time: 9:12 PM
- * To change this template use File | Settings | File Templates.
- */
-public class Assignment1Requirements extends AJUnitProjectRequirements {
 
+public class Assignment1Requirements extends AJUnitProjectRequirements {
+	public static final String MAIN_SUBSTRING = "main.Assignment";
+	public static final String ITERATOR_SUSTRING = "ScanningIterator";
     public Assignment1Requirements() {
-    	addDueDate("08/26/2016 23:55:00", 1.05);
-    	addDueDate("08/28/2016 23:55:00", 1);
-    	addDueDate("09/02/2016 23:55:00", 0.9);
-    	addDueDate("09/04/2016 23:55:00", 0.75);
-    	
+    	addDueDate("08/31/2016 23:59:00", 1.05); // wed before
+    	addDueDate("09/02/2016 23:59:00", 1); // fri due
+    	addDueDate("09/05/2016 23:55:00", 0.95);// mon after due
+    	addDueDate("09/09/2016 23:55:00", 0.85); // fri after due
+    	addDueDate("12/04/2016 23:55:00", 0.8); // infinity
+
         // Functionality
     	addJUnitTestSuite(Assignment1Suite.class);
-//        addFeature("Process & print tokens", 40,
-//                new SingleTokenTestCase(),
-//                new MultipleTokensTestCase()
-//              //  new RemovePrecedingZerosTestCase()
-//                );
-//        addFeature("Sum and product", 10,
-//                new SumTestCase(),
-//                new ProductTestCase());
-//        addFeature("Terminates with period", 10, new TerminateWithPeriodTestCase());
-
-        // Style
-//        addFeature("Two declared methods", 3, new MinDeclaredMethodsInSameOrDifferentClassTestCase(2));
-//        addFeature("One called method", 7, new MinDeclaredMethodsInSameOrDifferentClassTestCase(1));
-//        addFeature("Variable spaces", 5, true, new VariableSpacesTestCase());
-//        addFeature("Handle invalid chars", 5, true, new InvalidCharacterTestCase());
+    	// Method calls
+    	addFeature("3 Required Methods Called in Main or Iterator (max 15pts)", 18, 
+//    	   		new CheckstyleMethodDefinedTestCase("Parser", 	"@parseNumber:\\*->\\*"),
+    	   		new CheckstyleMethodCalledTestCase(
+    	   				"main.Assignment", 
+    	   				"processInput:->void"),
+    	   		new CheckstyleMethodCalledTestCase(
+    	    	   		"main.Assignment",    	    	   		
+    	    	   		"indexOf:String;char"),
+    	    	 new CheckstyleMethodCalledTestCase(
+    	    	    	"main.Assignment",  		
+    	    	   		"scanString:String->void"    	    	   		
+    	    	   		),
+    	    	 new CheckstyleMethodCalledTestCase(
+    	    	    	"ScanningIterator",    	    	   		
+    	    	    	 "indexOf:String;char")); 
+    	    	
+    	addFeature("indexOfNot Called in Main or Iterator (max 3pts)", 6, true,
+    	   		new CheckstyleMethodCalledTestCase(
+    	    	   		"main.Assignment",    	    	   		
+    	    	   		"indexOfNot:String;char"),
+    	    	 
+    			new CheckstyleMethodCalledTestCase(
+    	   				"ScanningIterator",    	    	   		
+    	    	   		"indexOfNot:String;char")
+    	    	 );
+    	    	 
+    	addFeature("Iterator Methods Called in Main", 10, true,
+    	   		new CheckstyleMethodCalledTestCase(
+    	   				"main.Assignment", 
+    	   				"\\(\\.\\*\\)!hasNext:->boolean"),
+    	   		new CheckstyleMethodCalledTestCase(
+    	    	   		"main.Assignment",    	    	   		
+    	    	   		"\\(\\.*\\)!next:->String"));
+    	
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
-        addManualFeature("Use an extra class with iterator like interface", 10, true);
-
-
-//        addManualFeature("Screenshots", 10, new QuestionTestCase("Screenshots included showing test data output?", "Screenshots testcase"));
-
-        // TODO: Extra Credit
-//        addManualFeature("Handle invalid chars", 5, true);
-//        addManualFeature("No-array parser class", 10, true);
-//        addManualFeature("Variable spaces", 5, true);
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
-//        addRestriction("Single main.Assigment", 10, new ClassDefinedTestCase("main.Assignment(.*)"));
-        addRestriction("Single main.Assigment", 10, new MainClassDefinedTestCase("main.Assignment(.*)"));
-        
-        addFeature(INTERACTIVE_RUN, 20, true, new NoWarningOrErrorTestCase());
-
-
-       
         
 
-//        addManualFeature("Nice code", 10, true);
-
-        // Restrictions
-//        addRestriction("No .split allowed", -10, new NoSplitTestCase());
 
     }
 }

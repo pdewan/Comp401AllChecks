@@ -1,1 +1,8 @@
-Unable to create Checker: cannot initialize module TreeWalker - Unable to instantiate NoDuplicateShortTypeName
+Starting audit...
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:0: expectedTypes: Expected type names/tags [main.Assignment(.*), ScanningIterator//EC]
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:12: typeDefined: (ProcString.java:12) Class/Interface ProcString matching tag No Expected Tag defined
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:19:27: warning: Literal Strings should be compared using equals(), not '!='.
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:50:51: warning: The String " " appears 3 times in the file.
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:51:61: warning: The String "the num :" appears 3 times in the file.
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\All, Correct (acorrect)\Submission attachment(s)\Assignment1\Assignment1\src\main\ProcString.java:51:77: warning: The String " and the integer is: " appears 3 times in the file.
+Audit done.

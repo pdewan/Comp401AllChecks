@@ -5,5 +5,5 @@ FEATURES
 TestsTestSuite:Did not do test tests
 
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:63.0 FEATURES:60.0 MULTIPLIER:1.05 AUTO:0:0:14 MANUAL:0:0:36 SECTIONS:[source_open] GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:57.75 FEATURES:55.0 MULTIPLIER:1.05 AUTO:0:0:14 MANUAL:0:50:25 SECTIONS:[source, source_open] GRADER:Dewan
 --------------------------------------------------------------------------------------------------

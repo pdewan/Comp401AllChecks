@@ -1,253 +1,70 @@
 
-Grading result for: All, Correct (acorrect)
+Grading result for: Test, Student(tstudent3)
 
 Grading features...
 ----------------------------------
 MultipleTokenSuite:Can process multiple tokens         30.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       5.0 /  5.0
-TerminatesWithPeriodSuite:Handles Variable Spaces      0.0 /  5.0
+InvalidCharacterSuite:Handles Invalid Characters       0.0 /  5.0 (Extra credit)
+TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
+IndexOfTestSuite:IndexOf functions correctly           2.6 / 18.0
+TerminatesWithPeriodLineSuite:Handles Space After Period 5.0 /  5.0
 SingleTokenSuite:Can process a single token            10.0 / 10.0
-VariableSpaceSuite:Handles Variable Spaces             5.0 /  5.0
-Screenshots enclosed                                   10.0 / 10.0
-Use an extra class with iterator like interface        0.0 / 10.0 (Extra credit)
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-----------------------------------
-  Points Awarded: 60.0
-
-Grading restrictions...
-----------------------------------
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-Illegal import or call                      0.0 /  -25.0
-----------------------------------
-  Points Deducted: 0.0
-
-  Features Score: 60.0
-
-Notes from grading features:
-----------------------------------
-TerminatesWithPeriodSuite:Handles Variable Spaces:
-  -- Correct output but errors
-  -- Correct output but errors
-  -- Correct output but errors
-
-Interactive Run:
-  -- No graded in auto run
-
-
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
-
-
-Early benefit: 105.0%
-  Total Score: 63.0
-Grading result for: Extra, Credit (ecredit)
-
-Grading features...
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       3.3 /  5.0
-TerminatesWithPeriodSuite:Handles Variable Spaces      3.3 /  5.0
-SingleTokenSuite:Can process a single token            6.7 / 10.0
-VariableSpaceSuite:Handles Variable Spaces             3.3 /  5.0
+VariableSpaceSuite:Handles Variable Spaces             5.0 /  5.0 (Extra credit)
+3 Required Methods Called in Main or Iterator (max 15pts) 0.0 / 18.0
+indexOfNot Called in Main or Iterator (max 3pts)       0.0 /  6.0 (Extra credit)
+Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
-Use an extra class with iterator like interface        0.0 / 10.0 (Extra credit)
-Interactive Run                                        0.0 / 20.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 36.6
+  Points Awarded: 57.6
 
 Grading restrictions...
 ----------------------------------
-Interactive Run                                        0.0 / 20.0 (Extra credit)
+ScanningIteratorTest                                   0.0 /  0.0 (Extra credit)
+ScanStringTest:Scan String Test                        0.0 /  0.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 36.6
+  Features Score: 57.6
 
 Notes from grading features:
 ----------------------------------
-MultipleTokenSuite:Can process multiple tokens:
-  -- Incorrect output
-
 InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
 
-TerminatesWithPeriodSuite:Handles Variable Spaces:
-  -- Incorrect output
+IndexOfTestSuite:IndexOf functions correctly:
+  -- No method:indexOf%0.0
+  -- No method:indexOf%0.0
+  -- No method:indexOf%0.0
+  -- No method:indexOf%0.0
+  -- No method:indexOf%0.0
+  -- No method:indexOf%0.0
 
-SingleTokenSuite:Can process a single token:
-  -- Incorrect output
+3 Required Methods Called in Main or Iterator (max 15pts):
+  -- Type main.Assignment not defined, cannot check
+  -- Type main.Assignment not defined, cannot check
+  -- Type main.Assignment not defined, cannot check
+  -- Type ScanningIterator not defined, cannot check
 
-VariableSpaceSuite:Handles Variable Spaces:
-  -- Incorrect output
+indexOfNot Called in Main or Iterator (max 3pts):
+  -- Type main.Assignment not defined, cannot check
+  -- Type ScanningIterator not defined, cannot check
+
+Iterator Methods Called in Main:
+  -- Type main.Assignment not defined, cannot check
+  -- Type main.Assignment not defined, cannot check
 
 Screenshots enclosed:
   -- Missing images
 
-Interactive Run:
-  -- No graded in auto run
-
 
 Notes from grading restrictions:
 ----------------------------------
-Illegal import or call:
-  -- No project run interactively
+ScanningIteratorTest:
+  -- Did not find a class in:[(.*)ScanningIterator(.*)]%Did not find a class in:[(.*)ScanningIterator(.*)]
 
 
 Early benefit: 105.0%
-  Total Score: 38.85
-Grading result for: Mistakes, Many(mmany)
-
-Grading features...
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       3.3 /  5.0
-TerminatesWithPeriodSuite:Handles Variable Spaces      3.3 /  5.0
-SingleTokenSuite:Can process a single token            6.7 / 10.0
-VariableSpaceSuite:Handles Variable Spaces             3.3 /  5.0
-Screenshots enclosed                                   0.0 / 10.0
-Use an extra class with iterator like interface        0.0 / 10.0 (Extra credit)
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-----------------------------------
-  Points Awarded: 36.6
-
-Grading restrictions...
-----------------------------------
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-Illegal import or call                      0.0 /  -25.0
-----------------------------------
-  Points Deducted: 0.0
-
-  Features Score: 36.6
-
-Notes from grading features:
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens:
-  -- Incorrect output
-
-InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output
-
-TerminatesWithPeriodSuite:Handles Variable Spaces:
-  -- Incorrect output
-
-SingleTokenSuite:Can process a single token:
-  -- Incorrect output
-
-VariableSpaceSuite:Handles Variable Spaces:
-  -- Incorrect output
-
-Screenshots enclosed:
-  -- Missing images
-
-Interactive Run:
-  -- No graded in auto run
-
-
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
-
-
-Early benefit: 105.0%
-  Total Score: 38.85
-Grading result for: Test, Student(tstudent)
-
-Grading features...
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       0.0 /  5.0
-TerminatesWithPeriodSuite:Handles Variable Spaces      3.3 /  5.0
-SingleTokenSuite:Can process a single token            10.0 / 10.0
-VariableSpaceSuite:Handles Variable Spaces             0.0 /  5.0
-Screenshots enclosed                                   10.0 / 10.0
-Use an extra class with iterator like interface        0.0 / 10.0 (Extra credit)
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-----------------------------------
-  Points Awarded: 43.3
-
-Grading restrictions...
-----------------------------------
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-Illegal import or call                      0.0 /  -25.0
-----------------------------------
-  Points Deducted: 0.0
-
-  Features Score: 43.3
-
-Notes from grading features:
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens:
-  -- Incorrect output
-
-InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output
-  -- Incorrect output
-  -- Incorrect output
-
-TerminatesWithPeriodSuite:Handles Variable Spaces:
-  -- Incorrect output
-
-VariableSpaceSuite:Handles Variable Spaces:
-  -- Incorrect output
-  -- Incorrect output
-  -- Incorrect output
-
-Interactive Run:
-  -- No graded in auto run
-
-
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
-
-
-Early benefit: 105.0%
-  Total Score: 45.15
-Grading result for: All, Correct (acorrect)
-
-Grading features...
-----------------------------------
-MultipleTokenSuite:Can process multiple tokens         30.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       5.0 /  5.0
-TerminatesWithPeriodSuite:Handles Variable Spaces      0.0 /  5.0
-SingleTokenSuite:Can process a single token            10.0 / 10.0
-VariableSpaceSuite:Handles Variable Spaces             5.0 /  5.0
-Screenshots enclosed                                   10.0 / 10.0
-Use an extra class with iterator like interface        0.0 / 10.0 (Extra credit)
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-----------------------------------
-  Points Awarded: 60.0
-
-Grading restrictions...
-----------------------------------
-Interactive Run                                        0.0 / 20.0 (Extra credit)
-Illegal import or call                      0.0 /  -25.0
-----------------------------------
-  Points Deducted: 0.0
-
-  Features Score: 60.0
-
-Notes from grading features:
-----------------------------------
-TerminatesWithPeriodSuite:Handles Variable Spaces:
-  -- Correct output but errors
-  -- Correct output but errors
-  -- Correct output but errors
-
-Interactive Run:
-  -- No graded in auto run
-
-
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
-
-
-Early benefit: 105.0%
-  Total Score: 63.0
+  Total Score: 60.9

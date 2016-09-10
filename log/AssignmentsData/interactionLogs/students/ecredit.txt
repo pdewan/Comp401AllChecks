@@ -1,4 +1,4 @@
 extra, credit (ecredit)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:38.85 FEATURES:36.6 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:0:12 GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:45.15 FEATURES:42.5 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:21:41 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------

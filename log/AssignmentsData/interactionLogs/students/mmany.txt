@@ -1,4 +1,4 @@
 mistakes, many(mmany)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:38.85 FEATURES:36.6 MULTIPLIER:1.05 AUTO:0:0:13 MANUAL:0:0:7 GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:18.900000000000002 FEATURES:17.5 MULTIPLIER:1.05 AUTO:0:0:13 MANUAL:0:41:16 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
