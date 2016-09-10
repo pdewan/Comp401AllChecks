@@ -15,7 +15,7 @@ import gradingTools.comp401f15.assignment1.testcases.TerminateWithPeriodTestCase
 import gradingTools.comp401f15.assignment1.testcases.VariableSpacesTestCase;
 import gradingTools.comp401f16.assignment1.testcases.Assignment1Suite;
 import gradingTools.sharedTestCase.CheckstyleMethodCalledTestCase;
-import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
+import gradingTools.shared.testcases.IllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 
 
