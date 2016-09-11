@@ -1,22 +1,10 @@
 package gradingTools.comp401f16.assignment1;
 
-import framework.grading.FrameworkProjectRequirements;
 import grader.junit.AJUnitProjectRequirements;
-import gradingTools.assignment1.testCases.MultipleTokensTestCase;
-import gradingTools.assignment1.testCases.ProductTestCase;
-import gradingTools.assignment1.testCases.SingleTokenTestCase;
-import gradingTools.assignment1.testCases.SumTestCase;
-import gradingTools.assignment6.testCases.QuestionTestCase;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
-import gradingTools.comp401f15.assignment1.testcases.InvalidCharacterTestCase;
-import gradingTools.comp401f15.assignment1.testcases.MainClassDefinedTestCase;
-import gradingTools.comp401f15.assignment1.testcases.MinDeclaredMethodsInSameOrDifferentClassTestCase;
-import gradingTools.comp401f15.assignment1.testcases.TerminateWithPeriodTestCase;
-import gradingTools.comp401f15.assignment1.testcases.VariableSpacesTestCase;
 import gradingTools.comp401f16.assignment1.testcases.Assignment1Suite;
-import gradingTools.sharedTestCase.CheckstyleMethodCalledTestCase;
+import gradingTools.shared.testcases.CheckstyleMethodCalledTestCase;
 import gradingTools.shared.testcases.IllegalImportOrCallTestCase;
-import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 
 
 public class Assignment1Requirements extends AJUnitProjectRequirements {
@@ -61,10 +49,10 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	addFeature("Iterator Methods Called in Main", 10, true,
     	   		new CheckstyleMethodCalledTestCase(
     	   				"main.Assignment", 
-    	   				"\\(\\.\\*\\)!hasNext:->boolean"),
+    	   				"!hasNext:->boolean"),
     	   		new CheckstyleMethodCalledTestCase(
     	    	   		"main.Assignment",    	    	   		
-    	    	   		"\\(\\.*\\)!next:->String"));
+    	    	   		"!next:->String"));
     	
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());

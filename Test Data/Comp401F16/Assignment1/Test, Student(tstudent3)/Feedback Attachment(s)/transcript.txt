@@ -1,3 +1,27 @@
+*****************************(ScanStringTestSuite:ScanString functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [22 44 66 ] and input 22 44 66 
+. 
+
+Tokens:
+22
+44
+66
+Sum: 132
+Product: 63888
+Comparing actial return value: null with expected return value: null
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest2: 1.0
+Calling  interactive method:scanString with args [11 33 55 1 ] and input 11 33 55 1 
+. 
+
+Tokens:
+11
+33
+55
+1
+Sum: 100
+Product: 19965
+Comparing actial return value: null with expected return value: null
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
 22 44 66 
@@ -658,23 +682,64 @@ Provided input:22 44 66
 45 
 
 Expected outputs:[(.*)63888(.*), (.*)19965(.*)]
+*****************************(IndexOfNotTestSuite:IndexOfNot functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOfNot with args [zzzzzzzzzzo, z, 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@547c04c4timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [0000 1, 0, 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@30e92cb9timeOut:2000
+Comparing actial return value: 4 with expected return value: 4
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling non interactive method:indexOfNot with args [That's not a q, q, 3]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@7fae4d4atimeOut:2000
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling non interactive method:indexOfNot with args [       ,  , 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@ba1f559timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [   One two go,  , 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4bf324f9timeOut:2000
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling non interactive method:indexOfNot with args [   second:    done,  , 10]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4f7c0be3timeOut:2000
+Comparing actial return value: 14 with expected return value: 14
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling non interactive method:indexOfNot with args [Aaarrrrgh, matey, r, 3]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@ca66933timeOut:2000
+Comparing actial return value: 7 with expected return value: 7
 *****************************(IndexOfTestSuite:IndexOf functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
 Calling non interactive method:indexOf with args [move 43 43 4 , 3, 6]
-Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@265c5d69timeOut:2000
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@1d2644e3timeOut:2000
 Comparing actial return value: 6 with expected return value: 6
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 0.0
+Calling non interactive method:indexOf with args [One two go, n, 4]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@4fa06f52timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 0.0
+Calling non interactive method:indexOf with args [First space at 5,  , 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@602c4656timeOut:2000
+Comparing actial return value: 5 with expected return value: 5
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 0.0
+Calling non interactive method:indexOf with args [Look, five: 5, 5, 0]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5ffc5491timeOut:2000
+Comparing actial return value: 12 with expected return value: 12
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 0.0
+Calling non interactive method:indexOf with args [The h is here, h, 9]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@705202d1timeOut:2000
+Comparing actial return value: 9 with expected return value: 9
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 0.0
+Calling non interactive method:indexOf with args [After that one,  , 6]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@3c443976timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
-### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 0.0
+Calling non interactive method:indexOf with args [Start in a space,  , 8]
+Calling on object class main.Assignment1 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@3e58d65etimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
 *****************************(ScanningIteratorTest)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
 ### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
@@ -886,18 +951,6 @@ Provided input:22 44 66
 45 
 
 Expected outputs:[(.*)63888(.*), (.*)19965(.*)]
-*****************************(ScanStringTest:Scan String Test)*****************************
-### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
-Calling  interactive method:scanString with args [22 44 66 ] and input 22 44 66 
-. 
-
-Tokens:
-22
-44
-66
-Sum: 132
-Product: 63888
-Comparing actial return value: null with expected return value: null
 *****************************(SingleTokenSuite:Can process a single token)*****************************
 INPUT(SingleTokenSuite:Can process a single token)
 0202 
@@ -1207,15 +1260,15 @@ Provided input:22    44 66
 
 Expected outputs:[(.*)132(.*), (.*)100(.*)]
 *****************************(3 Required Methods Called in Main or Iterator (max 15pts))*****************************
-### main.Assignment!processInput:->void: 0.0
-### main.Assignment!indexOf:String;char: 0.0
-### main.Assignment!scanString:String->void: 0.0
+### main.Assignment!processInput:->void: 1.0
+### main.Assignment!indexOf:String;char: 1.0
+### main.Assignment!scanString:String->void: 1.0
 ### ScanningIterator!indexOf:String;char: 0.0
 *****************************(indexOfNot Called in Main or Iterator (max 3pts))*****************************
-### main.Assignment!indexOfNot:String;char: 0.0
+### main.Assignment!indexOfNot:String;char: 1.0
 ### ScanningIterator!indexOfNot:String;char: 0.0
 *****************************(Iterator Methods Called in Main)*****************************
-### main.Assignment!\(\.\*\)!hasNext:->boolean: 0.0
-### main.Assignment!\(\.*\)!next:->String: 0.0
+### main.Assignment!!hasNext:->boolean: 0.0
+### main.Assignment!!next:->String: 0.0
 *****************************(Screenshots enclosed)*****************************
 ### Image enclosed test case: 0.0

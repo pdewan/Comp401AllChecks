@@ -3,29 +3,30 @@ Grading result for: Test, Student(tstudent3)
 
 Grading features...
 ----------------------------------
+ScanStringTestSuite:ScanString functions correctly     15.0 / 15.0
 MultipleTokenSuite:Can process multiple tokens         30.0 / 30.0
 InvalidCharacterSuite:Handles Invalid Characters       0.0 /  5.0 (Extra credit)
 TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
-IndexOfTestSuite:IndexOf functions correctly           2.6 / 18.0
+IndexOfNotTestSuite:IndexOfNot functions correctly     5.0 /  5.0 (Extra credit)
+IndexOfTestSuite:IndexOf functions correctly           18.0 / 18.0
 TerminatesWithPeriodLineSuite:Handles Space After Period 5.0 /  5.0
 SingleTokenSuite:Can process a single token            10.0 / 10.0
 VariableSpaceSuite:Handles Variable Spaces             5.0 /  5.0 (Extra credit)
-3 Required Methods Called in Main or Iterator (max 15pts) 0.0 / 18.0
-indexOfNot Called in Main or Iterator (max 3pts)       0.0 /  6.0 (Extra credit)
+3 Required Methods Called in Main or Iterator (max 15pts) 13.5 / 18.0
+indexOfNot Called in Main or Iterator (max 3pts)       3.0 /  6.0 (Extra credit)
 Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 57.6
+  Points Awarded: 109.5
 
 Grading restrictions...
 ----------------------------------
 ScanningIteratorTest                                   0.0 /  0.0 (Extra credit)
-ScanStringTest:Scan String Test                        0.0 /  0.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 57.6
+  Features Score: 109.5
 
 Notes from grading features:
 ----------------------------------
@@ -34,27 +35,15 @@ InvalidCharacterSuite:Handles Invalid Characters:
   -- Incorrect output%0.0
   -- Incorrect output%0.0
 
-IndexOfTestSuite:IndexOf functions correctly:
-  -- No method:indexOf%0.0
-  -- No method:indexOf%0.0
-  -- No method:indexOf%0.0
-  -- No method:indexOf%0.0
-  -- No method:indexOf%0.0
-  -- No method:indexOf%0.0
-
 3 Required Methods Called in Main or Iterator (max 15pts):
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
   -- Type ScanningIterator not defined, cannot check
 
 indexOfNot Called in Main or Iterator (max 3pts):
-  -- Type main.Assignment not defined, cannot check
   -- Type ScanningIterator not defined, cannot check
 
 Iterator Methods Called in Main:
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
+  -- Method matching !hasNext:->boolean not called in Assignment1
+  -- Method matching !next:->String not called in Assignment1
 
 Screenshots enclosed:
   -- Missing images
@@ -67,4 +56,4 @@ ScanningIteratorTest:
 
 
 Early benefit: 105.0%
-  Total Score: 60.9
+  Total Score: 115.5

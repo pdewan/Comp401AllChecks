@@ -1,2 +1,2 @@
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
+  -- Method matching !hasNext:->boolean not called in Assignment1
+  -- Method matching !next:->String not called in Assignment1

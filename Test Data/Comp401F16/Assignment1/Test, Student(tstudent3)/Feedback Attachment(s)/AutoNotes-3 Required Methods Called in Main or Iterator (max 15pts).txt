@@ -1,4 +1,1 @@
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
   -- Type ScanningIterator not defined, cannot check
