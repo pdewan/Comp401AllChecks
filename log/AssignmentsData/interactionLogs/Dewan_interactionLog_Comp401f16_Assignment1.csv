@@ -409,3 +409,4 @@
 1473700296261,13:11:36,ManualNavigationStarted
 1473700296261,13:11:36,ProjectStepStarted,tstudent3,testCOMMMA student
 1473700296354,13:11:36,ManualNavigationEnded
+1473700333991,13:12:13,FeatureScoreUserChange,tstudent3,testCOMMMA student,ScanningIteratorSuite:Scanning Iterator,6.0
