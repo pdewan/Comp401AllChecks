@@ -57,7 +57,8 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	    	   		"main.Assignment",    	    	   		
     	    	   		"!next:->String"));
     	
-        addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
+        addFeature("Screenshots enclosed", 5, new ImageEnclosedTestCase());
+        addManualFeature("Screenshots show tests", 10, false);
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
         
 

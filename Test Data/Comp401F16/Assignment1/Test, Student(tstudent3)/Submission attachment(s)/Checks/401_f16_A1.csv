@@ -1,4 +1,4 @@
-0,Sun Sep 11 16:53:15 EDT 2016,true,main\Assignment1.java,expectedTypes,[main.Assignment(.*), ScanningIterator//EC]
-0,Sun Sep 11 16:53:15 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
-0,Sun Sep 11 16:53:15 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!hasNext:->boolean//EC 
-0,Sun Sep 11 16:53:15 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!next:->String//EC
+0,Mon Sep 12 13:08:22 EDT 2016,true,main\Assignment1.java,expectedTypes,[main.Assignment(.*), ScanningIterator//EC]
+0,Mon Sep 12 13:08:22 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
+0,Mon Sep 12 13:08:22 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!hasNext:->boolean//EC 
+0,Mon Sep 12 13:08:22 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!next:->String//EC
