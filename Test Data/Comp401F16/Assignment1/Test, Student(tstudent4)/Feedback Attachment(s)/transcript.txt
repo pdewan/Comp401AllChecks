@@ -1,0 +1,1430 @@
+*****************************(ScanStringTestSuite:ScanString functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Comparing actial return value: null with expected return value: null
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest2: 1.0
+Calling  interactive method:scanString with args [2 100 1 1 2 ] and input 2 100 1 1 2 
+. 
+
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Comparing actial return value: null with expected return value: null
+*****************************(ScanningIteratorSuite:Scanning Iterator)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@413f69cc method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Calling on object mp.scanner.ScanningIterator@3bd323e9 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@1f53a5dctimeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+10 11 0 4 
+2 100 1 1 2 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+10 11 0 4 
+2 100 1 1 2 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+10 11 0 4 
+2 100 1 1 2 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+
+Expected outputs:[(.*)0(.*), (.*)400(.*)]
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+10
+Invalid token: two
+11
+Invalid token: !@
+0
+Invalid token: ,;
+4
+Invalid token: x.
+Sum: 25
+Product: 0
+Tokens:
+2
+Invalid token: ^&
+100
+Invalid token: !@@
+1
+Invalid token: "
+1
+Invalid token: the
+Invalid token: end
+2
+Invalid token: ??
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+10
+Invalid token: two
+11
+Invalid token: !@
+0
+Invalid token: ,;
+4
+Invalid token: x.
+Sum: 25
+Product: 0
+Tokens:
+2
+Invalid token: ^&
+100
+Invalid token: !@@
+1
+Invalid token: "
+1
+Invalid token: the
+Invalid token: end
+2
+Invalid token: ??
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+10
+Invalid token: two
+11
+Invalid token: !@
+0
+Invalid token: ,;
+4
+Invalid token: x.
+Sum: 25
+Product: 0
+Tokens:
+2
+Invalid token: ^&
+100
+Invalid token: !@@
+1
+Invalid token: "
+1
+Invalid token: the
+Invalid token: end
+2
+Invalid token: ??
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:Invalid token: ^&
+Invalid token: ^&
+Process line:100
+100
+Process line:Invalid token: !@@
+Invalid token: !@@
+Process line:1
+1
+Process line:Invalid token: "
+Invalid token: "
+Process line:1
+1
+Process line:Invalid token: the
+Invalid token: the
+Process line:Invalid token: end
+Invalid token: end
+Process line:2
+2
+Process line:Invalid token: ??
+Invalid token: ??
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:Invalid token: ^&
+Invalid token: ^&
+Process line:100
+100
+Process line:Invalid token: !@@
+Invalid token: !@@
+Process line:1
+1
+Process line:Invalid token: "
+Invalid token: "
+Process line:1
+1
+Process line:Invalid token: the
+Invalid token: the
+Process line:Invalid token: end
+Invalid token: end
+Process line:2
+2
+Process line:Invalid token: ??
+Invalid token: ??
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:Invalid token: ^&
+Invalid token: ^&
+Process line:100
+100
+Process line:Invalid token: !@@
+Invalid token: !@@
+Process line:1
+1
+Process line:Invalid token: "
+Invalid token: "
+Process line:1
+1
+Process line:Invalid token: the
+Invalid token: the
+Process line:Invalid token: end
+Invalid token: end
+Process line:2
+2
+Process line:Invalid token: ??
+Invalid token: ??
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+2 ^& 100 !@@ 1 " 1 the end 2 ?? 
+. 
+
+Expected outputs:[(.*)0(.*), (.*)400(.*)]
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+. 
+45 
+
+Expected outputs:[(.*)0(.*), (.*)400(.*)]
+*****************************(IndexOfNotTestSuite:IndexOfNot functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOfNot with args [Number 111112, 1, 7]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@38b27cdctimeOut:2000
+Comparing actial return value: 12 with expected return value: 12
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@1fb669c3timeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling non interactive method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@3e6104fctimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling non interactive method:indexOfNot with args [Start:           ,  , 6]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@68df9280timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [        The programmer never came back,  , 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@7164ca4ctimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling non interactive method:indexOfNot with args [    456   10,  , 7]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@5be46f9dtimeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling non interactive method:indexOfNot with args [The buzzzz of bees, z, 6]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@3f91b517timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+*****************************(IndexOfTestSuite:IndexOf functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@68702e03timeOut:2000
+Comparing actial return value: 7 with expected return value: 7
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling non interactive method:indexOf with args [went for a walk, 9, 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2421cc4timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling non interactive method:indexOf with args [One said to the other,  , 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@59a008batimeOut:2000
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOf with args [Let's run!, !, 0]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@21ba0741timeOut:2000
+Comparing actial return value: 9 with expected return value: 9
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling non interactive method:indexOf with args [run run run, r, 8]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@172b013timeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2796aeaetimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
+Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@1fa1cab1timeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+2 100 1 1 2 
+.
+45 
+
+Expected outputs:[(.*)0(.*), (.*)400(.*)]
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+Goodbye!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+Goodbye!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+Goodbye!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+10    11 0     4   
+2 100    1  1 2     
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+10    11 0     4   
+2 100    1  1 2     
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+10    11 0     4   
+2 100    1  1 2     
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Goodbye!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10    11 0     4   
+2 100    1  1 2     
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+2 100    1  1 2     
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10    11 0     4   
+2 100    1  1 2     
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+2 100    1  1 2     
+. 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
+Running in folder: /Users/andrewwg94/401 TA '16/Comp401AllChecks/Test Data/Comp401F16/Assignment1/Test, Student(tstudent4)/Submission attachment(s)/Assignment1Alternate/Assignment1Alternate/bin
+$10    11 0     4   
+2 100    1  1 2     
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Tokens:
+Tokens:
+Process line:2
+2
+Process line:100
+100
+Process line:1
+1
+Process line:1
+1
+Process line:2
+2
+Process line:Sum: 106
+Sum: 106
+Process line:Product: 400
+Product: 400
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+2 100    1  1 2     
+. 
+
+Expected outputs:[(.*)25(.*), (.*)106(.*)]
+*****************************(3 Required Methods Called in Main or Iterator (max 15pts))*****************************
+### main.Assignment!processInput:->void: 1.0
+### main.Assignment!indexOf:String;char;int->int: 0.0
+### main.Assignment!scanString:String->void: 1.0
+### ScanningIterator!indexOf:String;char;int->int: 1.0
+*****************************(indexOfNot Called in Main or Iterator (max 3pts))*****************************
+### main.Assignment!indexOfNot:String;char;int->int: 0.0
+### ScanningIterator!indexOfNot:String;char;int->int: 1.0
+*****************************(Iterator Methods Called in Main)*****************************
+### main.Assignment!!hasNext:->boolean: 1.0
+### main.Assignment!!next:->String: 1.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 0.0
