@@ -410,3 +410,18 @@
 1473700296261,13:11:36,ProjectStepStarted,tstudent3,testCOMMMA student
 1473700296354,13:11:36,ManualNavigationEnded
 1473700333991,13:12:13,FeatureScoreUserChange,tstudent3,testCOMMMA student,ScanningIteratorSuite:Scanning Iterator,6.0
+1473700587744,13:16:27,ProceedWhenDoneChanged,tstudent3,testCOMMMA student
+1473700592272,13:16:32,ProjectStepEnded,tstudent3,testCOMMMA student,121.8,115.5,0.0,1.05,,,0
+1473700592272,13:16:32,ProjectStepperEnded
+1473700620662,13:17:00,ProjectStepperStarted
+1473700620961,13:17:00,NavigationKindChange,Automatic
+1473700620976,13:17:00,NavigationStarted
+1473700620976,13:17:00,AutomaticNavigationStarted
+1473700621008,13:17:01,ProjectStepStarted,tstudent3,
+1473700621578,13:17:01,ProjectStepEnded,tstudent3,testCOMMMA student,121.8,115.5,0.0,1.05,,,0
+1473700621618,13:17:01,AutomaticNavigationEnded
+1473700621622,13:17:01,NavigationKindChange,Manual
+1473700621623,13:17:01,NavigationStarted
+1473700621623,13:17:01,ManualNavigationStarted
+1473700621623,13:17:01,ProjectStepStarted,tstudent3,testCOMMMA student
+1473700621791,13:17:01,ManualNavigationEnded

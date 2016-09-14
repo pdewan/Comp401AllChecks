@@ -23,7 +23,7 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	GradingMode.setGraderRun(true);
     	
     	// Method calls
-    	addFeature("3 Required Methods Called in Main or Iterator (max 15pts)", 18, 
+    	addFeature("3 Required Methods Called in Main or Iterator (max 15pts)", 20, 
 //    	   		new CheckstyleMethodDefinedTestCase("Parser", 	"@parseNumber:\\*->\\*"),
     	   		new CheckstyleMethodCalledTestCase(
     	   				"main.Assignment", 

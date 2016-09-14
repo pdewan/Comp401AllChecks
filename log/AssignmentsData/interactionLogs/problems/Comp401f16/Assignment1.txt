@@ -1,5 +1,5 @@
-Auto Grading Time: Total: 0:4:7 Average: 0:0:49
-Manual Grading Time: Total: 27:23:33 Average: 5:28:42
+Auto Grading Time: Total: 0:0:59 Average: 0:0:11
+Manual Grading Time: Total: 47:53:37 Average: 9:34:43
 Number of Source Notes: Total: 5 Average: 1.0
 
 Comp401f16:Assignment1
@@ -12,4 +12,4 @@ mistakes, many(mmany) TOTAL:18.900000000000002 FEATURES:17.5 MULTIPLIER:1.05 AUT
 --------------------------------------------------------------------------------------------------
 test, student(tstudent) TOTAL:44.1 FEATURES:41.6 MULTIPLIER:1.05 AUTO:0:0:18 MANUAL:0:4:55 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test, student(tstudent3) TOTAL:120.75 FEATURES:114.5 MULTIPLIER:1.05 AUTO:0:3:8 MANUAL:25:25:14 SECTIONS:[source] GRADER:Dewan
+test, student(tstudent3) TOTAL:121.8 FEATURES:115.5 MULTIPLIER:1.05 AUTO:0:0:0 MANUAL:45:55:19 SECTIONS:[source] GRADER:Dewan
