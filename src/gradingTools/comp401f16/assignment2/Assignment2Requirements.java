@@ -4,6 +4,7 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment2.testcases.Assignment2Suite;
+import gradingTools.shared.testcases.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.ClassDefinedTestCase;
 import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
 
@@ -22,12 +23,23 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
     	addJUnitTestSuite(Assignment2Suite.class);
     	GradingMode.setGraderRun(true);
     	
+    	// Method calls
+    	addFeature("ScanString and IndexOf now called in ScannerBean (max 10pts)", 15,
+	   		new CheckstyleMethodCalledTestCase(
+	   				"ScannerBean", 
+	   				"scanString:String->void"),
+	   		new CheckstyleMethodCalledTestCase(
+	    	   		"ScannerBean",    	    	   		
+	    	   		"indexOf:String;char;int->int"),
+	    	 new CheckstyleMethodCalledTestCase(
+	    	    	"ScanningIterator",    	    	   		
+	    	    	 "indexOf:String;char;int->int")); 
     	
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
         addManualFeature("Breakpoint step into/over/return screenhots", 20);
-        
+
+        addFeature("Scanner Bean Tagged ", 5, new ClassDefinedTestCase("@ScannerBean"));
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
-        addRestriction("Scanner Bean Tagged ", 5, new ClassDefinedTestCase("@ScannerBean"));
 
     }
 }
