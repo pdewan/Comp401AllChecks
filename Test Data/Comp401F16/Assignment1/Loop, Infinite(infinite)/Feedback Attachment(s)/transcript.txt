@@ -1,0 +1,31 @@
+*****************************(ScanStringTestSuite:ScanString functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Comparing actial return value: null with expected return value: null
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest2: 1.0
+Calling  interactive method:scanString with args [2 100 1 1 2 ] and input 2 100 1 1 2 
+. 
+
+Tokens:
+2
+100
+1
+1
+2
+Sum: 106
+Product: 400
+Comparing actial return value: null with expected return value: null
+*****************************(ScanningIteratorSuite:Scanning Iterator)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 0.0
