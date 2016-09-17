@@ -1,3 +1,0 @@
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0

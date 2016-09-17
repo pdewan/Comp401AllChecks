@@ -1,15 +1,21 @@
-Auto Grading Time: Total: 0:0:59 Average: 0:0:11
-Manual Grading Time: Total: 47:53:37 Average: 9:34:43
-Number of Source Notes: Total: 5 Average: 1.0
+Auto Grading Time: Total: 0:3:6 Average: 0:0:23
+Manual Grading Time: Total: 166:16:9 Average: 20:47:1
+Number of Source Notes: Total: 8 Average: 1.0
 
 Comp401f16:Assignment1
 --------------------------------------------------------------------------------------------------
-all, correct (acorrect) TOTAL:57.75 FEATURES:55.0 MULTIPLIER:1.05 AUTO:0:0:14 MANUAL:0:50:25 SECTIONS:[source, source_open] GRADER:Dewan
+all, correct (acorrect) TOTAL:52.5 FEATURES:50.0 MULTIPLIER:1.05 AUTO:0:0:33 MANUAL:0:52:50 SECTIONS:[source, source_open] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-extra, credit (ecredit) TOTAL:45.15 FEATURES:42.5 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:21:41 SECTIONS:[source] GRADER:Dewan
+extra, credit (ecredit) TOTAL:49.35 FEATURES:46.7 MULTIPLIER:1.05 AUTO:0:0:28 MANUAL:0:22:34 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-mistakes, many(mmany) TOTAL:18.900000000000002 FEATURES:17.5 MULTIPLIER:1.05 AUTO:0:0:13 MANUAL:0:41:16 SECTIONS:[source] GRADER:Dewan
+mistakes, many(mmany) TOTAL:23.1 FEATURES:21.7 MULTIPLIER:1.05 AUTO:0:0:30 MANUAL:0:41:55 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test, student(tstudent) TOTAL:44.1 FEATURES:41.6 MULTIPLIER:1.05 AUTO:0:0:18 MANUAL:0:4:55 SECTIONS:[source] GRADER:Dewan
+test, student(tstudent) TOTAL:47.25 FEATURES:45.0 MULTIPLIER:1.05 AUTO:0:0:37 MANUAL:0:7:31 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test, student(tstudent3) TOTAL:121.8 FEATURES:115.5 MULTIPLIER:1.05 AUTO:0:0:0 MANUAL:45:55:19 SECTIONS:[source] GRADER:Dewan
+test, student(tstudent3) TOTAL:116.55 FEATURES:111.0 MULTIPLIER:1.05 AUTO:0:0:15 MANUAL:163:3:5 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+scanner, multiple(scanner) TOTAL:103.0 AUTO:0:0:15 MANUAL:0:29:8 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+loop, infinite(infinite) TOTAL:13.0 FEATURES:12.6 AUTO:0:0:11 MANUAL:0:37:59 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+test, student(tstudent4) TOTAL:169.05 FEATURES:161.0 MULTIPLIER:1.05 AUTO:0:0:14 MANUAL:0:1:4 SECTIONS:[source] GRADER:Dewan

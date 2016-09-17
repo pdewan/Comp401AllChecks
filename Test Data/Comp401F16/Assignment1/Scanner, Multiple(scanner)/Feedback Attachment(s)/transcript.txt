@@ -11,19 +11,6 @@ Tokens:
 Sum: 25
 Product: 0
 Comparing actial return value: null with expected return value: null
-### gradingTools.comp401f16.assignment1.testcases.ScanStringTest2: 1.0
-Calling  interactive method:scanString with args [2 100 1 1 2 ] and input 2 100 1 1 2 
-. 
-
-Tokens:
-2
-100
-1
-1
-2
-Sum: 106
-Product: 400
-Comparing actial return value: null with expected return value: null
 *****************************(ScanningIteratorSuite:Scanning Iterator)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
 ### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
@@ -32,7 +19,6 @@ Comparing actial return value: null with expected return value: null
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
 010 11 0 4 
-2 100 1 1 2 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
@@ -51,33 +37,11 @@ Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.util.Scanner.nextLine(Scanner.java:1540)
 	at main.Assignment1.processInput(Assignment1.java:46)
 	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
-INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4
-2 100 1 1 2
-.
-
-OUTPUT(MultipleTokenSuite:Can process multiple tokens)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(MultipleTokenSuite:Can process multiple tokens)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
 	at main.Assignment1.main(Assignment1.java:10)
 
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
 010 11 0 4 
-2 100 1 1 2 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
@@ -96,33 +60,11 @@ Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.util.Scanner.nextLine(Scanner.java:1540)
 	at main.Assignment1.processInput(Assignment1.java:46)
 	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
-INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4
-2 100 1 1 2
-.
-
-OUTPUT(MultipleTokenSuite:Can process multiple tokens)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(MultipleTokenSuite:Can process multiple tokens)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
 	at main.Assignment1.main(Assignment1.java:10)
 
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
 010 11 0 4 
-2 100 1 1 2 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
@@ -141,35 +83,13 @@ Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.util.Scanner.nextLine(Scanner.java:1540)
 	at main.Assignment1.processInput(Assignment1.java:46)
 	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
-INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4
-2 100 1 1 2
-.
-
-OUTPUT(MultipleTokenSuite:Can process multiple tokens)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(MultipleTokenSuite:Can process multiple tokens)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
 	at main.Assignment1.main(Assignment1.java:10)
 
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 11 0 4 
-2 100 1 1 2 
 . 
 
 Process line:String?
@@ -192,38 +112,13 @@ Process line:String?
 String?
 Called main:main.Assignment1
 Provided input:010 11 0 4 
-2 100 1 1 2 
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 0.0
+Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 11 0 4 
-2 100 1 1 2 
 . 
 
 Process line:String?
@@ -246,38 +141,13 @@ Process line:String?
 String?
 Called main:main.Assignment1
 Provided input:010 11 0 4 
-2 100 1 1 2 
 . 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 0.0
+Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 11 0 4 
-2 100 1 1 2 
 . 
 
 Process line:String?
@@ -300,37 +170,12 @@ Process line:String?
 String?
 Called main:main.Assignment1
 Provided input:010 11 0 4 
-2 100 1 1 2 
 . 
 
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 0.0
+Expected outputs:[(.*)0(.*)]
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
 010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
@@ -351,7 +196,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
 010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
@@ -372,7 +216,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
 010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
@@ -393,7 +236,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
 010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
@@ -414,29 +256,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
 010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
-
-OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
-String?
-Tokens:
-010
-two
-
-ERRORS(InvalidCharacterSuite:Handles Invalid Characters)
-Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
-	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
-	at java.lang.Integer.parseInt(Integer.java:580)
-	at java.lang.Integer.parseInt(Integer.java:615)
-	at main.Assignment1.scanString(Assignment1.java:33)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
-INPUT(InvalidCharacterSuite:Handles Invalid Characters)
-010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
-.
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
 String?
@@ -455,10 +275,9 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "t
 
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
 Process line:String?
@@ -471,14 +290,12 @@ Process line:two
 two
 Called main:main.Assignment1
 Provided input:010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
 Process line:String?
@@ -491,16 +308,14 @@ Process line:two
 two
 Called main:main.Assignment1
 Provided input:010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 0.0
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
 Process line:String?
@@ -513,14 +328,12 @@ Process line:two
 two
 Called main:main.Assignment1
 Provided input:010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
 Process line:String?
@@ -533,16 +346,14 @@ Process line:two
 two
 Called main:main.Assignment1
 Provided input:010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
 .
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
+Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 0.0
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
 Process line:String?
@@ -555,338 +366,83 @@ Process line:two
 two
 Called main:main.Assignment1
 Provided input:010 two 11 !@ 0 ,; 4 x. 
-2 ^& 100 !@@ 1 " 1 the end 2 ?? 
 . 
 
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
-.
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:two
-two
-Called main:main.Assignment1
-Provided input:010 two 11 !@ 0 ,; 4 x.
-2 ^& 100 !@@ 1 " 1 the end 2 ??
-.
-
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
+Expected outputs:[(.*)0(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 0.0
 *****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
 INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4 
-2 100 1 1 2 
 . 
 45 
 
 OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
 INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
-INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4 
-2 100 1 1 2 
 . 
 45 
 
 OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
 INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
-INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4 
-2 100 1 1 2 
 . 
 45 
 
 OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
-INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-. 
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$. 
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-. 
+Provided input:. 
 45 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 0.0
+Expected outputs:[]
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-. 
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$. 
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-. 
+Provided input:. 
 45 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 0.0
+Expected outputs:[]
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-. 
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$. 
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-. 
+Provided input:. 
 45 
 
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 0.0
+Expected outputs:[]
 *****************************(IndexOfNotTestSuite:IndexOfNot functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 0.0
@@ -905,338 +461,104 @@ Expected outputs:[(.*)0(.*), (.*)400(.*)]
 *****************************(IndexOfTestSuite:IndexOf functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
 Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@30c93896timeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@934b52ftimeOut:2000
 Comparing actial return value: 7 with expected return value: 7
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
 Calling non interactive method:indexOf with args [went for a walk, 9, 0]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@338c99c8timeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2630dbc4timeOut:2000
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
 Calling non interactive method:indexOf with args [One said to the other,  , 0]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@172b013timeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5a1c3cb4timeOut:2000
 Comparing actial return value: 3 with expected return value: 3
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
 Calling non interactive method:indexOf with args [Let's run!, !, 0]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2796aeaetimeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@76ad6715timeOut:2000
 Comparing actial return value: 9 with expected return value: 9
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
 Calling non interactive method:indexOf with args [run run run, r, 8]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@1fa1cab1timeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@56637cfftimeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
 Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@62010f5ctimeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2938127dtimeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
 Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
-Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@401f7633timeOut:2000
+Calling on object class main.Assignment1 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@127a7272timeOut:2000
 Comparing actial return value: 5 with expected return value: 5
 *****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
 INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4 
-2 100 1 1 2 
 .
 45 
 
 OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
 INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
-INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4 
-2 100 1 1 2 
 .
 45 
 
 OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
 INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
-INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4 
-2 100 1 1 2 
 .
 45 
 
 OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
 String?
-Tokens:
-010
-11
-0
-4
-Sum: 25
-Product: 0
-String?
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.util.Scanner.nextLine(Scanner.java:1540)
-	at main.Assignment1.processInput(Assignment1.java:46)
-	at main.Assignment1.processInput(Assignment1.java:54)
-	at main.Assignment1.main(Assignment1.java:10)
-
-*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
-INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-010 11 0 4
-2 100 1 1 2
-.
-45
-OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
-String?
-Tokens:
-010
-11
-0
-
-ERRORS(TerminatesWithPeriodLineSuite:Handles Space After Period)
-Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
-	at java.lang.String.charAt(String.java:646)
-	at main.Assignment1.indexOf(Assignment1.java:15)
-	at main.Assignment1.scanString(Assignment1.java:32)
-	at main.Assignment1.processInput(Assignment1.java:53)
-	at main.Assignment1.main(Assignment1.java:10)
+Goodbye!
 
 *****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-.
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$.
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-.
+Provided input:.
 45 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 0.0
+Expected outputs:[]
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-.
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$.
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-.
+Provided input:.
 45 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 0.0
+Expected outputs:[]
 ### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4 
-2 100 1 1 2 
-.
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
+$.
 45 
 
 Process line:String?
 String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Process line:4
-4
-Process line:Sum: 25
-Sum: 25
-Process line:Product: 0
-Product: 0
-Process line:String?
-String?
+Process line:Goodbye!
+Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
-2 100 1 1 2 
-.
+Provided input:.
 45 
 
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
-$010 11 0 4
-2 100 1 1 2
-.
-45
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:010
-010
-Process line:11
-11
-Process line:0
-0
-Called main:main.Assignment1
-Provided input:010 11 0 4
-2 100 1 1 2
-.
-45
-Expected outputs:[(.*)0(.*), (.*)400(.*)]
-### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 0.0
+Expected outputs:[]
 *****************************(SingleTokenSuite:Can process a single token)*****************************
 INPUT(SingleTokenSuite:Can process a single token)
 0010010 
@@ -1299,8 +621,8 @@ Exception in thread "main" java.util.NoSuchElementException: No line found
 
 *****************************(SingleTokenSuite:Can process a single token)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $0010010 
 . 
 
@@ -1322,8 +644,8 @@ Provided input:0010010
 
 Expected outputs:[(.*)0010010(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $0010010 
 . 
 
@@ -1345,8 +667,8 @@ Provided input:0010010
 
 Expected outputs:[(.*)10010(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $0010010 
 . 
 
@@ -1370,7 +692,6 @@ Expected outputs:[(.*)10010(.*)]
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4   
-2 100    1  1 2     
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1391,7 +712,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4  
-2 100    1  1 2    
 .
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1412,7 +732,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4   
-2 100    1  1 2     
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1433,7 +752,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4  
-2 100    1  1 2    
 .
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1454,7 +772,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4   
-2 100    1  1 2     
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1475,7 +792,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
 010    11 0     4  
-2 100    1  1 2    
 .
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
@@ -1495,10 +811,9 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: ""
 
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4   
-2 100    1  1 2     
 . 
 
 Process line:String?
@@ -1511,14 +826,12 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4   
-2 100    1  1 2     
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4  
-2 100    1  1 2    
 .
 
 Process line:String?
@@ -1531,16 +844,14 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4  
-2 100    1  1 2    
 .
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*), (.*)2(.*), (.*)100(.*), (.*)1(.*), (.*)1(.*), (.*)2(.*)]
+Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 0.0
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4   
-2 100    1  1 2     
 . 
 
 Process line:String?
@@ -1553,14 +864,12 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4   
-2 100    1  1 2     
 . 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4  
-2 100    1  1 2    
 .
 
 Process line:String?
@@ -1573,16 +882,14 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4  
-2 100    1  1 2    
 .
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
+Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 0.0
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4   
-2 100    1  1 2     
 . 
 
 Process line:String?
@@ -1595,14 +902,12 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4   
-2 100    1  1 2     
 . 
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
-Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment1
-Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/bin
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Scanner, Multiple(scanner)\Submission attachment(s)\jackhc_COMP401Assignment1\Assignment1\bin
 $010    11 0     4  
-2 100    1  1 2    
 .
 
 Process line:String?
@@ -1615,18 +920,19 @@ Process line:
 
 Called main:main.Assignment1
 Provided input:010    11 0     4  
-2 100    1  1 2    
 .
 
-Expected outputs:[(.*)25(.*), (.*)106(.*)]
+Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 0.0
-*****************************(3 Required Methods Called in Main or Iterator (max 15pts))*****************************
+*****************************(Required Methods Called in Main or Iterator)*****************************
 ### main.Assignment!processInput:->void: 1.0
 ### main.Assignment!indexOf:String;char;int->int: 1.0
 ### main.Assignment!scanString:String->void: 1.0
+*****************************(IndexOf  Called in Iterator)*****************************
 ### ScanningIterator!indexOf:String;char;int->int: 0.0
-*****************************(indexOfNot Called in Main or Iterator (max 3pts))*****************************
+*****************************(indexOfNot Called in Main)*****************************
 ### main.Assignment!indexOfNot:String;char;int->int: 0.0
+*****************************(IndexOfNot Called in Iterator)*****************************
 ### ScanningIterator!indexOfNot:String;char;int->int: 0.0
 *****************************(Iterator Methods Called in Main)*****************************
 ### main.Assignment!!hasNext:->boolean: 0.0

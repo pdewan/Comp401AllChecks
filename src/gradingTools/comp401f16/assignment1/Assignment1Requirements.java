@@ -23,7 +23,7 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	GradingMode.setGraderRun(true);
     	
     	// Method calls
-    	addFeature("3 Required Methods Called in Main or Iterator (max 15pts)", 20, 
+    	addFeature("Required Methods Called in Main or Iterator", 15, 
 //    	   		new CheckstyleMethodDefinedTestCase("Parser", 	"@parseNumber:\\*->\\*"),
     	   		new CheckstyleMethodCalledTestCase(
     	   				"main.Assignment", 
@@ -34,21 +34,27 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	    	 new CheckstyleMethodCalledTestCase(
     	    	    	"main.Assignment",  		
     	    	   		"scanString:String->void"    	    	   		
-    	    	   		),
+    	    	   		)
+    	    	
+    	); 
+    	// Method calls
+    	addFeature("IndexOf  Called in Iterator", 5, true,
+
     	    	 new CheckstyleMethodCalledTestCase(
     	    	    	"ScanningIterator",    	    	   		
-    	    	    	 "indexOf:String;char;int->int")); 
-    	    	
-    	addFeature("indexOfNot Called in Main or Iterator (max 3pts)", 6, true,
+    	    	    	 "indexOf:String;char;int->int"));    	
+    	addFeature("indexOfNot Called in Main", 3, true,
     	   		new CheckstyleMethodCalledTestCase(
     	    	   		"main.Assignment",    	    	   		
-    	    	   		"indexOfNot:String;char;int->int"),
-    	    	 
+    	    	   		"indexOfNot:String;char;int->int")    	    	 
+    			
+    	    	 );
+    	addFeature("IndexOfNot Called in Iterator", 3, true,
+    	   		   	    	 
     			new CheckstyleMethodCalledTestCase(
     	   				"ScanningIterator",    	    	   		
     	    	   		"indexOfNot:String;char;int->int")
     	    	 );
-    	    	 
     	addFeature("Iterator Methods Called in Main", 10, true,
     	   		new CheckstyleMethodCalledTestCase(
     	   				"main.Assignment", 

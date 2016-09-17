@@ -2,43 +2,57 @@ Grading result for: Mistakes, Many(mmany)
 
 Grading features...
 ----------------------------------
+ScanStringTestSuite:ScanString functions correctly     0.0 / 15.0
+ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
 MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       3.3 /  5.0 (Extra credit)
-TerminatesWithStartingPeriodSuite:Terminating period forms complete line 3.3 /  5.0
-IndexOfTestSuite:IndexOf functions correctly           2.6 / 18.0
-TerminatesWithPeriodLineSuite:Handles Space After Period 3.3 /  5.0
+InvalidCharacterSuite:Handles Invalid Characters       6.7 / 10.0 (Extra credit)
+TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
+IndexOfNotTestSuite:IndexOfNot functions correctly     0.0 /  5.0 (Extra credit)
+IndexOfTestSuite:IndexOf functions correctly           0.0 / 18.0
+TerminatesWithPeriodLineSuite:Handles Space After Period 5.0 /  5.0
 SingleTokenSuite:Can process a single token            6.7 / 10.0
 VariableSpaceSuite:Handles Variable Spaces             3.3 /  5.0 (Extra credit)
-Required Methods Called in Main                        0.0 / 15.0
-Regular Methods Called in Iterator                     0.0 /  5.0
-Extra Credit Methods Called in Main                    0.0 /  3.0 (Extra credit)
-Extra Credit Methods Called in Iterator                0.0 /  3.0 (Extra credit)
+Required Methods Called in Main or Iterator            0.0 / 15.0
+IndexOf  Called in Iterator                            0.0 /  5.0 (Extra credit)
+indexOfNot Called in Main                              0.0 /  3.0 (Extra credit)
+IndexOfNot Called in Iterator                          0.0 /  3.0 (Extra credit)
 Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
-Screenshots enclosed                                   0.0 / 10.0
+Screenshots enclosed                                   0.0 /  5.0
+Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 42.5
+  Points Awarded: 46.7
 
 Grading restrictions...
 ----------------------------------
-ScanningIteratorTest                                   0.0 /  0.0 (Extra credit)
-ScanStringTest:Scan String Test                        0.0 /  0.0
 Illegal import or call                      -25.0 /  -25.0
-Single main.Assigment                       0.0 /  -10.0
 ----------------------------------
   Points Deducted: -25.0
 
-  Features Score: 17.5
+  Features Score: 21.700000000000003
 
 Notes from grading features:
 ----------------------------------
+ScanStringTestSuite:ScanString functions correctly:
+  -- No method:scanString%0.0
+
+ScanningIteratorSuite:Scanning Iterator:
+  -- java.lang.ArrayIndexOutOfBoundsException 0
+  -- java.lang.ArrayIndexOutOfBoundsException 0
+
 MultipleTokenSuite:Can process multiple tokens:
   -- Incorrect output%0.0
 
 InvalidCharacterSuite:Handles Invalid Characters:
   -- Incorrect output%0.0
 
-TerminatesWithStartingPeriodSuite:Terminating period forms complete line:
-  -- Incorrect output%0.0
+IndexOfNotTestSuite:IndexOfNot functions correctly:
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
 
 IndexOfTestSuite:IndexOf functions correctly:
   -- No method:indexOf%0.0
@@ -47,9 +61,7 @@ IndexOfTestSuite:IndexOf functions correctly:
   -- No method:indexOf%0.0
   -- No method:indexOf%0.0
   -- No method:indexOf%0.0
-
-TerminatesWithPeriodLineSuite:Handles Space After Period:
-  -- Incorrect output%0.0
+  -- No method:indexOf%0.0
 
 SingleTokenSuite:Can process a single token:
   -- Incorrect output. Possible reasons:printing number (e.g. 20) instead of token (e.g. 020)%0.0
@@ -57,23 +69,23 @@ SingleTokenSuite:Can process a single token:
 VariableSpaceSuite:Handles Variable Spaces:
   -- Incorrect output%0.0
 
-Required Methods Called in Main:
-  -- Type main.Assignment1 not defined, cannot check
-  -- Type main.Assignment1 not defined, cannot check
-  -- Type main.Assignment1 not defined, cannot check
+Required Methods Called in Main or Iterator:
+  -- Method matching processInput:->void not called in Assignment1
+  -- Method matching indexOf:String;char;int->int not called in Assignment1
+  -- Method matching scanString:String->void not called in Assignment1
 
-Regular Methods Called in Iterator:
+IndexOf  Called in Iterator:
   -- Type ScanningIterator not defined, cannot check
 
-Extra Credit Methods Called in Main:
-  -- Type main.Assignment1 not defined, cannot check
+indexOfNot Called in Main:
+  -- Method matching indexOfNot:String;char;int->int not called in Assignment1
 
-Extra Credit Methods Called in Iterator:
+IndexOfNot Called in Iterator:
   -- Type ScanningIterator not defined, cannot check
 
 Iterator Methods Called in Main:
-  -- Type main.Assignment1 not defined, cannot check
-  -- Type main.Assignment1 not defined, cannot check
+  -- Method matching !hasNext:->boolean not called in Assignment1
+  -- Method matching !next:->String not called in Assignment1
 
 Screenshots enclosed:
   -- Missing images
@@ -81,12 +93,9 @@ Screenshots enclosed:
 
 Notes from grading restrictions:
 ----------------------------------
-ScanningIteratorTest:
-  -- Did not find a class in:[(.*)ScanningIterator(.*)]%Did not find a class in:[(.*)ScanningIterator(.*)]
-
 Illegal import or call:
   -- Illegal type or call
 
 
 Early benefit: 105.0%
-  Total Score: 18.900000000000002
+  Total Score: 23.1

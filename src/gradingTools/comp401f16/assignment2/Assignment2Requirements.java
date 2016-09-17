@@ -4,6 +4,7 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment2.testcases.Assignment2Suite;
+import gradingTools.shared.testcases.CheckstyleClassInstantiatedTestCase;
 import gradingTools.shared.testcases.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.ClassDefinedTestCase;
 import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
@@ -34,6 +35,11 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
 	    	 new CheckstyleMethodCalledTestCase(
 	    	    	"ScanningIterator",    	    	   		
 	    	    	 "indexOf:String;char;int->int")); 
+    	// Classes Instantiated
+    	addFeature("Scanner Bean Instantiated in Main", 5,
+    	   		new CheckstyleClassInstantiatedTestCase(
+    	   				"main.Assignment2", 
+    	   				"ScannerBean")); 
     	
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
         addManualFeature("Breakpoint step into/over/return screenhots", 20);

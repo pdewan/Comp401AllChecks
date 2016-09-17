@@ -1,4 +1,4 @@
 test, student(tstudent3)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:121.8 FEATURES:115.5 MULTIPLIER:1.05 MANUAL:45:58:16 SECTIONS:[source] GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:116.55 FEATURES:111.0 MULTIPLIER:1.05 MANUAL:163:3:21 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------

@@ -1,0 +1,108 @@
+Grading result for: Loop, Infinite(infinite)
+
+Grading features...
+----------------------------------
+ScanStringTestSuite:ScanString functions correctly     0.0 / 15.0
+ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
+MultipleTokenSuite:Can process multiple tokens         0.0 / 30.0
+InvalidCharacterSuite:Handles Invalid Characters       0.0 / 10.0 (Extra credit)
+TerminatesWithStartingPeriodSuite:Terminating period forms complete line 0.0 /  5.0
+IndexOfNotTestSuite:IndexOfNot functions correctly     0.0 /  5.0 (Extra credit)
+IndexOfTestSuite:IndexOf functions correctly           2.6 / 18.0
+TerminatesWithPeriodLineSuite:Handles Space After Period 0.0 /  5.0
+SingleTokenSuite:Can process a single token            0.0 / 10.0
+VariableSpaceSuite:Handles Variable Spaces             0.0 /  5.0 (Extra credit)
+Required Methods Called in Main or Iterator            10.0 / 15.0
+IndexOf  Called in Iterator                            0.0 /  5.0 (Extra credit)
+indexOfNot Called in Main                              0.0 /  3.0 (Extra credit)
+IndexOfNot Called in Iterator                          0.0 /  3.0 (Extra credit)
+Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
+Screenshots enclosed                                   0.0 /  5.0
+Screenshots show tests                                 0.0 / 10.0
+----------------------------------
+  Points Awarded: 12.6
+
+Grading restrictions...
+----------------------------------
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 12.6
+
+Notes from grading features:
+----------------------------------
+ScanStringTestSuite:ScanString functions correctly:
+  -- Incorrect output%0.0
+
+ScanningIteratorSuite:Scanning Iterator:
+  -- java.lang.ArrayIndexOutOfBoundsException 0
+  -- java.lang.ArrayIndexOutOfBoundsException 0
+
+MultipleTokenSuite:Can process multiple tokens:
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+InvalidCharacterSuite:Handles Invalid Characters:
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+TerminatesWithStartingPeriodSuite:Terminating period forms complete line:
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+IndexOfNotTestSuite:IndexOfNot functions correctly:
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+  -- No method:indexOfNot%0.0
+
+IndexOfTestSuite:IndexOf functions correctly:
+  -- Expected value7 is off by one from return value 1%0.8
+  -- Expected value3 is off by one from return value 1%0.8
+  -- Expected value9 is off by one from return value 1%0.8
+  -- Expected value8 is off by one from return value 1%0.8
+  -- Expected value8 is off by one from return value 1%0.8
+  -- Expected value5 is off by one from return value 1%0.8
+
+TerminatesWithPeriodLineSuite:Handles Space After Period:
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+SingleTokenSuite:Can process a single token:
+  -- Incorrect output. Possible reasons:printing number (e.g. 20) instead of token (e.g. 020)%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+VariableSpaceSuite:Handles Variable Spaces:
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+  -- Incorrect output%0.0
+
+Required Methods Called in Main or Iterator:
+  -- Method matching processInput:->void not called in Assignment1
+
+IndexOf  Called in Iterator:
+  -- Type ScanningIterator not defined, cannot check
+
+indexOfNot Called in Main:
+  -- Method matching indexOfNot:String;char;int->int not called in Assignment1
+
+IndexOfNot Called in Iterator:
+  -- Type ScanningIterator not defined, cannot check
+
+Iterator Methods Called in Main:
+  -- Method matching !hasNext:->boolean not called in Assignment1
+  -- Method matching !next:->String not called in Assignment1
+
+Screenshots enclosed:
+  -- Missing images
+
+  Total Score: 13.0

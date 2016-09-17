@@ -1,0 +1,95 @@
+1474128197588,12:03:17,ProjectStepperStarted
+1474128197691,12:03:17,NavigationKindChange,Automatic
+1474128197706,12:03:17,NavigationStarted
+1474128197753,12:03:17,AutomaticNavigationStarted
+1474128197857,12:03:17,ProjectStepStarted,tstudent,
+1474128216369,12:03:36,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128216399,12:03:36,AutomaticNavigationEnded
+1474128216400,12:03:36,NavigationKindChange,Manual
+1474128216401,12:03:36,NavigationStarted
+1474128216402,12:03:36,ManualNavigationStarted
+1474128216403,12:03:36,ProjectStepStarted,tstudent,testCOMMMA student
+1474128216541,12:03:36,ManualNavigationEnded
+1474128246257,12:04:06,MainVisited,tstudent,testCOMMMA student
+1474128248991,12:04:08,ProceedWhenDoneChanged,tstudent,testCOMMMA student
+1474128250001,12:04:10,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128250012,12:04:10,ProjectStepperEnded
+1474128403765,12:06:43,ProjectStepperStarted
+1474128403923,12:06:43,NavigationKindChange,Automatic
+1474128403925,12:06:43,NavigationStarted
+1474128403926,12:06:43,AutomaticNavigationStarted
+1474128403947,12:06:43,ProjectStepStarted,tstudent,
+1474128411714,12:06:51,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128411724,12:06:51,AutomaticNavigationEnded
+1474128411725,12:06:51,NavigationKindChange,Manual
+1474128411726,12:06:51,NavigationStarted
+1474128411726,12:06:51,ManualNavigationStarted
+1474128411727,12:06:51,ProjectStepStarted,tstudent,testCOMMMA student
+1474128411813,12:06:51,ManualNavigationEnded
+1474128487975,12:08:07,MainVisited,tstudent,testCOMMMA student
+1474128489881,12:08:09,ProceedWhenDoneChanged,tstudent,testCOMMMA student
+1474128490969,12:08:10,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128490969,12:08:10,ProjectStepperEnded
+1474128542151,12:09:02,ProjectStepperStarted
+1474128542213,12:09:02,NavigationKindChange,Automatic
+1474128542229,12:09:02,NavigationStarted
+1474128542229,12:09:02,AutomaticNavigationStarted
+1474128542245,12:09:02,ProjectStepStarted,tstudent,
+1474128542536,12:09:02,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128542546,12:09:02,AutomaticNavigationEnded
+1474128542547,12:09:02,NavigationKindChange,Manual
+1474128542547,12:09:02,NavigationStarted
+1474128542548,12:09:02,ManualNavigationStarted
+1474128542548,12:09:02,ProjectStepStarted,tstudent,testCOMMMA student
+1474128542612,12:09:02,ManualNavigationEnded
+1474128554644,12:09:14,SourceVisited,tstudent,testCOMMMA student
+1474128576709,12:09:36,MainVisited,tstudent,testCOMMMA student
+1474128578693,12:09:38,ProceedWhenDoneChanged,tstudent,testCOMMMA student
+1474128579869,12:09:39,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128579869,12:09:39,ProjectStepperEnded
+1474128599458,12:09:59,ProjectStepperStarted
+1474128599593,12:09:59,NavigationKindChange,Automatic
+1474128599595,12:09:59,NavigationStarted
+1474128599596,12:09:59,AutomaticNavigationStarted
+1474128599611,12:09:59,ProjectStepStarted,tstudent,
+1474128718516,12:11:58,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474128718538,12:11:58,AutomaticNavigationEnded
+1474128718540,12:11:58,NavigationKindChange,Manual
+1474128718541,12:11:58,NavigationStarted
+1474128718541,12:11:58,ManualNavigationStarted
+1474128718543,12:11:58,ProjectStepStarted,tstudent,testCOMMMA student
+1474128718758,12:11:58,ManualNavigationEnded
+1474129184094,12:19:44,ProjectStepperStarted
+1474129184204,12:19:44,NavigationKindChange,Automatic
+1474129184219,12:19:44,NavigationStarted
+1474129184219,12:19:44,AutomaticNavigationStarted
+1474129184233,12:19:44,ProjectStepStarted,tstudent,
+1474129340602,12:22:20,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474129340634,12:22:20,AutomaticNavigationEnded
+1474129340636,12:22:20,NavigationKindChange,Manual
+1474129340638,12:22:20,NavigationStarted
+1474129340639,12:22:20,ManualNavigationStarted
+1474129340641,12:22:20,ProjectStepStarted,tstudent,testCOMMMA student
+1474129340792,12:22:20,ManualNavigationEnded
+1474129376275,12:22:56,MainVisited,tstudent,testCOMMMA student
+1474129395947,12:23:15,ProceedWhenDoneChanged,tstudent,testCOMMMA student
+1474129397163,12:23:17,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474129397163,12:23:17,ProjectStepperEnded
+1474129406804,12:23:26,ProceedWhenDoneChanged,tstudent,testCOMMMA student
+1474129407712,12:23:27,ProjectStepEnded,tstudent,testCOMMMA student,36.75,35.0,0.0,1.05,,,0
+1474129407728,12:23:27,ProjectStepperEnded
+1474133111387,13:25:11,ProjectStepperStarted
+1474133112215,13:25:12,NavigationKindChange,Automatic
+1474133112215,13:25:12,NavigationStarted
+1474133112215,13:25:12,AutomaticNavigationStarted
+1474133116224,13:25:16,GraderSettingsStarted,Comp401f16,Assignment2,infinite,infinitet,Automatic,Grading Status,All
+1474133124787,13:25:24,NavigationInitiated
+1474133124896,13:25:24,GraderSettingsEnded
+1474133127134,13:25:27,GraderSettingsStarted,Comp401f16,Assignment2,infinite,infinite,Automatic,Grading Status,All
+1474133147253,13:25:47,NavigationInitiated
+1474133147347,13:25:47,GraderSettingsEnded
+1474133148977,13:25:48,GraderSettingsStarted,Comp401f16,Assignment2,infinite,infinite,Automatic,Grading Status,All
+1474133191599,13:26:31,ProblemUserChange,Assignment2
+1474133193993,13:26:33,NavigationInitiated
+1474133194118,13:26:34,GraderSettingsEnded
+1474133196315,13:26:36,GraderSettingsStarted,Comp401f16,Assignment1,infinite,infinite,Automatic,Grading Status,All

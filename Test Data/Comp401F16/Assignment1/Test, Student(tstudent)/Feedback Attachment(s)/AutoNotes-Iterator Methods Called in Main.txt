@@ -1,2 +1,2 @@
-  -- Type main.Assignment1 not defined, cannot check
-  -- Type main.Assignment1 not defined, cannot check
+  -- Type main.Assignment not defined, cannot check
+  -- Type main.Assignment not defined, cannot check
