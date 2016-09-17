@@ -1,0 +1,9 @@
+Starting audit...
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:0: expectedTypes: Expected type names/tags [main.Assignment(.*), ScanningIterator//EC]
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call        (.*)!hasNext:->boolean//EC 
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call        (.*)!next:->String//EC
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call        indexOfNot:String;char;int->int//EC 
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:8: warning: expectedDeclaredSignatures: (Assignment1.java:8) In type Assignment1, missing declared signature: indexOfNot:String;char;int->int//EC
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/Assignment1.java:8: typeDefined: (Assignment1.java:8) Class/Interface Assignment1 matching tag main.Assignment(.*) defined
+/Users/andrewwg94/401 TA '16/Assignments/Assignment 1/Crouse, Jack(jackhc)/Submission attachment(s)/jackhc_COMP401Assignment1/Assignment1/src/main/RunTests.java:3: typeDefined: (RunTests.java:3) Class/Interface RunTests matching tag No Expected Tag defined
+Audit done.
