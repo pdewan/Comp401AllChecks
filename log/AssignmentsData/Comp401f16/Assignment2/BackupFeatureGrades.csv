@@ -1,7 +1,7 @@
 Assignment 1,Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Display ID,ID,Last Name,First Name,grade,Source Points,Early/Late,Weighted Grade,MultipleQuoteOutputTest:Multiple Quotes Output,MixedOutputTest:Mixed Types of Tokens Output,MultipleSignOutputTest:Multiple Signs Output,MultipleNumberOutputTest:Multiple Numbers Output,MissingQuoteOutputTest:Missing Quote Output,ScannerBeanTest,MultipleWordOutputTest:Multiple Words Output,ScanString and IndexOf now called in ScannerBean (max 10pts),Scanner Bean Instantiated in Main,Screenshots enclosed,Breakpoint step into/over/return screenhots,Scanner Bean Tagged ,Illegal import or call,MultipleQuoteOutputTest:Multiple Quotes Output,MixedOutputTest:Mixed Types of Tokens Output,MultipleSignOutputTest:Multiple Signs Output,MultipleNumberOutputTest:Multiple Numbers Output,MissingQuoteOutputTest:Missing Quote Output,ScannerBeanTest,MultipleWordOutputTest:Multiple Words Output,ScanString and IndexOf now called in ScannerBean (max 10pts),Scanner Bean Instantiated in Main,Screenshots enclosed,Breakpoint step into/over/return screenhots,Scanner Bean Tagged ,Illegal import or call
-acorrect,acorrect,All,Correct,66.15,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ecredit,ecredit,Extra,Credit,76.65,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-mmany,mmany,Mistakes,Many,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-tstudent,tstudent,Test,Student,35.0,,1.05,36.75,0.0,0.0,0.0,0.0,0.0,25.0,0.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,0.0,0.0,,,,,,,,,,,,,
+acorrect,acorrect,All,Correct,55.0,,1.05,57.75,20.0,0.0,0.0,10.0,0.0,0.0,10.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,5.0,0.0,,,,,,,,,,,,,
+ecredit,ecredit,Extra,Credit,80.0,,1.05,84.0,20.0,0.0,0.0,10.0,0.0,25.0,10.0,10.0,0.0,0.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,5.0,0.0,,,,,,,,,,,,,
+mmany,mmany,Mistakes,Many,0.0,,1.05,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,0.0,0.0,,,,,,,,,,,,,
+tstudent,,,,105.0,,1.05,110.25,20.0,20.0,5.0,10.0,5.0,25.0,10.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,0.0,0.0,,,,,,,,,,,,,

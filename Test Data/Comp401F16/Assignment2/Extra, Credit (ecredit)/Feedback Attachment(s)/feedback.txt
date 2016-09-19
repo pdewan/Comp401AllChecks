@@ -2,34 +2,50 @@ Grading result for: Extra, Credit (ecredit)
 
 Grading features...
 ----------------------------------
-Bean class                                             20.0 / 20.0
-Numbers and words                                      20.0 / 20.0
-Quoted string                                          30.0 / 30.0
+MultipleQuoteOutputTest:Multiple Quotes Output         20.0 / 20.0
+MixedOutputTest:Mixed Types of Tokens Output           0.0 / 20.0
+MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
+MultipleNumberOutputTest:Multiple Numbers Output       10.0 / 10.0
+MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
+ScannerBeanTest                                        25.0 / 25.0
+MultipleWordOutputTest:Multiple Words Output           10.0 / 10.0
+ScanString and IndexOf now called in ScannerBean (max 10pts) 5.0 / 15.0
+Scanner Bean Instantiated in Main                      0.0 /  5.0
 Screenshots enclosed                                   0.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
-Plus minus                                             0.0 /  4.0 (Extra credit)
-Missing quote                                          3.0 /  3.0 (Extra credit)
-Own isLetter                                           0.0 /  3.0 (Extra credit)
+Scanner Bean Tagged                                    5.0 /  5.0
 ----------------------------------
-  Points Awarded: 73.0
+  Points Awarded: 75.0
 
 Grading restrictions...
 ----------------------------------
 Illegal import or call                      0.0 /  -25.0
-Scanner Bean Tagged                         0.0 /  -5.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 73.0
+  Features Score: 75.0
 
 Notes from grading features:
 ----------------------------------
+MixedOutputTest:Mixed Types of Tokens Output:
+  -- Incorrect output
+
+MultipleSignOutputTest:Multiple Signs Output:
+  -- Incorrect output
+
+MissingQuoteOutputTest:Missing Quote Output:
+  -- Incorrect output
+
+ScanString and IndexOf now called in ScannerBean (max 10pts):
+  -- Method matching indexOf:String;char;int->int not called in BeanStringScanner
+  -- Type ScanningIterator not defined, cannot check
+
+Scanner Bean Instantiated in Main:
+  -- main.Assignment2 not found by checkstyle
+
 Screenshots enclosed:
   -- Missing images
 
-Plus minus:
-  -- Plus Minus Token Test Case failed
-
 
 Early benefit: 105.0%
-  Total Score: 76.65
+  Total Score: 78.75

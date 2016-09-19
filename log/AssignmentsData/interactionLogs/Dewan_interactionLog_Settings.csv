@@ -623,3 +623,20 @@
 1474136609107,14:23:29,NavigationInitiated
 1474136609248,14:23:29,GraderSettingsEnded
 1474136611444,14:23:31,ProjectStepperStarted
+1474252185679,22:29:45,ModuleUserChange,null
+1474252185725,22:29:45,AnimationPauseTimeUserChange,2
+1474252185741,22:29:45,ProblemUserChange,null
+1474252188283,22:29:48,GraderSettingsDisplayed
+1474252188283,22:29:48,GraderSettingsStarted,Comp401f16,Assignment1,acorrect,tstudent4,Automatic and then manual,Grading Status,All
+1474252193611,22:29:53,ProblemUserChange,Assignment1
+1474252285067,22:31:25,NavigationInitiated
+1474252285411,22:31:25,GraderSettingsEnded
+1474252289864,22:31:29,ProjectStepperStarted
+1474252678923,22:37:58,ModuleUserChange,null
+1474252678938,22:37:58,AnimationPauseTimeUserChange,2
+1474252678938,22:37:58,ProblemUserChange,null
+1474252682142,22:38:02,GraderSettingsDisplayed
+1474252682157,22:38:02,GraderSettingsStarted,Comp401f16,Assignment2,acorrect,tstudent,Automatic and then manual,Grading Status,All
+1474252690167,22:38:10,NavigationInitiated
+1474252690323,22:38:10,GraderSettingsEnded
+1474252692683,22:38:12,ProjectStepperStarted
