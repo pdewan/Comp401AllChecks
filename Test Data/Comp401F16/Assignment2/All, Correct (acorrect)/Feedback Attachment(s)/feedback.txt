@@ -48,7 +48,7 @@ Scanner Bean Instantiated in Main:
   -- main.Assignment2 not found by checkstyle
 
 Scanner Bean Tagged :
-  -- Multiple classes tagged:ScannerBean [main.BeanStringScanner, grail.BeanStringScanner]
+  -- Multiple classes tagged:ScannerBean [grail.BeanStringScanner, main.BeanStringScanner]
 
 
 Early benefit: 105.0%
