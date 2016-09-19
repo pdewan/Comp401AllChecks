@@ -640,3 +640,11 @@
 1474252690167,22:38:10,NavigationInitiated
 1474252690323,22:38:10,GraderSettingsEnded
 1474252692683,22:38:12,ProjectStepperStarted
+1474253341160,22:49:01,ModuleUserChange,null
+1474253341175,22:49:01,AnimationPauseTimeUserChange,2
+1474253341175,22:49:01,ProblemUserChange,null
+1474253343785,22:49:03,GraderSettingsDisplayed
+1474253343785,22:49:03,GraderSettingsStarted,Comp401f16,Assignment2,acorrect,tstudent,Automatic and then manual,Grading Status,All
+1474253352054,22:49:12,NavigationInitiated
+1474253352273,22:49:12,GraderSettingsEnded
+1474253354571,22:49:14,ProjectStepperStarted
