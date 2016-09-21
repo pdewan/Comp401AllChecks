@@ -10,3 +10,4 @@ tstudent3,tstudent23,Test,Student3,116.55
 tstudent4,tstudent4,Test,Student4,169.05
 infinite,infinite,Loop,Infinite,13.0
 scanner,scanner,Scanner,Multiple,103.0
+timeout,timeout,Exception,Timeout,0
