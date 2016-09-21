@@ -1,0 +1,9 @@
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,expectedTypes,[main.Assignment(.*), @ScannerBean, ScanningIterator//EC]
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,illegalTypeImported,Assignment1,java.util.StringTokenizer,Assignment1
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,uncessaryMethodCall,Assignment1,main-->Scanner.delimiter
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,illegalMethodCall,Assignment1,main-->Scanner.delimiter
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,uncessaryMethodCall,Assignment1,main-->String.split
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,illegalMethodCall,Assignment1,main-->String.split
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\Assignment1.java,uncessaryMethodCall,Assignment1,main-->String.equals
+0,Sun Sep 18 22:49:30 EDT 2016,true,main\StringScanner.java,typeDefined,StringScanner,No Expected Tag

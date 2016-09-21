@@ -1,0 +1,16 @@
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,expectedTypes,[main.Assignment(.*), @ScannerBean, ScanningIterator//EC]
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,typeDefined,BeanStringScanner,@ScannerBean
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,missingMethodCall,BeanStringScanner,       indexOf:String;char;int->int 
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,missingMethodCall,BeanStringScanner,       indexOfNot:String;char;int->int//EC 
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,missingMethodCall,BeanStringScanner,       (.*)!hasNext:->boolean//EC 
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,missingMethodCall,BeanStringScanner,       (.*)!next:->String//EC
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,expectedDeclaredSignatures,BeanStringScanner,indexOf:String;char;int->int,BeanStringScanner
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\BeanStringScanner.java,expectedDeclaredSignatures,BeanStringScanner,indexOfNot:String;char;int->int//EC,BeanStringScanner
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\StringScanner.java,typeDefined,StringScanner,No Expected Tag
+0,Sun Sep 18 22:49:20 EDT 2016,true,grail\Util.java,typeDefined,Util,No Expected Tag
+0,Sun Sep 18 22:49:20 EDT 2016,true,main\Assignment2.java,typeDefined,Assignment2,main.Assignment(.*)
+0,Sun Sep 18 22:49:20 EDT 2016,true,main\Assignment2.java,uncessaryMethodCall,Assignment2,main-->String.equals
+0,Sun Sep 18 22:49:20 EDT 2016,true,main\Assignment2.java,expectedDeclaredSignatures,Assignment2,processInput:->*,Assignment2
+0,Sun Sep 18 22:49:21 EDT 2016,true,main\BeanStringScanner.java,duplicateShortTypeName,BeanStringScanner,[grail.BeanStringScanner, main.BeanStringScanner]
+0,Sun Sep 18 22:49:21 EDT 2016,true,main\StringScanner.java,duplicateShortTypeName,StringScanner,[grail.StringScanner, main.StringScanner]
+0,Sun Sep 18 22:49:21 EDT 2016,true,main\Util.java,duplicateShortTypeName,Util,[grail.Util, main.Util]

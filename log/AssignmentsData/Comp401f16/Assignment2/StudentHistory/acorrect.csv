@@ -1,0 +1,9 @@
+Assignment 1,Points,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Date,Change,,grade,Source Points,Early/Late,Weighted Grade,MultipleQuoteOutputTest:Multiple Quotes Output,MixedOutputTest:Mixed Types of Tokens Output,MultipleSignOutputTest:Multiple Signs Output,MultipleNumberOutputTest:Multiple Numbers Output,MissingQuoteOutputTest:Missing Quote Output,ScannerBeanTest,MultipleWordOutputTest:Multiple Words Output,ScanString and IndexOf now called in ScannerBean (max 10pts),Scanner Bean Instantiated in Main,Screenshots enclosed,Breakpoint step into/over/return screenhots,Scanner Bean Tagged ,Illegal import or call,MultipleQuoteOutputTest:Multiple Quotes Output,MixedOutputTest:Mixed Types of Tokens Output,MultipleSignOutputTest:Multiple Signs Output,MultipleNumberOutputTest:Multiple Numbers Output,MissingQuoteOutputTest:Missing Quote Output,ScannerBeanTest,MultipleWordOutputTest:Multiple Words Output,ScanString and IndexOf now called in ScannerBean (max 10pts),Scanner Bean Instantiated in Main,Screenshots enclosed,Breakpoint step into/over/return screenhots,Scanner Bean Tagged ,Illegal import or call
+0,Sun Sep 18 22:31:30 EDT 2016,55.0,,55.0,,1.05,57.75,20.0,0.0,0.0,10.0,0.0,0.0,10.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,5.0,0.0,,,,,,,,,,,,,
+1,Sun Sep 18 22:32:16 EDT 2016,0.0,,55.0,,1.05,57.75,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Sun Sep 18 22:38:12 EDT 2016,-2.5,,52.5,,1.05,55.65,20.0,0.0,0.0,10.0,0.0,0.0,10.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,2.5,0.0,,,,,,,,,,,,,
+3,Sun Sep 18 22:38:34 EDT 2016,0.0,,52.5,,1.05,55.65,,,,,,,,,,,,,,,,,,,,,,,,,,
+4,Sun Sep 18 22:49:14 EDT 2016,0.0,,52.5,,1.05,55.65,20.0,0.0,0.0,10.0,0.0,0.0,10.0,0.0,0.0,10.0,Breakpoint step into/over/return screenhots            %.1f / 20.0,2.5,0.0,,,,,,,,,,,,,
+5,Sun Sep 18 22:49:41 EDT 2016,0.0,,52.5,,1.05,55.65,,,,,,,,,,,,,,,,,,,,,,,,,,

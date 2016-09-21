@@ -2,52 +2,71 @@ Grading result for: Mistakes, Many(mmany)
 
 Grading features...
 ----------------------------------
-Bean class                                             0.0 / 20.0
-Numbers and words                                      0.0 / 20.0
-Quoted string                                          0.0 / 30.0
+MultipleQuoteOutputTest:Multiple Quotes Output         0.0 / 20.0
+MixedOutputTest:Mixed Types of Tokens Output           0.0 / 20.0
+MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
+MultipleNumberOutputTest:Multiple Numbers Output       0.0 / 10.0
+MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
+ScannerBeanTest                                        0.0 / 25.0
+MultipleWordOutputTest:Multiple Words Output           0.0 / 10.0
+ScanString and IndexOf now called in ScannerBean (max 10pts) 0.0 / 15.0
+Scanner Bean Instantiated in Main                      0.0 /  5.0
 Screenshots enclosed                                   0.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
-Plus minus                                             0.0 /  4.0 (Extra credit)
-Missing quote                                          0.0 /  3.0 (Extra credit)
-Own isLetter                                           0.0 /  3.0 (Extra credit)
+Scanner Bean Tagged                                    0.0 /  5.0
 ----------------------------------
   Points Awarded: 0.0
 
 Grading restrictions...
 ----------------------------------
-Illegal import or call                      0.0 /  -25.0
-Scanner Bean Tagged                         -5.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
-  Points Deducted: -5.0
+  Points Deducted: -25.0
 
-  Features Score: -5.0
+  Features Score: -25.0
 
 Notes from grading features:
 ----------------------------------
-Bean class:
-  -- Could not find scanner bean
+MultipleQuoteOutputTest:Multiple Quotes Output:
+  -- Incorrect output
 
-Numbers and words:
-  -- Number Token Test Case failed
-  -- Word Token Test Case failed
+MixedOutputTest:Mixed Types of Tokens Output:
+  -- Incorrect output
 
-Quoted string:
-  -- Quoted String Token Test Case failed
+MultipleSignOutputTest:Multiple Signs Output:
+  -- Incorrect output
+
+MultipleNumberOutputTest:Multiple Numbers Output:
+  -- Incorrect output
+
+MissingQuoteOutputTest:Missing Quote Output:
+  -- Incorrect output
+
+ScannerBeanTest:
+  -- java.lang.ArrayIndexOutOfBoundsException 0
+
+MultipleWordOutputTest:Multiple Words Output:
+  -- Incorrect output
+
+ScanString and IndexOf now called in ScannerBean (max 10pts):
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScanningIterator not defined, cannot check
+
+Scanner Bean Instantiated in Main:
+  -- Type main.Assignment2 not defined, cannot check
 
 Screenshots enclosed:
   -- Missing images
 
-Plus minus:
-  -- Plus Minus Token Test Case failed
-
-Missing quote:
-  -- Quoted String Token Test Case failed
+Scanner Bean Tagged :
+  -- No class tagged: ScannerBean
 
 
 Notes from grading restrictions:
 ----------------------------------
-Scanner Bean Tagged :
-  -- Class matching @ScannerBean not defined
+Illegal import or call:
+  -- Illegal type or call
 
 
 Early benefit: 105.0%

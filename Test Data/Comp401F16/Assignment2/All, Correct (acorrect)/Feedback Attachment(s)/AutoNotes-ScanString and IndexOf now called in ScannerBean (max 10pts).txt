@@ -1,0 +1,3 @@
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScanningIterator not defined, cannot check
