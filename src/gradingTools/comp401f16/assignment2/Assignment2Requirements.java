@@ -44,7 +44,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
         addManualFeature("Breakpoint step into/over/return screenhots", 20);
 
-        addFeature("Scanner Bean Tagged ", 5, new ClassDefinedTestCase("@ScannerBean"));
+//        addFeature("Scanner Bean Tagged ", 5, new ClassDefinedTestCase("@ScannerBean"));
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
 
     }
