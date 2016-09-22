@@ -1,0 +1,2070 @@
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut1.txt
+Upper Case Letters:
+Comparing actial return value: null with expected return value: null
+Calling  interactive method:scanString with args [10 11 0 4] and input 10 11 0 4
+.
+
+Creating:tmpMethodOut2.txt
+Upper Case Letters:
+Comparing actial return value: null with expected return value: null
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)0(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)0(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$. 
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$. 
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$. 
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOfNot with args [Number 111112, 1, 7]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4fcc529timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4beddc56timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling non interactive method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@79b663b3timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling non interactive method:indexOfNot with args [Start:           ,  , 6]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@7882c44atimeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [        The programmer never came back,  , 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@32639b12timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling non interactive method:indexOfNot with args [    456   10,  , 7]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@20d11153timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling non interactive method:indexOfNot with args [The buzzzz of bees, z, 6]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@3887cf88timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 0.2
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5649ec46timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling non interactive method:indexOf with args [went for a walk, 9, 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@78dc4696timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling non interactive method:indexOf with args [One said to the other,  , 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@502f8b57timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOf with args [Let's run!, !, 0]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5652f555timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling non interactive method:indexOf with args [run run run, r, 8]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@4fe01805timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@55120f99timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 0.2
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
+Calling on object class main.Assignment1 687399269 method:public static void main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@794b435ftimeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 0.2
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$.
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$.
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$.
+45 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)0010010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010 
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$0010010
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4  
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4  
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10    11 0     4  
+.
+
+Process line:6
+6
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!processInput:->void: 0.0
+### main.Assignment!indexOf:String;char;int->int: 0.0
+### main.Assignment!scanString:String->void: 0.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOf:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!!hasNext:->boolean: 0.0
+### main.Assignment!!next:->String: 0.0
+Creating:tmpMethodOut2.txt
+### Image enclosed test case: 1.0
+Creating:tmpMethodOut2.txt
+### Illegal import or call test case: 1.0
+Read spreadsheet table of size:13
+*****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Exception, Timeout(timeout)\Feedback Attachment(s)\results.json
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4
+.
+
+Process line:Numbers: 10 11 0 4 Sum: 25 Product: 0
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4
+.
+
+Process line:Numbers: 10 11 0 4 Sum: 25 Product: 0
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 11 0 4
+.
+
+Process line:Numbers: 10 11 0 4 Sum: 25 Product: 0
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+Called main:main.Assignment1
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)0(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:Numbers: 10 two 
+Numbers: 10 two 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:Numbers: 10 two 
+Numbers: 10 two 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:Numbers: 10 two 
+Numbers: 10 two 
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)0(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 0.5
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$. 
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$. 
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$. 
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 0.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$.
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$.
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$.
+45 
+
+E***Null output!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010
+.
+
+Process line:Numbers: 0010010 Sum: 10010 Product: 10010
+Numbers: 0010010 Sum: 10010 Product: 10010
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)0010010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010
+.
+
+Process line:Numbers: 0010010 Sum: 10010 Product: 10010
+Numbers: 0010010 Sum: 10010 Product: 10010
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010 
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$0010010
+.
+
+Process line:Numbers: 0010010 Sum: 10010 Product: 10010
+Numbers: 0010010 Sum: 10010 Product: 10010
+Called main:main.Assignment1
+Provided input:0010010
+.
+
+Expected outputs:[(.*)10010(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4   
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4  
+.
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4   
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4  
+.
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4   
+. 
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Scan
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\bin
+$10    11 0     4  
+.
+
+Process line:Numbers: 
+Numbers: 
+Called main:main.Assignment1
+Provided input:10    11 0     4  
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!processInput:->void: 0.0
+### main.Assignment!indexOf:String;char;int->int: 0.0
+### main.Assignment!scanString:String->void: 0.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOf:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!!hasNext:->boolean: 0.0
+### main.Assignment!!next:->String: 0.0
+Creating:tmpMethodOut2.txt
+### Image enclosed test case: 1.0
+Creating:tmpMethodOut2.txt
+### Illegal import or call test case: 1.0
+*****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Feedback Attachment(s)\results.json
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut3.txt
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Creating:tmpIn
+Deleting:tmpMethodOut3.txt
+Comparing actial return value: null with expected return value: null
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 0.0
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:two
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.Assignment1.scanString(Assignment1.java:64)
+	at main.Assignment1.processInput(Assignment1.java:21)
+	at main.Assignment1.main(Assignment1.java:8)
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:two
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.Assignment1.scanString(Assignment1.java:64)
+	at main.Assignment1.processInput(Assignment1.java:21)
+	at main.Assignment1.main(Assignment1.java:8)
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:two
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.Assignment1.scanString(Assignment1.java:64)
+	at main.Assignment1.processInput(Assignment1.java:21)
+	at main.Assignment1.main(Assignment1.java:8)
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)25(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x.
+.
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:two
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.Assignment1.scanString(Assignment1.java:64)
+	at main.Assignment1.processInput(Assignment1.java:21)
+	at main.Assignment1.main(Assignment1.java:8)
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x.
+.
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:two
+two
+Exception in thread "main" java.lang.NumberFormatException: For input string: "two"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.Assignment1.scanString(Assignment1.java:64)
+	at main.Assignment1.processInput(Assignment1.java:21)
+	at main.Assignment1.main(Assignment1.java:8)
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)0(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 0.5
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOfNot with args [Number 111112, 1, 7]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@277b8fa4timeOut:2000
+Comparing actial return value: 12 with expected return value: 12
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@6cd64ee8timeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling non interactive method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@620c8641timeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling non interactive method:indexOfNot with args [Start:           ,  , 6]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@2f1d0bbctimeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [        The programmer never came back,  , 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@5460b754timeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling non interactive method:indexOfNot with args [    456   10,  , 7]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@a9f023etimeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling non interactive method:indexOfNot with args [The buzzzz of bees, z, 6]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@c27a3a2timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@4b200971timeOut:2000
+Comparing actial return value: 7 with expected return value: 7
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling non interactive method:indexOf with args [went for a walk, 9, 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@1a2bcd56timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling non interactive method:indexOf with args [One said to the other,  , 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@68d7a2dftimeOut:2000
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOf with args [Let's run!, !, 0]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@59dc36d4timeOut:2000
+Comparing actial return value: 9 with expected return value: 9
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling non interactive method:indexOf with args [run run run, r, 8]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@12fcc71ftimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5679e96btimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
+Calling on object class main.Assignment1 511357840 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@3ed7821timeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Submission attachment(s)\Assignment1-Semion\Assignment1\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Creating:tmpMethodOut2.txt
+### main.Assignment!processInput:->void: 1.0
+### main.Assignment!indexOf:String;char;int->int: 1.0
+### main.Assignment!scanString:String->void: 1.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOf:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!indexOfNot:String;char;int->int: 1.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!!hasNext:->boolean: 0.0
+### main.Assignment!!next:->String: 0.0
+Creating:tmpMethodOut2.txt
+### Image enclosed test case: 0.0
+Creating:tmpMethodOut2.txt
+### Illegal import or call test case: 1.0
+*****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent3)\Feedback Attachment(s)\results.json
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut3.txt
+Tokens:
+10
+11
+0
+4
+Sum: 25
+Product: 0
+Creating:tmpIn
+Deleting:tmpMethodOut3.txt
+Comparing actial return value: null with expected return value: null
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:Invalid token: two
+Invalid token: two
+Process line:11
+11
+Process line:Invalid token: !@
+Invalid token: !@
+Process line:0
+0
+Process line:Invalid token: ,;
+Invalid token: ,;
+Process line:4
+4
+Process line:Invalid token: x.
+Invalid token: x.
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10 two 11 !@ 0 ,; 4 x. 
+. 
+
+Expected outputs:[(.*)0(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:. 
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOfNot with args [Number 111112, 1, 7]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@58472096timeOut:2000
+Comparing actial return value: 12 with expected return value: 12
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@a92be4ftimeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling non interactive method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@53e800f9timeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling non interactive method:indexOfNot with args [Start:           ,  , 6]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@337bbfdftimeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling non interactive method:indexOfNot with args [        The programmer never came back,  , 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@52d97ab6timeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling non interactive method:indexOfNot with args [    456   10,  , 7]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4da6d664timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling non interactive method:indexOfNot with args [The buzzzz of bees, z, 6]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@5e5af8e1timeOut:2000
+Comparing actial return value: 10 with expected return value: 10
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@30b131b2timeOut:2000
+Comparing actial return value: 7 with expected return value: 7
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling non interactive method:indexOf with args [went for a walk, 9, 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2924f1d8timeOut:2000
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling non interactive method:indexOf with args [One said to the other,  , 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@524a076etimeOut:2000
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOf with args [Let's run!, !, 0]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5b5e7036timeOut:2000
+Comparing actial return value: 9 with expected return value: 9
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling non interactive method:indexOf with args [run run run, r, 8]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@62dbe64etimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6cff61fctimeOut:2000
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6e0c6a7atimeOut:2000
+Comparing actial return value: 5 with expected return value: 5
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:.
+45 
+
+Expected outputs:[]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
+$10    11 0     4   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:10
+10
+Process line:11
+11
+Process line:0
+0
+Process line:4
+4
+Process line:Sum: 25
+Sum: 25
+Process line:Product: 0
+Product: 0
+Process line:Goodbye!
+Goodbye!
+Called main:main.Assignment1
+Provided input:10    11 0     4   
+. 
+
+Expected outputs:[(.*)25(.*)]
+Creating:tmpMethodOut2.txt
+### main.Assignment!processInput:->void: 1.0
+### main.Assignment!indexOf:String;char;int->int: 0.0
+### main.Assignment!scanString:String->void: 1.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOf:String;char;int->int: 1.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!indexOfNot:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### ScanningIterator!indexOfNot:String;char;int->int: 1.0
+Creating:tmpMethodOut2.txt
+### main.Assignment!!hasNext:->boolean: 1.0
+### main.Assignment!!next:->String: 1.0
+Creating:tmpMethodOut2.txt
+### Image enclosed test case: 0.0
+Creating:tmpMethodOut2.txt
+### Illegal import or call test case: 1.0
+*****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Feedback Attachment(s)\results.json

@@ -1,4 +1,4 @@
-loop, infinite(infinite)
+exception, timeout(timeout)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:25.0 FEATURES:24.9 MANUAL:0:39:24 SECTIONS:[source] GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:16.0 FEATURES:19.6 MULTIPLIER:0.8 MANUAL:0:58:53 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
