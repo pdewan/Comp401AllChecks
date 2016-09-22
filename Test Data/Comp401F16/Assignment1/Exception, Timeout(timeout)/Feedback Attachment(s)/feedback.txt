@@ -1,4 +1,4 @@
-Grading result for: Perry, Ashly(ashjor)
+Grading result for: Exception, Timeout(timeout)
 
 Grading features...
 ----------------------------------
@@ -7,8 +7,8 @@ ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
 MultipleTokenSuite:Can process multiple tokens         0.0 / 30.0
 InvalidCharacterSuite:Handles Invalid Characters       0.0 / 10.0 (Extra credit)
 TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
-IndexOfNotTestSuite:IndexOfNot functions correctly     5.0 /  5.0 (Extra credit)
-IndexOfTestSuite:IndexOf functions correctly           18.0 / 18.0
+IndexOfNotTestSuite:IndexOfNot functions correctly     1.0 /  5.0 (Extra credit)
+IndexOfTestSuite:IndexOf functions correctly           3.6 / 18.0
 TerminatesWithPeriodLineSuite:Handles Space After Period 5.0 /  5.0
 SingleTokenSuite:Can process a single token            0.0 / 10.0
 VariableSpaceSuite:Handles Variable Spaces             0.0 /  5.0 (Extra credit)
@@ -20,7 +20,7 @@ Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   5.0 /  5.0
 Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 38.0
+  Points Awarded: 19.6
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 38.0
+  Features Score: 19.6
 
 Notes from grading features:
 ----------------------------------
@@ -48,6 +48,24 @@ InvalidCharacterSuite:Handles Invalid Characters:
   -- Incorrect output
   -- Incorrect output
   -- Incorrect output
+
+IndexOfNotTestSuite:IndexOfNot functions correctly:
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+  -- Method throws tieout or other exception:indexOfNot
+
+IndexOfTestSuite:IndexOf functions correctly:
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
+  -- Method throws tieout or other exception:indexOf
 
 SingleTokenSuite:Can process a single token:
   -- Incorrect output. Possible reasons:printing number (e.g. 20) instead of token (e.g. 020)
@@ -79,4 +97,4 @@ Iterator Methods Called in Main:
 
 
 Late penalty: 80.0%
-  Total Score: 30.4
+  Total Score: 16.0

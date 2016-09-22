@@ -1,0 +1,15 @@
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class main.Assignment1 405488475 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@3abd581etimeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling non interactive method:indexOf with args [went for a walk, 9, 0]
+Calling on object class main.Assignment1 405488475 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@610db97etimeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling non interactive method:indexOf with args [One said to the other,  , 0]
+Calling on object class main.Assignment1 405488475 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@3fabf088timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling non interactive method:indexOf with args [Let's run!, !, 0]
+Calling on object class main.Assignment1 405488475 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@12f3afb5timeOut:2000
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling non interactive method:indexOf with args [run run run, r, 8]
+Calling on object class main.Assignment1 405488475 method:private static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2c22a348timeOut:2000

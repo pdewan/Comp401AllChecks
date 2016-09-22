@@ -1,56 +1,59 @@
 *****************************(ScanStringTestSuite:ScanString functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
-Calling  interactive method:scanString with args [010 11 0 4 ] and input 010 11 0 4 
+Calling  interactive method:scanString with args [10 11 0 4 ] and input 10 11 0 4 
 . 
 
+Creating:tmpMethodOut3.txt
 Tokens:
-010
+10
 11
 0
 4
 Sum: 25
 Product: 0
+Creating:tmpIn
+Deleting:tmpMethodOut3.txt
 Comparing actial return value: null with expected return value: null
 *****************************(ScanningIteratorSuite:Scanning Iterator)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
-calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 010 11 0 4
-called constructor: public mp.scanner.ScanningIterator(java.lang.String) 010 11 0 4
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@4bd51d3e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Comparing actial return value: [010, 11, 0, 4] with expected return value: [010, 11, 0, 4]
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@25ad4f71 632115057 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
 ### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
-calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 010 11 0 4
-called constructor: public mp.scanner.ScanningIterator(java.lang.String) 010 11 0 4
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@33425811timeOut:2000
-Calling on object mp.scanner.ScanningIterator@6fa0450e method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@33425811timeOut:2000
-Comparing actial return value: [010, 11, 0, 4] with expected return value: [010, 11, 0, 4]
+calling constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+called constructor: public mp.scanner.ScanningIterator(java.lang.String) 10 11 0 4
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public java.lang.String mp.scanner.ScanningIterator.next() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Calling on object mp.scanner.ScanningIterator@59072e9d 1493642909 method:public boolean mp.scanner.ScanningIterator.hasNext() args:[Ljava.lang.Object;@49faf066timeOut:2000
+Comparing actial return value: [10, 11, 0, 4] with expected return value: [10, 11, 0, 4]
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4 
+10 11 0 4 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -60,13 +63,13 @@ Goodbye!
 
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4 
+10 11 0 4 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -76,13 +79,13 @@ Goodbye!
 
 *****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
 INPUT(MultipleTokenSuite:Can process multiple tokens)
-010 11 0 4 
+10 11 0 4 
 . 
 
 OUTPUT(MultipleTokenSuite:Can process multiple tokens)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -94,15 +97,15 @@ Goodbye!
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 11 0 4 
+$10 11 0 4 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -116,22 +119,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
+Provided input:10 11 0 4 
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 11 0 4 
+$10 11 0 4 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -145,22 +148,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
+Provided input:10 11 0 4 
 . 
 
 Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 11 0 4 
+$10 11 0 4 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -174,19 +177,19 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 11 0 4 
+Provided input:10 11 0 4 
 . 
 
 Expected outputs:[(.*)0(.*)]
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
-010 two 11 !@ 0 ,; 4 x. 
+10 two 11 !@ 0 ,; 4 x. 
 . 
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
 String?
 Tokens:
-010
+10
 Invalid token: two
 11
 Invalid token: !@
@@ -200,13 +203,13 @@ Goodbye!
 
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
-010 two 11 !@ 0 ,; 4 x. 
+10 two 11 !@ 0 ,; 4 x. 
 . 
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
 String?
 Tokens:
-010
+10
 Invalid token: two
 11
 Invalid token: !@
@@ -220,13 +223,13 @@ Goodbye!
 
 *****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
 INPUT(InvalidCharacterSuite:Handles Invalid Characters)
-010 two 11 !@ 0 ,; 4 x. 
+10 two 11 !@ 0 ,; 4 x. 
 . 
 
 OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
 String?
 Tokens:
-010
+10
 Invalid token: two
 11
 Invalid token: !@
@@ -242,15 +245,15 @@ Goodbye!
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 two 11 !@ 0 ,; 4 x. 
+$10 two 11 !@ 0 ,; 4 x. 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:Invalid token: two
 Invalid token: two
 Process line:11
@@ -272,22 +275,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 two 11 !@ 0 ,; 4 x. 
+Provided input:10 two 11 !@ 0 ,; 4 x. 
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 two 11 !@ 0 ,; 4 x. 
+$10 two 11 !@ 0 ,; 4 x. 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:Invalid token: two
 Invalid token: two
 Process line:11
@@ -309,22 +312,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 two 11 !@ 0 ,; 4 x. 
+Provided input:10 two 11 !@ 0 ,; 4 x. 
 . 
 
 Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010 two 11 !@ 0 ,; 4 x. 
+$10 two 11 !@ 0 ,; 4 x. 
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:Invalid token: two
 Invalid token: two
 Process line:11
@@ -346,7 +349,7 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010 two 11 !@ 0 ,; 4 x. 
+Provided input:10 two 11 !@ 0 ,; 4 x. 
 . 
 
 Expected outputs:[(.*)0(.*)]
@@ -426,60 +429,60 @@ Expected outputs:[]
 *****************************(IndexOfNotTestSuite:IndexOfNot functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
 Calling non interactive method:indexOfNot with args [Number 111112, 1, 7]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@37468787timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@58472096timeOut:2000
 Comparing actial return value: 12 with expected return value: 12
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
 Calling non interactive method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@51ec2856timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@a92be4ftimeOut:2000
 Comparing actial return value: 5 with expected return value: 5
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
 Calling non interactive method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@714f3da4timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@53e800f9timeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
 Calling non interactive method:indexOfNot with args [Start:           ,  , 6]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@1caa9eb6timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@337bbfdftimeOut:2000
 Comparing actial return value: -1 with expected return value: -1
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
 Calling non interactive method:indexOfNot with args [        The programmer never came back,  , 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@1f53481btimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@52d97ab6timeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
 Calling non interactive method:indexOfNot with args [    456   10,  , 7]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@2fcd7d3ftimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@4da6d664timeOut:2000
 Comparing actial return value: 10 with expected return value: 10
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
 Calling non interactive method:indexOfNot with args [The buzzzz of bees, z, 6]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@27e7c77ftimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOfNot(java.lang.String,char,int) args:[Ljava.lang.Object;@5e5af8e1timeOut:2000
 Comparing actial return value: 10 with expected return value: 10
 *****************************(IndexOfTestSuite:IndexOf functions correctly)*****************************
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
 Calling non interactive method:indexOf with args [2 nice zebras, z, 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6f70a21btimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@30b131b2timeOut:2000
 Comparing actial return value: 7 with expected return value: 7
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
 Calling non interactive method:indexOf with args [went for a walk, 9, 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6ae62c7etimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2924f1d8timeOut:2000
 Comparing actial return value: -1 with expected return value: -1
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
 Calling non interactive method:indexOf with args [One said to the other,  , 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@2e869098timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@524a076etimeOut:2000
 Comparing actial return value: 3 with expected return value: 3
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
 Calling non interactive method:indexOf with args [Let's run!, !, 0]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@37c36608timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5b5e7036timeOut:2000
 Comparing actial return value: 9 with expected return value: 9
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
 Calling non interactive method:indexOf with args [run run run, r, 8]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@5d497a91timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@62dbe64etimeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
 Calling non interactive method:indexOf with args [They got tired eventually,  , 5]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@617389atimeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6cff61fctimeOut:2000
 Comparing actial return value: 8 with expected return value: 8
 ### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
 Calling non interactive method:indexOf with args [0 2 4 6,  , 5]
-Calling on object class mp.scanner.ScanningIterator method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@1c8f6a90timeOut:2000
+Calling on object class mp.scanner.ScanningIterator 1453650546 method:public static int mp.scanner.ScanningIterator.indexOf(java.lang.String,char,int) args:[Ljava.lang.Object;@6e0c6a7atimeOut:2000
 Comparing actial return value: 5 with expected return value: 5
 *****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
 INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
@@ -665,13 +668,13 @@ Provided input:0010010
 Expected outputs:[(.*)10010(.*)]
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
-010    11 0     4   
+10    11 0     4   
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -681,13 +684,13 @@ Goodbye!
 
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
-010    11 0     4   
+10    11 0     4   
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -697,13 +700,13 @@ Goodbye!
 
 *****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
 INPUT(VariableSpaceSuite:Handles Variable Spaces)
-010    11 0     4   
+10    11 0     4   
 . 
 
 OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
 String?
 Tokens:
-010
+10
 11
 0
 4
@@ -715,15 +718,15 @@ Goodbye!
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010    11 0     4   
+$10    11 0     4   
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -737,22 +740,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010    11 0     4   
+Provided input:10    11 0     4   
 . 
 
-Expected outputs:[(.*)010(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
+Expected outputs:[(.*)10(.*), (.*)11(.*), (.*)0(.*), (.*)4(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010    11 0     4   
+$10    11 0     4   
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -766,22 +769,22 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010    11 0     4   
+Provided input:10    11 0     4   
 . 
 
 Expected outputs:[(.*)25(.*)]
 ### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
 Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
 Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent4)\Submission attachment(s)\Assignment1Alternate\Assignment1Alternate\bin
-$010    11 0     4   
+$10    11 0     4   
 . 
 
 Process line:String?
 String?
 Process line:Tokens:
 Tokens:
-Process line:010
-010
+Process line:10
+10
 Process line:11
 11
 Process line:0
@@ -795,7 +798,7 @@ Product: 0
 Process line:Goodbye!
 Goodbye!
 Called main:main.Assignment1
-Provided input:010    11 0     4   
+Provided input:10    11 0     4   
 . 
 
 Expected outputs:[(.*)25(.*)]

@@ -1,4 +1,4 @@
 scanner, multiple(scanner)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment1 TOTAL:103.0 MANUAL:0:29:24 SECTIONS:[source] GRADER:Dewan
+Comp401f16:Assignment1 TOTAL:105.0 FEATURES:104.7 MANUAL:0:31:0 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------

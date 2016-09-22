@@ -5,7 +5,7 @@ Grading features...
 ScanStringTestSuite:ScanString functions correctly     15.0 / 15.0
 ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
 MultipleTokenSuite:Can process multiple tokens         30.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       0.0 / 10.0 (Extra credit)
+InvalidCharacterSuite:Handles Invalid Characters       1.7 / 10.0 (Extra credit)
 TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
 IndexOfNotTestSuite:IndexOfNot functions correctly     5.0 /  5.0 (Extra credit)
 IndexOfTestSuite:IndexOf functions correctly           18.0 / 18.0
@@ -20,7 +20,7 @@ Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   0.0 /  5.0
 Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 111.0
+  Points Awarded: 112.7
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 111.0
+  Features Score: 112.7
 
 Notes from grading features:
 ----------------------------------
@@ -37,9 +37,9 @@ ScanningIteratorSuite:Scanning Iterator:
   -- java.lang.ArrayIndexOutOfBoundsException 0
 
 InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0
-  -- Correct output but errors%0.5
+  -- Incorrect output
+  -- Incorrect output
+  -- Correct output but errors
 
 IndexOf  Called in Iterator:
   -- Type ScanningIterator not defined, cannot check
@@ -56,4 +56,4 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 116.55
+  Total Score: 118.65

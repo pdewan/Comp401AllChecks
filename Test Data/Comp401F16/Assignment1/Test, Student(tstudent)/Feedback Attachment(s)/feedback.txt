@@ -5,7 +5,7 @@ Grading features...
 ScanStringTestSuite:ScanString functions correctly     0.0 / 15.0
 ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
 MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       0.0 / 10.0 (Extra credit)
+InvalidCharacterSuite:Handles Invalid Characters       1.7 / 10.0 (Extra credit)
 TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
 IndexOfNotTestSuite:IndexOfNot functions correctly     0.0 /  5.0 (Extra credit)
 IndexOfTestSuite:IndexOf functions correctly           0.0 / 18.0
@@ -20,7 +20,7 @@ Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   5.0 /  5.0
 Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 45.0
+  Points Awarded: 46.7
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 45.0
+  Features Score: 46.7
 
 Notes from grading features:
 ----------------------------------
@@ -40,12 +40,12 @@ ScanningIteratorSuite:Scanning Iterator:
   -- java.lang.ArrayIndexOutOfBoundsException 0
 
 MultipleTokenSuite:Can process multiple tokens:
-  -- Incorrect output%0.0
+  -- Incorrect output
 
 InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0
-  -- Correct output but errors%0.5
+  -- Incorrect output
+  -- Incorrect output
+  -- Correct output but errors
 
 IndexOfNotTestSuite:IndexOfNot functions correctly:
   -- Did not find a class in:[ScanningIterator, main.Assignment1]%Did not find a class in:[ScanningIterator, main.Assignment1]
@@ -66,9 +66,9 @@ IndexOfTestSuite:IndexOf functions correctly:
   -- Did not find a class in:[ScanningIterator, main.Assignment1]%Did not find a class in:[ScanningIterator, main.Assignment1]
 
 VariableSpaceSuite:Handles Variable Spaces:
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0
-  -- Incorrect output%0.0
+  -- Incorrect output
+  -- Incorrect output
+  -- Incorrect output
 
 Required Methods Called in Main or Iterator:
   -- Type main.Assignment not defined, cannot check
@@ -90,4 +90,4 @@ Iterator Methods Called in Main:
 
 
 Early benefit: 105.0%
-  Total Score: 47.25
+  Total Score: 49.35
