@@ -1,0 +1,2 @@
+Do not add oeall jar to your system classpath or extensions folder.
+Only checkstyle-6.5-all.jar and UNCChecks_6.5.0.jar should be there
