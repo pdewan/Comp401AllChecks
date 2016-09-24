@@ -1,2 +1,3 @@
-  -- Method matching indexOf:String;char;int->int not called in BeanStringScanner
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScannerBean not defined, cannot check
   -- Type ScanningIterator not defined, cannot check
