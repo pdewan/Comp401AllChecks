@@ -9,10 +9,12 @@ MultipleNumberOutputTest:Multiple Numbers Output       0.0 / 10.0
 MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
 ScannerBeanTest                                        0.0 / 25.0
 MultipleWordOutputTest:Multiple Words Output           0.0 / 10.0
-ScanString and IndexOf now called in ScannerBean (max 10pts) 0.0 / 15.0
-Scanner Bean Instantiated in Main                      0.0 /  5.0
+ScanString and IndexOf now called in ScannerBean       0.0 / 10.0
+ScanString and IndexOf now called in ScaningIterator   0.0 /  5.0 (Extra credit)
+Scanner Bean Instantiated in Main and Correct Tags/Names 0.0 /  5.0
 Screenshots enclosed                                   0.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
+Scanner Bean Tagged Correctly                          0.0 /  5.0
 ----------------------------------
   Points Awarded: 0.0
 
@@ -27,36 +29,41 @@ Illegal import or call                      -25.0 /  -25.0
 Notes from grading features:
 ----------------------------------
 MultipleQuoteOutputTest:Multiple Quotes Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MixedOutputTest:Mixed Types of Tokens Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MultipleSignOutputTest:Multiple Signs Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MultipleNumberOutputTest:Multiple Numbers Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MissingQuoteOutputTest:Missing Quote Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 ScannerBeanTest:
-  -- java.lang.NoSuchMethodError gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest.executeBean()Ljava/util/Map;
+  -- java.lang.ArrayIndexOutOfBoundsException 0
 
 MultipleWordOutputTest:Multiple Words Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
-ScanString and IndexOf now called in ScannerBean (max 10pts):
+ScanString and IndexOf now called in ScannerBean:
   -- Type ScannerBean not defined, cannot check
   -- Type ScannerBean not defined, cannot check
-  -- Type ScanningIterator not defined, cannot check
 
-Scanner Bean Instantiated in Main:
+ScanString and IndexOf now called in ScaningIterator:
+  -- Type ScannerBean not defined, cannot check
+
+Scanner Bean Instantiated in Main and Correct Tags/Names:
   -- Type main.Assignment2 not defined, cannot check
 
 Screenshots enclosed:
   -- Missing images
+
+Scanner Bean Tagged Correctly :
+  -- No class tagged: ScannerBean
 
 
 Notes from grading restrictions:

@@ -4,8 +4,8 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment1.testcases.Assignment1Suite;
-import gradingTools.shared.testcases.CheckstyleMethodCalledTestCase;
-import gradingTools.shared.testcases.IllegalImportOrCallTestCase;
+import gradingTools.sharedTestCase.CheckstyleMethodCalledTestCase;
+import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
 
 
 public class Assignment1Requirements extends AJUnitProjectRequirements {

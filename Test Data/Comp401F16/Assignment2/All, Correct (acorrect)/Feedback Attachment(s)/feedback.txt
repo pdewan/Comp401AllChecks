@@ -2,19 +2,21 @@ Grading result for: All, Correct (acorrect)
 
 Grading features...
 ----------------------------------
-MultipleQuoteOutputTest:Multiple Quotes Output         0.0 / 20.0
+MultipleQuoteOutputTest:Multiple Quotes Output         20.0 / 20.0
 MixedOutputTest:Mixed Types of Tokens Output           0.0 / 20.0
 MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
-MultipleNumberOutputTest:Multiple Numbers Output       0.0 / 10.0
+MultipleNumberOutputTest:Multiple Numbers Output       10.0 / 10.0
 MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
 ScannerBeanTest                                        0.0 / 25.0
-MultipleWordOutputTest:Multiple Words Output           0.0 / 10.0
-ScanString and IndexOf now called in ScannerBean (max 10pts) 0.0 / 15.0
-Scanner Bean Instantiated in Main                      0.0 /  5.0
+MultipleWordOutputTest:Multiple Words Output           10.0 / 10.0
+ScanString and IndexOf now called in ScannerBean       0.0 / 10.0
+ScanString and IndexOf now called in ScaningIterator   0.0 /  5.0 (Extra credit)
+Scanner Bean Instantiated in Main and Correct Tags/Names 0.0 /  5.0
 Screenshots enclosed                                   10.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
+Scanner Bean Tagged Correctly                          2.5 /  5.0
 ----------------------------------
-  Points Awarded: 10.0
+  Points Awarded: 52.5
 
 Grading restrictions...
 ----------------------------------
@@ -22,39 +24,35 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 10.0
+  Features Score: 52.5
 
 Notes from grading features:
 ----------------------------------
-MultipleQuoteOutputTest:Multiple Quotes Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
-
 MixedOutputTest:Mixed Types of Tokens Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MultipleSignOutputTest:Multiple Signs Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
-
-MultipleNumberOutputTest:Multiple Numbers Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 MissingQuoteOutputTest:Missing Quote Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
+  -- Incorrect output
 
 ScannerBeanTest:
-  -- java.lang.NoSuchMethodError gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest.executeBean()Ljava/util/Map;
+  -- java.lang.ArrayIndexOutOfBoundsException 0
 
-MultipleWordOutputTest:Multiple Words Output:
-  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
-
-ScanString and IndexOf now called in ScannerBean (max 10pts):
+ScanString and IndexOf now called in ScannerBean:
   -- Type ScannerBean not defined, cannot check
   -- Type ScannerBean not defined, cannot check
-  -- Type ScanningIterator not defined, cannot check
 
-Scanner Bean Instantiated in Main:
+ScanString and IndexOf now called in ScaningIterator:
+  -- Type ScannerBean not defined, cannot check
+
+Scanner Bean Instantiated in Main and Correct Tags/Names:
   -- Type main.Assignment2 not defined, cannot check
+
+Scanner Bean Tagged Correctly :
+  -- Multiple classes tagged:ScannerBean [grail.BeanStringScanner, main.BeanStringScanner]
 
 
 Early benefit: 105.0%
-  Total Score: 10.5
+  Total Score: 55.65

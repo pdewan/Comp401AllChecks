@@ -1,7 +1,15 @@
-Auto Grading Time: Total: 0:2:17 Average: 0:2:17
-Manual Grading Time: Total: 0:14:7 Average: 0:14:7
-Number of Source Notes: Total: 1 Average: 1.0
+Auto Grading Time: Total: 0:0:57 Average: 0:0:11
+Manual Grading Time: Total: 0:38:48 Average: 0:7:45
+Number of Source Notes: Total: 5 Average: 1.0
 
 Comp401f16:Assignment2
 --------------------------------------------------------------------------------------------------
-test, student(tstudent) TOTAL:36.75 FEATURES:35.0 MULTIPLIER:1.05 AUTO:0:2:17 MANUAL:0:14:7 SECTIONS:[source] GRADER:Dewan
+test, student(tstudent) TOTAL:110.25 FEATURES:105.0 MULTIPLIER:1.05 AUTO:0:0:25 MANUAL:0:18:4 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+all, correct (acorrect) TOTAL:52.5 FEATURES:50.0 MULTIPLIER:1.05 AUTO:0:0:15 MANUAL:0:15:4 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+extra, credit (ecredit) TOTAL:68.25 FEATURES:65.0 MULTIPLIER:1.05 AUTO:0:0:7 MANUAL:0:1:8 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+mistakes, many(mmany) TOTAL:0.0 AUTO:0:0:5 MANUAL:0:0:25 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+call, split(split) TOTAL:30.0 AUTO:0:0:3 MANUAL:0:4:6 SECTIONS:[source] GRADER:Dewan

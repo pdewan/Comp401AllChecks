@@ -12,7 +12,7 @@ import grader.basics.project.NotGradableException;
 import grader.basics.project.Project;
 import grader.sakai.project.SakaiProject;
 import grader.util.GraderCommon;
-import gradingTools.shared.testcases.OutputAndErrorCheckingTestCase;
+import gradingTools.sharedTestCase.OutputAndErrorCheckingTestCase;
 // does not make sense to make it a Junit test case as it checks the student directory
 // maybe need a better abstraction to get the student directory
 public class ImageEnclosedTestCase extends BasicTestCase {

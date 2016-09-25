@@ -1,3 +1,0 @@
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- Type ScanningIterator not defined, cannot check
