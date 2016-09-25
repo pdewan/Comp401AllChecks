@@ -1,0 +1,49 @@
+Grading result for: Lam, Nathan(nlam)
+
+Grading features...
+----------------------------------
+MultipleQuoteOutputTest:Multiple Quotes Output         0.0 / 20.0
+MixedOutputTest:Mixed Types of Tokens Output           0.0 / 20.0
+MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
+MultipleNumberOutputTest:Multiple Numbers Output       10.0 / 10.0
+MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
+ScannerBeanTest                                        25.0 / 25.0
+MultipleWordOutputTest:Multiple Words Output           10.0 / 10.0
+ScanString and IndexOf now called in ScannerBean (max 10pts) 0.0 / 15.0
+Scanner Bean Instantiated in Main                      0.0 /  5.0
+Screenshots enclosed                                   10.0 / 10.0
+Breakpoint step into/over/return screenhots            0.0 / 20.0
+----------------------------------
+  Points Awarded: 55.0
+
+Grading restrictions...
+----------------------------------
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 55.0
+
+Notes from grading features:
+----------------------------------
+MultipleQuoteOutputTest:Multiple Quotes Output:
+  -- Incorrect output
+
+MixedOutputTest:Mixed Types of Tokens Output:
+  -- Incorrect output
+
+MultipleSignOutputTest:Multiple Signs Output:
+  -- Incorrect output
+
+MissingQuoteOutputTest:Missing Quote Output:
+  -- Incorrect output
+
+ScanString and IndexOf now called in ScannerBean (max 10pts):
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- Type ScanningIterator not defined, cannot check
+
+Scanner Bean Instantiated in Main:
+  -- Type main.Assignment2 not defined, cannot check
+
+  Total Score: 55.0
