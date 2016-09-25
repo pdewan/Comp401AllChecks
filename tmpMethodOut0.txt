@@ -67,4 +67,334 @@ Creating:tmpMethodOut1.txt
 ### @ScannerBean defined: 0.0
 ### @ScannerBean defined: 1.0
 ### Illegal import or call test case: 0.0
+Projeect requirements:gradingTools.comp401f16.assignment2.Assignment2Requirements@1ea9f009
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Process line:String?
+String?
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)   weird spacing    (.*), (.*)(.*)uot(.*)23more_numbers234(.*), (.*)(.*)uot(.*)12334(.*), (.*)(.*)uot(.*) AND SYMBOLS #@!(.*), (.*)(.*)uot(.*) 1 ! - end(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end"
+.
+
+Process line:String?
+String?
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end"
+.
+
+Expected outputs:[(.*)(.*)uot(.*)   weird spacing    (.*), (.*)(.*)uot(.*)23more_numbers234(.*), (.*)(.*)uot(.*)12334(.*), (.*)(.*)uot(.*) AND SYMBOLS #@!(.*), (.*)(.*)uot(.*) 1 ! - end(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 0.0
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Process line:String?
+String?
+Process line:>>>ERROR! MISSING QUOTATION BELOW<<<
+>>>ERROR! MISSING QUOTATION BELOW<<<
+Process line:quoted string: 12
+quoted string: 12
+Process line:number: 
+number: 
+Process line:number: 
+number: 
+Process line:number: 3
+number: 3
+Process line:word: and
+word: and
+Process line:word: to
+word: to
+Process line:word: the
+word: the
+Process line:number: 4!
+number: 4!
+Process line:number: 
+number: 
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)12   3 and to the 4!  (.*), (.*)(.*)ord(.*)CAPS(.*), (.*)(.*)umber(.*)000231(.*), (.*)(.*)uot(.*)oneQuotedword(.*), (.*)(.*)ord(.*)I(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I
+.
+
+Process line:String?
+String?
+Process line:>>>ERROR! MISSING QUOTATION BELOW<<<
+>>>ERROR! MISSING QUOTATION BELOW<<<
+Process line:quoted string: 12
+quoted string: 12
+Process line:number: 
+number: 
+Process line:number: 
+number: 
+Process line:number: 3
+number: 3
+Process line:word: and
+word: and
+Process line:word: to
+word: to
+Process line:word: the
+word: the
+Process line:number: 4!
+number: 4!
+Process line:number: 
+number: 
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I
+.
+
+Expected outputs:[(.*)(.*)uot(.*)12   3 and to the 4!  (.*), (.*)(.*)ord(.*)CAPS(.*), (.*)(.*)umber(.*)000231(.*), (.*)(.*)uot(.*)oneQuotedword(.*), (.*)(.*)ord(.*)I(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 0.0
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$- - + + - 
+. 
+
+Process line:String?
+String?
+Process line:number: -
+number: -
+Process line:number: -
+number: -
+Process line:number: +
+number: +
+Process line:number: +
+number: +
+Process line:number: -
+number: -
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
+	at java.lang.String.charAt(String.java:658)
+	at assignment02.Bean.scanString(Bean.java:84)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:- - + + - 
+. 
+
+Expected outputs:[(.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q-\E(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$- - + + -
+.
+
+Process line:String?
+String?
+Process line:number: -
+number: -
+Process line:number: -
+number: -
+Process line:number: +
+number: +
+Process line:number: +
+number: +
+Process line:number: -
+number: -
+Process line:String?
+String?
+Process line:GoodBye!
+GoodBye!
+Called main:main.Assignment2
+Provided input:- - + + -
+.
+
+Expected outputs:[(.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q-\E(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 0.0
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$10 11 0 4 
+. 
+
+Process line:String?
+String?
+Process line:number: 10
+number: 10
+Process line:number: 11
+number: 11
+Process line:number: 0
+number: 0
+Process line:number: 4
+number: 4
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 10
+	at java.lang.String.charAt(String.java:658)
+	at assignment02.Bean.scanString(Bean.java:84)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)(.*)umber(.*)10(.*), (.*)(.*)umber(.*)11(.*), (.*)(.*)umber(.*)0(.*), (.*)(.*)umber(.*)4(.*)]
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Process line:String?
+String?
+Process line:>>>ERROR! MISSING QUOTATION BELOW<<<
+>>>ERROR! MISSING QUOTATION BELOW<<<
+Process line:quoted string: an
+quoted string: an
+Process line:word: unfinished
+word: unfinished
+Process line:word: quote..."
+word: quote..."
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)an unfinished quote...(.*), (.*)(.*)uot(.*) One quote   there(.*), (.*)(.*)uot(.*)   and  (.*), (.*)(.*)uot(.*) the other so remote (.*), (.*)(.*)uot(.*)!! !# ! @  (.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @  
+.
+
+Process line:String?
+String?
+Process line:>>>ERROR! MISSING QUOTATION BELOW<<<
+>>>ERROR! MISSING QUOTATION BELOW<<<
+Process line:quoted string: an
+quoted string: an
+Process line:word: unfinished
+word: unfinished
+Process line:word: quote..."
+word: quote..."
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at assignment02.Bean.scanString(Bean.java:60)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @  
+.
+
+Expected outputs:[(.*)(.*)uot(.*)an unfinished quote...(.*), (.*)(.*)uot(.*) One quote   there(.*), (.*)(.*)uot(.*)   and  (.*), (.*)(.*)uot(.*) the other so remote (.*), (.*)(.*)uot(.*)!! !# ! @  (.*)]
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 0.0
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 1.0
+Finding constructor matching:
+calling constructor: public assignment02.Bean() 
+called constructor: public assignment02.Bean() 
+Calling  interactive method:setScannedString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut2.txt
+number: 10
+number: 11
+number: 0
+number: 4
+Finding constructor matching:
+calling constructor: public assignment02.Bean() 
+called constructor: public assignment02.Bean() 
+Calling  interactive method:setScannedString with args [10 11 0 4] and input 10 11 0 4
+.
+
+Creating:tmpMethodOut3.txt
+number: 10
+number: 11
+number: 0
+number: 4
+Creating:tmpIn
+Deleting:tmpMethodOut3.txt
+Creating:tmpMethodOut2.txt
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$DOTH I perhaps surmise surprise 
+. 
+
+Process line:String?
+String?
+Process line:word: DOTH
+word: DOTH
+Process line:word: I
+word: I
+Process line:word: perhaps
+word: perhaps
+Process line:word: surmise
+word: surmise
+Process line:word: surprise
+word: surprise
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 32
+	at java.lang.String.charAt(String.java:658)
+	at assignment02.Bean.scanString(Bean.java:84)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:DOTH I perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)perhaps(.*), (.*)(.*)ord(.*)surmise(.*), (.*)(.*)ord(.*)surprise(.*)]
+Creating:tmpMethodOut2.txt
+### ScannerBean!scanString:String->void: 0.0
+### ScannerBean!indexOf:String;char;int->int: 0.0
+Creating:tmpMethodOut2.txt
+### ScannerBean!scanString:String->void: 0.0
+Creating:tmpMethodOut2.txt
+### main.Assignment2!ScannerBean: 0.0
+Creating:tmpMethodOut2.txt
+### Image enclosed test case: 1.0
+Creating:tmpMethodOut2.txt
+Creating:tmpMethodOut2.txt
+### @ScannerBean defined: 0.0
+### @ScannerBean defined: 1.0
+### Illegal import or call test case: 0.0
+Read spreadsheet table of size:8
 *****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Feedback Attachment(s)\results.json

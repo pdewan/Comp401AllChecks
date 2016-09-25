@@ -2,5 +2,5 @@ extra, credit (ecredit)
 --------------------------------------------------------------------------------------------------
 Comp401f16:Assignment1 TOTAL:49.35 FEATURES:46.7 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:23:25 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment2 TOTAL:0.0 AUTO:0:0:0 MANUAL:0:1:40 SECTIONS:[source] GRADERS:[Semion, Dewan]
+Comp401f16:Assignment2 TOTAL:0.0 AUTO:0:0:0 MANUAL:0:2:32 SECTIONS:[source] GRADERS:[Semion, Dewan]
 --------------------------------------------------------------------------------------------------

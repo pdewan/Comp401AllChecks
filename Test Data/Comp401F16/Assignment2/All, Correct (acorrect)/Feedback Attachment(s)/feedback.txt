@@ -51,7 +51,7 @@ Scanner Bean Instantiated in Corectly Named Main:
   -- Type main.Assignment2 not defined, cannot check
 
 Scanner Bean Tagged Correctly :
-  -- Multiple classes tagged:ScannerBean [grail.BeanStringScanner, main.BeanStringScanner]
+  -- Multiple classes tagged:ScannerBean [main.BeanStringScanner, grail.BeanStringScanner]
 
 
 Early benefit: 105.0%

@@ -54,6 +54,8 @@ Scanner Bean Instantiated in Corectly Named Main:
 Notes from grading restrictions:
 ----------------------------------
 Illegal import or call:
-  -- Illegal type or call
+  -- Illegal type or call in:
+illegalMethodCall: (Bean.java:42) called disallowed method scanString-->String.split
+
 
   Total Score: 35.0

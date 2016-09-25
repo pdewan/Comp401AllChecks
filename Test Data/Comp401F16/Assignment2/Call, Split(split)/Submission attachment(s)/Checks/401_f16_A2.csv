@@ -1,12 +1,12 @@
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, ScanningIterator//EC]
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Assignment2.java,typeDefined,Assignment2,No Expected Tag
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Assignment2.java,invalidPackageName,Assignment2,assignment02,[test  lectures  main  mp  grail]
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,typeDefined,Bean,@ScannerBean
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,invalidPackageName,Bean,assignment02,[test  lectures  main  mp  grail]
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,uncessaryMethodCall,Bean,scanString-->String.split
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,illegalMethodCall,Bean,scanString-->String.split
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,magic.number,Bean,9,9
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       indexOfNot:String;char;int->int//EC 
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       (.*)!hasNext:->boolean//EC 
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       (.*)!next:->String//EC
-0,Sun Sep 25 11:24:37 EDT 2016,true,assignment02\Bean.java,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, ScanningIterator//EC]
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Assignment2.java,typeDefined,Assignment2,No Expected Tag
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Assignment2.java,invalidPackageName,Assignment2,assignment02,[test  lectures  main  mp  grail]
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,typeDefined,Bean,@ScannerBean
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,invalidPackageName,Bean,assignment02,[test  lectures  main  mp  grail]
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,uncessaryMethodCall,Bean,scanString-->String.split
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,illegalMethodCall,Bean,scanString-->String.split
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,magic.number,Bean,9,9
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       indexOfNot:String;char;int->int//EC 
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       (.*)!hasNext:->boolean//EC 
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,missingMethodCall,Bean,       (.*)!next:->String//EC
+0,Sun Sep 25 12:11:43 EDT 2016,true,assignment02\Bean.java,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean

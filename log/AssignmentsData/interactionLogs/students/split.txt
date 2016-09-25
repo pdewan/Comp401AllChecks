@@ -1,4 +1,4 @@
 call, split(split)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment2 TOTAL:35.0 MANUAL:0:28:25 SECTIONS:[source] GRADER:Dewan
+Comp401f16:Assignment2 TOTAL:35.0 MANUAL:1:8:38 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
