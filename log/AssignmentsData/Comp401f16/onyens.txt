@@ -1,4 +1,4 @@
-timeout
+acorrect
+ecredit
+mmany
 tstudent
-tstudent3
-tstudent4

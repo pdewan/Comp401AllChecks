@@ -342,3 +342,32 @@ Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)
 *****************************(Scanner Bean Tagged )*****************************
 ### @ScannerBean defined: 0.0
 ### @ScannerBean defined: 0.5
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 0.0
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 0.0
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 0.0
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 0.0
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 0.0
+*****************************(ScannerBeanTest)*****************************
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 0.0
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 0.0
+*****************************(ScanString and IndexOf now called in ScannerBean (max 10pts))*****************************
+### ScannerBean!scanString:String->void: 0.0
+### ScannerBean!indexOf:String;char;int->int: 0.0
+### ScanningIterator!indexOf:String;char;int->int: 0.0
+*****************************(Scanner Bean Instantiated in Main)*****************************
+### main.Assignment2!ScannerBean: 0.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 1.0

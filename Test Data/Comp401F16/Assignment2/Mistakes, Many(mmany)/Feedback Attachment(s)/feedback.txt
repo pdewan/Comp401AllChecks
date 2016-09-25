@@ -13,7 +13,6 @@ ScanString and IndexOf now called in ScannerBean (max 10pts) 0.0 / 15.0
 Scanner Bean Instantiated in Main                      0.0 /  5.0
 Screenshots enclosed                                   0.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
-Scanner Bean Tagged                                    0.0 /  5.0
 ----------------------------------
   Points Awarded: 0.0
 
@@ -28,25 +27,25 @@ Illegal import or call                      -25.0 /  -25.0
 Notes from grading features:
 ----------------------------------
 MultipleQuoteOutputTest:Multiple Quotes Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 MixedOutputTest:Mixed Types of Tokens Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 MultipleSignOutputTest:Multiple Signs Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 MultipleNumberOutputTest:Multiple Numbers Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 MissingQuoteOutputTest:Missing Quote Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 ScannerBeanTest:
-  -- java.lang.ArrayIndexOutOfBoundsException 0
+  -- java.lang.NoSuchMethodError gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest.executeBean()Ljava/util/Map;
 
 MultipleWordOutputTest:Multiple Words Output:
-  -- Incorrect output
+  -- java.lang.NoSuchMethodError gradingTools.shared.testcases.OutputAndErrorCheckingTestCase.callInteractiveMain()Z
 
 ScanString and IndexOf now called in ScannerBean (max 10pts):
   -- Type ScannerBean not defined, cannot check
@@ -58,9 +57,6 @@ Scanner Bean Instantiated in Main:
 
 Screenshots enclosed:
   -- Missing images
-
-Scanner Bean Tagged :
-  -- No class tagged: ScannerBean
 
 
 Notes from grading restrictions:
