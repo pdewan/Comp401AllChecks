@@ -1,0 +1,70 @@
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 1.0
+Finding constructor matching:
+calling constructor: public assignment02.Bean() 
+called constructor: public assignment02.Bean() 
+Calling  interactive method:setScannedString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut1.txt
+number: 10
+number: 11
+number: 0
+number: 4
+Finding constructor matching:
+calling constructor: public assignment02.Bean() 
+called constructor: public assignment02.Bean() 
+Calling  interactive method:setScannedString with args [10 11 0 4] and input 10 11 0 4
+.
+
+Creating:tmpMethodOut2.txt
+number: 10
+number: 11
+number: 0
+number: 4
+Creating:tmpIn
+Deleting:tmpMethodOut2.txt
+Creating:tmpMethodOut1.txt
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" assignment02.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Submission attachment(s)\assignment02\assignment02\bin
+$DOTH I perhaps surmise surprise 
+. 
+
+Process line:String?
+String?
+Process line:word: DOTH
+word: DOTH
+Process line:word: I
+word: I
+Process line:word: perhaps
+word: perhaps
+Process line:word: surmise
+word: surmise
+Process line:word: surprise
+word: surprise
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: String index out of range: 32
+	at java.lang.String.charAt(String.java:658)
+	at assignment02.Bean.scanString(Bean.java:84)
+	at assignment02.Bean.setScannedString(Bean.java:21)
+	at assignment02.Assignment2.processInput(Assignment2.java:17)
+	at assignment02.Assignment2.main(Assignment2.java:7)
+Called main:main.Assignment2
+Provided input:DOTH I perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)perhaps(.*), (.*)(.*)ord(.*)surmise(.*), (.*)(.*)ord(.*)surprise(.*)]
+Creating:tmpMethodOut1.txt
+### ScannerBean!scanString:String->void: 0.0
+### ScannerBean!indexOf:String;char;int->int: 0.0
+Creating:tmpMethodOut1.txt
+### ScannerBean!scanString:String->void: 0.0
+Creating:tmpMethodOut1.txt
+### main.Assignment2!ScannerBean: 0.0
+Creating:tmpMethodOut1.txt
+### Image enclosed test case: 1.0
+Creating:tmpMethodOut1.txt
+Creating:tmpMethodOut1.txt
+### @ScannerBean defined: 0.0
+### @ScannerBean defined: 1.0
+### Illegal import or call test case: 0.0
+*****-- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Call, Split(split)\Feedback Attachment(s)\results.json

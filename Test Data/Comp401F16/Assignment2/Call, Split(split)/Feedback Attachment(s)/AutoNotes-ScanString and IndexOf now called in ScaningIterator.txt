@@ -1,0 +1,1 @@
+  -- Type ScannerBean not defined, cannot check
