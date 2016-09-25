@@ -3,7 +3,7 @@ Grading result for: Extra, Credit (ecredit)
 Grading features...
 ----------------------------------
 MultipleQuoteOutputTest:Multiple Quotes Output         20.0 / 20.0
-MixedOutputTest:Mixed Types of Tokens Output           0.0 / 20.0
+MixedOutputTest:Mixed Types of Tokens Output           0.0 / 10.0
 MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
 MultipleNumberOutputTest:Multiple Numbers Output       10.0 / 10.0
 MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
@@ -11,7 +11,7 @@ ScannerBeanTest                                        25.0 / 25.0
 MultipleWordOutputTest:Multiple Words Output           10.0 / 10.0
 ScanString and IndexOf now called in ScannerBean       0.0 / 10.0
 ScanString and IndexOf now called in ScaningIterator   0.0 /  5.0 (Extra credit)
-Scanner Bean Instantiated in Main and Correct Tags/Names 0.0 /  5.0
+Scanner Bean Instantiated in Corectly Named Main       0.0 /  5.0
 Screenshots enclosed                                   0.0 / 10.0
 Breakpoint step into/over/return screenhots            0.0 / 20.0
 Scanner Bean Tagged Correctly                          5.0 /  5.0
@@ -44,7 +44,7 @@ ScanString and IndexOf now called in ScannerBean:
 ScanString and IndexOf now called in ScaningIterator:
   -- Type ScannerBean not defined, cannot check
 
-Scanner Bean Instantiated in Main and Correct Tags/Names:
+Scanner Bean Instantiated in Corectly Named Main:
   -- Type main.Assignment2 not defined, cannot check
 
 Screenshots enclosed:

@@ -1392,7 +1392,7 @@ Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)
 ### ScannerBean!indexOf:String;char;int->int: 0.0
 *****************************(ScanString and IndexOf now called in ScaningIterator)*****************************
 ### ScannerBean!scanString:String->void: 0.0
-*****************************(Scanner Bean Instantiated in Main and Correct Tags/Names)*****************************
+*****************************(Scanner Bean Instantiated in Corectly Named Main)*****************************
 ### main.Assignment2!ScannerBean: 0.0
 *****************************(Screenshots enclosed)*****************************
 ### Image enclosed test case: 0.0

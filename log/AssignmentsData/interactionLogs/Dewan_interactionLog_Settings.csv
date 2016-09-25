@@ -716,3 +716,11 @@
 1474815621010,11:00:21,NavigationInitiated
 1474815621217,11:00:21,GraderSettingsEnded
 1474815623739,11:00:23,ProjectStepperStarted
+1474817042845,11:24:02,ModuleUserChange,null
+1474817042861,11:24:02,AnimationPauseTimeUserChange,2
+1474817042861,11:24:02,ProblemUserChange,null
+1474817045540,11:24:05,GraderSettingsDisplayed
+1474817045540,11:24:05,GraderSettingsStarted,Comp401f16,Assignment2,acorrect,tstudent,Automatic and then manual,Grading Status,All
+1474817054717,11:24:14,NavigationInitiated
+1474817054921,11:24:14,GraderSettingsEnded
+1474817057708,11:24:17,ProjectStepperStarted

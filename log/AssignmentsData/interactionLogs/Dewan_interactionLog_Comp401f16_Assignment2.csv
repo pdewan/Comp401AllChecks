@@ -230,3 +230,36 @@
 1474815680440,11:01:20,UserNextStep,mmany,mistakesCOMMMA many
 1474815680444,11:01:20,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
 1474815680457,11:01:20,ProjectStepStarted,split,mistakesCOMMMA many
+1474817057708,11:24:17,ProjectStepperStarted
+1474817057920,11:24:17,NavigationKindChange,Automatic
+1474817057922,11:24:17,NavigationStarted
+1474817057923,11:24:17,AutomaticNavigationStarted
+1474817057955,11:24:17,ProjectStepStarted,acorrect,
+1474817066642,11:24:26,ProjectStepEnded,acorrect,allCOMMMA correct ,55.65,52.5,0.0,1.05,,,0
+1474817066642,11:24:26,ProjectStepStarted,ecredit,allCOMMMA correct 
+1474817070280,11:24:30,ProjectStepEnded,ecredit,extraCOMMMA credit ,73.5,70.0,0.0,1.05,,,0
+1474817070280,11:24:30,ProjectStepStarted,mmany,extraCOMMMA credit 
+1474817075100,11:24:35,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1474817075100,11:24:35,ProjectStepStarted,split,mistakesCOMMMA many
+1474817082503,11:24:42,ProjectStepEnded,split,callCOMMMA split,35.0,35.0,0.0,1.0,,,0
+1474817082503,11:24:42,ProjectStepStarted,tstudent,callCOMMMA split
+1474817087224,11:24:47,ProjectStepEnded,tstudent,testCOMMMA student,99.75,95.0,0.0,1.05,,,0
+1474817087245,11:24:47,AutomaticNavigationEnded
+1474817087245,11:24:47,NavigationKindChange,Manual
+1474817087245,11:24:47,NavigationStarted
+1474817087245,11:24:47,ManualNavigationStarted
+1474817087245,11:24:47,ProjectStepStarted,acorrect,testCOMMMA student
+1474817087414,11:24:47,ManualNavigationEnded
+1474817114595,11:25:14,ProceedWhenDoneChanged,acorrect,allCOMMMA correct 
+1474817115392,11:25:15,UserNextStep,acorrect,allCOMMMA correct 
+1474817115407,11:25:15,ProjectStepEnded,acorrect,allCOMMMA correct ,55.65,52.5,0.0,1.05,,,0
+1474817115421,11:25:15,ProjectStepStarted,ecredit,allCOMMMA correct 
+1474817122295,11:25:22,UserNextStep,ecredit,extraCOMMMA credit 
+1474817122295,11:25:22,ProjectStepEnded,ecredit,extraCOMMMA credit ,73.5,70.0,0.0,1.05,,,0
+1474817122307,11:25:22,ProjectStepStarted,mmany,extraCOMMMA credit 
+1474817128678,11:25:28,UserNextStep,mmany,mistakesCOMMMA many
+1474817128682,11:25:28,ProjectStepEnded,mmany,mistakesCOMMMA many,0.0,0.0,0.0,1.05,,,0
+1474817128694,11:25:28,ProjectStepStarted,split,mistakesCOMMMA many
+1474817169346,11:26:09,SourceVisited,split,callCOMMMA split
+1474817187055,11:26:27,ProjectStepEnded,split,callCOMMMA split,35.0,35.0,0.0,1.0,,,0
+1474817187055,11:26:27,ProjectStepperEnded
