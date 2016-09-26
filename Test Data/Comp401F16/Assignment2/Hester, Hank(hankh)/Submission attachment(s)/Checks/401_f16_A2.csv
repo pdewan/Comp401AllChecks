@@ -1,0 +1,9 @@
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment2, @ScannerBean, ScanningIterator//EC]
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Assignment2.java,typeDefined,Assignment2,main.Assignment2
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,typeDefined,Bean,@ScannerBean
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,uncessaryMethodCall,Bean,scanString-->String.equals
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,missingMethodCall,Bean,       indexOf:String;char;int->int 
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,missingMethodCall,Bean,       indexOfNot:String;char;int->int//EC 
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,missingMethodCall,Bean,       (.*)!hasNext:->boolean//EC 
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Bean.java,missingMethodCall,Bean,       (.*)!next:->String//EC
+0,Mon Sep 26 15:39:27 EDT 2016,true,main/Test.java,typeDefined,Test,No Expected Tag
