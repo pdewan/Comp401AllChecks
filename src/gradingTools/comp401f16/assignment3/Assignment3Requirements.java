@@ -60,11 +60,12 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      	
      	// Properties defined
      	addFeature("Properties defined for token classes", 15, 
-     			new CheckstylePropertyDefinedTestCase("@Word= Input:String AND Value:String"),
-     			new CheckstylePropertyDefinedTestCase("@Number= Input:String AND Value:int"),
-     			new CheckstylePropertyDefinedTestCase("@Quote= Input:String"),
-     			new CheckstylePropertyDefinedTestCase("@Start= Input:String"),
-     			new CheckstylePropertyDefinedTestCase("@End= Input:String")
+     			new CheckstylePropertyDefinedTestCase("Word", "Input", "String"),
+				new CheckstylePropertyDefinedTestCase("Word", "Value", "int"),
+				new CheckstylePropertyDefinedTestCase("Number", "Input", "String"),
+				new CheckstylePropertyDefinedTestCase("Quote", "Input", "String"),
+				new CheckstylePropertyDefinedTestCase("Start", "Input", "String"),
+				new CheckstylePropertyDefinedTestCase("End", "Input", "String")
      			// How do I check for setters?
      			);
      	
