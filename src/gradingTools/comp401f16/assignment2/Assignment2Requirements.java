@@ -1,5 +1,6 @@
 package gradingTools.comp401f16.assignment2;
 
+import grader.basics.execution.BasicProjectExecution;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
@@ -20,7 +21,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
      	addDueDate("09/17/2016 00:59:00", 0.85); // fri after due
      	addDueDate("12/05/2016 00:59:00", 0.8); // infinity
      	
-     	
+     	BasicProjectExecution.setReRunInfiniteProcesses(true);
       // Functionality
     	addJUnitTestSuite(Assignment2Suite.class);
     	GradingMode.setGraderRun(true);
@@ -34,11 +35,11 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
 	    	   		"ScannerBean",    	    	   		
 	    	   		"indexOf:String;char;int->int")); 
     	// Method calls
-    	addFeature("ScanString and IndexOf now called in ScaningIterator", 5,
+    	addFeature("IndexOf called in ScanningIterator", 5,
     			true,
-	   		new CheckstyleMethodCalledTestCase(
-	   				"ScannerBean", 
-	   				"scanString:String->void"));
+    			new CheckstyleMethodCalledTestCase(
+    	    	    	"ScanningIterator",    	    	   		
+    	    	    	 "indexOf:String;char;int->int"));
 	   		
     	// Classes Instantiated
     	addFeature("Scanner Bean Instantiated in Corectly Named Main", 5,
@@ -49,7 +50,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
         addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
         addManualFeature("Breakpoint step into/over/return screenhots", 20);
 
-        addFeature("Scanner Bean Tagged Correctly ", 5, new ClassDefinedTestCase("@ScannerBean"));
+     //   addFeature("Scanner Bean Tagged Correctly ", 5, new ClassDefinedTestCase("@ScannerBean"));
         addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
 
     }
