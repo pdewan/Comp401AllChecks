@@ -1,0 +1,37 @@
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Start.java,typeDefined,Start,@Start
+-1,Tue Sep 27 14:27:29 EDT 2016,true,main\TestRunner.java,typeDefined,TestRunner,No Expected Tag
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\NumberToken.java,typeDefined,NumberToken,@Number
+-1,Tue Sep 27 14:27:29 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,main.Assignment3
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Plus.java,typeDefined,Plus,@Plus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\End.java,typeDefined,End,@End
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Word.java,typeDefined,Word,@Word
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\MinusToken.java,typeDefined,MinusToken,@Minus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\PlusToken.java,typeDefined,PlusToken,@Plus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,mp\scanner\ScanningIterator.java,typeDefined,ScanningIterator,ScanningIterator//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\WordToken.java,typeDefined,WordToken,@Word
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\EndToken.java,typeDefined,EndToken,@End
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Number.java,typeDefined,Number,@Number
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Quote.java,typeDefined,Quote,@Quote
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\StartToken.java,typeDefined,StartToken,@Start
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Number
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Word
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Quote
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Start
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@End
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Plus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Minus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\ScannerBean.java,typeDefined,ScannerBean,@ScannerBean
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\interfaces\Minus.java,typeDefined,Minus,@Minus//EC
+-1,Tue Sep 27 14:27:29 EDT 2016,true,grail\tokenBeans\QuoteToken.java,typeDefined,QuoteToken,@Quote
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\interfaces\Start.java,expectedTypes,[main.Assignment3, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC]
+3,Tue Sep 27 14:27:36 EDT 2016,true,main\TestRunner.java,illegalTypeImported,TestRunner,grader.basics.execution.GradingMode,TestRunner
+3,Tue Sep 27 14:27:36 EDT 2016,true,main\Assignment3.java,variableHasClassType,Assignment3,ScannerBean,myScanner
+3,Tue Sep 27 14:27:36 EDT 2016,true,mp\scanner\ScanningIterator.java,functionAssignsGlobal,ScanningIterator,hasNext
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,variableHasClassType,ScannerBean,ScanningIterator,iterator
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,classHasAtLeastOneInterface,ScannerBean,grail.ScannerBean
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       indexOf:String;char;int->int 
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       indexOfNot:String;char;int->int//EC 
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,expectedClassInstantiations,ScannerBean,grail.ScannerBean,@Plus//EC
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,expectedClassInstantiations,ScannerBean,grail.ScannerBean,@Minus//EC
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,expectedDeclaredSignatures,ScannerBean,indexOf:String;char;int->int,ScannerBean
+3,Tue Sep 27 14:27:36 EDT 2016,true,grail\ScannerBean.java,expectedDeclaredSignatures,ScannerBean,indexOfNot:String;char;int->int//EC,ScannerBean
