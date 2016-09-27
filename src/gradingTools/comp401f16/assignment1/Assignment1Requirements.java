@@ -4,8 +4,8 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment1.testcases.Assignment1Suite;
-import gradingTools.sharedTestCase.CheckstyleMethodCalledTestCase;
-import gradingTools.sharedTestCase.IllegalImportOrCallTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 
 
 public class Assignment1Requirements extends AJUnitProjectRequirements {
@@ -65,7 +65,7 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
     	
         addFeature("Screenshots enclosed", 5, new ImageEnclosedTestCase());
         addManualFeature("Screenshots show tests", 10, false);
-        addRestriction("Illegal import or call", 25, new IllegalImportOrCallTestCase());
+        addRestriction("Illegal import or call", 25, new CheckStyleIllegalImportOrCallTestCase());
         
 
 

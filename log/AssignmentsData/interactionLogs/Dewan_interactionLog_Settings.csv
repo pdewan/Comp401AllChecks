@@ -804,3 +804,13 @@
 1474920149746,16:02:29,NavigationInitiated
 1474920149777,16:02:29,GraderSettingsEnded
 1474920149918,16:02:29,ProjectStepperStarted
+1474994829352,12:47:09,ModuleUserChange,null
+1474994829368,12:47:09,AnimationPauseTimeUserChange,2
+1474994829368,12:47:09,ProblemUserChange,null
+1474994830111,12:47:10,GraderSettingsDisplayed
+1474994830112,12:47:10,GraderSettingsStarted,Comp401f16,Assignment2,hankh,hankh,Automatic and then manual,Grading Status,All
+1474994939676,12:48:59,ModuleUserChange,null
+1474994939679,12:48:59,AnimationPauseTimeUserChange,2
+1474994939681,12:48:59,ProblemUserChange,null
+1474994940456,12:49:00,GraderSettingsDisplayed
+1474994940456,12:49:00,GraderSettingsStarted,Comp401f16,Assignment2,hankh,hankh,Automatic and then manual,Grading Status,All
