@@ -10,7 +10,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckStyleVariableHasClassTypeTest
 import gradingTools.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
-import gradingTools.sharedTestCase.checkstyle.CheckstylePropertyDefinedTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
 
 public class Assignment3Requirements extends AJUnitProjectRequirements {
@@ -60,12 +60,12 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      	
      	// Properties defined
      	addFeature("Properties defined for token classes", 15, 
-     			new CheckstylePropertyDefinedTestCase("Word", "Input", "String"),
-				new CheckstylePropertyDefinedTestCase("Word", "Value", "int"),
-				new CheckstylePropertyDefinedTestCase("Number", "Input", "String"),
-				new CheckstylePropertyDefinedTestCase("Quote", "Input", "String"),
-				new CheckstylePropertyDefinedTestCase("Start", "Input", "String"),
-				new CheckstylePropertyDefinedTestCase("End", "Input", "String")
+     			new CheckStylePropertyDefinedTestCase("Word", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Word", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Number", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Quote", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Start", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("End", "Input", "String")
      			// How do I check for setters?
      			);
      	
