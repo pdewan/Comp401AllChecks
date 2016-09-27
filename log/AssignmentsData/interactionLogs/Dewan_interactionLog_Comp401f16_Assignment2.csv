@@ -447,3 +447,23 @@
 1474820254467,12:17:34,ProjectStepStarted,split,mistakesCOMMMA many
 1474820577351,12:22:57,ProjectStepEnded,split,callCOMMMA split,35.0,35.0,0.0,1.0,,,0
 1474820577354,12:22:57,ProjectStepperEnded
+1474919915139,15:58:35,ProjectStepperStarted
+1474919915358,15:58:35,NavigationKindChange,Automatic
+1474919915358,15:58:35,NavigationStarted
+1474919915358,15:58:35,AutomaticNavigationStarted
+1474919915405,15:58:35,ProjectStepStarted,hankh,
+1474919941853,15:59:01,ProjectStepperStarted
+1474919941915,15:59:01,NavigationKindChange,Automatic
+1474919941924,15:59:01,NavigationStarted
+1474919941924,15:59:01,AutomaticNavigationStarted
+1474919941927,15:59:01,ProjectStepStarted,hankh,
+1474920023751,16:00:23,ProjectStepperStarted
+1474920023798,16:00:23,NavigationKindChange,Automatic
+1474920023798,16:00:23,NavigationStarted
+1474920023798,16:00:23,AutomaticNavigationStarted
+1474920023813,16:00:23,ProjectStepStarted,hankh,
+1474920149918,16:02:29,ProjectStepperStarted
+1474920149965,16:02:29,NavigationKindChange,Automatic
+1474920149980,16:02:29,NavigationStarted
+1474920149980,16:02:29,AutomaticNavigationStarted
+1474920149980,16:02:29,ProjectStepStarted,hankh,
