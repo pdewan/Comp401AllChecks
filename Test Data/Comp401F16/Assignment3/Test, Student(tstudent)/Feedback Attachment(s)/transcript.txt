@@ -1,314 +1,386 @@
-*****************************(Multi Property Token Beans)*****************************
-Testcase:Number Token Bean Case
-Finding class matching:null, Number, .*Number.*, .*Number.*
+*****************************(PlusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 1.0
 Finding constructor matching:class java.lang.String
-calling method: public main.NumberToken(java.lang.String) 006500
-called method: public main.NumberToken(java.lang.String) 006500
-calling method: public void main.NumberToken.setInput(java.lang.String) with args 006500
-called method: public void main.NumberToken.setInput(java.lang.String) with args:006500 result:null
-calling method: public int main.NumberToken.getValue() with args 
-called method: public int main.NumberToken.getValue() with args: result:6500
-*****************************(Multi Property Token Beans)*****************************
-Testcase:Word Token Bean Case
-Finding class matching:null, Word, .*Word.*, .*Word.*
+Calling constructor public main.PlusToken(java.lang.String)with args:[+]timeOut:2000
+calling constructor: public main.PlusToken(java.lang.String) +
+called constructor: public main.PlusToken(java.lang.String) +
+Calling non interactive method:setInput with args [+]
+Calling on object main.PlusToken@34cf5a97 886004375 method:public void main.PlusToken.setInput(java.lang.String) args:[+]timeOut:2000
+*****************************(EndBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 1.0
 Finding constructor matching:class java.lang.String
-calling method: public main.WordToken(java.lang.String) MixedCamelCase
-called method: public main.WordToken(java.lang.String) MixedCamelCase
-calling method: public void main.WordToken.setInput(java.lang.String) with args MixedCamelCase
-called method: public void main.WordToken.setInput(java.lang.String) with args:MixedCamelCase result:null
-calling method: public java.lang.String main.WordToken.getValue() with args 
-called method: public java.lang.String main.WordToken.getValue() with args: result:mixedcamelcase
-*****************************(Single Property Token Beans)*****************************
-Testcase:Quote Token Bean Case
-Finding class matching:null, Quote, .*Quote.*, .*Quote.*
+Calling constructor public main.EndToken(java.lang.String)with args:[}]timeOut:2000
+calling constructor: public main.EndToken(java.lang.String) }
+called constructor: public main.EndToken(java.lang.String) }
+Calling non interactive method:setInput with args [}]
+Calling on object main.EndToken@4a1c0752 1243350866 method:public void main.EndToken.setInput(java.lang.String) args:[}]timeOut:2000
+*****************************(StartBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 1.0
 Finding constructor matching:class java.lang.String
-calling method: public main.QuoteToken(java.lang.String) This is a Quote
-called method: public main.QuoteToken(java.lang.String) This is a Quote
-calling method: public void main.QuoteToken.setInput(java.lang.String) with args This is a Quote
-called method: public void main.QuoteToken.setInput(java.lang.String) with args:This is a Quote result:null
-*****************************(Single Property Token Beans)*****************************
-Testcase:Start Token Bean Case
-Finding class matching:null, Start, .*Start.*, .*Start.*
-Finding constructor matching:class java.lang.String
-calling method: public main.StartToken(java.lang.String) {
-called method: public main.StartToken(java.lang.String) {
-calling method: public void main.StartToken.setInput(java.lang.String) with args {
-called method: public void main.StartToken.setInput(java.lang.String) with args:{ result:null
-*****************************(Single Property Token Beans)*****************************
-Testcase:End
-Finding class matching:null, End, .*End.*, .*End.*
-Finding constructor matching:class java.lang.String
-calling method: public main.EndToken(java.lang.String) End
-called method: public main.EndToken(java.lang.String) End
-calling method: public void main.EndToken.setInput(java.lang.String) with args End
-called method: public void main.EndToken.setInput(java.lang.String) with args:End result:null
-*****************************(Scanner Check)*****************************
-Testcase:Number echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@447a1df5
-00220
-220
-main.NumberToken@2d44e2f2
-32
-32
-main.NumberToken@58f9516
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Number computation test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@1584da34
-00220
-220
-main.NumberToken@451196f5
-32
-32
-main.NumberToken@5cdd240
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Number class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@ba66aba
-00220
-220
-main.NumberToken@5aa8df4f
-32
-32
-main.NumberToken@4dcea09
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Word echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@4388f75d
-CamelCase
-camelcase
-main.WordToken@55281d4e
-anotherWord
-anotherword
-main.WordToken@3c9c178f
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Word computation test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@2bcecc5f
-CamelCase
-camelcase
-main.WordToken@15cb8771
-anotherWord
-anotherword
-main.WordToken@652916e4
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Word class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@6c9e069e
-CamelCase
-camelcase
-main.WordToken@7ac4a6c7
-anotherWord
-anotherword
-main.WordToken@4a191c9
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Quote echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args "CamelCase" "Word" 
-main.QuoteToken@b6a257f
-CamelCase
-main.QuoteToken@65c3bab3
-Word
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:"CamelCase" "Word"  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:"CamelCase" "Word" 
-*****************************(Scanner Check)*****************************
-Testcase:Quote class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args "CamelCase !@# " "Word wordWord" 
-main.QuoteToken@151671f7
-CamelCase !@# 
-main.QuoteToken@749419f1
-Word wordWord
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:"CamelCase !@# " "Word wordWord"  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:"CamelCase !@# " "Word wordWord" 
-*****************************(Scanner Check)*****************************
-Testcase:Start echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args { { 
-main.StartToken@27335902
-{
-main.StartToken@1c18a669
-{
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:{ {  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:{ { 
-*****************************(Scanner Check)*****************************
-Testcase:Start class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args { { 
-main.StartToken@165545e8
-{
-main.StartToken@38608dcc
-{
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:{ {  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:{ { 
-*****************************(Scanner Check)*****************************
-Testcase:End echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args } } 
-main.EndToken@4afd68fe
-}
-main.EndToken@42f82228
-}
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:} }  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:} } 
-*****************************(Scanner Check)*****************************
-Testcase:End class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args } } 
-main.EndToken@308a9271
-}
-main.EndToken@5994519c
-}
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:} }  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:} } 
-*****************************(Plus Minus Token Beans)*****************************
-Testcase:Plus Token Bean Case
-Finding class matching:null, Plus, .*Plus.*, .*Plus.*
-Finding constructor matching:class java.lang.String
-calling method: public main.PlusToken(java.lang.String) +
-called method: public main.PlusToken(java.lang.String) +
-calling method: public void main.PlusToken.setInput(java.lang.String) with args +
-called method: public void main.PlusToken.setInput(java.lang.String) with args:+ result:null
-*****************************(Plus Minus Token Beans)*****************************
-Testcase:Minus Token Bean Case
-Finding class matching:null, Minus, .*Minus.*, .*Minus.*
-Finding constructor matching:class java.lang.String
-calling method: public main.MinusToken(java.lang.String) -
-called method: public main.MinusToken(java.lang.String) -
-calling method: public void main.MinusToken.setInput(java.lang.String) with args -
-called method: public void main.MinusToken.setInput(java.lang.String) with args:- result:null
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Plus echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args + + 
-main.PlusToken@1eac3b36
-+
-main.PlusToken@3d6365f5
-+
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:+ +  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:+ + 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Plus class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args + + 
-main.PlusToken@48bad74f
-+
-main.PlusToken@628da8d6
-+
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:+ +  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:+ + 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Minus echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args - - 
-main.MinusToken@4247ac26
+Calling constructor public main.StartToken(java.lang.String)with args:[{]timeOut:2000
+calling constructor: public main.StartToken(java.lang.String) {
+called constructor: public main.StartToken(java.lang.String) {
+Calling non interactive method:setInput with args [{]
+Calling on object main.StartToken@1b32cd16 456314134 method:public void main.StartToken.setInput(java.lang.String) args:[{]timeOut:2000
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+- - + + - 
+. 
+
+OUTPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+main.MinusToken@6bc7c054
 -
-main.MinusToken@6f7714c8
+main.MinusToken@232204a1
 -
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:- -  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:- - 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Minus class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args - - 
-main.MinusToken@ffe13fe
+main.PlusToken@4aa298b7
++
+main.PlusToken@7d4991ad
++
+main.MinusToken@28d93b30
 -
-main.MinusToken@71d290e5
+ - Program terminated - 
+
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment3
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test, Student(tstudent)\Submission attachment(s)\Assignment 3\Assignment 3\bin
+$- - + + - 
+. 
+
+Process line:main.MinusToken@6bc7c054
+main.MinusToken@6bc7c054
+Process line:-
 -
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:- -  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:- - 
+Process line:main.MinusToken@232204a1
+main.MinusToken@232204a1
+Process line:-
+-
+Process line:main.PlusToken@4aa298b7
+main.PlusToken@4aa298b7
+Process line:+
++
+Process line:main.PlusToken@7d4991ad
+main.PlusToken@7d4991ad
+Process line:+
++
+Process line:main.MinusToken@28d93b30
+main.MinusToken@28d93b30
+Process line:-
+-
+Process line: - Program terminated - 
+ - Program terminated - 
+Called main:main.Assignment3
+Provided input:- - + + - 
+. 
+
+Expected outputs:[(.*)\Q-\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*)]
+*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
+INPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
+1019 1221 3413 4321 
+. 
+
+OUTPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
+main.NumberToken@6bc7c054
+1019
+1019
+main.NumberToken@232204a1
+1221
+1221
+main.NumberToken@4aa298b7
+3413
+3413
+main.NumberToken@7d4991ad
+4321
+4321
+ - Program terminated - 
+
+*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment3
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test, Student(tstudent)\Submission attachment(s)\Assignment 3\Assignment 3\bin
+$1019 1221 3413 4321 
+. 
+
+Process line:main.NumberToken@6bc7c054
+main.NumberToken@6bc7c054
+Process line:1019
+1019
+Process line:1019
+1019
+Process line:main.NumberToken@232204a1
+main.NumberToken@232204a1
+Process line:1221
+1221
+Process line:1221
+1221
+Process line:main.NumberToken@4aa298b7
+main.NumberToken@4aa298b7
+Process line:3413
+3413
+Process line:3413
+3413
+Process line:main.NumberToken@7d4991ad
+main.NumberToken@7d4991ad
+Process line:4321
+4321
+Process line:4321
+4321
+Process line: - Program terminated - 
+ - Program terminated - 
+Called main:main.Assignment3
+Provided input:1019 1221 3413 4321 
+. 
+
+Expected outputs:[(.*)1019(.*), (.*)1019(.*), (.*)@(.*), (.*)1221(.*), (.*)1221(.*), (.*)@(.*), (.*)3413(.*), (.*)3413(.*), (.*)@(.*), (.*)4321(.*), (.*)4321(.*), (.*)@(.*)]
+*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
+INPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
+"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+OUTPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
+main.QuoteToken@6bc7c054
+   weird spacing    
+main.QuoteToken@232204a1
+23more_numbers234
+main.QuoteToken@4aa298b7
+12334
+main.QuoteToken@7d4991ad
+ AND SYMBOLS #@!
+main.QuoteToken@28d93b30
+ 1 ! - end
+ - Program terminated - 
+
+*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment3
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test, Student(tstudent)\Submission attachment(s)\Assignment 3\Assignment 3\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Process line:main.QuoteToken@6bc7c054
+main.QuoteToken@6bc7c054
+Process line:   weird spacing    
+   weird spacing    
+Process line:main.QuoteToken@232204a1
+main.QuoteToken@232204a1
+Process line:23more_numbers234
+23more_numbers234
+Process line:main.QuoteToken@4aa298b7
+main.QuoteToken@4aa298b7
+Process line:12334
+12334
+Process line:main.QuoteToken@7d4991ad
+main.QuoteToken@7d4991ad
+Process line: AND SYMBOLS #@!
+ AND SYMBOLS #@!
+Process line:main.QuoteToken@28d93b30
+main.QuoteToken@28d93b30
+Process line: 1 ! - end
+ 1 ! - end
+Process line: - Program terminated - 
+ - Program terminated - 
+Called main:main.Assignment3
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Expected outputs:[(.*)   weird spacing    (.*), (.*)@(.*), (.*)23more_numbers234(.*), (.*)@(.*), (.*)12334(.*), (.*)@(.*), (.*) AND SYMBOLS #@!(.*), (.*)@(.*), (.*) 1 ! - end(.*), (.*)@(.*)]
+*****************************(MinusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Calling constructor public main.MinusToken(java.lang.String)with args:[-]timeOut:2000
+calling constructor: public main.MinusToken(java.lang.String) -
+called constructor: public main.MinusToken(java.lang.String) -
+Calling non interactive method:setInput with args [-]
+Calling on object main.MinusToken@30af7377 816804727 method:public void main.MinusToken.setInput(java.lang.String) args:[-]timeOut:2000
+*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
+INPUT(MultipleWordTokenOutputTest:Multiple Words Output)
+DOTH IORME perhaps surmise surprise 
+. 
+
+OUTPUT(MultipleWordTokenOutputTest:Multiple Words Output)
+main.WordToken@6bc7c054
+DOTH
+doth
+main.WordToken@232204a1
+IORME
+iorme
+main.WordToken@4aa298b7
+perhaps
+perhaps
+main.WordToken@7d4991ad
+surmise
+surmise
+main.WordToken@28d93b30
+surprise
+surprise
+ - Program terminated - 
+
+*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment3
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test, Student(tstudent)\Submission attachment(s)\Assignment 3\Assignment 3\bin
+$DOTH IORME perhaps surmise surprise 
+. 
+
+Process line:main.WordToken@6bc7c054
+main.WordToken@6bc7c054
+Process line:DOTH
+DOTH
+Process line:doth
+doth
+Process line:main.WordToken@232204a1
+main.WordToken@232204a1
+Process line:IORME
+IORME
+Process line:iorme
+iorme
+Process line:main.WordToken@4aa298b7
+main.WordToken@4aa298b7
+Process line:perhaps
+perhaps
+Process line:perhaps
+perhaps
+Process line:main.WordToken@7d4991ad
+main.WordToken@7d4991ad
+Process line:surmise
+surmise
+Process line:surmise
+surmise
+Process line:main.WordToken@28d93b30
+main.WordToken@28d93b30
+Process line:surprise
+surprise
+Process line:surprise
+surprise
+Process line: - Program terminated - 
+ - Program terminated - 
+Called main:main.Assignment3
+Provided input:DOTH IORME perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)DOTH(.*), (.*)doth(.*), (.*)@(.*), (.*)IORME(.*), (.*)iorme(.*), (.*)@(.*), (.*)perhaps(.*), (.*)perhaps(.*), (.*)@(.*), (.*)surmise(.*), (.*)surmise(.*), (.*)@(.*), (.*)surprise(.*), (.*)surprise(.*), (.*)@(.*)]
+*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
+INPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
+{ { } } } 
+. 
+
+OUTPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
+main.StartToken@6bc7c054
+{
+main.StartToken@232204a1
+{
+main.EndToken@4aa298b7
+}
+main.EndToken@7d4991ad
+}
+main.EndToken@28d93b30
+}
+ - Program terminated - 
+
+*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment3
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test, Student(tstudent)\Submission attachment(s)\Assignment 3\Assignment 3\bin
+${ { } } } 
+. 
+
+Process line:main.StartToken@6bc7c054
+main.StartToken@6bc7c054
+Process line:{
+{
+Process line:main.StartToken@232204a1
+main.StartToken@232204a1
+Process line:{
+{
+Process line:main.EndToken@4aa298b7
+main.EndToken@4aa298b7
+Process line:}
+}
+Process line:main.EndToken@7d4991ad
+main.EndToken@7d4991ad
+Process line:}
+}
+Process line:main.EndToken@28d93b30
+main.EndToken@28d93b30
+Process line:}
+}
+Process line: - Program terminated - 
+ - Program terminated - 
+Called main:main.Assignment3
+Provided input:{ { } } } 
+. 
+
+Expected outputs:[(.*)\Q{\E(.*), (.*)@(.*), (.*)\Q{\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*)]
+*****************************(QuoteBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Calling constructor public main.QuoteToken(java.lang.String)with args:[ This is a quote ]timeOut:2000
+calling constructor: public main.QuoteToken(java.lang.String)  This is a quote 
+called constructor: public main.QuoteToken(java.lang.String)  This is a quote 
+Calling non interactive method:setInput with args [ This is a quote ]
+Calling on object main.QuoteToken@4bff2185 1275011461 method:public void main.QuoteToken.setInput(java.lang.String) args:[ This is a quote ]timeOut:2000
+*****************************(WordBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Calling constructor public main.WordToken(java.lang.String)with args:[ARthUr]timeOut:2000
+calling constructor: public main.WordToken(java.lang.String) ARthUr
+called constructor: public main.WordToken(java.lang.String) ARthUr
+Calling non interactive method:setInput with args [ARthUr]
+Calling on object main.WordToken@2f879bab 797416363 method:public void main.WordToken.setInput(java.lang.String) args:[ARthUr]timeOut:2000
+Calling non interactive method:getValue with args []
+Calling on object main.WordToken@2f879bab 797416363 method:public java.lang.String main.WordToken.getValue() args:[]timeOut:2000
+*****************************(NumberBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Calling constructor public main.NumberToken(java.lang.String)with args:[0045]timeOut:2000
+calling constructor: public main.NumberToken(java.lang.String) 0045
+called constructor: public main.NumberToken(java.lang.String) 0045
+Calling non interactive method:setInput with args [0045]
+Calling on object main.NumberToken@2d66530f 761680655 method:public void main.NumberToken.setInput(java.lang.String) args:[0045]timeOut:2000
+Calling non interactive method:getValue with args []
+Calling on object main.NumberToken@2d66530f 761680655 method:public int main.NumberToken.getValue() args:[]timeOut:2000
+*****************************(getInput and getValue are called in scannerBean)*****************************
+### ScannerBean!getInput:->String: 1.0
+### ScannerBean!getValue:->String: 1.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 0.8
+*****************************(Required token classes instantiated)*****************************
+### ScannerBean!Word: 0.0
+### ScannerBean!Number: 0.0
+### ScannerBean!Quote: 0.0
+### ScannerBean!Start: 0.0
+### ScannerBean!End: 0.0
+*****************************(Single parameter constructors defined)*****************************
+### Word!:String: 1.0
+### Number!:String: 1.0
+### Quote!:String: 1.0
+### Start!:String: 1.0
+### End!:String: 1.0
+*****************************(Properties defined for token classes)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Necessary interfaces created and used)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Extra credit classes instantiated, with proper interfaces)*****************************
+### ScannerBean!Plus: 0.0
+### ScannerBean!Minus: 0.0
+### Plus defined: 1.0
+### Minus defined: 1.0
+*****************************(Extra credit constructors and properties defined)*****************************
+### Plus!:String: 1.0
+### Minus!:String: 1.0
+### Plus defined: 1.0
+### Minus defined: 1.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 0.0
