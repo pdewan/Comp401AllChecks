@@ -1,0 +1,81 @@
+*****************************(PlusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 0.0
+*****************************(EndBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 0.0
+*****************************(StartBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 0.0
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 0.0
+*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 0.0
+*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 0.0
+*****************************(MinusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 0.0
+*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 0.0
+*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 0.0
+*****************************(QuoteBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 0.0
+*****************************(WordBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 0.0
+*****************************(NumberBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 1.0
+### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 0.0
+*****************************(getInput and getValue are called in scannerBean)*****************************
+### ScannerBean!getInput:->String: 1.0
+### ScannerBean!getValue:->String: 1.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Required token classes instantiated)*****************************
+### ScannerBean!Word: 1.0
+### ScannerBean!Number: 1.0
+### ScannerBean!Quote: 1.0
+### ScannerBean!Start: 1.0
+### ScannerBean!End: 1.0
+*****************************(Single parameter constructors defined)*****************************
+### Word!:String: 1.0
+### Number!:String: 1.0
+### Quote!:String: 1.0
+### Start!:String: 1.0
+### End!:String: 1.0
+*****************************(Properties defined for token classes)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Necessary interfaces created and used)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Extra credit classes instantiated, with proper interfaces)*****************************
+### ScannerBean!Plus: 1.0
+### ScannerBean!Minus: 1.0
+### Plus defined: 1.0
+### Minus defined: 1.0
+*****************************(Extra credit constructors and properties defined)*****************************
+### Plus!:String: 1.0
+### Minus!:String: 1.0
+### Plus defined: 1.0
+### Minus defined: 1.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 0.0

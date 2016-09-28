@@ -1,317 +1,3 @@
-*****************************(Multi Property Token Beans)*****************************
-Testcase:Number Token Bean Case
-Finding class matching:null, Number, .*Number.*, .*Number.*
-Finding constructor matching:class java.lang.String
-calling method: public main.NumberToken(java.lang.String) 006500
-called method: public main.NumberToken(java.lang.String) 006500
-calling method: public void main.NumberToken.setInput(java.lang.String) with args 006500
-called method: public void main.NumberToken.setInput(java.lang.String) with args:006500 result:null
-calling method: public int main.NumberToken.getValue() with args 
-called method: public int main.NumberToken.getValue() with args: result:6500
-*****************************(Multi Property Token Beans)*****************************
-Testcase:Word Token Bean Case
-Finding class matching:null, Word, .*Word.*, .*Word.*
-Finding constructor matching:class java.lang.String
-calling method: public main.WordToken(java.lang.String) MixedCamelCase
-called method: public main.WordToken(java.lang.String) MixedCamelCase
-calling method: public void main.WordToken.setInput(java.lang.String) with args MixedCamelCase
-called method: public void main.WordToken.setInput(java.lang.String) with args:MixedCamelCase result:null
-calling method: public java.lang.String main.WordToken.getValue() with args 
-called method: public java.lang.String main.WordToken.getValue() with args: result:mixedcamelcase
-*****************************(Single Property Token Beans)*****************************
-Testcase:Quote Token Bean Case
-Finding class matching:null, Quote, .*Quote.*, .*Quote.*
-Finding constructor matching:class java.lang.String
-calling method: public main.QuoteToken(java.lang.String) This is a Quote
-called method: public main.QuoteToken(java.lang.String) This is a Quote
-calling method: public void main.QuoteToken.setInput(java.lang.String) with args This is a Quote
-called method: public void main.QuoteToken.setInput(java.lang.String) with args:This is a Quote result:null
-*****************************(Single Property Token Beans)*****************************
-Testcase:Start Token Bean Case
-Finding class matching:null, Start, .*Start.*, .*Start.*
-Finding constructor matching:class java.lang.String
-calling method: public main.StartToken(java.lang.String) {
-called method: public main.StartToken(java.lang.String) {
-calling method: public void main.StartToken.setInput(java.lang.String) with args {
-called method: public void main.StartToken.setInput(java.lang.String) with args:{ result:null
-*****************************(Single Property Token Beans)*****************************
-Testcase:End
-Finding class matching:null, End, .*End.*, .*End.*
-Finding constructor matching:class java.lang.String
-calling method: public main.EndToken(java.lang.String) End
-called method: public main.EndToken(java.lang.String) End
-calling method: public void main.EndToken.setInput(java.lang.String) with args End
-called method: public void main.EndToken.setInput(java.lang.String) with args:End result:null
-*****************************(Scanner Check)*****************************
-Testcase:Number echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@447a1df5
-00220
-220
-main.NumberToken@2d44e2f2
-32
-32
-main.NumberToken@58f9516
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Number computation test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@1584da34
-00220
-220
-main.NumberToken@451196f5
-32
-32
-main.NumberToken@5cdd240
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Number class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args 00220 32 45 
-main.NumberToken@ba66aba
-00220
-220
-main.NumberToken@5aa8df4f
-32
-32
-main.NumberToken@4dcea09
-45
-45
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:00220 32 45  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:00220 32 45 
-*****************************(Scanner Check)*****************************
-Testcase:Word echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@4388f75d
-CamelCase
-camelcase
-main.WordToken@55281d4e
-anotherWord
-anotherword
-main.WordToken@3c9c178f
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Word computation test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@2bcecc5f
-CamelCase
-camelcase
-main.WordToken@15cb8771
-anotherWord
-anotherword
-main.WordToken@652916e4
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Word class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args CamelCase anotherWord wordWord 
-main.WordToken@6c9e069e
-CamelCase
-camelcase
-main.WordToken@7ac4a6c7
-anotherWord
-anotherword
-main.WordToken@4a191c9
-wordWord
-wordword
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:CamelCase anotherWord wordWord  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:CamelCase anotherWord wordWord 
-*****************************(Scanner Check)*****************************
-Testcase:Quote echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args "CamelCase" "Word" 
-main.QuoteToken@b6a257f
-CamelCase
-main.QuoteToken@65c3bab3
-Word
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:"CamelCase" "Word"  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:"CamelCase" "Word" 
-*****************************(Scanner Check)*****************************
-Testcase:Quote class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args "CamelCase !@# " "Word wordWord" 
-main.QuoteToken@151671f7
-CamelCase !@# 
-main.QuoteToken@749419f1
-Word wordWord
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:"CamelCase !@# " "Word wordWord"  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:"CamelCase !@# " "Word wordWord" 
-*****************************(Scanner Check)*****************************
-Testcase:Start echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args { { 
-main.StartToken@27335902
-{
-main.StartToken@1c18a669
-{
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:{ {  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:{ { 
-*****************************(Scanner Check)*****************************
-Testcase:Start class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args { { 
-main.StartToken@165545e8
-{
-main.StartToken@38608dcc
-{
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:{ {  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:{ { 
-*****************************(Scanner Check)*****************************
-Testcase:End echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args } } 
-main.EndToken@4afd68fe
-}
-main.EndToken@42f82228
-}
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:} }  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:} } 
-*****************************(Scanner Check)*****************************
-Testcase:End class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args } } 
-main.EndToken@308a9271
-}
-main.EndToken@5994519c
-}
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:} }  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:} } 
-*****************************(Plus Minus Token Beans)*****************************
-Testcase:Plus Token Bean Case
-Finding class matching:null, Plus, .*Plus.*, .*Plus.*
-Finding constructor matching:class java.lang.String
-calling method: public main.PlusToken(java.lang.String) +
-called method: public main.PlusToken(java.lang.String) +
-calling method: public void main.PlusToken.setInput(java.lang.String) with args +
-called method: public void main.PlusToken.setInput(java.lang.String) with args:+ result:null
-*****************************(Plus Minus Token Beans)*****************************
-Testcase:Minus Token Bean Case
-Finding class matching:null, Minus, .*Minus.*, .*Minus.*
-Finding constructor matching:class java.lang.String
-calling method: public main.MinusToken(java.lang.String) -
-called method: public main.MinusToken(java.lang.String) -
-calling method: public void main.MinusToken.setInput(java.lang.String) with args -
-called method: public void main.MinusToken.setInput(java.lang.String) with args:- result:null
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Plus echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args + + 
-main.PlusToken@1eac3b36
-+
-main.PlusToken@3d6365f5
-+
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:+ +  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:+ + 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Plus class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args + + 
-main.PlusToken@48bad74f
-+
-main.PlusToken@628da8d6
-+
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:+ +  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:+ + 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Minus echo test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args - - 
-main.MinusToken@4247ac26
--
-main.MinusToken@6f7714c8
--
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:- -  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:- - 
-*****************************(Plus Minus Scanner Check)*****************************
-Testcase:Minus class test case
-Finding class matching:null, ScannerBean, .*Bean.*, .*Bean.*
-Finding constructor matching:
-calling method: public main.AScannerBean() 
-called method: public main.AScannerBean() 
-calling method: public void main.AScannerBean.setScannedString(java.lang.String) with args - - 
-main.MinusToken@ffe13fe
--
-main.MinusToken@71d290e5
--
-called method: public void main.AScannerBean.setScannedString(java.lang.String) with args:- -  result:null
-calling method: public java.lang.String main.AScannerBean.getScannedString() with args 
-called method: public java.lang.String main.AScannerBean.getScannedString() with args: result:- - 
 *****************************(PlusBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -319,7 +5,7 @@ Calling constructor public grail.tokenBeans.PlusToken(java.lang.String)with args
 calling constructor: public grail.tokenBeans.PlusToken(java.lang.String) +
 called constructor: public grail.tokenBeans.PlusToken(java.lang.String) +
 Calling non interactive method:setInput with args [+]
-Calling on object grail.tokenBeans.PlusToken@e57b96d 240630125 method:public void grail.tokenBeans.PlusToken.setInput(java.lang.String) args:[+]timeOut:2000
+Calling on object grail.tokenBeans.PlusToken@5b6ec132 1533985074 method:public void grail.tokenBeans.PlusToken.setInput(java.lang.String) args:[+]timeOut:2000
 *****************************(EndBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -327,7 +13,7 @@ Calling constructor public grail.tokenBeans.EndToken(java.lang.String)with args:
 calling constructor: public grail.tokenBeans.EndToken(java.lang.String) }
 called constructor: public grail.tokenBeans.EndToken(java.lang.String) }
 Calling non interactive method:setInput with args [}]
-Calling on object grail.tokenBeans.EndToken@76a2ddf3 1990385139 method:public void grail.tokenBeans.EndToken.setInput(java.lang.String) args:[}]timeOut:2000
+Calling on object grail.tokenBeans.EndToken@106cc338 275563320 method:public void grail.tokenBeans.EndToken.setInput(java.lang.String) args:[}]timeOut:2000
 *****************************(StartBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -335,262 +21,16 @@ Calling constructor public grail.tokenBeans.StartToken(java.lang.String)with arg
 calling constructor: public grail.tokenBeans.StartToken(java.lang.String) {
 called constructor: public grail.tokenBeans.StartToken(java.lang.String) {
 Calling non interactive method:setInput with args [{]
-Calling on object grail.tokenBeans.StartToken@41e68d87 1105628551 method:public void grail.tokenBeans.StartToken.setInput(java.lang.String) args:[{]timeOut:2000
-*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
-INPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
-- - + + - 
-. 
-
-OUTPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
-String?
-Tokens:
-grail.tokenBeans.QuoteToken@55f96302
--
-grail.tokenBeans.QuoteToken@3d4eac69
--
-grail.tokenBeans.QuoteToken@42a57993
-+
-grail.tokenBeans.QuoteToken@75b84c92
-+
-grail.tokenBeans.QuoteToken@6bc7c054
--
-String?
-Goodbye!
-
+Calling on object grail.tokenBeans.StartToken@6cc558c6 1824872646 method:public void grail.tokenBeans.StartToken.setInput(java.lang.String) args:[{]timeOut:2000
 *****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 1.0
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-$- - + + - 
-. 
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.QuoteToken@55f96302
-grail.tokenBeans.QuoteToken@55f96302
-Process line:-
--
-Process line:grail.tokenBeans.QuoteToken@3d4eac69
-grail.tokenBeans.QuoteToken@3d4eac69
-Process line:-
--
-Process line:grail.tokenBeans.QuoteToken@42a57993
-grail.tokenBeans.QuoteToken@42a57993
-Process line:+
-+
-Process line:grail.tokenBeans.QuoteToken@75b84c92
-grail.tokenBeans.QuoteToken@75b84c92
-Process line:+
-+
-Process line:grail.tokenBeans.QuoteToken@6bc7c054
-grail.tokenBeans.QuoteToken@6bc7c054
-Process line:-
--
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:- - + + - 
-. 
-
-Expected outputs:[(.*)\Q-\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*)]
-*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
-INPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
-10 11 0 4 
-. 
-
-OUTPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
-String?
-Tokens:
-grail.tokenBeans.NumberToken@55f96302
-10
-10
-grail.tokenBeans.NumberToken@3d4eac69
-11
-11
-grail.tokenBeans.NumberToken@42a57993
-0
-0
-grail.tokenBeans.NumberToken@75b84c92
-4
-4
-String?
-Goodbye!
-
-*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
-INPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
-10 11 0 4
-.
-
-OUTPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
-String?
-Tokens:
-grail.tokenBeans.NumberToken@55f96302
-10
-10
-grail.tokenBeans.NumberToken@3d4eac69
-11
-11
-grail.tokenBeans.NumberToken@42a57993
-0
-0
-grail.tokenBeans.NumberToken@75b84c92
-4
-4
-String?
-Goodbye!
-
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 0.0
 *****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 1.0
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-$10 11 0 4 
-. 
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.NumberToken@55f96302
-grail.tokenBeans.NumberToken@55f96302
-Process line:10
-10
-Process line:10
-10
-Process line:grail.tokenBeans.NumberToken@3d4eac69
-grail.tokenBeans.NumberToken@3d4eac69
-Process line:11
-11
-Process line:11
-11
-Process line:grail.tokenBeans.NumberToken@42a57993
-grail.tokenBeans.NumberToken@42a57993
-Process line:0
-0
-Process line:0
-0
-Process line:grail.tokenBeans.NumberToken@75b84c92
-grail.tokenBeans.NumberToken@75b84c92
-Process line:4
-4
-Process line:4
-4
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:10 11 0 4 
-. 
-
-Expected outputs:[(.*)10(.*), (.*)10(.*), (.*)@(.*), (.*)11(.*), (.*)11(.*), (.*)@(.*), (.*)0(.*), (.*)0(.*), (.*)@(.*), (.*)4(.*), (.*)4(.*), (.*)@(.*)]
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-$10 11 0 4
-.
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.NumberToken@55f96302
-grail.tokenBeans.NumberToken@55f96302
-Process line:10
-10
-Process line:10
-10
-Process line:grail.tokenBeans.NumberToken@3d4eac69
-grail.tokenBeans.NumberToken@3d4eac69
-Process line:11
-11
-Process line:11
-11
-Process line:grail.tokenBeans.NumberToken@42a57993
-grail.tokenBeans.NumberToken@42a57993
-Process line:0
-0
-Process line:0
-0
-Process line:grail.tokenBeans.NumberToken@75b84c92
-grail.tokenBeans.NumberToken@75b84c92
-Process line:4
-4
-Process line:4
-4
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:10 11 0 4
-.
-
-Expected outputs:[(.*)10(.*), (.*)10(.*), (.*)@(.*), (.*)11(.*), (.*)11(.*), (.*)@(.*), (.*)0(.*), (.*)0(.*), (.*)@(.*), (.*)4(.*), (.*)4(.*), (.*)@(.*)]
 ### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 0.0
 *****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
-INPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
-"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
-. 
-
-OUTPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
-String?
-Tokens:
-grail.tokenBeans.QuoteToken@55f96302
-   weird spacing    
-grail.tokenBeans.QuoteToken@3d4eac69
-23more_numbers234
-grail.tokenBeans.QuoteToken@42a57993
-12334
-grail.tokenBeans.QuoteToken@75b84c92
- AND SYMBOLS #@!
-grail.tokenBeans.QuoteToken@6bc7c054
- 1 ! - end
-String?
-Goodbye!
-
-*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 1.0
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
-. 
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.QuoteToken@55f96302
-grail.tokenBeans.QuoteToken@55f96302
-Process line:   weird spacing    
-   weird spacing    
-Process line:grail.tokenBeans.QuoteToken@3d4eac69
-grail.tokenBeans.QuoteToken@3d4eac69
-Process line:23more_numbers234
-23more_numbers234
-Process line:grail.tokenBeans.QuoteToken@42a57993
-grail.tokenBeans.QuoteToken@42a57993
-Process line:12334
-12334
-Process line:grail.tokenBeans.QuoteToken@75b84c92
-grail.tokenBeans.QuoteToken@75b84c92
-Process line: AND SYMBOLS #@!
- AND SYMBOLS #@!
-Process line:grail.tokenBeans.QuoteToken@6bc7c054
-grail.tokenBeans.QuoteToken@6bc7c054
-Process line: 1 ! - end
- 1 ! - end
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
-. 
-
-Expected outputs:[(.*)   weird spacing    (.*), (.*)@(.*), (.*)23more_numbers234(.*), (.*)@(.*), (.*)12334(.*), (.*)@(.*), (.*) AND SYMBOLS #@!(.*), (.*)@(.*), (.*) 1 ! - end(.*), (.*)@(.*)]
+### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 0.0
 *****************************(MinusBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -598,144 +38,13 @@ Calling constructor public grail.tokenBeans.MinusToken(java.lang.String)with arg
 calling constructor: public grail.tokenBeans.MinusToken(java.lang.String) -
 called constructor: public grail.tokenBeans.MinusToken(java.lang.String) -
 Calling non interactive method:setInput with args [-]
-Calling on object grail.tokenBeans.MinusToken@466276d8 1180858072 method:public void grail.tokenBeans.MinusToken.setInput(java.lang.String) args:[-]timeOut:2000
-*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
-INPUT(MultipleWordTokenOutputTest:Multiple Words Output)
-DOTH I perhaps surmise surprise 
-. 
-
-OUTPUT(MultipleWordTokenOutputTest:Multiple Words Output)
-String?
-Tokens:
-grail.tokenBeans.WordToken@55f96302
-DOTH
-doth
-grail.tokenBeans.WordToken@3d4eac69
-I
-i
-grail.tokenBeans.WordToken@42a57993
-perhaps
-perhaps
-grail.tokenBeans.WordToken@75b84c92
-surmise
-surmise
-grail.tokenBeans.WordToken@6bc7c054
-surprise
-surprise
-String?
-Goodbye!
-
+Calling on object grail.tokenBeans.MinusToken@67545b57 1733581655 method:public void grail.tokenBeans.MinusToken.setInput(java.lang.String) args:[-]timeOut:2000
 *****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 1.0
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-$DOTH I perhaps surmise surprise 
-. 
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.WordToken@55f96302
-grail.tokenBeans.WordToken@55f96302
-Process line:DOTH
-DOTH
-Process line:doth
-doth
-Process line:grail.tokenBeans.WordToken@3d4eac69
-grail.tokenBeans.WordToken@3d4eac69
-Process line:I
-I
-Process line:i
-i
-Process line:grail.tokenBeans.WordToken@42a57993
-grail.tokenBeans.WordToken@42a57993
-Process line:perhaps
-perhaps
-Process line:perhaps
-perhaps
-Process line:grail.tokenBeans.WordToken@75b84c92
-grail.tokenBeans.WordToken@75b84c92
-Process line:surmise
-surmise
-Process line:surmise
-surmise
-Process line:grail.tokenBeans.WordToken@6bc7c054
-grail.tokenBeans.WordToken@6bc7c054
-Process line:surprise
-surprise
-Process line:surprise
-surprise
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:DOTH I perhaps surmise surprise 
-. 
-
-Expected outputs:[(.*)DOTH(.*), (.*)doth(.*), (.*)@(.*), (.*)I(.*), (.*)i(.*), (.*)@(.*), (.*)perhaps(.*), (.*)perhaps(.*), (.*)@(.*), (.*)surmise(.*), (.*)surmise(.*), (.*)@(.*), (.*)surprise(.*), (.*)surprise(.*), (.*)@(.*)]
-*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
-INPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
-{ { } } } 
-. 
-
-OUTPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
-String?
-Tokens:
-grail.tokenBeans.StartToken@55f96302
-{
-grail.tokenBeans.StartToken@3d4eac69
-{
-grail.tokenBeans.EndToken@42a57993
-}
-grail.tokenBeans.EndToken@75b84c92
-}
-grail.tokenBeans.EndToken@6bc7c054
-}
-String?
-Goodbye!
-
+### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 0.0
 *****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 1.0
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment3
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test0, Student(tstudent0)\Submission attachment(s)\Assignment3\Assignment3\bin
-${ { } } } 
-. 
-
-Process line:String?
-String?
-Process line:Tokens:
-Tokens:
-Process line:grail.tokenBeans.StartToken@55f96302
-grail.tokenBeans.StartToken@55f96302
-Process line:{
-{
-Process line:grail.tokenBeans.StartToken@3d4eac69
-grail.tokenBeans.StartToken@3d4eac69
-Process line:{
-{
-Process line:grail.tokenBeans.EndToken@42a57993
-grail.tokenBeans.EndToken@42a57993
-Process line:}
-}
-Process line:grail.tokenBeans.EndToken@75b84c92
-grail.tokenBeans.EndToken@75b84c92
-Process line:}
-}
-Process line:grail.tokenBeans.EndToken@6bc7c054
-grail.tokenBeans.EndToken@6bc7c054
-Process line:}
-}
-Process line:String?
-String?
-Process line:Goodbye!
-Goodbye!
-Called main:main.Assignment3
-Provided input:{ { } } } 
-. 
-
-Expected outputs:[(.*)\Q{\E(.*), (.*)@(.*), (.*)\Q{\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*)]
+### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 0.0
 *****************************(QuoteBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -743,7 +52,7 @@ Calling constructor public grail.tokenBeans.QuoteToken(java.lang.String)with arg
 calling constructor: public grail.tokenBeans.QuoteToken(java.lang.String)  This is a quote 
 called constructor: public grail.tokenBeans.QuoteToken(java.lang.String)  This is a quote 
 Calling non interactive method:setInput with args [ This is a quote ]
-Calling on object grail.tokenBeans.QuoteToken@7a1234bf 2048013503 method:public void grail.tokenBeans.QuoteToken.setInput(java.lang.String) args:[ This is a quote ]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@146dfe6 21422054 method:public void grail.tokenBeans.QuoteToken.setInput(java.lang.String) args:[ This is a quote ]timeOut:2000
 *****************************(WordBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -751,9 +60,9 @@ Calling constructor public grail.tokenBeans.WordToken(java.lang.String)with args
 calling constructor: public grail.tokenBeans.WordToken(java.lang.String) ARthUr
 called constructor: public grail.tokenBeans.WordToken(java.lang.String) ARthUr
 Calling non interactive method:setInput with args [ARthUr]
-Calling on object grail.tokenBeans.WordToken@38aa816f 950698351 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[ARthUr]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@2f67b837 795326519 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[ARthUr]timeOut:2000
 Calling non interactive method:getValue with args []
-Calling on object grail.tokenBeans.WordToken@38aa816f 950698351 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@2f67b837 795326519 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 *****************************(NumberBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 1.0
 Finding constructor matching:class java.lang.String
@@ -761,13 +70,20 @@ Calling constructor public grail.tokenBeans.NumberToken(java.lang.String)with ar
 calling constructor: public grail.tokenBeans.NumberToken(java.lang.String) 0045
 called constructor: public grail.tokenBeans.NumberToken(java.lang.String) 0045
 Calling non interactive method:setInput with args [0045]
-Calling on object grail.tokenBeans.NumberToken@6bffbc6d 1811922029 method:public void grail.tokenBeans.NumberToken.setInput(java.lang.String) args:[0045]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@6af9fcb2 1794768050 method:public void grail.tokenBeans.NumberToken.setInput(java.lang.String) args:[0045]timeOut:2000
 Calling non interactive method:getValue with args []
-Calling on object grail.tokenBeans.NumberToken@6bffbc6d 1811922029 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-*****************************(Every class has at least one interface)*****************************
-### Interfaces defined: 0.8
-*****************************(Classes have)*****************************
-### Variable types using interface: 1.0
+Calling on object grail.tokenBeans.NumberToken@6af9fcb2 1794768050 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+*****************************(getInput and getValue are called in scannerBean)*****************************
+### ScannerBean!getInput:->String: 1.0
+### ScannerBean!getValue:->String: 1.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Required token classes instantiated)*****************************
+### ScannerBean!Word: 1.0
+### ScannerBean!Number: 1.0
+### ScannerBean!Quote: 1.0
+### ScannerBean!Start: 1.0
+### ScannerBean!End: 1.0
 *****************************(Single parameter constructors defined)*****************************
 ### Word!:String: 1.0
 ### Number!:String: 1.0
@@ -775,13 +91,30 @@ Calling on object grail.tokenBeans.NumberToken@6bffbc6d 1811922029 method:public
 ### Start!:String: 1.0
 ### End!:String: 1.0
 *****************************(Properties defined for token classes)*****************************
-### @Word= Input:String AND Value:String defined: 1.0
-### @Number= Input:String AND Value:int defined: 1.0
-### @Quote= Input:String defined: 1.0
-### @Start= Input:String defined: 1.0
-### @End= Input:String defined: 1.0
-*****************************(Extra credit constructors defined)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Necessary interfaces created and used)*****************************
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### Start defined: 1.0
+### End defined: 1.0
+### Word defined: 1.0
+### Number defined: 1.0
+*****************************(Extra credit classes instantiated, with proper interfaces)*****************************
+### ScannerBean!Plus: 1.0
+### ScannerBean!Minus: 1.0
+### Plus defined: 1.0
+### Minus defined: 1.0
+*****************************(Extra credit constructors and properties defined)*****************************
 ### Plus!:String: 1.0
 ### Minus!:String: 1.0
+### Plus defined: 1.0
+### Minus defined: 1.0
 *****************************(Screenshots enclosed)*****************************
 ### Image enclosed test case: 0.0

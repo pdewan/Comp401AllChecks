@@ -1,4 +1,0 @@
-#,Time,%Passes,Change,Test,Pass,Partial,Fail,Untested
-0,Tue Sep 20 22:08:54 EDT 2016,0,0,Assignment3Suite, , ,EndBeanTest- MinusBeanTest- MultipleGroupingTokenOutputTest- MultipleNumberTokenOutputTest- MultipleQuoteTokenOutputTest- MultipleSignTokenOutputTest- MultipleWordTokenOutputTest- NumberBeanTest- PlusBeanTest- QuoteBeanTest- StartBeanTest- WordBeanTest- , ,
-1,Tue Sep 20 22:09:28 EDT 2016,0,0,Assignment3Suite, , ,EndBeanTest MinusBeanTest MultipleGroupingTokenOutputTest MultipleNumberTokenOutputTest MultipleQuoteTokenOutputTest MultipleSignTokenOutputTest MultipleWordTokenOutputTest NumberBeanTest PlusBeanTest QuoteBeanTest StartBeanTest WordBeanTest , ,
-2,Tue Sep 20 22:10:24 EDT 2016,0,0,MinusBeanTest, , ,EndBeanTest MinusBeanTest MultipleGroupingTokenOutputTest MultipleNumberTokenOutputTest MultipleQuoteTokenOutputTest MultipleSignTokenOutputTest MultipleWordTokenOutputTest NumberBeanTest PlusBeanTest QuoteBeanTest StartBeanTest WordBeanTest , ,
