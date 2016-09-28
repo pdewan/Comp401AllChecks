@@ -5,12 +5,14 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment3.testcases.Assignment3Suite;
+import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleVariableHasClassTypeTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
-import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
 
 public class Assignment3Requirements extends AJUnitProjectRequirements {
@@ -34,7 +36,7 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      					"getValue:->String")
      			);
      	
-     	addFeature("Every class has at least one interface", 10, 
+     	addFeature("Public methods are in implemented interfaces", 10, 
      			new ClassHasAtLeastOneInterfaceTestCase());
      	
      	addRestriction("Variables have interface, not class, type", 10, 
@@ -59,24 +61,41 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      			);
      	
      	// Properties defined
-     	addFeature("Properties defined for token classes", 15, 
-     			new CheckStylePropertyDefinedTestCase("Word", "Input", "String"),
-				new CheckStylePropertyDefinedTestCase("Word", "Value", "int"),
-				new CheckStylePropertyDefinedTestCase("Number", "Input", "String"),
-				new CheckStylePropertyDefinedTestCase("Quote", "Input", "String"),
-				new CheckStylePropertyDefinedTestCase("Start", "Input", "String"),
-				new CheckStylePropertyDefinedTestCase("End", "Input", "String")
-     			// How do I check for setters?
+     	addFeature("Properties defined for token classes", 21,
+				new CheckStyleEditablePropertyDefinedTestCase("Word", "Input", "String"),
+				new CheckStyleEditablePropertyDefinedTestCase("Number", "Input", "String"),
+				new CheckStyleEditablePropertyDefinedTestCase("Quote", "Input", "String"),
+				new CheckStyleEditablePropertyDefinedTestCase("Start", "Input", "String"),
+				new CheckStyleEditablePropertyDefinedTestCase("End", "Input", "String"),
+				
+     			// Editable properties
+				new CheckStylePropertyDefinedTestCase("Word", "Value", "String"),
+				new CheckStylePropertyDefinedTestCase("Number", "Value", "int")
+     			);
+     	
+     	// Proper constructors exist
+     	addFeature("Necessary interfaces created and used", 21,
+     			new CheckstyleInterfaceDefinedTestCase("Word", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("Number", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("Quote", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("Start", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("End", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("Word", "Word"),
+     			new CheckstyleInterfaceDefinedTestCase("Number", "Number")
      			);
      	
      	// Extra credit classes
-     	addFeature("Extra credit classes instantiated", 4, true,
+     	addFeature("Extra credit classes instantiated, with proper interfaces", 8, true,
      			new CheckstyleClassInstantiatedTestCase("ScannerBean", "Plus"),
-     			new CheckstyleClassInstantiatedTestCase("ScannerBean", "Minus")
+     			new CheckstyleClassInstantiatedTestCase("ScannerBean", "Minus"),
+     			new CheckstyleInterfaceDefinedTestCase("Plus", "Token"),
+     			new CheckstyleInterfaceDefinedTestCase("Minus", "Token")
      			);
-     	addFeature("Extra credit constructors defined", 4, true,
+     	addFeature("Extra credit constructors and properties defined", 8, true,
      			new CheckstyleConstructorDefinedTestCase("Plus", ":String"),
-     			new CheckstyleConstructorDefinedTestCase("Minus", ":String")
+     			new CheckstyleConstructorDefinedTestCase("Minus", ":String"),
+     			new CheckStyleEditablePropertyDefinedTestCase("Plus", "Input", "String"),
+     			new CheckStyleEditablePropertyDefinedTestCase("Minus", "Input", "String")
      			);
      	
      	addFeature("Screenshots enclosed", 10, new ImageEnclosedTestCase());
