@@ -1,2 +1,2 @@
-  -- Class matching Plus not instantiated in AScannerBean
-  -- Class matching Minus not instantiated in AScannerBean
+  -- Class matching Plus not instantiated in null
+  -- Class matching Minus not instantiated in null
