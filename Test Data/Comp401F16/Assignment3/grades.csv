@@ -7,6 +7,9 @@ mmany,mmany,Mistakes,Many,111.3
 tstudent,tstudent,Test,Student,185.85
 tstudent0,tstudent0,Test0,Student,207.9
 tstudent1,tstudent1,Test1,Student,187.95000000000002
-tstudent2,tstudent2,Test2,Student,110.25
-tstudent3,tstudent3,Test3,Student,186.9
+tstudent2,tstudent2,Test2,Student,64.05
+tstudent3,tstudent3,Test3,Student,166.95000000000002
 tstudent4,tstudent4,Test4,Student,186.9
+skeleton,skeleton,Correct,Skeleton,154.35
+stubs,stubs,Correct,Stub,154.35
+previous,previous,Previous,Assignment,154.35
