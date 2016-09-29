@@ -9,4 +9,11 @@ tstudent0,tstudent0,Test0,Student,160.65
 tstudent1,tstudent1,Test1,Student,160.65
 tstudent2,tstudent2,Test2,Student,113.4
 tstudent3,tstudent3,Test3,Student,139.65
+<<<<<<< HEAD
 tstudent4,tstudent4,Test4,Student,154.35
+skeleton,skeleton,Correct,Skeleton,154.35
+stubs,stubs,Correct,Stub,154.35
+previous,previous,Previous,Assignment,154.35
+=======
+tstudent4,tstudent4,Test4,Student,154.35
+>>>>>>> 41b46446125433690ebe317ae9c738c72a848635
