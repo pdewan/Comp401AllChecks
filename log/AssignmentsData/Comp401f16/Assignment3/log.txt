@@ -1,1 +1,375 @@
 
+Grading result for: Test, Student(tstudent)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           8.0 / 10.0
+Required token classes instantiated                    0.0 / 15.0
+Single parameter constructors defined                  15.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 177.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 177.0
+
+Notes from grading features:
+----------------------------------
+Public methods are in implemented interfaces:
+  -- classHasAtLeastOneInterface: (Assignment3.java:1) Classes with public instance methods should implement interfaces
+
+
+Required token classes instantiated:
+  -- Class matching Word not instantiated in AScannerBean
+  -- Class matching Number not instantiated in AScannerBean
+  -- Class matching Quote not instantiated in AScannerBean
+  -- Class matching Start not instantiated in AScannerBean
+  -- Class matching End not instantiated in AScannerBean
+
+Extra credit classes instantiated, with proper interfaces:
+  -- Class matching Plus not instantiated in AScannerBean
+  -- Class matching Minus not instantiated in AScannerBean
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 185.85
+Grading result for: Test0, Student(tstudent0)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Required token classes instantiated                    15.0 / 15.0
+Single parameter constructors defined                  15.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 198.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 198.0
+
+Notes from grading features:
+----------------------------------
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 207.9
+Grading result for: Test1, Student(tstudent1)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Required token classes instantiated                    15.0 / 15.0
+Single parameter constructors defined                  0.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 179.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 179.0
+
+Notes from grading features:
+----------------------------------
+Single parameter constructors defined:
+  -- Constructor matching :String not defined in WordToken
+  -- Constructor matching :String not defined in NumberToken
+  -- Constructor matching :String not defined in QuoteToken
+  -- Constructor matching :String not defined in StartToken
+  -- Constructor matching :String not defined in EndToken
+
+Extra credit constructors and properties defined:
+  -- Constructor matching :String not defined in PlusToken
+  -- Constructor matching :String not defined in MinusToken
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 187.95000000000002
+Grading result for: Test2, Student(tstudent2)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           0.0 /  5.0
+EndBeanTest                                            0.0 /  5.0
+StartBeanTest                                          0.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          0.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          0.0 /  5.0
+WordBeanTest                                           0.0 / 10.0
+NumberBeanTest                                         0.0 / 10.0
+getInput and getValue are called in scannerBean        0.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Required token classes instantiated                    0.0 / 15.0
+Single parameter constructors defined                  0.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 105.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 105.0
+
+Notes from grading features:
+----------------------------------
+PlusBeanTest:
+  -- No class matching: [Plus]
+
+EndBeanTest:
+  -- No class matching: [End]
+
+StartBeanTest:
+  -- No class matching: [Start]
+
+MinusBeanTest:
+  -- No class matching: [Minus]
+
+QuoteBeanTest:
+  -- No class matching: [Quote]
+
+WordBeanTest:
+  -- No class matching: [Word]
+
+NumberBeanTest:
+  -- No class matching: [Number]
+
+getInput and getValue are called in scannerBean:
+  -- Method matching getInput:->String not called in ScannerBean
+  -- Method matching getValue:->String not called in ScannerBean
+
+Required token classes instantiated:
+  -- Class matching Word not instantiated in ScannerBean
+  -- Class matching Number not instantiated in ScannerBean
+  -- Class matching Quote not instantiated in ScannerBean
+  -- Class matching Start not instantiated in ScannerBean
+  -- Class matching End not instantiated in ScannerBean
+
+Single parameter constructors defined:
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+
+Extra credit classes instantiated, with proper interfaces:
+  -- Class matching Plus not instantiated in ScannerBean
+  -- Class matching Minus not instantiated in ScannerBean
+
+Extra credit constructors and properties defined:
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 110.25
+Grading result for: Test3, Student(tstudent3)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           0.0 / 10.0
+Required token classes instantiated                    15.0 / 15.0
+Single parameter constructors defined                  15.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 188.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   -10.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -10.0
+
+  Features Score: 178.0
+
+Notes from grading features:
+----------------------------------
+Public methods are in implemented interfaces:
+  -- classHasAtLeastOneInterface: (ScannerBean.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (EndToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (MinusToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (NumberToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (PlusToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (QuoteToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (StartToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (WordToken.java:1) Classes with public instance methods should implement interfaces
+
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Notes from grading restrictions:
+----------------------------------
+Variables have interface, not class, type:
+  -- variableHasClassType: (ScannerBean.java:114) Class EndToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:102) Class MinusToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:61) Class NumberToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:97) Class PlusToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:90) Class QuoteToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:108) Class StartToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (ScannerBean.java:71) Class WordToken rather than interface used as the type of variable/function tokenObject
+variableHasClassType: (Assignment3.java:17) Class ScannerBean rather than interface used as the type of variable/function myScanner
+
+
+
+Early benefit: 105.0%
+  Total Score: 186.9
+Grading result for: Test4, Student(tstudent4)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  0.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      0.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Required token classes instantiated                    15.0 / 15.0
+Single parameter constructors defined                  15.0 / 15.0
+Properties defined for token classes                   21.0 / 21.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 178.0
+
+Grading restrictions...
+----------------------------------
+Variables have interface, not class, type   0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 178.0
+
+Notes from grading features:
+----------------------------------
+MultipleNumberTokenOutputTest:Multiple Numbers Output:
+  -- Incorrect output
+
+MultipleWordTokenOutputTest:Multiple Words Output:
+  -- Incorrect output
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 186.9

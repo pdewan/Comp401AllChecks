@@ -1,0 +1,2 @@
+  -- Class matching Plus not instantiated in ScannerBean
+  -- Class matching Minus not instantiated in ScannerBean

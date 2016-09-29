@@ -1,0 +1,2 @@
+  -- Method matching getInput:->String not called in ScannerBean
+  -- Method matching getValue:->String not called in ScannerBean

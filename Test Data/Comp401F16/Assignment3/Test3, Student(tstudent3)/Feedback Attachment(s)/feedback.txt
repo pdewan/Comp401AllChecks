@@ -5,12 +5,12 @@ Grading features...
 PlusBeanTest                                           5.0 /  5.0
 EndBeanTest                                            5.0 /  5.0
 StartBeanTest                                          5.0 /  5.0
-MultipleSignTokenOutputTest:Multiple Signs Output      0.0 /  5.0 (Extra credit)
-MultipleNumberTokenOutputTest:Multiple Numbers Output  0.0 / 10.0
-MultipleQuoteTokenOutputTest:Multiple Quotes Output    0.0 / 10.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
 MinusBeanTest                                          5.0 /  5.0
-MultipleWordTokenOutputTest:Multiple Words Output      0.0 / 10.0
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 0.0 / 10.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
 QuoteBeanTest                                          5.0 /  5.0
 WordBeanTest                                           10.0 / 10.0
 NumberBeanTest                                         10.0 / 10.0
@@ -24,7 +24,7 @@ Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra cred
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 143.0
+  Points Awarded: 188.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,35 +33,10 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 133.0
+  Features Score: 178.0
 
 Notes from grading features:
 ----------------------------------
-MultipleSignTokenOutputTest:Multiple Signs Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleNumberTokenOutputTest:Multiple Numbers Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleQuoteTokenOutputTest:Multiple Quotes Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleWordTokenOutputTest:Multiple Words Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
 Public methods are in implemented interfaces:
   -- classHasAtLeastOneInterface: (ScannerBean.java:1) Classes with public instance methods should implement interfaces
 classHasAtLeastOneInterface: (EndToken.java:1) Classes with public instance methods should implement interfaces
@@ -92,4 +67,4 @@ variableHasClassType: (Assignment3.java:17) Class ScannerBean rather than interf
 
 
 Early benefit: 105.0%
-  Total Score: 139.65
+  Total Score: 186.9

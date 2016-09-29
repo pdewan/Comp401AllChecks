@@ -1,0 +1,5 @@
+  -- Constructor matching :String not defined in WordToken
+  -- Constructor matching :String not defined in NumberToken
+  -- Constructor matching :String not defined in QuoteToken
+  -- Constructor matching :String not defined in StartToken
+  -- Constructor matching :String not defined in EndToken
