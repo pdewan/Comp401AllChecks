@@ -1,5 +1,10 @@
-  -- Constructor matching :String not defined in WordToken
-  -- Constructor matching :String not defined in NumberToken
-  -- Constructor matching :String not defined in QuoteToken
-  -- Constructor matching :String not defined in StartToken
-  -- Constructor matching :String not defined in EndToken
+  -- expectedConstructors: (WordToken.java:10) In type WordToken, missing constructor: :String
+
+  -- expectedConstructors: (NumberToken.java:10) In type NumberToken, missing constructor: :String
+
+  -- expectedConstructors: (QuoteToken.java:9) In type QuoteToken, missing constructor: :String
+
+  -- expectedConstructors: (StartToken.java:9) In type StartToken, missing constructor: :String
+
+  -- expectedConstructors: (EndToken.java:9) In type EndToken, missing constructor: :String
+

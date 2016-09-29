@@ -1,17 +1,19 @@
-Auto Grading Time: Total: 0:0:29 Average: 0:0:4
-Manual Grading Time: Total: 18:55:41 Average: 3:9:16
-Number of Source Notes: Total: 6 Average: 1.0
+Auto Grading Time: Total: 0:1:8 Average: 0:0:9
+Manual Grading Time: Total: 24:51:42 Average: 3:33:6
+Number of Source Notes: Total: 7 Average: 1.0
 
 Comp401f16:Assignment3
 --------------------------------------------------------------------------------------------------
-test, student(tstudent) TOTAL:185.85 FEATURES:177.0 MULTIPLIER:1.05 AUTO:0:0:7 MANUAL:4:10:19 SECTIONS:[source, source_open] GRADER:Dewan
+test, student(tstudent) TOTAL:189.0 FEATURES:180.0 MULTIPLIER:1.05 AUTO:0:0:15 MANUAL:4:25:21 SECTIONS:[source, source_open] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test1, student(tstudent1) TOTAL:187.95000000000002 FEATURES:179.0 MULTIPLIER:1.05 AUTO:0:0:4 MANUAL:13:19:38 SECTIONS:[source] GRADER:Dewan
+test1, student(tstudent1) TOTAL:191.1 FEATURES:182.0 MULTIPLIER:1.05 AUTO:0:0:10 MANUAL:17:38:35 SECTIONS:[source, source_open] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test0, student(tstudent0) TOTAL:207.9 FEATURES:198.0 MULTIPLIER:1.05 AUTO:0:0:4 MANUAL:0:2:19 SECTIONS:[source] GRADER:Dewan
+test0, student(tstudent0) TOTAL:211.05 FEATURES:201.0 MULTIPLIER:1.05 AUTO:0:0:10 MANUAL:0:5:22 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test2, student(tstudent2) TOTAL:110.25 FEATURES:105.0 MULTIPLIER:1.05 AUTO:0:0:3 MANUAL:0:59:45 SECTIONS:[source] GRADER:Dewan
+test2, student(tstudent2) TOTAL:57.75 FEATURES:55.0 MULTIPLIER:1.05 AUTO:0:0:9 MANUAL:1:15:34 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test3, student(tstudent3) TOTAL:186.9 FEATURES:178.0 MULTIPLIER:1.05 AUTO:0:0:4 MANUAL:0:2:5 SECTIONS:[source] GRADER:Dewan
+test3, student(tstudent3) TOTAL:163.8 FEATURES:156.0 MULTIPLIER:1.05 AUTO:0:0:10 MANUAL:0:39:59 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
-test4, student(tstudent4) TOTAL:186.9 FEATURES:178.0 MULTIPLIER:1.05 AUTO:0:0:4 MANUAL:0:21:31 SECTIONS:[source] GRADER:Dewan
+test4, student(tstudent4) TOTAL:175.35 FEATURES:167.0 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:43:58 SECTIONS:[source] GRADER:Dewan
+--------------------------------------------------------------------------------------------------
+test, student(skeleton) TOTAL:185.85 FEATURES:177.0 MULTIPLIER:1.05 MANUAL:0:2:52 SECTIONS:[source] GRADER:Dewan

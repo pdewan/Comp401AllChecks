@@ -2,20 +2,20 @@
 ### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.PlusToken(java.lang.String)with args:[+]timeOut:2000
-Calling on object grail.tokenBeans.PlusToken@76f856a8 1995986600 method:public void grail.tokenBeans.PlusToken.setInput(java.lang.String) args:[+]timeOut:2000
-Calling on object grail.tokenBeans.PlusToken@76f856a8 1995986600 method:public java.lang.String grail.tokenBeans.PlusToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.PlusToken@3c6aa04a 1013620810 method:public void grail.tokenBeans.PlusToken.setInput(java.lang.String) args:[+]timeOut:2000
+Calling on object grail.tokenBeans.PlusToken@3c6aa04a 1013620810 method:public java.lang.String grail.tokenBeans.PlusToken.getInput() args:[]timeOut:2000
 *****************************(EndBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.EndToken(java.lang.String)with args:[}]timeOut:2000
-Calling on object grail.tokenBeans.EndToken@7c853486 2089104518 method:public void grail.tokenBeans.EndToken.setInput(java.lang.String) args:[}]timeOut:2000
-Calling on object grail.tokenBeans.EndToken@7c853486 2089104518 method:public java.lang.String grail.tokenBeans.EndToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.EndToken@2257fadf 576191199 method:public void grail.tokenBeans.EndToken.setInput(java.lang.String) args:[}]timeOut:2000
+Calling on object grail.tokenBeans.EndToken@2257fadf 576191199 method:public java.lang.String grail.tokenBeans.EndToken.getInput() args:[]timeOut:2000
 *****************************(StartBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.StartToken(java.lang.String)with args:[{]timeOut:2000
-Calling on object grail.tokenBeans.StartToken@174e1b69 390994793 method:public void grail.tokenBeans.StartToken.setInput(java.lang.String) args:[{]timeOut:2000
-Calling on object grail.tokenBeans.StartToken@174e1b69 390994793 method:public java.lang.String grail.tokenBeans.StartToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.StartToken@7144655b 1900307803 method:public void grail.tokenBeans.StartToken.setInput(java.lang.String) args:[{]timeOut:2000
+Calling on object grail.tokenBeans.StartToken@7144655b 1900307803 method:public java.lang.String grail.tokenBeans.StartToken.getInput() args:[]timeOut:2000
 *****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
 INPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
 - - + + - 
@@ -209,8 +209,8 @@ Expected outputs:[(.*)   weird spacing    (.*), (.*)@(.*), (.*)23more_numbers234
 ### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.MinusToken(java.lang.String)with args:[-]timeOut:2000
-Calling on object grail.tokenBeans.MinusToken@71cb3139 1909141817 method:public void grail.tokenBeans.MinusToken.setInput(java.lang.String) args:[-]timeOut:2000
-Calling on object grail.tokenBeans.MinusToken@71cb3139 1909141817 method:public java.lang.String grail.tokenBeans.MinusToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.MinusToken@289fdb08 681564936 method:public void grail.tokenBeans.MinusToken.setInput(java.lang.String) args:[-]timeOut:2000
+Calling on object grail.tokenBeans.MinusToken@289fdb08 681564936 method:public java.lang.String grail.tokenBeans.MinusToken.getInput() args:[]timeOut:2000
 *****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
 INPUT(MultipleWordTokenOutputTest:Multiple Words Output)
 DOTH IORME perhaps surmise surprise 
@@ -352,22 +352,22 @@ Expected outputs:[(.*)\Q{\E(.*), (.*)@(.*), (.*)\Q{\E(.*), (.*)@(.*), (.*)\Q}\E(
 ### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.QuoteToken(java.lang.String)with args:[ This is a quote ]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@1639f93a 372898106 method:public void grail.tokenBeans.QuoteToken.setInput(java.lang.String) args:[ This is a quote ]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@1639f93a 372898106 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@7a231dfd 2049121789 method:public void grail.tokenBeans.QuoteToken.setInput(java.lang.String) args:[ This is a quote ]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@7a231dfd 2049121789 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
 *****************************(WordBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.WordToken(java.lang.String)with args:[ARthUr]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@3491e86e 881977454 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[ARthUr]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@3491e86e 881977454 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@3491e86e 881977454 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@30814f43 813780803 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[ARthUr]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@30814f43 813780803 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@30814f43 813780803 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 *****************************(NumberBeanTest)*****************************
 ### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 1.0
 Finding constructor matching:class java.lang.String
 Calling constructor public grail.tokenBeans.NumberToken(java.lang.String)with args:[0045]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@68f32020 1760763936 method:public void grail.tokenBeans.NumberToken.setInput(java.lang.String) args:[0045]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@68f32020 1760763936 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@68f32020 1760763936 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@1fde4f40 534662976 method:public void grail.tokenBeans.NumberToken.setInput(java.lang.String) args:[0045]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@1fde4f40 534662976 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@1fde4f40 534662976 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
 *****************************(getInput and getValue are called in scannerBean)*****************************
 ### ScannerBean!getInput:->String: 1.0
 ### ScannerBean!getValue:->String: 1.0
@@ -386,21 +386,24 @@ Calling on object grail.tokenBeans.NumberToken@68f32020 1760763936 method:public
 ### Start!:String: 1.0
 ### End!:String: 1.0
 *****************************(Properties defined for token classes)*****************************
-### Word defined: 1.0
-### Number defined: 1.0
-### Quote defined: 1.0
-### Start defined: 1.0
-### End defined: 1.0
-### Word defined: 1.0
-### Number defined: 1.0
+### Word defines setter for property Input: 1.0
+### Number defines setter for property Input: 1.0
+### Quote defines setter for property Input: 1.0
+### Start defines setter for property Input: 1.0
+### End defines setter for property Input: 1.0
+### Worddefines getter for property Input: 1.0
+### Numberdefines getter for property Input: 1.0
+### Quotedefines getter for property Input: 1.0
+### Startdefines getter for property Input: 1.0
+### Enddefines getter for property Input: 1.0
+### Worddefines getter for property Value: 1.0
+### Numberdefines getter for property Value: 1.0
 *****************************(Necessary interfaces created and used)*****************************
 ### Word defined: 1.0
 ### Number defined: 1.0
 ### Quote defined: 1.0
 ### Start defined: 1.0
 ### End defined: 1.0
-### Word defined: 1.0
-### Number defined: 1.0
 *****************************(Extra credit classes instantiated, with proper interfaces)*****************************
 ### ScannerBean!Plus: 1.0
 ### ScannerBean!Minus: 1.0
@@ -409,7 +412,7 @@ Calling on object grail.tokenBeans.NumberToken@68f32020 1760763936 method:public
 *****************************(Extra credit constructors and properties defined)*****************************
 ### Plus!:String: 1.0
 ### Minus!:String: 1.0
-### Plus defined: 1.0
-### Minus defined: 1.0
+### Plus defines setter for property Input: 1.0
+### Minus defines setter for property Input: 1.0
 *****************************(Screenshots enclosed)*****************************
 ### Image enclosed test case: 0.0

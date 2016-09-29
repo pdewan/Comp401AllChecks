@@ -1,2 +1,4 @@
-  -- Constructor matching :String not defined in PlusToken
-  -- Constructor matching :String not defined in MinusToken
+  -- expectedConstructors: (PlusToken.java:9) In type PlusToken, missing constructor: :String
+
+  -- expectedConstructors: (MinusToken.java:9) In type MinusToken, missing constructor: :String
+

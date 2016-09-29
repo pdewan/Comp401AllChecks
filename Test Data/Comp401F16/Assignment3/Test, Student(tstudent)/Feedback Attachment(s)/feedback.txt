@@ -18,22 +18,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           8.0 / 10.0
 Required token classes instantiated                    0.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   24.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 177.0
+  Points Awarded: 180.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 177.0
+  Features Score: 180.0
 
 Notes from grading features:
 ----------------------------------
@@ -57,4 +57,4 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 185.85
+  Total Score: 189.0

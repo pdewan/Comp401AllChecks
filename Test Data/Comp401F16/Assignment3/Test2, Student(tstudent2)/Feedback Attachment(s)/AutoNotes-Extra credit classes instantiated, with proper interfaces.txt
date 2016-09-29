@@ -1,2 +1,4 @@
   -- Class matching Plus not instantiated in ScannerBean
   -- Class matching Minus not instantiated in ScannerBean
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle

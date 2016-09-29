@@ -1015,3 +1015,83 @@
 1475161437505,11:03:57,NavigationInitiated
 1475161437646,11:03:57,GraderSettingsEnded
 1475161443923,11:04:03,ProjectStepperStarted
+1475166011557,12:20:11,ModuleUserChange,null
+1475166011572,12:20:11,AnimationPauseTimeUserChange,2
+1475166011578,12:20:11,ProblemUserChange,null
+1475166014165,12:20:14,GraderSettingsDisplayed
+1475166014167,12:20:14,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475166053918,12:20:53,NavigationInitiated
+1475166054121,12:20:54,GraderSettingsEnded
+1475166058860,12:20:58,ProjectStepperStarted
+1475166170433,12:22:50,ModuleUserChange,null
+1475166170449,12:22:50,AnimationPauseTimeUserChange,2
+1475166170465,12:22:50,ProblemUserChange,null
+1475166173929,12:22:53,GraderSettingsDisplayed
+1475166173932,12:22:53,GraderSettingsStarted,Comp401f16,Assignment3,skeleton,skeleton,Automatic and then manual,Grading Status,All
+1475166206493,12:23:26,NavigationInitiated
+1475166206681,12:23:26,GraderSettingsEnded
+1475166213179,12:23:33,ProjectStepperStarted
+1475167000080,12:36:40,ModuleUserChange,null
+1475167000096,12:36:40,AnimationPauseTimeUserChange,2
+1475167000111,12:36:40,ProblemUserChange,null
+1475167003778,12:36:43,GraderSettingsDisplayed
+1475167003782,12:36:43,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475167014412,12:36:54,NavigationInitiated
+1475167014647,12:36:54,GraderSettingsEnded
+1475167021060,12:37:01,ProjectStepperStarted
+1475167865335,12:51:05,ModuleUserChange,null
+1475167865350,12:51:05,AnimationPauseTimeUserChange,2
+1475167865350,12:51:05,ProblemUserChange,null
+1475167868609,12:51:08,GraderSettingsDisplayed
+1475167868609,12:51:08,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475167881108,12:51:21,NavigationInitiated
+1475167881280,12:51:21,GraderSettingsEnded
+1475167902039,12:51:42,ProjectStepperStarted
+1475168435957,13:00:35,ModuleUserChange,null
+1475168435973,13:00:35,AnimationPauseTimeUserChange,2
+1475168435989,13:00:35,ProblemUserChange,null
+1475168439452,13:00:39,GraderSettingsDisplayed
+1475168439454,13:00:39,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475168447598,13:00:47,NavigationInitiated
+1475168447771,13:00:47,GraderSettingsEnded
+1475168454129,13:00:54,ProjectStepperStarted
+1475183832794,17:17:12,ModuleUserChange,null
+1475183832888,17:17:12,AnimationPauseTimeUserChange,2
+1475183832919,17:17:12,ProblemUserChange,null
+1475183838046,17:17:18,GraderSettingsDisplayed
+1475183838077,17:17:18,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475183891493,17:18:11,NavigationInitiated
+1475183891711,17:18:11,GraderSettingsEnded
+1475183899037,17:18:19,ProjectStepperStarted
+1475185400181,17:43:20,ModuleUserChange,null
+1475185400197,17:43:20,AnimationPauseTimeUserChange,2
+1475185400213,17:43:20,ProblemUserChange,null
+1475185405313,17:43:25,GraderSettingsDisplayed
+1475185405313,17:43:25,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475185414099,17:43:34,NavigationInitiated
+1475185414318,17:43:34,GraderSettingsEnded
+1475185543332,17:45:43,ProjectStepperStarted
+1475186894375,18:08:14,ModuleUserChange,null
+1475186894390,18:08:14,AnimationPauseTimeUserChange,2
+1475186894390,18:08:14,ProblemUserChange,null
+1475186899471,18:08:19,GraderSettingsDisplayed
+1475186899471,18:08:19,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475186910249,18:08:30,NavigationInitiated
+1475186910452,18:08:30,GraderSettingsEnded
+1475186925734,18:08:45,ProjectStepperStarted
+1475187009349,18:10:09,ModuleUserChange,null
+1475187009365,18:10:09,AnimationPauseTimeUserChange,2
+1475187009365,18:10:09,ProblemUserChange,null
+1475187014432,18:10:14,GraderSettingsDisplayed
+1475187014432,18:10:14,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475187022874,18:10:22,NavigationInitiated
+1475187023046,18:10:23,GraderSettingsEnded
+1475187041754,18:10:41,ProjectStepperStarted
+1475187782292,18:23:02,ModuleUserChange,null
+1475187782308,18:23:02,AnimationPauseTimeUserChange,2
+1475187782323,18:23:02,ProblemUserChange,null
+1475187787503,18:23:07,GraderSettingsDisplayed
+1475187787519,18:23:07,GraderSettingsStarted,Comp401f16,Assignment3,tstudent,tstudent4,Automatic and then manual,Grading Status,All
+1475187798738,18:23:18,NavigationInitiated
+1475187798941,18:23:18,GraderSettingsEnded
+1475187804470,18:23:24,ProjectStepperStarted

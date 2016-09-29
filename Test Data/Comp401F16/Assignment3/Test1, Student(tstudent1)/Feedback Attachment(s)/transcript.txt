@@ -370,21 +370,24 @@ Constructor not found:grail.tokenBeans.NumberToken.<init>(java.lang.String)
 ### Start!:String: 0.0
 ### End!:String: 0.0
 *****************************(Properties defined for token classes)*****************************
-### Word defined: 1.0
-### Number defined: 1.0
-### Quote defined: 1.0
-### Start defined: 1.0
-### End defined: 1.0
-### Word defined: 1.0
-### Number defined: 1.0
+### Word defines setter for property Input: 1.0
+### Number defines setter for property Input: 1.0
+### Quote defines setter for property Input: 1.0
+### Start defines setter for property Input: 1.0
+### End defines setter for property Input: 1.0
+### Worddefines getter for property Input: 1.0
+### Numberdefines getter for property Input: 1.0
+### Quotedefines getter for property Input: 1.0
+### Startdefines getter for property Input: 1.0
+### Enddefines getter for property Input: 1.0
+### Worddefines getter for property Value: 1.0
+### Numberdefines getter for property Value: 1.0
 *****************************(Necessary interfaces created and used)*****************************
 ### Word defined: 1.0
 ### Number defined: 1.0
 ### Quote defined: 1.0
 ### Start defined: 1.0
 ### End defined: 1.0
-### Word defined: 1.0
-### Number defined: 1.0
 *****************************(Extra credit classes instantiated, with proper interfaces)*****************************
 ### ScannerBean!Plus: 1.0
 ### ScannerBean!Minus: 1.0
@@ -393,7 +396,7 @@ Constructor not found:grail.tokenBeans.NumberToken.<init>(java.lang.String)
 *****************************(Extra credit constructors and properties defined)*****************************
 ### Plus!:String: 0.0
 ### Minus!:String: 0.0
-### Plus defined: 1.0
-### Minus defined: 1.0
+### Plus defines setter for property Input: 1.0
+### Minus defines setter for property Input: 1.0
 *****************************(Screenshots enclosed)*****************************
 ### Image enclosed test case: 0.0

@@ -21,8 +21,8 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
 		addDueDate("09/15/2016 00:59:00", 1.05); 	// wed before
      	addDueDate("09/17/2016 00:59:00", 1); 		// fri due
      	addDueDate("09/20/2016 00:59:00", 0.95);	// mon after due
-     	addDueDate("09/24/2016 00:59:00", 0.85); 	// fri after due
-     	addDueDate("12/05/2016 00:59:00", 0.8); 	// infinity
+     	addDueDate("09/24/2016 00:59:00", 0.90); 	// fri after due
+     	addDueDate("12/05/2016 00:59:00", 0.85); 	// infinity
      	
      	// Functionality
      	GradingMode.setGraderRun(true);
@@ -39,7 +39,7 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      	addFeature("Public methods are in implemented interfaces", 10, 
      			new ClassHasAtLeastOneInterfaceTestCase());
      	
-     	addRestriction("Variables have interface, not class, type", 10, 
+     	addRestriction("Variables should have interface, not class, type", 10, 
      			new CheckStyleVariableHasClassTypeTestCase());
      	
      	// Classes for tokens instantiated
@@ -61,14 +61,21 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      			);
      	
      	// Properties defined
-     	addFeature("Properties defined for token classes", 21,
+     	addFeature("Properties defined for token classes", 24,
 				new CheckStyleEditablePropertyDefinedTestCase("Word", "Input", "String"),
 				new CheckStyleEditablePropertyDefinedTestCase("Number", "Input", "String"),
 				new CheckStyleEditablePropertyDefinedTestCase("Quote", "Input", "String"),
 				new CheckStyleEditablePropertyDefinedTestCase("Start", "Input", "String"),
 				new CheckStyleEditablePropertyDefinedTestCase("End", "Input", "String"),
 				
-     			// Editable properties
+				new CheckStylePropertyDefinedTestCase("Word", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Number", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Quote", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("Start", "Input", "String"),
+				new CheckStylePropertyDefinedTestCase("End", "Input", "String"),
+				
+				
+     			// Non Editable properties
 				new CheckStylePropertyDefinedTestCase("Word", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Number", "Value", "int")
      			);
@@ -79,9 +86,9 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      			new CheckstyleInterfaceDefinedTestCase("Number", "Token"),
      			new CheckstyleInterfaceDefinedTestCase("Quote", "Token"),
      			new CheckstyleInterfaceDefinedTestCase("Start", "Token"),
-     			new CheckstyleInterfaceDefinedTestCase("End", "Token"),
-     			new CheckstyleInterfaceDefinedTestCase("Word", "Word"),
-     			new CheckstyleInterfaceDefinedTestCase("Number", "Number")
+     			new CheckstyleInterfaceDefinedTestCase("End", "Token")
+//     			new CheckstyleInterfaceDefinedTestCase("Word", "Word"),
+//     			new CheckstyleInterfaceDefinedTestCase("Number", "Number")
      			);
      	
      	// Extra credit classes

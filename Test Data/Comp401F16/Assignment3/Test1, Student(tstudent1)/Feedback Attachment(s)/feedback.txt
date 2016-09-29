@@ -18,39 +18,46 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  0.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   24.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 179.0
+  Points Awarded: 182.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 179.0
+  Features Score: 182.0
 
 Notes from grading features:
 ----------------------------------
 Single parameter constructors defined:
-  -- Constructor matching :String not defined in WordToken
-  -- Constructor matching :String not defined in NumberToken
-  -- Constructor matching :String not defined in QuoteToken
-  -- Constructor matching :String not defined in StartToken
-  -- Constructor matching :String not defined in EndToken
+  -- expectedConstructors: (WordToken.java:10) In type WordToken, missing constructor: :String
+
+  -- expectedConstructors: (NumberToken.java:10) In type NumberToken, missing constructor: :String
+
+  -- expectedConstructors: (QuoteToken.java:9) In type QuoteToken, missing constructor: :String
+
+  -- expectedConstructors: (StartToken.java:9) In type StartToken, missing constructor: :String
+
+  -- expectedConstructors: (EndToken.java:9) In type EndToken, missing constructor: :String
+
 
 Extra credit constructors and properties defined:
-  -- Constructor matching :String not defined in PlusToken
-  -- Constructor matching :String not defined in MinusToken
+  -- expectedConstructors: (PlusToken.java:9) In type PlusToken, missing constructor: :String
+
+  -- expectedConstructors: (MinusToken.java:9) In type MinusToken, missing constructor: :String
+
 
 Screenshots enclosed:
   -- Missing images
 
 
 Early benefit: 105.0%
-  Total Score: 187.95000000000002
+  Total Score: 191.1

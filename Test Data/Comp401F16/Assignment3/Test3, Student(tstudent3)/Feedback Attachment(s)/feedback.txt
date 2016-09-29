@@ -18,22 +18,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           0.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Properties defined for token classes                   24.0 / 24.0
+Necessary interfaces created and used                  0.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 188.0
+  Points Awarded: 166.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   -10.0 /  -10.0
+Variables should have interface, not class, type-10.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 178.0
+  Features Score: 156.0
 
 Notes from grading features:
 ----------------------------------
@@ -48,13 +48,31 @@ classHasAtLeastOneInterface: (StartToken.java:1) Classes with public instance me
 classHasAtLeastOneInterface: (WordToken.java:1) Classes with public instance methods should implement interfaces
 
 
+Necessary interfaces created and used:
+  -- expectedInterfaces: (WordToken.java:9) In type WordToken, missing interface: @Token
+
+  -- expectedInterfaces: (NumberToken.java:9) In type NumberToken, missing interface: @Token
+
+  -- expectedInterfaces: (QuoteToken.java:8) In type QuoteToken, missing interface: @Token
+
+  -- expectedInterfaces: (StartToken.java:8) In type StartToken, missing interface: @Token
+
+  -- expectedInterfaces: (EndToken.java:8) In type EndToken, missing interface: @Token
+
+
+Extra credit classes instantiated, with proper interfaces:
+  -- expectedInterfaces: (PlusToken.java:8) In type PlusToken, missing interface: @Token
+
+  -- expectedInterfaces: (MinusToken.java:8) In type MinusToken, missing interface: @Token
+
+
 Screenshots enclosed:
   -- Missing images
 
 
 Notes from grading restrictions:
 ----------------------------------
-Variables have interface, not class, type:
+Variables should have interface, not class, type:
   -- variableHasClassType: (ScannerBean.java:114) Class EndToken rather than interface used as the type of variable/function tokenObject
 variableHasClassType: (ScannerBean.java:102) Class MinusToken rather than interface used as the type of variable/function tokenObject
 variableHasClassType: (ScannerBean.java:61) Class NumberToken rather than interface used as the type of variable/function tokenObject
@@ -67,4 +85,4 @@ variableHasClassType: (Assignment3.java:17) Class ScannerBean rather than interf
 
 
 Early benefit: 105.0%
-  Total Score: 186.9
+  Total Score: 163.8

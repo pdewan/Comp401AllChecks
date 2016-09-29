@@ -1,28 +1,28 @@
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\AScannerBean.java,expectedTypes,[main.Assignment3, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC]
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\AScannerBean.java,typeDefined,AScannerBean,@ScannerBean,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,scanString:String->*,AScannerBean
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOf:String;char;int->int,AScannerBean
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOfNot:String;char;int->int//EC,AScannerBean
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,main.Assignment3,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\Assignment3.java,classHasAtLeastOneInterface,Assignment3,main.Assignment3
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\Assignment3.java,expectedDeclaredSignatures,Assignment3,processInput:->*,Assignment3
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,typeDefined,ATokenScanner,No Expected Tag
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Number
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Word
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Quote
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Start
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@End
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Plus//EC
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Minus//EC
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\EndToken.java,typeDefined,EndToken,@End,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\IntValueToken.java,typeDefined,IntValueToken,No Expected Tag
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\MinusToken.java,typeDefined,MinusToken,@Minus//EC,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\NumberToken.java,typeDefined,NumberToken,@Number,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\PlusToken.java,typeDefined,PlusToken,@Plus//EC,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\QuoteToken.java,typeDefined,QuoteToken,@Quote,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\ScannerBean.java,typeDefined,ScannerBean,@ScannerBean,Interface
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\StartToken.java,typeDefined,StartToken,@Start,Class
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\StringValueToken.java,typeDefined,StringValueToken,No Expected Tag
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\Token.java,typeDefined,Token,No Expected Tag
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\TokenScanner.java,typeDefined,TokenScanner,No Expected Tag
-0,Thu Sep 29 11:04:05 EDT 2016,true,main\WordToken.java,typeDefined,WordToken,@Word,Class
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\AScannerBean.java,expectedTypes,[main.Assignment3, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC]
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\AScannerBean.java,typeDefined,AScannerBean,@ScannerBean,Class
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,scanString:String->*,AScannerBean
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOf:String;char;int->int,AScannerBean
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOfNot:String;char;int->int//EC,AScannerBean
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,main.Assignment3,Class
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\Assignment3.java,classHasAtLeastOneInterface,Assignment3,main.Assignment3
+0,Thu Sep 29 18:23:28 EDT 2016,true,main\Assignment3.java,expectedDeclaredSignatures,Assignment3,processInput:->*,Assignment3
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,typeDefined,ATokenScanner,No Expected Tag
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Number
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Word
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Quote
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Start
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@End
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Plus//EC
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Minus//EC
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\EndToken.java,typeDefined,EndToken,@End,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\IntValueToken.java,typeDefined,IntValueToken,No Expected Tag
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\MinusToken.java,typeDefined,MinusToken,@Minus//EC,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\NumberToken.java,typeDefined,NumberToken,@Number,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\PlusToken.java,typeDefined,PlusToken,@Plus//EC,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\QuoteToken.java,typeDefined,QuoteToken,@Quote,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\ScannerBean.java,typeDefined,ScannerBean,@ScannerBean,Interface
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\StartToken.java,typeDefined,StartToken,@Start,Class
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\StringValueToken.java,typeDefined,StringValueToken,No Expected Tag
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\Token.java,typeDefined,Token,No Expected Tag
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\TokenScanner.java,typeDefined,TokenScanner,No Expected Tag
+0,Thu Sep 29 18:23:29 EDT 2016,true,main\WordToken.java,typeDefined,WordToken,@Word,Class

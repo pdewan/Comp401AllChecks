@@ -19,22 +19,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           8.0 / 10.0
 Required token classes instantiated                    0.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   24.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 177.0
+  Points Awarded: 180.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 177.0
+  Features Score: 180.0
 
 Notes from grading features:
 ----------------------------------
@@ -58,7 +58,7 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 185.85
+  Total Score: 189.0
 Grading result for: Test0, Student(tstudent0)
 
 Grading features...
@@ -79,22 +79,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   24.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 198.0
+  Points Awarded: 201.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 198.0
+  Features Score: 201.0
 
 Notes from grading features:
 ----------------------------------
@@ -103,7 +103,7 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 207.9
+  Total Score: 211.05
 Grading result for: Test1, Student(tstudent1)
 
 Grading features...
@@ -124,42 +124,49 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  0.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   24.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 179.0
+  Points Awarded: 182.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 179.0
+  Features Score: 182.0
 
 Notes from grading features:
 ----------------------------------
 Single parameter constructors defined:
-  -- Constructor matching :String not defined in WordToken
-  -- Constructor matching :String not defined in NumberToken
-  -- Constructor matching :String not defined in QuoteToken
-  -- Constructor matching :String not defined in StartToken
-  -- Constructor matching :String not defined in EndToken
+  -- expectedConstructors: (WordToken.java:10) In type WordToken, missing constructor: :String
+
+  -- expectedConstructors: (NumberToken.java:10) In type NumberToken, missing constructor: :String
+
+  -- expectedConstructors: (QuoteToken.java:9) In type QuoteToken, missing constructor: :String
+
+  -- expectedConstructors: (StartToken.java:9) In type StartToken, missing constructor: :String
+
+  -- expectedConstructors: (EndToken.java:9) In type EndToken, missing constructor: :String
+
 
 Extra credit constructors and properties defined:
-  -- Constructor matching :String not defined in PlusToken
-  -- Constructor matching :String not defined in MinusToken
+  -- expectedConstructors: (PlusToken.java:9) In type PlusToken, missing constructor: :String
+
+  -- expectedConstructors: (MinusToken.java:9) In type MinusToken, missing constructor: :String
+
 
 Screenshots enclosed:
   -- Missing images
 
 
 Early benefit: 105.0%
-  Total Score: 187.95000000000002
+  Total Score: 191.1
 Grading result for: Test2, Student(tstudent2)
 
 Grading features...
@@ -180,22 +187,22 @@ getInput and getValue are called in scannerBean        0.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    0.0 / 15.0
 Single parameter constructors defined                  0.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
-Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
+Properties defined for token classes                   0.0 / 24.0
+Necessary interfaces created and used                  0.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 0.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       0.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 105.0
+  Points Awarded: 55.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 105.0
+  Features Score: 55.0
 
 Notes from grading features:
 ----------------------------------
@@ -221,8 +228,17 @@ NumberBeanTest:
   -- No class matching: [Number]
 
 getInput and getValue are called in scannerBean:
-  -- Method matching getInput:->String not called in ScannerBean
-  -- Method matching getValue:->String not called in ScannerBean
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call              @Quote!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call              @Word!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @End!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Minus!getInput:->String//EC
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Plus!getInput:->String//EC 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Start!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call        @Number!getInput:->String 
+
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Number!getValue:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Word!getValue:->String 
+
 
 Required token classes instantiated:
   -- Class matching Word not instantiated in ScannerBean
@@ -238,11 +254,36 @@ Single parameter constructors defined:
   -- Start not found by checkstyle
   -- End not found by checkstyle
 
+Properties defined for token classes:
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+
+Necessary interfaces created and used:
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+
 Extra credit classes instantiated, with proper interfaces:
   -- Class matching Plus not instantiated in ScannerBean
   -- Class matching Minus not instantiated in ScannerBean
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
 
 Extra credit constructors and properties defined:
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
   -- Plus not found by checkstyle
   -- Minus not found by checkstyle
 
@@ -251,7 +292,7 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 110.25
+  Total Score: 57.75
 Grading result for: Test3, Student(tstudent3)
 
 Grading features...
@@ -272,22 +313,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           0.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Properties defined for token classes                   24.0 / 24.0
+Necessary interfaces created and used                  0.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
 Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 188.0
+  Points Awarded: 166.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   -10.0 /  -10.0
+Variables should have interface, not class, type-10.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 178.0
+  Features Score: 156.0
 
 Notes from grading features:
 ----------------------------------
@@ -302,13 +343,31 @@ classHasAtLeastOneInterface: (StartToken.java:1) Classes with public instance me
 classHasAtLeastOneInterface: (WordToken.java:1) Classes with public instance methods should implement interfaces
 
 
+Necessary interfaces created and used:
+  -- expectedInterfaces: (WordToken.java:9) In type WordToken, missing interface: @Token
+
+  -- expectedInterfaces: (NumberToken.java:9) In type NumberToken, missing interface: @Token
+
+  -- expectedInterfaces: (QuoteToken.java:8) In type QuoteToken, missing interface: @Token
+
+  -- expectedInterfaces: (StartToken.java:8) In type StartToken, missing interface: @Token
+
+  -- expectedInterfaces: (EndToken.java:8) In type EndToken, missing interface: @Token
+
+
+Extra credit classes instantiated, with proper interfaces:
+  -- expectedInterfaces: (PlusToken.java:8) In type PlusToken, missing interface: @Token
+
+  -- expectedInterfaces: (MinusToken.java:8) In type MinusToken, missing interface: @Token
+
+
 Screenshots enclosed:
   -- Missing images
 
 
 Notes from grading restrictions:
 ----------------------------------
-Variables have interface, not class, type:
+Variables should have interface, not class, type:
   -- variableHasClassType: (ScannerBean.java:114) Class EndToken rather than interface used as the type of variable/function tokenObject
 variableHasClassType: (ScannerBean.java:102) Class MinusToken rather than interface used as the type of variable/function tokenObject
 variableHasClassType: (ScannerBean.java:61) Class NumberToken rather than interface used as the type of variable/function tokenObject
@@ -321,7 +380,7 @@ variableHasClassType: (Assignment3.java:17) Class ScannerBean rather than interf
 
 
 Early benefit: 105.0%
-  Total Score: 186.9
+  Total Score: 163.8
 Grading result for: Test4, Student(tstudent4)
 
 Grading features...
@@ -342,22 +401,22 @@ getInput and getValue are called in scannerBean        10.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    15.0 / 15.0
 Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
+Properties defined for token classes                   14.0 / 24.0
 Necessary interfaces created and used                  21.0 / 21.0
 Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
-Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 178.0
+  Points Awarded: 167.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 178.0
+  Features Score: 167.0
 
 Notes from grading features:
 ----------------------------------
@@ -367,9 +426,90 @@ MultipleNumberTokenOutputTest:Multiple Numbers Output:
 MultipleWordTokenOutputTest:Multiple Words Output:
   -- Incorrect output
 
+Properties defined for token classes:
+  -- expectedSetters: (WordToken.java:1) In type WordToken, missing setter for property Input of type String
+
+  -- expectedSetters: (NumberToken.java:1) In type NumberToken, missing setter for property Input of type String
+
+  -- expectedSetters: (QuoteToken.java:1) In type QuoteToken, missing setter for property Input of type String
+
+  -- expectedSetters: (StartToken.java:1) In type StartToken, missing setter for property Input of type String
+
+  -- expectedSetters: (EndToken.java:1) In type EndToken, missing setter for property Input of type String
+
+
+Extra credit constructors and properties defined:
+  -- expectedSetters: (PlusToken.java:1) In type PlusToken, missing setter for property Input of type String
+
+  -- expectedSetters: (MinusToken.java:1) In type MinusToken, missing setter for property Input of type String
+
+
 Screenshots enclosed:
   -- Missing images
 
 
 Early benefit: 105.0%
-  Total Score: 186.9
+  Total Score: 175.35
+Grading result for: Test1, Student(tstudent1)
+
+Grading features...
+----------------------------------
+PlusBeanTest                                           5.0 /  5.0
+EndBeanTest                                            5.0 /  5.0
+StartBeanTest                                          5.0 /  5.0
+MultipleSignTokenOutputTest:Multiple Signs Output      5.0 /  5.0 (Extra credit)
+MultipleNumberTokenOutputTest:Multiple Numbers Output  10.0 / 10.0
+MultipleQuoteTokenOutputTest:Multiple Quotes Output    10.0 / 10.0
+MinusBeanTest                                          5.0 /  5.0
+MultipleWordTokenOutputTest:Multiple Words Output      10.0 / 10.0
+MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 10.0 / 10.0
+QuoteBeanTest                                          5.0 /  5.0
+WordBeanTest                                           10.0 / 10.0
+NumberBeanTest                                         10.0 / 10.0
+getInput and getValue are called in scannerBean        10.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Required token classes instantiated                    15.0 / 15.0
+Single parameter constructors defined                  0.0 / 15.0
+Properties defined for token classes                   24.0 / 24.0
+Necessary interfaces created and used                  21.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
+Screenshots enclosed                                   0.0 / 10.0
+----------------------------------
+  Points Awarded: 182.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 182.0
+
+Notes from grading features:
+----------------------------------
+Single parameter constructors defined:
+  -- expectedConstructors: (WordToken.java:10) In type WordToken, missing constructor: :String
+
+  -- expectedConstructors: (NumberToken.java:10) In type NumberToken, missing constructor: :String
+
+  -- expectedConstructors: (QuoteToken.java:9) In type QuoteToken, missing constructor: :String
+
+  -- expectedConstructors: (StartToken.java:9) In type StartToken, missing constructor: :String
+
+  -- expectedConstructors: (EndToken.java:9) In type EndToken, missing constructor: :String
+
+
+Extra credit constructors and properties defined:
+  -- expectedConstructors: (PlusToken.java:9) In type PlusToken, missing constructor: :String
+
+  -- expectedConstructors: (MinusToken.java:9) In type MinusToken, missing constructor: :String
+
+
+Screenshots enclosed:
+  -- Missing images
+
+
+Early benefit: 105.0%
+  Total Score: 191.1

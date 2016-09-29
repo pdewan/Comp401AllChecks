@@ -18,22 +18,22 @@ getInput and getValue are called in scannerBean        0.0 / 10.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Required token classes instantiated                    0.0 / 15.0
 Single parameter constructors defined                  0.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 4.0 /  8.0 (Extra credit)
-Extra credit constructors and properties defined       4.0 /  8.0 (Extra credit)
+Properties defined for token classes                   0.0 / 24.0
+Necessary interfaces created and used                  0.0 / 21.0
+Extra credit classes instantiated, with proper interfaces 0.0 /  8.0 (Extra credit)
+Extra credit constructors and properties defined       0.0 /  8.0 (Extra credit)
 Screenshots enclosed                                   0.0 / 10.0
 ----------------------------------
-  Points Awarded: 105.0
+  Points Awarded: 55.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 105.0
+  Features Score: 55.0
 
 Notes from grading features:
 ----------------------------------
@@ -59,8 +59,17 @@ NumberBeanTest:
   -- No class matching: [Number]
 
 getInput and getValue are called in scannerBean:
-  -- Method matching getInput:->String not called in ScannerBean
-  -- Method matching getValue:->String not called in ScannerBean
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call              @Quote!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call              @Word!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @End!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Minus!getInput:->String//EC
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Plus!getInput:->String//EC 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Start!getInput:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call        @Number!getInput:->String 
+
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Number!getValue:->String 
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment3\Test2, Student(tstudent2)\Submission attachment(s)\Assignment3NoInstantiation\Assignment3NoInstantiation\src\grail\ScannerBean.java:1: warning: missingMethodCall: (ScannerBean.java:1) has not made expected call         @Word!getValue:->String 
+
 
 Required token classes instantiated:
   -- Class matching Word not instantiated in ScannerBean
@@ -76,11 +85,36 @@ Single parameter constructors defined:
   -- Start not found by checkstyle
   -- End not found by checkstyle
 
+Properties defined for token classes:
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+
+Necessary interfaces created and used:
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+
 Extra credit classes instantiated, with proper interfaces:
   -- Class matching Plus not instantiated in ScannerBean
   -- Class matching Minus not instantiated in ScannerBean
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
 
 Extra credit constructors and properties defined:
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
   -- Plus not found by checkstyle
   -- Minus not found by checkstyle
 
@@ -89,4 +123,4 @@ Screenshots enclosed:
 
 
 Early benefit: 105.0%
-  Total Score: 110.25
+  Total Score: 57.75
