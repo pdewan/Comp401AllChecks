@@ -29,11 +29,13 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
      	addJUnitTestSuite(Assignment3Suite.class);
      	
      	// Method calls
-     	addFeature("getInput and getValue are called in scannerBean", 10,
+     	addFeature("Necessary calls in tagged interfaces", 15,
      			new CheckstyleMethodCalledTestCase("ScannerBean",
      					"getInput:->String"),
      			new CheckstyleMethodCalledTestCase("ScannerBean",
-     					"getValue:->String")
+     					"Number!getValue:->String"),
+     			new CheckstyleMethodCalledTestCase("ScannerBean",
+     	     			"Word!getValue:->String")		
      			);
      	
      	addFeature("Public methods are in implemented interfaces", 10, 
