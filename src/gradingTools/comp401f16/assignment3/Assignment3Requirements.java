@@ -82,7 +82,6 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
 				new CheckStylePropertyDefinedTestCase("Number", "Value", "int")
      			);
      	
-     	// Proper constructors exist
      	addFeature("Necessary interfaces created and used", 21,
      			new CheckstyleInterfaceDefinedTestCase("Word", "Token"),
      			new CheckstyleInterfaceDefinedTestCase("Number", "Token"),
