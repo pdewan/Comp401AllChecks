@@ -5,6 +5,7 @@ import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment4.testcases.Assignment4Suite;
 import gradingTools.comp401f16.assignment5.testcases.Assignment5Suite;
+import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
@@ -36,8 +37,8 @@ public class Assignment5Requirements  extends AJUnitProjectRequirements{
      	
      	// Method signatures
      	addFeature("Move methods defined in Angle and Avatar", 10, 
-     			new CheckstyleMethodDefinedTestCase("Angle", "move:int;int->void"),
-     			new CheckstyleMethodDefinedTestCase("Avatar", "move:int;int->void")
+     			new CheckstyleMethodDefinedTestCase("Angle", "@move:int;int->void"),
+     			new CheckstyleMethodDefinedTestCase("Avatar", "@move:int;int->void")
      			);
      	
      	// Method calls
@@ -86,8 +87,15 @@ public class Assignment5Requirements  extends AJUnitProjectRequirements{
 						
      			);
      	
-     	addManualFeature("Scene is properly animated", 15, false);
-      
+     	addManualFeature("Elements in animation are properly connected.", 10, false);
+     	addManualFeature("Animation shows proper use of move function.", 10, false);     	
+     	
+     	addManualFeature("Animation shows proper scaling", 7, true);
+     	addManualFeature("Animation shows proper arm rotation", 8, true);
+     	
+     	addManualRestriction(INTERACTIVE_RUN, 5, 
+     			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
+     	
      	addRestriction("Illegal import or call", 25, new CheckStyleIllegalImportOrCallTestCase());
       
 	}//end method

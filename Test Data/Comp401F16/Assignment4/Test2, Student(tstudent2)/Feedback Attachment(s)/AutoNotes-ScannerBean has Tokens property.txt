@@ -1,0 +1,1 @@
+  -- ScannerBean not found by checkstyle

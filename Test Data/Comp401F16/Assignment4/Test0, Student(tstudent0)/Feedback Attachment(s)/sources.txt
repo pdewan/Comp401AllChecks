@@ -1,198 +1,5 @@
-//START OF FILE: src/grail/apolarpoint.java
+//START OF FILE: src/grail/scannerbean.java
 package grail;
-import util.annotations.WebDocuments;
-
-//@WebDocuments({"Lectures/Graphics.pptx", "Lectures/Graphics.pdf", "Videos/Graphics.avi"})
-public class APolarPoint implements Point {
-    double radius, angle;
-    public APolarPoint(double theRadius, double theAngle) {
-        radius = theRadius;
-        angle = theAngle;
-    }
-    public APolarPoint(int theX, int theY) {
-        radius = Math.sqrt(theX*theX + theY*theY);
-        angle = Math.atan((double) theY/theX);
-    }
-    public int getX() { return (int) (radius*Math.cos(angle)); }
-    public int getY() { return (int) (radius*Math.sin(angle)); }
-    public double getAngle() { return angle; } 
-    public double getRadius() { return radius;} 
-}
-//END OF FILE
-//START OF FILE: src/grail/beanstringscanner.java
-package grail;
-//this is for assignment2, so I donot implement interfaces
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"BeanStringScanner"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"scannedString"})
-@EditablePropertyNames({"scannedString"})
-
-public class BeanStringScanner {
-	private String scannedString;
-	
-	public void setScannedString(String str)
-	{
-		scannedString=str;
-		scanString(str);
-	}
-	public String getScannedString(){
-		return scannedString;
-	}
-	
-	private void scanString(String line)
-	{
-		
-		char c; 
-		int quota=0;// to remember the number of quotas
-		int flag=0;//word:1, number:2
-		StringBuffer word=new StringBuffer();
-		
-		String numberPreToken="number: ";
-		String wordPreToken="word: ";
-		String signPreToken="sign: ";
-		 for (int i=0;i<line.length();i++)
-		 {
-			 c=line.charAt(i);
-			 if (c=='"')
-			 {
-				 quota++;
-				 if(quota==2)//output word
-				 {
-					 System.out.println("quoted string: "+word);
-					 word.delete(0,word.length());
-					 flag=0;
-					 quota=0;
-				 }else if (quota==1)
-				 {
-					//donothing, not allow word or number to output
-				 }else
-				 {
-					 continue;
-				 }
-			 }
-			 else if (Character.isDigit(c))
-			 {
-				 flag=1;
-				 word.append(c);
-			 }
-			 else if (Util.isLetter(c))
-			 {
-				 flag=2;
-				 word.append(c); 
-			 }
-			 else if(c==' ')
-			 {
-				 if (quota==1)
-				 {
-					 word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					 int num=Integer.parseInt(word.toString());
-					 System.out.println(numberPreToken+num);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					 System.out.println(wordPreToken+word);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else if (c=='+'||c=='-')//we should also ouput "+" or "-"
-			 {
-				 if (quota==1)
-				 {
-					 word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					 int num=Integer.parseInt(word.toString());
-					 System.out.println(numberPreToken+num);
-					 System.out.println(signPreToken+c);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					 System.out.println(wordPreToken+word);
-					 System.out.println(signPreToken+c);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else//other character, for example, symbols
-			 {
-				word.append(c);
-			 }
-		 }
-		if (quota==1)
-		{
-			System.out.println("closed quota is missing.....");
-			System.out.println(word);
-		}
-		else//output the last word
-		{
-			 if (flag==1){
-				 int num=Integer.parseInt(word.toString());
-				 System.out.println(numberPreToken+num);
-				 flag=0;
-				 word.delete(0, word.length());
-			 }
-			 else if (flag==2)
-			 {
-				 System.out.println(wordPreToken+word);
-				 flag=0;
-				 word.delete(0, word.length());
-			 }
-		}
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/beanstringscanner4.java
-package grail;
-//this is for assignment4
-
-
-import mp.EndToken;
-import mp.Number;
-import mp.Minus;
-import mp.Plus;
-import mp.ProcNumberValue;
-import mp.QuotedString;
-import mp.RawInput;
-import mp.StartToken;
-import mp.Word;
-import mp.ProcWordValue;
-
-import mp.Move;
-import mp.Say;
-import mp.RotateLeftArm;
-import mp.RotateRightArm;
-import mp.Repeat;
-import mp.Define;
-import mp.Call;
-import mp.Thread;
-import mp.Wait;
-import mp.ProceedAll;
-import mp.Sleep;
-import mp.Undo;
-import mp.Redo;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -200,1119 +7,307 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
+import java.util.Iterator;
+
+import grail.commandBeans.ApproachCommand;
+import grail.commandBeans.FailCommand;
+import grail.commandBeans.MoveCommand;
+import grail.commandBeans.PassCommand;
+import grail.commandBeans.RepeatCommand;
+import grail.commandBeans.SayCommand;
+import grail.extraCommandBeans.CallCommand;
+import grail.extraCommandBeans.DefineCommand;
+import grail.extraCommandBeans.ProceedAllCommand;
+import grail.extraCommandBeans.RedoCommand;
+import grail.extraCommandBeans.RotateLeftArmCommand;
+import grail.extraCommandBeans.RotateRightArmCommand;
+import grail.extraCommandBeans.SleepCommand;
+import grail.extraCommandBeans.ThreadCommand;
+import grail.extraCommandBeans.UndoCommand;
+import grail.extraCommandBeans.WaitCommand;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Token;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+import mp.scanner.ScanningIterator;
+
+
+/**
+ * A "Bean" object whose setter for scannedString prints the tokens and their types.
+ * @author Semion
+ *
+ */
 @Tags({"ScannerBean"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"scannedString","tokens","errLog"})
-@EditablePropertyNames({"scannedString"})
+@PropertyNames({"ScannedString", "Tokens", "Errors"})
+@EditablePropertyNames({"ScannedString"})
+public class ScannerBean implements ScannerBeanInterface{
 
-public class BeanStringScanner4 implements ScannerInterface{
-	private String scannedString;
-	private RawInput[] largeTokenArray;//not a property
-	private RawInput[] tokens;//read-only property
-	private final int maxNUM=100;
-	String errLog="";
-	private int cnt;
-	public BeanStringScanner4()
-	{
-		//create large array
-		//largeTokenArray=new RawInput[maxNUM];//but you have to instantiate it for every specific token 
-	}
-	public void setScannedString(String str)
-	{
-		errLog="";
-		scannedString=str;
-		largeTokenArray=new RawInput[str.length()];//but you have to instantiate it for every specific token 
-		
-		scanString(str);
-		
-		tokens=new RawInput[cnt];//instantiate for each specific token
-		for (int i=0;i<cnt;i++)
-		{
-			tokens[i]=largeTokenArray[i];
-		}
-		//create compact array
-		
-	}
+	private String scannedString = "";
+	
+	private Token[] tokenStorage = new Token[100];
+	private Token[] tokens = {};
+	private int numTokens = 0;
+	
+	private String[] errorStorage = new String[100];
+	private String[] errors = {};
+	private int numErrors = 0;
 	
 	public String getScannedString(){
 		return scannedString;
-	}
-	public RawInput[] getTokens()
-	{
+	};
+	
+	public void setScannedString(String s){
+		scanString(s);
+		scannedString = s;
+	};
+	
+	public Token[] getTokens(){
 		return tokens;
 	}
-	public String getErrLog()
-	{
-		return errLog;
+	
+	public String[] getErrors(){
+		return errors;
 	}
 	
-	public void scanString(String line)
-	{
+	
+	/**
+	 * Produces output from each string
+	 */
+	private void scanString(String s){
 		
-		char c; 
-		int quota=0;// to remember the number of quotas
-		int flag=0;//word:1, number:2
-		//StringBuffer word=new StringBuffer();
-		String word="";
-		cnt=0;//to count number of real tokens, it is a global variable
-		 for (int i=0;i<line.length();i++)
-		 {
-			 c=line.charAt(i);
-			 if (c=='"')
-			 {
-				 quota++;
-				 if(quota==2)//output word
-				 {
-					 //do new operation as required in Assignment3
-					 RawInput qs=new QuotedString(word);
-					 //System.out.println(qs);
-					 //System.out.println(qs.getInput());
-					 largeTokenArray[cnt++]=qs;
-					 word="";
-					 //word.delete(0,word.length());
-					 flag=0;
-					 quota=0;
-				 }else if (quota==1)
-				 {
-					//donothing, not allow word or number to output
-				 }else
-				 {
-					 continue;
-				 }
-			 }
-			 else if (Character.isDigit(c))
-			 {
-				 flag=1;
-				 word+=c;
-				 //word.append(c);
-			 }
-			 else if (Util.isLetter(c))
-			 {
-				 flag=2;
-				 word+=c;
-				 //word.append(c); 
-			 }
-			 else if (c=='{'&&quota==0)
-			 {
-				 RawInput st=new StartToken(Util.char2String(c));
-				 largeTokenArray[cnt++]=st;
+		// Reset arrays
+		numTokens = 0;
+		numErrors = 0;
+		
+		Iterator<String> iterator = new ScanningIterator(s);
+		
+		Token tokenObject = null;	// used to grab each token
+		
+		// Take each space-delimited token
+		while (iterator.hasNext()){
+			String tokenString = iterator.next();
 
-				 //System.out.println(st);
-				 //System.out.println(st.getInput());
-			 }
-			 else if (c=='}'&&quota==0)
-			 {
-				 RawInput et=new EndToken(Util.char2String(c));
-				 largeTokenArray[cnt++]=et;
-
-				 //System.out.println(et);
-				 //System.out.println(et.getInput());
-			 }
-			 else if(c==' ')
-			 {
-				 if (quota==1)
-				 {
-					 //word.append(c);
-					 word+=c;
-					 continue;
-				 }
-				 if (flag==1){
-					//do new operation as required in Assignment3
-					 RawInput num=new Number(word);
-					 largeTokenArray[cnt++]=num;
-					 //System.out.println(num);
-					 //System.out.println(num.getInput());
-					 //ProcNumberValue pnv=new Number(word);
-					 //System.out.println(pnv.getValue());
-				
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }
-				 else if (flag==2)//input a word
-				 {
-					//do new operation as required in Assignment3
-					 //RawInput ww=new Word(word);
-					 RawInput ww=subWordConverter(word);
-					 largeTokenArray[cnt++]=ww;
-					 //System.out.println(ww);
-					 //System.out.println(ww.getInput());
-					 //ProcWordValue pwv=new Word(word);
-					 //System.out.println(pwv.getValue());
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else if (c=='+'||c=='-')//we should also ouput "+" or "-"
-			 {
-				 if (quota==1)
-				 {
-					 word+=c;
-					 //word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					//do new operation as required in Assignment3
-					 RawInput num=new Number(word);
-					 largeTokenArray[cnt++]=num;
-					 /*
-					 System.out.println(num);
-					 System.out.println(num.getInput());
-					 ProcNumberValue pnv=new Number(word);
-					 System.out.println(pnv.getValue());
-				*/
-					 //int num=Integer.parseInt(word.toString());
-					 //System.out.println("number: "+num);
-					 //System.out.println("sign: "+c);
-					 /*
-					if (c=='+')
-					{
-					
-						RawInput pl=new Plus(Util.char2String(c));
-						largeTokenArray[cnt++]=pl;
-						//System.out.println(pl);
-						//System.out.println(pl.getInput());
-						
-					}else
-					{
-						RawInput pl=new Minus(Util.char2String(c));
-						 largeTokenArray[cnt++]=pl;
-						//System.out.println(pl);
-						//System.out.println(pl.getInput());
-					}*/
-					flag=0;
-					word="";
-					 //word.delete(0, word.length());
-				 }
-				 else if (flag==2)//input is a Word
-				 {
-					 //RawInput ww=new Word(word);
-					 //System.out.println(ww);
-					 //System.out.println(ww.getInput());
-					 //ProcWordValue pwv=new Word(word);
-					 //System.out.println(pwv.getValue());
-					 RawInput ww=subWordConverter(word);
-					 largeTokenArray[cnt++]=ww;
-					 /*
-					 if (c=='+')
-					{
-						RawInput pl=new Plus(Util.char2String(c));
-						 largeTokenArray[cnt++]=pl;
-						//System.out.println(pl);
-						//System.out.println(pl.getInput());
-						
-					}else
-					{
-						RawInput pl=new Minus(Util.char2String(c));
-						 largeTokenArray[cnt++]=pl;
-						//System.out.println(pl);
-						//System.out.println(pl.getInput());
-					}*/
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-				 if (c=='+')
-				 {
-					RawInput pl=new Plus(Util.char2String(c));
-				    largeTokenArray[cnt++]=pl;
-					//System.out.println(pl);
-					//System.out.println(pl.getInput());
-						
-				}else
-				{
-					RawInput pl=new Minus(Util.char2String(c));
-					 largeTokenArray[cnt++]=pl;
-					//System.out.println(pl);
-					//System.out.println(pl.getInput());
+			boolean valid = true; // will be used to mark invalid tokens
+			
+			// Check for number
+			if (Character.isDigit(tokenString.charAt(0))){
+				valid = isValidNumber(tokenString);
+				if (valid){
+					tokenObject = new NumberToken(tokenString);
 				}
-			 }
-			 else//other character, for example, symbols
-			 {
-				 word+=c;
-				//word.append(c);
-			 }
-		 }
-		if (quota==1)
-		{
-			//System.out.println("closed quota is missing.....");
-			errLog+="closed quota is missing...and the string is "+word+"\n";
-			//System.out.println(word);
-		}
-		else//output the last word
-		{
-			 if (flag==1){
-				 RawInput num=new Number(word);
-				 //System.out.println(num);
-				 //System.out.println(num.getInput());
-				 //ProcNumberValue pnv=new Number(word);
-				 //System.out.println(pnv.getValue());
-				 largeTokenArray[cnt++]=num;
-
-				 flag=0;
-				 word="";
-				 //word.delete(0, word.length());
-			 }
-			 else if (flag==2)//input is a Word
-			 {
-				 //RawInput ww=new Word(word);
-				 //System.out.println(ww);
-				 //System.out.println(ww.getInput());
-				 //ProcWordValue pwv=new Word(word);
-				 //System.out.println(pwv.getValue());
-				 
-				 RawInput ww=subWordConverter(word);
-				 largeTokenArray[cnt++]=ww;
-				 flag=0;
-				 word="";
-				 //word.delete(0, word.length());
-			 }
-		}
-	}
-	
-	//this method returns the specific word object: move->Move...
-	private RawInput subWordConverter(String word)
-	{
-		RawInput ww=null;
-		String temp=word.toLowerCase();
-		switch (temp){
-		case "move":
-			ww=new Move(word);
-			break;
-		case "say":
-			ww=new Say(word);
-			break;
-		case "rotateleftarm":
-			ww=new RotateLeftArm(word);
-			break;
-		case "rotaterightarm":
-			ww=new RotateRightArm(word);
-			break;
-		case "repeat":
-			ww=new Repeat(word);
-			break;
-		case "define":
-			ww=new Define(word);
-			break;
-		case "call":
-			ww=new Call(word);
-			break;
-		case "thread":
-			ww=new Thread(word);
-			break;
-		case "wait":
-			ww=new Wait(word);
-			break;
-		case "proceedall":
-			ww=new ProceedAll(word);
-			break;
-		case "sleep":
-			ww=new Sleep(word);
-			break;
-		case "undo":
-			ww=new Undo(word);
-			break;
-		case "redo":
-			ww=new Redo(word);
-			break;
-		default:
-			ww= new Word(word);
-			break;
-		}
-		return ww;
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extbeanstringscanner.java
-package grail;
-//this is a expansion version for assignment3
-import mp.EndToken;
-import mp.Number;
-import mp.Minus;
-import mp.Plus;
-import mp.ProcNumberValue;
-import mp.QuotedString;
-import mp.RawInput;
-import mp.StartToken;
-import mp.Word;
-import mp.ProcWordValue;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"ExtBeanStringScanner"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"scannedString"})
-@EditablePropertyNames({"scannedString"})
-
-//public class ExtBeanStringScanner implements ScannerInterface{//because I have modified the scannerInterface 
-public class ExtBeanStringScanner{
-	private String scannedString;
-	
-	public void setScannedString(String str)
-	{
-		scannedString=str;
-		scanString(str);
-	}
-	public String getScannedString(){
-		return scannedString;
-	}
-	
-	public void scanString(String line)
-	{
-		
-		char c; 
-		int quota=0;// to remember the number of quotas
-		int flag=0;//word:1, number:2
-		//StringBuffer word=new StringBuffer();
-		String word="";
-		 for (int i=0;i<line.length();i++)
-		 {
-			 c=line.charAt(i);
-			 if (c=='"')
-			 {
-				 quota++;
-				 if(quota==2)//output word
-				 {
-					 //do new operation as required in Assignment3
-					 RawInput qs=new QuotedString(word);
-					 System.out.println(qs);
-					 System.out.println(qs.getInput());
-					 word="";
-					 //word.delete(0,word.length());
-					 flag=0;
-					 quota=0;
-				 }else if (quota==1)
-				 {
-					//donothing, not allow word or number to output
-				 }else
-				 {
-					 continue;
-				 }
-			 }
-			 else if (Character.isDigit(c))
-			 {
-				 flag=1;
-				 word+=c;
-				 //word.append(c);
-			 }
-			 else if (Util.isLetter(c))
-			 {
-				 flag=2;
-				 word+=c;
-				 //word.append(c); 
-			 }
-			 else if (c=='{'&&quota==0)
-			 {
-				 RawInput st=new StartToken(Util.char2String(c));
-				 System.out.println(st);
-				 System.out.println(st.getInput());
-			 }
-			 else if (c=='}'&&quota==0)
-			 {
-				 RawInput et=new EndToken(Util.char2String(c));
-				 System.out.println(et);
-				 System.out.println(et.getInput());
-			 }
-			 else if(c==' ')
-			 {
-				 if (quota==1)
-				 {
-					 //word.append(c);
-					 word+=c;
-					 continue;
-				 }
-				 if (flag==1){
-					//do new operation as required in Assignment3
-					 RawInput num=new Number(word);
-					 System.out.println(num);
-					 System.out.println(num.getInput());
-					 ProcNumberValue pnv=new Number(word);
-					 System.out.println(pnv.getValue());
 				
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					//do new operation as required in Assignment3
-					 RawInput ww=new Word(word);
-					 System.out.println(ww);
-					 System.out.println(ww.getInput());
-					 ProcWordValue pwv=new Word(word);
-					 System.out.println(pwv.getValue());
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else if (c=='+'||c=='-')//we should also ouput "+" or "-"
-			 {
-				 if (quota==1)
-				 {
-					 word+=c;
-					 //word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					//do new operation as required in Assignment3
-					 RawInput num=new Number(word);
-					 System.out.println(num);
-					 System.out.println(num.getInput());
-					 ProcNumberValue pnv=new Number(word);
-					 System.out.println(pnv.getValue());
+			// Check for word
+			} else if (Character.isLetter(tokenString.charAt(0))){
+				valid = isValidWord(tokenString);
+				if (valid){
+					tokenObject = constructCommandOrWord(tokenString);
+				}
+			
+			// Check for quoted string
+			} else if (tokenString.charAt(0) == '\"'){
 				
-					 //int num=Integer.parseInt(word.toString());
-					 //System.out.println("number: "+num);
-					 //System.out.println("sign: "+c);
-					if (c=='+')
-					{
+				// The only invalid token would be an empty quoted string
+				if (tokenString.length() <= "\"\"".length()){
+					valid = false;
+				}
+				
+				if (valid){
 					
-						RawInput pl=new Plus(Util.char2String(c));
-						System.out.println(pl);
-						System.out.println(pl.getInput());
-						
-					}else
-					{
-						RawInput pl=new Minus(Util.char2String(c));
-						System.out.println(pl);
-						System.out.println(pl.getInput());
-					}
-					flag=0;
-					word="";
-					 //word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					 RawInput ww=new Word(word);
-					 System.out.println(ww);
-					 System.out.println(ww.getInput());
-					 ProcWordValue pwv=new Word(word);
-					 System.out.println(pwv.getValue());
-					 
-					 if (c=='+')
-					{
-						RawInput pl=new Plus(Util.char2String(c));
-						System.out.println(pl);
-						System.out.println(pl.getInput());
-						
-					}else
-					{
-						RawInput pl=new Minus(Util.char2String(c));
-						System.out.println(pl);
-						System.out.println(pl.getInput());
-					}
-					 flag=0;
-					 word="";
-					 //word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else//other character, for example, symbols
-			 {
-				 word+=c;
-				//word.append(c);
-			 }
-		 }
-		if (quota==1)
-		{
-			System.out.println("closed quota is missing.....");
-			System.out.println(word);
-		}
-		else//output the last word
-		{
-			 if (flag==1){
-				 RawInput num=new Number(word);
-				 System.out.println(num);
-				 System.out.println(num.getInput());
-				 ProcNumberValue pnv=new Number(word);
-				 System.out.println(pnv.getValue());
-
-				 flag=0;
-				 word="";
-				 //word.delete(0, word.length());
-			 }
-			 else if (flag==2)
-			 {
-				 RawInput ww=new Word(word);
-				 System.out.println(ww);
-				 System.out.println(ww.getInput());
-				 ProcWordValue pwv=new Word(word);
-				 System.out.println(pwv.getValue());
-				 flag=0;
-				 word="";
-				 //word.delete(0, word.length());
-			 }
-		}
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/line.java
-package grail;
-
-import util.annotations.Tags;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.LINE_PATTERN)
-@Tags({"RotatingLine"})
-
-//this is for assignment4
-
-public class Line implements Shape{
-	//width,height is the property of bounding box
-    //x, y is the upper-left corner point of bounding box of the shape
-    int x, y, width, height;
-    double radius, angle;
-    private final double degreePerUnit=Math.PI/32;
-   // Point lrPoint;//for lower-right corner point
-    
-    //angle is in radian measurement, radian, angle
-    public Line(double r, double a)
-    {
-    	radius=r;
-    	angle=a;
-    	height=(int)(r*Math.sin(a));
-    	width=(int)(r*Math.cos(a));
-    	//lrPoint=new APolarPoint(r,a);
-    	//lrPoint.setX(x);
-    }
-    
-    
-    public void setRadius(double r)
-    {
-    	radius=r;
-    	height=(int)(r*Math.sin(this.angle));
-    	width=(int)(r*Math.cos(this.angle));
-
-    }
-    
-    public void setAngle(double a)
-    {
-     	angle=a;
-    	this.height=(int)(this.radius*Math.sin(this.angle));
-    	this.width=(int)(this.radius*Math.cos(this.angle));
-    	//System.out.println("height: "+height+"width: "+width);
-    }
-    
-    public void setX(int x)
-    {
-    	this.x=x;
-    }
-    
-    public void setY(int y)
-    {
-    	this.y=y;
-    }
-    public int getX()
-    {
-    	return x;
-    }
-    public int getY()
-    {
-    	return y;
-    }
-    public int getWidth()
-    {
-    	return width;
-    }
-    
-    public int getHeight()
-    {
-    	return height;
-    }
-    
-
-    @Tags({"rotate"})
-    public void changeRotateAngle (int units) 
-    {
-    	double d=units*degreePerUnit;
-    	this.setAngle(d);
-    }
-    
-}
-//END OF FILE
-//START OF FILE: src/grail/point.java
-package grail;
-import util.annotations.WebDocuments;
-import util.annotations.Explanation;
-//@StructurePattern(StructurePatternNames.POINT_PATTERN)
-//@Explanation("Location in Java coordinate System.")
-//@WebDocuments({"Lectures/Graphics.pptx", "Lectures/Graphics.pdf", "Videos/Graphics.avi"})
-public interface Point {
-    public int getX(); 
-    public int getY();  
-    public double getAngle(); 
-    public double getRadius(); 
-}
-//END OF FILE
-//START OF FILE: src/grail/scannerinterface.java
-package grail;
-
-import mp.RawInput;
-
-//this is for assignment3
-public interface ScannerInterface {
-	public void setScannedString(String str);
-	public String getScannedString();
-	public void scanString(String line);
-	public RawInput[] getTokens();
-	public String getErrLog();
-}
-//END OF FILE
-//START OF FILE: src/grail/shape.java
-package grail;
-
-public interface Shape {
-    public void setRadius(double r);
-    public void setAngle(double a);
-    public void setX(int x);
-    public void setY(int y);
-    public int getX();
-    public int getY();
-    public int getWidth();
-    public int getHeight();
-    public void changeRotateAngle (int units);
-
-
-}
-//END OF FILE
-//START OF FILE: src/grail/stringscanner.java
-package grail;
-//this is for assignment2
-public class StringScanner {
-
-	public static void myScanner(String line)
-	{
-		
-		char c; 
-		int quota=0;// to remember the number of quotas
-		int flag=0;//word:1, number:2
-		StringBuffer word=new StringBuffer();
-		
-		String numberPreToken="number: ";
-		String wordPreToken="word: ";
-		String signPreToken="sign: ";
-		 for (int i=0;i<line.length();i++)
-		 {
-			 c=line.charAt(i);
-			 if (c=='"')
-			 {
-				 quota++;
-				 if(quota==2)//output word
-				 {
-					 System.out.println("quoted string: "+word);
-					 word.delete(0,word.length());
-					 flag=0;
-					 quota=0;
-				 }else if (quota==1)
-				 {
-					//donothing, not allow word or number to output
-				 }else
-				 {
-					 continue;
-				 }
-			 }
-			 else if (Character.isDigit(c))
-			 {
-				 flag=1;
-				 word.append(c);
-			 }
-			 else if (Character.isLetter(c))
-			 {
-				 flag=2;
-				 word.append(c); 
-			 }
-			 else if(c==' ')
-			 {
-				 if (quota==1)
-				 {
-					 word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					 int num=Integer.parseInt(word.toString());
-					 System.out.println(numberPreToken+num);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					 System.out.println(wordPreToken+word);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else if (c=='+'||c=='-')//we should also ouput "+" or "-"
-			 {
-				 if (quota==1)
-				 {
-					 word.append(c);
-					 continue;
-				 }
-				 if (flag==1){
-					 int num=Integer.parseInt(word.toString());
-					 System.out.println(numberPreToken+num);
-					 System.out.println(signPreToken+c);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }
-				 else if (flag==2)
-				 {
-					 System.out.println(wordPreToken+word);
-					 System.out.println(signPreToken+c);
-					 flag=0;
-					 word.delete(0, word.length());
-				 }else//continuous space after word 
-				 {
-					 continue;
-				 }
-			 }
-			 else//other character, for example, symbols
-			 {
-				word.append(c);
-			 }
-		 }
-		if (quota==1)
-		{
-			System.out.println("closed quota is missing.....");
-			System.out.println(word);
-		}
-		else//output the last word
-		{
-			 if (flag==1){
-				 int num=Integer.parseInt(word.toString());
-				 System.out.println(numberPreToken+num);
-				 flag=0;
-				 word.delete(0, word.length());
-			 }
-			 else if (flag==2)
-			 {
-				 System.out.println(wordPreToken+word);
-				 flag=0;
-				 word.delete(0, word.length());
-			 }
-		}
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/util.java
-package grail;
-
-public class Util {
-	public static boolean isLetter(char c)
-	{
-		return 'a'<=c&&c<='z'||'A'<=c&&c<='Z';
-	}
-	public static String char2String(char c)
-	{
-		String res="";
-		res+=c;
-		return res;
-	}
-}
-//END OF FILE
-//START OF FILE: src/main/assignment3.java
-package main;
-
-import grail.ExtBeanStringScanner;
-import grail.ScannerInterface;
-
-import java.util.Scanner;
-/**
- * 
- * @author Dong Nie
- * dongnie@cs.unc.edu
- *
- *This is for assignment3 from comp 401
- */
-public class Assignment3 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("please enter a string:");
-		Scanner scan = new Scanner(System.in);
-		String line="";
-		ScannerInterface bss=new ExtBeanStringScanner();
-		while(true)
-		{
-		 line = scan.nextLine();
-		// if(line.equals(""))
-			// continue;
-		 if (line.charAt(0)=='.')
-		 {
-			 break;
-		 }
-		 //System.out.println("Processed by ordinary class");
-		 //StringScanner.myScanner(line); 
-		 //System.out.println("Processed by bean class");
-		 //test bean scanner
-		 bss.setScannedString(line);
-		}
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/main/assignment4.java
-package main;
-
-import grail.BeanStringScanner4;
-import grail.ScannerInterface;
-import grail.Line;
-import grail.Shape;
-
-import java.util.Scanner;
-
-import bus.uigen.ObjectEditor;
-import bus.uigen.OEFrame;
-import util.annotations.WebDocuments;
-import util.misc.ThreadSupport;
-
-//import lectures.animation.threads_commands.ThreadSupport;
-/**
- * 
- * @author Dong Nie
- * dongnie@cs.unc.edu
- *
- *This is for assignment4 from comp 401
- */
-public class Assignment4 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		/*
-		System.out.println("please enter a string:");
-		Scanner scan = new Scanner(System.in);
-		String line="";
-		
-		while(true)
-		{
-		 line = scan.nextLine();
-		// if(line.equals(""))
-			// continue;
-		 if (line.charAt(0)=='.')
-		 {
-			 break;
-		 }
-		 //System.out.println("Processed by ordinary class");
-		 //StringScanner.myScanner(line); 
-		 //System.out.println("Processed by bean class");
-		 //test bean scanner
-		 bss.setScannedString(line);
-		 //ObjectEditor.edit(bss);
-	     
-		}*/
-		final int intervalTime=3000;
-		ScannerInterface bss=new BeanStringScanner4();
-
-		 OEFrame oeFrame = ObjectEditor.edit(bss);
-		 bss.setScannedString("MoVe 050 { saY \"hi!\" } ");
-		 oeFrame.refresh();
-		 ThreadSupport.sleep(intervalTime);
-		 bss.setScannedString("RotateLeftArm 5 rotateLeftArm ");
-		 oeFrame.refresh();
-		 ThreadSupport.sleep(intervalTime); // 3 second delay should be enough
-		 bss.setScannedString("Call Define 5 Turnleft ");
-		 oeFrame.refresh();
-		 ThreadSupport.sleep(intervalTime); // 3 second delay should be enough
-		 
-		 //set the x,y point
-		 
-		 final double rad=30,angle=1.71;
-		 Shape sh=new Line(rad,angle);
-		 oeFrame=ObjectEditor.edit(sh);
-		 
-		 //animate the movement
-		 final int moveLen=550;
-		 final int timeSleep=10;
-		 for(int i = 0;i < moveLen; i++){
-				ThreadSupport.sleep(timeSleep);	
-				moveLine(sh,i);
-				oeFrame.refresh();
+					// Trim quotation marks off the ends of the token
+					tokenString = tokenString.substring(1, tokenString.length()-1);
+					
+					tokenObject = new QuoteToken(tokenString);
+				}
+			
+			// Check for plus token
+			} else if ("+".equals(tokenString)){
+				tokenObject = new PlusToken(tokenString);
+			
+			// Check for minus token
+			} else if ("-".equals(tokenString)){
+				tokenObject = new MinusToken(tokenString);
+			
+			// Check for "start" token
+			} else if ("{".equals(tokenString)){
+				tokenObject = new StartToken(tokenString);
+				
+			// Check for "end" token
+			} else if ("}".equals(tokenString)){
+				tokenObject = new EndToken(tokenString);
+				
+			// Otherwise invalid
+			} else{
+				valid = false;
 			}
-		 //animate rotation
-			ThreadSupport.sleep(intervalTime);	
-			oeFrame.refresh();
-			final int coor=50;
-			sh.setX(coor);
-			sh.setY(coor);
-		 int units=0;
-		 for(int i = 0;i < moveLen; i++){
-				ThreadSupport.sleep(timeSleep);
-			 	units=i;
-				rotateLine(sh,i+1);
-				oeFrame.refresh();
+			
+			if (valid){
+				tokenStorage[numTokens] = tokenObject;
+				++numTokens;
+			} else {
+				errorStorage[numErrors] = tokenString;
+				++numErrors;
 			}
-		 
-		 //animate move and rotate
-		 ThreadSupport.sleep(intervalTime);	
-			oeFrame.refresh();
-			sh.setX(coor);
-			sh.setY(coor);
-		 for(int i = 0;i < moveLen; i++){
-				ThreadSupport.sleep(timeSleep);
-			 	units=i;
-			 	sh.setX(i);
-				rotateLine(sh,i+1);
-				oeFrame.refresh();
-			}
+		}//end grabbing tokens
+		
+		// Compress arrays
+		tokens = new Token[numTokens];
+		for (int i = 0; i < numTokens; ++i){
+			tokens[i] = tokenStorage[i];
+		}
+		
+		errors = new String[numErrors];
+		for (int i = 0; i < numErrors; ++i){
+			errors[i] = errorStorage[i];
+		}
+	}//end scanString()
 	
+	/**
+	 * Constructs proper command from word, or just a word if no command matches.
+	 * Assumes that word is non-empty and valid.
+	 * 
+	 * @param tokenString
+	 * @return proper command object, or word object otherwise
+	 */
+	private static Token constructCommandOrWord(String tokenString) {
+		
+		if ("approach".equalsIgnoreCase(tokenString)){
+			return new ApproachCommand(tokenString);
+			
+		}else if ("fail".equalsIgnoreCase(tokenString)){
+			return new FailCommand(tokenString);
+			
+		}else if ("move".equalsIgnoreCase(tokenString)){
+			return new MoveCommand(tokenString);
+			
+		}else if ("pass".equalsIgnoreCase(tokenString)){
+			return new PassCommand(tokenString);
+			
+		}else if ("repeat".equalsIgnoreCase(tokenString)){
+			return new RepeatCommand(tokenString);
+			
+		}else if ("say".equalsIgnoreCase(tokenString)){
+			return new SayCommand(tokenString);
+			
+		}else if ("call".equalsIgnoreCase(tokenString)){
+			return new CallCommand(tokenString);
+			
+		}else if ("define".equalsIgnoreCase(tokenString)){
+			return new DefineCommand(tokenString);
+			
+		}else if ("proceedall".equalsIgnoreCase(tokenString)){
+			return new ProceedAllCommand(tokenString);
+			
+		}else if ("redo".equalsIgnoreCase(tokenString)){
+			return new RedoCommand(tokenString);
+			
+		}else if ("rotateleftarm".equalsIgnoreCase(tokenString)){
+			return new RotateLeftArmCommand(tokenString);
+			
+		}else if ("rotaterightarm".equalsIgnoreCase(tokenString)){
+			return new RotateRightArmCommand(tokenString);
+			
+		}else if ("sleep".equalsIgnoreCase(tokenString)){
+			return new SleepCommand(tokenString);
+			
+		}else if ("thread".equalsIgnoreCase(tokenString)){
+			return new ThreadCommand(tokenString);
+			
+		}else if ("undo".equalsIgnoreCase(tokenString)){
+			return new UndoCommand(tokenString);
+			
+		}else if ("wait".equalsIgnoreCase(tokenString)){
+			return new WaitCommand(tokenString);
+		}
+		
+		// If none matched, return generic word
+		return new WordToken(tokenString);
+	}
+
+	private static boolean isValidWord(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isLetter(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
 	}
 	
-	/*rotate a line with different angles*/
-	public static void rotateLine(Shape lineInstance, int units){
-		lineInstance.changeRotateAngle(units);
+	private static boolean isValidNumber(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isDigit(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
 	}
-	
-	/*move an object along the x axis*/
-	public static void moveLine(Shape lineInstance, int x){
-		lineInstance.setX(x); 
-	}
-}
+}//end class
 //END OF FILE
-//START OF FILE: src/mp/call.java
-package mp;
+//START OF FILE: src/grail/commandbeans/approachcommand.java
+package grail.commandBeans;
 
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
-@Tags({"Call"})
-
+@Tags({"Approach"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ApproachCommand extends WordToken {
 
-public class Call extends Word {
-
-	public Call(String input) {
+	public ApproachCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
-
+	
 }
 //END OF FILE
-//START OF FILE: src/mp/define.java
-package mp;
+//START OF FILE: src/grail/commandbeans/failcommand.java
+package grail.commandBeans;
 
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
-@Tags({"Define"})
-
+@Tags({"Fail"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class FailCommand extends WordToken {
 
-public class Define extends Word {
-
-	public Define(String input) {
+	public FailCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/endtoken.java
-package mp;
+//START OF FILE: src/grail/commandbeans/movecommand.java
+package grail.commandBeans;
 
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"End"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input"})
-@EditablePropertyNames({"input"})
-
-public class EndToken implements RawInput{
-	private String input="";
-	
-	public EndToken(String input)//need or not
-	{
-		this.input=input;
-	}
-	
-	public void setInput(String input)
-	{
-		this.input=input;
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/minus.java
-package mp;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"Minus"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input"})
-@EditablePropertyNames({"input"})
-
-public class Minus implements RawInput{
-	private String input="";
-	
-	public Minus(String input)//need or not
-	{
-		this.input=input;
-	}
-	
-	public void setInput(String input)
-	{
-		this.input=input;
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/move.java
-package mp;
-
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1320,206 +315,43 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Move"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class MoveCommand extends WordToken {
 
-
-public class Move extends Word{
-
-	public Move(String str)
-	{
-		super(str);
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/number.java
-package mp;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"Number"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class Number implements RawInput, ProcNumberValue{
-	private String input="";
-	private int value;
-	
-	public Number(String input)
-	{
-		this.input=input;
-		value=Integer.parseInt(input);//the input not always legal, so need more process here
-	}
-	public void setInput(String input)
-	{
-		this.input=input;
-		value=Integer.parseInt(input);//the input not always legal, so need more process here
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-	
-	public int getValue()
-	{
-		return value;
-	}
-	
-}
-//END OF FILE
-//START OF FILE: src/mp/plus.java
-package mp;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"Plus"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input"})
-@EditablePropertyNames({"input"})
-
-public class Plus implements RawInput{
-	private String input="";
-	
-	public Plus(String input)//need or not
-	{
-		this.input=input;
-	}
-	
-	public void setInput(String input)
-	{
-		this.input=input;
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/procnumbervalue.java
-package mp;
-
-public interface ProcNumberValue {
-	public int getValue();
-}
-//END OF FILE
-//START OF FILE: src/mp/procwordvalue.java
-package mp;
-
-public interface ProcWordValue {
-	public String getValue();
-}
-//END OF FILE
-//START OF FILE: src/mp/proceedall.java
-package mp;
-
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"ProceedAll"})
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class ProceedAll extends Word {
-
-	public ProceedAll(String input) {
+	public MoveCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/quotedstring.java
-package mp;
+//START OF FILE: src/grail/commandbeans/passcommand.java
+package grail.commandBeans;
 
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
-
-@Tags({"Quote"})
+@Tags({"Pass"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class PassCommand extends WordToken {
 
-public class QuotedString implements RawInput{
-	private String input="";
-	
-	public QuotedString(String input)//need or not
-	{
-		this.input=input;
-	}
-	
-	public void setInput(String input)
-	{
-		this.input=input;
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/rawinput.java
-package mp;
-
-public interface RawInput {
-	public void setInput(String input);
-	public String getInput();
-}
-//END OF FILE
-//START OF FILE: src/mp/redo.java
-package mp;
-
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Redo"})
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class Redo extends Word {
-
-	public Redo(String input) {
+	public PassCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/repeat.java
-package mp;
+//START OF FILE: src/grail/commandbeans/repeatcommand.java
+package grail.commandBeans;
 
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1527,67 +359,21 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Repeat"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RepeatCommand extends WordToken {
 
-public class Repeat extends Word {
-
-	public Repeat(String input) {
+	public RepeatCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/rotateleftarm.java
-package mp;
+//START OF FILE: src/grail/commandbeans/saycommand.java
+package grail.commandBeans;
 
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"RotateLeftArm"})
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class RotateLeftArm extends Word{
-	public RotateLeftArm(String str)
-	{
-		super(str);
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/rotaterightarm.java
-package mp;
-
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"RotateRightArm"})
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class RotateRightArm extends Word{
-	public RotateRightArm(String str)
-	{
-		super(str);
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/say.java
-package mp;
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1595,24 +381,153 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Say"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SayCommand extends WordToken {
 
-public class Say extends Word{
-
-	public Say(String str)
-	{
-		super(str);
+	public SayCommand(String input) {
+		super(input);
 	}
+
 }
 //END OF FILE
-//START OF FILE: src/mp/sleep.java
-package mp;
+//START OF FILE: src/grail/extracommandbeans/callcommand.java
+package grail.extraCommandBeans;
 
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
+@Tags({"Call"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class CallCommand extends WordToken {
 
+	public CallCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/definecommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Define"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class DefineCommand extends WordToken {
+
+	public DefineCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/proceedallcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"ProceedAll"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ProceedAllCommand extends WordToken {
+
+	public ProceedAllCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/redocommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Redo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RedoCommand extends WordToken {
+
+	public RedoCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotateleftarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateLeftArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateLeftArmCommand extends WordToken {
+
+	public RotateLeftArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotaterightarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateRightArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateRightArmCommand extends WordToken {
+
+	public RotateRightArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/sleepcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1620,59 +535,21 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Sleep"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SleepCommand extends WordToken {
 
-public class Sleep extends Word {
-
-	public Sleep(String input) {
+	public SleepCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/starttoken.java
-package mp;
+//START OF FILE: src/grail/extracommandbeans/threadcommand.java
+package grail.extraCommandBeans;
 
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-
-@Tags({"Start"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input"})
-@EditablePropertyNames({"input"})
-
-public class StartToken implements RawInput{
-	private String input="";
-	
-	public StartToken(String input)//need or not
-	{
-		this.input=input;
-	}
-	
-	public void setInput(String input)
-	{
-		this.input=input;
-	}
-	
-	public String getInput()
-	{
-		return this.input;
-	}
-}
-//END OF FILE
-//START OF FILE: src/mp/thread.java
-package mp;
-
-
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1680,25 +557,21 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Thread"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ThreadCommand extends WordToken {
 
-public class Thread extends Word {
-
-	public Thread(String input) {
+	public ThreadCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/undo.java
-package mp;
+//START OF FILE: src/grail/extracommandbeans/undocommand.java
+package grail.extraCommandBeans;
 
-
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
@@ -1706,87 +579,607 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @Tags({"Undo"})
-
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class UndoCommand extends WordToken {
 
-public class Undo extends Word {
-
-	public Undo(String input) {
+	public UndoCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/wait.java
-package mp;
+//START OF FILE: src/grail/extracommandbeans/waitcommand.java
+package grail.extraCommandBeans;
 
-
+import grail.tokenBeans.WordToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
-@Tags({"Wait"})
+@Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WaitCommand extends WordToken {
 
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
-
-public class Wait extends Word {
-
-	public Wait(String input) {
+	public WaitCommand(String input) {
 		super(input);
-		// TODO Auto-generated constructor stub
 	}
 
 }
 //END OF FILE
-//START OF FILE: src/mp/word.java
-package mp;
+//START OF FILE: src/grail/interfaces/number.java
+package grail.interfaces;
 
+import util.annotations.Tags;
+
+@Tags({"Number"})
+public interface Number extends Token {
+	public int getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/rotatinglineinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"RotatingLine","rotate"})
+public interface RotatingLineInterface {
+	public int getHeight();
+	public int getWidth();
+	
+	public int getX();
+	public void setX(int x);
+	public int getY();
+	public void setY(int y);
+	public void setRadius(double r);
+	public double getRadius();
+	
+	public void setAngle(double theta);
+	public double getAngle();
+	
+	public void rotateByClockwiseDegrees(int degrees);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/scannerbeaninterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"ScannerBean"})
+public interface ScannerBeanInterface {
+	public String getScannedString();
+	public void setScannedString(String s);
+	public Token[] getTokens();
+	public String[] getErrors();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/token.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Token", "Number", "Word", "Quote", "Plus", "Minus", "Start", "End"})
+public interface Token {
+	
+	public void setInput(String newString);
+	public String getInput();
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/word.java
+package grail.interfaces;
+import util.annotations.Tags;
+
+@Tags({"Word"})
+public interface Word extends Token {
+	public String getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/shapes/rotatingline.java
+package grail.shapes;
+
+import grail.interfaces.RotatingLineInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
+@Tags({"RotatingLine"})
+@StructurePattern(StructurePatternNames.LINE_PATTERN)
+@PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
+@EditablePropertyNames({"X", "Y","Angle", "Radius"})
+public class RotatingLine implements RotatingLineInterface{
+
+	private static final double DEGREE_IN_RADIANS = Math.PI / 180;
+	private static final double DEFAULT_RADIUS = 100;
+	
+	private int upperLeftX = 0;
+	private int upperLeftY = 0;
+	private double radius = DEFAULT_RADIUS;
+	private double angle = 0;
+	
+	public RotatingLine(){
+		// Keep default values
+	}
+	
+	public RotatingLine(int x, int y, double r, double a){
+		upperLeftX = x;
+		upperLeftY = y;
+		radius = r;
+		angle = a;
+	}
+	
+	@Override
+	public int getX() {
+		return upperLeftX;
+	}
+	
+	@Override
+	public void setX(int x) {
+		upperLeftX = x;
+	}
+
+	@Override
+	public int getY() {
+		return upperLeftY;
+	}
+	
+	@Override
+	public void setY(int y) {
+		upperLeftY = y;
+	}
+	
+	@Override
+	public int getHeight() {
+		return (int)(radius*Math.sin(angle));
+	}
+
+	@Override
+	public int getWidth() {
+		return (int)(radius*Math.cos(angle));
+	}
+
+	@Override
+	public void setRadius(double r) {
+		radius = r;
+	}
+
+	@Override
+	public double getRadius() {
+		return radius;
+	}
+
+	@Override
+	public void setAngle(double theta) {
+		angle = theta;
+	}
+
+	@Override
+	public double getAngle() {
+		return angle;
+	}
+
+	@Override
+	@Tags({"rotate"})
+	public void rotateByClockwiseDegrees(int degrees) {
+		setAngle(getAngle() + (degrees * DEGREE_IN_RADIANS));
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/endtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"End"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class EndToken implements Token {
+
+	private String input;
+	
+	public EndToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/minustoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Minus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class MinusToken implements Token {
+
+	private String input;
+	
+	public MinusToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/numbertoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Number;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Number"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class NumberToken implements Number{
+	
+	private String input;
+	private int value;
+	
+	public NumberToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = Integer.parseInt(newString);
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+	@Override
+	public int getValue() {
+		return value;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/plustoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Plus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class PlusToken implements Token {
+
+	private String input;
+	
+	public PlusToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/quotetoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Quote"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class QuoteToken implements Token{
+
+	private String input;
+	
+	public QuoteToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/starttoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Start"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class StartToken implements Token{
+
+	private String input;
+	
+	public StartToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/wordtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Word;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
 @Tags({"Word"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"input","value"})
-@EditablePropertyNames({"input"})
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WordToken implements Word{
 
-public class Word implements RawInput, ProcWordValue{
-	private String input="";
-	private String value;//lower case for the input string
+	private String input;
+	private String value;
 	
-	public Word(String input)
-	{
-		this.input=input;
-		//value=input.toLowerCase();//the input not always legal, so need more process here
-	}
-	public void setInput(String input)
-	{
-		this.input=input;
-		value=input.toLowerCase();//the input not always legal, so need more process here
-
-		//value=input.toLowerCase();//the input not always legal, so need more process here
+	public WordToken(String input){
+		setInput(input);
 	}
 	
-	public String getInput()
-	{
-		return this.input;
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = newString.toLowerCase();
 	}
-	
-	public String getValue()
-	{
 
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+	@Override
+	public String getValue() {
 		return value;
 	}
+
+}
+//END OF FILE
+//START OF FILE: src/main/assignment4.java
+package main;
+
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import grail.ScannerBean;
+import grail.interfaces.RotatingLineInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.shapes.RotatingLine;
+import util.misc.ThreadSupport;
+
+public class Assignment4 {
 	
+	private static final int ROTATIONS = 60; //for rotating line
+	private static final int DEGREES_PER_ROTATION = 6;
+	private static final int TIME_BETWEEN_ROTATIONS = 100;
+	
+	private static final int TIME_BETWEEN_UPDATES = 3000;
+	private static final String[] TEST_STRINGS = {
+			"{ } - + 0029",
+			"\" quoted string! \" someWORD er$$or e#ror",
+			"aPproacH FAil mOve PaSS",
+			"repEaT Say cAll defINE PROCeed",
+			"redo ROTATELEFTARM RotateRightArm slEep THread",
+			"Undo waiT M#re eR1ors"
+	};
+	
+	public static void main(String[] args) {
+
+		ScannerBeanInterface myScanner = new ScannerBean();
+		OEFrame oeFrame = ObjectEditor.edit(myScanner);
+		
+		// Animate the properties
+		for (int i= 0; i < TEST_STRINGS.length; ++i){
+			myScanner.setScannedString(TEST_STRINGS[i]);
+			oeFrame.refresh();
+			ThreadSupport.sleep(TIME_BETWEEN_UPDATES);
+		}
+		
+		// Animate rotating line
+		RotatingLineInterface myLine = new RotatingLine(100, 100, 100, 0);
+		oeFrame = ObjectEditor.edit(myLine);
+		for (int i = 0; i < ROTATIONS ; ++i){
+			myLine.rotateByClockwiseDegrees(DEGREES_PER_ROTATION);
+			oeFrame.refresh();
+			ThreadSupport.sleep(TIME_BETWEEN_ROTATIONS);
+		}
+		
+	}//end main
+}//end class
+//END OF FILE
+//START OF FILE: src/mp/scanner/scanningiterator.java
+package mp.scanner;
+
+import java.util.Iterator;
+
+public class ScanningIterator implements Iterator<String>{
+
+	private String stringData;
+	private int position = 0;
+	
+	/**
+	 * Constructor
+	 * @param s string to iterate over
+	 */
+	public ScanningIterator(String s){
+		stringData = s;
+	}
+
+	/**
+	 * Checks whether there is another token to be had
+	 */
+	@Override
+	public boolean hasNext() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			position = stringData.length();
+		}
+		return (position < stringData.length());
+	}
+
+	/**
+	 * Gets the next token
+	 */
+	@Override
+	public String next() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			
+			// Rest of string was spaces
+			position = stringData.length();
+			return "";
+		}
+		
+		// Get token
+		int tokenStart = position;
+		int tokenEnd = position;
+		
+		// Treat quoted strings differently
+		if (stringData.charAt(tokenStart) == '\"'){
+			
+			// Look for the closing quote after this quote
+			tokenEnd = indexOf(stringData, '\"', tokenStart + 1);
+			
+			if (tokenEnd == -1){
+				System.out.println("ERROR: No closing quote found. Assumed line end to be closing quote.");
+				tokenEnd = stringData.length();
+				position = tokenEnd;
+				return stringData.substring(tokenStart, tokenEnd)+ "\"";
+			
+			// If closing quote exists, make sure it is grabbed
+			} else {
+				++tokenEnd;
+			}
+			
+		// If not a quoted string, end of token is a space or line end	
+		} else {
+			tokenEnd = indexOf(stringData, ' ', tokenStart);
+		}
+			
+		if (tokenEnd == -1){
+			tokenEnd = stringData.length();
+		}
+		
+		position = tokenEnd;
+		
+		return stringData.substring(tokenStart, tokenEnd);
+	}
+	
+	/**
+	 * Returns index of first character equal to ch
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first ocurrence of ch after fromIndex, or -1 if not found
+	 */
+	private static int indexOf(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)==ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/**
+	 * Returns index of first character not equal to ch
+	 * 
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first character that is not ch after fromIndex, or -1 if no non-ch characters found
+	 */
+	private static int indexOfNot(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)!=ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
 }
 //END OF FILE

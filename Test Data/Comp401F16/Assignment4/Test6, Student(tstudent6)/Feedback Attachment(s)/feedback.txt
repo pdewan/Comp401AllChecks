@@ -1,63 +1,159 @@
-Grading result for: Extra, Credit (ecredit)
+Grading result for: Test6, Student(tstudent6)
 
 Grading features...
 ----------------------------------
-Command Classes Implemented                            15.0 / 15.0
-Scanner bean returns token array                       5.0 /  5.0
-Scanner Makes Command Tokens                           17.0 / 17.0
-Multiple scanner Sets check                            8.0 /  8.0
-Class has interface check                              4.7 /  5.0
-Variable has class type                                5.0 /  5.0
-Scanner object displays properly in ObjectEditor and tests for every token type 0.0 / 15.0
-Scanner has error property                             1.5 /  5.0 (Extra credit)
-Scanner displays errors correctly                      0.0 /  5.0 (Extra credit)
-Rotating fixed line                                    4.5 /  6.0 (Extra credit)
-Rotating moving line                                   5.0 /  5.0 (Extra credit)
-Object Editor rotating, moving line                    0.0 / 24.0 (Extra credit)
+CommandSuite                                           0.0 / 15.0
+TokenArraySuite                                        40.0 / 40.0
+MovingRotatingLineSuite                                16.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Required command token classes instantiated            0.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           0.0 / 18.0
+ScannerBean has Tokens property                        0.0 / 15.0
+Sleep called in animation                              0.0 /  4.0
+ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       0.0 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 65.7
+  Points Awarded: 82.0
 
 Grading restrictions...
 ----------------------------------
-Multi Property Token Beans                             0.0 /  0.0
-Single Property Token Beans                            0.0 /  0.0
+Variables should have interface, not class, type0.0 /  -10.0
 Illegal import or call                      0.0 /  -25.0
-Single main.Assignment                      0.0 /  -10.0
-Classes Tagged                              0.0 /  -39.0
-Common token interface not T                0.0 /  -5.0
-Interactive Run                             -5.0 /  -5.0
 ----------------------------------
-  Points Deducted: -5.0
+  Points Deducted: 0.0
 
-  Features Score: 60.7
+  Features Score: 82.0
 
 Notes from grading features:
 ----------------------------------
-Scanner Makes Command Tokens:
-  -- Correctly creates 'call' command tokens
-  -- Correctly creates 'define' command tokens
-  -- Correctly creates 'move' command tokens
-  -- Correctly creates 'proceedAll' command tokens
-  -- Correctly creates 'redo' command tokens
-  -- Correctly creates 'repeat' command tokens
-  -- Correctly creates 'rotateLeftArm' command tokens
-  -- Correctly creates 'rotateRightArm' command tokens
-  -- Correctly creates 'say' command tokens
-  -- Correctly creates 'sleep' command tokens
-  -- Correctly creates 'thread' command tokens
-  -- Correctly creates 'undo' command tokens
-  -- Correctly creates 'wait' command tokens
+CommandSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
-Class has interface check:
-  -- Class has no interface: ExtBeanStringScanner
-Class has no interface: BeanStringScanner
+TokenArraySuite:
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combined
 
-Scanner has error property:
-  -- Errors not logged
+Required command token classes instantiated:
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
 
-Rotating fixed line:
-  -- Missing default constructor
+Single parameter constructors defined for command tokens:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+
+Properties defined for command token classes:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+
+ScannerBean has Tokens property:
+  -- ScannerBean not found by checkstyle
+
+Sleep called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+ScannerBean has Errors property:
+  -- ScannerBean not found by checkstyle
+
+Extra credit command classes instantiated:
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+
+Extra credit constructors and properties defined:
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- RotatingLine not found by checkstyle
+  -- RotatingLine not found by checkstyle
+  -- RotatingLine not found by checkstyle
+  -- main.Assignment4 not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 64.05
+  Total Score: 86.10000000000001

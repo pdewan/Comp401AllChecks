@@ -4,6 +4,7 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment4.testcases.Assignment4Suite;
+import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
@@ -172,6 +173,10 @@ public class Assignment4Requirements extends AJUnitProjectRequirements{
      	
      	addManualFeature("ScannerBean properly animated", 15, false);
       addManualFeature("RotatingLine properly animated", 5, true);
+      
+      addManualRestriction(INTERACTIVE_RUN, 5, 
+      		new NoWarningOrErrorTestCase("OE Warnings", ".*(efresh|not in range).*",
+      											".*Assuming implicit pattern.*", 0.3));
       
      	addRestriction("Illegal import or call", 25, new CheckStyleIllegalImportOrCallTestCase());
       

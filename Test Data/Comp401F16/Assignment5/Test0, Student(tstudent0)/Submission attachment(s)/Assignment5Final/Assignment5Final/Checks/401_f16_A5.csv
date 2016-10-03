@@ -1,0 +1,93 @@
+-1,Sat Sep 24 00:29:55 EDT 2016,true,grail\extraCommandBeans\CallCommand.java,typeDefined,CallCommand,@Call//EC
+-1,Sat Sep 24 00:29:55 EDT 2016,true,grail\graphics\VShape.java,typeDefined,VShape,@Angle
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\PassCommand.java,typeDefined,PassCommand,@Pass
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\ThreadCommand.java,typeDefined,ThreadCommand,@Thread//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\RotatingLineInterface.java,typeDefined,RotatingLineInterface,@RotatingLine//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\QuoteToken.java,typeDefined,QuoteToken,@Quote
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\RepeatCommand.java,typeDefined,RepeatCommand,@Repeat//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\UndoCommand.java,typeDefined,UndoCommand,@Undo//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\graphics\Image.java,typeDefined,Image,No Expected Tag
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\SayCommand.java,typeDefined,SayCommand,@Say
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Number
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Word
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Quote
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Start
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@End
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Plus//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Minus//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\StartToken.java,typeDefined,StartToken,@Start
+-1,Sat Sep 24 00:29:56 EDT 2016,true,main\Assignment5.java,typeDefined,Assignment5,main.Assignment5
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\WaitCommand.java,typeDefined,WaitCommand,@Wait//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\StringShapeInterface.java,typeDefined,StringShapeInterface,No Expected Tag
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\graphics\RotatingLine.java,typeDefined,RotatingLine,@RotatingLine//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\ScannerBeanInterface.java,typeDefined,ScannerBeanInterface,@ScannerBean
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\SleepCommand.java,typeDefined,SleepCommand,@Sleep//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Number.java,typeDefined,Number,@Number
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\ScannerBean.java,typeDefined,ScannerBean,@ScannerBean
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\NumberToken.java,typeDefined,NumberToken,@Number
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\RedoCommand.java,typeDefined,RedoCommand,@Redo//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\FailCommand.java,typeDefined,FailCommand,@Fail
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\EndToken.java,typeDefined,EndToken,@End
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\ProceedAllCommand.java,typeDefined,ProceedAllCommand,@ProceedAll//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\graphics\Avatar.java,typeDefined,Avatar,@Avatar
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\BridgeSceneInterface.java,typeDefined,BridgeSceneInterface,@BridgeScene
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\ImageInterface.java,typeDefined,ImageInterface,No Expected Tag
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\WordToken.java,typeDefined,WordToken,@Word
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\RotateLeftArmCommand.java,typeDefined,RotateLeftArmCommand,@RotateLeftArm//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\graphics\StringShape.java,typeDefined,StringShape,No Expected Tag
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\VShapeInterface.java,typeDefined,VShapeInterface,@Angle
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\graphics\BridgeScene.java,typeDefined,BridgeScene,@BridgeScene
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\Word.java,typeDefined,Word,@Word
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\RotateRightArmCommand.java,typeDefined,RotateRightArmCommand,@RotateRightArm//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,mp\scanner\ScanningIterator.java,typeDefined,ScanningIterator,ScanningIterator//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\MinusToken.java,typeDefined,MinusToken,@Minus//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\interfaces\AvatarInterface.java,typeDefined,AvatarInterface,@Avatar
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\ApproachCommand.java,typeDefined,ApproachCommand,No Expected Tag
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\extraCommandBeans\DefineCommand.java,typeDefined,DefineCommand,@Define//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\tokenBeans\PlusToken.java,typeDefined,PlusToken,@Plus//EC
+-1,Sat Sep 24 00:29:56 EDT 2016,true,grail\commandBeans\MoveCommand.java,typeDefined,MoveCommand,@Move
+55,Sat Sep 24 00:32:20 EDT 2016,true,grail\extraCommandBeans\CallCommand.java,expectedTypes,[main.Assignment5, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene]
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\VShape.java,illegalTypeImported,VShape,javax.swing.DefaultBoundedRangeModel,VShape
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\VShape.java,expectedGetters,VShape,LeftLine,@LINE_PATTERN
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\VShape.java,expectedGetters,VShape,RightLine,@LINE_PATTERN
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\Image.java,illegalTypeImported,Image,javax.swing.Icon,Image
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\Image.java,illegalTypeImported,Image,javax.swing.ImageIcon,Image
+55,Sat Sep 24 00:32:21 EDT 2016,true,main\Assignment5.java,expectedClassInstantiations,Assignment5,main.Assignment5,@ScannerBean
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\interfaces\StringShapeInterface.java,duplicateShortTypeName,StringShapeInterface,[grail.graphics.StringShapeInterface, grail.interfaces.StringShapeInterface]
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\RotatingLine.java,duplicateShortTypeName,RotatingLine,[grail.graphics.RotatingLine, grail.shapes.RotatingLine]
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\RotatingLine.java,expectedGetters,RotatingLine,Width,int | Height
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,illegalMethodCall,ScannerBean,constructCommandOrWord-->String.equalsIgnoreCase
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,uncessaryMethodCall,ScannerBean,constructCommandOrWord-->String.equalsIgnoreCase
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,expectedDeclaredSignatures,ScannerBean,indexOf:String;char;int->int,ScannerBean
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,expectedDeclaredSignatures,ScannerBean,indexOfNot:String;char;int->int//EC,ScannerBean
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       indexOf:String;char;int->int 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       indexOfNot:String;char;int->int//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Number!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Number!getValue:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,             @Word!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Word!getValue:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,             @Quote!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Start!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @End!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Plus!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Minus!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Move!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Pass!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Fail!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Say!getInput:->String 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @RotateLeftArm!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @RotateRightArm!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,         @Repeat!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Define!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Call!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,         @Thread!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,        @Wait!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @ProceedAll!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Sleep!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,         @Undo!getInput:->String//EC 
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\ScannerBean.java,missingMethodCall,ScannerBean,       @Redo!getInput:->String//EC
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\Avatar.java,expectedConstructors,Avatar,:,Avatar
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\Avatar.java,expectedGetters,Avatar,Text,@STRING_PATTERN
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\interfaces\BridgeSceneInterface.java,duplicateShortTypeName,BridgeSceneInterface,[grail.graphics.BridgeSceneInterface, grail.interfaces.BridgeSceneInterface]
+55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\StringShape.java,duplicateShortTypeName,StringShape,[grail.graphics.StringShape, grail.interfaces.StringShape]
+55,Sat Sep 24 00:32:21 EDT 2016,true,mp\scanner\ScanningIterator.java,functionAssignsGlobal,ScanningIterator,hasNext
