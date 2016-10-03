@@ -1,0 +1,10 @@
+0,Fri Aug 26 16:50:01 EDT 2016,true,mp\scanner\ScanningIterator.java,typeDefined,ScanningIterator,mp.scanner.ScanningIterator//EC
+0,Fri Aug 26 16:50:01 EDT 2016,true,mp\scanner\ScanningIterator.java,invalidPackageName,ScanningIterator,mp.scanner,[test  lectures  main  grail]
+0,Fri Aug 26 16:50:01 EDT 2016,true,mp\scanner\ScanningIterator.java,functionAssignsGlobal,ScanningIterator,hasNext
+0,Fri Aug 26 16:50:01 EDT 2016,true,mp\scanner\ScanningIterator.java,expectedInterfaces,ScanningIterator,Iterator//EC,ScanningIterator
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,illegalTypeImported,Assignment1,mp.scanner.ScanningIterator,Assignment1
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOf:String;char;int->int,Assignment1
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOfNot:String;char;int->int//EC,Assignment1
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOf:String;char;int->void 
+0,Fri Aug 26 16:50:01 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOfNot:String;char;int->void//EC 

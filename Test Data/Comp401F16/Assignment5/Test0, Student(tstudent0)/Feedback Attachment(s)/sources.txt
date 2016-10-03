@@ -1,575 +1,612 @@
-//START OF FILE: src/grail/graphics/aboxdefinedshape.java
-package grail.graphics;
+//START OF FILE: src/grail/scannerbean.java
+package grail;
 
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
 import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
-@PropertyNames({"X", "Y", "Height", "Width"})
-@EditablePropertyNames({"X", "Y", "Height", "Width"})
-public class ABoxDefinedShape extends ALocatable implements BoxDefinedShape {
-	private int height, width;
-	
-	public int getHeight() { return height; }
-	public int getWidth() { return width; }
-	public void setHeight(int newHeight) { height = newHeight; }
-	public void setWidth(int newWidth) { width = newWidth; }
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/abridgescene.java
-package grail.graphics;
-
-import util.annotations.Tags;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.IsAtomicShape;
 import util.annotations.PropertyNames;
-
-@Tags({"BridgeScene"})
-@IsAtomicShape(false)
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Arthur", "Lancelot", "Robin", "Galahad", "Guard", "KnightArea", 
-	"GuardArea", "Gorge", "KnightTurn", "Occupied"})
-public class ABridgeScene implements BridgeScene {
-	private static final int LANCELOT_X = 25;
-	private static final int LANCELOT_Y = 200;
-	private static final int ROBIN_X = 200;
-	private static final int ROBIN_Y = 70;
-	private static final int GALAHAD_X = 250;
-	private static final int GALAHAD_Y = 220;
-	private static final int GUARD_X = 870;
-	private static final int GUARD_Y = 150;
-	private static final int KNIGHT_AREA_X = 570;
-	private static final int KNIGHT_AREA_Y = 270;
-	private static final int GUARD_AREA_X = 850;
-	private static final int GUARD_AREA_Y = 270;
-	private static final int STAND_AREA = 90; //Circle size
-	private static final int KNIGHT_X_ADJUSTMENT = 20;   //These are used to position the knight in
-	private static final int KNIGHT_Y_ADJUSTMENT = -120;   //  the Knight Area, given the head is their x, y
-	private static final int PASS_X_MOVE = 900;  //Used to move knight over bridge
-	private static final int FAIL_KNIGHT_MOVE = 500;   //Both used to move avatars into gorge
-	private static final int FAIL_GUARD_X_MOVE = 200;  // " "
-	
-	private Avatar arthur;
-	private Avatar lancelot;
-	private Avatar robin;
-	private Avatar galahad;
-	private Avatar guard;
-	private ImageShape gorge;
-	private Oval knightArea;
-	private Oval guardArea;
-	private boolean occupied;
-	private boolean knightTurn;
-	private Avatar currentKnight;
-	
-	public ABridgeScene() {
-		arthur = new AnAvatar("arthur.jpg");
-		lancelot = new AnAvatar("lancelot.jpg", LANCELOT_X, LANCELOT_Y);
-		robin = new AnAvatar("robin.jpg", ROBIN_X, ROBIN_Y);
-		galahad = new AnAvatar("galahad.jpg", GALAHAD_X, GALAHAD_Y);
-		guard = new AnAvatar("guard.jpg", GUARD_X, GUARD_Y);
-		knightArea = new AnOval(KNIGHT_AREA_X, KNIGHT_AREA_Y, STAND_AREA, STAND_AREA);
-		guardArea = new AnOval(GUARD_AREA_X, GUARD_AREA_Y, STAND_AREA, STAND_AREA);
-		gorge = new AShapeImage("gorge.jpg", 0, 0);
-		occupied = false;
-		knightTurn = false;
-	}
-	public ImageShape getGorge() { return gorge; }
-	public Avatar getArthur() { return arthur; }
-	public Avatar getLancelot() { return lancelot; }
-	public Avatar getRobin() { return robin; }
-	public Avatar getGalahad() { return galahad; }
-	public Avatar getGuard() { return guard; }
-	public Oval getKnightArea() { return knightArea; }
-	public Oval getGuardArea() { return guardArea; }
-	public boolean getOccupied() { return occupied; }
-	public boolean getKnightTurn() { return knightTurn; }
-	
-	@Tags({"approach"})
-	public void approach(Avatar newKnight) {
-		newKnight.move(KNIGHT_AREA_X - newKnight.getX() + KNIGHT_X_ADJUSTMENT, 
-							KNIGHT_AREA_Y - newKnight.getY() + KNIGHT_Y_ADJUSTMENT);
-		currentKnight = newKnight;
-		occupied = true;
-	}
-	
-	@Tags({"say"})
-	public void say(String newSpeech) {
-		if (occupied) {
-			if (!knightTurn) {
-				guard.setText(newSpeech);
-				currentKnight.setText("");
-				knightTurn = true;
-			}
-			else {
-				currentKnight.setText(newSpeech);
-				guard.setText("");
-				knightTurn = false;
-			}
-		}
-	}
-	
-	@Tags({"passed"})
-	public void passed() {
-		guard.setText("");
-		currentKnight.setText("");
-		if (!knightTurn) {
-			currentKnight.move(PASS_X_MOVE, 0);
-			occupied = false;
-			currentKnight = null;
-		}
-	}
-	
-	@Tags({"failed"}) 
-	public void failed() {
-		if (knightTurn) {
-			currentKnight.move(FAIL_KNIGHT_MOVE, FAIL_KNIGHT_MOVE);
-			guard.setText("");
-			occupied = false;
-			currentKnight = null;
-		}
-		else {
-			guard.move(FAIL_GUARD_X_MOVE, FAIL_KNIGHT_MOVE);
-		}
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/acartesianpoint.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.POINT_PATTERN)
-@PropertyNames({"X", "Y", "Angle", "Radius"})
-@EditablePropertyNames({"X", "Y"})
-public class ACartesianPoint extends ALocatable implements Point {
-	
-	public ACartesianPoint(int newX, int newY) {
-		setX(newX);
-		setY(newY);
-	}
-
-	public double getAngle() {
-		return Math.atan2(getY(), getX());
-	}
-	
-	public double getRadius() {
-		return Math.sqrt(getX() * getX() + getY() * getY());
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/aline.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.LINE_PATTERN)
-@PropertyNames({"X", "Y", "Height", "Width"})
-@EditablePropertyNames({"X", "Y", "Height", "Width"})
-public class ALine extends ABoxDefinedShape implements Line {
-	public ALine(int initX, int initY, int initHeight, int initWidth) {
-		setX(initX);
-		setY(initY);
-		setHeight(initHeight);
-		setWidth(initWidth);
-	}
-	public ALine() { };
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/alocatable.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.POINT_PATTERN)
-@PropertyNames({"X", "Y"})
-@EditablePropertyNames({"X", "Y"})
-public class ALocatable implements Locatable {
-	private int x, y;
-	
-	public int getX() { return x; }
-	public int getY() { return y; }
-	public void setX(int newX) { x = newX; }
-	public void setY(int newY) { y = newY; }
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/apolarpoint.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.POINT_PATTERN)
-@PropertyNames({"X", "Y", "Angle", "Radius"})
-@EditablePropertyNames({"X", "Y"})
-public class APolarPoint extends ALocatable implements Point {
-	private double angle;
-	private double radius;
-	
-	public APolarPoint (double newAngle, double newRadius) {
-		angle = newAngle;
-		radius = newRadius;
-	}
-	
-	public APolarPoint (int xCoord, int yCoord) {
-		radius = Math.sqrt(xCoord*xCoord + yCoord*yCoord);
-		angle = Math.atan((double) yCoord/xCoord);
-	}
-	
-	public int getX() {
-		return (int) (radius * Math.cos(angle));
-	}
-	
-	public int getY() {
-		return (int) (radius * Math.sin(angle));
-	}
-	
-	public double getAngle() {
-		return angle;
-	}
-	
-	public double getRadius() {
-		return radius;
-	}
-	
-	public void setX(int newX) {
-		angle = Math.atan((double) getY()/newX);
-		radius = Math.sqrt(newX*newX + getY()*getY());
-	}
-	
-	public void setY(int newY) {
-		angle = Math.atan((double)newY/getX());
-		radius = Math.sqrt(getX()*getX() + newY*newY);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/arectangle.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
-@PropertyNames({"X", "Y", "Height", "Width"})
-@EditablePropertyNames({"X", "Y", "Height", "Width"})
-public class ARectangle extends ABoxDefinedShape implements Rectangle {
-	
-	public ARectangle(int initX, int initY, int initHeight, int initWidth) {
-		setX(initX);
-		setY(initY);
-		setWidth(initWidth);
-		setHeight(initHeight);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/arotatingline.java
-package grail.graphics;
-
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
 
-@StructurePattern(StructurePatternNames.LINE_PATTERN)
-@PropertyNames({"Height", "Width", "X", "Y"})
-@EditablePropertyNames({"Angle", "Radius", "X", "Y", "Height", "Width"})
-@Tags({"Rotating Line"})
-public class ARotatingLine extends ALine implements RotatingLine {
-	private static final double ROTATION_SCALE = 64;
-	private Point topLeft;;
-	private double angle;
-	private double radius;
-	private Point botRight;
-	
-	public ARotatingLine(double initAngle, double initRadius) {
-		angle = initAngle;
-		radius = initRadius;
-		botRight = new APolarPoint(angle, radius);
-		topLeft = new ACartesianPoint(0, 0);
-	}
-	
-	public ARotatingLine(int initX, int initY, double initAngle, double initRadius) {
-		angle = initAngle;
-		radius = initRadius;
-		botRight = new APolarPoint(angle, radius);
-		topLeft = new ACartesianPoint(initX, initY);
-	}
-	
-	public int getX() {
-		return topLeft.getX();
-	}
-	
-	public int getY() {
-		return topLeft.getY();
-	}
-	
-	public int getWidth() {
-		return botRight.getX();
-	}
-	
-	public int getHeight() {
-		return botRight.getY();
-	}
-	
-	public void setAngle(double newAngle) {
-		angle = newAngle;
-		botRight = new APolarPoint(angle, radius);
-	}
-	
-	public void setRadius(double newRadius) {
-		radius = newRadius;
-		botRight = new APolarPoint(angle, radius);
-	}
-	
-	@Tags({"rotate"})
-	public void rotate(int amount) {
-		angle += amount * (Math.PI/ROTATION_SCALE);
-		setAngle(angle);
-	}
-	
-	public void setX(int newX) {
-		topLeft = new ACartesianPoint(newX, 0);
-	}
-	
-	public void setY(int newY) {
-		topLeft = new ACartesianPoint(0, newY);
-	}
-	
-	public void moveTopLeft(int newX, int newY) {
-		topLeft = new ACartesianPoint(newX, newY);
-	}
-	
-	public void move(int xAmount, int yAmount) {
-		topLeft.setX(topLeft.getX() + xAmount);
-		topLeft.setY(topLeft.getY() + yAmount);
-	}
-}
- 
-//END OF FILE
-//START OF FILE: src/grail/graphics/ashapeimage.java
-package grail.graphics;
+import java.util.Iterator;
 
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
+import grail.commandBeans.ApproachCommand;
+import grail.commandBeans.FailCommand;
+import grail.commandBeans.MoveCommand;
+import grail.commandBeans.PassCommand;
+import grail.commandBeans.RepeatCommand;
+import grail.commandBeans.SayCommand;
+import grail.extraCommandBeans.CallCommand;
+import grail.extraCommandBeans.DefineCommand;
+import grail.extraCommandBeans.ProceedAllCommand;
+import grail.extraCommandBeans.RedoCommand;
+import grail.extraCommandBeans.RotateLeftArmCommand;
+import grail.extraCommandBeans.RotateRightArmCommand;
+import grail.extraCommandBeans.SleepCommand;
+import grail.extraCommandBeans.ThreadCommand;
+import grail.extraCommandBeans.UndoCommand;
+import grail.extraCommandBeans.WaitCommand;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Token;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+import mp.scanner.ScanningIterator;
 
-@StructurePattern(StructurePatternNames.IMAGE_PATTERN)
-public class AShapeImage extends ALocatable implements ImageShape {
-	String imageFileName;
-    
-    public AShapeImage (String initImageFileName, int initX, int initY) {	
-    	imageFileName = initImageFileName;
-    	setX(initX);
-    	setY(initY);
-    }          
 
-    public String getImageFileName() { return imageFileName; }  
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/astringshape.java
 /**
- * @author Ian Hoyt-McCullough
- * @version 9/24/15
+ * A "Bean" object whose setter for scannedString prints the tokens and their types.
+ * @author Semion
+ *
  */
-
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@StructurePattern(StructurePatternNames.STRING_PATTERN)
-@PropertyNames({"X", "Y", "String", "Text"})
-@EditablePropertyNames({"X", "Y", "String"})
-public class AStringShape extends ALocatable implements StringShape {
-	private String string;
-	
-	public AStringShape(int newX, int newY, String newText) {
-		setX(newX);
-		setY(newY);
-		string = newText;
-	}
-	public void setString(String newText) { string = newText; }
-	public String getString() { return string; }
-	public String getText() { return string; }
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/avshape.java
-package grail.graphics;
-
-import util.annotations.Tags;
-import util.annotations.IsAtomicShape;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@IsAtomicShape(false)
-@Tags({"Angle"})
-@PropertyNames({"X", "Y", "LeftLine", "RightLine"})
-@EditablePropertyNames({"X", "Y"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN) 
-public class AVShape extends ALocatable implements VShape {
-	private static final int DEFAULT_X_AND_Y = 100;
-	private static final double DEFAULT_LEFT_LINE_ANGLE = Math.PI / 1.5;
-	private static final double DEFAULT_RIGHT_LINE_ANGLE = Math.PI / 1.5 - Math.PI / 3;
-	private static final double DEFAULT_LINE_LENGTH = 50.0;
-	
-	private RotatingLine leftLine;
-	private RotatingLine rightLine;
-	
-	public AVShape() {
-		super.setX(DEFAULT_X_AND_Y);
-		super.setY(DEFAULT_X_AND_Y);
-		leftLine = new ARotatingLine(getX(), getY(), DEFAULT_LEFT_LINE_ANGLE, 
-						DEFAULT_LINE_LENGTH);
-		rightLine = new ARotatingLine(getX(), getY(), DEFAULT_RIGHT_LINE_ANGLE, 
-						DEFAULT_LINE_LENGTH);
-	}
-	
-	public AVShape(int initX, int initY) {
-		super.setX(initX);
-		super.setY(initY);
-		leftLine = new ARotatingLine(getX(), getY(), DEFAULT_LEFT_LINE_ANGLE, 
-						DEFAULT_LINE_LENGTH);
-		rightLine = new ARotatingLine(getX(), getY(), DEFAULT_RIGHT_LINE_ANGLE, 
-						DEFAULT_LINE_LENGTH);
-	}
-	
-	public void setX(int newX) {
-		super.setX(newX);
-		moveLines();
-	}
-	public void setY(int newY) {
-		super.setY(newY);
-		moveLines();
-	}
-	private void moveLines() {
-		leftLine.moveTopLeft(getX(), getY());
-		rightLine.moveTopLeft(getX(), getY());
-	}
-	public RotatingLine getLeftLine() {
-		return leftLine;
-	}
-	public RotatingLine getRightLine() {
-		return rightLine;
-	}
-	@Tags({"move"})
-	public void move(int xAmount, int yAmount) {
-		super.setX(getX() + xAmount);
-		super.setY(getY() + yAmount);
-		moveLines();
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/anavatar.java
-package grail.graphics;
-
-import util.annotations.IsAtomicShape;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@Tags({"Avatar"})
-@IsAtomicShape(false)
+@Tags({"ScannerBean"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Text", "Legs", "Arms", "Head", "Body", "X", "Y", "Speech"})
-@EditablePropertyNames({"Text", "X", "Y"})
-public class AnAvatar extends ALocatable implements Avatar {
-	//Constants to determine relative body part positions based off avatar head position
-	private static final int DEFAULT_POSITION = 110;
-	private static final int SPEECH_X = 40;
-	private static final int BODY_X = 20;
-	private static final int BODY_Y = 63;
-	private static final int BODY_LENGTH = 80;
-	
-	private StringShape text;
-	private ImageShape head;
-	private VShape legs;
-	private VShape arms;
-	private RotatingLine body;
-	
-	public AnAvatar(String imageFile) {
-		setX(DEFAULT_POSITION);
-		setY(DEFAULT_POSITION);
-		text = new AStringShape(getX() + SPEECH_X, getY(), "");
-		head = new AShapeImage(imageFile, getX(), getY());
-		body = new ARotatingLine(getX() + BODY_X, getY() + BODY_Y, Math.PI/2, BODY_LENGTH);
-		arms = new AVShape(getX() + BODY_X, getY() + BODY_Y);
-		legs = new AVShape(getX() + BODY_X, getY() + BODY_Y + BODY_LENGTH);
-	}
-	
-	public AnAvatar(String imageFile, int initX, int initY) {
-		setY(initY);
-		setX(initX);
-		text = new AStringShape(getX() + SPEECH_X, getY(), "");
-		head = new AShapeImage(imageFile, getX(), getY());
-		body = new ARotatingLine(getX() + BODY_X, getY() + BODY_Y, Math.PI/2, BODY_LENGTH);
-		arms = new AVShape(getX() + BODY_X, getY() + BODY_Y);
-		legs = new AVShape(getX() + BODY_X, getY() + BODY_Y + BODY_LENGTH);
-	}
-	
-	public String getText() { return text.getString(); }
-	public ImageShape getHead() { return head; }
-	public RotatingLine getBody() { return body; }
-	public VShape getArms() { return arms; }
-	public VShape getLegs() { return legs; }
-	public StringShape getSpeech() { return text; }
-	
-	@Tags({"move"})
-	public void move(int xAmount, int yAmount) {
-		setX(getX() + xAmount);
-		setY(getY() + yAmount);
-		arms.move(xAmount, yAmount);
-		legs.move(xAmount, yAmount);
-		body.move(xAmount, yAmount);
-		text.setX(text.getX() + xAmount);
-		text.setY(text.getY() + yAmount);
-		head.setX(head.getX() + xAmount);
-		head.setY(head.getY() + yAmount);
-	}
-	
-	public void setText(String newText) {
-		text.setString(newText);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/anoval.java
-package grail.graphics;
+@PropertyNames({"ScannedString", "Tokens", "Errors"})
+@EditablePropertyNames({"ScannedString"})
+public class ScannerBean implements ScannerBeanInterface{
 
+	private String scannedString = "";
+	
+	private Token[] tokenStorage = new Token[100];
+	private Token[] tokens = {};
+	private int numTokens = 0;
+	
+	private String[] errorStorage = new String[100];
+	private String[] errors = {};
+	private int numErrors = 0;
+	
+	public String getScannedString(){
+		return scannedString;
+	};
+	
+	public void setScannedString(String s){
+		scanString(s);
+		scannedString = s;
+	};
+	
+	public Token[] getTokens(){
+		return tokens;
+	}
+	
+	public String[] getErrors(){
+		return errors;
+	}
+	
+	
+	/**
+	 * Produces output from each string
+	 */
+	private void scanString(String s){
+		
+		// Reset arrays
+		numTokens = 0;
+		numErrors = 0;
+		
+		Iterator<String> iterator = new ScanningIterator(s);
+		
+		Token tokenObject = null;	// used to grab each token
+		
+		// Take each space-delimited token
+		while (iterator.hasNext()){
+			String tokenString = iterator.next();
+
+			boolean valid = true; // will be used to mark invalid tokens
+			
+			// Check for number
+			if (Character.isDigit(tokenString.charAt(0))){
+				valid = isValidNumber(tokenString);
+				if (valid){
+					tokenObject = new NumberToken(tokenString);
+				}
+				
+			// Check for word
+			} else if (Character.isLetter(tokenString.charAt(0))){
+				valid = isValidWord(tokenString);
+				if (valid){
+					tokenObject = constructCommandOrWord(tokenString);
+				}
+			
+			// Check for quoted string
+			} else if (tokenString.charAt(0) == '\"'){
+				
+				// The only invalid token would be an empty quoted string
+				if (tokenString.length() <= "\"\"".length()){
+					valid = false;
+				}
+				
+				if (valid){
+					
+					// Trim quotation marks off the ends of the token
+					tokenString = tokenString.substring(1, tokenString.length()-1);
+					
+					tokenObject = new QuoteToken(tokenString);
+				}
+			
+			// Check for plus token
+			} else if ("+".equals(tokenString)){
+				tokenObject = new PlusToken(tokenString);
+			
+			// Check for minus token
+			} else if ("-".equals(tokenString)){
+				tokenObject = new MinusToken(tokenString);
+			
+			// Check for "start" token
+			} else if ("{".equals(tokenString)){
+				tokenObject = new StartToken(tokenString);
+				
+			// Check for "end" token
+			} else if ("}".equals(tokenString)){
+				tokenObject = new EndToken(tokenString);
+				
+			// Otherwise invalid
+			} else{
+				valid = false;
+			}
+			
+			if (valid){
+				tokenStorage[numTokens] = tokenObject;
+				++numTokens;
+			} else {
+				errorStorage[numErrors] = tokenString;
+				++numErrors;
+			}
+		}//end grabbing tokens
+		
+		// Compress arrays
+		tokens = new Token[numTokens];
+		for (int i = 0; i < numTokens; ++i){
+			tokens[i] = tokenStorage[i];
+		}
+		
+		errors = new String[numErrors];
+		for (int i = 0; i < numErrors; ++i){
+			errors[i] = errorStorage[i];
+		}
+	}//end scanString()
+	
+	/**
+	 * Constructs proper command from word, or just a word if no command matches.
+	 * Assumes that word is non-empty and valid.
+	 * 
+	 * @param tokenString
+	 * @return proper command object, or word object otherwise
+	 */
+	private static Token constructCommandOrWord(String tokenString) {
+		
+		if ("approach".equalsIgnoreCase(tokenString)){
+			return new ApproachCommand(tokenString);
+			
+		}else if ("fail".equalsIgnoreCase(tokenString)){
+			return new FailCommand(tokenString);
+			
+		}else if ("move".equalsIgnoreCase(tokenString)){
+			return new MoveCommand(tokenString);
+			
+		}else if ("pass".equalsIgnoreCase(tokenString)){
+			return new PassCommand(tokenString);
+			
+		}else if ("repeat".equalsIgnoreCase(tokenString)){
+			return new RepeatCommand(tokenString);
+			
+		}else if ("say".equalsIgnoreCase(tokenString)){
+			return new SayCommand(tokenString);
+			
+		}else if ("call".equalsIgnoreCase(tokenString)){
+			return new CallCommand(tokenString);
+			
+		}else if ("define".equalsIgnoreCase(tokenString)){
+			return new DefineCommand(tokenString);
+			
+		}else if ("proceedall".equalsIgnoreCase(tokenString)){
+			return new ProceedAllCommand(tokenString);
+			
+		}else if ("redo".equalsIgnoreCase(tokenString)){
+			return new RedoCommand(tokenString);
+			
+		}else if ("rotateleftarm".equalsIgnoreCase(tokenString)){
+			return new RotateLeftArmCommand(tokenString);
+			
+		}else if ("rotaterightarm".equalsIgnoreCase(tokenString)){
+			return new RotateRightArmCommand(tokenString);
+			
+		}else if ("sleep".equalsIgnoreCase(tokenString)){
+			return new SleepCommand(tokenString);
+			
+		}else if ("thread".equalsIgnoreCase(tokenString)){
+			return new ThreadCommand(tokenString);
+			
+		}else if ("undo".equalsIgnoreCase(tokenString)){
+			return new UndoCommand(tokenString);
+			
+		}else if ("wait".equalsIgnoreCase(tokenString)){
+			return new WaitCommand(tokenString);
+		}
+		
+		// If none matched, return generic word
+		return new WordToken(tokenString);
+	}
+
+	private static boolean isValidWord(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isLetter(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+	
+	private static boolean isValidNumber(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isDigit(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+}//end class
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/approachcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
+import util.annotations.Tags;
 
-@StructurePattern(StructurePatternNames.OVAL_PATTERN)
-@PropertyNames({"X", "Y", "Height", "Width"})
-@EditablePropertyNames({"X", "Y", "Height", "Width"})
-public class AnOval extends ABoxDefinedShape implements Oval {	
-	public AnOval(int initX, int initY, int initWidth, int initHeight) {
-		setX(initX);
-		setY(initY);
-		setWidth(initWidth);
-		setHeight(initHeight);
+@Tags({"Approach"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ApproachCommand extends WordToken {
+
+	public ApproachCommand(String input) {
+		super(input);
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/failcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Fail"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class FailCommand extends WordToken {
+
+	public FailCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/movecommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Move"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class MoveCommand extends WordToken {
+
+	public MoveCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/passcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Pass"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class PassCommand extends WordToken {
+
+	public PassCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/repeatcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Repeat"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RepeatCommand extends WordToken {
+
+	public RepeatCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/saycommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Say"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SayCommand extends WordToken {
+
+	public SayCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/callcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Call"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class CallCommand extends WordToken {
+
+	public CallCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/definecommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Define"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class DefineCommand extends WordToken {
+
+	public DefineCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/proceedallcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"ProceedAll"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ProceedAllCommand extends WordToken {
+
+	public ProceedAllCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/redocommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Redo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RedoCommand extends WordToken {
+
+	public RedoCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotateleftarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateLeftArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateLeftArmCommand extends WordToken {
+
+	public RotateLeftArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotaterightarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateRightArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateRightArmCommand extends WordToken {
+
+	public RotateRightArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/sleepcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Sleep"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SleepCommand extends WordToken {
+
+	public SleepCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/threadcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Thread"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ThreadCommand extends WordToken {
+
+	public ThreadCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/undocommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Undo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class UndoCommand extends WordToken {
+
+	public UndoCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/waitcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WaitCommand extends WordToken {
+
+	public WaitCommand(String input) {
+		super(input);
 	}
 
 }
@@ -577,955 +614,1211 @@ public class AnOval extends ABoxDefinedShape implements Oval {
 //START OF FILE: src/grail/graphics/avatar.java
 package grail.graphics;
 
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.ImageInterface;
+import grail.interfaces.RotatingLineInterface;
+import grail.interfaces.StringShapeInterface;
+import grail.interfaces.VShapeInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
+import util.annotations.Visible;
 
-@Tags({"Avatar"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public interface Avatar extends Locatable {
-	public VShape getLegs();
-	public VShape getArms();
-	public RotatingLine getBody();
-	public ImageShape getHead();
-	public String getText();
-	public void move(int xAmount, int yAmount);
-	public void setText(String newText);
-	public StringShape getSpeech();
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/boxdefinedshape.java
-package grail.graphics;
+@Tags({"Avatar"})
+@PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
+@EditablePropertyNames({"X", "Y"})
+public class Avatar implements AvatarInterface {
 
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
+	private static final double TORSO_LENGTH = 80;
+	private static final double ARMS_LENGTH = 80;
+	private static final double LEGS_LENGTH = 80;
+	private static final double TORSO_ANGLE = Math.PI/2;
+	
+	// The anchor is at the center of the torso
+	private int x;
+	private int y;
+	
+	private ImageInterface head;
+	private VShapeInterface legs;
+	private VShapeInterface arms;
+	private RotatingLineInterface torso;
+	private 	StringShapeInterface stringShape;
+	
+	public Avatar(ImageInterface head){
+		this.head = head;
+		
+		// Construct other parts
+		torso = new RotatingLine(0, 0, TORSO_LENGTH, TORSO_ANGLE);
+		arms = new VShape(0, 0, ARMS_LENGTH);
+		legs = new VShape(0, 0, LEGS_LENGTH);
+		stringShape = new StringShape(0, 0, "");
+		
+		// Figure out the postion of the avatar anchor
+		int xPos = head.getX() + (head.getWidth()/2);
+		int yPos = (int)(head.getY() + head.getHeight() + (torso.getRadius()/2));
+		
+		// Use setters to build character
+		setX(xPos);
+		setY(yPos);
+	}
+	
+	public Avatar(int xPos, int yPos, String imageFileName){
+		// Construct parts
+		head = new Image(0, 0, imageFileName);
+		torso = new RotatingLine(0, 0, TORSO_LENGTH, TORSO_ANGLE);
+		arms = new VShape(0, 0, ARMS_LENGTH);
+		legs = new VShape(0, 0, LEGS_LENGTH);
+		stringShape = new StringShape(0, 0, "");
+		
+		// Use setters to build character
+		setX(xPos);
+		setY(yPos);
+	}
+	
+	@Visible(false)
+	@Override
+	public void setX(int newX) {
+		
+		x = newX;
+		
+		// Place the character:
+		// Since character is upright, everything is already
+		// centered except the head and utterance
+		legs.setX(newX);
+		torso.setX(newX);
+		arms.setX(newX);
+		
+		head.setX(newX-(head.getWidth())/2);
+		stringShape.setX(head.getX() + head.getWidth());
+	}
 
-@StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
-public interface BoxDefinedShape extends Locatable {
-	public int getHeight();
-	public int getWidth();
-	public void setHeight(int newHeight);
-	public void setWidth(int newWidth);
+	@Visible(false)
+	@Override
+	public int getX() {
+		return x;
+	}
+	
+	@Visible(false)
+	@Override
+	public void setY(int newY) {
+		
+		y = newY;
+		
+		// Place the character:
+		// Start with torso
+		int torsoTop = (int)(newY-(torso.getRadius()/2));
+		torso.setY(torsoTop);
+		int torsoBottom = (int)(torso.getY() + torso.getRadius());
+		
+		// set other shapes accordingly
+		arms.setY(torsoTop);
+		legs.setY(torsoBottom);
+		
+		// Head anchor is at its top, so adjust
+		head.setY(torsoTop - head.getHeight());
+		
+		stringShape.setY(head.getY());
+	}
+
+	@Visible(false)
+	@Override
+	public int getY() {
+		return y;
+	}
+
+	@Override
+	public StringShapeInterface getStringShape() {
+		return stringShape;
+	}
+
+	@Override
+	public ImageInterface getHead() {
+		return head;
+	}
+
+	@Override
+	public VShapeInterface getArms() {
+		return arms;
+	}
+
+	@Override
+	public VShapeInterface getLegs() {
+		return legs;
+	}
+
+	@Override
+	public RotatingLineInterface getTorso() {
+		return torso;
+	}
+
+	@Tags({"move"})
+	@Override
+	public void move(int changeInX, int changeInY) {
+		setX(x+changeInX);
+		setY(y+changeInY);
+	}
+
+	@Tags({"scale"})
+	@Override
+	public void scale(double scalar) {
+		
+		// Ceiling necessary because otherwise small changes are not visible
+		head.setHeight((int)Math.ceil(head.getHeight() * scalar));
+		head.setWidth((int)Math.ceil(head.getWidth()*scalar));
+			
+		legs.setLinesLength(legs.getLinesLength() * scalar);
+		arms.setLinesLength(arms.getLinesLength() * scalar);
+		torso.setRadius(torso.getRadius() * scalar);
+		
+		// adjust position of components using the setX and setY methods
+		// (setX is actually unnecessary in this case since head is not
+		// being scaled)
+		setX(x);
+		setY(y);
+	}
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/bridgescene.java
 package grail.graphics;
 
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @Tags({"BridgeScene"})
-public interface BridgeScene {
-	public Avatar getArthur();
-	public Avatar getLancelot();
-	public Avatar getGalahad();
-	public Avatar getGuard();
-	public Avatar getRobin();
-	public ImageShape getGorge();
-	public void approach(Avatar currentKnight);
-	public Oval getGuardArea();
-	public Oval getKnightArea();
-	public boolean getOccupied();
-	public boolean getKnightTurn();
-	public void say(String newSpeech);
-	public void passed();
-	public void failed();
+@PropertyNames({"Arthur", "Lancelot","Robin", "Galahad", "Guard"})
+public class BridgeScene implements BridgeSceneInterface {
+
+	private static final int ARTHUR_LOCATION_X = 100;
+	private static final int ARTHUR_LOCATION_Y = 200;
+	private static final int LANCELOT_LOCATION_X = 200;
+	private static final int LANCELOT_LOCATION_Y = 200;
+	private static final int ROBIN_LOCATION_X = 300;
+	private static final int ROBIN_LOCATION_Y = 200;
+	private static final int GALAHAD_LOCATION_X = 400;
+	private static final int GALAHAD_LOCATION_Y = 200;
+	private static final int GUARD_LOCATION_X = 700;
+	private static final int GUARD_LOCATION_Y = 200;
+	
+	private static final String ARTHUR_FILE_LOCATION = "images/arthur.jpg";
+	private static final String LANCELOT_FILE_LOCATION = "images/lancelot.jpg";
+	private static final String ROBIN_FILE_LOCATION = "images/robin.jpg";
+	private static final String GALAHAD_FILE_LOCATION = "images/galahad.jpg";
+	private static final String GUARD_FILE_LOCATION = "images/guard.jpg";
+	
+	private AvatarInterface arthur;
+	private AvatarInterface lancelot;
+	private AvatarInterface robin;
+	private 	AvatarInterface galahad;
+	private AvatarInterface guard;
+	
+	public BridgeScene(){
+		arthur = new Avatar(ARTHUR_LOCATION_X, ARTHUR_LOCATION_Y, ARTHUR_FILE_LOCATION);
+		lancelot = new Avatar(LANCELOT_LOCATION_X, LANCELOT_LOCATION_Y, LANCELOT_FILE_LOCATION);
+		robin = new Avatar(ROBIN_LOCATION_X, ROBIN_LOCATION_Y, ROBIN_FILE_LOCATION);
+		galahad = new Avatar(GALAHAD_LOCATION_X, GALAHAD_LOCATION_Y, GALAHAD_FILE_LOCATION);
+		guard = new Avatar(GUARD_LOCATION_X,GUARD_LOCATION_Y, GUARD_FILE_LOCATION);
+	}
+	
+	@Override
+	public AvatarInterface getArthur() {
+		return arthur;
+	}
+
+	@Override
+	public AvatarInterface getLancelot() {
+		return lancelot;
+	}
+
+	@Override
+	public AvatarInterface getRobin() {
+		return robin;
+	}
+
+	@Override
+	public AvatarInterface getGalahad() {
+		return galahad;
+	}
+
+	@Override
+	public AvatarInterface getGuard() {
+		return guard;
+	}
+
 }
 //END OF FILE
-//START OF FILE: src/grail/graphics/imageshape.java
+//START OF FILE: src/grail/graphics/image.java
 package grail.graphics;
 
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+
+import grail.interfaces.ImageInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.IMAGE_PATTERN)
-public interface ImageShape extends Locatable {
-    public String getImageFileName() ;  
+@PropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
+@EditablePropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
+public class Image implements ImageInterface {
+
+	private int x;
+	private int y;
+	private int width;
+	private int height;
+	private String imageFileName;
+	
+	public Image(int xPos, int yPos, int width, int height, String imageFileName){
+		x = xPos;
+		y = yPos;
+		this.width = width;
+		this.height = height;
+		this.imageFileName = imageFileName;
+	}
+	
+	public Image(int xPos, int yPos, String imageFileName){
+		x = xPos;
+		y = yPos;
+		this.imageFileName = imageFileName;
+		
+		// Use image height and width
+		Icon icon = new ImageIcon(imageFileName);
+		setHeight(icon.getIconHeight());
+		setWidth(icon.getIconWidth());
+	}
+	
+	@Override
+	public int getX() {
+		return x;
+	}
+	
+	@Override
+	public void setX(int newX) {
+		x = newX;
+	}
+
+	@Override
+	public int getY() {
+		return y;
+	}
+	
+	@Override
+	public void setY(int newY) {
+		y = newY;
+	}
+
+	@Override
+	public void setWidth(int newWidth) {
+		width = newWidth;
+	}
+
+	@Override
+	public int getWidth() {
+		return width;
+	}
+
+	@Override
+	public void setHeight(int newHeight) {
+		height = newHeight;
+	}
+
+	@Override
+	public int getHeight() {
+		return height;
+	}
+
+	@Override
+	public void setImageFileName(String newFileName) {
+		imageFileName = newFileName;
+	}
+
+	@Override
+	public String getImageFileName() {
+		return imageFileName;
+	}
+
 }
-//END OF FILE
-//START OF FILE: src/grail/graphics/line.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.LINE_PATTERN)
-public interface Line extends BoxDefinedShape {}
-//END OF FILE
-//START OF FILE: src/grail/graphics/locatable.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.POINT_PATTERN)
-public interface Locatable {
-	public int getX();
-	public int getY();
-	public void setX(int newX);
-	public void setY(int newY);
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/oval.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.OVAL_PATTERN)
-public interface Oval extends BoxDefinedShape {}
-//END OF FILE
-//START OF FILE: src/grail/graphics/point.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.POINT_PATTERN)
-public interface Point extends Locatable {
-	public double getAngle();
-	public double getRadius();
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/rectangle.java
-package grail.graphics;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
-public interface Rectangle extends BoxDefinedShape {}
 //END OF FILE
 //START OF FILE: src/grail/graphics/rotatingline.java
 package grail.graphics;
 
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
+@Tags({"RotatingLine"})
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
-public interface RotatingLine extends Line {
-	public void rotate(int amount);
-	public void setAngle(double newAngle);
-	public void setRadius(double newRadius);
-	public void moveTopLeft(int newX, int newY);
-	public void move(int newX, int newY);
+@PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
+@EditablePropertyNames({"X", "Y","Angle", "Radius"})
+public class RotatingLine implements RotatingLineInterface{
+
+	private static final double DEGREE_IN_RADIANS = Math.PI / 180;
+	private static final double DEFAULT_RADIUS = 100;
+	
+	private int x = 0;
+	private int y = 0;
+	private double radius = DEFAULT_RADIUS;
+	private double angle = 0;
+	
+	public RotatingLine(){
+		// Keep default values
+	}
+	
+	public RotatingLine(int xPos, int yPos, double r, double theta){
+		x = xPos;
+		y = yPos;
+		radius = r;
+		angle = theta;
+	}
+	
+	@Override
+	public int getX() {
+		return x;
+	}
+	
+	@Override
+	public void setX(int newX) {
+		x = newX;
+	}
+
+	@Override
+	public int getY() {
+		return y;
+	}
+	
+	@Override
+	public void setY(int newY) {
+		y = newY;
+	}
+	
+	@Override
+	public int getHeight() {
+		return (int)(radius*Math.sin(angle));
+	}
+
+	@Override
+	public int getWidth() {
+		return (int)(radius*Math.cos(angle));
+	}
+
+	@Override
+	public void setRadius(double r) {
+		radius = r;
+	}
+
+	@Override
+	public double getRadius() {
+		return radius;
+	}
+
+	@Override
+	public void setAngle(double theta) {
+		angle = theta;
+	}
+
+	@Override
+	public double getAngle() {
+		return angle;
+	}
+
+	@Override
+	@Tags({"rotate"})
+	public void rotateByClockwiseDegrees(int degrees) {
+		setAngle(getAngle() + (degrees * DEGREE_IN_RADIANS));
+	}
+
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/stringshape.java
 package grail.graphics;
 
+import grail.interfaces.StringShapeInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShape extends Locatable {
-	public void setString(String newText);
-	public String getString();
-	public String getText();
+@PropertyNames({"X", "Y", "Text"})
+@EditablePropertyNames({"X", "Y", "Text"})
+public class StringShape implements StringShapeInterface {
+
+	private int x;
+	private int y;
+	private String text;
+	
+	public StringShape(int xPos, int yPos, String text){
+		x = xPos;
+		y = yPos;
+		this.text = text;
+	}
+	
+	@Override
+	public void setX(int newX) {
+		x = newX;
+	}
+
+	@Override
+	public int getX() {
+		return x;
+	}
+
+	@Override
+	public void setY(int newY) {
+		y = newY;
+	}
+
+	@Override
+	public int getY() {
+		return y;
+	}
+
+	@Override
+	public void setText(String newString) {
+		text = newString;
+	}
+
+	@Override
+	public String getText() {
+		return text;
+	}
+
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/vshape.java
 package grail.graphics;
 
-import util.annotations.Tags;
+import grail.interfaces.RotatingLineInterface;
+import grail.interfaces.VShapeInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+import util.annotations.Visible;
 
-@Tags({"Angle"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public interface VShape extends Locatable {
-	public RotatingLine getLeftLine();
-	public RotatingLine getRightLine();
-	public void move(int newX, int newY);
+@Tags({"Angle"})
+@PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
+@EditablePropertyNames({"X", "Y", "LinesLength"})
+public class VShape implements VShapeInterface {
+
+	private int x;
+	private int y;
+	private RotatingLineInterface leftLine;
+	private RotatingLineInterface rightLine;
+	
+	private static final double DEFAULT_LINE_LENGTH = 80;
+	private static final double RIGHT_LINE_START_ANGLE = Math.PI/3;
+	private static final double LEFT_LINE_START_ANGLE = 2*Math.PI/3;
+	
+	/**
+	 * The only required constructor.
+	 */
+	public VShape(){
+		rightLine = new RotatingLine(0, 0, DEFAULT_LINE_LENGTH, RIGHT_LINE_START_ANGLE);
+		leftLine = new RotatingLine(0, 0, DEFAULT_LINE_LENGTH, LEFT_LINE_START_ANGLE);
+		
+		//Make the entire shape fit in the leftmost corner 
+		move(0 + Math.abs(leftLine.getWidth()), 0);
+	}
+	
+	public VShape(int xPos, int yPos, double lineLengths){
+		rightLine = new RotatingLine(xPos,yPos, lineLengths, RIGHT_LINE_START_ANGLE);
+		leftLine = new RotatingLine(xPos,yPos, lineLengths, LEFT_LINE_START_ANGLE);
+		x = xPos;
+		y = yPos;
+	}
+	
+	@Visible(false)
+	@Override
+	public void setX(int newX) {
+		leftLine.setX(newX);
+		rightLine.setX(newX);
+		x = newX;
+	}
+
+	@Visible(false)
+	@Override
+	public int getX() {
+		return x;
+	}
+
+	@Visible(false)
+	@Override
+	public void setY(int newY) {
+		leftLine.setY(newY);
+		rightLine.setY(newY);
+		y = newY;
+	}
+
+	@Visible(false)
+	@Override
+	public int getY() {
+		return y;
+	}
+
+	@Override
+	public RotatingLineInterface getLeftLine() {
+		return leftLine;
+	}
+
+	@Override
+	public RotatingLineInterface getRightLine() {
+		return rightLine;
+	}
+
+	@Override
+	public void move(int changeInX, int changeInY) {
+		setX(x + changeInX);
+		setY(y + changeInY);
+	}
+
+	/**
+	 * If line lengths differ, gives length of left line.
+	 */
+	@Override
+	@Visible(false)
+	public double getLinesLength() {
+		return leftLine.getRadius();
+	}
+
+	@Override
+	@Visible(false)
+	public void setLinesLength(double newLength) {
+		leftLine.setRadius(newLength);
+		rightLine.setRadius(newLength);
+	}
+
 }
 //END OF FILE
-//START OF FILE: src/grail/tokens/anumbertokenbean.java
-package grail.tokens;
+//START OF FILE: src/grail/interfaces/avatarinterface.java
+package grail.interfaces;
 
 import util.annotations.Tags;
+
+@Tags({"Avatar", "move"})
+public interface AvatarInterface {
+	
+	public void setX(int newX);
+	public int getX();
+
+	public void setY(int newY);
+	public int getY();
+	
+	public StringShapeInterface getStringShape();
+	
+	public ImageInterface getHead();
+	
+	public VShapeInterface getArms();
+	
+	public VShapeInterface getLegs();
+	
+	public RotatingLineInterface getTorso();
+	
+	public void move(int changeInX, int changeInY);
+	public void scale(double scalar);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/bridgesceneinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"BridgeScene"})
+public interface BridgeSceneInterface {
+	public AvatarInterface getArthur();
+	public AvatarInterface getLancelot();
+	public AvatarInterface getRobin();
+	public AvatarInterface getGalahad();
+	public AvatarInterface getGuard();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/imageinterface.java
+package grail.interfaces;
+
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
+
+@StructurePattern(StructurePatternNames.IMAGE_PATTERN)
+public interface ImageInterface {
+	
+	public void setX(int newX);
+	public int getX();
+
+	public void setY(int newY);
+	public int getY();
+	
+	public void setWidth(int newWidth);
+	public int getWidth();
+	
+	public void setHeight(int newHeight);
+	public int getHeight();
+	
+	public void setImageFileName(String imageFileName);
+	public String getImageFileName();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/number.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Number"})
+public interface Number extends Token {
+	public int getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/rotatinglineinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"RotatingLine", "rotate"})
+public interface RotatingLineInterface {
+	public int getHeight();
+	public int getWidth();
+	
+	public int getX();
+	public void setX(int x);
+	public int getY();
+	public void setY(int y);
+	public void setRadius(double r);
+	public double getRadius();
+	
+	public void setAngle(double theta);
+	public double getAngle();
+	
+	public void rotateByClockwiseDegrees(int degrees);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/scannerbeaninterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"ScannerBean"})
+public interface ScannerBeanInterface {
+	public String getScannedString();
+	public void setScannedString(String s);
+	public Token[] getTokens();
+	public String[] getErrors();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/stringshapeinterface.java
+package grail.interfaces;
+
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+
+@StructurePattern(StructurePatternNames.TEXT_PATTERN)
+public interface StringShapeInterface {
+	
+	public void setX(int newX);
+	public int getX();
+
+	public void setY(int newY);
+	public int getY();
+
+	public void setText(String newString);
+	public String getText();
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/token.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Token", "Number", "Word", "Quote", "Plus", "Minus", "Start", "End"})
+public interface Token {
+	
+	public void setInput(String newString);
+	public String getInput();
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/vshapeinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Angle", "move"})
+public interface VShapeInterface {
+	
+	public void setX(int newX);
+	public int getX();
+	
+	public void setY(int newY);
+	public int getY();
+	
+	public RotatingLineInterface getLeftLine();
+	public RotatingLineInterface getRightLine();
+	
+	public double getLinesLength();
+	public void setLinesLength(double newLength);
+	
+	@Tags({"move"})
+	public void move(int changeInX, int changeInY);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/word.java
+package grail.interfaces;
+import util.annotations.Tags;
+
+@Tags({"Word"})
+public interface Word extends Token {
+	public String getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/endtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"End"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class EndToken implements Token {
+
+	private String input;
+	
+	public EndToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/minustoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Minus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class MinusToken implements Token {
+
+	private String input;
+	
+	public MinusToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/numbertoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Number;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
 @Tags({"Number"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class ANumberTokenBean extends ATokenBean implements NumberTokenBean {
+public class NumberToken implements Number{
+	
+	private String input;
 	private int value;
 	
-	public ANumberTokenBean(String newInput) {
-		setInput(newInput);
+	public NumberToken(String input){
+		setInput(input);
 	}
 	
-	public void setInput(String newInput) {
-		super.setInput(newInput);
-		value = Integer.parseInt(newInput);
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = Integer.parseInt(newString);
 	}
-	
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+	@Override
 	public int getValue() {
 		return value;
 	}
 }
 //END OF FILE
-//START OF FILE: src/grail/tokens/atokenbean.java
-package grail.tokens;
+//START OF FILE: src/grail/tokenbeans/plustoken.java
+package grail.tokenBeans;
 
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
+import util.annotations.Tags;
 
+@Tags({"Plus"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
 @EditablePropertyNames({"Input"})
-public class ATokenBean implements TokenBean {
-	private String input;
+public class PlusToken implements Token {
 
-	public void setInput(String newInput) {
-		input = newInput;
+	private String input;
+	
+	public PlusToken(String input){
+		setInput(input);
 	}
 	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
 	public String getInput() {
 		return input;
 	}
+
 }
 //END OF FILE
-//START OF FILE: src/grail/tokens/awordtokenbean.java
-package grail.tokens;
+//START OF FILE: src/grail/tokenbeans/quotetoken.java
+package grail.tokenBeans;
 
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
+
+@Tags({"Quote"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class QuoteToken implements Token{
+
+	private String input;
+	
+	public QuoteToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/starttoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Start"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class StartToken implements Token{
+
+	private String input;
+	
+	public StartToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/wordtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Word;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
 @Tags({"Word"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class AWordTokenBean extends ATokenBean implements WordTokenBean {
+public class WordToken implements Word{
+
+	private String input;
 	private String value;
 	
-	public AWordTokenBean(String newWordToken) {
-		setInput(newWordToken);
+	public WordToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = newString.toLowerCase();
 	}
 
-	public void setInput(String newToken) {
-		super.setInput(newToken);
-		value = newToken.toLowerCase();
+	@Override
+	public String getInput() {
+		return input;
 	}
 
+	@Override
 	public String getValue() {
 		return value;
 	}
+
 }
 //END OF FILE
-//START OF FILE: src/grail/tokens/approachcommand.java
-package grail.tokens;
+//START OF FILE: src/main/assignment5.java
+package main;
 
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import grail.graphics.BridgeScene;
+import grail.interfaces.BridgeSceneInterface;
+import util.misc.ThreadSupport;
 
-@Tags({"approach"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class ApproachCommand extends AWordTokenBean {
+public class Assignment5 {
 	
-	public ApproachCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/callcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"call"})
-public class CallCommand extends AWordTokenBean {
-
-	public CallCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/definecommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"define"})
-public class DefineCommand extends AWordTokenBean {
+	private static final int DEGREES_ROTATE_PER_FRAME = 3;
+	private static final int LEG_ROTATION_SPAN = 10;
+	private static final int ARM_ROTATION_SPAN = 90;
+	private static final int NUM_FRAMES = 200;
+	private static final int TIME_BETWEEN_UPDATES = 20;
 	
-	public DefineCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/endtokenbean.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@Tags({"End"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
-@EditablePropertyNames({"Input"})
-
-public class EndTokenBean extends ATokenBean {
+	private static final double GROWTH_SCALAR_PER_FRAME = 1.01;
 	
-	public EndTokenBean(char newInput) {
-		String charToString = "" + newInput;
-		setInput(charToString);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/minustokenbean.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@Tags({"Minus"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
-@EditablePropertyNames({"Input"})
-
-public class MinusTokenBean extends ATokenBean {
+	private static final int HORIZONTAL_MOVEMENT_PER_FRAME = 5;
+	private static final int VERTICAL_MOVEMENT_PER_FRAME = 2;
 	
-	public MinusTokenBean (char newInput) {
-		String charToString = "" + newInput;
-		setInput(charToString);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/movecommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"move"})
-public class MoveCommand extends AWordTokenBean {
 	
-	public MoveCommand (String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/numbertokenbean.java
-package grail.tokens;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public interface NumberTokenBean extends TokenBean {
-	int getValue();
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/plustokenbean.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@Tags({"Plus"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
-@EditablePropertyNames({"Input"})
-
-public class PlusTokenBean extends ATokenBean {
-	
-	public PlusTokenBean(char newInput) {
-		String charToString = "" + newInput;
-		setInput(charToString);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/proceedcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"proceedAll"})
-public class ProceedCommand extends AWordTokenBean {
-
-	public ProceedCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/quotetokenbean.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@Tags({"Quote"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
-@EditablePropertyNames({"Input"})
-public class QuoteTokenBean extends ATokenBean {
-	
-	public QuoteTokenBean(String newInput) {
-		setInput(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/redocommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"redo"})
-public class RedoCommand extends AWordTokenBean {
-
-	public RedoCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/repeatcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"repeat"})
-public class RepeatCommand extends AWordTokenBean {
-
-	public RepeatCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/rotateleftarmcommand.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.PropertyNames;
-import util.annotations.EditablePropertyNames;
-
-@Tags({"rotateLeftArm"})
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public class RotateLeftArmCommand extends AWordTokenBean {
-	
-	public RotateLeftArmCommand(String newInput) {
-		super(newInput);
-	}
-}
- 
-//END OF FILE
-//START OF FILE: src/grail/tokens/rotaterightarmcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"rotateRightArm"})
-public class RotateRightArmCommand extends AWordTokenBean {
-	
-	public RotateRightArmCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/saycommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"say"})
-public class SayCommand extends AWordTokenBean {
-	
-	public SayCommand (String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/sleepcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"sleep"})
-public class SleepCommand extends AWordTokenBean {
-
-	public SleepCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/starttokenbean.java
-package grail.tokens;
-
-import util.annotations.Tags;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@Tags({"Start"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input"})
-@EditablePropertyNames({"Input"})
-public class StartTokenBean extends ATokenBean {
-
-	public StartTokenBean(char newInput) {
-		String charToString = "" + newInput;
-		setInput(charToString);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/threadcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"thread"})
-public class ThreadCommand extends AWordTokenBean {
-
-	public ThreadCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/tokenbean.java
-package grail.tokens;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public interface TokenBean {
-	public String getInput();
-	public void setInput(String newInput);
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/undocommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"undo"})
-public class UndoCommand extends AWordTokenBean {
-
-	public UndoCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/waitcommand.java
-package grail.tokens;
-
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-@Tags({"wait"})
-public class WaitCommand extends AWordTokenBean {
-
-	public WaitCommand(String newInput) {
-		super(newInput);
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/tokens/wordtokenbean.java
-package grail.tokens;
-
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-public interface WordTokenBean extends TokenBean {
-	String getValue();
-}
-//END OF FILE
-//START OF FILE: src/grail/util/commandfinder.java
-/** @author Ian Hoyt-McCullough
- *  @version 9/10/2015
- */
-
-package grail.util;
-
-import grail.tokens.MoveCommand;
-import grail.tokens.ApproachCommand;
-import grail.tokens.SayCommand;
-import grail.tokens.CallCommand;
-import grail.tokens.DefineCommand;
-import grail.tokens.ProceedCommand;
-import grail.tokens.RepeatCommand;
-import grail.tokens.RotateLeftArmCommand;
-import grail.tokens.RotateRightArmCommand;
-import grail.tokens.SleepCommand;
-import grail.tokens.ThreadCommand;
-import grail.tokens.WaitCommand;
-import grail.tokens.UndoCommand;
-import grail.tokens.RedoCommand;
-import grail.tokens.WordTokenBean;
-import grail.tokens.AWordTokenBean;
-
-public class CommandFinder {
-	
-	public static WordTokenBean findCommand(String newWord) {
-		String test = newWord.toLowerCase();
-		switch(test) {
-			case "move":
-				return new MoveCommand(test);
-			case "say":
-				return new SayCommand(test);
-			case "call":
-				return new CallCommand(test);
-			case "define":
-				return new DefineCommand(test);
-			case "proceed":
-				return new ProceedCommand(test);
-			case "repeat":
-				return new RepeatCommand(test);
-			case "rotateleftarm":
-				return new RotateLeftArmCommand(test);
-			case "rotaterightarm":
-				return new RotateRightArmCommand(test);
-			case "sleep":
-				return new SleepCommand(test);
-			case "thread":
-				return new ThreadCommand(test);
-			case "wait":
-				return new WaitCommand(test);
-			case "undo":
-				return new UndoCommand(test);
-			case "redo":
-				return new RedoCommand(test);
-			case "approach":
-				return new ApproachCommand(test);
-			default:
-				return new AWordTokenBean(test);
+	public static void main(String[] args) {
+		
+		BridgeSceneInterface scene = new BridgeScene();
+		OEFrame oeFrame = ObjectEditor.edit(scene);
+		
+		// Make guard speak
+		scene.getGuard().getStringShape().setText("AAAAH!");
+		
+		
+		// This part is a little overboard, but I made the character wave and run
+		// This requires keeping track of how much his arms and legs have moved
+		int armDegreesRotated = 0;
+		int legDegreesRotated = 0;
+		
+		for (int i = 0; i < NUM_FRAMES; ++i){
+			ThreadSupport.sleep(TIME_BETWEEN_UPDATES);
+			oeFrame.refresh();
+			
+			// Each frame, move the guard
+			scene.getGuard().move(-HORIZONTAL_MOVEMENT_PER_FRAME, VERTICAL_MOVEMENT_PER_FRAME);
+			
+			// Each frame, grow the guard
+			scene.getGuard().scale(GROWTH_SCALAR_PER_FRAME);
+			
+			// First ARM_ROTATION_SPAN degrees, move one way, then the other, then switch again
+			if ((int)(armDegreesRotated/ARM_ROTATION_SPAN) % 2 == 0){
+				scene.getGuard().getArms().getRightLine()
+					.rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getArms().getLeftLine()
+					.rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+			} else {
+				scene.getGuard().getArms().getRightLine()
+					.rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getArms().getLeftLine()
+					.rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+			}
+			armDegreesRotated += DEGREES_ROTATE_PER_FRAME;
+			
+			// Do same thing for legs
+			if ((int)(legDegreesRotated/LEG_ROTATION_SPAN) % 2 == 0){
+				scene.getGuard().getLegs().getRightLine()
+					.rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getLegs().getLeftLine()
+					.rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+			} else {
+				scene.getGuard().getLegs().getRightLine()
+					.rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getLegs().getLeftLine()
+					.rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+			}
+			legDegreesRotated += DEGREES_ROTATE_PER_FRAME;
 		}
-	}
-}
+		
+	}//end main
+}//end class
 //END OF FILE
-//START OF FILE: src/grail/util/scannerbean.java
-package grail.util;
+//START OF FILE: src/mp/scanner/scanningiterator.java
+package mp.scanner;
 
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-import grail.tokens.MoveCommand;
-import grail.tokens.ApproachCommand;
-import grail.tokens.SayCommand;
-import grail.tokens.CallCommand;
-import grail.tokens.DefineCommand;
-import grail.tokens.ProceedCommand;
-import grail.tokens.RepeatCommand;
-import grail.tokens.RotateLeftArmCommand;
-import grail.tokens.RotateRightArmCommand;
-import grail.tokens.SleepCommand;
-import grail.tokens.ThreadCommand;
-import grail.tokens.WaitCommand;
-import grail.tokens.UndoCommand;
-import grail.tokens.RedoCommand;
-import grail.tokens.WordTokenBean;
-import grail.tokens.AWordTokenBean;
-import grail.tokens.ANumberTokenBean;
-import grail.tokens.ATokenBean;
-import grail.tokens.NumberTokenBean;
-import grail.tokens.EndTokenBean;
-import grail.tokens.StartTokenBean;
-import grail.tokens.QuoteTokenBean;
-import grail.tokens.TokenBean;
-import grail.tokens.PlusTokenBean;
-import grail.tokens.MinusTokenBean;
+import java.util.Iterator;
 
+public class ScanningIterator implements Iterator<String>{
 
-@SuppressWarnings("unused")
-@Tags({"ScannerBean"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"ScannedString", "Tokens"})
-@EditablePropertyNames({"ScannedString"})
-
-public class ScannerBean implements StringScanner {
-	private String scannedString;
-	private TokenBean[] tokens;
-	private TokenBean[] tempTokenStorage;
+	private String stringData;
+	private int position = 0;
 	
-	public void setScannedString(String newScannedString) {
-		scannedString = newScannedString;
-		tempTokenStorage = new TokenBean[scannedString.length()];
-		int numTokens = scanString();
-		copyTokens(numTokens);
-		tempTokenStorage = null;
-	}
-	
-	public String getScannedString() {
-		return scannedString;
-	}
-	
-	public TokenBean[] getTokens() {
-		return tokens;
+	/**
+	 * Constructor
+	 * @param s string to iterate over
+	 */
+	public ScanningIterator(String s){
+		stringData = s;
 	}
 
 	/**
-	 * scanString tests the Scanned String property one char at a time and creates
-	 * tokens for each number, word, quote, +, -, {, and } encountered in the
-	 * string.
-	 * @return Returns number of tokens encountered.
+	 * Checks whether there is another token to be had
 	 */
-	public int scanString() {
-		int index = 0;
-		int arrayIndex = 0;
-		while (index < scannedString.length()) {
-			char currentChar = scannedString.charAt(index);
-			if (currentChar == '+') {
-				tempTokenStorage[arrayIndex] = new PlusTokenBean(currentChar);
-				arrayIndex++;
-				index++;
+	@Override
+	public boolean hasNext() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			position = stringData.length();
+		}
+		return (position < stringData.length());
+	}
+
+	/**
+	 * Gets the next token
+	 */
+	@Override
+	public String next() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			
+			// Rest of string was spaces
+			position = stringData.length();
+			return "";
+		}
+		
+		// Get token
+		int tokenStart = position;
+		int tokenEnd = position;
+		
+		// Treat quoted strings differently
+		if (stringData.charAt(tokenStart) == '\"'){
+			
+			// Look for the closing quote after this quote
+			tokenEnd = indexOf(stringData, '\"', tokenStart + 1);
+			
+			if (tokenEnd == -1){
+				System.out.println("ERROR: No closing quote found. Assumed line end to be closing quote.");
+				tokenEnd = stringData.length();
+				position = tokenEnd;
+				return stringData.substring(tokenStart, tokenEnd)+ "\"";
+			
+			// If closing quote exists, make sure it is grabbed
+			} else {
+				++tokenEnd;
 			}
-			else if (currentChar == '-') {
-				tempTokenStorage[arrayIndex] = new MinusTokenBean(currentChar);
-				arrayIndex++;
-				index++;
-			}
-			else if (currentChar == '{') {
-				tempTokenStorage[arrayIndex] = new StartTokenBean(currentChar);
-				arrayIndex++;
-				index++;
-			}
-			else if (currentChar == '}') {
-				tempTokenStorage[arrayIndex] = new EndTokenBean(currentChar);
-				arrayIndex++;
-				index++;
-			}
-			else if (Character.isDigit(currentChar)) {
-				int endIndex = getNumLength(scannedString, index);  
-				tempTokenStorage[arrayIndex] = 
-						new ANumberTokenBean(scannedString.substring(index, endIndex));
-				arrayIndex++;
-				index = endIndex;
-			}
-			else if (isLetter(currentChar)) {
-				int endIndex = getWordLength(scannedString, index); 
-				tempTokenStorage[arrayIndex] = 
-						CommandFinder.findCommand(scannedString.substring(index, endIndex));
-				arrayIndex++;
-				index = endIndex;
-			}
-			else if (currentChar == '"') {
-				int endIndex = getQuoteLength(scannedString, index); 
-				if (endIndex == -1) { //Indicates error condition
-					System.out.println("Error: Missing closing quotation marks.");
-					index = scannedString.length(); //skips index to end
-				}
-				else { 
-					tempTokenStorage[arrayIndex] = 
-							new QuoteTokenBean(scannedString.substring(index + 1, endIndex));
-					arrayIndex++;
-					index = endIndex + 1;
-				} 
-			}
-			else {
-				index++;
-			}
-		} 
-		return arrayIndex;
+			
+		// If not a quoted string, end of token is a space or line end	
+		} else {
+			tokenEnd = indexOf(stringData, ' ', tokenStart);
+		}
+			
+		if (tokenEnd == -1){
+			tokenEnd = stringData.length();
+		}
+		
+		position = tokenEnd;
+		
+		return stringData.substring(tokenStart, tokenEnd);
 	}
 	
-	private static int getNumLength(String input, int startIndex) {
-		int endIndex = startIndex + 1;
-		while (endIndex < input.length() && 
-				Character.isDigit(input.charAt(endIndex))) {
-			endIndex++;
+	/**
+	 * Returns index of first character equal to ch
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first ocurrence of ch after fromIndex, or -1 if not found
+	 */
+	private static int indexOf(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)==ch){
+				return i;
+			}
 		}
-		return endIndex;
+		return -1;
 	}
-	
-	private static int getWordLength(String input, int startIndex) {
-		int endIndex = startIndex + 1;
-		while (endIndex < input.length() && 
-				isLetter(input.charAt(endIndex))) {
-			endIndex++;
-		}  
-		return endIndex;
-	}
-	
-	private static int getQuoteLength(String input, int startIndex) {
-		int endIndex = startIndex + 1;
-		while (endIndex < input.length() && 
-				input.charAt(endIndex) != '"') {
-			endIndex++;
+
+	/**
+	 * Returns index of first character not equal to ch
+	 * 
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first character that is not ch after fromIndex, or -1 if no non-ch characters found
+	 */
+	private static int indexOfNot(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)!=ch){
+				return i;
+			}
 		}
-		if (endIndex >= input.length()) { 			//Error condition - reaches end of string 
-			return -1;                   			//before second quotation mark 
-		}
-		return endIndex;
+		return -1;
 	}
-	
-	private static boolean isLetter(char currentChar) {
-		if (currentChar >= 'A' && currentChar <= 'Z' ||
-				currentChar >= 'a' && currentChar <= 'z') {
-			return true;
-		}
-		return false;
-	}
-	private void copyTokens(int arraySize) { 
-		tokens = new TokenBean[arraySize];
-		for (int index = 0; index <= arraySize - 1; index++) {
-			tokens[index] = tempTokenStorage[index];
-		}
-	}
-}
-//END OF FILE
-//START OF FILE: src/grail/util/stringscanner.java
-/**
- * @author Ian Hoyt-McCullough
- * @version 9/10/2015
- */
 
-package grail.util;
-
-import grail.tokens.TokenBean;
-
-public interface StringScanner {
-	void setScannedString(String newInput);
-	String getScannedString();
-	int scanString();
-	TokenBean[] getTokens();
-}
-//END OF FILE
-//START OF FILE: src/main/assignment6.java
-package main;
-
-import bus.uigen.ObjectEditor;
-import util.misc.ThreadSupport;
-import bus.uigen.OEFrame;
-import grail.graphics.BridgeScene;
-import grail.graphics.ABridgeScene;
-
-public class Assignment6 {
-	public static final int DEFAULT_SCREEN_SIZE_X = 1600;
-	public static final int DEFAULT_SCREEN_SIZE_Y = 1000;
-	public static final int DEFAULT_SLEEP_TIME = 2500;
-	
-	public static void main(String[] args) {
-		BridgeScene test = new ABridgeScene();
-		OEFrame editor = ObjectEditor.edit(test);
-		editor.showDrawPanel();
-		editor.hideMainPanel();
-		editor.setSize(DEFAULT_SCREEN_SIZE_X, DEFAULT_SCREEN_SIZE_Y);
-		editor.setLocation(0, 0);
-		ThreadSupport.sleep(DEFAULT_SLEEP_TIME);
-		test.approach(test.getRobin());
-		editor.refresh();
-		ThreadSupport.sleep(DEFAULT_SLEEP_TIME);
-		test.failed();
-		editor.refresh();
-		ThreadSupport.sleep(DEFAULT_SLEEP_TIME);
-		test.passed();
-		editor.refresh();
-		ThreadSupport.sleep(DEFAULT_SLEEP_TIME);
-	}
 }
 //END OF FILE
