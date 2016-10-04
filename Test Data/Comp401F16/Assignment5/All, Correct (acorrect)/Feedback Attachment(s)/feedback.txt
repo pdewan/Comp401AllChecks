@@ -2,46 +2,93 @@ Grading result for: All, Correct (acorrect)
 
 Grading features...
 ----------------------------------
-Angle Bean                                             6.0 /  6.0
-Avatar Bean                                            11.3 / 15.0
-Bridge Scene Bean                                      10.0 / 10.0
-Angle connection                                       0.0 /  7.0
-Angle move                                             0.0 /  7.0
-Avatar connection                                      0.0 / 15.0
-Avatar move                                            0.0 / 15.0
-Bridge Scene Display Constraints                       0.0 /  5.0
-Scene  Demo                                            0.0 / 10.0
-Avatar Move Demo                                       0.0 / 10.0
-Avatar Scale Method                                    0.5 /  2.0 (Extra credit)
-Avatar scale demo                                      0.0 /  6.0 (Extra credit)
-Rotate arm demo                                        0.0 /  7.0 (Extra credit)
+AngleMoveSuite                                         0.0 / 20.0
+BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
+BridgeSceneComponentMoveSuite                          0.0 / 40.0
+BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Move methods defined in Angle and Avatar               10.0 / 10.0
+Sleep called in animation                              2.0 /  2.0
+Scale method defined in avatar                         10.0 / 10.0
+Proper classes instantiated within each other          6.0 /  6.0
+Required constructors defined for graphical classes    6.0 /  9.0
+Graphical classes have proper properties defined       0.0 / 33.0
+Elements in animation are properly connected.          0.0 / 10.0
+Animation shows proper use of move function.           0.0 / 10.0
+Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
+Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 27.8
+  Points Awarded: 44.0
 
 Grading restrictions...
 ----------------------------------
-Class has interface check                   0.0 /  -5.0
-Variable has class type                     0.0 /  -5.0
-Single main.Assignment                      0.0 /  -10.0
-Classes Tagged                              0.0 /  -9.0
-No image files.                             -5.0 /  -5.0
-No public variables.                        0.0 /  -5.0
-No System.exit()                            0.0 /  -5.0
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
 Interactive Run                             -5.0 /  -5.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 17.8
+  Features Score: 34.0
 
 Notes from grading features:
 ----------------------------------
-Avatar Bean:
-  -- 'getHead' method(s) found ([public grail.ImageShape grail.Avatar.getHead()]), but without proper return type '(Image Pattern)' in class 'Avatar'
-  -- Can't find 'getBody' method in class 'Avatar'
+AngleMoveSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
-Avatar Scale Method:
-  -- 'scale' method(s) found ([public void grail.Avatar.scale(int)]), but without proper return type '('void')' nor parameters (('double'), ('double')) in class 'Avatar'
+BridgeSceneArthurScaleHeadTestCase:
+  -- Method matching scale not found in class: class grail.Avatar
+
+BridgeSceneComponentMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- java.lang.NullPointerException null
+  -- Method matching getStringShape not found in class: class grail.Avatar
+
+BridgeSceneComponentScaleSuite:
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+
+Required constructors defined for graphical classes:
+  -- expectedConstructors: (Avatar.java:4) In type Avatar, missing constructor: :@IMAGE_PATTERN
+
+
+Graphical classes have proper properties defined:
+  -- expectedGetters: (VShape.java:1) In type VShape, missing getter for property LeftLine of type @LINE_PATTERN
+
+  -- expectedGetters: (VShape.java:1) In type VShape, missing getter for property RightLine of type @LINE_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Text of type @STRING_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Head of type @IMAGE_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Arms of type @Angle
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Legs of type @Angle
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Arthur of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Galahad of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Lancelot of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Robin of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Guard of type @Avatar
+
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- No project run interactively
 
 
 Early benefit: 105.0%
-  Total Score: 18.900000000000002
+  Total Score: 35.7

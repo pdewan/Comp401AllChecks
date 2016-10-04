@@ -1,6 +1,12 @@
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
+  -- expectedConstructors: (MoveCommand.java:11) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:11) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:11) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:11) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:11) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:11) In type FailCommand, missing constructor: :String
+

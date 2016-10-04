@@ -1,18 +1,18 @@
 Assignment 1,Points,,,
 ,,,,
 Display ID,ID,Last Name,First Name,grade
-acorrect,acorrect,All,Correct,63.0
-ecredit,ecredit,Extra,Credit,64.05
-mmany,mmany,Mistakes,Many,0.0
-tstudent,tstudent,Test,Student,0.0
-tstudent0,tstudent0,Test0,Student,91.35000000000001
-tstudent1,tstudent1,Test1,Student,101.85000000000001
-tstudent2,tstudent2,Test2,Student,98.7
-tstudent3,tstudent3,Test3,Student,59.85
-tstudent4,tstudent4,Test4,Student,101.85000000000001
-tstudent5,tstudent5,Test5,Student,101.85000000000001
-tstudent6,tstudent6,Test6,Student,86.10000000000001
-tstudent7,tstudent7,Test7,Student,101.85000000000001
+acorrect,acorrect,All,Correct,86.10000000000001
+ecredit,ecredit,Extra,Credit,86.10000000000001
+mmany,mmany,Mistakes,Many,31.5
+tstudent,tstudent,Test,Student,31.5
+tstudent0,tstudent0,Test0,Student,151.20000000000002
+tstudent1,tstudent1,Test1,Student,117.6
+tstudent2,tstudent2,Test2,Student,85.05
+tstudent3,tstudent3,Test3,Student,90.3
+tstudent4,tstudent4,Test4,Student,117.6
+tstudent5,tstudent5,Test5,Student,117.6
+tstudent6,tstudent6,Test6,Student,98.7
+tstudent7,tstudent7,Test7,Student,117.6
 skeleton,skeleton,Correct,Skeleton,154.35
-stubs,stubs,Correct,Stub,154.35
-previous,previous,Previous,Assignment,154.35
+stubs,stubs,Correct,Stub,84.0
+previous,previous,Previous,Assignment,33.6

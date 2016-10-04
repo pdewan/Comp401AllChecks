@@ -3,23 +3,24 @@ Grading result for: Test0, Student(tstudent0)
 Grading features...
 ----------------------------------
 CommandSuite                                           15.0 / 15.0
-TokenArraySuite                                        40.0 / 40.0
+TokenArraySuite                                        0.0 / 40.0
+ExtraCommandSuite                                      10.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                16.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required command token classes instantiated            0.0 / 12.0
-Single parameter constructors defined for command tokens 0.0 /  6.0
-Properties defined for command token classes           0.0 / 18.0
-ScannerBean has Tokens property                        0.0 / 15.0
-Sleep called in animation                              0.0 /  4.0
-ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
-Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       0.0 / 10.0 (Extra credit)
-RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 6.0 /  6.0
+Properties defined for command token classes           18.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              4.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       10.0 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 97.0
+  Points Awarded: 154.0
 
 Grading restrictions...
 ----------------------------------
@@ -29,19 +30,23 @@ Interactive Run                             -5.0 /  -5.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 87.0
+  Features Score: 144.0
 
 Notes from grading features:
 ----------------------------------
 TokenArraySuite:
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment4\Test0, Student(tstudent0)\Submission attachment(s)\Assignment4Final\Assignment4Final\src\main\Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
+
 
 
 Notes from grading restrictions:
@@ -51,4 +56,4 @@ Illegal import or call:
 
 
 Early benefit: 105.0%
-  Total Score: 91.35000000000001
+  Total Score: 151.20000000000002

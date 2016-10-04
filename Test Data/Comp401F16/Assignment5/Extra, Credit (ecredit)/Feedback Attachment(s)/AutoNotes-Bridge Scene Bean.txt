@@ -1,5 +1,0 @@
-  -- Can't find 'BridgeScene' class
-  -- Can't find 'BridgeScene' class
-  -- Can't find 'BridgeScene' class
-  -- Can't find 'BridgeScene' class
-  -- Can't find 'BridgeScene' class

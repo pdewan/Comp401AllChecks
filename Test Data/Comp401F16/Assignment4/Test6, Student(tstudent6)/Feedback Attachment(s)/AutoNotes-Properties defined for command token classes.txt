@@ -1,18 +1,6 @@
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
+  -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Value of type String
+

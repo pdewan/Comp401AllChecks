@@ -1,76 +1,122 @@
-Grading result for: Test4, Student(tstudent4)
+Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
-PlusBeanTest                                           5.0 /  5.0
-EndBeanTest                                            5.0 /  5.0
-StartBeanTest                                          5.0 /  5.0
-MultipleSignTokenOutputTest:Multiple Signs Output      0.0 /  5.0 (Extra credit)
-MultipleNumberTokenOutputTest:Multiple Numbers Output  0.0 / 10.0
-MultipleQuoteTokenOutputTest:Multiple Quotes Output    0.0 / 10.0
-MinusBeanTest                                          5.0 /  5.0
-MultipleWordTokenOutputTest:Multiple Words Output      0.0 / 10.0
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 0.0 / 10.0
-QuoteBeanTest                                          5.0 /  5.0
-WordBeanTest                                           7.0 / 10.0
-NumberBeanTest                                         7.0 / 10.0
-getInput and getValue are called in scannerBean        10.0 / 10.0
+CommandSuite                                           3.0 / 15.0
+TokenArraySuite                                        0.0 / 40.0
+ExtraCommandSuite                                      2.0 / 10.0 (Extra credit)
+MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required token classes instantiated                    15.0 / 15.0
-Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
-Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
-Screenshots enclosed                                   0.0 / 10.0
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           18.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              0.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       8.3 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 147.0
+  Points Awarded: 90.3
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
-Illegal import or call                      0.0 /  -25.0
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Interactive Run                             -5.0 /  -5.0
 ----------------------------------
-  Points Deducted: 0.0
+  Points Deducted: -10.0
 
-  Features Score: 147.0
+  Features Score: 80.3
 
 Notes from grading features:
 ----------------------------------
-MultipleSignTokenOutputTest:Multiple Signs Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+CommandSuite:
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+ExtraCommandSuite:
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+
+MovingRotatingLineSuite:
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight -4
+
+FixedRotatingLineSuite:
+  -- In: grail.graphics.RotatingLine@7c041b41 computedWidth 0 != correctWidth 5
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 5
+  -- In: grail.graphics.RotatingLine@7c041b41 computedWidth 0 != correctWidth -5
+
+Single parameter constructors defined for command tokens:
+  -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:10) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:10) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:10) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:10) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:10) In type FailCommand, missing constructor: :String
 
 
-MultipleNumberTokenOutputTest:Multiple Numbers Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+Sleep called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+Extra credit constructors and properties defined:
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
 
 
-MultipleQuoteTokenOutputTest:Multiple Quotes Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- main.Assignment4 not found by checkstyle
 
 
-MultipleWordTokenOutputTest:Multiple Words Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-WordBeanTest:
-  -- One or more dependent properties is erroneous
-
-NumberBeanTest:
-  -- One or more dependent properties is erroneous
-
-Screenshots enclosed:
-  -- Missing images
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- No project run interactively
 
 
 Early benefit: 105.0%
-  Total Score: 154.35
+  Total Score: 84.0

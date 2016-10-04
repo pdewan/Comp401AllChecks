@@ -1,0 +1,5 @@
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar

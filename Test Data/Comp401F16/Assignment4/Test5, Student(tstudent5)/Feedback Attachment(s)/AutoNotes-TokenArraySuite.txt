@@ -1,8 +1,8 @@
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
-  -- Size of array not correctTokens from different scanned strings combined
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array

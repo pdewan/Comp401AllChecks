@@ -1,0 +1,14 @@
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+

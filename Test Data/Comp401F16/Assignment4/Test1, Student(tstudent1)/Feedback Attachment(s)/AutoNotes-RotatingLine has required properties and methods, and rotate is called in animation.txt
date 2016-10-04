@@ -1,4 +1,2 @@
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- main.Assignment4 not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment4\Test1, Student(tstudent1)\Submission attachment(s)\Assignment4ImproperArrays\Assignment4ImproperArrays\src\main\Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
+

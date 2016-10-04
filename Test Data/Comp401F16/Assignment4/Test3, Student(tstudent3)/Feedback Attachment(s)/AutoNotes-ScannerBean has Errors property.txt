@@ -1,1 +1,2 @@
-  -- ScannerBean not found by checkstyle
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Errors of type *//EC
+

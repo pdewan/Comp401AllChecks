@@ -1,3 +1,0 @@
-  -- Can't find 'Angle' class
-  -- Can't find 'Angle' class
-  -- Can't find 'Angle' class

@@ -1,0 +1,48 @@
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedTypes,[main.Assignment4, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC]
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,typeDefined,AScannerBean,@ScannerBean,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedGetters,AScannerBean,Tokens,.*\[\]
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedGetters,AScannerBean,Errors,*//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,scanString:String->*,AScannerBean
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOf:String;char;int->int,AScannerBean
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,expectedDeclaredSignatures,AScannerBean,indexOfNot:String;char;int->int//EC,AScannerBean
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,missingMethodCall,AScannerBean,       scanString:String->void 
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,missingMethodCall,AScannerBean,       indexOf:String;char;int->int 
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\AScannerBean.java,missingMethodCall,AScannerBean,       indexOfNot:String;char;int->int//EC 
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\Assignment3.java,classHasAtLeastOneInterface,Assignment3,main.Assignment3
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,typeDefined,ATokenScanner,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Number
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Word
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Quote
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Start
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@End
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Plus//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Minus//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Move
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Pass
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Approach
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Fail
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Say
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@RotateLeftArm//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@RotateRightArm//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Repeat//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Define//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Call//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Thread//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Wait//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@ProceedAll//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Sleep//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Undo//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ATokenScanner.java,expectedClassInstantiations,AScannerBean,main.AScannerBean,@Redo//EC
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\EndToken.java,typeDefined,EndToken,@End,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\IntValueToken.java,typeDefined,IntValueToken,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\MinusToken.java,typeDefined,MinusToken,@Minus//EC,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\NumberToken.java,typeDefined,NumberToken,@Number,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\PlusToken.java,typeDefined,PlusToken,@Plus//EC,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\QuoteToken.java,typeDefined,QuoteToken,@Quote,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\ScannerBean.java,typeDefined,ScannerBean,@ScannerBean,Interface
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\StartToken.java,typeDefined,StartToken,@Start,Class
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\StringValueToken.java,typeDefined,StringValueToken,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\Token.java,typeDefined,Token,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\TokenScanner.java,typeDefined,TokenScanner,No Expected Tag
+0,Tue Oct 04 01:19:36 EDT 2016,true,main\WordToken.java,typeDefined,WordToken,@Word,Class
