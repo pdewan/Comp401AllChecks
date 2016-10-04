@@ -4,5 +4,3 @@ Comp401f16:Assignment1 TOTAL:169.05 FEATURES:161.0 MULTIPLIER:1.05 MANUAL:0:3:0 
 --------------------------------------------------------------------------------------------------
 Comp401f16:Assignment3 TOTAL:175.35 FEATURES:167.0 MULTIPLIER:1.05 MANUAL:0:48:49 SECTIONS:[source, source_open] GRADER:dewan
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment4 TOTAL:93.45 FEATURES:89.0 MULTIPLIER:1.05 AUTO:0:0:6 GRADER:Dewan
---------------------------------------------------------------------------------------------------

@@ -3,7 +3,7 @@ Grading result for: Extra, Credit (ecredit)
 Grading features...
 ----------------------------------
 CommandSuite                                           6.0 / 15.0
-TokenArraySuite                                        0.0 / 40.0
+TokenArraySuite                                        25.5 / 40.0
 ExtraCommandSuite                                      10.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
@@ -20,7 +20,7 @@ RotatingLine has required properties and methods, and rotate is called in animat
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 92.0
+  Points Awarded: 117.5
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Interactive Run                             -5.0 /  -5.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 82.0
+  Features Score: 107.5
 
 Notes from grading features:
 ----------------------------------
@@ -40,14 +40,13 @@ CommandSuite:
   -- No class matching: [Fail]
 
 TokenArraySuite:
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
-  -- Size of array not correctTokens from different scanned strings combinedIncorrect beans in array
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Gets does not return sets for:[Input]
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- Incorrect bean in array: Output property wrong:[Value]
 
 MovingRotatingLineSuite:
   -- java.lang.NullPointerException null
@@ -87,7 +86,7 @@ ScannerBean has Errors property:
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment4\Extra, Credit (ecredit)\Submission attachment(s)\Assignment4\Assignment4\src\main\Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment4\Extra, Credit (ecredit)\Submission attachment(s)\Assignment4\Assignment4\src\main\Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
 
 
 
@@ -98,4 +97,4 @@ Illegal import or call:
 
 
 Early benefit: 105.0%
-  Total Score: 86.10000000000001
+  Total Score: 113.4

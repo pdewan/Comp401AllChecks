@@ -35,11 +35,11 @@ Interactive Run                             -5.0 /  -5.0
 Notes from grading features:
 ----------------------------------
 CommandSuite:
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
 
 TokenArraySuite:
   -- java.lang.NullPointerException null
@@ -52,28 +52,28 @@ TokenArraySuite:
   -- java.lang.NullPointerException null
 
 ExtraCommandSuite:
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
-  -- Gets does not return sets for:[Input]Output property wrong:[Value]Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
 
 MovingRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight -4
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight -4
 
 FixedRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@7c041b41 computedWidth 0 != correctWidth 5
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@7c041b41 computedHeight 0 != correctHeight 5
-  -- In: grail.graphics.RotatingLine@7c041b41 computedWidth 0 != correctWidth -5
+  -- In: grail.graphics.RotatingLine@7026b7ee computedWidth 0 != correctWidth 5
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 5
+  -- In: grail.graphics.RotatingLine@7026b7ee computedWidth 0 != correctWidth -5
 
 Single parameter constructors defined for command tokens:
   -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String

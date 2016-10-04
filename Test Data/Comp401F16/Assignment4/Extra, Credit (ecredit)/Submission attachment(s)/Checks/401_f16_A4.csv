@@ -1,60 +1,59 @@
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\APolarPoint.java,expectedTypes,[main.Assignment4, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC]
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\APolarPoint.java,typeDefined,APolarPoint,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner.java,typeDefined,BeanStringScanner,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner.java,classHasAtLeastOneInterface,BeanStringScanner,grail.BeanStringScanner
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,typeDefined,BeanStringScanner4,@ScannerBean,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,expectedGetters,BeanStringScanner4,Errors,*//EC
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,expectedDeclaredSignatures,BeanStringScanner4,indexOf:String;char;int->int,BeanStringScanner4
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,expectedDeclaredSignatures,BeanStringScanner4,indexOfNot:String;char;int->int//EC,BeanStringScanner4
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       indexOf:String;char;int->int 
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       indexOfNot:String;char;int->int//EC 
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       (.*)!hasNext:->boolean//EC 
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       (.*)!next:->String//EC
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\ExtBeanStringScanner.java,typeDefined,ExtBeanStringScanner,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\ExtBeanStringScanner.java,classHasAtLeastOneInterface,ExtBeanStringScanner,grail.ExtBeanStringScanner
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\Line.java,typeDefined,Line,@RotatingLine//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\Point.java,typeDefined,Point,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\ScannerInterface.java,typeDefined,ScannerInterface,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\ScannerInterface.java,expectedInterfaces,BeanStringScanner4,@ScannerBean,BeanStringScanner4
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\Shape.java,typeDefined,Shape,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\StringScanner.java,typeDefined,StringScanner,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,grail\Util.java,typeDefined,Util,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment4.java,typeDefined,Assignment4,main.Assignment4,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment4.java,expectedDeclaredSignatures,Assignment4,animateScanner:->*,Assignment4
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment4.java,expectedDeclaredSignatures,Assignment4,animateLine:->*//EC,Assignment4
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment4.java,missingMethodCall,Assignment4,        @ScannerBean!setScannedString:String->void 
-0,Tue Oct 04 01:19:24 EDT 2016,true,main\Assignment4.java,missingMethodCall,Assignment4,       @RotatingLine!@rotate:int->* //EC
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Call.java,typeDefined,Call,@Call//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Define.java,typeDefined,Define,@Define//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\EndToken.java,typeDefined,EndToken,@End,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Minus.java,typeDefined,Minus,@Minus//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Move.java,typeDefined,Move,@Move,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Number.java,typeDefined,Number,@Number,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Plus.java,typeDefined,Plus,@Plus//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\ProceedAll.java,typeDefined,ProceedAll,@ProceedAll//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\ProcNumberValue.java,typeDefined,ProcNumberValue,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\ProcWordValue.java,typeDefined,ProcWordValue,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\QuotedString.java,typeDefined,QuotedString,@Quote,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,typeDefined,RawInput,No Expected Tag
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,expectedInterfaces,EndToken,@Token,EndToken
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Minus,@Token,Minus
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Plus,@Token,Plus
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,expectedInterfaces,QuotedString,@Token,QuotedString
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Number,@Token,Number
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Redo.java,typeDefined,Redo,@Redo//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Repeat.java,typeDefined,Repeat,@Repeat//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RotateLeftArm.java,typeDefined,RotateLeftArm,@RotateLeftArm//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\RotateRightArm.java,typeDefined,RotateRightArm,@RotateRightArm//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Say.java,typeDefined,Say,@Say,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Sleep.java,typeDefined,Sleep,@Sleep//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\StartToken.java,typeDefined,StartToken,@Start,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\StartToken.java,expectedInterfaces,StartToken,@Token,StartToken
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Thread.java,typeDefined,Thread,@Thread//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Undo.java,typeDefined,Undo,@Undo//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Wait.java,typeDefined,Wait,@Wait//EC,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Word.java,typeDefined,Word,@Word,Class
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Word.java,expectedInterfaces,Word,@Token,Word
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Pass
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Approach
-0,Tue Oct 04 01:19:24 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Fail
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\APolarPoint.java,expectedTypes,[main.Assignment4, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC]
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\APolarPoint.java,typeDefined,APolarPoint,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner.java,typeDefined,BeanStringScanner,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner.java,classHasAtLeastOneInterface,BeanStringScanner,grail.BeanStringScanner
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,typeDefined,BeanStringScanner4,@ScannerBean,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,expectedGetters,BeanStringScanner4,Errors,*//EC
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       indexOf:String;char;int->int 
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       indexOfNot:String;char;int->int//EC 
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       (.*)!hasNext:->boolean//EC 
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,missingMethodCall,BeanStringScanner4,       (.*)!next:->String//EC
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,expectedDeclaredSignatures,BeanStringScanner4,indexOf:String;char;int->int,BeanStringScanner4
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\BeanStringScanner4.java,expectedDeclaredSignatures,BeanStringScanner4,indexOfNot:String;char;int->int//EC,BeanStringScanner4
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\ExtBeanStringScanner.java,typeDefined,ExtBeanStringScanner,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\ExtBeanStringScanner.java,classHasAtLeastOneInterface,ExtBeanStringScanner,grail.ExtBeanStringScanner
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\Line.java,typeDefined,Line,@RotatingLine//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\Point.java,typeDefined,Point,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\ScannerInterface.java,typeDefined,ScannerInterface,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\Shape.java,typeDefined,Shape,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\StringScanner.java,typeDefined,StringScanner,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,grail\Util.java,typeDefined,Util,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment3.java,typeDefined,Assignment3,No Expected Tag,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment4.java,typeDefined,Assignment4,main.Assignment4,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment4.java,missingMethodCall,Assignment4,        @ScannerBean!setScannedString:String->void 
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment4.java,missingMethodCall,Assignment4,       @RotatingLine!@rotate:int->* //EC
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment4.java,expectedDeclaredSignatures,Assignment4,animateScanner:->*,Assignment4
+0,Tue Oct 04 13:50:02 EDT 2016,true,main\Assignment4.java,expectedDeclaredSignatures,Assignment4,animateLine:->*//EC,Assignment4
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Call.java,typeDefined,Call,@Call//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Define.java,typeDefined,Define,@Define//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\EndToken.java,typeDefined,EndToken,@End,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Minus.java,typeDefined,Minus,@Minus//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Move.java,typeDefined,Move,@Move,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Number.java,typeDefined,Number,@Number,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Plus.java,typeDefined,Plus,@Plus//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\ProceedAll.java,typeDefined,ProceedAll,@ProceedAll//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\ProcNumberValue.java,typeDefined,ProcNumberValue,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\ProcWordValue.java,typeDefined,ProcWordValue,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\QuotedString.java,typeDefined,QuotedString,@Quote,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,typeDefined,RawInput,No Expected Tag,Interface
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Number,@Token,Number
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Minus,@Token,Minus
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,expectedInterfaces,EndToken,@Token,EndToken
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,expectedInterfaces,QuotedString,@Token,QuotedString
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RawInput.java,expectedInterfaces,Plus,@Token,Plus
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Redo.java,typeDefined,Redo,@Redo//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Repeat.java,typeDefined,Repeat,@Repeat//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RotateLeftArm.java,typeDefined,RotateLeftArm,@RotateLeftArm//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\RotateRightArm.java,typeDefined,RotateRightArm,@RotateRightArm//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Say.java,typeDefined,Say,@Say,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Sleep.java,typeDefined,Sleep,@Sleep//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\StartToken.java,typeDefined,StartToken,@Start,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\StartToken.java,expectedInterfaces,StartToken,@Token,StartToken
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Thread.java,typeDefined,Thread,@Thread//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Undo.java,typeDefined,Undo,@Undo//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Wait.java,typeDefined,Wait,@Wait//EC,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Word.java,typeDefined,Word,@Word,Class
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Pass
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Approach
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Word.java,expectedClassInstantiations,BeanStringScanner4,grail.BeanStringScanner4,@Fail
+0,Tue Oct 04 13:50:02 EDT 2016,true,mp\Word.java,expectedInterfaces,Word,@Token,Word

@@ -1,9 +1,9 @@
 *****************************(CommandSuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.commands.SayBeanTest: 1.0
 Calling constructor public mp.Say(java.lang.String)with args:[SaY]timeOut:2000
-Calling on object mp.Say@73db4768 1943750504 method:public void mp.Word.setInput(java.lang.String) args:[SaY]timeOut:2000
-Calling on object mp.Say@73db4768 1943750504 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Say@73db4768 1943750504 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Say@12aa4996 313149846 method:public void mp.Word.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object mp.Say@12aa4996 313149846 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Say@12aa4996 313149846 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.RepeatBeanTest: 1.0
 No class matching: [Pass]
 ### gradingTools.comp401f16.assignment4.testcases.commands.RepeatBeanTest: 0.0
@@ -12,226 +12,177 @@ No class matching: [Approach]
 ### gradingTools.comp401f16.assignment4.testcases.commands.ApproachBeanTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.commands.PassBeanTest: 1.0
 Calling constructor public mp.Say(java.lang.String)with args:[SaY]timeOut:2000
-Calling on object mp.Say@71b3bc45 1907604549 method:public void mp.Word.setInput(java.lang.String) args:[SaY]timeOut:2000
-Calling on object mp.Say@71b3bc45 1907604549 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Say@71b3bc45 1907604549 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Say@18eec010 418299920 method:public void mp.Word.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object mp.Say@18eec010 418299920 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Say@18eec010 418299920 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.FailBeanTest: 1.0
 No class matching: [Fail]
 ### gradingTools.comp401f16.assignment4.testcases.commands.FailBeanTest: 0.0
 *****************************(TokenArraySuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@50fe837a 1358857082 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@50fe837a 1358857082 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:ARthur
-Property:Value expected value:arthur actual output:1019
-Calling on object mp.Number@5ce33a58 1558395480 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@5ce33a58 1558395480 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:GaLahad
-Property:Value expected value:galahad actual output:1221
-Calling on object mp.Number@546ccad7 1416415959 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@546ccad7 1416415959 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:Lancelot
-Property:Value expected value:lancelot actual output:3413
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@a8c1f44 176955204 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.Word@28348c6 42158278 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@28348c6 42158278 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:arthur, but actual output:null.
+Calling on object mp.Word@53c68ce 87845070 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@53c68ce 87845070 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:galahad, but actual output:null.
+Calling on object mp.Word@4b2d44bc 1261257916 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@4b2d44bc 1261257916 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:lancelot, but actual output:null.
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@67c119b7 1740708279 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 0.8
 ### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@3829ac1 58890945 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@3829ac1 58890945 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:0234
-Property:Value expected value:234 actual output:1019
-Calling on object mp.Number@1bb1fde8 464649704 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@1bb1fde8 464649704 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:3023
-Property:Value expected value:3023 actual output:1221
-Calling on object mp.Number@22d6f11 36531985 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@22d6f11 36531985 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:111
-Property:Value expected value:111 actual output:3413
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4a335fa8 1244880808 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.Number@35dd9ed3 903716563 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
+Calling on object mp.Number@35dd9ed3 903716563 method:public int mp.Number.getValue() args:[]timeOut:2000
+Calling on object mp.Number@363f0ba0 910101408 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
+Calling on object mp.Number@363f0ba0 910101408 method:public int mp.Number.getValue() args:[]timeOut:2000
+Calling on object mp.Number@6c8909c3 1820920259 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
+Calling on object mp.Number@6c8909c3 1820920259 method:public int mp.Number.getValue() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@681adc8f 1746590863 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@339bf286 865858182 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:"Sea Gull "
-Calling on object mp.Number@269f4bad 647973805 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:" A m e r i c a n "
-Calling on object mp.Number@3234f74e 842331982 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:" E uropean "
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@29e6eb25 702999333 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.QuotedString@c6634d 13001549 method:public java.lang.String mp.QuotedString.getInput() args:[]timeOut:2000
+For property:Input getter returned:Sea Gull , instead of:"Sea Gull "
+Calling on object mp.QuotedString@73ad7e90 1940749968 method:public java.lang.String mp.QuotedString.getInput() args:[]timeOut:2000
+For property:Input getter returned: A m e r i c a n , instead of:" A m e r i c a n "
+Calling on object mp.QuotedString@784c5ef5 2018270965 method:public java.lang.String mp.QuotedString.getInput() args:[]timeOut:2000
+For property:Input getter returned: E uropean , instead of:" E uropean "
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@5fc930f0 1607020784 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 0.9
 ### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@2611b9a3 638695843 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@2611b9a3 638695843 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:pass
-Property:Value expected value:pass actual output:1019
-Calling on object mp.Number@6b5894c8 1800967368 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@6b5894c8 1800967368 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:PAss
-Property:Value expected value:pass actual output:1221
-Calling on object mp.Number@3f446bef 1061448687 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@3f446bef 1061448687 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:PASS
-Property:Value expected value:pass actual output:3413
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@b968a76 194415222 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.Word@7c2312fa 2082673402 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@7c2312fa 2082673402 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:pass, but actual output:null.
+Calling on object mp.Word@5ff2e84b 1609754699 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@5ff2e84b 1609754699 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:pass, but actual output:null.
+Calling on object mp.Word@64a4dd8d 1688526221 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@64a4dd8d 1688526221 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:pass, but actual output:null.
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@289778cd 681015501 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 0.8
 ### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@4d098f9b 1292472219 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@4d098f9b 1292472219 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:fail
-Property:Value expected value:fail actual output:1019
-Calling on object mp.Number@20b5f2ac 548795052 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@20b5f2ac 548795052 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:FAil
-Property:Value expected value:fail actual output:1221
-Calling on object mp.Number@7e3060d8 2117099736 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@7e3060d8 2117099736 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:FAIL
-Property:Value expected value:fail actual output:3413
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@36676c1a 912747546 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.Word@2fc2a205 801284613 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@2fc2a205 801284613 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:fail, but actual output:null.
+Calling on object mp.Word@2bef09c0 737085888 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@2bef09c0 737085888 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:fail, but actual output:null.
+Calling on object mp.Word@58a63629 1487287849 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Word@58a63629 1487287849 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:fail, but actual output:null.
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@5bcb04cb 1540031691 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 0.8
 ### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@42a9e5d1 1118430673 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@42a9e5d1 1118430673 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:approach
-Property:Value expected value:approach actual output:1019
-Calling on object mp.Number@773cbf4f 2000469839 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@773cbf4f 2000469839 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:APProach
-Property:Value expected value:approach actual output:1221
-Calling on object mp.Number@665e9289 1717473929 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@665e9289 1717473929 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:APPROACH
-Property:Value expected value:approach actual output:3413
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4c51bb7 80026551 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@13f9ad9 20945625 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.BeanStringScanner4@13f9ad9 20945625 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@13f9ad9 20945625 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@1c55f277 475394679 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@1c55f277 475394679 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:repeat
-Property:Value expected value:repeat actual output:1019
-Calling on object mp.Number@3e8f7922 1049590050 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@3e8f7922 1049590050 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:REpeat
-Property:Value expected value:repeat actual output:1221
-Calling on object mp.Number@50eca7c6 1357686726 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@50eca7c6 1357686726 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:REPEAT
-Property:Value expected value:repeat actual output:3413
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@2b491fee 726212590 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@724c5cbe 1917607102 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.BeanStringScanner4@724c5cbe 1917607102 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@724c5cbe 1917607102 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 1.0
 Calling constructor public grail.BeanStringScanner4()with args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-Calling on object mp.Number@3fc9dfc5 1070194629 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@3fc9dfc5 1070194629 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1019 instead of:say
-Property:Value expected value:say actual output:1019
-Calling on object mp.Number@2cac4385 749486981 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@2cac4385 749486981 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:1221 instead of:SAy
-Property:Value expected value:say actual output:1221
-Calling on object mp.Number@16f7b4af 385332399 method:public java.lang.String mp.Number.getInput() args:[]timeOut:2000
-Calling on object mp.Number@16f7b4af 385332399 method:public int mp.Number.getValue() args:[]timeOut:2000
-For property:Input getter returned:3413 instead of:SAY
-Property:Value expected value:say actual output:3413
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[1019 1221 3413 4321 ]timeOut:2000
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
-Calling on object grail.BeanStringScanner4@4275c20c 1115013644 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 0.0
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+Calling on object mp.Say@2f1ea80d 790538253 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Say@2f1ea80d 790538253 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:say, but actual output:null.
+Calling on object mp.Say@f1a45f8 253380088 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Say@f1a45f8 253380088 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:say, but actual output:null.
+Calling on object mp.Say@4dbad37 81505591 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Say@4dbad37 81505591 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+For property:Value expected value:say, but actual output:null.
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public void grail.BeanStringScanner4.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public java.lang.String grail.BeanStringScanner4.getScannedString() args:[]timeOut:2000
+Calling on object grail.BeanStringScanner4@604b1e1d 1615535645 method:public mp.RawInput[] grail.BeanStringScanner4.getTokens() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 0.8
 *****************************(ExtraCommandSuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.CallBeanTest: 1.0
 Calling constructor public mp.Call(java.lang.String)with args:[CaLL]timeOut:2000
-Calling on object mp.Call@42f3156d 1123226989 method:public void mp.Word.setInput(java.lang.String) args:[CaLL]timeOut:2000
-Calling on object mp.Call@42f3156d 1123226989 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Call@42f3156d 1123226989 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Call@2e2f720 48428832 method:public void mp.Word.setInput(java.lang.String) args:[CaLL]timeOut:2000
+Calling on object mp.Call@2e2f720 48428832 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Call@2e2f720 48428832 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.DefineBeanTest: 1.0
 Calling constructor public mp.Define(java.lang.String)with args:[DeFine]timeOut:2000
-Calling on object mp.Define@1ddae9b5 500885941 method:public void mp.Word.setInput(java.lang.String) args:[DeFine]timeOut:2000
-Calling on object mp.Define@1ddae9b5 500885941 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Define@1ddae9b5 500885941 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Define@3ae2ed38 987950392 method:public void mp.Word.setInput(java.lang.String) args:[DeFine]timeOut:2000
+Calling on object mp.Define@3ae2ed38 987950392 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Define@3ae2ed38 987950392 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.ProceedAllBeanTest: 1.0
 Calling constructor public mp.ProceedAll(java.lang.String)with args:[proceEdAll]timeOut:2000
-Calling on object mp.ProceedAll@427b5f92 1115381650 method:public void mp.Word.setInput(java.lang.String) args:[proceEdAll]timeOut:2000
-Calling on object mp.ProceedAll@427b5f92 1115381650 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.ProceedAll@427b5f92 1115381650 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.ProceedAll@7f572c37 2136419383 method:public void mp.Word.setInput(java.lang.String) args:[proceEdAll]timeOut:2000
+Calling on object mp.ProceedAll@7f572c37 2136419383 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.ProceedAll@7f572c37 2136419383 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RedoBeanTest: 1.0
 Calling constructor public mp.Define(java.lang.String)with args:[RedO]timeOut:2000
-Calling on object mp.Define@24bdb479 616412281 method:public void mp.Word.setInput(java.lang.String) args:[RedO]timeOut:2000
-Calling on object mp.Define@24bdb479 616412281 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Define@24bdb479 616412281 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Define@2add4d24 719146276 method:public void mp.Word.setInput(java.lang.String) args:[RedO]timeOut:2000
+Calling on object mp.Define@2add4d24 719146276 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Define@2add4d24 719146276 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateLeftArmBeanTest: 1.0
 Calling constructor public mp.RotateLeftArm(java.lang.String)with args:[RotateLeftArm]timeOut:2000
-Calling on object mp.RotateLeftArm@7e3f95fe 2118096382 method:public void mp.Word.setInput(java.lang.String) args:[RotateLeftArm]timeOut:2000
-Calling on object mp.RotateLeftArm@7e3f95fe 2118096382 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.RotateLeftArm@7e3f95fe 2118096382 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.RotateLeftArm@3f93e4a8 1066656936 method:public void mp.Word.setInput(java.lang.String) args:[RotateLeftArm]timeOut:2000
+Calling on object mp.RotateLeftArm@3f93e4a8 1066656936 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.RotateLeftArm@3f93e4a8 1066656936 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateRightArmBeanTest: 1.0
 Calling constructor public mp.RotateRightArm(java.lang.String)with args:[RotateRightArm]timeOut:2000
-Calling on object mp.RotateRightArm@34625ccd 878861517 method:public void mp.Word.setInput(java.lang.String) args:[RotateRightArm]timeOut:2000
-Calling on object mp.RotateRightArm@34625ccd 878861517 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.RotateRightArm@34625ccd 878861517 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.RotateRightArm@12b5454f 313869647 method:public void mp.Word.setInput(java.lang.String) args:[RotateRightArm]timeOut:2000
+Calling on object mp.RotateRightArm@12b5454f 313869647 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.RotateRightArm@12b5454f 313869647 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.SleepBeanTest: 1.0
 Calling constructor public mp.Sleep(java.lang.String)with args:[Sleep]timeOut:2000
-Calling on object mp.Sleep@2c7d121c 746394140 method:public void mp.Word.setInput(java.lang.String) args:[Sleep]timeOut:2000
-Calling on object mp.Sleep@2c7d121c 746394140 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Sleep@2c7d121c 746394140 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Sleep@5445f5ba 1413871034 method:public void mp.Word.setInput(java.lang.String) args:[Sleep]timeOut:2000
+Calling on object mp.Sleep@5445f5ba 1413871034 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Sleep@5445f5ba 1413871034 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.ThreadBeanTest: 1.0
 Calling constructor public mp.Thread(java.lang.String)with args:[Thread]timeOut:2000
-Calling on object mp.Thread@65aa6596 1705665942 method:public void mp.Word.setInput(java.lang.String) args:[Thread]timeOut:2000
-Calling on object mp.Thread@65aa6596 1705665942 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Thread@65aa6596 1705665942 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Thread@1431267b 338765435 method:public void mp.Word.setInput(java.lang.String) args:[Thread]timeOut:2000
+Calling on object mp.Thread@1431267b 338765435 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Thread@1431267b 338765435 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.UndoBeanTest: 1.0
 Calling constructor public mp.Undo(java.lang.String)with args:[Undo]timeOut:2000
-Calling on object mp.Undo@67389cb8 1731763384 method:public void mp.Word.setInput(java.lang.String) args:[Undo]timeOut:2000
-Calling on object mp.Undo@67389cb8 1731763384 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Undo@67389cb8 1731763384 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Undo@342726f1 874981105 method:public void mp.Word.setInput(java.lang.String) args:[Undo]timeOut:2000
+Calling on object mp.Undo@342726f1 874981105 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Undo@342726f1 874981105 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.WaitBeanTest: 1.0
 Calling constructor public mp.Wait(java.lang.String)with args:[wait]timeOut:2000
-Calling on object mp.Wait@419a20a6 1100619942 method:public void mp.Word.setInput(java.lang.String) args:[wait]timeOut:2000
-Calling on object mp.Wait@419a20a6 1100619942 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
-Calling on object mp.Wait@419a20a6 1100619942 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
+Calling on object mp.Wait@c808207 209748487 method:public void mp.Word.setInput(java.lang.String) args:[wait]timeOut:2000
+Calling on object mp.Wait@c808207 209748487 method:public java.lang.String mp.Word.getInput() args:[]timeOut:2000
+Calling on object mp.Wait@c808207 209748487 method:public java.lang.String mp.Word.getValue() args:[]timeOut:2000
 *****************************(MovingRotatingLineSuite)*****************************
 ### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineFortyFiveDegreeTest: 1.0
 ### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineFortyFiveDegreeTest: 0.0

@@ -8,19 +8,19 @@ ExtraCommandSuite                                      10.0 / 10.0 (Extra credit
 MovingRotatingLineSuite                                16.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required command token classes instantiated            0.0 / 12.0
-Single parameter constructors defined for command tokens 0.0 /  6.0
-Properties defined for command token classes           0.0 / 18.0
-ScannerBean has Tokens property                        0.0 / 15.0
-Sleep called in animation                              0.0 /  4.0
-ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
-Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       0.0 / 10.0 (Extra credit)
-RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 6.0 /  6.0
+Properties defined for command token classes           18.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              4.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       10.0 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 16.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 106.5
+  Points Awarded: 197.5
 
 Grading restrictions...
 ----------------------------------
@@ -30,117 +30,12 @@ Interactive Run                             -5.0 /  -5.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 96.5
+  Features Score: 187.5
 
 Notes from grading features:
 ----------------------------------
 TokenArraySuite:
   -- Incorrect bean in array: Gets does not return sets for:[Input]
-
-Required command token classes instantiated:
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-
-Single parameter constructors defined for command tokens:
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-
-Properties defined for command token classes:
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Move not found by checkstyle
-  -- Say not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Approach not found by checkstyle
-  -- Pass not found by checkstyle
-  -- Fail not found by checkstyle
-
-ScannerBean has Tokens property:
-  -- ScannerBean not found by checkstyle
-
-Sleep called in animation:
-  -- main.Assignment4 not found by checkstyle
-
-ScannerBean has Errors property:
-  -- ScannerBean not found by checkstyle
-
-Extra credit command classes instantiated:
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-
-Extra credit constructors and properties defined:
-  -- RotateLeftArm not found by checkstyle
-  -- RotateRightArm not found by checkstyle
-  -- Define not found by checkstyle
-  -- Call not found by checkstyle
-  -- Thread not found by checkstyle
-  -- Wait not found by checkstyle
-  -- ProceedAll not found by checkstyle
-  -- Sleep not found by checkstyle
-  -- Undo not found by checkstyle
-  -- Redo not found by checkstyle
-  -- RotateLeftArm not found by checkstyle
-  -- RotateRightArm not found by checkstyle
-  -- Define not found by checkstyle
-  -- Call not found by checkstyle
-  -- Thread not found by checkstyle
-  -- Wait not found by checkstyle
-  -- ProceedAll not found by checkstyle
-  -- Sleep not found by checkstyle
-  -- Undo not found by checkstyle
-  -- Redo not found by checkstyle
-  -- RotateLeftArm not found by checkstyle
-  -- RotateRightArm not found by checkstyle
-  -- Define not found by checkstyle
-  -- Call not found by checkstyle
-  -- Thread not found by checkstyle
-  -- Wait not found by checkstyle
-  -- ProceedAll not found by checkstyle
-  -- Sleep not found by checkstyle
-  -- Undo not found by checkstyle
-  -- Redo not found by checkstyle
-  -- RotateLeftArm not found by checkstyle
-  -- RotateRightArm not found by checkstyle
-  -- Define not found by checkstyle
-  -- Call not found by checkstyle
-  -- Thread not found by checkstyle
-  -- Wait not found by checkstyle
-  -- ProceedAll not found by checkstyle
-  -- Sleep not found by checkstyle
-  -- Undo not found by checkstyle
-  -- Redo not found by checkstyle
-
-RotatingLine has required properties and methods, and rotate is called in animation:
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- main.Assignment4 not found by checkstyle
 
 
 Notes from grading restrictions:
@@ -150,4 +45,4 @@ Illegal import or call:
 
 
 Early benefit: 105.0%
-  Total Score: 101.85000000000001
+  Total Score: 197.4
