@@ -1,2 +1,0 @@
-  -- expectedGetters: (ExtBeanStringScanner.java:1) In type ExtBeanStringScanner, missing getter for property Errors of type *//EC
-

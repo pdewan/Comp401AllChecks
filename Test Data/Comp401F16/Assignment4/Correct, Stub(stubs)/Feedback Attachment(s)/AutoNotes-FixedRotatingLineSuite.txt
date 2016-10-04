@@ -1,4 +1,0 @@
-  -- In: grail.graphics.RotatingLine@7026b7ee computedWidth 0 != correctWidth 5
-  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@7026b7ee computedHeight 0 != correctHeight 5
-  -- In: grail.graphics.RotatingLine@7026b7ee computedWidth 0 != correctWidth -5

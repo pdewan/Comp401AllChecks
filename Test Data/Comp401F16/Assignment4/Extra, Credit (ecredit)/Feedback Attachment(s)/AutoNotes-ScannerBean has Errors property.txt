@@ -1,2 +1,0 @@
-  -- expectedGetters: (BeanStringScanner4.java:1) In type BeanStringScanner4, missing getter for property Errors of type *//EC
-

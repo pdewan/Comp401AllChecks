@@ -1,7 +1,0 @@
-  -- Incorrect bean in array: Output property wrong:[Value]
-  -- Incorrect bean in array: Gets does not return sets for:[Input]
-  -- Incorrect bean in array: Output property wrong:[Value]
-  -- Incorrect bean in array: Output property wrong:[Value]
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- Incorrect bean in array: Output property wrong:[Value]

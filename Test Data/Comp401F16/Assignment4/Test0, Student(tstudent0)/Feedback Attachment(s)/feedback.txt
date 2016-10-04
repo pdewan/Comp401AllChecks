@@ -3,7 +3,7 @@ Grading result for: Test0, Student(tstudent0)
 Grading features...
 ----------------------------------
 CommandSuite                                           15.0 / 15.0
-TokenArraySuite                                        39.5 / 40.0
+TokenArraySuite                                        40.0 / 40.0
 ExtraCommandSuite                                      10.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                16.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
@@ -20,29 +20,17 @@ RotatingLine has required properties and methods, and rotate is called in animat
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 197.5
+  Points Awarded: 198.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -10.0
+  Points Deducted: -5.0
 
-  Features Score: 187.5
-
-Notes from grading features:
-----------------------------------
-TokenArraySuite:
-  -- Incorrect bean in array: Gets does not return sets for:[Input]
-
-
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
-
+  Features Score: 193.0
 
 Early benefit: 105.0%
-  Total Score: 197.4
+  Total Score: 202.65
