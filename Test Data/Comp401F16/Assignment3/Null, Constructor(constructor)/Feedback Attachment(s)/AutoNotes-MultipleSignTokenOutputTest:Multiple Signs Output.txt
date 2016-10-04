@@ -1,1 +1,0 @@
-  -- Incorrect output (Pattern:(.*)\Q-\E(.*) not found in output line: []) 

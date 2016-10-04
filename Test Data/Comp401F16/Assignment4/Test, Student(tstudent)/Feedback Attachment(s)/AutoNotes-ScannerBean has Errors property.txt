@@ -1,2 +1,0 @@
-  -- expectedGetters: (AScannerBean.java:1) In type AScannerBean, missing getter for property Errors of type *//EC
-

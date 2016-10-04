@@ -1,6 +1,0 @@
-  -- Repeat not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Fail not found by checkstyle
-  -- Repeat not found by checkstyle
-  -- Fail not found by checkstyle
