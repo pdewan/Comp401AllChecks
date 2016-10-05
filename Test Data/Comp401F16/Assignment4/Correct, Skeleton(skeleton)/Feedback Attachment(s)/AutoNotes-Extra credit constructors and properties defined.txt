@@ -1,0 +1,34 @@
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
+

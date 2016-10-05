@@ -1,0 +1,150 @@
+Grading result for: Correct, Skeleton(skeleton)
+
+Grading features...
+----------------------------------
+CommandSuite                                           15.0 / 15.0
+TokenArraySuite                                        40.0 / 40.0
+ExtraCommandSuite                                      1.0 / 10.0 (Extra credit)
+MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           10.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              0.0 /  4.0
+ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       5.8 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
+----------------------------------
+  Points Awarded: 125.8
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
+----------------------------------
+  Points Deducted: -30.0
+
+  Features Score: 95.8
+
+Notes from grading features:
+----------------------------------
+ExtraCommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+
+MovingRotatingLineSuite:
+  -- Method matching setAngle not found in class: class grail.graphics.RotatingLine
+  -- Method matching setAngle not found in class: class grail.graphics.RotatingLine
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+
+FixedRotatingLineSuite:
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+  -- Method matching setX not found in class: class grail.graphics.RotatingLine
+
+Single parameter constructors defined for command tokens:
+  -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:10) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:10) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:10) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:10) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:10) In type FailCommand, missing constructor: :String
+
+
+Properties defined for command token classes:
+  -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (SayCommand.java:1) In type SayCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (FailCommand.java:1) In type FailCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Value of type String
+
+
+Sleep called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+ScannerBean has Errors property:
+  -- expectedGetters: (ScannerBean.java:1) In type ScannerBean, missing getter for property Errors of type *//EC
+
+
+Extra credit constructors and properties defined:
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
+
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (Image.java:3) Used disallowed class javax.swing.Icon 
+illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon 
+
+
+
+Early benefit: 105.0%
+  Total Score: 100.80000000000001

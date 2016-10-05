@@ -1,1 +1,4 @@
+previous
+skeleton
+stubs
 tstudent0

@@ -1,0 +1,86 @@
+Grading result for: Correct, Stub(stubs)
+
+Grading features...
+----------------------------------
+CommandSuite                                           3.0 / 15.0
+TokenArraySuite                                        0.0 / 40.0
+ExtraCommandSuite                                      2.0 / 10.0 (Extra credit)
+MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           18.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              0.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       8.3 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
+----------------------------------
+  Points Awarded: 106.3
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
+----------------------------------
+  Points Deducted: -30.0
+
+  Features Score: 76.3
+
+Notes from grading features:
+----------------------------------
+CommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+ExtraCommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+
+MovingRotatingLineSuite:
+  -- In: grail.graphics.RotatingLine@2b491fee computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@2b491fee computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@2b491fee computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@2b491fee computedHeight 0 != correctHeight -4
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (Image.java:3) Used disallowed class javax.swing.Icon 
+illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon 
+
+
+
+Early benefit: 105.0%
+  Total Score: 79.8

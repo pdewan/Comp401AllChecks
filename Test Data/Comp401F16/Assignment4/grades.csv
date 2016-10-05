@@ -1,18 +1,14 @@
 Assignment 1,Points,,,
 ,,,,
 Display ID,ID,Last Name,First Name,grade
-acorrect,acorrect,All,Correct,86.10000000000001
-ecredit,ecredit,Extra,Credit,113.4
-mmany,mmany,Mistakes,Many,31.5
-tstudent,tstudent,Test,Student,0.0
+previous,previous,Previous,Assignment,96.60000000000001
+skeleton,skeleton,Correct,Skeleton,100.80000000000001
+stubs,stubs,Correct,Stub,79.8
 tstudent0,tstudent0,Test0,Student,202.65
-tstudent1,tstudent1,Test1,Student,93.45
-tstudent2,tstudent2,Test2,Student,79.8
-tstudent3,tstudent3,Test3,Student,59.85
-tstudent4,tstudent4,Test4,Student,93.45
-tstudent5,tstudent5,Test5,Student,117.6
-tstudent6,tstudent6,Test6,Student,98.7
-tstudent7,tstudent7,Test7,Student,117.6
-skeleton,skeleton,Correct,Skeleton,154.35
-stubs,stubs,Correct,Stub,84.0
-previous,previous,Previous,Assignment,33.6
+tstudent1,tstudent1,Test1,ImproperArrays,177.45000000000002
+tstudent2,tstudent2,Test2,MissingCommands,139.65
+tstudent3,tstudent3,Test3,MissingTags,129.15
+tstudent4,tstudent4,Test4,NotAnimating,198.45000000000002
+tstudent5,tstudent5,Test5,NotClearing,190.05
+tstudent6,tstudent6,Test6,NoValue,174.3
+tstudent7,tstudent7,Test7,OffByOne,156.45000000000002
