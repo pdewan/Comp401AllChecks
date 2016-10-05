@@ -74,17 +74,17 @@ public class Assignment4Requirements extends AJUnitProjectRequirements{
 				
      			// Non Editable properties (getters)
 				new CheckStylePropertyDefinedTestCase("Move", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Say", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Say", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Repeat", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Approach", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Approach", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Pass", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Fail", "Value", "int")
+				new CheckStylePropertyDefinedTestCase("Fail", "Value", "String")
 				
      			);
      	
      	//New ScannerBean property
      	addFeature("ScannerBean has Tokens property", 15,
-				new CheckStylePropertyDefinedTestCase("ScannerBean", "Tokens", ".*\\[\\]")				
+				new CheckStylePropertyDefinedTestCase("ScannerBean", "Tokens", ".*\\[.*\\]")				
      			);
      	
      	//method calls
