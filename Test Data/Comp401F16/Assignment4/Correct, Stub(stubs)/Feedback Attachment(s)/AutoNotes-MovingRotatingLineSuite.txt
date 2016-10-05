@@ -1,0 +1,4 @@
+  -- In: grail.graphics.RotatingLine@3f120c92 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@3f120c92 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@3f120c92 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@3f120c92 computedHeight 0 != correctHeight -4

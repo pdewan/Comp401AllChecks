@@ -2,8 +2,8 @@ Grading result for: Correct, Skeleton(skeleton)
 
 Grading features...
 ----------------------------------
-CommandSuite                                           15.0 / 15.0
-TokenArraySuite                                        40.0 / 40.0
+CommandSuite                                           1.5 / 15.0
+TokenArraySuite                                        0.0 / 40.0
 ExtraCommandSuite                                      1.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
@@ -20,7 +20,7 @@ RotatingLine has required properties and methods, and rotate is called in animat
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 125.8
+  Points Awarded: 72.3
 
 Grading restrictions...
 ----------------------------------
@@ -30,10 +30,27 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: 95.8
+  Features Score: 42.3
 
 Notes from grading features:
 ----------------------------------
+CommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
+
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
 ExtraCommandSuite:
   --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
   --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]Geters not found for:[]
@@ -147,4 +164,4 @@ illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon
 
 
 Early benefit: 105.0%
-  Total Score: 100.80000000000001
+  Total Score: 44.1

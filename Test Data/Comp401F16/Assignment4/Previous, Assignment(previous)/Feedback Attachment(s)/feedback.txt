@@ -2,38 +2,48 @@ Grading result for: Previous, Assignment(previous)
 
 Grading features...
 ----------------------------------
-CommandSuite                                           15.0 / 15.0
-TokenArraySuite                                        40.0 / 40.0
-ExtraCommandSuite                                      0.0 / 10.0 (Extra credit)
-MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
-FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
-Public methods are in implemented interfaces           10.0 / 10.0
-Required command token classes instantiated            12.0 / 12.0
-Single parameter constructors defined for command tokens 0.0 /  6.0
-Properties defined for command token classes           0.0 / 18.0
-ScannerBean has Tokens property                        15.0 / 15.0
-Sleep called in animation                              0.0 /  4.0
-ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
-Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       0.0 / 10.0 (Extra credit)
-RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
-ScannerBean properly animated                          0.0 / 15.0
-RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ----------------------------------
-  Points Awarded: 97.0
+  Points Awarded: 57.0
 
 Grading restrictions...
 ----------------------------------
-Variables should have interface, not class, type0.0 /  -10.0
-Interactive Run                             -5.0 /  -5.0
-Illegal import or call                      0.0 /  -25.0
+
+
+
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 92.0
+  Features Score: 52.0
 
 Notes from grading features:
 ----------------------------------
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
 ExtraCommandSuite:
   -- No class matching: [Call]
   -- No class matching: [Define]
@@ -57,6 +67,34 @@ FixedRotatingLineSuite:
   -- java.lang.NullPointerException null
   -- java.lang.NullPointerException null
   -- java.lang.NullPointerException null
+
+Single parameter constructors defined for command tokens:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+
+Properties defined for command token classes:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
 
 Sleep called in animation:
   -- main.Assignment4 not found by checkstyle
@@ -109,4 +147,4 @@ Extra credit constructors and properties defined:
 
 
 Early benefit: 105.0%
-  Total Score: 96.60000000000001
+  Total Score: 54.6

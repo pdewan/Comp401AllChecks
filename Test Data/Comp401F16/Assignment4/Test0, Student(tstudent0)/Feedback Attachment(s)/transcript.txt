@@ -1,281 +1,281 @@
 *****************************(CommandSuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.commands.SayBeanTest: 1.0
 Calling constructor public grail.commandBeans.SayCommand(java.lang.String)with args:[SaY]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@6d0b5baf 1829460911 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[SaY]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@6d0b5baf 1829460911 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@6d0b5baf 1829460911 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@129fed45 312470853 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@129fed45 312470853 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@129fed45 312470853 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.RepeatBeanTest: 1.0
 Calling constructor public grail.commandBeans.PassCommand(java.lang.String)with args:[pass]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@631e06ab 1662912171 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[pass]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@631e06ab 1662912171 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@631e06ab 1662912171 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@23592946 593045830 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[pass]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@23592946 593045830 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@23592946 593045830 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.ApproachBeanTest: 1.0
 Calling constructor public grail.commandBeans.ApproachCommand(java.lang.String)with args:[AppRoach]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@2a3591c5 708153797 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[AppRoach]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@2a3591c5 708153797 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@2a3591c5 708153797 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@3e48d38 65310008 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[AppRoach]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@3e48d38 65310008 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@3e48d38 65310008 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.PassBeanTest: 1.0
 Calling constructor public grail.commandBeans.SayCommand(java.lang.String)with args:[SaY]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@34a75079 883380345 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[SaY]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@34a75079 883380345 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@34a75079 883380345 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@7c2b58c0 2083215552 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@7c2b58c0 2083215552 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@7c2b58c0 2083215552 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.FailBeanTest: 1.0
 Calling constructor public grail.commandBeans.FailCommand(java.lang.String)with args:[FAIL]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@346a361 54960993 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[FAIL]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@346a361 54960993 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@346a361 54960993 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@11b377c5 296974277 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[FAIL]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@11b377c5 296974277 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@11b377c5 296974277 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 *****************************(TokenArraySuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@2e029d61 771923297 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@2e029d61 771923297 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@132ddbab 321772459 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@132ddbab 321772459 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@acb0951 181078353 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@acb0951 181078353 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@107ed6fc 276748028 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@702c436b 1881949035 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@702c436b 1881949035 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@23f3dbf0 603184112 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@23f3dbf0 603184112 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@760cf594 1980560788 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@760cf594 1980560788 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7bca6fac 2076864428 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@7651218e 1985028494 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@7651218e 1985028494 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@6d366c9b 1832283291 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@6d366c9b 1832283291 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@24faea88 620423816 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@24faea88 620423816 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@68d6972f 1758893871 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@71f0b72e 1911600942 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@71f0b72e 1911600942 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@2f508f3c 793808700 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@2f508f3c 793808700 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@4aedaf61 1257090913 method:public java.lang.String grail.tokenBeans.NumberToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@4aedaf61 1257090913 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@e4b6f47 239824711 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@61526469 1632789609 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@76ba13c 124494140 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@7c351808 2083854344 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4648ce9 73698537 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@1e141e42 504634946 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@1d0a61c8 487219656 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@782bf610 2016146960 method:public java.lang.String grail.tokenBeans.QuoteToken.getInput() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7808f638 2013853240 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@6e16b8b5 1846982837 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@6e16b8b5 1846982837 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@25ddbbbb 635288507 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@25ddbbbb 635288507 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@4ebea12c 1321115948 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@4ebea12c 1321115948 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@1d1f7216 488600086 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@4e6f2bb5 1315908533 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@4e6f2bb5 1315908533 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@3f628ce9 1063423209 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@3f628ce9 1063423209 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@26d96e5 40736485 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@26d96e5 40736485 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@497aec8c 1232792716 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@52b56a3e 1387620926 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@52b56a3e 1387620926 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@4eed46ee 1324173038 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@4eed46ee 1324173038 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@4fad94a7 1336775847 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@4fad94a7 1336775847 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@3c0fae6c 1007660652 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4248b963 1112062307 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4248b963 1112062307 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4defd42 81722690 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4defd42 81722690 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@24b4d544 615830852 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@24b4d544 615830852 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7a0f244f 2047812687 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@4fe89c24 1340644388 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@4fe89c24 1340644388 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@3d08f3f5 1023996917 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@3d08f3f5 1023996917 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@1a1da881 438151297 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@1a1da881 438151297 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@89c10b7 144445623 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@53a665ad 1403413933 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@53a665ad 1403413933 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@78525ef9 2018664185 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@78525ef9 2018664185 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@4d654825 1298483237 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@4d654825 1298483237 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@249e0271 614335089 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@7b139eab 2064883371 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@7b139eab 2064883371 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@611df6e3 1629353699 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@611df6e3 1629353699 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@6273c5a4 1651754404 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@6273c5a4 1651754404 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2cf92cc7 754527431 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@65753040 1702178880 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@65753040 1702178880 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@4acb2510 1254827280 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@4acb2510 1254827280 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@37d871c2 936931778 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@37d871c2 936931778 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6ef1a1b9 1861329337 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@452ba1db 1160487387 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@452ba1db 1160487387 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@76a36b71 1990421361 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@76a36b71 1990421361 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@f9d87b 16373883 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@f9d87b 16373883 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4f936da8 1335061928 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@153cd6bb 356308667 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@153cd6bb 356308667 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@2d9f64c9 765420745 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@2d9f64c9 765420745 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@52d6cd34 1389808948 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@52d6cd34 1389808948 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@642505c7 1680147911 method:public grail.interfaces.Token[] grail.ScannerBean.getTokens() args:[]timeOut:2000
 *****************************(ExtraCommandSuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.CallBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.CallCommand(java.lang.String)with args:[CaLL]timeOut:2000
-Calling on object grail.extraCommandBeans.CallCommand@191ae03f 421191743 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[CaLL]timeOut:2000
-Calling on object grail.extraCommandBeans.CallCommand@191ae03f 421191743 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.CallCommand@191ae03f 421191743 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.CallCommand@6014a9ba 1611966906 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[CaLL]timeOut:2000
+Calling on object grail.extraCommandBeans.CallCommand@6014a9ba 1611966906 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.CallCommand@6014a9ba 1611966906 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.DefineBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.DefineCommand(java.lang.String)with args:[DeFine]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@9635fa 9844218 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[DeFine]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@9635fa 9844218 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@9635fa 9844218 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@acdcf71 181260145 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[DeFine]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@acdcf71 181260145 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@acdcf71 181260145 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.ProceedAllBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.ProceedAllCommand(java.lang.String)with args:[proceEdAll]timeOut:2000
-Calling on object grail.extraCommandBeans.ProceedAllCommand@53ab0286 1403716230 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[proceEdAll]timeOut:2000
-Calling on object grail.extraCommandBeans.ProceedAllCommand@53ab0286 1403716230 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.ProceedAllCommand@53ab0286 1403716230 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.ProceedAllCommand@77d680e6 2010546406 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[proceEdAll]timeOut:2000
+Calling on object grail.extraCommandBeans.ProceedAllCommand@77d680e6 2010546406 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.ProceedAllCommand@77d680e6 2010546406 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RedoBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.DefineCommand(java.lang.String)with args:[RedO]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@63c5efee 1673916398 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RedO]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@63c5efee 1673916398 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.DefineCommand@63c5efee 1673916398 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@4a14c44f 1242874959 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RedO]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@4a14c44f 1242874959 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.DefineCommand@4a14c44f 1242874959 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateLeftArmBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.RotateLeftArmCommand(java.lang.String)with args:[RotateLeftArm]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateLeftArmCommand@2d10e0b1 756080817 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RotateLeftArm]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateLeftArmCommand@2d10e0b1 756080817 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateLeftArmCommand@2d10e0b1 756080817 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateLeftArmCommand@f08fdce 252247502 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RotateLeftArm]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateLeftArmCommand@f08fdce 252247502 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateLeftArmCommand@f08fdce 252247502 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateRightArmBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.RotateRightArmCommand(java.lang.String)with args:[RotateRightArm]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateRightArmCommand@1c98290c 479734028 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RotateRightArm]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateRightArmCommand@1c98290c 479734028 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.RotateRightArmCommand@1c98290c 479734028 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateRightArmCommand@6bda1d19 1809456409 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[RotateRightArm]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateRightArmCommand@6bda1d19 1809456409 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.RotateRightArmCommand@6bda1d19 1809456409 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.SleepBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.SleepCommand(java.lang.String)with args:[Sleep]timeOut:2000
-Calling on object grail.extraCommandBeans.SleepCommand@172ca72b 388802347 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Sleep]timeOut:2000
-Calling on object grail.extraCommandBeans.SleepCommand@172ca72b 388802347 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.SleepCommand@172ca72b 388802347 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.SleepCommand@28c86134 684220724 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Sleep]timeOut:2000
+Calling on object grail.extraCommandBeans.SleepCommand@28c86134 684220724 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.SleepCommand@28c86134 684220724 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.ThreadBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.ThreadCommand(java.lang.String)with args:[Thread]timeOut:2000
-Calling on object grail.extraCommandBeans.ThreadCommand@5bda80bf 1541046463 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Thread]timeOut:2000
-Calling on object grail.extraCommandBeans.ThreadCommand@5bda80bf 1541046463 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.ThreadCommand@5bda80bf 1541046463 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.ThreadCommand@4492eede 1150480094 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Thread]timeOut:2000
+Calling on object grail.extraCommandBeans.ThreadCommand@4492eede 1150480094 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.ThreadCommand@4492eede 1150480094 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.UndoBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.UndoCommand(java.lang.String)with args:[Undo]timeOut:2000
-Calling on object grail.extraCommandBeans.UndoCommand@71e5f61d 1910896157 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Undo]timeOut:2000
-Calling on object grail.extraCommandBeans.UndoCommand@71e5f61d 1910896157 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.UndoCommand@71e5f61d 1910896157 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.UndoCommand@cbc8d0f 213683471 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[Undo]timeOut:2000
+Calling on object grail.extraCommandBeans.UndoCommand@cbc8d0f 213683471 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.UndoCommand@cbc8d0f 213683471 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment4.testcases.commands.extra.WaitBeanTest: 1.0
 Calling constructor public grail.extraCommandBeans.WaitCommand(java.lang.String)with args:[wait]timeOut:2000
-Calling on object grail.extraCommandBeans.WaitCommand@2ce86164 753426788 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[wait]timeOut:2000
-Calling on object grail.extraCommandBeans.WaitCommand@2ce86164 753426788 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
-Calling on object grail.extraCommandBeans.WaitCommand@2ce86164 753426788 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.WaitCommand@37b57b54 934640468 method:public void grail.tokenBeans.WordToken.setInput(java.lang.String) args:[wait]timeOut:2000
+Calling on object grail.extraCommandBeans.WaitCommand@37b57b54 934640468 method:public java.lang.String grail.tokenBeans.WordToken.getInput() args:[]timeOut:2000
+Calling on object grail.extraCommandBeans.WaitCommand@37b57b54 934640468 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
 *****************************(MovingRotatingLineSuite)*****************************
 ### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineFortyFiveDegreeTest: 1.0
 Calling constructor public grail.shapes.RotatingLine()with args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineMinusFortyFiveDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[-0.7853981633974483]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[-0.7853981633974483]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineFortyFiveDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineMinusFortyFiveDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[-0.7853981633974483]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[20]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[40]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[-0.7853981633974483]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 *****************************(FixedRotatingLineSuite)*****************************
 ### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineZeroDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineFortyFiveDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[0.7853981633974483]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineNinetyDegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[1.5707963267948966]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[1.5707963267948966]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLine180DegreeTest: 1.0
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setAngle(double) args:[3.141592653589793]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.shapes.RotatingLine@51df223b 1373577787 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setX(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setY(int) args:[0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setAngle(double) args:[3.141592653589793]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public void grail.shapes.RotatingLine.setRadius(double) args:[5.0]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public int grail.shapes.RotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.RotatingLine@f288c14 254315540 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
 *****************************(Required command token classes instantiated)*****************************

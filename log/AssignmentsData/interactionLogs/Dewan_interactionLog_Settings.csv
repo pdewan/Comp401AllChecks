@@ -1297,3 +1297,26 @@
 1475617979614,17:52:59,NavigationInitiated
 1475617979629,17:52:59,GraderSettingsEnded
 1475617980098,17:53:00,ProjectStepperStarted
+1475702600407,17:23:20,ModuleUserChange,null
+1475702600501,17:23:20,AnimationPauseTimeUserChange,2
+1475702613498,17:23:33,GraderSettingsDisplayed
+1475702613521,17:23:33,GraderSettingsStarted,Comp401f16,null,previous,tstudent0,Automatic and then manual,Grading Status,All
+1475702687701,17:24:47,NavigationParameterChange,All
+1475702687732,17:24:47,GradingStatusUserChange,All
+1475702687763,17:24:47,ProblemUserChange,null
+1475702687795,17:24:47,DownloadPathUserChange,D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment4
+1475702749246,17:25:49,NavigationInitiated
+1475702749465,17:25:49,GraderSettingsEnded
+1475702761538,17:26:01,ModuleUserChange,null
+1475702761554,17:26:01,AnimationPauseTimeUserChange,2
+1475702761554,17:26:01,ProblemUserChange,null
+1475702764633,17:26:04,GraderSettingsDisplayed
+1475702764649,17:26:04,GraderSettingsStarted,Comp401f16,Assignment4,previous,tstudent0,Automatic and then manual,Grading Status,All
+1475702859038,17:27:39,ModuleUserChange,null
+1475702859054,17:27:39,AnimationPauseTimeUserChange,2
+1475702859069,17:27:39,ProblemUserChange,null
+1475702862541,17:27:42,GraderSettingsDisplayed
+1475702862541,17:27:42,GraderSettingsStarted,Comp401f16,Assignment4,previous,tstudent0,Automatic and then manual,Grading Status,All
+1475702929844,17:28:49,NavigationInitiated
+1475702930079,17:28:50,GraderSettingsEnded
+1475702939300,17:28:59,ProjectStepperStarted

@@ -17,236 +17,236 @@ No class matching: [Fail]
 *****************************(TokenArraySuite)*****************************
 ### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@1e461e41 507911745 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.ScannerBean@6bcbf05b 1808527451 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@4bfca99e
+grail.tokenBeans.WordToken@33ce9481
 ARthur
 arthur
-grail.tokenBeans.WordToken@453b4e91
+grail.tokenBeans.WordToken@3d096c88
 GaLahad
 galahad
-grail.tokenBeans.WordToken@4104c2ee
+grail.tokenBeans.WordToken@3936fff1
 Lancelot
 lancelot
-Calling on object grail.ScannerBean@1e461e41 507911745 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6bcbf05b 1808527451 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@5ba88be8 1537772520 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot]timeOut:2000
+Calling on object grail.ScannerBean@59942b48 1502882632 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@40644aa
+grail.tokenBeans.WordToken@7c3466b3
 ARthur
 arthur
-grail.tokenBeans.WordToken@2a98aded
+grail.tokenBeans.WordToken@3b198f28
 GaLahad
 galahad
-grail.tokenBeans.WordToken@354821e9
+grail.tokenBeans.WordToken@4d82d9ef
 Lancelot
 lancelot
-Calling on object grail.ScannerBean@5ba88be8 1537772520 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@59942b48 1502882632 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@3899782c 949581868 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.ScannerBean@18a645fd 413550077 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
 Tokens:
-grail.tokenBeans.NumberToken@523c961c
+grail.tokenBeans.NumberToken@43456ed9
 0234
 234
-grail.tokenBeans.NumberToken@6429bbe5
+grail.tokenBeans.NumberToken@1c1b99fc
 3023
 3023
-grail.tokenBeans.NumberToken@b319548
+grail.tokenBeans.NumberToken@6b0c3598
 111
 111
-Calling on object grail.ScannerBean@3899782c 949581868 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@18a645fd 413550077 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@1603cd68 369347944 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111]timeOut:2000
+Calling on object grail.ScannerBean@6090f3ca 1620112330 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111]timeOut:2000
 Tokens:
-grail.tokenBeans.NumberToken@7f82baae
+grail.tokenBeans.NumberToken@301ad4b7
 0234
 234
-grail.tokenBeans.NumberToken@49385f34
+grail.tokenBeans.NumberToken@584147cb
 3023
 3023
-grail.tokenBeans.NumberToken@60672365
+grail.tokenBeans.NumberToken@1855e146
 111
 111
-Calling on object grail.ScannerBean@1603cd68 369347944 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6090f3ca 1620112330 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@4b23c30a 1260634890 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.ScannerBean@f9b5552 261838162 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
 Tokens:
-grail.tokenBeans.QuoteToken@677b61f4
+grail.tokenBeans.QuoteToken@12ffa721
 Sea Gull 
-grail.tokenBeans.QuoteToken@dc6e07f
+grail.tokenBeans.QuoteToken@74a666a5
  A m e r i c a n 
-grail.tokenBeans.QuoteToken@60cdf0c
+grail.tokenBeans.QuoteToken@268b08e5
  E uropean 
-Calling on object grail.ScannerBean@4b23c30a 1260634890 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@f9b5552 261838162 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@38089a5a 940087898 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean "]timeOut:2000
+Calling on object grail.ScannerBean@6872f9c8 1752365512 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean "]timeOut:2000
 Tokens:
-grail.tokenBeans.QuoteToken@5f29a8a3
+grail.tokenBeans.QuoteToken@11e382a3
 Sea Gull 
-grail.tokenBeans.QuoteToken@63611673
+grail.tokenBeans.QuoteToken@7e4ae911
  A m e r i c a n 
-grail.tokenBeans.QuoteToken@599ec778
+grail.tokenBeans.QuoteToken@399e3b33
  E uropean 
-Calling on object grail.ScannerBean@38089a5a 940087898 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6872f9c8 1752365512 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@66c92293 1724457619 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.ScannerBean@bdecc21 199150625 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@390a87f8
+grail.tokenBeans.WordToken@472cd0c5
 pass
 pass
-grail.tokenBeans.WordToken@2b745cca
+grail.tokenBeans.WordToken@4ad7b419
 PAss
 pass
-grail.tokenBeans.WordToken@40cd0559
+grail.tokenBeans.WordToken@63fcde33
 PASS
 pass
-Calling on object grail.ScannerBean@66c92293 1724457619 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@bdecc21 199150625 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@332796d3 858232531 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS]timeOut:2000
+Calling on object grail.ScannerBean@5e3a39cd 1580874189 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@6fc7af3f
+grail.tokenBeans.WordToken@2b7336dc
 pass
 pass
-grail.tokenBeans.WordToken@29fc078
+grail.tokenBeans.WordToken@af8718f
 PAss
 pass
-grail.tokenBeans.WordToken@b844eed
+grail.tokenBeans.WordToken@7d786bb5
 PASS
 pass
-Calling on object grail.ScannerBean@332796d3 858232531 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5e3a39cd 1580874189 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@3cdf2c61 1021258849 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.ScannerBean@201aa8c1 538618049 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@234b6509
+grail.tokenBeans.WordToken@78f02f6f
 fail
 fail
-grail.tokenBeans.WordToken@71278808
+grail.tokenBeans.WordToken@4a07237b
 FAil
 fail
-grail.tokenBeans.WordToken@dc70a54
+grail.tokenBeans.WordToken@33a47bd
 FAIL
 fail
-Calling on object grail.ScannerBean@3cdf2c61 1021258849 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@201aa8c1 538618049 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@13ad5cd3 330128595 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL]timeOut:2000
+Calling on object grail.ScannerBean@5d58c727 1566099239 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@241dce27
+grail.tokenBeans.WordToken@3da1b1ac
 fail
 fail
-grail.tokenBeans.WordToken@5c069480
+grail.tokenBeans.WordToken@44536a20
 FAil
 fail
-grail.tokenBeans.WordToken@11ac20c0
+grail.tokenBeans.WordToken@37bc852a
 FAIL
 fail
-Calling on object grail.ScannerBean@13ad5cd3 330128595 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5d58c727 1566099239 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@5bf0fe62 1542520418 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.ScannerBean@3a095ec0 973692608 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@248c1d0b
+grail.tokenBeans.WordToken@66ea3bcf
 approach
 approach
-grail.tokenBeans.WordToken@6eaa934b
+grail.tokenBeans.WordToken@56f6da6f
 APProach
 approach
-grail.tokenBeans.WordToken@6e0b88a
+grail.tokenBeans.WordToken@92ba8fb
 APPROACH
 approach
-Calling on object grail.ScannerBean@5bf0fe62 1542520418 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@3a095ec0 973692608 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@1e097d59 503938393 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH]timeOut:2000
+Calling on object grail.ScannerBean@4f20a5e0 1327539680 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@763a32b6
+grail.tokenBeans.WordToken@5aede921
 approach
 approach
-grail.tokenBeans.WordToken@329a1d3f
+grail.tokenBeans.WordToken@6d6e95f0
 APProach
 approach
-grail.tokenBeans.WordToken@810f0ec
+grail.tokenBeans.WordToken@d2b0f90
 APPROACH
 approach
-Calling on object grail.ScannerBean@1e097d59 503938393 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@4f20a5e0 1327539680 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@6581dc0a 1703009290 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.ScannerBean@1d782abe 494414526 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@b373d8c
+grail.tokenBeans.WordToken@591302be
 repeat
 repeat
-grail.tokenBeans.WordToken@2c3f11de
+grail.tokenBeans.WordToken@6c825c5c
 REpeat
 repeat
-grail.tokenBeans.WordToken@4e2e9283
+grail.tokenBeans.WordToken@75da9529
 REPEAT
 repeat
-Calling on object grail.ScannerBean@6581dc0a 1703009290 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@1d782abe 494414526 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@39de3d36 970865974 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT]timeOut:2000
+Calling on object grail.ScannerBean@6df7988f 1844942991 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@41368c3a
+grail.tokenBeans.WordToken@2058438d
 repeat
 repeat
-grail.tokenBeans.WordToken@735f02cd
+grail.tokenBeans.WordToken@611fa3ca
 REpeat
 repeat
-grail.tokenBeans.WordToken@27ba4c99
+grail.tokenBeans.WordToken@1f816309
 REPEAT
 repeat
-Calling on object grail.ScannerBean@39de3d36 970865974 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6df7988f 1844942991 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 0.0
 ### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@54e7df6a 1424482154 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.ScannerBean@22fba58c 586917260 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@1dba6867
+grail.tokenBeans.WordToken@3e53ce0d
 say
 say
-grail.tokenBeans.WordToken@681860b6
+grail.tokenBeans.WordToken@5c75b661
 SAy
 say
-grail.tokenBeans.WordToken@635a5e12
+grail.tokenBeans.WordToken@40685fd6
 SAY
 say
-Calling on object grail.ScannerBean@54e7df6a 1424482154 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@22fba58c 586917260 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@3fed2870 1072506992 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY]timeOut:2000
+Calling on object grail.ScannerBean@7e8a46b7 2122991287 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY]timeOut:2000
 Tokens:
-grail.tokenBeans.WordToken@73f065f3
+grail.tokenBeans.WordToken@7cf41232
 say
 say
-grail.tokenBeans.WordToken@426b0f51
+grail.tokenBeans.WordToken@3b83a778
 SAy
 say
-grail.tokenBeans.WordToken@5c470d40
+grail.tokenBeans.WordToken@36bbf1e1
 SAY
 say
-Calling on object grail.ScannerBean@3fed2870 1072506992 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7e8a46b7 2122991287 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
 Property Tokens not found
 ### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 0.0
 *****************************(ExtraCommandSuite)*****************************
