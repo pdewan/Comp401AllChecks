@@ -2,8 +2,8 @@ Assignment 1,Points,,,
 ,,,,
 Display ID,ID,Last Name,First Name,grade
 previous,previous,Previous,Assignment,54.6
-skeleton,skeleton,Correct,Skeleton,44.1
-stubs,stubs,Correct,Stub,63.0
+skeleton,skeleton,Correct,Skeleton,0.0
+stubs,stubs,Correct,Stub,40.95
 tstudent0,tstudent0,Test0,Student,202.65
 tstudent1,tstudent1,Test1,ImproperArrays,177.45000000000002
 tstudent2,tstudent2,Test2,MissingCommands,139.65

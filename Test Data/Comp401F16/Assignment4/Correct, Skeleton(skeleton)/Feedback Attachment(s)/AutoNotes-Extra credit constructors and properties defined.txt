@@ -12,6 +12,20 @@
 
   -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
 
+  -- expectedSetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (DefineCommand.java:1) In type DefineCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (CallCommand.java:1) In type CallCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (ThreadCommand.java:1) In type ThreadCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (WaitCommand.java:1) In type WaitCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (SleepCommand.java:1) In type SleepCommand, missing setter for property Input of type String
+
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
 
   -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Input of type String

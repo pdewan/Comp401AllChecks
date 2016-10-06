@@ -1,8 +1,6 @@
 test0, student(tstudent0)
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment3 TOTAL:211.05 FEATURES:201.0 MULTIPLIER:1.05 AUTO:0:0:2 MANUAL:26:15:15 SECTIONS:[source, source_open] GRADERS:[Semion, dewan]
+Comp401f16:Assignment3 TOTAL:211.05 FEATURES:201.0 MULTIPLIER:1.05 MANUAL:0:5:32 SECTIONS:[source, source_open] GRADER:dewan
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment5 TOTAL:0.0 AUTO:0:0:1 MANUAL:33:34:11 GRADER:Semion
---------------------------------------------------------------------------------------------------
-Comp401f16:Assignment4 TOTAL:162.75 FEATURES:155.0 MULTIPLIER:1.05 AUTO:0:0:2 MANUAL:65:40:54 SECTIONS:[feedback, student_history, source, source_open, problem_history] GRADER:Semion
+Comp401f16:Assignment4 TOTAL:202.65 FEATURES:193.0 MULTIPLIER:1.05 AUTO:0:0:12 MANUAL:0:52:15 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------

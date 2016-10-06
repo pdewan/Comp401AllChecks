@@ -4,7 +4,3 @@ Comp401f16:Assignment1 TOTAL:23.1 FEATURES:21.7 MULTIPLIER:1.05 AUTO:0:0:13 MANU
 --------------------------------------------------------------------------------------------------
 Comp401f16:Assignment2 TOTAL:0.0 AUTO:0:0:0 MANUAL:0:2:31 SECTIONS:[source] GRADERS:[Semion, Dewan]
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment5 TOTAL:0.0 MANUAL:0:0:6 GRADER:Semion
---------------------------------------------------------------------------------------------------
-Comp401f16:Assignment4 TOTAL:31.5 FEATURES:30.0 MULTIPLIER:1.05 MANUAL:0:0:10 SECTIONS:[feedback, student_history, source, source_open, problem_history] GRADER:Semion
---------------------------------------------------------------------------------------------------

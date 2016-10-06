@@ -8,19 +8,19 @@ ExtraCommandSuite                                      1.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required command token classes instantiated            12.0 / 12.0
+Required command token classes instantiated            0.0 / 12.0
 Single parameter constructors defined for command tokens 0.0 /  6.0
-Properties defined for command token classes           10.0 / 18.0
-ScannerBean has Tokens property                        15.0 / 15.0
+Properties defined for command token classes           0.0 / 18.0
+ScannerBean has Tokens property                        0.0 / 15.0
 Sleep called in animation                              0.0 /  4.0
 ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
-Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       5.8 / 10.0 (Extra credit)
-RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       4.0 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 72.3
+  Points Awarded: 16.5
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: 42.3
+  Features Score: -13.5
 
 Notes from grading features:
 ----------------------------------
@@ -75,6 +75,14 @@ FixedRotatingLineSuite:
   -- Method matching setX not found in class: class grail.graphics.RotatingLine
   -- Method matching setX not found in class: class grail.graphics.RotatingLine
 
+Required command token classes instantiated:
+  -- Class matching Move not instantiated in ScannerBean
+  -- Class matching Say not instantiated in ScannerBean
+  -- Class matching Repeat not instantiated in ScannerBean
+  -- Class matching Approach not instantiated in ScannerBean
+  -- Class matching Pass not instantiated in ScannerBean
+  -- Class matching Fail not instantiated in ScannerBean
+
 Single parameter constructors defined for command tokens:
   -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
 
@@ -90,11 +98,25 @@ Single parameter constructors defined for command tokens:
 
 
 Properties defined for command token classes:
+  -- expectedSetters: (MoveCommand.java:1) In type MoveCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (SayCommand.java:1) In type SayCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RepeatCommand.java:1) In type RepeatCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (ApproachCommand.java:1) In type ApproachCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (PassCommand.java:1) In type PassCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (FailCommand.java:1) In type FailCommand, missing setter for property Input of type String
+
   -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Input of type String
 
   -- expectedGetters: (SayCommand.java:1) In type SayCommand, missing getter for property Input of type String
 
   -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (ApproachCommand.java:1) In type ApproachCommand, missing getter for property Input of type String
 
   -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Input of type String
 
@@ -102,9 +124,19 @@ Properties defined for command token classes:
 
   -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (SayCommand.java:1) In type SayCommand, missing getter for property Value of type String
+
   -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (ApproachCommand.java:1) In type ApproachCommand, missing getter for property Value of type String
+
   -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (FailCommand.java:1) In type FailCommand, missing getter for property Value of type String
+
+
+ScannerBean has Tokens property:
+  -- expectedGetters: (ScannerBean.java:1) In type ScannerBean, missing getter for property Tokens of type .*\[\]
 
 
 Sleep called in animation:
@@ -113,6 +145,18 @@ Sleep called in animation:
 ScannerBean has Errors property:
   -- expectedGetters: (ScannerBean.java:1) In type ScannerBean, missing getter for property Errors of type *//EC
 
+
+Extra credit command classes instantiated:
+  -- Class matching RotateLeftArm not instantiated in ScannerBean
+  -- Class matching RotateRightArm not instantiated in ScannerBean
+  -- Class matching Define not instantiated in ScannerBean
+  -- Class matching Call not instantiated in ScannerBean
+  -- Class matching Thread not instantiated in ScannerBean
+  -- Class matching Wait not instantiated in ScannerBean
+  -- Class matching ProceedAll not instantiated in ScannerBean
+  -- Class matching Sleep not instantiated in ScannerBean
+  -- Class matching Undo not instantiated in ScannerBean
+  -- Class matching Redo not instantiated in ScannerBean
 
 Extra credit constructors and properties defined:
   -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
@@ -128,6 +172,20 @@ Extra credit constructors and properties defined:
   -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
 
   -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedSetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (DefineCommand.java:1) In type DefineCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (CallCommand.java:1) In type CallCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (ThreadCommand.java:1) In type ThreadCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (WaitCommand.java:1) In type WaitCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (SleepCommand.java:1) In type SleepCommand, missing setter for property Input of type String
 
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
 
@@ -151,6 +209,12 @@ Extra credit constructors and properties defined:
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: @rotate:int->*
+
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: setAngle:double->void
+
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: setRadius:double->void
+
   -- main.Assignment4 not found by checkstyle
 
 
@@ -164,4 +228,4 @@ illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon
 
 
 Early benefit: 105.0%
-  Total Score: 44.1
+  Total Score: 0.0

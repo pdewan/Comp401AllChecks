@@ -8,19 +8,19 @@ ExtraCommandSuite                                      2.0 / 10.0 (Extra credit)
 MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
 FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required command token classes instantiated            12.0 / 12.0
+Required command token classes instantiated            0.0 / 12.0
 Single parameter constructors defined for command tokens 0.0 /  6.0
 Properties defined for command token classes           18.0 / 18.0
 ScannerBean has Tokens property                        15.0 / 15.0
 Sleep called in animation                              0.0 /  4.0
 ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
-Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
 Extra credit constructors and properties defined       8.3 / 10.0 (Extra credit)
-RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 8.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 90.3
+  Points Awarded: 69.3
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: 60.3
+  Features Score: 39.3
 
 Notes from grading features:
 ----------------------------------
@@ -64,16 +64,24 @@ ExtraCommandSuite:
   --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
 
 MovingRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight -4
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight -4
 
 FixedRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@b25b095 computedWidth 0 != correctWidth 5
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@b25b095 computedHeight 0 != correctHeight 5
-  -- In: grail.graphics.RotatingLine@b25b095 computedWidth 0 != correctWidth -5
+  -- In: grail.graphics.RotatingLine@6c65860d computedWidth 0 != correctWidth 5
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 5
+  -- In: grail.graphics.RotatingLine@6c65860d computedWidth 0 != correctWidth -5
+
+Required command token classes instantiated:
+  -- Class matching Move not instantiated in ScannerBean
+  -- Class matching Say not instantiated in ScannerBean
+  -- Class matching Repeat not instantiated in ScannerBean
+  -- Class matching Approach not instantiated in ScannerBean
+  -- Class matching Pass not instantiated in ScannerBean
+  -- Class matching Fail not instantiated in ScannerBean
 
 Single parameter constructors defined for command tokens:
   -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
@@ -92,6 +100,18 @@ Single parameter constructors defined for command tokens:
 Sleep called in animation:
   -- main.Assignment4 not found by checkstyle
 
+Extra credit command classes instantiated:
+  -- Class matching RotateLeftArm not instantiated in ScannerBean
+  -- Class matching RotateRightArm not instantiated in ScannerBean
+  -- Class matching Define not instantiated in ScannerBean
+  -- Class matching Call not instantiated in ScannerBean
+  -- Class matching Thread not instantiated in ScannerBean
+  -- Class matching Wait not instantiated in ScannerBean
+  -- Class matching ProceedAll not instantiated in ScannerBean
+  -- Class matching Sleep not instantiated in ScannerBean
+  -- Class matching Undo not instantiated in ScannerBean
+  -- Class matching Redo not instantiated in ScannerBean
+
 Extra credit constructors and properties defined:
   -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
 
@@ -109,6 +129,8 @@ Extra credit constructors and properties defined:
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: @rotate:int->*
+
   -- main.Assignment4 not found by checkstyle
 
 
@@ -122,4 +144,4 @@ illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon
 
 
 Early benefit: 105.0%
-  Total Score: 63.0
+  Total Score: 40.95

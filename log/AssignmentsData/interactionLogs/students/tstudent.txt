@@ -6,7 +6,5 @@ Comp401f16:Assignment2 TOTAL:10.5 FEATURES:10.0 MULTIPLIER:1.05 AUTO:0:0:18 MANU
 --------------------------------------------------------------------------------------------------
 Comp401f16:Assignment3 TOTAL:189.0 FEATURES:180.0 MULTIPLIER:1.05 AUTO:0:0:2 MANUAL:4:25:21 SECTIONS:[source, source_open] GRADER:dewan
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment5 TOTAL:66.15 FEATURES:63.0 MULTIPLIER:1.05 MANUAL:0:1:20 GRADER:Semion
---------------------------------------------------------------------------------------------------
-Comp401f16:Assignment4 TOTAL:31.5 FEATURES:30.0 MULTIPLIER:1.05 MANUAL:0:1:3 SECTIONS:[feedback, student_history, source, source_open, problem_history] GRADER:Semion
+Comp401f16:Assignment4 TOTAL:0.0 AUTO:0:0:13 MANUAL:0:9:37 SECTIONS:[source] GRADER:Dewan
 --------------------------------------------------------------------------------------------------
