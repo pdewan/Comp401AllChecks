@@ -1,8 +1,0 @@
-Assignment 1,Points,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,
-Display ID,ID,Last Name,First Name,grade,Source Points,Early/Late,Weighted Grade,PointPrintTest,TestsTestSuite,PointAngleSuite:Angle correctly computed for diferent values of X and Y,PointMainTest,PointTranslationTest,PointRadiusTest,PointPrintTest,TestsTestSuite,PointAngleSuite:Angle correctly computed for diferent values of X and Y,PointMainTest,PointTranslationTest,PointRadiusTest
-acorrect,acorrect,All,Correct,35.0,,1.0,35.0,3.0,0.0,13.0,5.0,4.0,10.0,,,,,,
-aecredit,aecredit,All,ExtraCredit,5.0,,1.0,5.0,0.0,0.0,0.0,5.0,0.0,0.0,,,,,,
-missingcode,missingcode,Missing,Code,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,,,,,
-secredit,secredit,Small,ExtraCredit,5.0,,1.0,5.0,0.0,0.0,0.0,5.0,0.0,0.0,,,,,,
-wangle,wangle,Wrong,Angle,20.3,,1.0,20.0,3.0,0.0,3.3,0.0,4.0,10.0,,,,,,
