@@ -1,0 +1,2 @@
+  -- In: grail.shapes.RotatingLine@4fe01805 computedWidth -3 != correctWidth 4
+  -- In: grail.shapes.RotatingLine@4fe01805 computedWidth -3 != correctWidth 4

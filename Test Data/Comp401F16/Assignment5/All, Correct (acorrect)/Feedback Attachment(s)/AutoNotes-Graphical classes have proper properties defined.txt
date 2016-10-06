@@ -1,0 +1,22 @@
+  -- expectedGetters: (VShape.java:1) In type VShape, missing getter for property LeftLine of type @LINE_PATTERN
+
+  -- expectedGetters: (VShape.java:1) In type VShape, missing getter for property RightLine of type @LINE_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Text of type @STRING_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Head of type @IMAGE_PATTERN
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Arms of type @Angle
+
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Legs of type @Angle
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Arthur of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Galahad of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Lancelot of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Robin of type @Avatar
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Guard of type @Avatar
+

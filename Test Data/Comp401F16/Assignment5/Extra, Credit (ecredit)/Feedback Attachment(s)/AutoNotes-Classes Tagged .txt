@@ -1,3 +1,0 @@
-  -- No class tagged: Angle
-  -- No class tagged: Avatar
-  -- No class tagged: BridgeScene

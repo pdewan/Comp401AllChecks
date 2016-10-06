@@ -1,0 +1,79 @@
+Grading result for: Test6, NoValue(tstudent6)
+
+Grading features...
+----------------------------------
+CommandSuite                                           6.0 / 15.0
+TokenArraySuite                                        35.0 / 40.0
+ExtraCommandSuite                                      10.0 / 10.0 (Extra credit)
+MovingRotatingLineSuite                                16.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 16.0 / 16.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Required command token classes instantiated            12.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           15.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              4.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              5.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       10.0 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 12.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
+----------------------------------
+  Points Awarded: 171.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 166.0
+
+Notes from grading features:
+----------------------------------
+CommandSuite:
+  --  Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+
+TokenArraySuite:
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Output property wrong:[Value]
+  -- Incorrect bean in array: Output property wrong:[Value]
+
+Single parameter constructors defined for command tokens:
+  -- expectedConstructors: (MoveCommand.java:11) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:11) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:11) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:11) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:11) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:11) In type FailCommand, missing constructor: :String
+
+
+Properties defined for command token classes:
+  -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Value of type String
+
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment4\Test6, NoValue(tstudent6)\Submission attachment(s)\Assignment4NoValue\Assignment4NoValue\src\main\Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
+
+
+
+Early benefit: 105.0%
+  Total Score: 174.3

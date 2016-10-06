@@ -1,0 +1,126 @@
+*****************************(AngleMoveSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveLeftLineTestCase: 1.0
+Calling constructor public grail.VShape()with args:[]timeOut:2000
+Calling on object grail.VShape@63fbfaeb 1677458155 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveLeftLineTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveRightLineTestCase: 1.0
+Calling on object grail.VShape@63fbfaeb 1677458155 method:public grail.Line grail.VShape.getRightLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveRightLineTestCase: 0.0
+*****************************(BridgeSceneArthurScaleHeadTestCase)*****************************
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleHeadTestCase: 1.0
+Calling constructor public grail.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.ImageShape grail.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getWidth() args:[]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleHeadTestCase: 0.0
+*****************************(BridgeSceneComponentMoveSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@466276d8 1180858072 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneLancelotMoveLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.Avatar@24ba9639 616207929 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@53f6fd09 1408695561 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneLancelotMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneGalahadMoveLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.Avatar@539d019 87674905 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@3ad2e17 61681175 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneGalahadMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneRobinMoveLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.Avatar@1608bcbd 369671357 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@29ca3d04 701119748 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneRobinMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveRightLegTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.VShapeInterface grail.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.VShape@55493582 1430861186 method:public grail.Line grail.VShape.getRightLine() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveRightLegTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveHeadTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.ImageShape grail.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getX() args:[]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getY() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public void grail.Avatar.move(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getX() args:[]timeOut:2000
+Calling on object grail.AShapeImage@e70f13a 242282810 method:public int grail.AShapeImage.getY() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveHeadTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveStringShapeTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveStringShapeTestCase: 0.0
+*****************************(BridgeSceneComponentScaleSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@466276d8 1180858072 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.ALine@27eedb64 669965156 method:public int grail.ALine.getWidth() args:[]timeOut:2000
+Calling on object grail.ALine@27eedb64 669965156 method:public int grail.ALine.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneLancelotScaleLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.Avatar@24ba9639 616207929 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@53f6fd09 1408695561 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.ALine@1b84f475 461698165 method:public int grail.ALine.getWidth() args:[]timeOut:2000
+Calling on object grail.ALine@1b84f475 461698165 method:public int grail.ALine.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getLancelot() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneLancelotScaleLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneGalahadScaleLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.Avatar@539d019 87674905 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@3ad2e17 61681175 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.ALine@4331d187 1127338375 method:public int grail.ALine.getWidth() args:[]timeOut:2000
+Calling on object grail.ALine@4331d187 1127338375 method:public int grail.ALine.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getGalahad() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneGalahadScaleLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneRobinScaleLeftArmTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.Avatar@1608bcbd 369671357 method:public grail.VShapeInterface grail.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.VShape@29ca3d04 701119748 method:public grail.Line grail.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.ALine@5812f68b 1477637771 method:public int grail.ALine.getWidth() args:[]timeOut:2000
+Calling on object grail.ALine@5812f68b 1477637771 method:public int grail.ALine.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getRobin() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneRobinScaleLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleRightLegTestCase: 1.0
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.Avatar@7331196b 1932597611 method:public grail.VShapeInterface grail.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.VShape@55493582 1430861186 method:public grail.Line grail.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.ALine@6b88ca8c 1804126860 method:public int grail.ALine.getWidth() args:[]timeOut:2000
+Calling on object grail.ALine@6b88ca8c 1804126860 method:public int grail.ALine.getHeight() args:[]timeOut:2000
+Calling on object grail.BridgeScene@58be6e8 93054696 method:public grail.AvatarInterface grail.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleRightLegTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Move methods defined in Angle and Avatar)*****************************
+### Angle!@move:int;int->void: 1.0
+### Avatar!@move:int;int->void: 1.0
+*****************************(Sleep called in animation)*****************************
+### main.Assignment5!ThreadSupport!sleep:long->void: 1.0
+*****************************(Scale method defined in avatar)*****************************
+### Avatar!scale:double->void: 1.0
+*****************************(Proper classes instantiated within each other)*****************************
+### main.Assignment5!BridgeScene: 1.0
+### BridgeScene!Avatar: 1.0
+### Avatar!Angle: 1.0
+*****************************(Required constructors defined for graphical classes)*****************************
+### Angle!:: 1.0
+### Avatar!:@IMAGE_PATTERN: 0.0
+### BridgeScene!:: 1.0
+*****************************(Graphical classes have proper properties defined)*****************************
+### Angledefines getter for property LeftLine: 0.0
+### Angledefines getter for property RightLine: 0.0
+### Avatardefines getter for property Text: 0.0
+### Avatardefines getter for property Head: 0.0
+### Avatardefines getter for property Arms: 0.0
+### Avatardefines getter for property Legs: 0.0
+### BridgeScenedefines getter for property Arthur: 0.0
+### BridgeScenedefines getter for property Galahad: 0.0
+### BridgeScenedefines getter for property Lancelot: 0.0
+### BridgeScenedefines getter for property Robin: 0.0
+### BridgeScenedefines getter for property Guard: 0.0

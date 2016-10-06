@@ -91,3 +91,4 @@
 55,Sat Sep 24 00:32:21 EDT 2016,true,grail\interfaces\BridgeSceneInterface.java,duplicateShortTypeName,BridgeSceneInterface,[grail.graphics.BridgeSceneInterface, grail.interfaces.BridgeSceneInterface]
 55,Sat Sep 24 00:32:21 EDT 2016,true,grail\graphics\StringShape.java,duplicateShortTypeName,StringShape,[grail.graphics.StringShape, grail.interfaces.StringShape]
 55,Sat Sep 24 00:32:21 EDT 2016,true,mp\scanner\ScanningIterator.java,functionAssignsGlobal,ScanningIterator,hasNext
+56,Sun Oct 02 23:05:30 EDT 2016,true,grail\interfaces\RotatingLineInterface.java,typeDefined,RotatingLineInterface,@RotatingLine//EC,Interface

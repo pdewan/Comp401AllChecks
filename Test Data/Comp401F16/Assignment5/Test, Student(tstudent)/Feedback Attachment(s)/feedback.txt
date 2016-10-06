@@ -2,42 +2,75 @@ Grading result for: Test, Student(tstudent)
 
 Grading features...
 ----------------------------------
-Angle Bean                                             6.0 /  6.0
-Avatar Bean                                            15.0 / 15.0
-Bridge Scene Bean                                      10.0 / 10.0
-Angle connection                                       0.0 /  7.0
-Angle move                                             0.0 /  7.0
-Avatar connection                                      0.0 / 15.0
-Avatar move                                            0.0 / 15.0
-Bridge Scene Display Constraints                       0.0 /  5.0
-Scene  Demo                                            0.0 / 10.0
-Avatar Move Demo                                       0.0 / 10.0
-Avatar Scale Method                                    0.0 /  2.0 (Extra credit)
-Avatar scale demo                                      0.0 /  6.0 (Extra credit)
-Rotate arm demo                                        0.0 /  7.0 (Extra credit)
+AngleMoveSuite                                         0.0 / 20.0
+BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
+BridgeSceneComponentMoveSuite                          0.0 / 40.0
+BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Move methods defined in Angle and Avatar               10.0 / 10.0
+Sleep called in animation                              0.0 /  2.0
+Scale method defined in avatar                         10.0 / 10.0
+Proper classes instantiated within each other          4.0 /  6.0
+Required constructors defined for graphical classes    9.0 /  9.0
+Graphical classes have proper properties defined       30.0 / 33.0
+Elements in animation are properly connected.          0.0 / 10.0
+Animation shows proper use of move function.           0.0 / 10.0
+Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
+Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 31.0
+  Points Awarded: 73.0
 
 Grading restrictions...
 ----------------------------------
-Class has interface check                   0.0 /  -5.0
-Variable has class type                     0.0 /  -5.0
-Single main.Assignment                      0.0 /  -10.0
-Classes Tagged                              0.0 /  -9.0
-No image files.                             -5.0 /  -5.0
-No public variables.                        0.0 /  -5.0
-No System.exit()                            0.0 /  -5.0
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
 Interactive Run                             -5.0 /  -5.0
 ----------------------------------
   Points Deducted: -10.0
 
-  Features Score: 21.0
+  Features Score: 63.0
 
 Notes from grading features:
 ----------------------------------
-Avatar Scale Method:
-  -- Can't find 'scale' method in class 'AnAvatar'
+AngleMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+
+BridgeSceneArthurScaleHeadTestCase:
+  -- Method matching scale not found in class: class grail.Avatar
+
+BridgeSceneComponentMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- java.lang.NullPointerException null
+  -- Method matching getStringShape not found in class: class grail.Avatar
+
+BridgeSceneComponentScaleSuite:
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+
+Sleep called in animation:
+  -- main.Assignment5 not found by checkstyle
+
+Proper classes instantiated within each other:
+  -- main.Assignment5 not found by checkstyle
+
+Graphical classes have proper properties defined:
+  -- expectedGetters: (AnAvatar.java:1) In type AnAvatar, missing getter for property Text of type @STRING_PATTERN
+
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- No project run interactively
 
 
 Early benefit: 105.0%
-  Total Score: 22.05
+  Total Score: 66.15

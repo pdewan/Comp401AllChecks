@@ -1,76 +1,64 @@
-Grading result for: Test4, Student(tstudent4)
+Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
-PlusBeanTest                                           5.0 /  5.0
-EndBeanTest                                            5.0 /  5.0
-StartBeanTest                                          5.0 /  5.0
-MultipleSignTokenOutputTest:Multiple Signs Output      0.0 /  5.0 (Extra credit)
-MultipleNumberTokenOutputTest:Multiple Numbers Output  0.0 / 10.0
-MultipleQuoteTokenOutputTest:Multiple Quotes Output    0.0 / 10.0
-MinusBeanTest                                          5.0 /  5.0
-MultipleWordTokenOutputTest:Multiple Words Output      0.0 / 10.0
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output 0.0 / 10.0
-QuoteBeanTest                                          5.0 /  5.0
-WordBeanTest                                           7.0 / 10.0
-NumberBeanTest                                         7.0 / 10.0
-getInput and getValue are called in scannerBean        10.0 / 10.0
+AngleMoveSuite                                         0.0 / 20.0
+BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
+BridgeSceneComponentMoveSuite                          0.0 / 40.0
+BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Required token classes instantiated                    15.0 / 15.0
-Single parameter constructors defined                  15.0 / 15.0
-Properties defined for token classes                   21.0 / 21.0
-Necessary interfaces created and used                  21.0 / 21.0
-Extra credit classes instantiated, with proper interfaces 8.0 /  8.0 (Extra credit)
-Extra credit constructors and properties defined       8.0 /  8.0 (Extra credit)
-Screenshots enclosed                                   0.0 / 10.0
+Move methods defined in Angle and Avatar               10.0 / 10.0
+Sleep called in animation                              0.0 /  2.0
+Scale method defined in avatar                         10.0 / 10.0
+Proper classes instantiated within each other          6.0 /  6.0
+Required constructors defined for graphical classes    6.0 /  9.0
+Graphical classes have proper properties defined       30.0 / 33.0
+Elements in animation are properly connected.          0.0 / 10.0
+Animation shows proper use of move function.           0.0 / 10.0
+Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
+Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 147.0
+  Points Awarded: 72.0
 
 Grading restrictions...
 ----------------------------------
-Variables have interface, not class, type   0.0 /  -10.0
-Illegal import or call                      0.0 /  -25.0
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Interactive Run                             0.0 /  -5.0
 ----------------------------------
-  Points Deducted: 0.0
+  Points Deducted: -5.0
 
-  Features Score: 147.0
+  Features Score: 67.0
 
 Notes from grading features:
 ----------------------------------
-MultipleSignTokenOutputTest:Multiple Signs Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+AngleMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
 
+BridgeSceneArthurScaleHeadTestCase:
+  -- Method matching scale not found in class: class grail.Avatar
 
-MultipleNumberTokenOutputTest:Multiple Numbers Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+BridgeSceneComponentMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- java.lang.NullPointerException null
+  -- Method matching getStringShape not found in class: class grail.Avatar
 
+BridgeSceneComponentScaleSuite:
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
 
-MultipleQuoteTokenOutputTest:Multiple Quotes Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
+Sleep called in animation:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Stub(stubs)\Submission attachment(s)\Stub\Stub\src\main\Assignment5.java:1: warning: missingMethodCall: (Assignment5.java:1) has not made expected call         ThreadSupport!sleep:long->void
 
-
-MultipleWordTokenOutputTest:Multiple Words Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output:
-  -- java.lang.Error Unresolved compilation problem: 
-	The method maybeAssertInfinite() is undefined for the type AbstractNumberScanningTest
-
-
-WordBeanTest:
-  -- One or more dependent properties is erroneous
-
-NumberBeanTest:
-  -- One or more dependent properties is erroneous
-
-Screenshots enclosed:
-  -- Missing images
 
 
 Early benefit: 105.0%
-  Total Score: 154.35
+  Total Score: 70.35000000000001

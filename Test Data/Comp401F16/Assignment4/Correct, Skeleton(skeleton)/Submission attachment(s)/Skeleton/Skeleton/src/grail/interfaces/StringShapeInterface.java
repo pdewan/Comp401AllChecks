@@ -3,7 +3,7 @@ package grail.interfaces;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
-@StructurePattern(StructurePatternNames.TEXT_PATTERN)
+@StructurePattern(StructurePatternNames.STRING_PATTERN)
 public interface StringShapeInterface {
 	
 }
