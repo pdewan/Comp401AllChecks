@@ -387,39 +387,39 @@ Calling constructor public grail.graphics.RotatingLine()with args:[]timeOut:2000
 ### Call!:String: 0.0
 ### Thread!:String: 0.0
 ### Wait!:String: 0.0
-### ProceedAll!:String: 1.0
+### ProceedAll!:String: 0.0
 ### Sleep!:String: 0.0
-### Undo!:String: 1.0
-### Redo!:String: 1.0
+### Undo!:String: 0.0
+### Redo!:String: 0.0
 ### RotateLeftArm defines setter for property Input: 0.0
 ### RotateRightArm defines setter for property Input: 0.0
 ### Define defines setter for property Input: 0.0
 ### Call defines setter for property Input: 0.0
 ### Thread defines setter for property Input: 0.0
 ### Wait defines setter for property Input: 0.0
-### ProceedAll defines setter for property Input: 1.0
+### ProceedAll defines setter for property Input: 0.0
 ### Sleep defines setter for property Input: 0.0
-### Undo defines setter for property Input: 1.0
-### Redo defines setter for property Input: 1.0
+### Undo defines setter for property Input: 0.0
+### Redo defines setter for property Input: 0.0
 ### RotateLeftArmdefines getter for property Input: 0.0
 ### RotateRightArmdefines getter for property Input: 0.0
 ### Definedefines getter for property Input: 0.0
 ### Calldefines getter for property Input: 0.0
 ### Threaddefines getter for property Input: 0.0
 ### Waitdefines getter for property Input: 0.0
-### ProceedAlldefines getter for property Input: 1.0
+### ProceedAlldefines getter for property Input: 0.0
 ### Sleepdefines getter for property Input: 0.0
-### Undodefines getter for property Input: 1.0
-### Redodefines getter for property Input: 1.0
+### Undodefines getter for property Input: 0.0
+### Redodefines getter for property Input: 0.0
 ### RotateLeftArmdefines getter for property Value: 0.0
 ### RotateRightArmdefines getter for property Value: 1.0
 ### Definedefines getter for property Value: 0.0
 ### Calldefines getter for property Value: 1.0
 ### Threaddefines getter for property Value: 0.0
 ### Waitdefines getter for property Value: 1.0
-### ProceedAlldefines getter for property Value: 1.0
+### ProceedAlldefines getter for property Value: 0.0
 ### Sleepdefines getter for property Value: 1.0
-### Undodefines getter for property Value: 1.0
+### Undodefines getter for property Value: 0.0
 ### Redodefines getter for property Value: 1.0
 *****************************(RotatingLine has required properties and methods, and rotate is called in animation)*****************************
 ### RotatingLine!@rotate:int->*: 0.0

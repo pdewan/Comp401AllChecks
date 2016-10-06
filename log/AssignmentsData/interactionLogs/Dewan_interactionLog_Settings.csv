@@ -1360,3 +1360,11 @@
 1475716735910,21:18:55,NavigationInitiated
 1475716736097,21:18:56,GraderSettingsEnded
 1475716740645,21:19:00,ProjectStepperStarted
+1475767049288,11:17:29,ModuleUserChange,null
+1475767049335,11:17:29,AnimationPauseTimeUserChange,2
+1475767049366,11:17:29,ProblemUserChange,null
+1475767052987,11:17:32,GraderSettingsDisplayed
+1475767052997,11:17:32,GraderSettingsStarted,Comp401f16,Assignment4,skeleton,skeleton,Automatic and then manual,Grading Status,All
+1475767080597,11:18:00,NavigationInitiated
+1475767080919,11:18:00,GraderSettingsEnded
+1475767088270,11:18:08,ProjectStepperStarted

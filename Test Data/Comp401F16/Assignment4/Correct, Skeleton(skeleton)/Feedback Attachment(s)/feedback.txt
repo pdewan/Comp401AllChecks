@@ -15,12 +15,12 @@ ScannerBean has Tokens property                        0.0 / 15.0
 Sleep called in animation                              0.0 /  4.0
 ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
 Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       4.0 / 10.0 (Extra credit)
+Extra credit constructors and properties defined       1.3 / 10.0 (Extra credit)
 RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 16.5
+  Points Awarded: 13.8
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -13.5
+  Features Score: -16.2
 
 Notes from grading features:
 ----------------------------------
@@ -171,7 +171,13 @@ Extra credit constructors and properties defined:
 
   -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
 
+  -- expectedConstructors: (ProceedAllCommand.java:10) In type ProceedAllCommand, missing constructor: :String
+
   -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedConstructors: (UndoCommand.java:10) In type UndoCommand, missing constructor: :String
+
+  -- expectedConstructors: (RedoCommand.java:10) In type RedoCommand, missing constructor: :String
 
   -- expectedSetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing setter for property Input of type String
 
@@ -185,7 +191,13 @@ Extra credit constructors and properties defined:
 
   -- expectedSetters: (WaitCommand.java:1) In type WaitCommand, missing setter for property Input of type String
 
+  -- expectedSetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing setter for property Input of type String
+
   -- expectedSetters: (SleepCommand.java:1) In type SleepCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (UndoCommand.java:1) In type UndoCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RedoCommand.java:1) In type RedoCommand, missing setter for property Input of type String
 
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
 
@@ -199,13 +211,23 @@ Extra credit constructors and properties defined:
 
   -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Input of type String
 
+  -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Input of type String
+
   -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RedoCommand.java:1) In type RedoCommand, missing getter for property Input of type String
 
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
 
   -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
 
   -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Value of type String
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
