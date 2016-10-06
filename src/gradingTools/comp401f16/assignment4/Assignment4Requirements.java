@@ -149,15 +149,15 @@ public class Assignment4Requirements extends AJUnitProjectRequirements{
 				
      			// Non Editable properties (getters)
 				new CheckStylePropertyDefinedTestCase("RotateLeftArm", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("RotateRightArm", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("RotateRightArm", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Define", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Call", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Call", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Thread", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Wait", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Wait", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("ProceedAll", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Sleep", "Value", "int"),
+				new CheckStylePropertyDefinedTestCase("Sleep", "Value", "String"),
 				new CheckStylePropertyDefinedTestCase("Undo", "Value", "String"),
-				new CheckStylePropertyDefinedTestCase("Redo", "Value", "int")
+				new CheckStylePropertyDefinedTestCase("Redo", "Value", "String")
      			);
      	
      	// Rotating line
@@ -172,13 +172,14 @@ public class Assignment4Requirements extends AJUnitProjectRequirements{
      			);
      	
      	addManualFeature("ScannerBean properly animated", 15, false);
-      addManualFeature("RotatingLine properly animated", 5, true);
-      
-      addManualRestriction(INTERACTIVE_RUN, 5, 
-      		new NoWarningOrErrorTestCase("OE Warnings", ".*(efresh|not in range).*",
-      											".*Assuming implicit pattern.*", 0.3));
+      addManualFeature("RotatingLine properly animated", 10, true);
+     
       
      	addRestriction("Illegal import or call", 25, new CheckStyleIllegalImportOrCallTestCase());
+     	 
+        addManualRestriction(INTERACTIVE_RUN, 5, 
+        		new NoWarningOrErrorTestCase("OE Warnings", ".*(efresh|not in range).*",
+        											".*Assuming implicit pattern.*", 0.3));
       
 	}//end method
 }

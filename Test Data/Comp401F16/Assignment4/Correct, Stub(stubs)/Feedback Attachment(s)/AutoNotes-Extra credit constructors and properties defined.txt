@@ -10,5 +10,11 @@
 
   -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
 
+  -- expectedConstructors: (ProceedAllCommand.java:10) In type ProceedAllCommand, missing constructor: :String
+
   -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedConstructors: (UndoCommand.java:10) In type UndoCommand, missing constructor: :String
+
+  -- expectedConstructors: (RedoCommand.java:10) In type RedoCommand, missing constructor: :String
 

@@ -15,22 +15,22 @@ ScannerBean has Tokens property                        0.0 / 15.0
 Sleep called in animation                              0.0 /  4.0
 ScannerBean has Errors property                        0.0 /  5.0 (Extra credit)
 Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       1.3 / 10.0 (Extra credit)
+Extra credit constructors and properties defined       0.0 / 10.0 (Extra credit)
 RotatingLine has required properties and methods, and rotate is called in animation 0.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 13.8
+  Points Awarded: 12.5
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Illegal import or call                      -25.0 /  -25.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -30.0
+  Points Deducted: -5.0
 
-  Features Score: -16.2
+  Features Score: 7.5
 
 Notes from grading features:
 ----------------------------------
@@ -221,13 +221,23 @@ Extra credit constructors and properties defined:
 
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Value of type String
+
   -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Value of type String
 
   -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Value of type String
+
   -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Value of type String
+
   -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RedoCommand.java:1) In type RedoCommand, missing getter for property Value of type String
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
@@ -240,14 +250,5 @@ RotatingLine has required properties and methods, and rotate is called in animat
   -- main.Assignment4 not found by checkstyle
 
 
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- Illegal type or call in:
-illegalTypeImported: (Image.java:3) Used disallowed class javax.swing.Icon 
-illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon 
-
-
-
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 8.4

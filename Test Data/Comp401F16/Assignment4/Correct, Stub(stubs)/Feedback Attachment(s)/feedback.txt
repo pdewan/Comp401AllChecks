@@ -15,22 +15,22 @@ ScannerBean has Tokens property                        15.0 / 15.0
 Sleep called in animation                              0.0 /  4.0
 ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
 Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
-Extra credit constructors and properties defined       8.3 / 10.0 (Extra credit)
+Extra credit constructors and properties defined       7.5 / 10.0 (Extra credit)
 RotatingLine has required properties and methods, and rotate is called in animation 8.0 / 16.0 (Extra credit)
 ScannerBean properly animated                          0.0 / 15.0
 RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 69.3
+  Points Awarded: 68.5
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Illegal import or call                      -25.0 /  -25.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -30.0
+  Points Deducted: -5.0
 
-  Features Score: 39.3
+  Features Score: 63.5
 
 Notes from grading features:
 ----------------------------------
@@ -64,16 +64,16 @@ ExtraCommandSuite:
   --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
 
 MovingRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight -4
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight -4
 
 FixedRotatingLineSuite:
-  -- In: grail.graphics.RotatingLine@6c65860d computedWidth 0 != correctWidth 5
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 4
-  -- In: grail.graphics.RotatingLine@6c65860d computedHeight 0 != correctHeight 5
-  -- In: grail.graphics.RotatingLine@6c65860d computedWidth 0 != correctWidth -5
+  -- In: grail.graphics.RotatingLine@23202c31 computedWidth 0 != correctWidth 5
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 5
+  -- In: grail.graphics.RotatingLine@23202c31 computedWidth 0 != correctWidth -5
 
 Required command token classes instantiated:
   -- Class matching Move not instantiated in ScannerBean
@@ -125,7 +125,13 @@ Extra credit constructors and properties defined:
 
   -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
 
+  -- expectedConstructors: (ProceedAllCommand.java:10) In type ProceedAllCommand, missing constructor: :String
+
   -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedConstructors: (UndoCommand.java:10) In type UndoCommand, missing constructor: :String
+
+  -- expectedConstructors: (RedoCommand.java:10) In type RedoCommand, missing constructor: :String
 
 
 RotatingLine has required properties and methods, and rotate is called in animation:
@@ -134,14 +140,5 @@ RotatingLine has required properties and methods, and rotate is called in animat
   -- main.Assignment4 not found by checkstyle
 
 
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- Illegal type or call in:
-illegalTypeImported: (Image.java:3) Used disallowed class javax.swing.Icon 
-illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon 
-
-
-
 Early benefit: 105.0%
-  Total Score: 40.95
+  Total Score: 67.2

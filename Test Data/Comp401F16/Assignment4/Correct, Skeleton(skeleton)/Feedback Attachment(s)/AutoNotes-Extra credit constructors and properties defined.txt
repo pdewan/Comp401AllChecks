@@ -60,11 +60,21 @@
 
   -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Value of type String
+
   -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Value of type String
 
   -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Value of type String
+
   -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Value of type String
 
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Value of type String
+
   -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RedoCommand.java:1) In type RedoCommand, missing getter for property Value of type String
 

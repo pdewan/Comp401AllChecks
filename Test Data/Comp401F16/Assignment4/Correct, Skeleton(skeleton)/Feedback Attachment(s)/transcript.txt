@@ -412,15 +412,15 @@ Calling constructor public grail.graphics.RotatingLine()with args:[]timeOut:2000
 ### Undodefines getter for property Input: 0.0
 ### Redodefines getter for property Input: 0.0
 ### RotateLeftArmdefines getter for property Value: 0.0
-### RotateRightArmdefines getter for property Value: 1.0
+### RotateRightArmdefines getter for property Value: 0.0
 ### Definedefines getter for property Value: 0.0
-### Calldefines getter for property Value: 1.0
+### Calldefines getter for property Value: 0.0
 ### Threaddefines getter for property Value: 0.0
-### Waitdefines getter for property Value: 1.0
+### Waitdefines getter for property Value: 0.0
 ### ProceedAlldefines getter for property Value: 0.0
-### Sleepdefines getter for property Value: 1.0
+### Sleepdefines getter for property Value: 0.0
 ### Undodefines getter for property Value: 0.0
-### Redodefines getter for property Value: 1.0
+### Redodefines getter for property Value: 0.0
 *****************************(RotatingLine has required properties and methods, and rotate is called in animation)*****************************
 ### RotatingLine!@rotate:int->*: 0.0
 ### RotatingLine!setAngle:double->void: 0.0

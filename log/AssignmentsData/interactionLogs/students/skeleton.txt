@@ -2,5 +2,5 @@ test, student(skeleton)
 --------------------------------------------------------------------------------------------------
 Comp401f16:Assignment3 TOTAL:185.85 FEATURES:177.0 MULTIPLIER:1.05 MANUAL:0:2:52 SECTIONS:[source, source_open] GRADER:dewan
 --------------------------------------------------------------------------------------------------
-Comp401f16:Assignment4 TOTAL:0.0 MANUAL:14:40:19 SECTIONS:[source] GRADER:Dewan
+Comp401f16:Assignment4 TOTAL:8.4 FEATURES:7.5 MULTIPLIER:1.05 MANUAL:0:12:36 GRADER:dewan
 --------------------------------------------------------------------------------------------------
