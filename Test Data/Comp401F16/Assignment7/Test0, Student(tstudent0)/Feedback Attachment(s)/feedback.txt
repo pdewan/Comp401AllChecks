@@ -1,0 +1,36 @@
+Grading result for: Test0, Student(tstudent0)
+
+Grading features...
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+  Points Awarded: 198.0
+
+Grading restrictions...
+----------------------------------
+
+
+
+----------------------------------
+  Points Deducted: 0.0
+
+  Features Score: 198.0
+
+Early benefit: 105.0%
+  Total Score: 207.9
