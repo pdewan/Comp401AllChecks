@@ -1,2 +1,0 @@
-  -- expectedConstructors: (Avatar.java:4) In type Avatar, missing constructor: :@IMAGE_PATTERN
-

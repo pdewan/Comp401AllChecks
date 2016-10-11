@@ -1,0 +1,52 @@
+Grading result for: Correct, Skeleton(skeleton)
+
+Grading features...
+----------------------------------
+Has a proper header                                    0.0 /  5.0
+Naming Style                                           0.0 /  5.0
+Has Prompt                                             0.0 / 10.0
+asks again                                             0.0 /  5.0
+Handling Response                                      7.5 / 15.0
+has OperateEncoder method                              0.0 /  4.0
+has StringDecoder method                               0.0 /  3.0
+has StringEncoder method                               0.0 /  3.0
+Correct return for a call to StringEncoder             0.0 / 30.0
+Correct return for a call to StringDecoder             0.0 / 20.0
+----------------------------------
+  Points Awarded: 7.5
+
+  Features Score: 7.5
+
+Notes from grading features:
+----------------------------------
+Has a proper header:
+  -- Could not automatically find header
+
+Naming Style:
+  -- The following names start with the incorrect case: 
+
+Has Prompt:
+  -- Did not correctly prompt for user input
+
+asks again:
+  -- Failed to ask again
+
+Handling Response:
+  -- Did not ask again for input upon user confirming wish to enter another message.
+
+has OperateEncoder method:
+  -- No method with name specified found in program
+
+has StringDecoder method:
+  -- No method replaceTypo found in program
+
+has StringEncoder method:
+  -- No method replaceTypo found in program
+
+Correct return for a call to StringEncoder:
+  -- No method stringEncoder
+
+Correct return for a call to StringDecoder:
+  -- No method stringDecoder
+
+  Total Score: 8.0

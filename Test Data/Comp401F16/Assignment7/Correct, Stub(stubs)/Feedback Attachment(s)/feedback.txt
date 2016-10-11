@@ -1,0 +1,64 @@
+Grading result for: Correct, Stub(stubs)
+
+Grading features...
+----------------------------------
+AngleMoveSuite                                         0.0 / 20.0
+BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
+BridgeSceneComponentMoveSuite                          0.0 / 40.0
+BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Move methods defined in Angle and Avatar               10.0 / 10.0
+Sleep called in animation                              0.0 /  2.0
+Scale method defined in avatar                         10.0 / 10.0
+Proper classes instantiated within each other          6.0 /  6.0
+Required constructors defined for graphical classes    6.0 /  9.0
+Graphical classes have proper properties defined       30.0 / 33.0
+Elements in animation are properly connected.          0.0 / 10.0
+Animation shows proper use of move function.           0.0 / 10.0
+Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
+Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
+----------------------------------
+  Points Awarded: 72.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Interactive Run                             0.0 /  -5.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 67.0
+
+Notes from grading features:
+----------------------------------
+AngleMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+
+BridgeSceneArthurScaleHeadTestCase:
+  -- Method matching scale not found in class: class grail.Avatar
+
+BridgeSceneComponentMoveSuite:
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- Method matching getX not found in class: class grail.ALine
+  -- java.lang.NullPointerException null
+  -- Method matching getStringShape not found in class: class grail.Avatar
+
+BridgeSceneComponentScaleSuite:
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+  -- Method matching scale not found in class: class grail.Avatar
+
+Sleep called in animation:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Stub(stubs)\Submission attachment(s)\Stub\Stub\src\main\Assignment5.java:1: warning: missingMethodCall: (Assignment5.java:1) has not made expected call         ThreadSupport!sleep:long->void
+
+
+
+Early benefit: 105.0%
+  Total Score: 70.35000000000001
