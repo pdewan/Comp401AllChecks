@@ -4,7 +4,7 @@ Display ID,ID,Last Name,First Name,grade
 previous,previous,Previous,Assignment,54.6
 skeleton,skeleton,Correct,Skeleton,8.4
 stubs,stubs,Correct,Stub,67.2
-tstudent0,tstudent0,Test0,Student,207.9
+tstudent0,tstudent0,Test0,Student,202.65
 tstudent1,tstudent1,Test1,ImproperArrays,177.45000000000002
 tstudent2,tstudent2,Test2,MissingCommands,139.65
 tstudent3,tstudent3,Test3,MissingTags,129.15
@@ -12,3 +12,4 @@ tstudent4,tstudent4,Test4,NotAnimating,198.45000000000002
 tstudent5,tstudent5,Test5,NotClearing,190.05
 tstudent6,tstudent6,Test6,NoValue,174.3
 tstudent7,tstudent7,Test7,OffByOne,156.45000000000002
+missingoe,missingoe,OE,Missing,0
