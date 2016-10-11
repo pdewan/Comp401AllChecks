@@ -1,0 +1,5 @@
+  -- When given input in which eye color is given BEFORE blindness, incorrect output
+When given input in which eye color is given AFTER blindness, incorrect output
+When given input in which eye color is given BEFORE normal vision, incorrect output
+When given input in which eye color is given BEFORE normal vision, incorrect output
+

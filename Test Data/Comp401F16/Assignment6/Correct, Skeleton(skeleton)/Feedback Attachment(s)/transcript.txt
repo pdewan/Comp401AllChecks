@@ -1,0 +1,43 @@
+*****************************(Has a proper header)*****************************
+### Proper header test case: 0.0
+*****************************(Naming Style)*****************************
+### Correct capitalization of variables, methods, and classes: 0.0
+*****************************(Has Prompt)*****************************
+Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
+Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
+$
+E***Null output!
+### Prompt Test Case: 0.0
+*****************************(asks again)*****************************
+Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
+Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
+$ToBeOrNotToBe
+E***Null output!
+### Asking Again Test Case: 0.0
+*****************************(Handling Response)*****************************
+Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
+Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
+$ThatIsTheQuestion
+yes
+ToBeorNotToBE
+
+E***Null output!
+Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
+Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
+$ToBeIsTheQuestion
+yes
+fooBear
+no
+
+E***Null output!
+### Handling yes and no test Case: 0.5
+*****************************(has OperateEncoder method)*****************************
+### Has OperateEncoder Method: 0.0
+*****************************(has StringDecoder method)*****************************
+### Has StringDecoder Method: 0.0
+*****************************(has StringEncoder method)*****************************
+### Has StringEncoder Method: 0.0
+*****************************(Correct return for a call to StringEncoder)*****************************
+### Method stringEncoder test case: 0.0
+*****************************(Correct return for a call to StringDecoder)*****************************
+### Method stringDecoder test case: 0.0

@@ -1,2 +1,0 @@
-  -- expectedGetters: (AnAvatar.java:1) In type AnAvatar, missing getter for property Text of type @STRING_PATTERN
-

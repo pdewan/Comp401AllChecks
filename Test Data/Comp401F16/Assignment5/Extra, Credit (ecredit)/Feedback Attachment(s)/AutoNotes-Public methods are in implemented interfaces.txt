@@ -1,3 +1,0 @@
-  -- classHasAtLeastOneInterface: (BeanStringScanner.java:1) Classes with public instance methods should implement interfaces
-classHasAtLeastOneInterface: (ExtBeanStringScanner.java:1) Classes with public instance methods should implement interfaces
-
