@@ -5,7 +5,7 @@ import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
-@Tags({"RotatingLine", "rotate"})
+@Tags({"RotatingLine"})
 public interface RotatingLineInterface {
 	public int getHeight();
 	public int getWidth();
@@ -20,5 +20,6 @@ public interface RotatingLineInterface {
 	public void setAngle(double theta);
 	public double getAngle();
 	
+	@Tags({"rotate"})
 	public void rotateByClockwiseDegrees(int degrees);
 }
