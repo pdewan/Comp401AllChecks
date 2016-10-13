@@ -20,9 +20,9 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 public class Assignment5Requirements  extends AJUnitProjectRequirements{
 	public Assignment5Requirements(){
 		addDueDate("09/29/2016 00:59:00", 1.05); 	// wed before
-     	addDueDate("08/01/2016 00:59:00", 1); 		// fri due
-     	addDueDate("08/04/2016 00:59:00", 0.95);	// mon after due
-     	addDueDate("08/08/2016 00:59:00", 0.90); 	// fri after due
+     	addDueDate("10/01/2016 00:59:00", 1); 		// fri due
+     	addDueDate("10/04/2016 00:59:00", 0.95);	// mon after due
+     	addDueDate("10/08/2016 00:59:00", 0.90); 	// fri after due
      	addDueDate("12/05/2016 00:59:00", 0.85); 	// infinity
      	
      	// Functionality
