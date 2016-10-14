@@ -5,6 +5,7 @@ import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment6.testcases.Assignment6Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStyleClassDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleMagicNumberTestCase;
@@ -44,6 +45,7 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
 //     			new CheckstyleExpectedSupertypesTestcase("Quote", "Token");
 //     			new CheckstyleExpectedSupertypesTestcase("End", "Token");
 //     			new CheckstyleExpectedSupertypesTestcase("Start", "Token");
+//     			new CheckStyleClassDefinedTestCase("Token");
 //     			);
 //     	
 //     	addFeature("Commands inherit from word token", 12,

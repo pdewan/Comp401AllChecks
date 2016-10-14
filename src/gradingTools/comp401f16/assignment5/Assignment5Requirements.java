@@ -8,6 +8,7 @@ import gradingTools.comp401f16.assignment5.testcases.Assignment5Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStyleMagicNumberTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStylePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleVariableHasClassTypeTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase;
@@ -34,6 +35,8 @@ public class Assignment5Requirements  extends AJUnitProjectRequirements{
      	
      	addRestriction("Variables should have interface, not class, type", 10, 
      			new CheckStyleVariableHasClassTypeTestCase());
+     	
+     	addRestriction("No magic numbers", 5, new CheckStyleMagicNumberTestCase());
      	
      	// Method signatures
      	addFeature("Move methods defined in Angle and Avatar", 10, 
