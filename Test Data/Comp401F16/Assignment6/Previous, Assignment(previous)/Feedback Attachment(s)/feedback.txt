@@ -7,7 +7,7 @@ TokenHistorySuite                                      0.0 / 15.0 (Extra credit)
 BridgeSceneComponentScrollSuite                        0.0 / 10.0 (Extra credit)
 InitialBridgeSceneSuite                                3.6 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Tokens inherit from general class                      4.0 / 16.0
+Tokens inherit from general class                      4.0 / 14.0
 Commands inherit from word token                       12.0 / 12.0
 Bridge scene has new methods defined                   0.0 / 12.0
 BridgeScene uses avatar move method and setText        0.0 /  6.0
@@ -57,14 +57,13 @@ BridgeSceneComponentScrollSuite:
   -- Method matching scroll not found in class: class grail.graphics.BridgeScene
 
 InitialBridgeSceneSuite:
-  -- Object null not instance of [Ljava.lang.String;@40db2a24
-  -- Object null not instance of [Ljava.lang.String;@7f132176
-  -- Object null not instance of [Ljava.lang.String;@8ad6665
+  -- Object null not instance of [Ljava.lang.String;@71984c3
+  -- Object null not instance of [Ljava.lang.String;@277f7dd3
+  -- Object null not instance of [Ljava.lang.String;@470a696f
   -- java.lang.NullPointerException null
   -- java.lang.NullPointerException null
 
 Tokens inherit from general class:
-  -- Class matching Token not defined
   -- Token not found by checkstyle
   -- Token not found by checkstyle
   -- expectedSuperTypes: (WordToken.java:10) In type WordToken, missing supertype: @Token

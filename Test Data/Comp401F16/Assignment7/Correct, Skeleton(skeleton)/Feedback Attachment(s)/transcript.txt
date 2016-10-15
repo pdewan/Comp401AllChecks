@@ -67,26 +67,26 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object grail.collections.MyTable@5ef0d29e 1592840862 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.collections.MyTable@51850751 1367672657 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@60fa3495 1627010197 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@79e18e38 2044825144 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@64df9a61 1692375649 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@2c3dec30 742255664 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@1849db1a 407493402 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@1ca25c47 480402503 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4275c20c 1115013644 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@3fc9dfc5 1070194629 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@533b266e 1396385390 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@89ff02e 144699438 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@2cac4385 749486981 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@16f7b4af 385332399 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@62679465 1650955365 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1d71006f 493944943 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.2
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0

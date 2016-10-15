@@ -367,7 +367,7 @@ import util.annotations.Visible;
 @Tags({"Avatar"})
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
-public class Avatar implements AvatarInterface {
+public class Avatar extends LocatableObject implements AvatarInterface {
 
 }
 //END OF FILE
@@ -525,7 +525,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape implements StringShapeInterface {
+public class StringShape extends LocatableObject implements StringShapeInterface {
 
 }
 //END OF FILE
@@ -545,7 +545,7 @@ import util.annotations.Visible;
 @Tags({"Angle"})
 @PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
 @EditablePropertyNames({"X", "Y", "LinesLength"})
-public class VShape implements VShapeInterface {
+public class VShape extends LocatableObject implements VShapeInterface {
 
 }
 //END OF FILE
@@ -555,7 +555,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Avatar", "move"})
-public interface AvatarInterface {
+public interface AvatarInterface extends Locatable{
 	
 }
 //END OF FILE
@@ -675,7 +675,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface {
+public interface StringShapeInterface extends Locatable{
 
 }
 //END OF FILE
@@ -705,7 +705,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Angle", "move"})
-public interface VShapeInterface {
+public interface VShapeInterface extends Locatable{
 
 }
 //END OF FILE

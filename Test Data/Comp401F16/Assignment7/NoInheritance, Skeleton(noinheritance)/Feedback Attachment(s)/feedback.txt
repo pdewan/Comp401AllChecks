@@ -1,4 +1,4 @@
-Grading result for: Correct, Skeleton(skeleton)
+Grading result for: NoInheritance, Skeleton(noinheritance)
 
 Grading features...
 ----------------------------------
@@ -10,14 +10,14 @@ CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
 FactoryMethodSuite                                     4.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         18.0 / 24.0
+Graphics inheritance hierarchy                         16.0 / 24.0
 CommandInterpreter properly uses the other classes     2.0 /  8.0
 SingletonCreator created and used in main              4.0 / 16.0
 Command interpreter has required property and is instantiated 3.0 / 12.0
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
 Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 41.0
+  Points Awarded: 39.0
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 36.0
+  Features Score: 34.0
 
 Notes from grading features:
 ----------------------------------
@@ -60,22 +60,17 @@ CommandInterpreterSignedMoveSuite:
   -- Factory method:[bridgeSceneFactoryMethod] not found.
 
 FactoryMethodSuite:
-  -- First factory method return value grail.collections.MyTable@5ef0d29e != grail.collections.MyTable@51850751
-  -- First factory method return value grail.scanner.CommandInterpreter@64df9a61 != grail.scanner.CommandInterpreter@2c3dec30
-  -- First factory method return value grail.scanner.ScannerBean@4275c20c != grail.scanner.ScannerBean@3fc9dfc5
-  -- First factory method return value grail.graphics.BridgeScene@2cac4385 != grail.graphics.BridgeScene@16f7b4af
-
-Graphics inheritance hierarchy:
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
+  -- First factory method return value grail.collections.MyTable@71812481 != grail.collections.MyTable@7b94089b
+  -- First factory method return value grail.scanner.CommandInterpreter@6155d082 != grail.scanner.CommandInterpreter@2ea6e30c
+  -- First factory method return value grail.scanner.ScannerBean@7803bfd != grail.scanner.ScannerBean@531f4093
+  -- First factory method return value grail.graphics.BridgeScene@460ebd80 != grail.graphics.BridgeScene@25aca718
 
 CommandInterpreter properly uses the other classes:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
 
 SingletonCreator created and used in main:
@@ -83,9 +78,9 @@ SingletonCreator created and used in main:
   -- SingletonsCreator not found by checkstyle
   -- SingletonsCreator not found by checkstyle
   -- SingletonsCreator not found by checkstyle
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
 
 
 Command interpreter has required property and is instantiated:
@@ -97,4 +92,4 @@ Command interpreter has required property and is instantiated:
 
 
 Early benefit: 105.0%
-  Total Score: 37.800000000000004
+  Total Score: 35.7

@@ -1,124 +1,143 @@
-*****************************(CommandInterpreterMoveSuite)*****************************
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+*****************************(BridgeSceneDynamicTestCase)*****************************
+### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 0.0
-*****************************(CommandInterpreterApproachedArthurSayTestCase)*****************************
-### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 0.0
-*****************************(CommandInterpreterMixedCaseSuite)*****************************
-### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 0.0
-*****************************(StringTableTest)*****************************
-### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 1.0
-Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 0.0
-*****************************(CommandInterpreterErrorsSuite)*****************************
-### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 0.0
-*****************************(CommandInterpreterSignedMoveSuite)*****************************
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 0.0
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
-*****************************(FactoryMethodSuite)*****************************
-### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
-Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object grail.collections.MyTable@5ef0d29e 1592840862 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.collections.MyTable@51850751 1367672657 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.2
-### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@64df9a61 1692375649 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@2c3dec30 742255664 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 0.2
-### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 0.0
+*****************************(TokenHistorySuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot 
+### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4275c20c 1115013644 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@3fc9dfc5 1070194629 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 0.2
-### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 1.0
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:0234 3023 111 
+### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean " 
+### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:pass PAss PASS 
+### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:fail FAil FAIL 
+### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:approach APProach APPROACH 
+### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT 
+### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:say SAy SAY 
+### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 0.0
+*****************************(BridgeSceneComponentScrollSuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 0.0
+*****************************(InitialBridgeSceneSuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property Gorge not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@2cac4385 749486981 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@16f7b4af 385332399 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.2
+Property KnightArea not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property GuardArea not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property Occupied not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property KnightTurn not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 0.0
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
-*****************************(Graphics inheritance hierarchy)*****************************
-### Locatabledefines getter for property X: 1.0
-### Locatabledefines getter for property Y: 1.0
-### Locatable defines setter for property X: 1.0
-### Locatable defines setter for property Y: 1.0
-### BoundedShape defined: 1.0
-### BoundedShapedefines getter for property Width: 1.0
-### BoundedShapedefines getter for property Height: 1.0
-### BoundedShape defines setter for property Width: 1.0
-### BoundedShape defines setter for property Height: 1.0
-### @LINE_PATTERN defined: 0.0
-### @STRING_PATTERN defined: 0.0
-### @IMAGE_PATTERN defined: 0.0
-*****************************(CommandInterpreter properly uses the other classes)*****************************
-### CommandInterpreter!@BridgeScene!@say:String->*: 0.0
-### CommandInterpreter!@Avatar!@move:int;int->*: 0.0
-### CommandInterpreter!@Table!@get:String->*: 1.0
-### CommandInterpreter!@SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
-*****************************(SingletonCreator created and used in main)*****************************
-### SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
-### SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### SingletonsCreator!@scannerFactoryMethod->@ScannerBean: 0.0
-### SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 0.0
-### CommandInterpreter!@SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
-### main.Assignment7!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### main.Assignment7!@SingletonsCreator!@scannerFactoryMethod->@ScannerBean: 1.0
-### main.Assignment7!@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 1.0
-*****************************(Command interpreter has required property and is instantiated)*****************************
-### main.Assignment7!CommandInterpreter: 0.0
-### CommandInterpreter!:@BridgeScene;@ScannerBean: 1.0
-### CommandInterpreterdefines getter for property Command: 0.0
-### CommandInterpreter defines setter for property Command: 0.0
+*****************************(Tokens inherit from general class)*****************************
+### Tokendefines getter for property Input: 0.0
+### Token defines setter for property Input: 0.0
+### Word defined: 0.0
+### Number defined: 0.0
+### Quote defined: 0.0
+### End defined: 1.0
+### Start defined: 1.0
+*****************************(Commands inherit from word token)*****************************
+### Move defined: 0.0
+### Say defined: 0.0
+### Fail defined: 0.0
+### Pass defined: 0.0
+### Approach defined: 0.0
+### Repeat defined: 0.0
+*****************************(Bridge scene has new methods defined)*****************************
+### BridgeScene!@approach:@Avatar->*: 0.0
+### BridgeScene!@say:String->*: 0.0
+### BridgeScene!@passed:->*: 0.0
+### BridgeScene!@failed:->*: 0.0
+*****************************(BridgeScene uses avatar move method and setText)*****************************
+### BridgeScene!@Avatar!@move:int;int->*: 0.0
+### BridgeScene!@STRING_PATTERN!setText:String->void: 0.0
+*****************************(Scroll method defined)*****************************
+### BridgeScene!@scroll:int;int->*: 0.0
+*****************************(Gorge instantiated)*****************************
+### BridgeScene!Gorge: 1.0
+*****************************(Graphical classes have proper properties defined)*****************************
+### BridgeScenedefines getter for property Gorge: 0.0
+### BridgeScenedefines getter for property KnightArea: 0.0
+### BridgeScenedefines getter for property GuardArea: 0.0
+### BridgeScenedefines getter for property Occupied: 0.0

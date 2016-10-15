@@ -67,26 +67,26 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object grail.collections.MyTable@5ef0d29e 1592840862 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.collections.MyTable@51850751 1367672657 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@71812481 1904288897 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@7b94089b 2073299099 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@64df9a61 1692375649 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@2c3dec30 742255664 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@6155d082 1633013890 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@2ea6e30c 782689036 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4275c20c 1115013644 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@3fc9dfc5 1070194629 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@7803bfd 125844477 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@531f4093 1394557075 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 0.2
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@2cac4385 749486981 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@16f7b4af 385332399 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@460ebd80 1175371136 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@25aca718 632071960 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.2
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
@@ -95,7 +95,7 @@ Calling on object grail.graphics.BridgeScene@16f7b4af 385332399 method:public ja
 ### Locatabledefines getter for property Y: 1.0
 ### Locatable defines setter for property X: 1.0
 ### Locatable defines setter for property Y: 1.0
-### BoundedShape defined: 1.0
+### BoundedShape defined: 0.0
 ### BoundedShapedefines getter for property Width: 1.0
 ### BoundedShapedefines getter for property Height: 1.0
 ### BoundedShape defines setter for property Width: 1.0

@@ -1,131 +1,131 @@
 *****************************(CommandInterpreterMoveSuite)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 0.0
 *****************************(CommandInterpreterApproachedArthurSayTestCase)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 0.0
 *****************************(CommandInterpreterMixedCaseSuite)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 0.0
 *****************************(StringTableTest)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object grail.collections.MyTable@2289aca5 579447973 method:public void grail.collections.MyTable.put(java.lang.String,java.lang.Object) args:[one, 1]timeOut:2000
-Calling on object grail.collections.MyTable@2289aca5 579447973 method:public java.lang.Object grail.collections.MyTable.get(java.lang.String) args:[one]timeOut:2000
+Calling on object grail.collections.MyTable@4a9cc6cb 1251788491 method:public void grail.collections.MyTable.put(java.lang.String,java.lang.Object) args:[one, 1]timeOut:2000
+Calling on object grail.collections.MyTable@4a9cc6cb 1251788491 method:public java.lang.Object grail.collections.MyTable.get(java.lang.String) args:[one]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 0.0
 *****************************(CommandInterpreterErrorsSuite)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 0.0
 *****************************(CommandInterpreterSignedMoveSuite)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
 *****************************(FactoryMethodSuite)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.collections.MyTable()with args:[]timeOut:2000
-Calling on object grail.collections.MyTable@4602c2a9 1174586025 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.collections.MyTable@3e2822 4073506 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@759fad4 123337428 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.collections.MyTable@53499d85 1397333381 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.4
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@29a60c27 698747943 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.CommandInterpreter@69c79f09 1774690057 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@782a4fff 2016038911 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@59fc684e 1509713998 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 0.4
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.ScannerBeanInterface grail.SingletonsCreator.scannerFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.ScannerBeanInterface grail.SingletonsCreator.scannerFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.ScannerBeanInterface grail.SingletonsCreator.scannerFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.ScannerBeanInterface grail.SingletonsCreator.scannerFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5fcacc0 100445376 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@6d1d4d7 114414807 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@2fd1731c 802255644 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@6063d80a 1617156106 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 0.4
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 1.0
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1907241392 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 727250772 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6865c751 1751500625 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6a988392 1788380050 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@355e34c7 895366343 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@2a2da905 707635461 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.4
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0

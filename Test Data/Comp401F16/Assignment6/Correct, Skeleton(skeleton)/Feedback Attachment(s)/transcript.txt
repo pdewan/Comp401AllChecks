@@ -110,7 +110,6 @@ Property KnightTurn not found
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
 *****************************(Tokens inherit from general class)*****************************
-### Token defined: 0.0
 ### Tokendefines getter for property Input: 0.0
 ### Token defines setter for property Input: 0.0
 ### Word defined: 1.0
@@ -136,7 +135,7 @@ Property KnightTurn not found
 *****************************(Scroll method defined)*****************************
 ### BridgeScene!@scroll:int;int->*: 0.0
 *****************************(Gorge instantiated)*****************************
-### Avatar!Angle: 0.0
+### BridgeScene!Gorge: 1.0
 *****************************(Graphical classes have proper properties defined)*****************************
 ### BridgeScenedefines getter for property Gorge: 0.0
 ### BridgeScenedefines getter for property KnightArea: 0.0

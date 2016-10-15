@@ -1,3 +1,2 @@
-  -- Class matching Token not defined
   -- Token not found by checkstyle
   -- Token not found by checkstyle

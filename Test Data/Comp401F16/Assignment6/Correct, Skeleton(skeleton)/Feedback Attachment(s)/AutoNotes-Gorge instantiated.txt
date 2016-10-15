@@ -1,1 +1,0 @@
-  -- Class matching Angle not instantiated in Avatar

@@ -40,7 +40,7 @@ import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.VECTOR_PATTERN)
 @Tags({"ClearableHistory"})
-public class ClearableHistory extends ABaseHistory implements ClearableHistoryInterface {
+public class ClearableHistory implements ClearableHistoryInterface {
 
 }
 //END OF FILE
@@ -75,7 +75,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class ApproachCommand extends WordToken {
+public class ApproachCommand {
 
 }
 //END OF FILE
@@ -93,7 +93,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class FailCommand extends WordToken {
+public class FailCommand {
 
 }
 //END OF FILE
@@ -111,7 +111,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class MoveCommand extends WordToken {
+public class MoveCommand  {
 
 }
 //END OF FILE
@@ -129,7 +129,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class PassCommand extends WordToken {
+public class PassCommand {
 
 }
 //END OF FILE
@@ -147,7 +147,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class RepeatCommand extends WordToken {
+public class RepeatCommand {
 
 }
 //END OF FILE
@@ -165,7 +165,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class SayCommand extends WordToken {
+public class SayCommand {
 
 }
 //END OF FILE
@@ -183,7 +183,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class CallCommand extends WordToken {
+public class CallCommand{
 
 }
 //END OF FILE
@@ -201,7 +201,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class DefineCommand extends WordToken {
+public class DefineCommand{
 
 }
 //END OF FILE
@@ -219,7 +219,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class ProceedAllCommand extends WordToken {
+public class ProceedAllCommand {
 
 }
 //END OF FILE
@@ -237,7 +237,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class RedoCommand extends WordToken {
+public class RedoCommand {
 
 }
 //END OF FILE
@@ -255,7 +255,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class RotateLeftArmCommand extends WordToken {
+public class RotateLeftArmCommand{
 
 }
 //END OF FILE
@@ -273,7 +273,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class RotateRightArmCommand extends WordToken {
+public class RotateRightArmCommand {
 
 }
 //END OF FILE
@@ -291,7 +291,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class SleepCommand extends WordToken {
+public class SleepCommand  {
 
 }
 //END OF FILE
@@ -309,7 +309,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class ThreadCommand extends WordToken {
+public class ThreadCommand  {
 
 }
 //END OF FILE
@@ -327,7 +327,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class UndoCommand extends WordToken {
+public class UndoCommand  {
 
 }
 //END OF FILE
@@ -344,7 +344,7 @@ import util.annotations.Tags;
 @Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class WaitCommand extends WordToken {
+public class WaitCommand {
 
 }
 //END OF FILE
@@ -367,7 +367,7 @@ import util.annotations.Visible;
 @Tags({"Avatar"})
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
-public class Avatar extends LocatableObject implements AvatarInterface {
+public class Avatar  implements AvatarInterface {
 
 }
 //END OF FILE
@@ -385,7 +385,7 @@ import util.annotations.Tags;
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 @Tags({"BoundedShape"})
-public class BoundedShape extends LocatableObject implements BoundedShapeInterface {
+public class BoundedShape  implements BoundedShapeInterface {
 
 }
 //END OF FILE
@@ -443,7 +443,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.IMAGE_PATTERN)
 @PropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
 @EditablePropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
-public class Image extends Rectangle implements ImageInterface {
+public class Image implements ImageInterface {
 
 }
 //END OF FILE
@@ -476,7 +476,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.OVAL_PATTERN)
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
-public class Oval extends BoundedShape{
+public class Oval {
 	
 }
 //END OF FILE
@@ -491,7 +491,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
-public class Rectangle extends BoundedShape {
+public class Rectangle {
 
 }
 //END OF FILE
@@ -509,7 +509,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
 @PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
 @EditablePropertyNames({"X", "Y","Angle", "Radius"})
-public class RotatingLine extends BoundedShape implements RotatingLineInterface{
+public class RotatingLine implements RotatingLineInterface{
 
 }
 //END OF FILE
@@ -525,7 +525,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape extends LocatableObject implements StringShapeInterface {
+public class StringShape implements StringShapeInterface {
 
 }
 //END OF FILE
@@ -545,7 +545,7 @@ import util.annotations.Visible;
 @Tags({"Angle"})
 @PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
 @EditablePropertyNames({"X", "Y", "LinesLength"})
-public class VShape extends LocatableObject implements VShapeInterface {
+public class VShape implements VShapeInterface {
 
 }
 //END OF FILE
@@ -555,7 +555,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Avatar", "move"})
-public interface AvatarInterface extends Locatable{
+public interface AvatarInterface {
 	
 }
 //END OF FILE
@@ -572,7 +572,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"BoundedShape"})
-public interface BoundedShapeInterface extends Locatable{
+public interface BoundedShapeInterface {
 
 }
 //END OF FILE
@@ -592,7 +592,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"ClearableHistory"})
-public interface ClearableHistoryInterface extends BaseHistory {
+public interface ClearableHistoryInterface {
 
 }
 //END OF FILE
@@ -621,7 +621,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.IMAGE_PATTERN)
-public interface ImageInterface extends BoundedShapeInterface{
+public interface ImageInterface {
 
 }
 //END OF FILE
@@ -641,7 +641,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Number"})
-public interface Number extends Token {
+public interface Number {
 
 }
 //END OF FILE
@@ -654,7 +654,7 @@ import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
 @Tags({"RotatingLine"})
-public interface RotatingLineInterface extends BoundedShapeInterface{
+public interface RotatingLineInterface {
 
 }
 //END OF FILE
@@ -675,7 +675,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface extends Locatable{
+public interface StringShapeInterface {
 
 }
 //END OF FILE
@@ -705,7 +705,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Angle", "move"})
-public interface VShapeInterface extends Locatable{
+public interface VShapeInterface {
 
 }
 //END OF FILE
@@ -714,7 +714,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Word"})
-public interface Word extends Token {
+public interface Word {
 
 }
 //END OF FILE
@@ -825,7 +825,7 @@ import util.annotations.Tags;
 @Tags({"End"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class EndToken extends GenericToken {
+public class EndToken {
 
 }
 //END OF FILE
@@ -861,7 +861,7 @@ import util.annotations.Tags;
 @Tags({"Minus"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class MinusToken extends GenericToken {
+public class MinusToken {
 
 }
 //END OF FILE
@@ -879,7 +879,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class NumberToken extends GenericToken implements Number{
+public class NumberToken implements Number{
 	
 }
 //END OF FILE
@@ -895,7 +895,7 @@ import util.annotations.Tags;
 @Tags({"Plus"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class PlusToken extends GenericToken {
+public class PlusToken  {
 
 }
 //END OF FILE
@@ -911,7 +911,7 @@ import util.annotations.Tags;
 @Tags({"Quote"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class QuoteToken extends GenericToken{
+public class QuoteToken {
 
 }
 //END OF FILE
@@ -928,7 +928,7 @@ import util.annotations.Tags;
 @Tags({"Start"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class StartToken extends GenericToken{
+public class StartToken {
 
 }
 //END OF FILE
@@ -946,7 +946,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class WordToken extends GenericToken implements Word{
+public class WordToken implements Word{
 
 }
 //END OF FILE
