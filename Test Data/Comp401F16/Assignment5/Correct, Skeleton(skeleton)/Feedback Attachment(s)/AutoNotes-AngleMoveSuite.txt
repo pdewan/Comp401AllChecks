@@ -1,0 +1,2 @@
+  -- Method matching getLeftLine not found in class: class grail.graphics.VShape
+  -- Method matching getRightLine not found in class: class grail.graphics.VShape

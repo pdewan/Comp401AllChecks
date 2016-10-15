@@ -2,98 +2,102 @@ Grading result for: Previous, Assignment(previous)
 
 Grading features...
 ----------------------------------
-AngleMoveSuite                                         0.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
-BridgeSceneComponentMoveSuite                          0.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+CommandInterpreterMoveSuite                            0.0 / 40.0
+CommandInterpreterApproachedArthurSayTestCase          0.0 / 20.0
+CommandInterpreterMixedCaseSuite                       0.0 / 10.0
+StringTableTest                                        0.0 / 25.0
+CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
+CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
+FactoryMethodSuite                                     0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Move methods defined in Angle and Avatar               0.0 / 10.0
-Sleep called in animation                              0.0 /  2.0
-Scale method defined in avatar                         0.0 / 10.0
-Proper classes instantiated within each other          0.0 /  6.0
-Required constructors defined for graphical classes    0.0 /  9.0
-Graphical classes have proper properties defined       0.0 / 33.0
-Elements in animation are properly connected.          0.0 / 10.0
-Animation shows proper use of move function.           0.0 / 10.0
-Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
-Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
+Graphics inheritance hierarchy                         8.0 / 24.0
+CommandInterpreter properly uses the other classes     0.0 /  8.0
+SingletonCreator created and used in main              0.0 / 16.0
+Command interpreter has required property and is instantiated 0.0 / 12.0
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 10.0
+  Points Awarded: 18.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -10.0
+  Points Deducted: -5.0
 
-  Features Score: 0.0
+  Features Score: 13.0
 
 Notes from grading features:
 ----------------------------------
-AngleMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
+CommandInterpreterMoveSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-BridgeSceneArthurScaleHeadTestCase:
-  -- Method matching scale not found in class: class grail.Avatar
+CommandInterpreterApproachedArthurSayTestCase:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-BridgeSceneComponentMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- java.lang.NullPointerException null
-  -- Method matching getStringShape not found in class: class grail.Avatar
+CommandInterpreterMixedCaseSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-BridgeSceneComponentScaleSuite:
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
+StringTableTest:
+  -- Could not instantiate/find class matching:[Table]
 
-Move methods defined in Angle and Avatar:
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
+CommandInterpreterErrorsSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-Sleep called in animation:
-  -- main.Assignment5 not found by checkstyle
+CommandInterpreterSignedMoveSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-Scale method defined in avatar:
-  -- Avatar not found by checkstyle
+FactoryMethodSuite:
+  -- Could not instantiate/find class matching:[Table]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- First factory method return value grail.ScannerBean@34158c08 != grail.ScannerBean@52c3cb31
+  -- First factory method return value grail.graphics.BridgeScene@2766ca9d != grail.graphics.BridgeScene@65a15628
 
-Proper classes instantiated within each other:
-  -- main.Assignment5 not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- Avatar not found by checkstyle
+Graphics inheritance hierarchy:
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
 
-Required constructors defined for graphical classes:
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- BridgeScene not found by checkstyle
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle
 
-Graphical classes have proper properties defined:
-  -- Angle not found by checkstyle
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
+CommandInterpreter properly uses the other classes:
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
 
+SingletonCreator created and used in main:
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
 
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
+Command interpreter has required property and is instantiated:
+  -- main.Assignment7 not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 13.65

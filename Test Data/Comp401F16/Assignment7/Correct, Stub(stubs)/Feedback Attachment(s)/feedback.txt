@@ -2,63 +2,99 @@ Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
-AngleMoveSuite                                         0.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
-BridgeSceneComponentMoveSuite                          0.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+CommandInterpreterMoveSuite                            0.0 / 40.0
+CommandInterpreterApproachedArthurSayTestCase          0.0 / 20.0
+CommandInterpreterMixedCaseSuite                       0.0 / 10.0
+StringTableTest                                        0.0 / 25.0
+CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
+CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
+FactoryMethodSuite                                     8.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Move methods defined in Angle and Avatar               10.0 / 10.0
-Sleep called in animation                              0.0 /  2.0
-Scale method defined in avatar                         10.0 / 10.0
-Proper classes instantiated within each other          6.0 /  6.0
-Required constructors defined for graphical classes    6.0 /  9.0
-Graphical classes have proper properties defined       30.0 / 33.0
-Elements in animation are properly connected.          0.0 / 10.0
-Animation shows proper use of move function.           0.0 / 10.0
-Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
-Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
+Graphics inheritance hierarchy                         18.0 / 24.0
+CommandInterpreter properly uses the other classes     2.0 /  8.0
+SingletonCreator created and used in main              4.0 / 16.0
+Command interpreter has required property and is instantiated 12.0 / 12.0
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 72.0
+  Points Awarded: 54.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            -1.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Interactive Run                             0.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -5.0
+  Points Deducted: -6.0
 
-  Features Score: 67.0
+  Features Score: 48.0
 
 Notes from grading features:
 ----------------------------------
-AngleMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
+CommandInterpreterMoveSuite:
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
 
-BridgeSceneArthurScaleHeadTestCase:
-  -- Method matching scale not found in class: class grail.Avatar
+CommandInterpreterApproachedArthurSayTestCase:
+  -- Factory method returns null object
 
-BridgeSceneComponentMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- java.lang.NullPointerException null
-  -- Method matching getStringShape not found in class: class grail.Avatar
+CommandInterpreterMixedCaseSuite:
+  -- Factory method returns null object
+  -- Factory method returns null object
 
-BridgeSceneComponentScaleSuite:
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
+StringTableTest:
+  -- Actual value: null not expected value: 1
 
-Sleep called in animation:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Stub(stubs)\Submission attachment(s)\Stub\Stub\src\main\Assignment5.java:1: warning: missingMethodCall: (Assignment5.java:1) has not made expected call         ThreadSupport!sleep:long->void
+CommandInterpreterErrorsSuite:
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
+
+CommandInterpreterSignedMoveSuite:
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
+
+FactoryMethodSuite:
+  -- First factory method return value grail.collections.MyTable@4602c2a9 != grail.collections.MyTable@3e2822
+  -- First factory method return value grail.scanner.CommandInterpreter@29a60c27 != grail.scanner.CommandInterpreter@69c79f09
+  -- First factory method return value grail.scanner.ScannerBean@5fcacc0 != grail.scanner.ScannerBean@6d1d4d7
+  -- First factory method return value grail.graphics.BridgeScene@6865c751 != grail.graphics.BridgeScene@6a988392
+
+Graphics inheritance hierarchy:
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle
+
+CommandInterpreter properly uses the other classes:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+
+SingletonCreator created and used in main:
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+
+
+
+Notes from grading restrictions:
+----------------------------------
+No magic numbers:
+  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
 
 
 
 Early benefit: 105.0%
-  Total Score: 70.35000000000001
+  Total Score: 50.400000000000006

@@ -16,6 +16,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCa
 import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckstyleSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
 
 public class Assignment6Requirements  extends AJUnitProjectRequirements{
@@ -38,24 +39,26 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
      	
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
      	
-     	// TODO: Token refactorings
-//     	addFeature("Tokens inherit from general class", 10,
-//     			new CheckstyleExpectedSupertypesTestcase("Word", "Token");
-//     			new CheckstyleExpectedSupertypesTestcase("Number", "Token");
-//     			new CheckstyleExpectedSupertypesTestcase("Quote", "Token");
-//     			new CheckstyleExpectedSupertypesTestcase("End", "Token");
-//     			new CheckstyleExpectedSupertypesTestcase("Start", "Token");
-//     			new CheckStyleClassDefinedTestCase("Token");
-//     			);
-//     	
-//     	addFeature("Commands inherit from word token", 12,
-//     			new CheckstyleExpectedSupertypesTestcase("Move", "Word");
-//     			new CheckstyleExpectedSupertypesTestcase("Say", "Word");
-//     			new CheckstyleExpectedSupertypesTestcase("Fail", "Word");
-//     			new CheckstyleExpectedSupertypesTestcase("Pass", "Word");
-//     			new CheckstyleExpectedSupertypesTestcase("Approach", "Word");
-//     			new CheckstyleExpectedSupertypesTestcase("Repeat", "Word");
-//     			);
+     	addFeature("Tokens inherit from general class", 14,
+//     			new CheckStyleClassDefinedTestCase("Token"),		//test currently doesn't work, and may not be necessary
+     			new CheckStylePropertyDefinedTestCase("Token", "Input", "String"),
+     			new CheckStyleEditablePropertyDefinedTestCase("Token", "Input", "String"),
+     			
+     			new CheckstyleSuperTypeDefinedTestCase("Word", "Token"),
+     			new CheckstyleSuperTypeDefinedTestCase("Number", "Token"),
+     			new CheckstyleSuperTypeDefinedTestCase("Quote", "Token"),
+     			new CheckstyleSuperTypeDefinedTestCase("End", "Token"),
+     			new CheckstyleSuperTypeDefinedTestCase("Start", "Token")
+     			);
+     	
+     	addFeature("Commands inherit from word token", 12,
+     			new CheckstyleSuperTypeDefinedTestCase("Move", "Word"),
+     			new CheckstyleSuperTypeDefinedTestCase("Say", "Word"),
+     			new CheckstyleSuperTypeDefinedTestCase("Fail", "Word"),
+     			new CheckstyleSuperTypeDefinedTestCase("Pass", "Word"),
+     			new CheckstyleSuperTypeDefinedTestCase("Approach", "Word"),
+     			new CheckstyleSuperTypeDefinedTestCase("Repeat", "Word")
+     			);
      	
      	// Method signatures
      	addFeature("Bridge scene has new methods defined", 12, 
@@ -72,35 +75,35 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	// Extra credit- I'm assuming that it is tested elsewhere, so just a couple points for definition
-     	addFeature("Scroll method defined", 2, 
+     	addFeature("Scroll method defined", 2, true,
      			new CheckstyleMethodDefinedTestCase("BridgeScene", "@scroll:int;int->*")
      			);
      	
      	// Class instantiation
      	addFeature("Gorge instantiated", 3,
-     			new CheckstyleClassInstantiatedTestCase("Avatar", "Angle")
+     			new CheckstyleClassInstantiatedTestCase("BridgeScene", "Gorge")
      			);
      	
      	// Properties defined
-     	addFeature("Graphical classes have proper properties defined", 33,
+     	addFeature("Graphical classes have proper properties defined", 12,
      			
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "Gorge", "*"),
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightArea", "*"),
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "GuardArea", "*"),
-				new CheckStylePropertyDefinedTestCase("BridgeScene", "Occupied", "boolean"),
-				new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightTurn", "boolean")
+				new CheckStylePropertyDefinedTestCase("BridgeScene", "Occupied", "boolean")
+//				,new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightTurn", "boolean") //told to remove
 						
      			);	
 
      	addManualFeature("Scene has a gorge with a bridge.", 10, false); 
-     	addManualFeature("Animation shows approach, say, pass, fail.", 15, false);
-     	addManualFeature("Animation shows boolean properties, acting correctly.", 10, false);
+     	addManualFeature("Animation shows approach, say, pass, fail correctly.", 20, false);
+     	addManualFeature("Animation shows boolean properties, acting correctly.", 8, false);
      	
      	addManualFeature("Scanner animation shows proper functionality.", 10, false);
      		
      	// I'm assuming both of these are tested elsewhere, hence the values are small
      	addManualFeature("Animation shows scroll feature", 3, true);
-     	addManualFeature("Scanner animation shows TokenList property (correctly).", 5, true);
+     	addManualFeature("Scanner animation shows TokenList property (correctly).", 3, true);
      	
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 

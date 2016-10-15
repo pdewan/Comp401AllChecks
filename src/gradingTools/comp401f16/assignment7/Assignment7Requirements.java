@@ -3,7 +3,9 @@ package gradingTools.comp401f16.assignment7;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
+import gradingTools.comp401f16.assignment7.testcases.Assignment7Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckStyleClassDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleMagicNumberTestCase;
@@ -14,6 +16,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCa
 import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckstyleSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
 
 public class Assignment7Requirements  extends AJUnitProjectRequirements{
@@ -27,8 +30,7 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      	// Functionality
      	GradingMode.setGraderRun(true);
      	
-     	// TODO: uncomment once Assignment7Suite exists
-//     	addJUnitTestSuite(Assignment7Suite.class);
+     	addJUnitTestSuite(Assignment7Suite.class);
      	
      	addFeature("Public methods are in implemented interfaces", 10, 
      			new ClassHasAtLeastOneInterfaceTestCase());
@@ -38,17 +40,27 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      	
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
      	
-     	// TODO: Class refactorings
-//     	addFeature("Tokens inherit from general class", 10,
-//     			new CheckstyleExpectedSupertypesTestcase("BoundedShape", "Locatable");
-//     			new CheckstyleExpectedSupertypesTestcase("@LINE_PATTERN", "BoundedShape");
-//     			new CheckstyleExpectedSupertypesTestcase("@STRING_PATTERN", "Locatable");
-//     			new CheckstyleExpectedSupertypesTestcase("@IMAGE_PATTERN", "BoundedShape");
-//     			new CheckstyleExpectedSupertypesTestcase("@LINE_PATTERN", "Locatable");
-//     			);
+     	addFeature("Graphics inheritance hierarchy", 24,
+//     			new CheckStyleClassDefinedTestCase("Locatable"),	// test currently doesn't work, maybe not necessary
+     			new CheckStylePropertyDefinedTestCase("Locatable", "X", "int"),
+     			new CheckStylePropertyDefinedTestCase("Locatable", "Y", "int"),
+     			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "X", "int"),
+     			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "Y", "int"),
+     			
+//     			new CheckStyleClassDefinedTestCase("BoundedShape"),
+     			new CheckstyleSuperTypeDefinedTestCase("BoundedShape", "Locatable"),
+     			new CheckStylePropertyDefinedTestCase("BoundedShape", "Width", "int"),
+     			new CheckStylePropertyDefinedTestCase("BoundedShape", "Height", "int"),
+     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Width", "int"),
+     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Height", "int"),
+     			
+     			new CheckstyleSuperTypeDefinedTestCase("@LINE_PATTERN", "Locatable"),
+     			new CheckstyleSuperTypeDefinedTestCase("@STRING_PATTERN", "Locatable"),
+     			new CheckstyleSuperTypeDefinedTestCase("@IMAGE_PATTERN", "BoundedShape")
+     			);
      	
      	// Method calls
-     	addFeature("CommandInterpreter properly uses the other classes", 6,
+     	addFeature("CommandInterpreter properly uses the other classes", 8,
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@BridgeScene!@say:String->*"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@Avatar!@move:int;int->*"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@Table!@get:String->*"),
@@ -56,18 +68,23 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      			);
 
      	// SingletonCreator
-     	addFeature("SingletonCreator created and used in main", 12,
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreter",  "@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene"),
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@SingletonsCreator!@scannerFactoryMethode->@ScannerBean"),
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table"),
+     	addFeature("SingletonCreator created and used in main", 16,
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@avatarTableFactoryMethod:->@Table"),
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@bridgeSceneFactoryMethod:->@BridgeScene"),
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@scannerFactoryMethod->@ScannerBean"),
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterFactoryMethod:->@CommandInterpreter"),
+     			
+     			
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table"),
      			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@scannerFactoryMethode->@ScannerBean"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table")
+     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@scannerFactoryMethod->@ScannerBean"),
+     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter")
      			);
      	
      	// Command interpreter 
-     	addFeature("Command interpreter has required property and is instantiated", 9, 
+     	addFeature("Command interpreter has required property and is instantiated", 12, 
      			new CheckstyleClassInstantiatedTestCase("main.Assignment7", "CommandInterpreter"),
+     			new CheckstyleConstructorDefinedTestCase("CommandInterpreter", ":@BridgeScene,@ScannerBean"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Command", "String"),
      			new CheckStyleEditablePropertyDefinedTestCase("CommandInterpreter", "Command", "String")
      			);

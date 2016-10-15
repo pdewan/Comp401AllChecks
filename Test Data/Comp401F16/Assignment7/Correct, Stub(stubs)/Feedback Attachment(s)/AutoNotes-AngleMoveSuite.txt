@@ -1,2 +1,0 @@
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine

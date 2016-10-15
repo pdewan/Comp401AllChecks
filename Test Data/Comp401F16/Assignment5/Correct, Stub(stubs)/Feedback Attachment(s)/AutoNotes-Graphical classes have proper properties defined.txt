@@ -1,0 +1,2 @@
+  -- expectedGetters: (Avatar.java:1) In type Avatar, missing getter for property Text of type @STRING_PATTERN
+

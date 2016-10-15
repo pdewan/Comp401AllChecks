@@ -1,11 +1,8 @@
-  -- Angle not found by checkstyle
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Gorge of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightArea of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property GuardArea of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
+

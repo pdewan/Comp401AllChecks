@@ -1,7 +1,0 @@
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- java.lang.NullPointerException null
-  -- Method matching getStringShape not found in class: class grail.Avatar
