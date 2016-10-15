@@ -1,0 +1,9 @@
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
+
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle
