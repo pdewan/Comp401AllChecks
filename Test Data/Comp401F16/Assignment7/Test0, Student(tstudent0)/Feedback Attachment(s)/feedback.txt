@@ -38,7 +38,7 @@ Graphics inheritance hierarchy:
   -- @IMAGE_PATTERN not found by checkstyle
 
 SingletonCreator created and used in main:
-  -- @SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
   -- SingletonsCreator not found by checkstyle
   -- SingletonsCreator not found by checkstyle
   -- SingletonsCreator not found by checkstyle

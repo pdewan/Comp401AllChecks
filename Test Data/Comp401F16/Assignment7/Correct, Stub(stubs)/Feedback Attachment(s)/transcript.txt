@@ -158,6 +158,6 @@ Calling on object grail.graphics.BridgeScene@6a988392 1788380050 method:public j
 ### main.Assignment7!@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 1.0
 *****************************(Command interpreter has required property and is instantiated)*****************************
 ### main.Assignment7!CommandInterpreter: 1.0
-### CommandInterpreter!:@BridgeScene,@ScannerBean: 1.0
+### CommandInterpreter!:@BridgeScene;@ScannerBean: 1.0
 ### CommandInterpreterdefines getter for property Command: 1.0
 ### CommandInterpreter defines setter for property Command: 1.0

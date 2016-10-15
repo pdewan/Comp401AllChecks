@@ -84,7 +84,7 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      	// Command interpreter 
      	addFeature("Command interpreter has required property and is instantiated", 12, 
      			new CheckstyleClassInstantiatedTestCase("main.Assignment7", "CommandInterpreter"),
-     			new CheckstyleConstructorDefinedTestCase("CommandInterpreter", ":@BridgeScene,@ScannerBean"),
+     			new CheckstyleConstructorDefinedTestCase("CommandInterpreter", ":@BridgeScene;@ScannerBean"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Command", "String"),
      			new CheckStyleEditablePropertyDefinedTestCase("CommandInterpreter", "Command", "String")
      			);

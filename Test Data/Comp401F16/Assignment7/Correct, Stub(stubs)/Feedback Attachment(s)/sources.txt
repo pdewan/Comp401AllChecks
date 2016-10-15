@@ -425,31 +425,7 @@ import util.annotations.Visible;
 @Tags({"Avatar"})
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
-public class Avatar implements AvatarInterface {
-
-	@Override
-	public void setX(int newX) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getX() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setY(int newY) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getY() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+public class Avatar extends LocatableObject implements AvatarInterface {
 
 	@Override
 	public StringShapeInterface getStringShape() {
@@ -943,31 +919,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape implements StringShapeInterface {
-
-	@Override
-	public void setX(int newX) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getX() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setY(int newY) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getY() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+public class StringShape extends LocatableObject implements StringShapeInterface {
 
 	@Override
 	public void setText(String newString) {
@@ -999,31 +951,7 @@ import util.annotations.Visible;
 @Tags({"Angle"})
 @PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
 @EditablePropertyNames({"X", "Y", "LinesLength"})
-public class VShape implements VShapeInterface {
-
-	@Override
-	public void setX(int newX) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getX() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setY(int newY) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getY() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+public class VShape extends LocatableObject implements VShapeInterface {
 
 	@Override
 	public RotatingLineInterface getLeftLine() {
@@ -1063,14 +991,8 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Avatar", "move"})
-public interface AvatarInterface {
-	
-	public void setX(int newX);
-	public int getX();
+public interface AvatarInterface extends Locatable{
 
-	public void setY(int newY);
-	public int getY();
-	
 	public StringShapeInterface getStringShape();
 	
 	public ImageInterface getHead();
@@ -1279,13 +1201,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface {
-	
-	public void setX(int newX);
-	public int getX();
-
-	public void setY(int newY);
-	public int getY();
+public interface StringShapeInterface extends Locatable{
 
 	public void setText(String newString);
 	public String getText();
@@ -1325,14 +1241,8 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Angle", "move"})
-public interface VShapeInterface {
-	
-	public void setX(int newX);
-	public int getX();
-	
-	public void setY(int newY);
-	public int getY();
-	
+public interface VShapeInterface extends Locatable{
+
 	public RotatingLineInterface getLeftLine();
 	public RotatingLineInterface getRightLine();
 	

@@ -1,6 +1,0 @@
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
-
