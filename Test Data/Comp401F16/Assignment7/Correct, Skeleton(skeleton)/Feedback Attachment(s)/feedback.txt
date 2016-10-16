@@ -2,51 +2,99 @@ Grading result for: Correct, Skeleton(skeleton)
 
 Grading features...
 ----------------------------------
-Has a proper header                                    0.0 /  5.0
-Naming Style                                           0.0 /  5.0
-Has Prompt                                             0.0 / 10.0
-asks again                                             0.0 /  5.0
-Handling Response                                      7.5 / 15.0
-has OperateEncoder method                              0.0 /  4.0
-has StringDecoder method                               0.0 /  3.0
-has StringEncoder method                               0.0 /  3.0
-Correct return for a call to StringEncoder             0.0 / 30.0
-Correct return for a call to StringDecoder             0.0 / 20.0
+CommandInterpreterMoveSuite                            0.0 / 40.0
+CommandInterpreterApproachedArthurSayTestCase          0.0 / 20.0
+CommandInterpreterMixedCaseSuite                       0.0 / 10.0
+StringTableTest                                        0.0 / 25.0
+CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
+CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
+FactoryMethodSuite                                     4.0 / 20.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Graphics inheritance hierarchy                         18.0 / 24.0
+CommandInterpreter properly uses the other classes     2.0 /  8.0
+SingletonCreator created and used in main              4.0 / 16.0
+Command interpreter has required property and is instantiated 3.0 / 12.0
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 7.5
+  Points Awarded: 41.0
 
-  Features Score: 7.5
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 36.0
 
 Notes from grading features:
 ----------------------------------
-Has a proper header:
-  -- Could not automatically find header
+CommandInterpreterMoveSuite:
+  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-Naming Style:
-  -- The following names start with the incorrect case: 
+CommandInterpreterApproachedArthurSayTestCase:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-Has Prompt:
-  -- Did not correctly prompt for user input
+CommandInterpreterMixedCaseSuite:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-asks again:
-  -- Failed to ask again
+StringTableTest:
+  -- Method matching put not found in class: class grail.collections.MyTable
 
-Handling Response:
-  -- Did not ask again for input upon user confirming wish to enter another message.
+CommandInterpreterErrorsSuite:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-has OperateEncoder method:
-  -- No method with name specified found in program
+CommandInterpreterSignedMoveSuite:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-has StringDecoder method:
-  -- No method replaceTypo found in program
+FactoryMethodSuite:
+  -- First factory method return value grail.collections.MyTable@60fa3495 != grail.collections.MyTable@79e18e38
+  -- First factory method return value grail.scanner.CommandInterpreter@1849db1a != grail.scanner.CommandInterpreter@1ca25c47
+  -- First factory method return value grail.scanner.ScannerBean@533b266e != grail.scanner.ScannerBean@89ff02e
+  -- First factory method return value grail.graphics.BridgeScene@62679465 != grail.graphics.BridgeScene@1d71006f
 
-has StringEncoder method:
-  -- No method replaceTypo found in program
+Graphics inheritance hierarchy:
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle
 
-Correct return for a call to StringEncoder:
-  -- No method stringEncoder
+CommandInterpreter properly uses the other classes:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
 
-Correct return for a call to StringDecoder:
-  -- No method stringDecoder
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
 
-  Total Score: 8.0
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+
+SingletonCreator created and used in main:
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+
+
+Command interpreter has required property and is instantiated:
+  -- Class matching CommandInterpreter not instantiated in Assignment7
+  -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Command of type String
+
+  -- expectedSetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing setter for property Command of type String
+
+
+
+Early benefit: 105.0%
+  Total Score: 37.800000000000004

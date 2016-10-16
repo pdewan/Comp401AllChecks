@@ -1,0 +1,8 @@
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle

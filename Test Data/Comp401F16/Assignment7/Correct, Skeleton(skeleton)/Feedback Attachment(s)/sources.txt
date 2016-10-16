@@ -1,53 +1,64 @@
-//START OF FILE: src/grail/scannerbean.java
+//START OF FILE: src/grail/singletonscreator.java
 package grail;
 
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
+import grail.collections.MyTable;
+import grail.graphics.BridgeScene;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Table;
+import grail.scanner.CommandInterpreter;
+import grail.scanner.ScannerBean;
+import util.annotations.Tags;
+
+@Tags({"SingletonsCreator"})
+public class SingletonsCreator {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/collections/abasehistory.java
+package grail.collections;
+
+import grail.interfaces.BaseHistory;
+import grail.interfaces.Token;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+
+@StructurePattern(StructurePatternNames.VECTOR_PATTERN)
+public class ABaseHistory implements BaseHistory {
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/collections/clearablehistory.java
+package grail.collections;
+
+import grail.interfaces.ClearableHistoryInterface;
+import grail.interfaces.Token;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
 
-import java.util.Iterator;
+@StructurePattern(StructurePatternNames.VECTOR_PATTERN)
+@Tags({"ClearableHistory"})
+public class ClearableHistory extends ABaseHistory implements ClearableHistoryInterface {
 
-import grail.commandBeans.ApproachCommand;
-import grail.commandBeans.FailCommand;
-import grail.commandBeans.MoveCommand;
-import grail.commandBeans.PassCommand;
-import grail.commandBeans.RepeatCommand;
-import grail.commandBeans.SayCommand;
-import grail.extraCommandBeans.CallCommand;
-import grail.extraCommandBeans.DefineCommand;
-import grail.extraCommandBeans.ProceedAllCommand;
-import grail.extraCommandBeans.RedoCommand;
-import grail.extraCommandBeans.RotateLeftArmCommand;
-import grail.extraCommandBeans.RotateRightArmCommand;
-import grail.extraCommandBeans.SleepCommand;
-import grail.extraCommandBeans.ThreadCommand;
-import grail.extraCommandBeans.UndoCommand;
-import grail.extraCommandBeans.WaitCommand;
-import grail.interfaces.ScannerBeanInterface;
-import grail.interfaces.Token;
-import grail.tokenBeans.EndToken;
-import grail.tokenBeans.MinusToken;
-import grail.tokenBeans.NumberToken;
-import grail.tokenBeans.PlusToken;
-import grail.tokenBeans.QuoteToken;
-import grail.tokenBeans.StartToken;
-import grail.tokenBeans.WordToken;
-import mp.scanner.ScanningIterator;
+}
+//END OF FILE
+//START OF FILE: src/grail/collections/mytable.java
+package grail.collections;
 
+import java.util.ArrayList;
+import java.util.List;
 
-/**
- * A "Bean" object whose setter for scannedString prints the tokens and their types.
- * @author Semion
- *
- */
-@Tags({"ScannerBean"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"ScannedString", "Tokens", "Errors"})
-@EditablePropertyNames({"ScannedString"})
-public class ScannerBean implements ScannerBeanInterface{
+import grail.interfaces.Table;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
 
+@StructurePattern(StructurePatternNames.TABLE_PATTERN)
+@Tags({"Table"})
+public class MyTable implements Table {
+	
 }//end class
 //END OF FILE
 //START OF FILE: src/grail/commandbeans/approachcommand.java
@@ -356,7 +367,25 @@ import util.annotations.Visible;
 @Tags({"Avatar"})
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
-public class Avatar implements AvatarInterface {
+public class Avatar extends LocatableObject implements AvatarInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/boundedshape.java
+package grail.graphics;
+
+import grail.interfaces.BoundedShapeInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"X", "Y", "Width", "Height"})
+@EditablePropertyNames({"X", "Y", "Width", "Height"})
+@Tags({"BoundedShape"})
+public class BoundedShape extends LocatableObject implements BoundedShapeInterface {
 
 }
 //END OF FILE
@@ -364,7 +393,9 @@ public class Avatar implements AvatarInterface {
 package grail.graphics;
 
 import grail.interfaces.AvatarInterface;
+import grail.interfaces.BoundedShapeInterface;
 import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.GorgeWithBridgeInterface;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -372,9 +403,29 @@ import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @Tags({"BridgeScene"})
-@PropertyNames({"Arthur", "Lancelot","Robin", "Galahad", "Guard"})
+@PropertyNames({"Guard", "Arthur", "Lancelot","Robin", "Galahad",
+	"Gorge", "GuardArea", "KnightArea", "Occupied", "KnightTurn"})
 public class BridgeScene implements BridgeSceneInterface {
 
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/gorgewithbridge.java
+package grail.graphics;
+
+import grail.interfaces.GorgeWithBridgeInterface;
+import grail.interfaces.BoundedShapeInterface;
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Visible;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"LeftSide", "RightSide", "Bridge", "LeftX", "RightX", "UpperY", "BridgeWidth", "GorgeLength"})
+@EditablePropertyNames({"LeftX", "RightX", "UpperY", "BridgeWidth", "GorgeLength"})
+public class GorgeWithBridge implements GorgeWithBridgeInterface {
+	
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/image.java
@@ -392,7 +443,55 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.IMAGE_PATTERN)
 @PropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
 @EditablePropertyNames({"X", "Y", "Width", "Height", "ImageFileName"})
-public class Image implements ImageInterface {
+public class Image extends Rectangle implements ImageInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/locatableobject.java
+package grail.graphics;
+
+import grail.interfaces.Locatable;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"X", "Y"})
+@EditablePropertyNames({"X", "Y"})
+@Tags({"Locatable"})
+public class LocatableObject implements Locatable{
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/oval.java
+package grail.graphics;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+
+@StructurePattern(StructurePatternNames.OVAL_PATTERN)
+@PropertyNames({"X", "Y", "Width", "Height"})
+@EditablePropertyNames({"X", "Y", "Width", "Height"})
+public class Oval extends BoundedShape{
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/rectangle.java
+package grail.graphics;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+
+@StructurePattern(StructurePatternNames.RECTANGLE_PATTERN)
+@PropertyNames({"X", "Y", "Width", "Height"})
+@EditablePropertyNames({"X", "Y", "Width", "Height"})
+public class Rectangle extends BoundedShape {
 
 }
 //END OF FILE
@@ -410,7 +509,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
 @PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
 @EditablePropertyNames({"X", "Y","Angle", "Radius"})
-public class RotatingLine implements RotatingLineInterface{
+public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 
 }
 //END OF FILE
@@ -426,7 +525,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape implements StringShapeInterface {
+public class StringShape extends LocatableObject implements StringShapeInterface {
 
 }
 //END OF FILE
@@ -446,7 +545,7 @@ import util.annotations.Visible;
 @Tags({"Angle"})
 @PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
 @EditablePropertyNames({"X", "Y", "LinesLength"})
-public class VShape implements VShapeInterface {
+public class VShape extends LocatableObject implements VShapeInterface {
 
 }
 //END OF FILE
@@ -456,7 +555,24 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Avatar", "move"})
-public interface AvatarInterface {
+public interface AvatarInterface extends Locatable{
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/basehistory.java
+package grail.interfaces;
+
+public interface BaseHistory {
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/boundedshapeinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"BoundedShape"})
+public interface BoundedShapeInterface extends Locatable{
 
 }
 //END OF FILE
@@ -467,6 +583,35 @@ import util.annotations.Tags;
 
 @Tags({"BridgeScene"})
 public interface BridgeSceneInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/clearablehistoryinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"ClearableHistory"})
+public interface ClearableHistoryInterface extends BaseHistory {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/commandinterpreterinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter"})
+public interface CommandInterpreterInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/gorgewithbridgeinterface.java
+package grail.interfaces;
+
+
+public interface GorgeWithBridgeInterface {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/imageinterface.java
@@ -476,8 +621,18 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.IMAGE_PATTERN)
-public interface ImageInterface {
-	
+public interface ImageInterface extends BoundedShapeInterface{
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/locatable.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Locatable"})
+public interface Locatable {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/number.java
@@ -487,6 +642,7 @@ import util.annotations.Tags;
 
 @Tags({"Number"})
 public interface Number extends Token {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/rotatinglineinterface.java
@@ -498,7 +654,8 @@ import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.LINE_PATTERN)
 @Tags({"RotatingLine"})
-public interface RotatingLineInterface {
+public interface RotatingLineInterface extends BoundedShapeInterface{
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/scannerbeaninterface.java
@@ -508,6 +665,7 @@ import util.annotations.Tags;
 
 @Tags({"ScannerBean"})
 public interface ScannerBeanInterface {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/stringshapeinterface.java
@@ -517,8 +675,18 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface {
-	
+public interface StringShapeInterface extends Locatable{
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/table.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Table"})
+public interface Table {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/token.java
@@ -528,7 +696,7 @@ import util.annotations.Tags;
 
 @Tags({"Token", "Number", "Word", "Quote", "Plus", "Minus", "Start", "End"})
 public interface Token {
-	
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/vshapeinterface.java
@@ -537,8 +705,8 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Angle", "move"})
-public interface VShapeInterface {
-	
+public interface VShapeInterface extends Locatable{
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/word.java
@@ -547,6 +715,102 @@ import util.annotations.Tags;
 
 @Tags({"Word"})
 public interface Word extends Token {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commandinterpreter.java
+package grail.scanner;
+
+import grail.SingletonsCreator;
+import grail.collections.MyTable;
+import grail.commandBeans.MoveCommand;
+import grail.commandBeans.SayCommand;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Table;
+import grail.interfaces.Token;
+import grail.interfaces.Word;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+import grail.interfaces.Number;
+
+@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Command", "Errors"})
+@EditablePropertyNames({"Command"})
+public class CommandInterpreter implements CommandInterpreterInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/scannerbean.java
+package grail.scanner;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+import java.util.Iterator;
+
+import grail.collections.ClearableHistory;
+import grail.commandBeans.ApproachCommand;
+import grail.commandBeans.FailCommand;
+import grail.commandBeans.MoveCommand;
+import grail.commandBeans.PassCommand;
+import grail.commandBeans.RepeatCommand;
+import grail.commandBeans.SayCommand;
+import grail.extraCommandBeans.CallCommand;
+import grail.extraCommandBeans.DefineCommand;
+import grail.extraCommandBeans.ProceedAllCommand;
+import grail.extraCommandBeans.RedoCommand;
+import grail.extraCommandBeans.RotateLeftArmCommand;
+import grail.extraCommandBeans.RotateRightArmCommand;
+import grail.extraCommandBeans.SleepCommand;
+import grail.extraCommandBeans.ThreadCommand;
+import grail.extraCommandBeans.UndoCommand;
+import grail.extraCommandBeans.WaitCommand;
+import grail.interfaces.ClearableHistoryInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Token;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+
+
+/**
+ * A "Bean" object whose setter for scannedString prints the tokens and their types.
+ * @author Semion
+ *
+ */
+@Tags({"ScannerBean"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"ScannedString", "Tokens", "Errors", "TokenList"})
+@EditablePropertyNames({"ScannedString"})
+public class ScannerBean implements ScannerBeanInterface{
+
+}//end class
+//END OF FILE
+//START OF FILE: src/grail/scanner/scanningiterator.java
+package grail.scanner;
+
+import java.util.Iterator;
+
+public class ScanningIterator {
+
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/endtoken.java
@@ -561,7 +825,26 @@ import util.annotations.Tags;
 @Tags({"End"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class EndToken implements Token {
+public class EndToken extends GenericToken {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/generictoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+
+@Tags({"Token"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input"})
+@EditablePropertyNames({"Input"})
+public class GenericToken implements Token{
 
 }
 //END OF FILE
@@ -578,7 +861,7 @@ import util.annotations.Tags;
 @Tags({"Minus"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class MinusToken implements Token {
+public class MinusToken extends GenericToken {
 
 }
 //END OF FILE
@@ -596,7 +879,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class NumberToken implements Number{
+public class NumberToken extends GenericToken implements Number{
 	
 }
 //END OF FILE
@@ -612,7 +895,7 @@ import util.annotations.Tags;
 @Tags({"Plus"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class PlusToken implements Token {
+public class PlusToken extends GenericToken {
 
 }
 //END OF FILE
@@ -628,7 +911,7 @@ import util.annotations.Tags;
 @Tags({"Quote"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class QuoteToken implements Token{
+public class QuoteToken extends GenericToken{
 
 }
 //END OF FILE
@@ -645,7 +928,7 @@ import util.annotations.Tags;
 @Tags({"Start"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
-public class StartToken implements Token{
+public class StartToken extends GenericToken{
 
 }
 //END OF FILE
@@ -663,32 +946,30 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
-public class WordToken implements Word{
+public class WordToken extends GenericToken implements Word{
 
 }
 //END OF FILE
-//START OF FILE: src/main/assignment5.java
+//START OF FILE: src/main/assignment7.java
 package main;
 
 import bus.uigen.OEFrame;
 import bus.uigen.ObjectEditor;
+import grail.SingletonsCreator;
+import grail.collections.MyTable;
 import grail.graphics.BridgeScene;
 import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Table;
+import grail.scanner.CommandInterpreter;
+import grail.scanner.ScannerBean;
 import util.misc.ThreadSupport;
 
-public class Assignment5 {
-	
+public class Assignment7 {
+
 	public static void main(String[] args) {
 		
 	}//end main
 }//end class
-//END OF FILE
-//START OF FILE: src/mp/scanner/scanningiterator.java
-package mp.scanner;
-
-import java.util.Iterator;
-
-public class ScanningIterator {
-
-}
 //END OF FILE

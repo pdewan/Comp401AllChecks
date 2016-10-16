@@ -1,0 +1,4 @@
+  -- First factory method return value grail.collections.MyTable@60fa3495 != grail.collections.MyTable@79e18e38
+  -- First factory method return value grail.scanner.CommandInterpreter@1849db1a != grail.scanner.CommandInterpreter@1ca25c47
+  -- First factory method return value grail.scanner.ScannerBean@533b266e != grail.scanner.ScannerBean@89ff02e
+  -- First factory method return value grail.graphics.BridgeScene@62679465 != grail.graphics.BridgeScene@1d71006f

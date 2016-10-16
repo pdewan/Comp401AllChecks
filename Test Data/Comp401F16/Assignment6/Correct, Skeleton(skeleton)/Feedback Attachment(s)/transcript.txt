@@ -1,43 +1,143 @@
-*****************************(Has a proper header)*****************************
-### Proper header test case: 0.0
-*****************************(Naming Style)*****************************
-### Correct capitalization of variables, methods, and classes: 0.0
-*****************************(Has Prompt)*****************************
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
-$
-E***Null output!
-### Prompt Test Case: 0.0
-*****************************(asks again)*****************************
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
-$ToBeOrNotToBe
-E***Null output!
-### Asking Again Test Case: 0.0
-*****************************(Handling Response)*****************************
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
-$ThatIsTheQuestion
-yes
-ToBeorNotToBE
-
-E***Null output!
-Running command:java -cp ".;..;C:\work\comp401grader\checkstyle\UNCChecks_6.5.0.jar;C:\work\comp401grader\checkstyle\checkstyle-6.5-all.jar;C:\Users\Semion\eclipse\jars_for_class\oeall22.jar;C:\Users\Semion\.p2\pool\plugins\org.junit_4.12.0.v201504281640\junit.jar" main.Assignment5
-Running in folder: C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Skeleton(skeleton)\Submission attachment(s)\Skeleton\Skeleton\bin
-$ToBeIsTheQuestion
-yes
-fooBear
-no
-
-E***Null output!
-### Handling yes and no test Case: 0.5
-*****************************(has OperateEncoder method)*****************************
-### Has OperateEncoder Method: 0.0
-*****************************(has StringDecoder method)*****************************
-### Has StringDecoder Method: 0.0
-*****************************(has StringEncoder method)*****************************
-### Has StringEncoder Method: 0.0
-*****************************(Correct return for a call to StringEncoder)*****************************
-### Method stringEncoder test case: 0.0
-*****************************(Correct return for a call to StringDecoder)*****************************
-### Method stringDecoder test case: 0.0
+*****************************(BridgeSceneDynamicTestCase)*****************************
+### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 0.0
+*****************************(TokenHistorySuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot 
+### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:0234 3023 111 
+### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean " 
+### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:pass PAss PASS 
+### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:fail FAil FAIL 
+### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:approach APProach APPROACH 
+### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT 
+### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 0.0
+### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 1.0
+Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Property TokenList not found
+For property:ScannedString getter returned:null, instead of:say SAy SAY 
+### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 0.0
+*****************************(BridgeSceneComponentScrollSuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 1.0
+### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 0.0
+*****************************(InitialBridgeSceneSuite)*****************************
+### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property Gorge not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property KnightArea not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property GuardArea not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property Occupied not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 0.0
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Property KnightTurn not found
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Tokens inherit from general class)*****************************
+### Tokendefines getter for property Input: 0.0
+### Token defines setter for property Input: 0.0
+### Word defined: 1.0
+### Number defined: 1.0
+### Quote defined: 1.0
+### End defined: 1.0
+### Start defined: 1.0
+*****************************(Commands inherit from word token)*****************************
+### Move defined: 1.0
+### Say defined: 1.0
+### Fail defined: 1.0
+### Pass defined: 1.0
+### Approach defined: 1.0
+### Repeat defined: 1.0
+*****************************(Bridge scene has new methods defined)*****************************
+### BridgeScene!@approach:@Avatar->*: 0.0
+### BridgeScene!@say:String->*: 0.0
+### BridgeScene!@passed:->*: 0.0
+### BridgeScene!@failed:->*: 0.0
+*****************************(BridgeScene uses avatar move method and setText)*****************************
+### BridgeScene!@Avatar!@move:int;int->*: 0.0
+### BridgeScene!@STRING_PATTERN!setText:String->void: 0.0
+*****************************(Scroll method defined)*****************************
+### BridgeScene!@scroll:int;int->*: 0.0
+*****************************(Gorge instantiated)*****************************
+### BridgeScene!Gorge: 1.0
+*****************************(Graphical classes have proper properties defined)*****************************
+### BridgeScenedefines getter for property Gorge: 0.0
+### BridgeScenedefines getter for property KnightArea: 0.0
+### BridgeScenedefines getter for property GuardArea: 0.0
+### BridgeScenedefines getter for property Occupied: 0.0

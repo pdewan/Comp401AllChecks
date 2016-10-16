@@ -2,63 +2,88 @@ Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
-AngleMoveSuite                                         0.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
-BridgeSceneComponentMoveSuite                          0.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+BridgeSceneDynamicTestCase                             0.0 / 50.0
+TokenHistorySuite                                      0.0 / 15.0 (Extra credit)
+BridgeSceneComponentScrollSuite                        0.0 / 10.0 (Extra credit)
+InitialBridgeSceneSuite                                11.6 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Move methods defined in Angle and Avatar               10.0 / 10.0
-Sleep called in animation                              0.0 /  2.0
-Scale method defined in avatar                         10.0 / 10.0
-Proper classes instantiated within each other          6.0 /  6.0
-Required constructors defined for graphical classes    6.0 /  9.0
-Graphical classes have proper properties defined       30.0 / 33.0
-Elements in animation are properly connected.          0.0 / 10.0
-Animation shows proper use of move function.           0.0 / 10.0
-Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
-Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
+Tokens inherit from general class                      10.0 / 14.0
+Commands inherit from word token                       12.0 / 12.0
+Bridge scene has new methods defined                   12.0 / 12.0
+BridgeScene uses avatar move method and setText        0.0 /  6.0
+Scroll method defined                                  2.0 /  2.0 (Extra credit)
+Gorge instantiated                                     3.0 /  3.0
+Graphical classes have proper properties defined       12.0 / 12.0
+Scene has a gorge with a bridge.                       0.0 / 10.0
+Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
+Animation shows boolean properties, acting correctly.  0.0 /  8.0
+Scanner animation shows proper functionality.          0.0 / 10.0
+Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
+Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 72.0
+  Points Awarded: 72.6
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            -1.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Interactive Run                             0.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
-  Points Deducted: -5.0
+  Points Deducted: -31.0
 
-  Features Score: 67.0
+  Features Score: 41.599999999999994
 
 Notes from grading features:
 ----------------------------------
-AngleMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-
-BridgeSceneArthurScaleHeadTestCase:
-  -- Method matching scale not found in class: class grail.Avatar
-
-BridgeSceneComponentMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
+BridgeSceneDynamicTestCase:
   -- java.lang.NullPointerException null
-  -- Method matching getStringShape not found in class: class grail.Avatar
 
-BridgeSceneComponentScaleSuite:
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
+TokenHistorySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
-Sleep called in animation:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment5\Correct, Stub(stubs)\Submission attachment(s)\Stub\Stub\src\main\Assignment5.java:1: warning: missingMethodCall: (Assignment5.java:1) has not made expected call         ThreadSupport!sleep:long->void
+BridgeSceneComponentScrollSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+InitialBridgeSceneSuite:
+  -- Object null not instance of [Ljava.lang.String;@15a902e7
+  -- Object null not instance of [Ljava.lang.String;@5af28b27
+  -- Object null not instance of [Ljava.lang.String;@72f46e16
+
+Tokens inherit from general class:
+  -- Token not found by checkstyle
+  -- Token not found by checkstyle
+
+BridgeScene uses avatar move method and setText:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @Avatar!@move:int;int->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @STRING_PATTERN!setText:String->void
+
+
+
+Notes from grading restrictions:
+----------------------------------
+No magic numbers:
+  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+
+
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (MyTable.java:3) Used disallowed class java.util.ArrayList 
+illegalTypeImported: (MyTable.java:4) Used disallowed class java.util.List 
 
 
 
 Early benefit: 105.0%
-  Total Score: 70.35000000000001
+  Total Score: 44.1

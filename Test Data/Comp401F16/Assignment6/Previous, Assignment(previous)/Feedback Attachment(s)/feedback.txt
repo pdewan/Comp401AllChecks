@@ -2,98 +2,107 @@ Grading result for: Previous, Assignment(previous)
 
 Grading features...
 ----------------------------------
-AngleMoveSuite                                         0.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
-BridgeSceneComponentMoveSuite                          0.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+BridgeSceneDynamicTestCase                             0.0 / 50.0
+TokenHistorySuite                                      0.0 / 15.0 (Extra credit)
+BridgeSceneComponentScrollSuite                        0.0 / 10.0 (Extra credit)
+InitialBridgeSceneSuite                                3.6 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Move methods defined in Angle and Avatar               0.0 / 10.0
-Sleep called in animation                              0.0 /  2.0
-Scale method defined in avatar                         0.0 / 10.0
-Proper classes instantiated within each other          0.0 /  6.0
-Required constructors defined for graphical classes    0.0 /  9.0
-Graphical classes have proper properties defined       0.0 / 33.0
-Elements in animation are properly connected.          0.0 / 10.0
-Animation shows proper use of move function.           0.0 / 10.0
-Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
-Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
+Tokens inherit from general class                      4.0 / 14.0
+Commands inherit from word token                       12.0 / 12.0
+Bridge scene has new methods defined                   0.0 / 12.0
+BridgeScene uses avatar move method and setText        0.0 /  6.0
+Scroll method defined                                  0.0 /  2.0 (Extra credit)
+Gorge instantiated                                     3.0 /  3.0
+Graphical classes have proper properties defined       0.0 / 12.0
+Scene has a gorge with a bridge.                       0.0 / 10.0
+Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
+Animation shows boolean properties, acting correctly.  0.0 /  8.0
+Scanner animation shows proper functionality.          0.0 / 10.0
+Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
+Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 10.0
+  Points Awarded: 32.6
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -10.0
+  Points Deducted: -5.0
 
-  Features Score: 0.0
+  Features Score: 27.6
 
 Notes from grading features:
 ----------------------------------
-AngleMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
+BridgeSceneDynamicTestCase:
+  -- Method matching approach not found in class: class grail.graphics.BridgeScene
 
-BridgeSceneArthurScaleHeadTestCase:
-  -- Method matching scale not found in class: class grail.Avatar
-
-BridgeSceneComponentMoveSuite:
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
-  -- Method matching getX not found in class: class grail.ALine
+TokenHistorySuite:
   -- java.lang.NullPointerException null
-  -- Method matching getStringShape not found in class: class grail.Avatar
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
-BridgeSceneComponentScaleSuite:
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
-  -- Method matching scale not found in class: class grail.Avatar
+BridgeSceneComponentScrollSuite:
+  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
+  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
+  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
+  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
+  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
 
-Move methods defined in Angle and Avatar:
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
+InitialBridgeSceneSuite:
+  -- Object null not instance of [Ljava.lang.String;@71984c3
+  -- Object null not instance of [Ljava.lang.String;@277f7dd3
+  -- Object null not instance of [Ljava.lang.String;@470a696f
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
-Sleep called in animation:
-  -- main.Assignment5 not found by checkstyle
+Tokens inherit from general class:
+  -- Token not found by checkstyle
+  -- Token not found by checkstyle
+  -- expectedSuperTypes: (WordToken.java:10) In type WordToken, missing supertype: @Token
 
-Scale method defined in avatar:
-  -- Avatar not found by checkstyle
+  -- expectedSuperTypes: (NumberToken.java:10) In type NumberToken, missing supertype: @Token
 
-Proper classes instantiated within each other:
-  -- main.Assignment5 not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- Avatar not found by checkstyle
+  -- expectedSuperTypes: (QuoteToken.java:9) In type QuoteToken, missing supertype: @Token
 
-Required constructors defined for graphical classes:
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- BridgeScene not found by checkstyle
+
+Bridge scene has new methods defined:
+  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @approach:@Avatar->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @say:String->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @passed:->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @failed:->*
+
+
+BridgeScene uses avatar move method and setText:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Previous, Assignment(previous)\Submission attachment(s)\Assignment5Final\Assignment5Final\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @Avatar!@move:int;int->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Previous, Assignment(previous)\Submission attachment(s)\Assignment5Final\Assignment5Final\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @STRING_PATTERN!setText:String->void
+
+
+Scroll method defined:
+  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @scroll:int;int->*
+
 
 Graphical classes have proper properties defined:
-  -- Angle not found by checkstyle
-  -- Angle not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- Avatar not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
-  -- BridgeScene not found by checkstyle
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Gorge of type *
 
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightArea of type *
 
-Notes from grading restrictions:
-----------------------------------
-Illegal import or call:
-  -- No project run interactively
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property GuardArea of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
+
 
 
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 29.4

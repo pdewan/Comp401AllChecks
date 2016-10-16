@@ -1,0 +1,4 @@
+  -- Illegal type or call in:
+illegalTypeImported: (Image.java:3) Used disallowed class javax.swing.Icon 
+illegalTypeImported: (Image.java:4) Used disallowed class javax.swing.ImageIcon 
+

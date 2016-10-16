@@ -1,1 +1,0 @@
-  -- Did not ask again for input upon user confirming wish to enter another message.
