@@ -1,0 +1,7 @@
+  -- Method matching getX not found in class: class grail.shapes.LineClass
+  -- Method matching getX not found in class: class grail.shapes.LineClass
+  -- Method matching getX not found in class: class grail.shapes.LineClass
+  -- Method matching getX not found in class: class grail.shapes.LineClass
+  -- Method matching getX not found in class: class grail.shapes.LineClass
+  -- Method matching move not found in class: class grail.shapes.AvatarClass
+  -- Method matching move not found in class: class grail.shapes.AvatarClass

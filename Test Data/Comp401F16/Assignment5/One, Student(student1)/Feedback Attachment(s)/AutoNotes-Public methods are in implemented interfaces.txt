@@ -1,0 +1,3 @@
+  -- classHasAtLeastOneInterface: (SpeechText.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (Bean.java:1) Classes with public instance methods should implement interfaces
+

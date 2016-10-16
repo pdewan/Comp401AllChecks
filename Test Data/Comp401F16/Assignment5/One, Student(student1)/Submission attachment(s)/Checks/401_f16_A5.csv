@@ -1,0 +1,158 @@
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,expectedTypes,[main.Assignment5, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene]
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,typeDefined,AllFiveGuys,@BridgeScene,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,magic.number,AllFiveGuys,200,EXPR null , EXPR 200 , EXPR 0
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,magic.number,AllFiveGuys,-200,200
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,magic.number,AllFiveGuys,400,EXPR null , EXPR 400 , EXPR 0
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuys.java,magic.number,AllFiveGuys,600,EXPR null , EXPR 600 , EXPR 0
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AllFiveGuysInterface.java,typeDefined,AllFiveGuysInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,typeDefined,Angle,@Angle,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,magic.number,Angle,75,EXPR pointTheLinesMeet , EXPR 75 , EXPR 75
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,magic.number,Angle,-75,75
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,magic.number,Angle,75,EXPR pointTheLinesMeet , EXPR - 75 , EXPR 75
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,expectedDeclaredSignatures,Angle,@move:int;int->void,Angle
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Angle.java,expectedConstructors,Angle,:,Angle
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,typeDefined,AvatarClass,@Avatar,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AvatarClass,Angle,arms
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AvatarClass,Angle,legs
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,magic.number,AvatarClass,250,EXPR jpeg , EXPR 250 , EXPR 100 , EXPR 100 , EXPR 100
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,magic.number,AvatarClass,100,EXPR jpeg , EXPR 250 , EXPR 100 , EXPR 100 , EXPR 100
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,magic.number,AvatarClass,100,EXPR bodyPoint , EXPR 0 , EXPR 100
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,magic.number,AvatarClass,450,EXPR "Arthur takes a Walk" , EXPR 450 , EXPR 50
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,magic.number,AvatarClass,50,EXPR "Arthur takes a Walk" , EXPR 450 , EXPR 50
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AvatarClass,Angle,getArms
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AvatarClass,Angle,getLegs
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,expectedDeclaredSignatures,AvatarClass,@move:int;int->void,AvatarClass
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,expectedDeclaredSignatures,AvatarClass,@scale:double->void//EC,AvatarClass
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuysInterface,AvatarClass,getGuard
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuysInterface,AvatarClass,getArthur
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuysInterface,AvatarClass,getLancelot
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuysInterface,AvatarClass,getRobin
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuysInterface,AvatarClass,getGalahad
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,guard
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,arthur
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,lancelot
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,robin
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,galahad
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,getGuard
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,getArthur
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,getLancelot
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,getRobin
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClass.java,variableHasClassType,AllFiveGuys,AvatarClass,getGalahad
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClassInterface.java,typeDefined,AvatarClassInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClassInterface.java,variableHasClassType,AvatarClassInterface,Angle,getArms
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClassInterface.java,variableHasClassType,AvatarClassInterface,Angle,getLegs
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/AvatarClassInterface.java,expectedInterfaces,AvatarClass,@Avatar,AvatarClass
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/HeadPictures.java,typeDefined,HeadPictures,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/HeadPictures.java,variableHasClassType,AvatarClass,HeadPictures,headTest
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/HeadPictures.java,variableHasClassType,AvatarClass,HeadPictures,getHead
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/HeadPictures.java,variableHasClassType,AvatarClassInterface,HeadPictures,getHead
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/HeadPicturesInterface.java,typeDefined,HeadPicturesInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,typeDefined,LineClass,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,expectedGetters,LineClass,X,int
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,expectedGetters,LineClass,Y,int
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,AvatarClass,LineClass,body
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,AvatarClass,LineClass,getBody
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,testLine
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,testLine1
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,testLine2
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,testLine3
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,getLeftLine
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,Angle,LineClass,getRightLine
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClass.java,variableHasClassType,AvatarClassInterface,LineClass,getBody
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/LineClassInterface.java,typeDefined,LineClassInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,typeDefined,Point,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClass,Point,location
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClass,Point,initialLocation
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClass,Point,getLocation
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClass,Point,newLocation
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,AvatarClass,Point,bodyPoint
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,AvatarClass,Point,armsPoint
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,AvatarClass,Point,legsPoint
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,AvatarClass,Point,point
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,Angle,Point,pointTheLinesMeet
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClassInterface,Point,getLocation
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,LineClassInterface,Point,newLocation
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/Point.java,variableHasClassType,AvatarClassInterface,Point,point
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/PointInterface.java,typeDefined,PointInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechText.java,typeDefined,SpeechText,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechText.java,classHasAtLeastOneInterface,SpeechText,grail.shapes.SpeechText
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechText.java,variableHasClassType,AvatarClass,SpeechText,newText
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechText.java,variableHasClassType,AvatarClass,SpeechText,getStringShape
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechText.java,variableHasClassType,AvatarClassInterface,SpeechText,getStringShape
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/SpeechTextInterface.java,typeDefined,SpeechTextInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/VAngleShapeInterface.java,typeDefined,VAngleShapeInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/VAngleShapeInterface.java,variableHasClassType,VAngleShapeInterface,LineClass,getLeftLine
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/VAngleShapeInterface.java,variableHasClassType,VAngleShapeInterface,LineClass,getRightLine
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/VAngleShapeInterface.java,variableHasClassType,VAngleShapeInterface,Point,pointTheLinesMeet
+0,Sat Oct 15 23:31:46 EDT 2016,true,grail/shapes/VAngleShapeInterface.java,expectedInterfaces,Angle,@Angle,Angle
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/ApproachToken.java,typeDefined,ApproachToken,@Approach,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/ApproachToken.java,functionAssignsGlobal,ApproachToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/ApproachToken.java,expectedConstructors,ApproachToken,:String,ApproachToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,typeDefined,Assignment5,main.Assignment5,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,1000,EXPR 1000 , EXPR 400
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,400,EXPR 1000 , EXPR 400
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,110,110
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,50,EXPR 50
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,50,50
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,10,EXPR null , EXPR 10 , EXPR 0
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Assignment5.java,missingMethodCall,Assignment5,        ThreadSupport!sleep:long->void
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,typeDefined,Bean,@ScannerBean,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,expectedGetters,Bean,Errors,*//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,missingMethodCall,Bean,       indexOfNot:String;char;int->int//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,expectedInterfaces,Bean,@ScannerBean,Bean
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Bean.java,classHasAtLeastOneInterface,Bean,main.Bean
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/EndClass.java,typeDefined,EndClass,@End,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/EndClass.java,expectedConstructors,EndClass,:String,EndClass
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/FailToken.java,typeDefined,FailToken,@Fail,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/FailToken.java,functionAssignsGlobal,FailToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/FailToken.java,expectedConstructors,FailToken,:String,FailToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MainClass.java,typeDefined,MainClass,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MainClass.java,variableHasClassType,MainClass,Bean,bean
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MainClass.java,magic.number,MainClass,3000,EXPR 3000
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MoveToken.java,typeDefined,MoveToken,@Move,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MoveToken.java,functionAssignsGlobal,MoveToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/MoveToken.java,expectedConstructors,MoveToken,:String,MoveToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberInterface.java,typeDefined,NumberInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberToken.java,typeDefined,NumberToken,@Number,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberToken.java,missingActualEditableProperty,NumberToken,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberToken.java,functionAssignsGlobal,NumberToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberToken.java,expectedConstructors,NumberToken,:String,NumberToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/NumberToken.java,missingActualProperty,NumberToken,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/PassToken.java,typeDefined,PassToken,@Pass,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/PassToken.java,functionAssignsGlobal,PassToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/PassToken.java,expectedConstructors,PassToken,:String,PassToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/QuotedStringToken.java,typeDefined,QuotedStringToken,@Quote,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/QuotedStringToken.java,missingActualEditableProperty,QuotedStringToken,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/QuotedStringToken.java,expectedConstructors,QuotedStringToken,:String,QuotedStringToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/QuotedStringToken.java,missingActualProperty,QuotedStringToken,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/RepeatToken.java,typeDefined,RepeatToken,@Repeat//EC,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/RepeatToken.java,functionAssignsGlobal,RepeatToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/RepeatToken.java,expectedConstructors,RepeatToken,:String,RepeatToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/SayToken.java,typeDefined,SayToken,@Say,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/SayToken.java,functionAssignsGlobal,SayToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/SayToken.java,expectedConstructors,SayToken,:String,SayToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/StartClass.java,typeDefined,StartClass,@Start,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/StartClass.java,missingActualEditableProperty,StartClass,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/StartClass.java,expectedConstructors,StartClass,:String,StartClass
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/StartClass.java,missingActualProperty,StartClass,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/Token.java,typeDefined,Token,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordInterface.java,typeDefined,WordInterface,No Expected Tag
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,typeDefined,WordToken,@Word,Class
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Plus//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Minus//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@RotateLeftArm//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@RotateRightArm//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Repeat//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Define//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Call//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Thread//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Wait//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@ProceedAll//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Sleep//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Undo//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedClassInstantiations,Bean,main.Bean,@Redo//EC
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,missingActualEditableProperty,WordToken,ScannedString
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,functionAssignsGlobal,WordToken,getValue
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,expectedConstructors,WordToken,:String,WordToken
+0,Sat Oct 15 23:31:46 EDT 2016,true,main/WordToken.java,missingActualProperty,WordToken,ScannedString

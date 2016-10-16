@@ -1,0 +1,4 @@
+  -- expectedDeclaredSignatures: (Angle.java:7) In type Angle, missing declared signature: @move:int;int->void
+
+  -- expectedDeclaredSignatures: (AvatarClass.java:6) In type AvatarClass, missing declared signature: @move:int;int->void
+
