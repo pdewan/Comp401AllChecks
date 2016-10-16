@@ -1,0 +1,59 @@
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Approach.java,expectedTypes,[main.Assignment5, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene]
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Approach.java,typeDefined,Approach,@Approach,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Call.java,typeDefined,Call,@Call//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Define.java,typeDefined,Define,@Define//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Fail.java,typeDefined,Fail,@Fail,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Move.java,typeDefined,Move,@Move,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Pass.java,typeDefined,Pass,@Pass,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/ProceedAll.java,typeDefined,ProceedAll,@ProceedAll//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Redo.java,typeDefined,Redo,@Redo//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Repeat.java,typeDefined,Repeat,@Repeat//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/RotateLeftArm.java,typeDefined,RotateLeftArm,@RotateLeftArm//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/RotateRightArm.java,typeDefined,RotateRightArm,@RotateRightArm//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Say.java,typeDefined,Say,@Say,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Sleep.java,typeDefined,Sleep,@Sleep//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Thread.java,typeDefined,Thread,@Thread//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Undo.java,typeDefined,Undo,@Undo//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/command/Wait.java,typeDefined,Wait,@Wait//EC,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/Angle.java,typeDefined,Angle,@Angle,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/Avatar.java,typeDefined,Avatar,@Avatar,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/BridgeScene.java,typeDefined,BridgeScene,@BridgeScene,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/DisplayString.java,typeDefined,DisplayString,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/HeadImage.java,typeDefined,HeadImage,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/InputScanner.java,typeDefined,InputScanner,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/Line.java,typeDefined,Line,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/NumberToken.java,typeDefined,NumberToken,@Number,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/Point.java,typeDefined,Point,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/RotatingLine.java,typeDefined,RotatingLine,@RotatingLine//EC,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/Token.java,typeDefined,Token,No Expected Tag
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/interfaces/WordToken.java,typeDefined,WordToken,@Word,Interface
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/scanner/StringScanner.java,typeDefined,StringScanner,@ScannerBean,Class
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/scanner/StringScanner.java,expectedInterfaces,StringScanner,@ScannerBean,StringScanner
+0,Sun Oct 16 00:11:50 EDT 2016,true,grail/shapes/ABridgeScene.java,typeDefined,ABridgeScene,@BridgeScene,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/ADisplayString.java,typeDefined,ADisplayString,No Expected Tag
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AHeadImage.java,typeDefined,AHeadImage,No Expected Tag
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AnAngle.java,typeDefined,AnAngle,@Angle,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AnAvatar.java,typeDefined,AnAvatar,@Avatar,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AnAvatar.java,expectedGetters,AnAvatar,StringShape,@STRING_PATTERN
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AnAvatar.java,expectedGetters,AnAvatar,Head,@IMAGE_PATTERN
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/AnAvatar.java,expectedConstructors,AnAvatar,:@IMAGE_PATTERN,AnAvatar
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/APoint.java,typeDefined,APoint,No Expected Tag
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/ARotatingLine.java,typeDefined,ARotatingLine,@RotatingLine//EC,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/ARotatingLine.java,magic.number,ARotatingLine,32,32
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/shapes/ARotatingLine.java,magic.number,ARotatingLine,3,3
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/End.java,typeDefined,End,@End,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Minus.java,typeDefined,Minus,@Minus//EC,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Number.java,typeDefined,Number,@Number,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Plus.java,typeDefined,Plus,@Plus//EC,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Quote.java,typeDefined,Quote,@Quote,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Start.java,typeDefined,Start,@Start,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Word.java,typeDefined,Word,@Word,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,grail/tokens/Word.java,expectedClassInstantiations,StringScanner,grail.scanner.StringScanner,@Redo//EC
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,typeDefined,Assignment5,main.Assignment5,Class
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,1000,EXPR 1000 , EXPR 1000
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,3000,EXPR 3000
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,300,EXPR 0 , EXPR 300
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,-200,200
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,8,EXPR 8
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,-8,8
+0,Sun Oct 16 00:11:51 EDT 2016,true,main/Assignment5.java,magic.number,Assignment5,1.5,EXPR 1.5

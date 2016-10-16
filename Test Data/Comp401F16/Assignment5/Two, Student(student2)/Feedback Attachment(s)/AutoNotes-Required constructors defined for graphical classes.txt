@@ -1,0 +1,2 @@
+  -- expectedConstructors: (AnAvatar.java:5) In type AnAvatar, missing constructor: :@IMAGE_PATTERN
+

@@ -1,0 +1,2 @@
+  -- expectedGetters: (AnAvatar.java:1) In type AnAvatar, missing getter for property Head of type @IMAGE_PATTERN
+
