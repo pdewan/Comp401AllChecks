@@ -1,0 +1,7 @@
+  -- In: grail.RotatingLine@322186fd computedX 100 != correctX 112
+  -- In: grail.RotatingLine@361f42ad computedX 100 != correctX 112
+  -- In: grail.RotatingLine@300a7f06 computedX 300 != correctX 312
+  -- In: grail.RotatingLine@317c84f6 computedX 300 != correctX 312
+  -- In: grail.RotatingLine@7e539d3b computedX 112 != correctX 124
+  -- In: grail.AHeadImage@7efda000 computedX 124 != correctX 136
+  -- Method matching getStringShape not found in class: class mp.Avatar
