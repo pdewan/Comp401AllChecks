@@ -1,4 +1,4 @@
-Grading result for: Cui, Lily(yinglinc)
+Grading result for: One, Student(student1)
 
 Grading features...
 ----------------------------------
@@ -6,30 +6,30 @@ AngleMoveSuite                                         0.0 / 20.0
 BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
 BridgeSceneComponentMoveSuite                          0.0 / 40.0
 BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
-Public methods are in implemented interfaces           6.0 / 10.0
+Public methods are in implemented interfaces           10.0 / 10.0
 Move methods defined in Angle and Avatar               0.0 / 10.0
 Sleep called in animation                              0.0 /  2.0
-Scale method defined in avatar                         10.0 / 10.0
-Proper classes instantiated within each other          6.0 /  6.0
-Required constructors defined for graphical classes    6.0 /  9.0
-Graphical classes have proper properties defined       33.0 / 33.0
+Scale method defined in avatar                         0.0 / 10.0
+Proper classes instantiated within each other          0.0 /  6.0
+Required constructors defined for graphical classes    0.0 /  9.0
+Graphical classes have proper properties defined       0.0 / 33.0
 Elements in animation are properly connected.          0.0 / 10.0
 Animation shows proper use of move function.           0.0 / 10.0
 Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
 Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 61.0
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
-Variables should have interface, not class, type-10.0 /  -10.0
-No magic numbers                            -5.0 /  -5.0
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -5.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -20.0
+  Points Deducted: -5.0
 
-  Features Score: 41.0
+  Features Score: 5.0
 
 Notes from grading features:
 ----------------------------------
@@ -56,107 +56,37 @@ BridgeSceneComponentScaleSuite:
   -- Method matching scale not found in class: class grail.shapes.AvatarClass
   -- Method matching scale not found in class: class grail.shapes.AvatarClass
 
-Public methods are in implemented interfaces:
-  -- classHasAtLeastOneInterface: (SpeechText.java:1) Classes with public instance methods should implement interfaces
-classHasAtLeastOneInterface: (Bean.java:1) Classes with public instance methods should implement interfaces
-
-
 Move methods defined in Angle and Avatar:
-  -- expectedDeclaredSignatures: (Angle.java:7) In type Angle, missing declared signature: @move:int;int->void
-
-  -- expectedDeclaredSignatures: (AvatarClass.java:6) In type AvatarClass, missing declared signature: @move:int;int->void
-
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
 
 Sleep called in animation:
-  -- /Users/andrewwg94/401 TA '16/Assignments/Assignment 5/Cui, Lily(yinglinc)/Submission attachment(s)/Assignment5/Assignment5/src/main/Assignment5.java:1: warning: missingMethodCall: (Assignment5.java:1) has not made expected call         ThreadSupport!sleep:long->void
+  -- main.Assignment5 not found by checkstyle
 
+Scale method defined in avatar:
+  -- Avatar not found by checkstyle
+
+Proper classes instantiated within each other:
+  -- main.Assignment5 not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- Avatar not found by checkstyle
 
 Required constructors defined for graphical classes:
-  -- expectedConstructors: (Angle.java:7) In type Angle, missing constructor: :
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- BridgeScene not found by checkstyle
 
+Graphical classes have proper properties defined:
+  -- Angle not found by checkstyle
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
 
-
-Notes from grading restrictions:
-----------------------------------
-Variables should have interface, not class, type:
-  -- variableHasClassType: (AllFiveGuys.java:12) Class AvatarClass rather than interface used as the type of variable/function arthur
-variableHasClassType: (AllFiveGuys.java:12) Class AvatarClass rather than interface used as the type of variable/function galahad
-variableHasClassType: (AllFiveGuys.java:12) Class AvatarClass rather than interface used as the type of variable/function guard
-variableHasClassType: (AllFiveGuys.java:12) Class AvatarClass rather than interface used as the type of variable/function lancelot
-variableHasClassType: (AllFiveGuys.java:12) Class AvatarClass rather than interface used as the type of variable/function robin
-variableHasClassType: (AllFiveGuys.java:29) Class AvatarClass rather than interface used as the type of variable/function getGuard
-variableHasClassType: (AllFiveGuys.java:32) Class AvatarClass rather than interface used as the type of variable/function getArthur
-variableHasClassType: (AllFiveGuys.java:35) Class AvatarClass rather than interface used as the type of variable/function getLancelot
-variableHasClassType: (AllFiveGuys.java:38) Class AvatarClass rather than interface used as the type of variable/function getRobin
-variableHasClassType: (AllFiveGuys.java:41) Class AvatarClass rather than interface used as the type of variable/function getGalahad
-variableHasClassType: (AllFiveGuysInterface.java:4) Class AvatarClass rather than interface used as the type of variable/function getGuard
-variableHasClassType: (AllFiveGuysInterface.java:5) Class AvatarClass rather than interface used as the type of variable/function getArthur
-variableHasClassType: (AllFiveGuysInterface.java:6) Class AvatarClass rather than interface used as the type of variable/function getLancelot
-variableHasClassType: (AllFiveGuysInterface.java:7) Class AvatarClass rather than interface used as the type of variable/function getRobin
-variableHasClassType: (AllFiveGuysInterface.java:8) Class AvatarClass rather than interface used as the type of variable/function getGalahad
-variableHasClassType: (AvatarClass.java:11) Class Angle rather than interface used as the type of variable/function arms
-variableHasClassType: (AvatarClass.java:11) Class Angle rather than interface used as the type of variable/function legs
-variableHasClassType: (AvatarClass.java:31) Class Angle rather than interface used as the type of variable/function getArms
-variableHasClassType: (AvatarClass.java:34) Class Angle rather than interface used as the type of variable/function getLegs
-variableHasClassType: (AvatarClassInterface.java:5) Class Angle rather than interface used as the type of variable/function getArms
-variableHasClassType: (AvatarClassInterface.java:8) Class Angle rather than interface used as the type of variable/function getLegs
-variableHasClassType: (AvatarClass.java:10) Class HeadPictures rather than interface used as the type of variable/function headTest
-variableHasClassType: (AvatarClass.java:28) Class HeadPictures rather than interface used as the type of variable/function getHead
-variableHasClassType: (AvatarClassInterface.java:4) Class HeadPictures rather than interface used as the type of variable/function getHead
-variableHasClassType: (Angle.java:12) Class LineClass rather than interface used as the type of variable/function testLine
-variableHasClassType: (Angle.java:12) Class LineClass rather than interface used as the type of variable/function testLine1
-variableHasClassType: (Angle.java:12) Class LineClass rather than interface used as the type of variable/function testLine2
-variableHasClassType: (Angle.java:12) Class LineClass rather than interface used as the type of variable/function testLine3
-variableHasClassType: (Angle.java:20) Class LineClass rather than interface used as the type of variable/function getLeftLine
-variableHasClassType: (Angle.java:23) Class LineClass rather than interface used as the type of variable/function getRightLine
-variableHasClassType: (AvatarClass.java:12) Class LineClass rather than interface used as the type of variable/function body
-variableHasClassType: (AvatarClass.java:37) Class LineClass rather than interface used as the type of variable/function getBody
-variableHasClassType: (AvatarClassInterface.java:6) Class LineClass rather than interface used as the type of variable/function getBody
-variableHasClassType: (Angle.java:15) Class Point rather than interface used as the type of variable/function pointTheLinesMeet
-variableHasClassType: (Angle.java:26) Class Point rather than interface used as the type of variable/function pointTheLinesMeet
-variableHasClassType: (AvatarClass.java:13) Class Point rather than interface used as the type of variable/function bodyPoint
-variableHasClassType: (AvatarClass.java:14) Class Point rather than interface used as the type of variable/function armsPoint
-variableHasClassType: (AvatarClass.java:15) Class Point rather than interface used as the type of variable/function legsPoint
-variableHasClassType: (AvatarClass.java:45) Class Point rather than interface used as the type of variable/function point
-variableHasClassType: (AvatarClassInterface.java:9) Class Point rather than interface used as the type of variable/function point
-variableHasClassType: (LineClass.java:10) Class Point rather than interface used as the type of variable/function location
-variableHasClassType: (LineClass.java:12) Class Point rather than interface used as the type of variable/function initialLocation
-variableHasClassType: (LineClass.java:18) Class Point rather than interface used as the type of variable/function getLocation
-variableHasClassType: (LineClass.java:21) Class Point rather than interface used as the type of variable/function newLocation
-variableHasClassType: (LineClassInterface.java:4) Class Point rather than interface used as the type of variable/function getLocation
-variableHasClassType: (LineClassInterface.java:5) Class Point rather than interface used as the type of variable/function newLocation
-variableHasClassType: (AvatarClass.java:16) Class SpeechText rather than interface used as the type of variable/function newText
-variableHasClassType: (AvatarClass.java:40) Class SpeechText rather than interface used as the type of variable/function getStringShape
-variableHasClassType: (AvatarClassInterface.java:7) Class SpeechText rather than interface used as the type of variable/function getStringShape
-variableHasClassType: (VAngleShapeInterface.java:4) Class LineClass rather than interface used as the type of variable/function getLeftLine
-variableHasClassType: (VAngleShapeInterface.java:5) Class LineClass rather than interface used as the type of variable/function getRightLine
-variableHasClassType: (VAngleShapeInterface.java:6) Class Point rather than interface used as the type of variable/function pointTheLinesMeet
-variableHasClassType: (MainClass.java:21) Class Bean rather than interface used as the type of variable/function bean
-
-
-No magic numbers:
-  -- magic.number: (AllFiveGuys.java:21) In type AllFiveGuys, magic number 200 in expression list EXPR null , EXPR 200 , EXPR 0 
-magic.number: (AllFiveGuys.java:22) In type AllFiveGuys, magic number -200 in expression list 200 
-magic.number: (AllFiveGuys.java:23) In type AllFiveGuys, magic number 400 in expression list EXPR null , EXPR 400 , EXPR 0 
-magic.number: (AllFiveGuys.java:24) In type AllFiveGuys, magic number 600 in expression list EXPR null , EXPR 600 , EXPR 0 
-magic.number: (Angle.java:16) In type Angle, magic number 75 in expression list EXPR pointTheLinesMeet , EXPR 75 , EXPR 75 
-magic.number: (Angle.java:17) In type Angle, magic number -75 in expression list 75 
-magic.number: (Angle.java:17) In type Angle, magic number 75 in expression list EXPR pointTheLinesMeet , EXPR - 75 , EXPR 75 
-magic.number: (AvatarClass.java:20) In type AvatarClass, magic number 100 in expression list EXPR jpeg , EXPR 250 , EXPR 100 , EXPR 100 , EXPR 100 
-magic.number: (AvatarClass.java:20) In type AvatarClass, magic number 250 in expression list EXPR jpeg , EXPR 250 , EXPR 100 , EXPR 100 , EXPR 100 
-magic.number: (AvatarClass.java:23) In type AvatarClass, magic number 100 in expression list EXPR bodyPoint , EXPR 0 , EXPR 100 
-magic.number: (AvatarClass.java:24) In type AvatarClass, magic number 450 in expression list EXPR "Arthur takes a Walk" , EXPR 450 , EXPR 50 
-magic.number: (AvatarClass.java:24) In type AvatarClass, magic number 50 in expression list EXPR "Arthur takes a Walk" , EXPR 450 , EXPR 50 
-magic.number: (Assignment5.java:14) In type Assignment5, magic number 1000 in expression list EXPR 1000 , EXPR 400 
-magic.number: (Assignment5.java:14) In type Assignment5, magic number 400 in expression list EXPR 1000 , EXPR 400 
-magic.number: (Assignment5.java:17) In type Assignment5, magic number 110 in expression list 110 
-magic.number: (Assignment5.java:18) In type Assignment5, magic number 50 in expression list EXPR 50 
-magic.number: (Assignment5.java:19) In type Assignment5, magic number 50 in expression list 50 
-magic.number: (Assignment5.java:20) In type Assignment5, magic number 10 in expression list EXPR null , EXPR 10 , EXPR 0 
-magic.number: (Assignment5.java:23) In type Assignment5, magic number 10 in expression list EXPR null , EXPR 10 , EXPR 0 
-magic.number: (MainClass.java:23) In type MainClass, magic number 3000 in expression list EXPR 3000 
-magic.number: (MainClass.java:26) In type MainClass, magic number 3000 in expression list EXPR 3000 
-magic.number: (MainClass.java:29) In type MainClass, magic number 3000 in expression list EXPR 3000 
-
-
-  Total Score: 41.0
+  Total Score: 5.0
