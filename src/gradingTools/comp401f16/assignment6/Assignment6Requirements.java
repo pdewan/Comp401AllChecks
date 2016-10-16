@@ -70,8 +70,8 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
      	
      	// Method calls
      	addFeature("BridgeScene uses avatar move method and setText", 6,
-     			new CheckstyleMethodCalledTestCase("BridgeScene", "@Avatar!@move:int;int->*"),
-     			new CheckstyleMethodCalledTestCase("BridgeScene", "@STRING_PATTERN!setText:String->void")
+     			new CheckstyleMethodCalledTestCase("BridgeScene", "(.*)!@move:int;int->*"),
+     			new CheckstyleMethodCalledTestCase("BridgeScene", "(.*)!setText:String->void")
      			);
      	
      	// Extra credit- I'm assuming that it is tested elsewhere, so just a couple points for definition
@@ -79,19 +79,14 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodDefinedTestCase("BridgeScene", "@scroll:int;int->*")
      			);
      	
-     	// Class instantiation
-     	addFeature("Gorge instantiated", 3,
-     			new CheckstyleClassInstantiatedTestCase("BridgeScene", "Gorge")
-     			);
-     	
      	// Properties defined
-     	addFeature("Graphical classes have proper properties defined", 12,
+     	addFeature("Graphical classes have proper properties defined", 15,
      			
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "Gorge", "*"),
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightArea", "*"),
 				new CheckStylePropertyDefinedTestCase("BridgeScene", "GuardArea", "*"),
-				new CheckStylePropertyDefinedTestCase("BridgeScene", "Occupied", "boolean")
-//				,new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightTurn", "boolean") //told to remove
+				new CheckStylePropertyDefinedTestCase("BridgeScene", "Occupied", "boolean"),
+				new CheckStylePropertyDefinedTestCase("BridgeScene", "KnightTurn", "boolean") 
 						
      			);	
 

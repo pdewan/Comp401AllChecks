@@ -62,8 +62,8 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      	// Method calls
      	addFeature("CommandInterpreter properly uses the other classes", 8,
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@BridgeScene!@say:String->*"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@Avatar!@move:int;int->*"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@Table!@get:String->*"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!@move:int;int->*"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!@get:String->*"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table")
      			);
 
@@ -73,7 +73,6 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@bridgeSceneFactoryMethod:->@BridgeScene"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@scannerFactoryMethod->@ScannerBean"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterFactoryMethod:->@CommandInterpreter"),
-     			
      			
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table"),
      			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene"),

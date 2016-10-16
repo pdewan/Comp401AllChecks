@@ -12,8 +12,7 @@ Commands inherit from word token                       12.0 / 12.0
 Bridge scene has new methods defined                   12.0 / 12.0
 BridgeScene uses avatar move method and setText        0.0 /  6.0
 Scroll method defined                                  2.0 /  2.0 (Extra credit)
-Gorge instantiated                                     3.0 /  3.0
-Graphical classes have proper properties defined       12.0 / 12.0
+Graphical classes have proper properties defined       15.0 / 15.0
 Scene has a gorge with a bridge.                       0.0 / 10.0
 Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
 Animation shows boolean properties, acting correctly.  0.0 /  8.0
@@ -57,18 +56,18 @@ BridgeSceneComponentScrollSuite:
   -- java.lang.NullPointerException null
 
 InitialBridgeSceneSuite:
-  -- Object null not instance of [Ljava.lang.String;@15a902e7
-  -- Object null not instance of [Ljava.lang.String;@5af28b27
-  -- Object null not instance of [Ljava.lang.String;@72f46e16
+  -- Object null not instance of [Ljava.lang.String;@549621f3
+  -- Object null not instance of [Ljava.lang.String;@5217f3d0
+  -- Object null not instance of [Ljava.lang.String;@2416a51
 
 Tokens inherit from general class:
   -- Token not found by checkstyle
   -- Token not found by checkstyle
 
 BridgeScene uses avatar move method and setText:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @Avatar!@move:int;int->* 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @STRING_PATTERN!setText:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!!setText:String->void
 
 
 

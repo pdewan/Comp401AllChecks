@@ -1,5 +1,5 @@
-  -- Object null not instance of [Ljava.lang.String;@fd0e5b6
-  -- Object null not instance of [Ljava.lang.String;@4fad94a7
-  -- Object null not instance of [Ljava.lang.String;@716a7124
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+  -- Missing property:Gorge in grail.graphics.BridgeScene@5cc126dc
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@72bd06ca
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@4fe89c24
+  -- Missing property:Occupied in grail.graphics.BridgeScene@3d08f3f5
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@1a1da881

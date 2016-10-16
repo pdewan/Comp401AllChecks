@@ -5,15 +5,14 @@ Grading features...
 BridgeSceneDynamicTestCase                             0.0 / 50.0
 TokenHistorySuite                                      0.0 / 15.0 (Extra credit)
 BridgeSceneComponentScrollSuite                        0.0 / 10.0 (Extra credit)
-InitialBridgeSceneSuite                                3.6 / 20.0
+InitialBridgeSceneSuite                                0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Tokens inherit from general class                      4.0 / 14.0
+Tokens inherit from general class                      0.0 / 14.0
 Commands inherit from word token                       0.0 / 12.0
 Bridge scene has new methods defined                   0.0 / 12.0
 BridgeScene uses avatar move method and setText        0.0 /  6.0
 Scroll method defined                                  0.0 /  2.0 (Extra credit)
-Gorge instantiated                                     3.0 /  3.0
-Graphical classes have proper properties defined       0.0 / 12.0
+Graphical classes have proper properties defined       3.0 / 15.0
 Scene has a gorge with a bridge.                       0.0 / 10.0
 Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
 Animation shows boolean properties, acting correctly.  0.0 /  8.0
@@ -21,7 +20,7 @@ Scanner animation shows proper functionality.          0.0 / 10.0
 Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
 Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 20.6
+  Points Awarded: 13.0
 
 Grading restrictions...
 ----------------------------------
@@ -32,7 +31,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -9.399999999999999
+  Features Score: -17.0
 
 Notes from grading features:
 ----------------------------------
@@ -57,11 +56,11 @@ BridgeSceneComponentScrollSuite:
   -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
 
 InitialBridgeSceneSuite:
-  -- Object null not instance of [Ljava.lang.String;@31dadd46
-  -- Object null not instance of [Ljava.lang.String;@1f010bf0
-  -- Object null not instance of [Ljava.lang.String;@ee86bcb
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+  -- Missing property:Gorge in grail.graphics.BridgeScene@ee86bcb
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@2631f68c
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@30af5b6b
+  -- Missing property:Occupied in grail.graphics.BridgeScene@bcef303
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@33308786
 
 Tokens inherit from general class:
   -- Token not found by checkstyle
@@ -71,6 +70,10 @@ Tokens inherit from general class:
   -- expectedSuperTypes: (NumberToken.java:10) In type NumberToken, missing supertype: @Token
 
   -- expectedSuperTypes: (QuoteToken.java:9) In type QuoteToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (EndToken.java:9) In type EndToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (StartToken.java:10) In type StartToken, missing supertype: @Token
 
 
 Commands inherit from word token:
@@ -98,9 +101,9 @@ Bridge scene has new methods defined:
 
 
 BridgeScene uses avatar move method and setText:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @Avatar!@move:int;int->* 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        @STRING_PATTERN!setText:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!!setText:String->void
 
 
 Scroll method defined:

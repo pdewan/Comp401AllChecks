@@ -1,0 +1,19 @@
+  -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property X of type int
+
+  -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property Y of type int
+
+  -- expectedSetters: (LocatableObject.java:1) In type LocatableObject, missing setter for property X of type int
+
+  -- expectedSetters: (LocatableObject.java:1) In type LocatableObject, missing setter for property Y of type int
+
+  -- expectedGetters: (BoundedShape.java:1) In type BoundedShape, missing getter for property Width of type int
+
+  -- expectedGetters: (BoundedShape.java:1) In type BoundedShape, missing getter for property Height of type int
+
+  -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Width of type int
+
+  -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Height of type int
+
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle

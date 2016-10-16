@@ -12,8 +12,7 @@ Commands inherit from word token                       12.0 / 12.0
 Bridge scene has new methods defined                   12.0 / 12.0
 BridgeScene uses avatar move method and setText        6.0 /  6.0
 Scroll method defined                                  2.0 /  2.0 (Extra credit)
-Gorge instantiated                                     3.0 /  3.0
-Graphical classes have proper properties defined       12.0 / 12.0
+Graphical classes have proper properties defined       15.0 / 15.0
 Scene has a gorge with a bridge.                       0.0 / 10.0
 Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
 Animation shows boolean properties, acting correctly.  0.0 /  8.0

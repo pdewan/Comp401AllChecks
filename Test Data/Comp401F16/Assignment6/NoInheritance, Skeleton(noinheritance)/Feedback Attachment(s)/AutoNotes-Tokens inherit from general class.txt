@@ -6,3 +6,7 @@
 
   -- expectedSuperTypes: (QuoteToken.java:9) In type QuoteToken, missing supertype: @Token
 
+  -- expectedSuperTypes: (EndToken.java:9) In type EndToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (StartToken.java:10) In type StartToken, missing supertype: @Token
+
