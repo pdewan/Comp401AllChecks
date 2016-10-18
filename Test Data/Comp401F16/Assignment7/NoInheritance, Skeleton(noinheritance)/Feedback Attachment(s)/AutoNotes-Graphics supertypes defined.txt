@@ -6,9 +6,6 @@
 
   -- expectedSetters: (LocatableObject.java:1) In type LocatableObject, missing setter for property Y of type int
 
-  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
-expectedSuperTypes: (BoundedShapeInterface.java:5) In type BoundedShapeInterface, missing supertype: @Locatable
-
   -- expectedGetters: (BoundedShape.java:1) In type BoundedShape, missing getter for property Width of type int
 
   -- expectedGetters: (BoundedShape.java:1) In type BoundedShape, missing getter for property Height of type int
@@ -17,6 +14,3 @@ expectedSuperTypes: (BoundedShapeInterface.java:5) In type BoundedShapeInterface
 
   -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Height of type int
 
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle

@@ -129,19 +129,19 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.0
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
-*****************************(Graphics inheritance hierarchy)*****************************
+*****************************(Graphics supertypes defined)*****************************
 ### Locatabledefines getter for property X: 0.0
 ### Locatabledefines getter for property Y: 0.0
 ### Locatable defines setter for property X: 0.0
 ### Locatable defines setter for property Y: 0.0
-### BoundedShape defined: 0.0
 ### BoundedShapedefines getter for property Width: 0.0
 ### BoundedShapedefines getter for property Height: 0.0
 ### BoundedShape defines setter for property Width: 0.0
 ### BoundedShape defines setter for property Height: 0.0
-### @LINE_PATTERN defined: 0.0
-### @STRING_PATTERN defined: 0.0
-### @IMAGE_PATTERN defined: 0.0
+*****************************(Locatable subtypes defined)*****************************
+### Subtypes of Locatable defined: 0.0
+*****************************(BoundedShape subtypes defined)*****************************
+### Subtypes of BoundedShape defined: 0.0
 *****************************(CommandInterpreter properly uses the other classes)*****************************
 ### CommandInterpreter!@BridgeScene!@say:String->*: 0.0
 ### CommandInterpreter!(.*)!@move:int;int->*: 0.0

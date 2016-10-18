@@ -16,6 +16,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCa
 import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
+import gradingTools.sharedTestCase.checkstyle.CheckstylePatternBasedSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
 
@@ -39,25 +40,63 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
      			new CheckStyleVariableHasClassTypeTestCase());
      	
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
-     	
-     	addFeature("Graphics inheritance hierarchy", 24,
+     	addFeature("Graphics supertypes defined", 16,
 //     			new CheckStyleClassDefinedTestCase("Locatable"),	// test currently doesn't work, maybe not necessary
      			new CheckStylePropertyDefinedTestCase("Locatable", "X", "int"),
      			new CheckStylePropertyDefinedTestCase("Locatable", "Y", "int"),
      			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "X", "int"),
      			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "Y", "int"),
      			
-//     			new CheckStyleClassDefinedTestCase("BoundedShape"),
-     			new CheckstyleSuperTypeDefinedTestCase("BoundedShape", "Locatable"),
+////     			new CheckStyleClassDefinedTestCase("BoundedShape"),
+//     			new CheckstylePatternBasedSuperTypeDefinedTestCase("Locatable", 2),
+//     			new CheckstylePatternBasedSuperTypeDefinedTestCase("BoundedShape", 2),
+
+//     			new CheckstyleSuperTypeDefinedTestCase("BoundedShape", "Locatable"),
      			new CheckStylePropertyDefinedTestCase("BoundedShape", "Width", "int"),
      			new CheckStylePropertyDefinedTestCase("BoundedShape", "Height", "int"),
      			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Width", "int"),
-     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Height", "int"),
+     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Height", "int")
      			
-     			new CheckstyleSuperTypeDefinedTestCase("@LINE_PATTERN", "Locatable"),
-     			new CheckstyleSuperTypeDefinedTestCase("@STRING_PATTERN", "Locatable"),
-     			new CheckstyleSuperTypeDefinedTestCase("@IMAGE_PATTERN", "BoundedShape")
+//     			new CheckstyleSuperTypeDefinedTestCase("@LINE_PATTERN", "Locatable"),
+//     			new CheckstyleSuperTypeDefinedTestCase("@STRING_PATTERN", "Locatable"),
+//     			new CheckstyleSuperTypeDefinedTestCase("@IMAGE_PATTERN", "BoundedShape")
      			);
+     	addFeature("Locatable subtypes defined", 12, // 6 or 3 cases depending on if we count interfaces
+////     			
+     			new CheckstylePatternBasedSuperTypeDefinedTestCase("Locatable", 1.0/6.0)
+//     			
+//     			new CheckstyleSuperTypeDefinedTestCase("BoundedShape", "Locatable"),
+//     			
+//     			new CheckstyleSuperTypeDefinedTestCase("@LINE_PATTERN", "Locatable"),
+//     			new CheckstyleSuperTypeDefinedTestCase("@STRING_PATTERN", "Locatable"),
+     			);
+     	addFeature("BoundedShape subtypes defined", 4, // 1 or 2 cases
+//// 			
+// 			new CheckstylePatternBasedSuperTypeDefinedTestCase("Locatable", 1.0/6.0)
+ 			new CheckstylePatternBasedSuperTypeDefinedTestCase("BoundedShape", 1.0/2.0) 		
+// 			new CheckstyleSuperTypeDefinedTestCase("@IMAGE_PATTERN", "BoundedShape")
+ 			);
+//     	addFeature("Graphics inheritance hierarchy", 24,
+////     			new CheckStyleClassDefinedTestCase("Locatable"),	// test currently doesn't work, maybe not necessary
+//     			new CheckStylePropertyDefinedTestCase("Locatable", "X", "int"),
+//     			new CheckStylePropertyDefinedTestCase("Locatable", "Y", "int"),
+//     			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "X", "int"),
+//     			new CheckStyleEditablePropertyDefinedTestCase("Locatable", "Y", "int"),
+//     			
+////     			new CheckStyleClassDefinedTestCase("BoundedShape"),
+//     			new CheckstylePatternBasedSuperTypeDefinedTestCase("Locatable", 2),
+//     			new CheckstylePatternBasedSuperTypeDefinedTestCase("BoundedShape", 2),
+//
+////     			new CheckstyleSuperTypeDefinedTestCase("BoundedShape", "Locatable"),
+//     			new CheckStylePropertyDefinedTestCase("BoundedShape", "Width", "int"),
+//     			new CheckStylePropertyDefinedTestCase("BoundedShape", "Height", "int"),
+//     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Width", "int"),
+//     			new CheckStyleEditablePropertyDefinedTestCase("BoundedShape", "Height", "int")
+//     			
+////     			new CheckstyleSuperTypeDefinedTestCase("@LINE_PATTERN", "Locatable"),
+////     			new CheckstyleSuperTypeDefinedTestCase("@STRING_PATTERN", "Locatable"),
+////     			new CheckstyleSuperTypeDefinedTestCase("@IMAGE_PATTERN", "BoundedShape")
+//     			);
      	
      	// Method calls
      	addFeature("CommandInterpreter properly uses the other classes", 8,

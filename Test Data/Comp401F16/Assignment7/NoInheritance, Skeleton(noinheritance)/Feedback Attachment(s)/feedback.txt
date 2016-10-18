@@ -10,7 +10,9 @@ CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
 FactoryMethodSuite                                     0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         0.0 / 24.0
+Graphics supertypes defined                            0.0 / 16.0
+Locatable subtypes defined                             0.0 / 12.0
+BoundedShape subtypes defined                          0.0 /  4.0
 CommandInterpreter properly uses the other classes     2.0 /  8.0
 SingletonCreator created and used in main              4.0 / 16.0
 Command interpreter has required property and is instantiated 6.0 / 12.0
@@ -65,7 +67,7 @@ FactoryMethodSuite:
   -- Factory method:[scannerfactorymethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-Graphics inheritance hierarchy:
+Graphics supertypes defined:
   -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property X of type int
 
   -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property Y of type int
@@ -73,9 +75,6 @@ Graphics inheritance hierarchy:
   -- expectedSetters: (LocatableObject.java:1) In type LocatableObject, missing setter for property X of type int
 
   -- expectedSetters: (LocatableObject.java:1) In type LocatableObject, missing setter for property Y of type int
-
-  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
-expectedSuperTypes: (BoundedShapeInterface.java:5) In type BoundedShapeInterface, missing supertype: @Locatable
 
   -- expectedGetters: (BoundedShape.java:1) In type BoundedShape, missing getter for property Width of type int
 
@@ -85,9 +84,44 @@ expectedSuperTypes: (BoundedShapeInterface.java:5) In type BoundedShapeInterface
 
   -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Height of type int
 
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
+
+Locatable subtypes defined:
+  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLine.java:10) In type RotatingLine, missing supertype: @Locatable
+expectedSuperTypes: (StringShape.java:9) In type StringShape, missing supertype: @Locatable
+expectedSuperTypes: (BoundedShapeInterface.java:5) In type BoundedShapeInterface, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLineInterface.java:7) In type RotatingLineInterface, missing supertype: @Locatable
+expectedSuperTypes: (StringShapeInterface.java:6) In type StringShapeInterface, missing supertype: @Locatable
+
+
+BoundedShape subtypes defined:
+  -- expectedSuperTypes: (Image.java:12) In type Image, missing supertype: @BoundedShape
+expectedSuperTypes: (ImageInterface.java:6) In type ImageInterface, missing supertype: @BoundedShape
+
+
+CommandInterpreter properly uses the other classes:
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
+
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!@move:int;int->* 
+
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+
+SingletonCreator created and used in main:
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
+
+  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                     @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+
+
+Command interpreter has required property and is instantiated:
+  -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Command of type String
+
+  -- expectedSetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing setter for property Command of type String
+
 
 
 Early benefit: 105.0%
