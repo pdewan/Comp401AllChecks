@@ -4,5 +4,5 @@
   -- SingletonsCreator not found by checkstyle
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                     @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
 

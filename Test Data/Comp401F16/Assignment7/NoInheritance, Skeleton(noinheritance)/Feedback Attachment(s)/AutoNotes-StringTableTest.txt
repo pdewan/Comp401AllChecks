@@ -1,1 +1,1 @@
-  -- Method matching put not found in class: class grail.collections.MyTable
+  -- Factory method:[avatartablefactorymethod] not found.

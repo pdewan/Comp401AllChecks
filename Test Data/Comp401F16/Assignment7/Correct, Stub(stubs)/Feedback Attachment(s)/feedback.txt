@@ -8,7 +8,7 @@ CommandInterpreterMixedCaseSuite                       0.0 / 10.0
 StringTableTest                                        0.0 / 25.0
 CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     8.0 / 20.0
+FactoryMethodSuite                                     0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Graphics inheritance hierarchy                         18.0 / 24.0
 CommandInterpreter properly uses the other classes     2.0 /  8.0
@@ -17,7 +17,7 @@ Command interpreter has required property and is instantiated 12.0 / 12.0
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
 Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 54.0
+  Points Awarded: 46.0
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -6.0
 
-  Features Score: 48.0
+  Features Score: 40.0
 
 Notes from grading features:
 ----------------------------------
@@ -46,7 +46,7 @@ CommandInterpreterMixedCaseSuite:
   -- Factory method returns null object
 
 StringTableTest:
-  -- Actual value: null not expected value: 1
+  -- Factory method returns null object
 
 CommandInterpreterErrorsSuite:
   -- Factory method returns null object
@@ -60,10 +60,10 @@ CommandInterpreterSignedMoveSuite:
   -- Factory method returns null object
 
 FactoryMethodSuite:
-  -- First factory method return value grail.collections.MyTable@759fad4 != grail.collections.MyTable@53499d85
-  -- First factory method return value grail.scanner.CommandInterpreter@782a4fff != grail.scanner.CommandInterpreter@59fc684e
-  -- First factory method return value grail.scanner.ScannerBean@2fd1731c != grail.scanner.ScannerBean@6063d80a
-  -- First factory method return value grail.graphics.BridgeScene@355e34c7 != grail.graphics.BridgeScene@2a2da905
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
+  -- Factory method returns null object
 
 Graphics inheritance hierarchy:
   -- @LINE_PATTERN not found by checkstyle
@@ -73,7 +73,7 @@ Graphics inheritance hierarchy:
 CommandInterpreter properly uses the other classes:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @Avatar!@move:int;int->* 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!@move:int;int->* 
 
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
@@ -85,7 +85,7 @@ SingletonCreator created and used in main:
   -- SingletonsCreator not found by checkstyle
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                       @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                     @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
 
 
 
@@ -97,4 +97,4 @@ No magic numbers:
 
 
 Early benefit: 105.0%
-  Total Score: 50.400000000000006
+  Total Score: 42.0

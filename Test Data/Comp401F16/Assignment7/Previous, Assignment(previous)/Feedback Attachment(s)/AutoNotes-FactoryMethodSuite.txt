@@ -1,4 +1,4 @@
-  -- Could not instantiate/find class matching:[Table]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- First factory method return value grail.ScannerBean@7c56e013 != grail.ScannerBean@40258c2f
-  -- First factory method return value grail.graphics.BridgeScene@6731787b != grail.graphics.BridgeScene@7adf16aa
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.

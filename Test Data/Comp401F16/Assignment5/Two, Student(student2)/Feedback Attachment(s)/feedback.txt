@@ -1,84 +1,71 @@
-Grading result for: Fuller, Matt(mefuller)
+Grading result for: Two, Student(student2)
 
 Grading features...
 ----------------------------------
 AngleMoveSuite                                         20.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
+BridgeSceneArthurScaleHeadTestCase                     5.0 /  5.0 (Extra credit)
 BridgeSceneComponentMoveSuite                          40.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+BridgeSceneComponentScaleSuite                         10.0 / 10.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Move methods defined in Angle and Avatar               10.0 / 10.0
-Sleep called in animation                              2.0 /  2.0
-Scale method defined in avatar                         10.0 / 10.0
-Proper classes instantiated within each other          6.0 /  6.0
-Required constructors defined for graphical classes    6.0 /  9.0
-Graphical classes have proper properties defined       30.0 / 33.0
+Move methods defined in Angle and Avatar               0.0 / 10.0
+Sleep called in animation                              0.0 /  2.0
+Scale method defined in avatar                         0.0 / 10.0
+Proper classes instantiated within each other          0.0 /  6.0
+Required constructors defined for graphical classes    0.0 /  9.0
+Graphical classes have proper properties defined       0.0 / 33.0
 Elements in animation are properly connected.          0.0 / 10.0
 Animation shows proper use of move function.           0.0 / 10.0
 Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
 Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 134.0
+  Points Awarded: 85.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            -5.0 /  -5.0
+No magic numbers                            0.0 /  -5.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -10.0
+  Points Deducted: -5.0
 
-  Features Score: 124.0
+  Features Score: 80.0
 
 Notes from grading features:
 ----------------------------------
-BridgeSceneArthurScaleHeadTestCase:
-  -- java.lang.NullPointerException null
+Move methods defined in Angle and Avatar:
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
 
-BridgeSceneComponentScaleSuite:
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+Sleep called in animation:
+  -- main.Assignment5 not found by checkstyle
+
+Scale method defined in avatar:
+  -- Avatar not found by checkstyle
+
+Proper classes instantiated within each other:
+  -- main.Assignment5 not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- Avatar not found by checkstyle
 
 Required constructors defined for graphical classes:
-  -- expectedConstructors: (AnAvatar.java:5) In type AnAvatar, missing constructor: :@IMAGE_PATTERN
-
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- BridgeScene not found by checkstyle
 
 Graphical classes have proper properties defined:
-  -- expectedGetters: (AnAvatar.java:1) In type AnAvatar, missing getter for property Head of type @IMAGE_PATTERN
-
-
-
-Notes from grading restrictions:
-----------------------------------
-No magic numbers:
-  -- magic.number: (ARotatingLine.java:25) In type ARotatingLine, magic number 32 in expression list 32 
-magic.number: (ARotatingLine.java:76) In type ARotatingLine, magic number 3 in expression list 3 
-magic.number: (ARotatingLine.java:104) In type ARotatingLine, magic number 3 in expression list 3 
-magic.number: (Assignment5.java:25) In type Assignment5, magic number 1000 in expression list EXPR 1000 , EXPR 1000 
-magic.number: (Assignment5.java:27) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:28) In type Assignment5, magic number 300 in expression list EXPR 0 , EXPR 300 
-magic.number: (Assignment5.java:30) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:31) In type Assignment5, magic number -200 in expression list 200 
-magic.number: (Assignment5.java:33) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:34) In type Assignment5, magic number 8 in expression list EXPR 8 
-magic.number: (Assignment5.java:36) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:37) In type Assignment5, magic number -8 in expression list 8 
-magic.number: (Assignment5.java:39) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:40) In type Assignment5, magic number 1.5 in expression list EXPR 1.5 
-magic.number: (Assignment5.java:49) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:52) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:67) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:68) In type Assignment5, magic number 8 in expression list EXPR 8 
-magic.number: (Assignment5.java:71) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:72) In type Assignment5, magic number 8 in expression list EXPR 8 
-magic.number: (Assignment5.java:75) In type Assignment5, magic number 3000 in expression list EXPR 3000 
-magic.number: (Assignment5.java:76) In type Assignment5, magic number 8 in expression list EXPR 8 
-
+  -- Angle not found by checkstyle
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
+  -- BridgeScene not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 130.20000000000002
+  Total Score: 84.0

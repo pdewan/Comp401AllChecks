@@ -4,13 +4,12 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 0.0
 *****************************(TokenHistorySuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 1.0
+Found multiple matching classes:[class grail.commandBeans.FailCommand, class grail.extraCommandBeans.UndoCommand, class grail.extraCommandBeans.RotateLeftArmCommand, class grail.tokenBeans.PlusToken, class grail.commandBeans.RepeatCommand, class grail.tokenBeans.NumberToken, class grail.extraCommandBeans.ProceedAllCommand, class grail.extraCommandBeans.DefineCommand, class grail.commandBeans.ApproachCommand, class grail.extraCommandBeans.RotateRightArmCommand, class grail.commandBeans.MoveCommand, class grail.extraCommandBeans.WaitCommand, class grail.tokenBeans.QuoteToken, class grail.commandBeans.SayCommand, class grail.extraCommandBeans.RedoCommand, class grail.extraCommandBeans.CallCommand, class grail.tokenBeans.StartToken, class grail.commandBeans.PassCommand, class grail.scanner.ScannerBean, class grail.extraCommandBeans.SleepCommand, class grail.tokenBeans.EndToken, class grail.tokenBeans.MinusToken, class grail.extraCommandBeans.ThreadCommand]
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
 Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot 
 ### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -18,8 +17,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:0234 3023 111 
 ### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -27,8 +24,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean " 
 ### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -36,8 +31,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:pass PAss PASS 
 ### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -45,8 +38,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:fail FAil FAIL 
 ### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -54,8 +45,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:approach APProach APPROACH 
 ### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -63,8 +52,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT 
 ### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
@@ -72,8 +59,6 @@ Property ScannedString not found
 Property ScannedString not found in ScannerBean
 Define a getter for the property (named: getScannedString)
 Property ScannedString not found
-Property TokenList not found
-For property:ScannedString getter returned:null, instead of:say SAy SAY 
 ### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 0.0
 *****************************(BridgeSceneComponentScrollSuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 1.0
@@ -90,15 +75,15 @@ For property:ScannedString getter returned:null, instead of:say SAy SAY
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Property Gorge not found
-### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Property KnightArea not found
-### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Property GuardArea not found
-### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 0.3
+### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Property Occupied not found
@@ -130,14 +115,13 @@ Property KnightTurn not found
 ### BridgeScene!@passed:->*: 0.0
 ### BridgeScene!@failed:->*: 0.0
 *****************************(BridgeScene uses avatar move method and setText)*****************************
-### BridgeScene!@Avatar!@move:int;int->*: 0.0
-### BridgeScene!@STRING_PATTERN!setText:String->void: 0.0
+### BridgeScene!(.*)!@move:int;int->*: 0.0
+### BridgeScene!(.*)!setText:String->void: 0.0
 *****************************(Scroll method defined)*****************************
 ### BridgeScene!@scroll:int;int->*: 0.0
-*****************************(Gorge instantiated)*****************************
-### BridgeScene!Gorge: 1.0
 *****************************(Graphical classes have proper properties defined)*****************************
 ### BridgeScenedefines getter for property Gorge: 0.0
 ### BridgeScenedefines getter for property KnightArea: 0.0
 ### BridgeScenedefines getter for property GuardArea: 0.0
 ### BridgeScenedefines getter for property Occupied: 0.0
+### BridgeScenedefines getter for property KnightTurn: 1.0

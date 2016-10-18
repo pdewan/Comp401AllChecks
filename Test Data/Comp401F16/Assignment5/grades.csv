@@ -6,5 +6,5 @@ skeleton,skeleton,Correct,Skeleton,154.35
 stubs,stubs,Correct,Stub,70.35000000000001
 tstudent0,tstudent0,Test0,Student,141.75
 null,null,Exception,NullPointer,0
-student1,student1,One,Student,0
-student2,student2,Two,Student,0
+student1,student1,One,Student,5.0
+student2,student2,Two,Student,84.0
