@@ -1,5 +1,7 @@
-  -- Token not found by checkstyle
-  -- Token not found by checkstyle
+  -- expectedGetters: (GenericToken.java:1) In type GenericToken, missing getter for property Input of type String
+
+  -- expectedSetters: (GenericToken.java:1) In type GenericToken, missing setter for property Input of type String
+
   -- expectedSuperTypes: (WordToken.java:10) In type WordToken, missing supertype: @Token
 
   -- expectedSuperTypes: (NumberToken.java:10) In type NumberToken, missing supertype: @Token

@@ -12,7 +12,7 @@ Commands inherit from word token                       12.0 / 12.0
 Bridge scene has new methods defined                   0.0 / 12.0
 BridgeScene uses avatar move method and setText        0.0 /  6.0
 Scroll method defined                                  0.0 /  2.0 (Extra credit)
-Graphical classes have proper properties defined       3.0 / 15.0
+Graphical classes have proper properties defined       0.0 / 15.0
 Scene has a gorge with a bridge.                       0.0 / 10.0
 Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
 Animation shows boolean properties, acting correctly.  0.0 /  8.0
@@ -20,7 +20,7 @@ Scanner animation shows proper functionality.          0.0 / 10.0
 Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
 Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 35.0
+  Points Awarded: 32.0
 
 Grading restrictions...
 ----------------------------------
@@ -31,7 +31,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: 5.0
+  Features Score: 2.0
 
 Notes from grading features:
 ----------------------------------
@@ -56,15 +56,17 @@ BridgeSceneComponentScrollSuite:
   -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
 
 InitialBridgeSceneSuite:
-  -- Missing property:Gorge in grail.graphics.BridgeScene@5cc126dc
-  -- Missing property:KnightArea in grail.graphics.BridgeScene@72bd06ca
-  -- Missing property:GuardArea in grail.graphics.BridgeScene@4fe89c24
-  -- Missing property:Occupied in grail.graphics.BridgeScene@3d08f3f5
-  -- Missing property:KnightTurn in grail.graphics.BridgeScene@1a1da881
+  -- Missing property:Gorge in grail.graphics.BridgeScene@226642a5
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@5cc126dc
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@89c10b7
+  -- Missing property:Occupied in grail.graphics.BridgeScene@4fe89c24
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@3d08f3f5
 
 Tokens inherit from general class:
-  -- Token not found by checkstyle
-  -- Token not found by checkstyle
+  -- expectedGetters: (GenericToken.java:1) In type GenericToken, missing getter for property Input of type String
+
+  -- expectedSetters: (GenericToken.java:1) In type GenericToken, missing setter for property Input of type String
+
 
 Bridge scene has new methods defined:
   -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @approach:@Avatar->*
@@ -79,7 +81,7 @@ Bridge scene has new methods defined:
 BridgeScene uses avatar move method and setText:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!!setText:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!setText:String->void
 
 
 Scroll method defined:
@@ -95,6 +97,8 @@ Graphical classes have proper properties defined:
 
   -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
 
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightTurn of type boolean
+
 
 
 Notes from grading restrictions:
@@ -107,4 +111,4 @@ illegalTypeImported: (MyTable.java:4) Used disallowed class java.util.List
 
 
 Early benefit: 105.0%
-  Total Score: 5.25
+  Total Score: 2.1

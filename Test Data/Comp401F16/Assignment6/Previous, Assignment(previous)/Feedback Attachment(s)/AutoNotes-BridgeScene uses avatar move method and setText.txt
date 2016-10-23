@@ -1,4 +1,4 @@
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Previous, Assignment(previous)\Submission attachment(s)\Assignment5Final\Assignment5Final\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Previous, Assignment(previous)\Submission attachment(s)\Assignment5Final\Assignment5Final\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!!setText:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Previous, Assignment(previous)\Submission attachment(s)\Assignment5Final\Assignment5Final\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!setText:String->void
 

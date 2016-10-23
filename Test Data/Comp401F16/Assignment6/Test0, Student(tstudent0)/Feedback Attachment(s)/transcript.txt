@@ -1,356 +1,356 @@
 *****************************(BridgeSceneDynamicTestCase)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@4816c290 1209451152 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@455351c4 1163088324 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Avatar(images/arthur.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@455351c4]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@5e77f0f4]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.05
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
 Say:"Quest?"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7a138fc5 2048102341 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@2c95ac9e 748006558 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@16423501 373437697 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@307765b4 813131188 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.1
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 Say:"Grail"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@459f7aa3 1168079523 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@4816c290 1209451152 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@2c95ac9e 748006558 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@455351c4 1163088324 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.15000000000000002
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
 Say:"Color?"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Color?]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7a138fc5 2048102341 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@2c95ac9e 748006558 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Color?]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@16423501 373437697 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@307765b4 813131188 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.2
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 Say:"Blue"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Blue]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@459f7aa3 1168079523 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@4816c290 1209451152 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Blue]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@2c95ac9e 748006558 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@455351c4 1163088324 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.25
 Interacting Knight Passed
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.passed() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.passed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.35
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@7a56812e 2052489518 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@7db534f2 2109027570 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Avatar(images/lancelot.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@7db534f2]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@459f7aa3]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.39999999999999997
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
 Say:"Quest?"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7a138fc5 2048102341 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@2c95ac9e 748006558 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@16423501 373437697 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@307765b4 813131188 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.44999999999999996
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 Say:"Grail"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7eb01b12 2125470482 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@7a56812e 2052489518 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@7a56812e 2052489518 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@7db534f2 2109027570 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.49999999999999994
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
 Say:"Color?"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Color?]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7a138fc5 2048102341 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@2c95ac9e 748006558 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Color?]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@16423501 373437697 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@307765b4 813131188 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.5499999999999999
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 Say:"Blue"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Blue]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7eb01b12 2125470482 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@7a56812e 2052489518 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Blue]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@7a56812e 2052489518 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@7db534f2 2109027570 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.6
 Interacting Knight Failed
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.failed() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.failed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.7
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@61d9efe0 1641672672 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@e6516e 15094126 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@7eb01b12 2125470482 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@61d9efe0 1641672672 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Avatar(images/galahad.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@61d9efe0]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@7eb01b12]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.75
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@43ed0ff3 1139609587 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@a50b09c 173060252 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@e6516e 15094126 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@43ed0ff3 1139609587 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Avatar(images/robin.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@43ed0ff3]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@e6516e]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.8
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGuard() args:[]timeOut:2000
 Say:"Quest?"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@7a138fc5 2048102341 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@16423501 373437697 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@2c95ac9e 748006558 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Quest?]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@16423501 373437697 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4816c290 1209451152 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@307765b4 813131188 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:0.8500000000000001
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
 Say:"Grail"
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
-Calling on object grail.graphics.Avatar@61d9efe0 1641672672 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
-Calling on object grail.graphics.StringShape@6691490c 1720797452 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@61d9efe0 1641672672 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@e6516e 15094126 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.say(java.lang.String) args:[Grail]timeOut:2000
+Calling on object grail.graphics.Avatar@7eb01b12 2125470482 method:public grail.interfaces.StringShapeInterface grail.graphics.Avatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.graphics.StringShape@a50b09c 173060252 method:public java.lang.String grail.graphics.StringShape.getText() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@7eb01b12 2125470482 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@61d9efe0 1641672672 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Fraction complete:1.0
 *****************************(TokenHistorySuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 1.0
-Found multiple matching classes:[class grail.commandBeans.MoveCommand, class grail.extraCommandBeans.ThreadCommand, class grail.extraCommandBeans.RotateRightArmCommand, class grail.tokenBeans.MinusToken, class grail.tokenBeans.NumberToken, class grail.commandBeans.FailCommand, class grail.commandBeans.RepeatCommand, class grail.extraCommandBeans.CallCommand, class grail.extraCommandBeans.RotateLeftArmCommand, class grail.tokenBeans.QuoteToken, class grail.extraCommandBeans.DefineCommand, class grail.commandBeans.SayCommand, class grail.extraCommandBeans.ProceedAllCommand, class grail.tokenBeans.EndToken, class grail.tokenBeans.PlusToken, class grail.commandBeans.PassCommand, class grail.extraCommandBeans.RedoCommand, class grail.commandBeans.ApproachCommand, class grail.ScannerBean, class grail.extraCommandBeans.UndoCommand, class grail.extraCommandBeans.SleepCommand, class grail.tokenBeans.StartToken, class grail.extraCommandBeans.WaitCommand]
+Found multiple matching classes:[class grail.extraCommandBeans.WaitCommand, class grail.tokenBeans.QuoteToken, class grail.extraCommandBeans.DefineCommand, class grail.extraCommandBeans.RotateRightArmCommand, class grail.commandBeans.PassCommand, class grail.tokenBeans.EndToken, class grail.ScannerBean, class grail.extraCommandBeans.ThreadCommand, class grail.commandBeans.ApproachCommand, class grail.extraCommandBeans.UndoCommand, class grail.tokenBeans.StartToken, class grail.tokenBeans.NumberToken, class grail.commandBeans.RepeatCommand, class grail.tokenBeans.PlusToken, class grail.extraCommandBeans.SleepCommand, class grail.commandBeans.MoveCommand, class grail.extraCommandBeans.CallCommand, class grail.commandBeans.SayCommand, class grail.tokenBeans.MinusToken, class grail.extraCommandBeans.RedoCommand, class grail.commandBeans.FailCommand, class grail.extraCommandBeans.RotateLeftArmCommand, class grail.extraCommandBeans.ProceedAllCommand]
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@21d5c1a0 567656864 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@21d5c1a0 567656864 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@2187fff7 562561015 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@2187fff7 562561015 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@538613b3 1401295795 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@538613b3 1401295795 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@2187fff7 562561015 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@1eef9aef 519019247 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.WordToken@1eef9aef 519019247 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@2187fff7 562561015 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.tokenBeans.WordToken@11389053 288919635 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.tokenBeans.WordToken@11389053 288919635 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@21d5c1a0 567656864 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@5db99216 1572442646 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@5db99216 1572442646 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@21d5c1a0 567656864 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@3ec11999 1052842393 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.WordToken@3ec11999 1052842393 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2e5c7f0b 777813771 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@21d5c1a0 567656864 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6691490c 1720797452 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@2187fff7 562561015 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9f46d94 167013780 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9f46d94 167013780 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@3ec11999 1052842393 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@3ec11999 1052842393 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@9f46d94 167013780 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@9f46d94 167013780 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@3ec11999 1052842393 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@18cc679e 416049054 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.tokenBeans.NumberToken@18cc679e 416049054 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@3ec11999 1052842393 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.tokenBeans.NumberToken@2e77b8cf 779598031 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.tokenBeans.NumberToken@2e77b8cf 779598031 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9f46d94 167013780 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@2c4ca0f9 743219449 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@2c4ca0f9 743219449 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9f46d94 167013780 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@67ef029 108982313 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.tokenBeans.NumberToken@67ef029 108982313 method:public int grail.tokenBeans.NumberToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5c1bd44c 1545327692 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9f46d94 167013780 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5db99216 1572442646 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@3ec11999 1052842393 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@6e57e95e 1851255134 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@6e57e95e 1851255134 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@67ef029 108982313 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@67ef029 108982313 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@6e57e95e 1851255134 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@67ef029 108982313 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.tokenBeans.QuoteToken@2755d705 659937029 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@67ef029 108982313 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.tokenBeans.QuoteToken@56db847e 1457226878 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@6e57e95e 1851255134 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@740abb5 121678773 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@6e57e95e 1851255134 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.tokenBeans.QuoteToken@560cbf1a 1443675930 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@7df587ef 2113243119 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@6e57e95e 1851255134 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@2c4ca0f9 743219449 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@67ef029 108982313 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@551a20d6 1427775702 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@551a20d6 1427775702 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@560cbf1a 1443675930 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@560cbf1a 1443675930 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@551a20d6 1427775702 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@551a20d6 1427775702 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@560cbf1a 1443675930 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@578524c3 1468343491 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.PassCommand@578524c3 1468343491 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@560cbf1a 1443675930 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.commandBeans.PassCommand@64c2b546 1690481990 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.commandBeans.PassCommand@64c2b546 1690481990 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@551a20d6 1427775702 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@7e094740 2114537280 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@7e094740 2114537280 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@551a20d6 1427775702 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@7a11c4c7 2047984839 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.PassCommand@7a11c4c7 2047984839 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5fe8b721 1609086753 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@551a20d6 1427775702 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@740abb5 121678773 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@560cbf1a 1443675930 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@7555b920 1968552224 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@7555b920 1968552224 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@7a11c4c7 2047984839 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@7a11c4c7 2047984839 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@7555b920 1968552224 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@7555b920 1968552224 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@7a11c4c7 2047984839 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4152d38d 1095947149 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.FailCommand@4152d38d 1095947149 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@7a11c4c7 2047984839 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.commandBeans.FailCommand@3591009c 898695324 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.commandBeans.FailCommand@3591009c 898695324 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@7555b920 1968552224 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@5398edd0 1402531280 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@5398edd0 1402531280 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@7555b920 1968552224 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@b5cc23a 190628410 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.FailCommand@b5cc23a 190628410 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@4cc547a 80499834 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@7555b920 1968552224 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@7e094740 2114537280 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@7a11c4c7 2047984839 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@61edc883 1642973315 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@61edc883 1642973315 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@b5cc23a 190628410 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@b5cc23a 190628410 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@61edc883 1642973315 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@61edc883 1642973315 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@b5cc23a 190628410 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@758f4f03 1972326147 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.ApproachCommand@758f4f03 1972326147 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@b5cc23a 190628410 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.commandBeans.ApproachCommand@182f1e9a 405741210 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.commandBeans.ApproachCommand@182f1e9a 405741210 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@61edc883 1642973315 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@6928f576 1764291958 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@6928f576 1764291958 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@61edc883 1642973315 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@660e9100 1712230656 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.ApproachCommand@660e9100 1712230656 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@5cc5b667 1556461159 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@61edc883 1642973315 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@5398edd0 1402531280 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@b5cc23a 190628410 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9cd25ff 164439551 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9cd25ff 164439551 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@660e9100 1712230656 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@660e9100 1712230656 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@9cd25ff 164439551 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@9cd25ff 164439551 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@660e9100 1712230656 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@27e0f2f5 669053685 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.RepeatCommand@27e0f2f5 669053685 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@660e9100 1712230656 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.commandBeans.RepeatCommand@3574e198 896852376 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.commandBeans.RepeatCommand@3574e198 896852376 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9cd25ff 164439551 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@6db66836 1840670774 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@6db66836 1840670774 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9cd25ff 164439551 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@db44aa2 229919394 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.RepeatCommand@db44aa2 229919394 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@69f63d95 1777745301 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@9cd25ff 164439551 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6928f576 1764291958 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@660e9100 1712230656 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 1.0
 Calling constructor public grail.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@3f093abe 1057569470 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@3f093abe 1057569470 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@db44aa2 229919394 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@db44aa2 229919394 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[0]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@3f093abe 1057569470 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@3f093abe 1057569470 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@db44aa2 229919394 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@61a002b1 1637876401 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
+Calling on object grail.commandBeans.SayCommand@61a002b1 1637876401 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@db44aa2 229919394 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
 Calling on object grail.commandBeans.SayCommand@4eeea57d 1324262781 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
 Calling on object grail.commandBeans.SayCommand@4eeea57d 1324262781 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@3f093abe 1057569470 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[1]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@780ec4a5 2014233765 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@780ec4a5 2014233765 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@3f093abe 1057569470 method:public grail.interfaces.Token grail.ABaseHistory.elementAt(int) args:[2]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@e24ddd0 237297104 method:public java.lang.String grail.tokenBeans.GenericToken.getInput() args:[]timeOut:2000
-Calling on object grail.commandBeans.SayCommand@e24ddd0 237297104 method:public java.lang.String grail.tokenBeans.WordToken.getValue() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.ScannerBean@2de366bb 769877691 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
-Calling on object grail.ClearableHistory@3f093abe 1057569470 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public void grail.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public java.lang.String grail.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.ScannerBean@6db66836 1840670774 method:public grail.interfaces.ClearableHistoryInterface grail.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.ClearableHistory@db44aa2 229919394 method:public int grail.ABaseHistory.size() args:[]timeOut:2000
 *****************************(BridgeSceneComponentScrollSuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@6f70f32f 1869673263 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5aabbb29 1521204009 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@780ec4a5 2014233765 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6f70f32f 1869673263 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@61d9efe0 1641672672 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@1ac85b0c 449338124 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3aa3193a 983767354 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@7eb01b12 2125470482 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5aabbb29 1521204009 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1ac85b0c 449338124 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@7db534f2 2109027570 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@59a67c3a 1504083002 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@724bade8 1917562344 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@459f7aa3 1168079523 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@3aa3193a 983767354 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59a67c3a 1504083002 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@43ed0ff3 1139609587 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@6bc248ed 1807894765 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@ca27722 211973922 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@e6516e 15094126 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@724bade8 1917562344 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bc248ed 1807894765 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@455351c4 1163088324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@9573b3b 156711739 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@19b30c92 431164562 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@78461bc4 2017860548 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@5e77f0f4 1584918772 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ca27722 211973922 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@138fe6ec 328197868 method:public void grail.graphics.BridgeScene.scroll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public int grail.graphics.BoundedShape.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public int grail.graphics.BoundedShape.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@9573b3b 156711739 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 *****************************(InitialBridgeSceneSuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@1095f122 278262050 method:public grail.interfaces.GorgeWithBridgeInterface grail.graphics.BridgeScene.getGorge() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@544630b7 1413886135 method:public grail.interfaces.GorgeWithBridgeInterface grail.graphics.BridgeScene.getGorge() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@1b822fcc 461516748 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getKnightArea() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@58c540cf 1489322191 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getKnightArea() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@73511076 1934692470 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getGuardArea() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@24a1c17f 614580607 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getGuardArea() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@410954b 68195659 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7927bd9f 2032647583 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@3b366632 993420850 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@410954b 68195659 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
 *****************************(Tokens inherit from general class)*****************************
-### Tokendefines getter for property Input: 0.0
-### Token defines setter for property Input: 0.0
+### Tokendefines getter for property Input: 1.0
+### Token defines setter for property Input: 1.0
 ### Word defined: 1.0
 ### Number defined: 1.0
 ### Quote defined: 1.0

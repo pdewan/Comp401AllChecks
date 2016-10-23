@@ -14,6 +14,3 @@
 
   -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Height of type int
 
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle

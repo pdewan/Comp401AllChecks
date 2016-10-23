@@ -129,35 +129,37 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.0
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
-*****************************(Graphics inheritance hierarchy)*****************************
+*****************************(Graphics supertypes defined)*****************************
 ### Locatabledefines getter for property X: 0.0
 ### Locatabledefines getter for property Y: 0.0
 ### Locatable defines setter for property X: 0.0
 ### Locatable defines setter for property Y: 0.0
-### BoundedShape defined: 1.0
 ### BoundedShapedefines getter for property Width: 0.0
 ### BoundedShapedefines getter for property Height: 0.0
 ### BoundedShape defines setter for property Width: 0.0
 ### BoundedShape defines setter for property Height: 0.0
-### @LINE_PATTERN defined: 0.0
-### @STRING_PATTERN defined: 0.0
-### @IMAGE_PATTERN defined: 0.0
-*****************************(CommandInterpreter properly uses the other classes)*****************************
+*****************************(Locatable subtypes defined)*****************************
+### Subtypes of Locatable defined: 1.0
+*****************************(BoundedShape subtypes defined)*****************************
+### Subtypes of BoundedShape defined: 1.0
+*****************************(CommandInterpreter makes calls to move and say)*****************************
 ### CommandInterpreter!@BridgeScene!@say:String->*: 0.0
 ### CommandInterpreter!(.*)!@move:int;int->*: 0.0
-### CommandInterpreter!(.*)!@get:String->*: 1.0
-### CommandInterpreter!@SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
-*****************************(SingletonCreator created and used in main)*****************************
+*****************************(SingletonCreator created and used)*****************************
 ### SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
 ### SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### SingletonsCreator!@scannerFactoryMethod->@ScannerBean: 0.0
+### SingletonsCreator!@scannerFactoryMethod:->@ScannerBean: 0.0
 ### SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 0.0
 ### CommandInterpreter!@SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
 ### main.Assignment7!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### main.Assignment7!@SingletonsCreator!@scannerFactoryMethod->@ScannerBean: 1.0
-### main.Assignment7!@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 1.0
-*****************************(Command interpreter has required property and is instantiated)*****************************
-### main.Assignment7!CommandInterpreter: 1.0
-### CommandInterpreter!:@BridgeScene;@ScannerBean: 1.0
+### main.Assignment7!@SingletonsCreator!@scannerFactoryMethod:->@ScannerBean: 0.0
+### main.Assignment7!@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 0.0
+*****************************(Table used in SingetonsCreator, CommandInterpreter, and main)*****************************
+### CommandInterpreter!(.*)!get:String->*: 0.0
+### main.Assignment7!(.*)!put:String;Object->void: 0.0
+### main.Assignment7!(.*)!get:String->*: 0.0
+*****************************(Command interpreter has required property)*****************************
 ### CommandInterpreterdefines getter for property Command: 0.0
 ### CommandInterpreter defines setter for property Command: 0.0
+*****************************(Command interpreter has errors property)*****************************
+### CommandInterpreterdefines getter for property Errors: 1.0

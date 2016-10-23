@@ -1,2 +1,0 @@
-  -- Token not found by checkstyle
-  -- Token not found by checkstyle

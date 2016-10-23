@@ -1,6 +1,0 @@
-  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
-
-  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!@move:int;int->* 
-
-  -- D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
-

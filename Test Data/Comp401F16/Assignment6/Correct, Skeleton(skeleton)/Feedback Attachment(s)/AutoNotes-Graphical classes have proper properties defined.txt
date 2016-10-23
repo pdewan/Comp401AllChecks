@@ -6,3 +6,5 @@
 
   -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
 
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightTurn of type boolean
+

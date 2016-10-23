@@ -7,7 +7,7 @@ TokenHistorySuite                                      15.0 / 15.0 (Extra credit
 BridgeSceneComponentScrollSuite                        10.0 / 10.0 (Extra credit)
 InitialBridgeSceneSuite                                20.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Tokens inherit from general class                      10.0 / 14.0
+Tokens inherit from general class                      14.0 / 14.0
 Commands inherit from word token                       12.0 / 12.0
 Bridge scene has new methods defined                   12.0 / 12.0
 BridgeScene uses avatar move method and setText        6.0 /  6.0
@@ -20,7 +20,7 @@ Scanner animation shows proper functionality.          0.0 / 10.0
 Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
 Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 162.0
+  Points Awarded: 166.0
 
 Grading restrictions...
 ----------------------------------
@@ -31,14 +31,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 157.0
-
-Notes from grading features:
-----------------------------------
-Tokens inherit from general class:
-  -- Token not found by checkstyle
-  -- Token not found by checkstyle
-
+  Features Score: 161.0
 
 Early benefit: 105.0%
-  Total Score: 164.85
+  Total Score: 169.05

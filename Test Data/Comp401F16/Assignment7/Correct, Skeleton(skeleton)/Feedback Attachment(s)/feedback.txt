@@ -10,14 +10,18 @@ CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
 FactoryMethodSuite                                     0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         2.0 / 24.0
-CommandInterpreter properly uses the other classes     2.0 /  8.0
-SingletonCreator created and used in main              4.0 / 16.0
-Command interpreter has required property and is instantiated 6.0 / 12.0
+Graphics supertypes defined                            0.0 / 16.0
+Locatable subtypes defined                             12.0 / 12.0
+BoundedShape subtypes defined                          4.0 /  4.0
+CommandInterpreter makes calls to move and say         0.0 /  6.0
+SingletonCreator created and used                      0.0 / 16.0
+Table used in SingetonsCreator, CommandInterpreter, and main 0.0 /  8.0
+Command interpreter has required property              0.0 /  6.0
+Command interpreter has errors property                2.0 /  2.0
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
+Table demonstrated in console, works correctly         0.0 /  8.0
 ----------------------------------
-  Points Awarded: 24.0
+  Points Awarded: 28.0
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +32,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 19.0
+  Features Score: 23.0
 
 Notes from grading features:
 ----------------------------------
@@ -65,7 +69,7 @@ FactoryMethodSuite:
   -- Factory method:[scannerfactorymethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-Graphics inheritance hierarchy:
+Graphics supertypes defined:
   -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property X of type int
 
   -- expectedGetters: (LocatableObject.java:1) In type LocatableObject, missing getter for property Y of type int
@@ -82,29 +86,41 @@ Graphics inheritance hierarchy:
 
   -- expectedSetters: (BoundedShape.java:1) In type BoundedShape, missing setter for property Height of type int
 
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
 
-CommandInterpreter properly uses the other classes:
+CommandInterpreter makes calls to move and say:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @BridgeScene!@say:String->* 
 
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
+SingletonCreator created and used:
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @avatarTableFactoryMethod:->@Table
 
-SingletonCreator created and used in main:
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @bridgeSceneFactoryMethod:->@BridgeScene
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @scannerFactoryMethod:->@ScannerBean
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @commandInterpreterFactoryMethod:->@CommandInterpreter
+
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call         @SingletonsCreator!@avatarTableFactoryMethod:->@Table
 
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call                     @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        @SingletonsCreator!@scannerFactoryMethod:->@ScannerBean 
 
-Command interpreter has required property and is instantiated:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\main\Assignment7.java:1: warning: missingMethodCall: (Assignment7.java:1) has not made expected call        @SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter 
+
+
+Table used in SingetonsCreator, CommandInterpreter, and main:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!get:String->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\main\Assignment7.java:1: warning: missingMethodCall: (Assignment7.java:1) has not made expected call             (.*)!put:String;Object->void 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!get:String->* 
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment7Skeleton\Assignment7Skeleton\src\main\Assignment7.java:1: warning: missingMethodCall: (Assignment7.java:1) has not made expected call        (.*)!get:String->Object
+
+
+Command interpreter has required property:
   -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Command of type String
 
   -- expectedSetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing setter for property Command of type String
@@ -112,4 +128,4 @@ Command interpreter has required property and is instantiated:
 
 
 Early benefit: 105.0%
-  Total Score: 19.95
+  Total Score: 24.150000000000002

@@ -12,7 +12,7 @@ Commands inherit from word token                       0.0 / 12.0
 Bridge scene has new methods defined                   0.0 / 12.0
 BridgeScene uses avatar move method and setText        0.0 /  6.0
 Scroll method defined                                  0.0 /  2.0 (Extra credit)
-Graphical classes have proper properties defined       3.0 / 15.0
+Graphical classes have proper properties defined       0.0 / 15.0
 Scene has a gorge with a bridge.                       0.0 / 10.0
 Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
 Animation shows boolean properties, acting correctly.  0.0 /  8.0
@@ -20,7 +20,7 @@ Scanner animation shows proper functionality.          0.0 / 10.0
 Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
 Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 13.0
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
@@ -31,7 +31,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -17.0
+  Features Score: -20.0
 
 Notes from grading features:
 ----------------------------------
@@ -56,15 +56,17 @@ BridgeSceneComponentScrollSuite:
   -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
 
 InitialBridgeSceneSuite:
-  -- Missing property:Gorge in grail.graphics.BridgeScene@ee86bcb
-  -- Missing property:KnightArea in grail.graphics.BridgeScene@2631f68c
-  -- Missing property:GuardArea in grail.graphics.BridgeScene@30af5b6b
-  -- Missing property:Occupied in grail.graphics.BridgeScene@bcef303
-  -- Missing property:KnightTurn in grail.graphics.BridgeScene@33308786
+  -- Missing property:Gorge in grail.graphics.BridgeScene@10cf09e8
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@7f132176
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@6ed3f258
+  -- Missing property:Occupied in grail.graphics.BridgeScene@19835e64
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@41709512
 
 Tokens inherit from general class:
-  -- Token not found by checkstyle
-  -- Token not found by checkstyle
+  -- expectedGetters: (GenericToken.java:1) In type GenericToken, missing getter for property Input of type String
+
+  -- expectedSetters: (GenericToken.java:1) In type GenericToken, missing setter for property Input of type String
+
   -- expectedSuperTypes: (WordToken.java:10) In type WordToken, missing supertype: @Token
 
   -- expectedSuperTypes: (NumberToken.java:10) In type NumberToken, missing supertype: @Token
@@ -103,7 +105,7 @@ Bridge scene has new methods defined:
 BridgeScene uses avatar move method and setText:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!!setText:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!setText:String->void
 
 
 Scroll method defined:
@@ -118,6 +120,8 @@ Graphical classes have proper properties defined:
   -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property GuardArea of type *
 
   -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightTurn of type boolean
 
 
 

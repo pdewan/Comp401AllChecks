@@ -24,8 +24,8 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
 	public Assignment7Requirements(){
 		addDueDate("10/13/2016 00:59:00", 1.05); 	// wed before
      	addDueDate("10/15/2016 00:59:00", 1); 		// fri due
-     	addDueDate("10/18/2016 00:59:00", 0.95);	// mon after due
-     	addDueDate("10/22/2016 00:59:00", 0.90); 	// fri after due
+     	addDueDate("10/25/2016 00:59:00", 0.95);	// mon after due
+     	addDueDate("10/29/2016 00:59:00", 0.90); 	// fri after due
      	addDueDate("12/05/2016 00:59:00", 0.85); 	// infinity
      	
      	// Functionality
@@ -99,36 +99,43 @@ public class Assignment7Requirements  extends AJUnitProjectRequirements{
 //     			);
      	
      	// Method calls
-     	addFeature("CommandInterpreter properly uses the other classes", 8,
+     	addFeature("CommandInterpreter makes calls to move and say", 6,
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@BridgeScene!@say:String->*"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!@move:int;int->*"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!@get:String->*"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table")
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!@move:int;int->*")
      			);
 
      	// SingletonCreator
-     	addFeature("SingletonCreator created and used in main", 16,
+     	addFeature("SingletonCreator created and used", 16,
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@avatarTableFactoryMethod:->@Table"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@bridgeSceneFactoryMethod:->@BridgeScene"),
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@scannerFactoryMethod->@ScannerBean"),
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@scannerFactoryMethod:->@ScannerBean"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterFactoryMethod:->@CommandInterpreter"),
      			
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@avatarTableFactoryMethod:->@Table"),
      			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@scannerFactoryMethod->@ScannerBean"),
+     			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@scannerFactoryMethod:->@ScannerBean"),
      			new CheckstyleMethodCalledTestCase("main.Assignment7", "@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter")
      			);
      	
+     	addFeature("Table used in SingetonsCreator, CommandInterpreter, and main", 8,
+//     				new CheckstyleMethodCalledTestCase("SingletonsCreator", "(.*)!put:String;Object->void"),
+        			new CheckstyleMethodCalledTestCase("CommandInterpreter", "(.*)!get:String->*"),
+        			new CheckstyleMethodCalledTestCase("main.Assignment7", "(.*)!put:String;Object->void"),
+        			new CheckstyleMethodCalledTestCase("main.Assignment7", "(.*)!get:String->*")
+     			);
+     	
      	// Command interpreter 
-     	addFeature("Command interpreter has required property and is instantiated", 12, 
-     			new CheckstyleClassInstantiatedTestCase("main.Assignment7", "CommandInterpreter"),
-     			new CheckstyleConstructorDefinedTestCase("CommandInterpreter", ":@BridgeScene;@ScannerBean"),
+     	addFeature("Command interpreter has required property", 6,
+//     			new CheckstyleConstructorDefinedTestCase("CommandInterpreter", ":@BridgeScene;@ScannerBean"), // told to remove
      			new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Command", "String"),
      			new CheckStyleEditablePropertyDefinedTestCase("CommandInterpreter", "Command", "String")
      			);
 
+     	addFeature("Command interpreter has errors property", 2,
+     			new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Errors", "*"));
+     	
      	addManualFeature("Animation shows function of command interpreter and correct output in all frames", 15, false); 
-     	addManualFeature("Table demonstrated in console, works correctly", 10, false);
+     	addManualFeature("Table demonstrated in console, works correctly", 8, false);
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
