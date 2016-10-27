@@ -368,7 +368,7 @@ Calling on object grail.graphics.Avatar@3546d80f 893835279 method:public grail.i
 Calling on object grail.graphics.VShape@3670f00 57085696 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
 Calling on object grail.graphics.RotatingLine@46ab18da 1185618138 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 Calling on object grail.graphics.RotatingLine@46ab18da 1185618138 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-*****************************(FactoryMethodSuite)*****************************
+*****************************(FactoryMethodSuiteA7)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 Calling on object class grail.SingletonsCreator 1997344422 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
 Calling on object class grail.SingletonsCreator 1997344422 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000

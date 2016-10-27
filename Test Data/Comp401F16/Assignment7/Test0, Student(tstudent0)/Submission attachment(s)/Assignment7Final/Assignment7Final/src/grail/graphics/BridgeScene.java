@@ -116,7 +116,7 @@ public class BridgeScene implements BridgeSceneInterface {
 	@Override
 	@Tags({"passed"})
 	public void passed(){
-		if (!getOccupied()){
+		if (!getOccupied() || getKnightTurn()){
 			return;
 		}
 		

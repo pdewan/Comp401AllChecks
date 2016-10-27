@@ -8,7 +8,7 @@ CommandInterpreterMixedCaseSuite                       0.0 / 10.0
 StringTableTest                                        0.0 / 25.0
 CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     0.0 / 20.0
+FactoryMethodSuiteA7                                   0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Graphics supertypes defined                            0.0 / 16.0
 Locatable subtypes defined                             0.0 / 12.0
@@ -17,11 +17,11 @@ CommandInterpreter makes calls to move and say         0.0 /  6.0
 SingletonCreator created and used                      0.0 / 16.0
 Table used in SingetonsCreator, CommandInterpreter, and main 0.0 /  8.0
 Command interpreter has required property              0.0 /  6.0
-Command interpreter has errors property                2.0 /  2.0
+Command interpreter has errors property                0.0 /  2.0
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
 Table demonstrated in console, works correctly         0.0 /  8.0
 ----------------------------------
-  Points Awarded: 12.0
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
@@ -32,7 +32,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 7.0
+  Features Score: 5.0
 
 Notes from grading features:
 ----------------------------------
@@ -63,7 +63,7 @@ CommandInterpreterSignedMoveSuite:
   -- Factory method:[bridgeSceneFactoryMethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-FactoryMethodSuite:
+FactoryMethodSuiteA7:
   -- Factory method:[avatarTableFactoryMethod] not found.
   -- Factory method:[commandInterpreterFactoryMethod] not found.
   -- Factory method:[scannerfactorymethod] not found.
@@ -140,6 +140,10 @@ Command interpreter has required property:
   -- expectedSetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing setter for property Command of type String
 
 
+Command interpreter has errors property:
+  -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Errors of type *//EC
+
+
 
 Early benefit: 105.0%
-  Total Score: 7.35
+  Total Score: 5.25

@@ -56,11 +56,11 @@ BridgeSceneComponentScrollSuite:
   -- Method matching scroll not found in class: class grail.graphics.BridgeScene
 
 InitialBridgeSceneSuite:
-  -- Missing property:Gorge in grail.graphics.BridgeScene@6c8bca63
-  -- Missing property:KnightArea in grail.graphics.BridgeScene@470a696f
-  -- Missing property:GuardArea in grail.graphics.BridgeScene@292d1c71
-  -- Missing property:Occupied in grail.graphics.BridgeScene@3f1c5af9
-  -- Missing property:KnightTurn in grail.graphics.BridgeScene@5ddabb18
+  -- Missing property:Gorge in grail.graphics.BridgeScene@59fc684e
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@2fd1731c
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@6063d80a
+  -- Missing property:Occupied in grail.graphics.BridgeScene@355e34c7
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@2a2da905
 
 Tokens inherit from general class:
   -- Token not found by checkstyle

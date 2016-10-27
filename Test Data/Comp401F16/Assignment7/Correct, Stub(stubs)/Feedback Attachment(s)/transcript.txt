@@ -147,7 +147,7 @@ Factory method returns null object
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
-*****************************(FactoryMethodSuite)*****************************
+*****************************(FactoryMethodSuiteA7)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 Calling on object class grail.SingletonsCreator 1541046463 method:public static grail.interfaces.Table grail.SingletonsCreator.avatarTableFactoryMethod() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.0

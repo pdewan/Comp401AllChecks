@@ -1,5 +1,5 @@
-  -- Missing property:Gorge in grail.graphics.BridgeScene@226642a5
-  -- Missing property:KnightArea in grail.graphics.BridgeScene@5cc126dc
-  -- Missing property:GuardArea in grail.graphics.BridgeScene@89c10b7
-  -- Missing property:Occupied in grail.graphics.BridgeScene@4fe89c24
-  -- Missing property:KnightTurn in grail.graphics.BridgeScene@3d08f3f5
+  -- Missing property:Gorge in grail.graphics.BridgeScene@3aee3976
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@27cf3151
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@5910de75
+  -- Missing property:Occupied in grail.graphics.BridgeScene@1f130eaf
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@21362712

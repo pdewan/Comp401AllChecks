@@ -118,7 +118,7 @@ Factory method:[bridgeSceneFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
-*****************************(FactoryMethodSuite)*****************************
+*****************************(FactoryMethodSuiteA7)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
@@ -162,4 +162,4 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CommandInterpreterdefines getter for property Command: 0.0
 ### CommandInterpreter defines setter for property Command: 0.0
 *****************************(Command interpreter has errors property)*****************************
-### CommandInterpreterdefines getter for property Errors: 1.0
+### CommandInterpreterdefines getter for property Errors: 0.0

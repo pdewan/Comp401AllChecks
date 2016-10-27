@@ -256,3 +256,6 @@
 13,Sat Oct 15 11:52:29 EDT 2016,true,grail\SingletonsCreator.java,expectedTypes,[main.Assignment7, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Approach, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC]
 14,Sat Oct 15 11:57:21 EDT 2016,false,StringShape,expectedSuperTypes,StringShape,@Locatable,StringShape
 14,Sat Oct 15 11:57:21 EDT 2016,false,MyTable,expectedPattern,MyTable,MAP_PATTERN,MyTable
+15,Sat Oct 22 21:51:32 EDT 2016,true,grail\SingletonsCreator.java,typeDefined,SingletonsCreator,@SingletonsCreator,Class
+15,Sat Oct 22 21:51:33 EDT 2016,true,grail\interfaces\Token.java,typeDefined,Token,@Token,Interface
+15,Sat Oct 22 21:51:33 EDT 2016,true,grail\tokenBeans\GenericToken.java,typeDefined,GenericToken,@Token,Class

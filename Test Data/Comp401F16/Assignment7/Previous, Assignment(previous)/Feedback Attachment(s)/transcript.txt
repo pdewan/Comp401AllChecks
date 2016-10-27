@@ -76,7 +76,7 @@ Factory class:[singletonscreator] not found.
 Trying parameterless constructor
 Could not find unique class with tags:[Ljava.lang.String;@77602954
 ### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
-*****************************(FactoryMethodSuite)*****************************
+*****************************(FactoryMethodSuiteA7)*****************************
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
 ### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.0
 ### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0

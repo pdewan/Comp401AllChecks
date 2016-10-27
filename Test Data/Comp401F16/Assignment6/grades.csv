@@ -5,4 +5,6 @@ noinheritance,noinheritance,NoInheritance,Skeleton,0.0
 previous,previous,Previous,Assignment,17.85
 skeleton,skeleton,Correct,Skeleton,2.1
 stubs,stubs,Correct,Stub,48.300000000000004
+passbug,passbug,Bug,PassAlternate,161.70000000000002
+occupiedbug,occupiedbug,Bug,Occupied,121.8
 tstudent0,tstudent0,Test0,Student,169.05

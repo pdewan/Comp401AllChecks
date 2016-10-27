@@ -1,101 +1,101 @@
 *****************************(BridgeSceneDynamicTestCase)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase: 0.0
 *****************************(TokenHistorySuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 1.0
-Found multiple matching classes:[class grail.commandBeans.MoveCommand, class grail.extraCommandBeans.RedoCommand, class grail.tokenBeans.QuoteToken, class grail.extraCommandBeans.ThreadCommand, class grail.commandBeans.PassCommand, class grail.extraCommandBeans.DefineCommand, class grail.tokenBeans.MinusToken, class grail.scanner.ScannerBean, class grail.commandBeans.SayCommand, class grail.extraCommandBeans.SleepCommand, class grail.commandBeans.ApproachCommand, class grail.tokenBeans.PlusToken, class grail.tokenBeans.EndToken, class grail.commandBeans.RepeatCommand, class grail.extraCommandBeans.RotateLeftArmCommand, class grail.extraCommandBeans.ProceedAllCommand, class grail.commandBeans.FailCommand, class grail.extraCommandBeans.WaitCommand, class grail.extraCommandBeans.CallCommand, class grail.tokenBeans.StartToken, class grail.tokenBeans.NumberToken, class grail.extraCommandBeans.UndoCommand, class grail.extraCommandBeans.RotateRightArmCommand]
+Found multiple matching classes:[class grail.extraCommandBeans.RedoCommand, class grail.scanner.ScannerBean, class grail.tokenBeans.NumberToken, class grail.tokenBeans.PlusToken, class grail.commandBeans.RepeatCommand, class grail.extraCommandBeans.UndoCommand, class grail.commandBeans.ApproachCommand, class grail.extraCommandBeans.CallCommand, class grail.tokenBeans.MinusToken, class grail.tokenBeans.StartToken, class grail.commandBeans.MoveCommand, class grail.tokenBeans.EndToken, class grail.extraCommandBeans.ThreadCommand, class grail.commandBeans.FailCommand, class grail.extraCommandBeans.WaitCommand, class grail.tokenBeans.QuoteToken, class grail.extraCommandBeans.RotateRightArmCommand, class grail.extraCommandBeans.SleepCommand, class grail.extraCommandBeans.ProceedAllCommand, class grail.commandBeans.PassCommand, class grail.extraCommandBeans.RotateLeftArmCommand, class grail.extraCommandBeans.DefineCommand, class grail.commandBeans.SayCommand]
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@314b8f2d 827035437 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@314b8f2d 827035437 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@314b8f2d 827035437 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@f8908f6 260638966 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[ARthur GaLahad Lancelot ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@f8908f6 260638966 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@f8908f6 260638966 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot 
 ### gradingTools.comp401f16.assignment6.testcases.history.WordHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@664a9613 1716164115 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@664a9613 1716164115 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@664a9613 1716164115 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@3e587920 1045985568 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[0234 3023 111 ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@3e587920 1045985568 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@3e587920 1045985568 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:0234 3023 111 
 ### gradingTools.comp401f16.assignment6.testcases.history.NumberHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5118388b 1360541835 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5118388b 1360541835 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5118388b 1360541835 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@2ef8a8c3 788048067 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:["Sea Gull " " A m e r i c a n " " E uropean " ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@2ef8a8c3 788048067 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@2ef8a8c3 788048067 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean " 
 ### gradingTools.comp401f16.assignment6.testcases.history.QuoteHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@15a902e7 363397863 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@15a902e7 363397863 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@15a902e7 363397863 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@24f43aa3 619985571 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[pass PAss PASS ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@24f43aa3 619985571 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@24f43aa3 619985571 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:pass PAss PASS 
 ### gradingTools.comp401f16.assignment6.testcases.history.PassHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@7876d598 2021053848 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@7876d598 2021053848 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@7876d598 2021053848 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@63fd4873 1677543539 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[fail FAil FAIL ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@63fd4873 1677543539 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@63fd4873 1677543539 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:fail FAil FAIL 
 ### gradingTools.comp401f16.assignment6.testcases.history.FailHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4a3e3e8b 1245593227 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4a3e3e8b 1245593227 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@4a3e3e8b 1245593227 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@1e11bc55 504478805 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[approach APProach APPROACH ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@1e11bc55 504478805 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@1e11bc55 504478805 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:approach APProach APPROACH 
 ### gradingTools.comp401f16.assignment6.testcases.history.ApproachHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5af28b27 1525844775 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5af28b27 1525844775 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@5af28b27 1525844775 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@7544a1e4 1967432164 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[repeat REpeat REPEAT ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@7544a1e4 1967432164 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@7544a1e4 1967432164 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT 
 ### gradingTools.comp401f16.assignment6.testcases.history.RepeatHistoryTest: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 1.0
 Calling constructor public grail.scanner.ScannerBean()with args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@71104a4 118555812 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
-Calling on object grail.scanner.ScannerBean@71104a4 118555812 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
-Calling on object grail.scanner.ScannerBean@71104a4 118555812 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@70e0accd 1893772493 method:public void grail.scanner.ScannerBean.setScannedString(java.lang.String) args:[say SAy SAY ]timeOut:2000
+Calling on object grail.scanner.ScannerBean@70e0accd 1893772493 method:public java.lang.String grail.scanner.ScannerBean.getScannedString() args:[]timeOut:2000
+Calling on object grail.scanner.ScannerBean@70e0accd 1893772493 method:public grail.interfaces.ClearableHistoryInterface grail.scanner.ScannerBean.getTokenList() args:[]timeOut:2000
 For property:ScannedString getter returned:null, instead of:say SAy SAY 
 ### gradingTools.comp401f16.assignment6.testcases.history.SayHistoryTest: 0.0
 *****************************(BridgeSceneComponentScrollSuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneGalahadScrollLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneLancelotScrollLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneRobinScrollLeftArmTestCase: 0.0
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 1.0
-Calling on object grail.graphics.BridgeScene@285d851a 677217562 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@750fe12e 1963974958 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.scroll.BridgeSceneArthurScrollRightLegTestCase: 0.0
 *****************************(InitialBridgeSceneSuite)*****************************
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@72f46e16 1928621590 method:public grail.interfaces.GorgeWithBridgeInterface grail.graphics.BridgeScene.getGorge() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6ab72419 1790387225 method:public grail.interfaces.GorgeWithBridgeInterface grail.graphics.BridgeScene.getGorge() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GorgeReturnedTestCase: 0.3
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@549621f3 1419125235 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getKnightArea() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@82c57b3 137123763 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getKnightArea() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightAreaReturnedTestCase: 0.3
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@5217f3d0 1377301456 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getGuardArea() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@345e5a17 878598679 method:public grail.interfaces.BoundedShapeInterface grail.graphics.BridgeScene.getGuardArea() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.GuardAreaReturnedTestCase: 0.3
 ### gradingTools.comp401f16.assignment6.testcases.iniital.OccupiedReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@2416a51 37841489 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@473b3b7a 1195064186 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment6.testcases.iniital.KnightTurnReturnedTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6e9319f 115945887 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@77b7ffa4 2008547236 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
 *****************************(Tokens inherit from general class)*****************************

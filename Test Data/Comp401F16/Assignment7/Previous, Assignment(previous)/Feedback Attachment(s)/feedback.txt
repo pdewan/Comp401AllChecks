@@ -8,7 +8,7 @@ CommandInterpreterMixedCaseSuite                       0.0 / 10.0
 StringTableTest                                        0.0 / 25.0
 CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     0.0 / 20.0
+FactoryMethodSuiteA7                                   0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Graphics supertypes defined                            8.0 / 16.0
 Locatable subtypes defined                             2.0 / 12.0
@@ -63,7 +63,7 @@ CommandInterpreterSignedMoveSuite:
   -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
   -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
 
-FactoryMethodSuite:
+FactoryMethodSuiteA7:
   -- Factory class:[singletonscreator] not found.
   -- Factory class:[singletonscreator] not found.
   -- Factory class:[singletonscreator] not found.

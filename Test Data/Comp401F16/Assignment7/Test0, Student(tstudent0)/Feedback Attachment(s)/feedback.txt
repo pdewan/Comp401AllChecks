@@ -8,7 +8,7 @@ CommandInterpreterMixedCaseSuite                       10.0 / 10.0
 StringTableTest                                        25.0 / 25.0
 CommandInterpreterErrorsSuite                          15.0 / 15.0 (Extra credit)
 CommandInterpreterSignedMoveSuite                      20.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     20.0 / 20.0
+FactoryMethodSuiteA7                                   20.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Graphics supertypes defined                            16.0 / 16.0
 Locatable subtypes defined                             12.0 / 12.0

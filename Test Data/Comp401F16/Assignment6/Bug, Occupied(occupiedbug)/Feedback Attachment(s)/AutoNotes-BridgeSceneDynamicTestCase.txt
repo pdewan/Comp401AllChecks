@@ -1,0 +1,1 @@
+  -- Avatar(images/arthur.jpg) said  "" instead of "Grail"
