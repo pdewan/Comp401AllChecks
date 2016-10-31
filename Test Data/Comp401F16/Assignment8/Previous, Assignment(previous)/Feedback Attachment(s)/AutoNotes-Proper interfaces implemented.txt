@@ -1,0 +1,5 @@
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedInterfaces: (LocatableObject.java:10) In type LocatableObject, missing interface: PropertyListenerRegisterer
+
+  -- expectedInterfaces: (BoundedShape.java:10) In type BoundedShape, missing interface: PropertyListenerRegisterer
+

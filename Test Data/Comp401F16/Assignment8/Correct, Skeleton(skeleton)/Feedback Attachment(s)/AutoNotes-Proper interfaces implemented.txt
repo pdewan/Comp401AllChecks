@@ -1,0 +1,6 @@
+  -- expectedInterfaces: (ConsoleSceneView.java:13) In type ConsoleSceneView, missing interface: PropertyChangeListener
+
+  -- expectedInterfaces: (ObservableLocatableObject.java:15) In type ObservableLocatableObject, missing interface: PropertyListenerRegisterer
+
+  -- expectedInterfaces: (BoundedShape.java:12) In type BoundedShape, missing interface: PropertyListenerRegisterer
+

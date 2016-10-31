@@ -2,54 +2,29 @@ Grading result for: Test0, Student(tstudent0)
 
 Grading features...
 ----------------------------------
-CommandInterpreterMoveSuite                            40.0 / 40.0
-CommandInterpreterApproachedArthurSayTestCase          20.0 / 20.0
-CommandInterpreterMixedCaseSuite                       10.0 / 10.0
-StringTableTest                                        25.0 / 25.0
-CommandInterpreterErrorsSuite                          15.0 / 15.0 (Extra credit)
-CommandInterpreterSignedMoveSuite                      20.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     20.0 / 20.0
+ConsoleSceneViewFactoryMethodTest                      10.0 / 10.0
+ConsoleSceneViewOutputTestCase                         50.0 / 50.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         18.0 / 24.0
-CommandInterpreter properly uses the other classes     8.0 /  8.0
-SingletonCreator created and used in main              8.0 / 16.0
-Command interpreter has required property and is instantiated 12.0 / 12.0
-Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
+Observables send events, observer registers and listens12.0 / 12.0
+ConsoleSceneView created and used with SingletonCreator12.0 / 12.0
+Proper interfaces implemented                          9.0 /  9.0
+Main calls proper methods                              10.0 / 10.0
+Rotate method called                                   3.0 /  3.0 (Extra credit)
+Console shows proper events being fired                0.0 / 15.0
+Animation shows correct behavior                       0.0 /  5.0
 ----------------------------------
-  Points Awarded: 206.0
+  Points Awarded: 116.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            -1.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -6.0
+  Points Deducted: -5.0
 
-  Features Score: 200.0
-
-Notes from grading features:
-----------------------------------
-Graphics inheritance hierarchy:
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
-
-SingletonCreator created and used in main:
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-
-
-Notes from grading restrictions:
-----------------------------------
-No magic numbers:
-  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
-
-
+  Features Score: 111.0
 
 Early benefit: 105.0%
-  Total Score: 210.0
+  Total Score: 116.55

@@ -2,102 +2,74 @@ Grading result for: Previous, Assignment(previous)
 
 Grading features...
 ----------------------------------
-CommandInterpreterMoveSuite                            0.0 / 40.0
-CommandInterpreterApproachedArthurSayTestCase          0.0 / 20.0
-CommandInterpreterMixedCaseSuite                       0.0 / 10.0
-StringTableTest                                        0.0 / 25.0
-CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
-CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     0.0 / 20.0
+ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
+ConsoleSceneViewOutputTestCase                         0.0 / 50.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         8.0 / 24.0
-CommandInterpreter properly uses the other classes     0.0 /  8.0
-SingletonCreator created and used in main              0.0 / 16.0
-Command interpreter has required property and is instantiated 0.0 / 12.0
-Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
+Observables send events, observer registers and listens0.0 / 12.0
+ConsoleSceneView created and used with SingletonCreator0.0 / 12.0
+Proper interfaces implemented                          0.0 /  9.0
+Main calls proper methods                              0.0 / 10.0
+Rotate method called                                   0.0 /  3.0 (Extra credit)
+Console shows proper events being fired                0.0 / 15.0
+Animation shows correct behavior                       0.0 /  5.0
 ----------------------------------
-  Points Awarded: 18.0
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            0.0 /  -10.0
+No magic numbers                            -1.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
-  Points Deducted: -5.0
+  Points Deducted: -6.0
 
-  Features Score: 13.0
+  Features Score: 4.0
 
 Notes from grading features:
 ----------------------------------
-CommandInterpreterMoveSuite:
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+ConsoleSceneViewFactoryMethodTest:
+  -- Factory method:[consolesceneviewfactorymethod] not found.
 
-CommandInterpreterApproachedArthurSayTestCase:
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+ConsoleSceneViewOutputTestCase:
+  -- Could not instantiate/find class matching:[]
 
-CommandInterpreterMixedCaseSuite:
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+Observables send events, observer registers and listens:
+  -- Class matching PropertyChangeEvent not instantiated in LocatableObject
+  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
+  -- ConsoleSceneView not found by checkstyle
 
-StringTableTest:
-  -- Could not instantiate/find class matching:[Table]
+ConsoleSceneView created and used with SingletonCreator:
+  -- ConsoleSceneView not found by checkstyle
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
 
-CommandInterpreterErrorsSuite:
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
 
-CommandInterpreterSignedMoveSuite:
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+Proper interfaces implemented:
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedInterfaces: (LocatableObject.java:10) In type LocatableObject, missing interface: PropertyListenerRegisterer
 
-FactoryMethodSuite:
-  -- Could not instantiate/find class matching:[Table]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- First factory method return value grail.ScannerBean@7c56e013 != grail.ScannerBean@40258c2f
-  -- First factory method return value grail.graphics.BridgeScene@6731787b != grail.graphics.BridgeScene@7adf16aa
+  -- expectedInterfaces: (BoundedShape.java:10) In type BoundedShape, missing interface: PropertyListenerRegisterer
 
-Graphics inheritance hierarchy:
-  -- Locatable not found by checkstyle
-  -- Locatable not found by checkstyle
-  -- Locatable not found by checkstyle
-  -- Locatable not found by checkstyle
-  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
 
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
+Main calls proper methods:
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
 
-CommandInterpreter properly uses the other classes:
-  -- CommandInterpreter not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
+Rotate method called:
+  -- main.Assignment8 not found by checkstyle
 
-SingletonCreator created and used in main:
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
-  -- main.Assignment7 not found by checkstyle
-  -- main.Assignment7 not found by checkstyle
-  -- main.Assignment7 not found by checkstyle
 
-Command interpreter has required property and is instantiated:
-  -- main.Assignment7 not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
-  -- CommandInterpreter not found by checkstyle
+Notes from grading restrictions:
+----------------------------------
+No magic numbers:
+  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+
 
 
 Early benefit: 105.0%
-  Total Score: 13.65
+  Total Score: 4.2

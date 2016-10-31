@@ -56,9 +56,9 @@ BridgeSceneComponentScrollSuite:
   -- java.lang.NullPointerException null
 
 InitialBridgeSceneSuite:
-  -- Object null not instance of [Ljava.lang.String;@3aacf32a
   -- Object null not instance of [Ljava.lang.String;@5be82d43
   -- Object null not instance of [Ljava.lang.String;@5ea502e0
+  -- Object null not instance of [Ljava.lang.String;@1734f68
 
 BridgeScene uses avatar move method and setText:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 

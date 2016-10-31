@@ -1,5 +1,65 @@
+//START OF FILE: src/grail/consolesceneview.java
+package grail;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import grail.graphics.Avatar;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.VShapeInterface;
+import util.annotations.Tags;
+
+@Tags({"ConsoleSceneView"})
+public class ConsoleSceneView implements PropertyChangeListener{
+
+	/**
+	 * Constructor automatically registers this class as an observer of BridgeSceneInterface
+	 */
+	public ConsoleSceneView(){
+		
+		BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
+		
+		// Register as listener of knights
+		registerAsListenerOf(scene.getArthur());
+		registerAsListenerOf(scene.getGalahad());
+		registerAsListenerOf(scene.getGuard());
+		registerAsListenerOf(scene.getLancelot());
+		registerAsListenerOf(scene.getRobin());
+		
+		// Register for gorge
+		scene.getGorge().getBridge().addPropertyChangeListener(this);
+		scene.getGorge().getLeftSide().addPropertyChangeListener(this);
+		scene.getGorge().getRightSide().addPropertyChangeListener(this);
+		
+		scene.getGuardArea().addPropertyChangeListener(this);
+		scene.getKnightArea().addPropertyChangeListener(this);
+	}
+	
+	private void registerAsListenerOf(AvatarInterface avatar){
+		registerAsListenerOf(avatar.getArms());
+		registerAsListenerOf(avatar.getLegs());
+		avatar.getHead().addPropertyChangeListener(this);
+		avatar.getStringShape().addPropertyChangeListener(this);
+		avatar.getTorso().addPropertyChangeListener(this);
+	}
+	
+	private void registerAsListenerOf(VShapeInterface vShape){
+		vShape.getLeftLine().addPropertyChangeListener(this);
+		vShape.getRightLine().addPropertyChangeListener(this);
+	}
+	
+	@Override
+	public void propertyChange(PropertyChangeEvent evt) {
+		System.out.println(evt);
+	}
+	
+}
+//END OF FILE
 //START OF FILE: src/grail/singletonscreator.java
 package grail;
+
+import java.beans.PropertyChangeListener;
 
 import grail.collections.MyTable;
 import grail.graphics.BridgeScene;
@@ -18,6 +78,7 @@ public class SingletonsCreator {
 	private static BridgeSceneInterface bridgeScene = null;
 	private static Table avatarTable = null;
 	private static CommandInterpreterInterface commandInterpreter = null;
+	private static PropertyChangeListener consoleSceneView = null;
 	
 	@Tags({"scannerFactoryMethod"})
 	public static ScannerBeanInterface scannerFactoryMethod(){
@@ -64,6 +125,14 @@ public class SingletonsCreator {
 			commandInterpreter = new CommandInterpreter(bridgeScene, scannerBean);
 		}
 		return commandInterpreter;
+	}
+	
+	@Tags({"consoleSceneViewFactoryMethod"})
+	public static PropertyChangeListener consoleSceneViewFactoryMethod(){
+		if (null == consoleSceneView){
+			consoleSceneView = new ConsoleSceneView();
+		}
+		return consoleSceneView;
 	}
 }
 //END OF FILE
@@ -560,8 +629,10 @@ import util.annotations.Visible;
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
 public class Avatar extends LocatableObject implements AvatarInterface {
-
-	// The anchor is between the feet
+	
+	// The anchor (avatar location) is the spot between the avatar's feet when the
+	// avatar is first created. This is the distance from waist to that point.
+	private int floorToWaist;
 	
 	private static final double TORSO_LENGTH = 80;
 	private static final double ARMS_LENGTH = 80;
@@ -583,11 +654,13 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 		legs = new VShape(0, 0, LEGS_LENGTH);
 		stringShape = new StringShape(0, 0, "");
 		
+		floorToWaist = legs.getRightLine().getHeight();
+		
 		// Figure out the postion of the avatar anchor
 		int xPos = head.getX() + (head.getWidth()/2);
 		int yPos = (int)(head.getY() + head.getHeight()
 						+ torso.getRadius() 
-						+ legs.getRightLine().getHeight());	
+						+ floorToWaist);	
 		
 		// Use setters to build character
 		setX(xPos);
@@ -631,7 +704,7 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 		super.setY(newY);
 		
 		// Place the character:
-		legs.setY(newY-legs.getRightLine().getHeight());
+		legs.setY(newY-floorToWaist);
 		
 		int torsoTop = legs.getY()-torso.getHeight();
 		torso.setY(torsoTop);
@@ -696,6 +769,8 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 //START OF FILE: src/grail/graphics/boundedshape.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import grail.interfaces.BoundedShapeInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -707,7 +782,7 @@ import util.annotations.Tags;
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 @Tags({"BoundedShape"})
-public class BoundedShape extends LocatableObject implements BoundedShapeInterface {
+public class BoundedShape extends ObservableLocatableObject implements BoundedShapeInterface {
 
 	private int width;
 	private int height;
@@ -723,7 +798,9 @@ public class BoundedShape extends LocatableObject implements BoundedShapeInterfa
 	
 	@Override
 	public void setWidth(int newWidth) {
+		int oldWidth = width;
 		width = newWidth;
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, newWidth));
 	}
 
 	@Override
@@ -733,7 +810,9 @@ public class BoundedShape extends LocatableObject implements BoundedShapeInterfa
 
 	@Override
 	public void setHeight(int newHeight) {
+		int oldHeight = height;
 		height = newHeight;
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, newHeight));
 	}
 
 	@Override
@@ -1099,6 +1178,8 @@ public class GorgeWithBridge implements GorgeWithBridgeInterface {
 //START OF FILE: src/grail/graphics/image.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
@@ -1133,7 +1214,9 @@ public class Image extends Rectangle implements ImageInterface {
 	
 	@Override
 	public void setImageFileName(String newFileName) {
+		String oldFileName = imageFileName;
 		imageFileName = newFileName;
+		notifyAllListeners(new PropertyChangeEvent(this, "ImageFileName", oldFileName, newFileName));
 	}
 
 	@Override
@@ -1146,22 +1229,18 @@ public class Image extends Rectangle implements ImageInterface {
 //START OF FILE: src/grail/graphics/locatableobject.java
 package grail.graphics;
 
-import grail.interfaces.Locatable;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
 
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"X", "Y"})
-@EditablePropertyNames({"X", "Y"})
-@Tags({"Locatable"})
+import grail.interfaces.Locatable;
+
 public class LocatableObject implements Locatable{
+
 
 	private int x;
 	private int y;
-
+	
 	public LocatableObject(int xPos, int yPos){
 		x = xPos;
 		y = yPos;
@@ -1188,6 +1267,63 @@ public class LocatableObject implements Locatable{
 	@Override
 	public void setY(int newY) {
 		y = newY;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/observablelocatableobject.java
+package grail.graphics;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.ObservableLocatable;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"X", "Y"})
+@EditablePropertyNames({"X", "Y"})
+@Tags({"Locatable"})
+public class ObservableLocatableObject extends LocatableObject implements ObservableLocatable{
+
+	private List<PropertyChangeListener> listeners = new ArrayList<PropertyChangeListener>();
+	
+	public ObservableLocatableObject(int xPos, int yPos){
+		super(xPos,yPos);
+	}
+	
+	// Empty constructor
+	public ObservableLocatableObject(){}
+	
+	@Override
+	public void setX(int newX) {
+		int oldX = getX();
+		super.setX(newX);
+		notifyAllListeners(new PropertyChangeEvent(this, "X", oldX, newX));
+	}
+	
+	@Override
+	public void setY(int newY) {
+		int oldY = getY();
+		super.setY(newY);
+		notifyAllListeners(new PropertyChangeEvent(this, "Y", oldY, newY));
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener listener) {
+		listeners.add(listener);
+	}
+	
+	protected void notifyAllListeners(PropertyChangeEvent e){
+		for (PropertyChangeListener listener : listeners){
+			listener.propertyChange(e);
+		}
 	}
 
 }
@@ -1235,6 +1371,8 @@ public class Rectangle extends BoundedShape {
 //START OF FILE: src/grail/graphics/rotatingline.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import grail.interfaces.RotatingLineInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -1278,7 +1416,13 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 
 	@Override
 	public void setRadius(double r) {
+		int oldWidth = getWidth();
+		int oldHeight = getHeight();
+		
 		radius = r;
+		
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, getWidth()));
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, getHeight()));
 	}
 
 	@Override
@@ -1288,7 +1432,13 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 
 	@Override
 	public void setAngle(double theta) {
+		int oldWidth = getWidth();
+		int oldHeight = getHeight();
+		
 		angle = theta;
+		
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, getWidth()));
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, getHeight()));
 	}
 
 	@Override
@@ -1307,6 +1457,8 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 //START OF FILE: src/grail/graphics/stringshape.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import grail.interfaces.StringShapeInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -1316,7 +1468,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape extends LocatableObject implements StringShapeInterface {
+public class StringShape extends ObservableLocatableObject implements StringShapeInterface {
 
 	private String text;
 	
@@ -1327,7 +1479,9 @@ public class StringShape extends LocatableObject implements StringShapeInterface
 	
 	@Override
 	public void setText(String newString) {
+		String oldString = text;
 		text = newString;
+		notifyAllListeners(new PropertyChangeEvent(this, "Text", oldString, newString));
 	}
 
 	@Override
@@ -1466,7 +1620,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"BoundedShape"})
-public interface BoundedShapeInterface extends Locatable{
+public interface BoundedShapeInterface extends ObservableLocatable{
 
 	public void setWidth(int newWidth);
 	public int getWidth();
@@ -1581,6 +1735,7 @@ public interface ImageInterface extends BoundedShapeInterface{
 package grail.interfaces;
 
 import util.annotations.Tags;
+import util.models.PropertyListenerRegisterer;
 
 @Tags({"Locatable"})
 public interface Locatable {
@@ -1601,6 +1756,15 @@ import util.annotations.Tags;
 @Tags({"Number"})
 public interface Number extends Token {
 	public int getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/observablelocatable.java
+package grail.interfaces;
+
+import util.models.PropertyListenerRegisterer;
+
+public interface ObservableLocatable extends Locatable, PropertyListenerRegisterer{
+
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/rotatinglineinterface.java
@@ -1645,7 +1809,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface extends Locatable{
+public interface StringShapeInterface extends ObservableLocatable{
 	
 	public void setText(String newString);
 	public String getText();
@@ -2601,11 +2765,14 @@ public class WordToken extends GenericToken implements Word{
 
 }
 //END OF FILE
-//START OF FILE: src/main/assignment7.java
+//START OF FILE: src/main/assignment8.java
 package main;
+
+import java.beans.PropertyChangeListener;
 
 import bus.uigen.OEFrame;
 import bus.uigen.ObjectEditor;
+import grail.ConsoleSceneView;
 import grail.SingletonsCreator;
 import grail.collections.MyTable;
 import grail.graphics.BridgeScene;
@@ -2617,67 +2784,55 @@ import grail.scanner.CommandInterpreter;
 import grail.scanner.ScannerBean;
 import util.misc.ThreadSupport;
 
-public class Assignment7 {
-	
-	private static final int SLOW_DELAY = 2000;
-	
-	private static final int OEFRAME_WIDTH = 1000;
-	private static final int OEFRAME_HEIGHT = 500;
-	
-	private static final String[] TEST_STRINGS = {
-			"say \"Well what do we have here\"",
-			"say \"This town ain't big enough for both of us\"",
-			"move guard 50 50",
-			"move arthur - 50 - 50",
-			"move galahad + 50 - 50",
-			"move RoBIN 50 - 0",
-			"move LANCELot + 0 + 50",
-			"move notAvatar 20 20",
-			"unparseable123 tokens*( here",
-			"move arthur \"notNumber\"",
-			"say 25"
-			};
-	
-	public static void main(String[] args) {
+public class Assignment8 {
+
+		private static final int DEGREES_ROTATE_PER_FRAME = 3;
+		private static final int MOVE_DISTANCE_PER_FRAME = 2;
 		
-		// Table test
-		Table table = new MyTable();
-		table.put("monkey", "Hugo");
-		table.put("twelve", new Integer(12));
-		table.put("null value", null);
-		System.out.println(table.get("twelve"));
-		System.out.println(table.get("monkey"));
-		System.out.println(table.get("null value"));
-		System.out.println(table.get("random"));
-		System.out.println(table.get(null));
+		private static final double GROWTH_SCALAR_PER_FRAME = 1.01;
 		
-		BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
-		ScannerBeanInterface scannerBean = SingletonsCreator.scannerFactoryMethod();
-		CommandInterpreterInterface interpreter = SingletonsCreator.commandInterpreterFactoryMethod();
+		private static final int SHORT_DELAY = 40;
+		private static final int LONG_DELAY = 2000;
+
+		private static final int NUM_FRAMES = 25;
 		
-		OEFrame sceneFrame = ObjectEditor.edit(scene);
-		OEFrame scannerFrame = ObjectEditor.edit(scannerBean);
-		OEFrame interpreterFrame = ObjectEditor.edit(interpreter);
+		private static final int OEFRAME_WIDTH = 1000;
+		private static final int OEFRAME_HEIGHT = 500;
 		
-		sceneFrame.hideMainPanel();
-		sceneFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
-		scannerFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
-		interpreterFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
-		
-		ThreadSupport.sleep(SLOW_DELAY);
-		scene.approach(scene.getGalahad());
-		sceneFrame.refresh();
-		scannerFrame.refresh();
-		interpreterFrame.refresh();
-		
-		for (int i = 0; i < TEST_STRINGS.length; ++i){
-			ThreadSupport.sleep(SLOW_DELAY);
-			interpreter.setCommand(TEST_STRINGS[i]);
-			sceneFrame.refresh();
-			scannerFrame.refresh();
-			interpreterFrame.refresh();
-		}
-		
+		public static void main(String[] args) throws InterruptedException {
+			
+			BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
+			PropertyChangeListener consoleSceneView = SingletonsCreator.consoleSceneViewFactoryMethod();
+			OEFrame sceneFrame = ObjectEditor.edit(scene);
+			
+			sceneFrame.hideMainPanel();
+			sceneFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
+			
+			// Make guard speak
+			ThreadSupport.sleep(LONG_DELAY);
+			scene.getGuard().getStringShape().setText("Hi!");
+			ThreadSupport.sleep(LONG_DELAY);
+			
+			for (int i = 0; i < NUM_FRAMES; ++i){
+				scene.getGuard().move(-MOVE_DISTANCE_PER_FRAME, -MOVE_DISTANCE_PER_FRAME);
+			}
+			ThreadSupport.sleep(LONG_DELAY);
+			
+			for (int i = 0; i < NUM_FRAMES; ++i){
+				Thread.sleep(SHORT_DELAY);
+				scene.getGuard().getArms().getLeftLine().rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getArms().getRightLine().rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getLegs().getLeftLine().rotateByClockwiseDegrees(DEGREES_ROTATE_PER_FRAME);
+				scene.getGuard().getLegs().getRightLine().rotateByClockwiseDegrees(-DEGREES_ROTATE_PER_FRAME);
+			}
+			ThreadSupport.sleep(LONG_DELAY);
+			for (int i = 0; i < NUM_FRAMES; ++i){
+				Thread.sleep(SHORT_DELAY);
+				scene.getGuard().scale(GROWTH_SCALAR_PER_FRAME);
+			}
+			ThreadSupport.sleep(LONG_DELAY);
+			scene.getGuard().getStringShape().setText("Hello again.");
+			
 	}//end main
 }//end class
 //END OF FILE
