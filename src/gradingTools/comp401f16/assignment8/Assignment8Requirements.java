@@ -48,7 +48,7 @@ public class Assignment8Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleClassInstantiatedTestCase("Locatable", "PropertyChangeEvent"),
      			new CheckstyleClassInstantiatedTestCase("BoundedShape", "PropertyChangeEvent"),
      			new CheckstyleMethodCalledTestCase("ConsoleSceneView", "(.*)!addPropertyChangeListener:PropertyChangeListener->void")
-//     			,new CheckstyleMethodDefinedTestCase("ConsoleSceneView", "propertyChange:PropertyChangeEvent->void") //TODO
+     			,new CheckstyleMethodDefinedTestCase("ConsoleSceneView", "propertyChange:PropertyChangeEvent->void") //TODO
      			// Can't check to calls to propertyChange because many students will put it in "listenerSupport"
      			);
      	

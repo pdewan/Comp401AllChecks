@@ -1,3 +1,0 @@
-  -- No  thread created (maybe race conditions) by:public void main.CommandInterpreter.asynLancelot()
-  -- No  thread created (maybe race conditions) by:public void main.CommandInterpreter.asynRobin()
-  -- No  thread created (maybe race conditions) by:public void main.CommandInterpreter.asynGalahad()
