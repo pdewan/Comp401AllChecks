@@ -2,6 +2,7 @@ package gradingTools.comp401f16.assignment9;
 
 import java.awt.event.ActionEvent;
 
+import grader.basics.execution.BasicProjectExecution;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
@@ -24,11 +25,16 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 
 public class Assignment9Requirements  extends AJUnitProjectRequirements{
 	public Assignment9Requirements(){
+
+BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
+//BasicProjectExecution.setUseProcessTimeOut(false);
+		
 		addDueDate("11/03/2016 00:59:00", 1.05); 	// wed before
      	addDueDate("11/05/2016 00:59:00", 1); 		// fri due
      	addDueDate("11/08/2016 00:59:00", 0.95);	// mon after due
      	addDueDate("11/12/2016 00:59:00", 0.90); 	// fri after due
      	addDueDate("12/05/2016 00:59:00", 0.85); 	// infinity
+     	
      	
      	// Functionality
      	GradingMode.setGraderRun(true);

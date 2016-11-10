@@ -42,13 +42,12 @@ public class Assignment8Requirements  extends AJUnitProjectRequirements{
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
 
      	// SingletonCreator
-     	addFeature("Observables send events, observer registers and listens", 12,
+     	addFeature("Observables send events, observer registers and listens", 9,
      			
      			// Should we be looking for instantiations of PropertyChangeEvent instead?
      			new CheckstyleClassInstantiatedTestCase("Locatable", "PropertyChangeEvent"),
      			new CheckstyleClassInstantiatedTestCase("BoundedShape", "PropertyChangeEvent"),
      			new CheckstyleMethodCalledTestCase("ConsoleSceneView", "(.*)!addPropertyChangeListener:PropertyChangeListener->void")
-     			,new CheckstyleMethodDefinedTestCase("ConsoleSceneView", "propertyChange:PropertyChangeEvent->void") //TODO
      			// Can't check to calls to propertyChange because many students will put it in "listenerSupport"
      			);
      	
