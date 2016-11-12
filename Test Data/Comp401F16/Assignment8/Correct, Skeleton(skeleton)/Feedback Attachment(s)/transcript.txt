@@ -18,7 +18,6 @@ Class instantiation failed:java.lang.NoSuchMethodException: java.beans.PropertyC
 ### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
 *****************************(ConsoleSceneView created and used with SingletonCreator)*****************************
 ### ConsoleSceneView!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### ConsoleSceneView!:: 1.0
 ### SingletonsCreator!@consoleSceneViewFactoryMethod:->@ConsoleSceneView: 0.0
 ### SingletonsCreator!ConsoleSceneView: 0.0
 *****************************(Proper interfaces implemented)*****************************

@@ -51,9 +51,8 @@ public class Assignment8Requirements  extends AJUnitProjectRequirements{
      			// Can't check to calls to propertyChange because many students will put it in "listenerSupport"
      			);
      	
-     	addFeature("ConsoleSceneView created and used with SingletonCreator", 12,
+     	addFeature("ConsoleSceneView created and used with SingletonCreator", 9,
      			new CheckstyleMethodCalledTestCase("ConsoleSceneView", "@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene"),
-     			new CheckstyleConstructorDefinedTestCase("ConsoleSceneView", ":"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@consoleSceneViewFactoryMethod:->@ConsoleSceneView"),
  				new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "ConsoleSceneView")
  				);

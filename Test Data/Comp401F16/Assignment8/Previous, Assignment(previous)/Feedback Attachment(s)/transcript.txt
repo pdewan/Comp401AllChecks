@@ -3,7 +3,7 @@
 ### gradingTools.comp401f16.assignment8.testcases.factory.ConsoleSceneViewFactoryMethodTest: 0.0
 *****************************(ConsoleSceneViewOutputTestCase)*****************************
 ### gradingTools.comp401f16.assignment8.testcases.ConsoleSceneViewOutputTestCase: 1.0
-Calling on object class grail.SingletonsCreator 945834881 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 100929741 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 Factory method:[consolesceneviewfactorymethod] not found.
 Trying parameterless constructor
 Class instantiation failed:java.lang.NoSuchMethodException: java.beans.PropertyChangeListener.<init>()
@@ -16,7 +16,6 @@ Class instantiation failed:java.lang.NoSuchMethodException: java.beans.PropertyC
 ### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
 *****************************(ConsoleSceneView created and used with SingletonCreator)*****************************
 ### ConsoleSceneView!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
-### ConsoleSceneView!:: 0.0
 ### SingletonsCreator!@consoleSceneViewFactoryMethod:->@ConsoleSceneView: 0.0
 ### SingletonsCreator!ConsoleSceneView: 0.0
 *****************************(Proper interfaces implemented)*****************************

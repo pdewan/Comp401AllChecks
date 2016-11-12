@@ -6,7 +6,7 @@ ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
 ConsoleSceneViewOutputTestCase                         0.0 / 50.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Observables send events, observer registers and listens0.0 /  9.0
-ConsoleSceneView created and used with SingletonCreator0.0 / 12.0
+ConsoleSceneView created and used with SingletonCreator0.0 /  9.0
 Proper interfaces implemented                          0.0 /  9.0
 Main calls proper methods                              0.0 / 10.0
 Rotate method called                                   0.0 /  3.0 (Extra credit)
@@ -40,7 +40,6 @@ Observables send events, observer registers and listens:
   -- ConsoleSceneView not found by checkstyle
 
 ConsoleSceneView created and used with SingletonCreator:
-  -- ConsoleSceneView not found by checkstyle
   -- ConsoleSceneView not found by checkstyle
   -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
 
