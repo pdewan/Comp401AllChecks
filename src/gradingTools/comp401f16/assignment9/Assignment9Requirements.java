@@ -51,7 +51,7 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
      	
      	// A student should get either this one, or the extra credit one, but not both
-     	addFeature("Normal credit view", 15,
+     	addFeature("Normal credit view (0 if extra credit instead)", 15,
      			new CheckstyleMethodDefinedTestCase("InheritingBridgeScenePainter", "paint:Graphics(.*)->void"),
      			new CheckstyleMethodDefinedTestCase("InheritingBridgeScenePainter", "propertyChange:PropertyChangeEvent->void"),
      			new CheckstyleSuperTypeDefinedTestCase("InheritingBridgeScenePainter", "Console"),
@@ -85,14 +85,14 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodCalledTestCase("BridgeSceneController", "(.*)!addKeyListener:KeyListener->void"),
      			new CheckstyleMethodCalledTestCase("BridgeSceneController", "(.*)!addMouseListener:MouseListener->void")     					
      			);
-     			
-     	addFeature("CommandInterpreter controller", 8, true,
+     	addManualFeature("Clicking and pressing buttons in display works correctly", 8);		
+     	
+     	addFeature("CommandInterpreter controller", 6, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "TextField", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@CommandInterpreter!setCommand:String->*"),
-     			new CheckstyleClassInstantiatedTestCase("CommandInterpreterController", "JTextField"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController")
      			);
-     	addManualFeature("CommandInterpreter controller updates command correctly", 7,true);
+     	addManualFeature("CommandInterpreter controller issues commands correctly", 7,true);
      	
      	addFeature("CommandInterpreter view", 6, true,
      			
@@ -100,25 +100,21 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodDefinedTestCase("CommandInterpreterView", "propertyChange:PropertyChangeEvent->void"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterViewFactoryMethod:->@CommandInterpreterView")
      			);
-     	addManualFeature("CommandInterpreter view updates correctly as command changes", 6,true);
+     	addManualFeature("CommandInterpreter view shows error property correctly", 4,true);
      	
      	addFeature("Menu item and button", 6, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "MenuItem", "JTextField"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Button", "JButton"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreterController", "actionPerformed:ActionEvent->void")
      			);
-   	addManualFeature("Menu item and button result in some action in display", 6, true);
+   	addManualFeature("Menu item and button result in some action in display", 4, true);
      	
      	// This should only give 2 points since students will only have one but not the other
-     	addFeature("Progress bar or slider", 4, true,
+     	addFeature("Progress bar or slider (max 2)", 4, true,
      			new CheckStylePropertyDefinedTestCase("ProgressBarCreator", "ProgressBar", "JProgressBar"),
      			new CheckStylePropertyDefinedTestCase("ProgressBarCreator", "Slider", "JSlider")
      			);
-     	addManualFeature("Progress bar or slider works", 5, true);
-     	
-     	
-     	addFeature("Command interpreter has errors property", 2,
-     			new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Errors", "*"));
+     	addManualFeature("Progress bar or slider works", 4, true);
      	
      	addManualFeature("Animation shows function of command interpreter and correct output in all frames", 15, false); 
      	addManualFeature("Table demonstrated in console, works correctly", 8, false);
