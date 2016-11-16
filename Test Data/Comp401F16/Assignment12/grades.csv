@@ -1,7 +1,7 @@
 Assignment 1,Points,,,
 ,,,,
 Display ID,ID,Last Name,First Name,grade
-acorrect,acorrect,All,Correct,36.75
-ecredit,ecredit,Extra,Credit,81.9
-mmany,mmany,Mistakes,Many,51.45
-tstudent,tstudent,Test,Student,15.75
+previous,previous,Previous,Assignment,4.2
+skeleton,skeleton,Correct,Skeleton,0.0
+stubs,stubs,Correct,Stub,0.0
+tstudent0,tstudent0,Test0,Student,116.55

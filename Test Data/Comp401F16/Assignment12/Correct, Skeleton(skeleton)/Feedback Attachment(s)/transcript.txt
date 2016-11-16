@@ -1,0 +1,36 @@
+*****************************(ConsoleSceneViewFactoryMethodTest)*****************************
+### gradingTools.comp401f16.assignment8.testcases.factory.ConsoleSceneViewFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment8.testcases.factory.ConsoleSceneViewFactoryMethodTest: 0.0
+*****************************(ConsoleSceneViewOutputTestCase)*****************************
+### gradingTools.comp401f16.assignment8.testcases.ConsoleSceneViewOutputTestCase: 1.0
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Factory method:[consolesceneviewfactorymethod] not found.
+Trying parameterless constructor
+Class instantiation failed:java.lang.NoSuchMethodException: java.beans.PropertyChangeListener.<init>()
+### gradingTools.comp401f16.assignment8.testcases.ConsoleSceneViewOutputTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Observables send events, observer registers and listens)*****************************
+### Locatable!PropertyChangeEvent: 0.0
+### BoundedShape!PropertyChangeEvent: 0.0
+### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+### ConsoleSceneView!propertyChange:PropertyChangeEvent->void: 1.0
+*****************************(ConsoleSceneView created and used with SingletonCreator)*****************************
+### ConsoleSceneView!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
+### ConsoleSceneView!:: 1.0
+### SingletonsCreator!@consoleSceneViewFactoryMethod:->@ConsoleSceneView: 0.0
+### SingletonsCreator!ConsoleSceneView: 0.0
+*****************************(Proper interfaces implemented)*****************************
+### ConsoleSceneView defined: 0.0
+### Locatable defined: 0.0
+### BoundedShape defined: 0.0
+*****************************(Main calls proper methods)*****************************
+### main.Assignment8!@SingletonsCreator!consoleSceneViewFactoryMethod:->@ConsoleSceneView: 0.0
+### main.Assignment8!@SingletonsCreator!bridgeSceneFactoryMethod:->@BridgeScene: 0.0
+### main.Assignment8!(.*)!sleep:long->void: 0.0
+### main.Assignment8!(.*)!@move:int;int->*: 0.0
+### main.Assignment8!(.*)!setText:String->void: 0.0
+*****************************(Rotate method called)*****************************
+### main.Assignment8!@RotatingLine!@rotate:int->*: 0.0

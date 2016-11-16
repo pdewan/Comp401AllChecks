@@ -1,0 +1,4 @@
+  -- Class matching PropertyChangeEvent not instantiated in LocatableObject
+  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
+  -- ConsoleSceneView not found by checkstyle
+  -- ConsoleSceneView not found by checkstyle

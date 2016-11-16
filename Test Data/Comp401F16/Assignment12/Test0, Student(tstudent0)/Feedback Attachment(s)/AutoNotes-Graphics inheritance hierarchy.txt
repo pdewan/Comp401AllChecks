@@ -1,0 +1,3 @@
+  -- @LINE_PATTERN not found by checkstyle
+  -- @STRING_PATTERN not found by checkstyle
+  -- @IMAGE_PATTERN not found by checkstyle

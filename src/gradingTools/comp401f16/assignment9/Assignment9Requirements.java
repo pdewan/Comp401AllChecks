@@ -7,6 +7,7 @@ import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment7.testcases.Assignment7Suite;
+import gradingTools.comp401f16.assignment9.testcases.Assignment9Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleClassDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
@@ -25,9 +26,9 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 
 public class Assignment9Requirements  extends AJUnitProjectRequirements{
 	public Assignment9Requirements(){
-
-BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
-//BasicProjectExecution.setUseProcessTimeOut(false);
+	
+	BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
+	BasicProjectExecution.setUseProcessTimeOut(false);
 		
 		addDueDate("11/03/2016 00:59:00", 1.05); 	// wed before
      	addDueDate("11/05/2016 00:59:00", 1); 		// fri due
@@ -38,8 +39,8 @@ BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
      	
      	// Functionality
      	GradingMode.setGraderRun(true);
+     	addJUnitTestSuite(Assignment9Suite.class);
      	
-//     	addJUnitTestSuite(Assignment9Suite.class);
      	
      	addFeature("Public methods are in implemented interfaces", 10, 
      			new ClassHasAtLeastOneInterfaceTestCase());
