@@ -2,54 +2,61 @@ Grading result for: Test0, Student(tstudent0)
 
 Grading features...
 ----------------------------------
-CommandInterpreterMoveSuite                            40.0 / 40.0
-CommandInterpreterApproachedArthurSayTestCase          20.0 / 20.0
-CommandInterpreterMixedCaseSuite                       10.0 / 10.0
-StringTableTest                                        25.0 / 25.0
-CommandInterpreterErrorsSuite                          15.0 / 15.0 (Extra credit)
-CommandInterpreterSignedMoveSuite                      20.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     20.0 / 20.0
+AssertingBridgeSceneDynamicTestCase                    72.0 / 72.0
+CommandObjectSuite                                     20.0 / 20.0
+AsyncAnimationSuite                                    40.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         18.0 / 24.0
-CommandInterpreter properly uses the other classes     8.0 /  8.0
-SingletonCreator created and used in main              8.0 / 16.0
-Command interpreter has required property and is instantiated 12.0 / 12.0
-Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
+Preconditions defined                                  8.0 /  8.0
+Event notifications fired and received                 6.0 /  6.0
+Command objects created for parsing                    8.0 /  8.0
+Parsing methods made, setter calls run()               10.0 / 10.0
+Animator and animation commands created and used       6.0 /  6.0
+Asynchronous methods create new threads                9.0 /  9.0
+Asynchronous guard                                     2.0 /  2.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions6.0 /  6.0 (Extra credit)
+Console shows all precondition events being fired      0.0 / 10.0
+Animation shows animations acting asynchronously       0.0 / 10.0
+CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
+Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 206.0
+  Points Awarded: 197.0
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            -1.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Illegal import or call                      0.0 /  -25.0
+Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
-  Points Deducted: -6.0
+  Points Deducted: -30.0
 
-  Features Score: 200.0
-
-Notes from grading features:
-----------------------------------
-Graphics inheritance hierarchy:
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
-
-SingletonCreator created and used in main:
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-
+  Features Score: 167.0
 
 Notes from grading restrictions:
 ----------------------------------
-No magic numbers:
-  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (BridgeSceneControllerInterface.java:3) Used disallowed class java.awt.event.KeyListener 
+illegalTypeImported: (BridgeSceneControllerInterface.java:4) Used disallowed class java.awt.event.MouseListener 
+illegalTypeImported: (CommandInterpreterControllerInterface.java:3) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (CommandInterpreterViewInterface.java:3) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (PaintListener.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (BridgeSceneController.java:3) Used disallowed class java.awt.Component 
+illegalTypeImported: (BridgeSceneController.java:4) Used disallowed class java.awt.event.KeyEvent 
+illegalTypeImported: (BridgeSceneController.java:5) Used disallowed class java.awt.event.MouseEvent 
+illegalTypeImported: (CommandInterpreterController.java:3) Used disallowed class java.awt.event.ActionEvent 
+illegalTypeImported: (AvatarView.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (CommandInterpreterView.java:3) Used disallowed class java.awt.GridLayout 
+illegalTypeImported: (CommandInterpreterView.java:4) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (ObservableBridgeScenePainter.java:3) Used disallowed class java.awt.Component 
+illegalTypeImported: (ObservableBridgeScenePainter.java:4) Used disallowed class java.awt.Graphics 
+illegalTypeImported: (ObservableBridgeScenePainter.java:5) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (PaintingSupport.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (PaintingSupport.java:4) Used disallowed class java.awt.Toolkit 
+illegalTypeImported: (SceneBackgroundView.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (Assignment10.java:3) Used disallowed class java.awt.Component 
 
 
 
 Early benefit: 105.0%
-  Total Score: 210.0
+  Total Score: 175.35

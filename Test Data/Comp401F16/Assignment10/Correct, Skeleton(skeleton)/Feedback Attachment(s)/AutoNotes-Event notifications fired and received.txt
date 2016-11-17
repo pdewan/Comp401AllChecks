@@ -1,0 +1,3 @@
+  -- expectedInterfaces: (BridgeScene.java:17) In type BridgeScene, missing interface: PropertyListenerRegisterer
+
+  -- Class matching PropertyChangeEvent not instantiated in BridgeScene

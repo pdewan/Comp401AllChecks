@@ -1,0 +1,1 @@
+  -- Class matching PropertyChangeEvent not instantiated in BridgeScene

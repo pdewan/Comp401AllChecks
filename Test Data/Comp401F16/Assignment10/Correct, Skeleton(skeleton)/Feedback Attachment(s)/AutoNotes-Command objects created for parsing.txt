@@ -1,0 +1,4 @@
+  -- expectedInterfaces: (SayCommand.java:7) In type SayCommand, missing interface: Runnable
+
+  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
+

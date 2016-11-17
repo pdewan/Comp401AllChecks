@@ -2,18 +2,24 @@ Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
-ConsoleSceneViewOutputTestCase                         0.0 / 50.0
+AssertingBridgeSceneDynamicTestCase                    0.0 / 72.0
+CommandObjectSuite                                     0.0 / 20.0
+AsyncAnimationSuite                                    0.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Observables send events, observer registers and listens3.0 / 12.0
-ConsoleSceneView created and used with SingletonCreator3.0 / 12.0
-Proper interfaces implemented                          9.0 /  9.0
-Main calls proper methods                              0.0 / 10.0
-Rotate method called                                   0.0 /  3.0 (Extra credit)
-Console shows proper events being fired                0.0 / 15.0
-Animation shows correct behavior                       0.0 /  5.0
+Preconditions defined                                  8.0 /  8.0
+Event notifications fired and received                 4.0 /  6.0
+Command objects created for parsing                    6.0 /  8.0
+Parsing methods made, setter calls run()               10.0 / 10.0
+Animator and animation commands created and used       6.0 /  6.0
+Asynchronous methods create new threads                9.0 /  9.0
+Asynchronous guard                                     2.0 /  2.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions6.0 /  6.0 (Extra credit)
+Console shows all precondition events being fired      0.0 / 10.0
+Animation shows animations acting asynchronously       0.0 / 10.0
+CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
+Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 25.0
+  Points Awarded: 61.0
 
 Grading restrictions...
 ----------------------------------
@@ -24,38 +30,29 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -5.0
+  Features Score: 31.0
 
 Notes from grading features:
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest:
-  -- Factory method:[consolesceneviewfactorymethod] not found.
+AssertingBridgeSceneDynamicTestCase:
+  -- java.lang.NullPointerException null
 
-ConsoleSceneViewOutputTestCase:
-  -- Could not instantiate/find class matching:[]
+CommandObjectSuite:
+  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
+  -- java.lang.NoSuchMethodException grail.scanner.commands.SayCommand.<init>(grail.interfaces.BridgeSceneInterface, java.lang.String)
 
-Observables send events, observer registers and listens:
-  -- Class matching PropertyChangeEvent not instantiated in ObservableLocatableObject
-  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+AsyncAnimationSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
 
+Event notifications fired and received:
+  -- Class matching PropertyChangeEvent not instantiated in BridgeScene
 
-ConsoleSceneView created and used with SingletonCreator:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call                @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+Command objects created for parsing:
+  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
 
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
-
-  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
-
-Main calls proper methods:
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-
-Rotate method called:
-  -- main.Assignment8 not found by checkstyle
 
 
 Notes from grading restrictions:
@@ -92,4 +89,4 @@ illegalTypeImported: (Assignment10.java:5) Used disallowed class java.awt.event.
 
 
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 32.550000000000004

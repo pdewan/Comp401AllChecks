@@ -691,7 +691,7 @@ import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterController"})
-@PropertyNames({"TextField"})
+@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach"})
 public class CommandInterpreterController implements CommandInterpreterControllerInterface {
 	
 }

@@ -1230,6 +1230,7 @@ package grail.interfaces.mvc;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 
+import javax.swing.JButton;
 import javax.swing.JTextField;
 
 import util.annotations.Tags;
@@ -1237,6 +1238,11 @@ import util.annotations.Tags;
 @Tags({"CommandInterpreterController"})
 public interface CommandInterpreterControllerInterface extends ActionListener, PropertyChangeListener{
 	public JTextField getTextField();
+	public JButton getSay();
+	public JButton getPass();
+	public JButton getFail();
+	public JButton getApproach();
+	
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/mvc/commandinterpreterviewinterface.java
@@ -1391,7 +1397,7 @@ import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterController"})
-@PropertyNames({"TextField"})
+@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach"})
 public class CommandInterpreterController implements CommandInterpreterControllerInterface {
 
 	@Override
@@ -1408,6 +1414,30 @@ public class CommandInterpreterController implements CommandInterpreterControlle
 
 	@Override
 	public JTextField getTextField() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getSay() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getPass() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getFail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getApproach() {
 		// TODO Auto-generated method stub
 		return null;
 	}
