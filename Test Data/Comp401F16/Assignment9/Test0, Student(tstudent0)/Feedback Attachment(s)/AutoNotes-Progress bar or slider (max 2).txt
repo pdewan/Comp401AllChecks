@@ -1,0 +1,2 @@
+  -- expectedGetters: (Assignment9.java:1) In type Assignment9, missing getter for property Slider of type JSlider
+

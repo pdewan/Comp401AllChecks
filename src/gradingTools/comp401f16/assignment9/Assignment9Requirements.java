@@ -61,12 +61,12 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	addFeature("Extra credit view", 35, true,
-     			new CheckstyleMethodDefinedTestCase("PaintListener", "paint:Graphics2D->void(.*)"),
-     			new CheckstyleMethodDefinedTestCase("PaintListener", "propertyChange:PropertyChangeEvent->void"),
-     			new CheckstyleMethodCalledTestCase("PaintListener", "@ObservableBridgeScenePainter!repaint:->void"),
+     			new CheckstyleMethodDefinedTestCase("PaintListener", "paint:Graphics(.*)->void(.*)"),
+     			new CheckstyleInterfaceDefinedTestCase("PaintListener", "PropertyChangeListener"),
+     			new CheckstyleMethodCalledTestCase("PaintListener", "(.*)!repaint:->void"),
      			
      			new CheckstyleMethodDefinedTestCase("ObservableBridgeScenePainter", "@addPaintListener:@PaintListener->void"),
-     			new CheckstyleMethodCalledTestCase("ObservableBridgeScenePainter", "@PaintListener!paint:Graphics2D->void(.*)"),
+     			new CheckstyleMethodCalledTestCase("ObservableBridgeScenePainter", "@PaintListener!paint:Graphics(.*)->void(.*)"),
      			new CheckstyleSuperTypeDefinedTestCase("ObservableBridgeScenePainter", "Console"),
      			
      			new CheckstyleMethodCalledTestCase("DelegatingBridgeSceneView",
@@ -89,23 +89,23 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      	
      	addFeature("CommandInterpreter controller", 6, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "TextField", "JTextField"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@CommandInterpreter!setCommand:String->*"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@CommandInterpreter!setCommand:String->void"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController")
      			);
      	addManualFeature("CommandInterpreter controller issues commands correctly", 7,true);
      	
      	addFeature("CommandInterpreter view", 6, true,
      			
-     			new CheckstyleMethodDefinedTestCase("ObservableCommandInterpreter", "addPropertyChangeListener:PropertyChangeListener->void"),
+     			new CheckstyleInterfaceDefinedTestCase("ObservableCommandInterpreter", "PropertyListenerRegisterer"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreterView", "propertyChange:PropertyChangeEvent->void"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterViewFactoryMethod:->@CommandInterpreterView")
      			);
      	addManualFeature("CommandInterpreter view shows error property correctly", 4,true);
      	
      	addFeature("Menu item and button", 6, true,
-     			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "MenuItem", "JTextField"),
+     			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "MenuItem", "JMenuItem"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Button", "JButton"),
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreterController", "actionPerformed:ActionEvent->void")
+     			new CheckstyleInterfaceDefinedTestCase("CommandInterpreterController", "ActionListener")
      			);
    	addManualFeature("Menu item and button result in some action in display", 4, true);
      	

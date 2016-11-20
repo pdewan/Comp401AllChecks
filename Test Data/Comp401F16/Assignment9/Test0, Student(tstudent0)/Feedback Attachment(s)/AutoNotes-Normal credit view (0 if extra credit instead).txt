@@ -1,0 +1,4 @@
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle

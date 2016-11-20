@@ -1,0 +1,101 @@
+Grading result for: Previous, Assignment(previous)
+
+Grading features...
+----------------------------------
+BridgeSceneControllerSuite                             0.0 / 40.0
+FactoryMethodSuiteA9                                   0.0 / 10.0
+ObservablePainterSuite                                 0.0 / 30.0 (Extra credit)
+ExtraCreditFactoryMethodSuiteA9                        0.0 / 20.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Normal credit view (0 if extra credit instead)         3.0 / 15.0
+Extra credit view                                      7.0 / 35.0 (Extra credit)
+BridgeSceneController                                  0.0 / 12.0
+Clicking and pressing buttons in display works correctly 0.0 /  8.0
+CommandInterpreter controller                          2.0 /  6.0 (Extra credit)
+CommandInterpreter controller issues commands correctly0.0 /  7.0 (Extra credit)
+CommandInterpreter view                                2.0 /  6.0 (Extra credit)
+CommandInterpreter view shows error property correctly 0.0 /  4.0 (Extra credit)
+Menu item and button                                   0.0 /  6.0 (Extra credit)
+Menu item and button result in some action in display  0.0 /  4.0 (Extra credit)
+Progress bar or slider (max 2)                         0.0 /  4.0 (Extra credit)
+Progress bar or slider works                           0.0 /  4.0 (Extra credit)
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 /  8.0
+----------------------------------
+  Points Awarded: 24.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 19.0
+
+Notes from grading features:
+----------------------------------
+BridgeSceneControllerSuite:
+  -- Could not find inheriting or observable painter
+  -- Could not find inheriting or observable painter
+  -- Could not find inheriting or observable painter
+  -- Could not find inheriting or observable painter
+
+FactoryMethodSuiteA9:
+  -- Factory method:[bridgescenecontrollerfactorymethod] not found.
+  -- Factory method:[inheritingbridgescenepainterfactorymethod] not found.
+
+ObservablePainterSuite:
+  -- Could not instantiate/find class matching:[TestObservableBridgeScenePainter, ObservableBridgeScenePainter]
+  -- One or more factory methods failed:
+
+ExtraCreditFactoryMethodSuiteA9:
+  -- Factory method:[commandinterpreterviewfactorymethod] not found.
+  -- Factory method:[commandinterpretercontrollerfactorymethod] not found.
+  -- Factory method:[delegatingbridgesceneviewfactorymethod] not found.
+  -- Factory method:[observablebridgescenepainterfactorymethod] not found.
+
+Normal credit view (0 if extra credit instead):
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+
+Extra credit view:
+  -- PaintListener not found by checkstyle
+  -- PaintListener not found by checkstyle
+  -- PaintListener not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- DelegatingBridgeSceneView not found by checkstyle
+  -- DelegatingBridgeSceneView not found by checkstyle
+
+BridgeSceneController:
+  -- BridgeSceneController not found by checkstyle
+  -- BridgeSceneController not found by checkstyle
+  -- BridgeSceneController not found by checkstyle
+  -- BridgeSceneController not found by checkstyle
+
+CommandInterpreter controller:
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+
+CommandInterpreter view:
+  -- ObservableCommandInterpreter not found by checkstyle
+  -- CommandInterpreterView not found by checkstyle
+
+Menu item and button:
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+
+Progress bar or slider (max 2):
+  -- ProgressBarCreator not found by checkstyle
+  -- ProgressBarCreator not found by checkstyle
+
+
+Early benefit: 105.0%
+  Total Score: 19.95

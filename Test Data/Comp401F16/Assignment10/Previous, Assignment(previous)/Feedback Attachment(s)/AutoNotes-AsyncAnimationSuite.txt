@@ -1,4 +1,0 @@
-  -- Method matching animateArthur not found in class: class grail.scanner.CommandInterpreter
-  -- Method matching animateGalahad not found in class: class grail.scanner.CommandInterpreter
-  -- Method matching animateLancelot not found in class: class grail.scanner.CommandInterpreter
-  -- Method matching animateRobin not found in class: class grail.scanner.CommandInterpreter

@@ -1,0 +1,123 @@
+Grading result for: Correct, Skeleton(skeleton)
+
+Grading features...
+----------------------------------
+BridgeSceneControllerSuite                             0.0 / 40.0
+FactoryMethodSuiteA9                                   0.0 / 10.0
+ObservablePainterSuite                                 0.0 / 30.0 (Extra credit)
+ExtraCreditFactoryMethodSuiteA9                        0.0 / 20.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Normal credit view (0 if extra credit instead)         0.0 / 15.0
+Extra credit view                                      3.5 / 35.0 (Extra credit)
+BridgeSceneController                                  0.0 / 12.0
+Clicking and pressing buttons in display works correctly 0.0 /  8.0
+CommandInterpreter controller                          2.0 /  6.0 (Extra credit)
+CommandInterpreter controller issues commands correctly0.0 /  7.0 (Extra credit)
+CommandInterpreter view                                2.0 /  6.0 (Extra credit)
+CommandInterpreter view shows error property correctly 0.0 /  4.0 (Extra credit)
+Menu item and button                                   2.0 /  6.0 (Extra credit)
+Menu item and button result in some action in display  0.0 /  4.0 (Extra credit)
+Progress bar or slider (max 2)                         0.0 /  4.0 (Extra credit)
+Progress bar or slider works                           0.0 /  4.0 (Extra credit)
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 /  8.0
+----------------------------------
+  Points Awarded: 19.5
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 14.5
+
+Notes from grading features:
+----------------------------------
+BridgeSceneControllerSuite:
+  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
+  -- Method matching getLancelot not found in class: class grail.graphics.BridgeScene
+  -- Method matching getGalahad not found in class: class grail.graphics.BridgeScene
+  -- Method matching getRobin not found in class: class grail.graphics.BridgeScene
+
+FactoryMethodSuiteA9:
+  -- Factory method:[bridgescenecontrollerfactorymethod] not found.
+  -- Factory method:[inheritingbridgescenepainterfactorymethod] not found.
+
+ObservablePainterSuite:
+  -- Factory method:[delegatingbridgesceneviewfactorymethod] not found.
+  -- One or more factory methods failed:
+
+ExtraCreditFactoryMethodSuiteA9:
+  -- Factory method:[commandinterpreterviewfactorymethod] not found.
+  -- Factory method:[commandinterpretercontrollerfactorymethod] not found.
+  -- Factory method:[delegatingbridgesceneviewfactorymethod] not found.
+  -- Factory method:[observablebridgescenepainterfactorymethod] not found.
+
+Normal credit view (0 if extra credit instead):
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter
+
+
+Extra credit view:
+  -- expectedDeclaredSignatures: (AvatarView.java:12) In type AvatarView, missing declared signature: paint:Graphics(.*)->void
+
+  -- expectedInterfaces: (AvatarView.java:12) In type AvatarView, missing interface: PropertyChangeListener
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\AvatarView.java:1: warning: missingMethodCall: (AvatarView.java:1) has not made expected call        (.*)!repaint:->void
+
+  -- expectedDeclaredSignatures: (ObservableBridgeScenePainter.java:12) In type ObservableBridgeScenePainter, missing declared signature: @addPaintListener:@PaintListener->void
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ObservableBridgeScenePainter.java:1: warning: missingMethodCall: (ObservableBridgeScenePainter.java:1) has not made expected call          @PaintListener!paint:Graphics->void(.*)
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call           @SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call             (.*)!addPaintListener:@PaintListener->void
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @delegatingBridgeSceneViewFactoryMethod:->@DelegatingBridgeSceneView//EC
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter//EC
+
+
+BridgeSceneController:
+  -- expectedInterfaces: (BridgeSceneController.java:14) In type BridgeSceneController, missing interface: MouseListener
+
+  -- expectedInterfaces: (BridgeSceneController.java:14) In type BridgeSceneController, missing interface: KeyListener
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call         (.*)!addKeyListener:KeyListener->void 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call         (.*)!addMouseListener:MouseListener->void 
+
+
+CommandInterpreter controller:
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property TextField of type JTextField
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @commandInterpreterControllerFactoryMethod:->@CommandInterpreterController/EC
+
+
+CommandInterpreter view:
+  -- CommandInterpreterView not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @commandInterpreterViewFactoryMethod:->@CommandInterpreterView
+
+
+Menu item and button:
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Button of type JButton
+
+  -- expectedInterfaces: (CommandInterpreterController.java:19) In type CommandInterpreterController, missing interface: ActionListener
+
+
+Progress bar or slider (max 2):
+  -- expectedGetters: (Assignment10.java:1) In type Assignment10, missing getter for property ProgressBar of type JProgressBar
+
+  -- expectedGetters: (Assignment10.java:1) In type Assignment10, missing getter for property Slider of type JSlider
+
+
+
+Early benefit: 105.0%
+  Total Score: 15.75

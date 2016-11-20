@@ -1,0 +1,1 @@
+  -- CommandInterpreterView not found by checkstyle
