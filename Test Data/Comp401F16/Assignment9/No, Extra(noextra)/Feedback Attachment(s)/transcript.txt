@@ -1,0 +1,115 @@
+*****************************(BridgeSceneControllerSuite)*****************************
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase: 1.0
+Trying to get inheriting painter
+Trying to get bridge scene controller
+Before Mouse Click, x = 100
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Before Key Type, x = 100
+After Key Type, x = 50
+After Move , x = 70
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.LancelotBridgeSceneControllerTestCase: 1.0
+Trying to get inheriting painter
+Trying to get bridge scene controller
+Before Mouse Click, x = 200
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Before Key Type, x = 200
+After Key Type, x = 50
+After Move , x = 150
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.GalahadBridgeSceneControllerTestCase: 1.0
+Trying to get inheriting painter
+Trying to get bridge scene controller
+Before Mouse Click, x = 400
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Before Key Type, x = 400
+After Key Type, x = 50
+After Move , x = 150
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.RobinBridgeSceneControllerTestCase: 1.0
+Trying to get inheriting painter
+Trying to get bridge scene controller
+Before Mouse Click, x = 300
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.InheritingBridgeScenePainter[,0,0,0x0,invalid]
+Before Key Type, x = 300
+After Key Type, x = 50
+After Move , x = 150
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+*****************************(FactoryMethodSuiteA9)*****************************
+### gradingTools.comp401f16.assignment9.testcases.factory.BridgeSceneControllerFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.InheritingBridgeScenePainterFactoryMethodTest: 1.0
+*****************************(ObservablePainterSuite)*****************************
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.ExistingPaintListenerTestCase: 1.0
+Factory method:[observablebridgescenepainterfactorymethod] not found.
+Trying parameterless constructor
+Could not find unique class with tags:[Ljava.lang.String;@1ee29c84
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.ExistingPaintListenerTestCase: 0.0
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase: 1.0
+Factory method:[observablebridgescenepainterfactorymethod] not found.
+Trying parameterless constructor
+Could not find unique class with tags:[Ljava.lang.String;@720653c2
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase: 0.0
+*****************************(ExtraCreditFactoryMethodSuiteA9)*****************************
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterViewFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterViewFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterControllerFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterControllerFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment9.testcases.factory.DelegatingBridgeSceneViewFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.DelegatingBridgeSceneViewFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment9.testcases.factory.ObservableBridgeScenePainterFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.ObservableBridgeScenePainterFactoryMethodTest: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Normal credit view (0 if extra credit instead))*****************************
+### InheritingBridgeScenePainter!paint:Graphics(.*)->void: 0.0
+### InheritingBridgeScenePainter!propertyChange:PropertyChangeEvent->void: 0.0
+### InheritingBridgeScenePainter defined: 0.0
+### InheritingBridgeScenePainter!:: 0.0
+### SingletonsCreator!@inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter: 0.0
+*****************************(Extra credit view)*****************************
+### PaintListener!paint:Graphics2D->void(.*): 0.0
+### PaintListener!propertyChange:PropertyChangeEvent->void: 0.0
+### PaintListener!@ObservableBridgeScenePainter!repaint:->void: 0.0
+### ObservableBridgeScenePainter!@addPaintListener:@PaintListener->void: 0.0
+### ObservableBridgeScenePainter!@PaintListener!paint:Graphics2D->void(.*): 0.0
+### ObservableBridgeScenePainter defined: 0.0
+### DelegatingBridgeSceneView!@SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter: 0.0
+### DelegatingBridgeSceneView!(.*)!addPaintListener:@PaintListener->void: 0.0
+### SingletonsCreator!@delegatingBridgeSceneViewFactoryMethod:->@DelegatingBridgeSceneView//EC: 0.0
+### SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter//EC: 0.0
+*****************************(BridgeSceneController)*****************************
+### BridgeSceneController defined: 0.0
+### BridgeSceneController defined: 0.0
+### BridgeSceneController!(.*)!addKeyListener:KeyListener->void: 0.0
+### BridgeSceneController!(.*)!addMouseListener:MouseListener->void: 0.0
+*****************************(CommandInterpreter controller)*****************************
+### CommandInterpreterControllerdefines getter for property TextField: 0.0
+### CommandInterpreterController!@CommandInterpreter!setCommand:String->*: 0.0
+### SingletonsCreator!@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController: 0.0
+*****************************(CommandInterpreter view)*****************************
+### ObservableCommandInterpreter!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+### CommandInterpreterView!propertyChange:PropertyChangeEvent->void: 0.0
+### SingletonsCreator!@commandInterpreterViewFactoryMethod:->@CommandInterpreterView: 0.0
+*****************************(Menu item and button)*****************************
+### CommandInterpreterControllerdefines getter for property MenuItem: 0.0
+### CommandInterpreterControllerdefines getter for property Button: 0.0
+### CommandInterpreterController!actionPerformed:ActionEvent->void: 0.0
+*****************************(Progress bar or slider (max 2))*****************************
+### ProgressBarCreatordefines getter for property ProgressBar: 0.0
+### ProgressBarCreatordefines getter for property Slider: 0.0

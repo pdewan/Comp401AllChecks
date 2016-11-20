@@ -1,0 +1,3 @@
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- SingletonsCreator not found by checkstyle

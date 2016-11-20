@@ -1,0 +1,10 @@
+  -- PaintListener not found by checkstyle
+  -- PaintListener not found by checkstyle
+  -- PaintListener not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- ObservableBridgeScenePainter not found by checkstyle
+  -- DelegatingBridgeSceneView not found by checkstyle
+  -- DelegatingBridgeSceneView not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
