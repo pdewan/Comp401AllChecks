@@ -50,16 +50,16 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
      	
      	// A student should get either this one, or the extra credit one, but not both
-     	addFeature("Normal credit view (0 if extra credit instead)", 15,
+     	addFeature("Normal credit view (0.0 if extra credit instead)", 15,
      			new CheckstyleMethodDefinedTestCase("InheritingBridgeScenePainter", "paint:Graphics(.*)->void"),
-     			new CheckstyleMethodDefinedTestCase("InheritingBridgeScenePainter", "propertyChange:PropertyChangeEvent->void"),
+     			new CheckstyleInterfaceDefinedTestCase("InheritingBridgeScenePainter", "PropertyChangeListener"),
+     			new CheckstyleMethodCalledTestCase("InheritingBridgeScenePainter", "repaint:->void"),
      			new CheckstyleSuperTypeDefinedTestCase("InheritingBridgeScenePainter", "Console"),
-     			new CheckstyleConstructorDefinedTestCase("InheritingBridgeScenePainter", ":"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
      					"@inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter")
      			);
      	
-     	addFeature("Extra credit view", 35, true,
+     	addFeature("Extra credit view", 25, true,
      			new CheckstyleMethodDefinedTestCase("PaintListener", "paint:Graphics(.*)->void(.*)"),
      			new CheckstyleInterfaceDefinedTestCase("PaintListener", "PropertyChangeListener"),
      			new CheckstyleMethodCalledTestCase("PaintListener", "(.*)!repaint:->void"),
@@ -86,37 +86,37 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			);
      	addManualFeature("Clicking and pressing buttons in display works correctly", 8);		
      	
-     	addFeature("CommandInterpreter controller", 6, true,
+     	addFeature("CommandInterpreter controller", 3, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "TextField", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@CommandInterpreter!setCommand:String->void"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController")
      			);
      	addManualFeature("CommandInterpreter controller issues commands correctly", 7,true);
      	
-     	addFeature("CommandInterpreter view", 6, true,
+     	addFeature("CommandInterpreter view", 3, true,
      			
      			new CheckstyleInterfaceDefinedTestCase("ObservableCommandInterpreter", "PropertyListenerRegisterer"),
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreterView", "propertyChange:PropertyChangeEvent->void"),
+     			new CheckstyleMethodDefinedTestCase("CommandInterpreterView", "PropertyChangeListener"),
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterViewFactoryMethod:->@CommandInterpreterView")
      			);
-     	addManualFeature("CommandInterpreter view shows error property correctly", 4,true);
+     	addManualFeature("CommandInterpreter view shows error property correctly", 5,true);
      	
-     	addFeature("Menu item and button", 6, true,
+     	addFeature("Menu item and button", 3, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "MenuItem", "JMenuItem"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Button", "JButton"),
      			new CheckstyleInterfaceDefinedTestCase("CommandInterpreterController", "ActionListener")
      			);
-   	addManualFeature("Menu item and button result in some action in display", 4, true);
+   	addManualFeature("Menu item and button result in some action in display", 7, true);
      	
      	// This should only give 2 points since students will only have one but not the other
-     	addFeature("Progress bar or slider (max 2)", 4, true,
+     	addFeature("Progress bar or slider (max 2.0)", 4, true,
      			new CheckStylePropertyDefinedTestCase("ProgressBarCreator", "ProgressBar", "JProgressBar"),
      			new CheckStylePropertyDefinedTestCase("ProgressBarCreator", "Slider", "JSlider")
      			);
      	addManualFeature("Progress bar or slider works", 4, true);
      	
      	addManualFeature("Animation shows function of command interpreter and correct output in all frames", 15, false); 
-     	addManualFeature("Table demonstrated in console, works correctly", 8, false);
+     	addManualFeature("Table demonstrated in console, works correctly", 10, false);
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
