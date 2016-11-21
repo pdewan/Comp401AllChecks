@@ -1,3 +1,0 @@
-  -- magic.number: (Assignment9.java:102) In type Assignment9, magic number 100 in expression list EXPR 100 , EXPR 100 
-magic.number: (Assignment9.java:108) In type Assignment9, magic number 100 in expression list EXPR 100 , EXPR 100 
-

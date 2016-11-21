@@ -1,7 +1,2 @@
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+  -- Leaf object: grail.graphics.Image@6999cd39 replaced with:grail.graphics.BridgeScene@4d6f197e
+  -- Leaf object: grail.graphics.StringShape@648ee871 replaced with:grail.graphics.BridgeScene@4d6f197e

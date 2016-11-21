@@ -1935,6 +1935,9 @@ import javax.swing.JButton;
 import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterView"})
 public interface CommandInterpreterViewInterface extends PropertyChangeListener {
 	public void addControllerListener(ActionListener listener);
 	public JTextField getTextField();
@@ -2457,12 +2460,7 @@ public class SceneBackgroundView implements PaintListener{
 		this.painter = painter;
 		
 		// Register for gorge
-		scene.getGorge().getBridge().addPropertyChangeListener(this);
-		scene.getGorge().getLeftSide().addPropertyChangeListener(this);
-		scene.getGorge().getRightSide().addPropertyChangeListener(this);
-		
-		scene.getGuardArea().addPropertyChangeListener(this);
-		scene.getKnightArea().addPropertyChangeListener(this);
+		registerAsListenerOfBackground(scene, this);
 	}
 	
 	public static void registerAsListenerOfBackground(BridgeSceneInterface scene, PropertyChangeListener listener){	
@@ -3446,6 +3444,7 @@ public class Assignment9 {
 		private static final int INTERPRETER_OE_WIDTH = 300;
 		private static final int INTERPRETER_OE_HEIGHT = 500;
 		
+		private static final int MOVE_DISTANCE = 100;
 		
 		public static void main(String[] args) throws InterruptedException {
 			
@@ -3500,13 +3499,13 @@ public class Assignment9 {
 			getProgressBar().setValue(getProgressBar().getValue() + BAR_INCREMENT);
 			ThreadSupport.sleep(LONG_DELAY);
 			getProgressBar().setValue(getProgressBar().getValue() + BAR_INCREMENT);
-			scene.getArthur().move(100, 100);
+			scene.getArthur().move(MOVE_DISTANCE, MOVE_DISTANCE);
 			ThreadSupport.sleep(LONG_DELAY);
 			getProgressBar().setValue(getProgressBar().getValue() + BAR_INCREMENT);
 			scene.getArthur().getStringShape().setText("Hi!");
 			ThreadSupport.sleep(LONG_DELAY);
 			getProgressBar().setValue(getProgressBar().getValue() + BAR_INCREMENT);
-			scene.getArthur().move(100, 100);
+			scene.getArthur().move(MOVE_DISTANCE, MOVE_DISTANCE);
 			ThreadSupport.sleep(LONG_DELAY);
 			
 		}//end main

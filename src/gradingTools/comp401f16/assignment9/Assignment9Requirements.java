@@ -27,8 +27,7 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 public class Assignment9Requirements  extends AJUnitProjectRequirements{
 	public Assignment9Requirements(){
 	
-	BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
-	BasicProjectExecution.setUseProcessTimeOut(false);
+	
 		
 		addDueDate("11/03/2016 00:59:00", 1.05); 	// wed before
      	addDueDate("11/05/2016 00:59:00", 1); 		// fri due

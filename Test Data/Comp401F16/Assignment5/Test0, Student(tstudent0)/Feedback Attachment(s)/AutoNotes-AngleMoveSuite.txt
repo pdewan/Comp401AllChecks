@@ -1,0 +1,2 @@
+  -- Leaf object: grail.graphics.RotatingLine@13e698c7 replaced with:grail.graphics.VShape@781a9412
+  -- Leaf object: grail.graphics.RotatingLine@5c41d037 replaced with:grail.graphics.VShape@781a9412

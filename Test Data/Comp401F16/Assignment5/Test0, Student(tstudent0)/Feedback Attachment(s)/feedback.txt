@@ -2,10 +2,10 @@ Grading result for: Test0, Student(tstudent0)
 
 Grading features...
 ----------------------------------
-AngleMoveSuite                                         20.0 / 20.0
-BridgeSceneArthurScaleHeadTestCase                     0.0 /  5.0 (Extra credit)
-BridgeSceneComponentMoveSuite                          40.0 / 40.0
-BridgeSceneComponentScaleSuite                         0.0 / 10.0 (Extra credit)
+AngleMoveSuite                                         0.0 / 20.0
+BridgeSceneArthurScaleHeadTestCase                     5.0 /  5.0 (Extra credit)
+BridgeSceneComponentMoveSuite                          28.6 / 40.0
+BridgeSceneComponentScaleSuite                         10.0 / 10.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
 Move methods defined in Angle and Avatar               10.0 / 10.0
 Sleep called in animation                              2.0 /  2.0
@@ -18,30 +18,29 @@ Animation shows proper use of move function.           0.0 / 10.0
 Animation shows proper scaling                         0.0 /  7.0 (Extra credit)
 Animation shows proper arm rotation                    0.0 /  8.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 140.0
+  Points Awarded: 123.6
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -5.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 135.0
+  Features Score: 118.6
 
 Notes from grading features:
 ----------------------------------
-BridgeSceneArthurScaleHeadTestCase:
-  -- java.lang.NullPointerException null
+AngleMoveSuite:
+  -- Leaf object: grail.graphics.RotatingLine@13e698c7 replaced with:grail.graphics.VShape@781a9412
+  -- Leaf object: grail.graphics.RotatingLine@5c41d037 replaced with:grail.graphics.VShape@781a9412
 
-BridgeSceneComponentScaleSuite:
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+BridgeSceneComponentMoveSuite:
+  -- Leaf object: grail.graphics.Image@6999cd39 replaced with:grail.graphics.BridgeScene@4d6f197e
+  -- Leaf object: grail.graphics.StringShape@648ee871 replaced with:grail.graphics.BridgeScene@4d6f197e
 
 
 Early benefit: 105.0%
-  Total Score: 141.75
+  Total Score: 124.95
