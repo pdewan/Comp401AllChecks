@@ -1,2 +1,3 @@
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @commandInterpreterControllerFactoryMethod:->@CommandInterpreterController/EC
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call        @CommandInterpreter!setCommand:String->void
 
+  -- Class matching CommandInterpreterController not instantiated in SingletonsCreator

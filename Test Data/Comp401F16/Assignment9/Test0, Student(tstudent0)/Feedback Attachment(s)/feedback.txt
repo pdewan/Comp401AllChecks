@@ -7,22 +7,22 @@ FactoryMethodSuiteA9                                   5.0 / 10.0
 ObservablePainterSuite                                 30.0 / 30.0 (Extra credit)
 ExtraCreditFactoryMethodSuiteA9                        20.0 / 20.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Normal credit view (0 if extra credit instead)         3.0 / 15.0
-Extra credit view                                      35.0 / 35.0 (Extra credit)
+Normal credit view (0.0 if extra credit instead)       0.0 / 15.0
+Extra credit view                                      25.0 / 25.0 (Extra credit)
 BridgeSceneController                                  12.0 / 12.0
 Clicking and pressing buttons in display works correctly 0.0 /  8.0
-CommandInterpreter controller                          6.0 /  6.0 (Extra credit)
+CommandInterpreter controller                          3.0 /  3.0 (Extra credit)
 CommandInterpreter controller issues commands correctly0.0 /  7.0 (Extra credit)
-CommandInterpreter view                                6.0 /  6.0 (Extra credit)
-CommandInterpreter view shows error property correctly 0.0 /  4.0 (Extra credit)
-Menu item and button                                   6.0 /  6.0 (Extra credit)
-Menu item and button result in some action in display  0.0 /  4.0 (Extra credit)
-Progress bar or slider (max 2)                         2.0 /  4.0 (Extra credit)
+CommandInterpreter view                                3.0 /  3.0 (Extra credit)
+CommandInterpreter view shows error property correctly 0.0 /  5.0 (Extra credit)
+Menu item and button                                   3.0 /  3.0 (Extra credit)
+Menu item and button result in some action in display  0.0 /  7.0 (Extra credit)
+Progress bar or slider (max 2.0)                       2.0 /  4.0 (Extra credit)
 Progress bar or slider works                           0.0 /  4.0 (Extra credit)
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 /  8.0
+Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 175.0
+  Points Awarded: 153.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,23 +33,24 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 170.0
+  Features Score: 148.0
 
 Notes from grading features:
 ----------------------------------
 FactoryMethodSuiteA9:
   -- Factory method:[inheritingbridgescenepainterfactorymethod] not found.
 
-Normal credit view (0 if extra credit instead):
+Normal credit view (0.0 if extra credit instead):
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
+  -- Class matching InheritingBridgeScenePainter not instantiated in SingletonsCreator
 
-Progress bar or slider (max 2):
+Progress bar or slider (max 2.0):
   -- expectedGetters: (Assignment9.java:1) In type Assignment9, missing getter for property Slider of type JSlider
 
 
 
 Early benefit: 105.0%
-  Total Score: 178.5
+  Total Score: 155.4

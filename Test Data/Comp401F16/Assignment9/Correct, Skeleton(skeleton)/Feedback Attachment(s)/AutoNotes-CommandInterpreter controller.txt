@@ -1,0 +1,5 @@
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property TextField of type JTextField
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call        @CommandInterpreter!setCommand:String->void
+
+  -- Class matching CommandInterpreterController not instantiated in SingletonsCreator

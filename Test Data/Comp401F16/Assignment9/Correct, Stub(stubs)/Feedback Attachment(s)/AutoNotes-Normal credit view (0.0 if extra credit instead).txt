@@ -1,0 +1,5 @@
+  -- expectedDeclaredSignatures: (InheritingBridgeScenePainter.java:13) In type InheritingBridgeScenePainter, missing declared signature: paint:Graphics(.*)->void
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\InheritingBridgeScenePainter.java:1: warning: missingMethodCall: (InheritingBridgeScenePainter.java:1) has not made expected call            (.*)!repaint:->void
+
+  -- Class matching InheritingBridgeScenePainter not instantiated in SingletonsCreator

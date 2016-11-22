@@ -1,3 +1,0 @@
-  -- CommandInterpreterView not found by checkstyle
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @commandInterpreterViewFactoryMethod:->@CommandInterpreterView
-

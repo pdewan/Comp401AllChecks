@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Comp401LocalChecks"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/DemoCourseLocalBasicChecks"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/comp110-grader"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>

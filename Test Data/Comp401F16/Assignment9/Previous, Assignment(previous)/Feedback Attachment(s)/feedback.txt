@@ -7,22 +7,22 @@ FactoryMethodSuiteA9                                   0.0 / 10.0
 ObservablePainterSuite                                 0.0 / 30.0 (Extra credit)
 ExtraCreditFactoryMethodSuiteA9                        0.0 / 20.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
-Normal credit view (0 if extra credit instead)         3.0 / 15.0
-Extra credit view                                      7.0 / 35.0 (Extra credit)
+Normal credit view (0.0 if extra credit instead)       0.0 / 15.0
+Extra credit view                                      0.0 / 25.0 (Extra credit)
 BridgeSceneController                                  0.0 / 12.0
 Clicking and pressing buttons in display works correctly 0.0 /  8.0
-CommandInterpreter controller                          2.0 /  6.0 (Extra credit)
+CommandInterpreter controller                          0.0 /  3.0 (Extra credit)
 CommandInterpreter controller issues commands correctly0.0 /  7.0 (Extra credit)
-CommandInterpreter view                                2.0 /  6.0 (Extra credit)
-CommandInterpreter view shows error property correctly 0.0 /  4.0 (Extra credit)
-Menu item and button                                   0.0 /  6.0 (Extra credit)
-Menu item and button result in some action in display  0.0 /  4.0 (Extra credit)
-Progress bar or slider (max 2)                         0.0 /  4.0 (Extra credit)
+CommandInterpreter view                                0.0 /  3.0 (Extra credit)
+CommandInterpreter view shows error property correctly 0.0 /  5.0 (Extra credit)
+Menu item and button                                   0.0 /  3.0 (Extra credit)
+Menu item and button result in some action in display  0.0 /  7.0 (Extra credit)
+Progress bar or slider (max 2.0)                       0.0 /  4.0 (Extra credit)
 Progress bar or slider works                           0.0 /  4.0 (Extra credit)
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 /  8.0
+Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 24.0
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,7 +33,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 19.0
+  Features Score: 5.0
 
 Notes from grading features:
 ----------------------------------
@@ -57,11 +57,12 @@ ExtraCreditFactoryMethodSuiteA9:
   -- Factory method:[delegatingbridgesceneviewfactorymethod] not found.
   -- Factory method:[observablebridgescenepainterfactorymethod] not found.
 
-Normal credit view (0 if extra credit instead):
+Normal credit view (0.0 if extra credit instead):
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
   -- InheritingBridgeScenePainter not found by checkstyle
+  -- Class matching InheritingBridgeScenePainter not instantiated in SingletonsCreator
 
 Extra credit view:
   -- PaintListener not found by checkstyle
@@ -72,6 +73,8 @@ Extra credit view:
   -- ObservableBridgeScenePainter not found by checkstyle
   -- DelegatingBridgeSceneView not found by checkstyle
   -- DelegatingBridgeSceneView not found by checkstyle
+  -- Class matching DelegatingBridgeSceneView not instantiated in SingletonsCreator
+  -- Class matching ObservableBridgeScenePainter not instantiated in SingletonsCreator
 
 BridgeSceneController:
   -- BridgeSceneController not found by checkstyle
@@ -82,20 +85,22 @@ BridgeSceneController:
 CommandInterpreter controller:
   -- CommandInterpreterController not found by checkstyle
   -- CommandInterpreterController not found by checkstyle
+  -- Class matching CommandInterpreterController not instantiated in SingletonsCreator
 
 CommandInterpreter view:
   -- ObservableCommandInterpreter not found by checkstyle
   -- CommandInterpreterView not found by checkstyle
+  -- Class matching CommandInterpreterView not instantiated in SingletonsCreator
 
 Menu item and button:
   -- CommandInterpreterController not found by checkstyle
   -- CommandInterpreterController not found by checkstyle
   -- CommandInterpreterController not found by checkstyle
 
-Progress bar or slider (max 2):
+Progress bar or slider (max 2.0):
   -- ProgressBarCreator not found by checkstyle
   -- ProgressBarCreator not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 19.95
+  Total Score: 5.25

@@ -178,3 +178,8 @@
 4,Sun Nov 20 13:35:53 EST 2016,true,grail\mvc\view\AvatarView.java,missingMethodCall,AvatarView,        (.*)!draw(.*):*->(.*) 
 4,Sun Nov 20 13:35:54 EST 2016,true,grail\mvc\view\SceneBackgroundView.java,missingMethodCall,SceneBackgroundView,        (.*)!draw(.*):*->(.*) 
 4,Sun Nov 20 13:35:54 EST 2016,true,main\Assignment9.java,typeDefined,Assignment9,@ProgressBarCreator//EC,Class
+5,Sun Nov 20 17:28:21 EST 2016,true,main\TestRunner.java,typeDefined,TestRunner,No Expected Tag,Class
+6,Sun Nov 20 18:34:04 EST 2016,true,main\RunTests.java,typeDefined,RunTests,No Expected Tag,Class
+7,Sun Nov 20 18:34:26 EST 2016,true,main\RunTests.java,expectedTypes,[main.Assignment9, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterView//EC, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Token, @SingletonsCreator, @ProgressBarCreator//EC]
+8,Sun Nov 20 21:56:51 EST 2016,true,grail\interfaces\mvc\CommandInterpreterViewInterface.java,typeDefined,CommandInterpreterViewInterface,@CommandInterpreterView//EC,Interface
+8,Sun Nov 20 21:56:51 EST 2016,true,grail\mvc\view\CommandInterpreterView.java,typeDefined,CommandInterpreterView,@CommandInterpreterView//EC,Class

@@ -1,2 +1,0 @@
-  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Button of type JButton
-

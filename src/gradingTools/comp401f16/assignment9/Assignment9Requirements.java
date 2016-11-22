@@ -55,8 +55,10 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleInterfaceDefinedTestCase("InheritingBridgeScenePainter", "PropertyChangeListener"),
      			new CheckstyleMethodCalledTestCase("InheritingBridgeScenePainter", "repaint:->void"),
      			new CheckstyleSuperTypeDefinedTestCase("InheritingBridgeScenePainter", "Console"),
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
-     					"@inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter")
+     			
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "InheritingBridgeScenePainter")
+//     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
+//     					"@inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter")
      			);
      	
      	addFeature("Extra credit view", 25, true,
@@ -72,10 +74,13 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      					"@SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter"),
      			new CheckstyleMethodCalledTestCase("DelegatingBridgeSceneView","(.*)!addPaintListener:@PaintListener->void"),
      			
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
-     					"@delegatingBridgeSceneViewFactoryMethod:->@DelegatingBridgeSceneView//EC"),
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
-     					"@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter//EC")
+
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "DelegatingBridgeSceneView"),
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "ObservableBridgeScenePainter")
+//     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
+//     					"@delegatingBridgeSceneViewFactoryMethod:->@DelegatingBridgeSceneView//EC"),
+//     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", 
+//     					"@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter//EC")
      			);
      			
      	addFeature("BridgeSceneController", 12, 
@@ -89,7 +94,9 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      	addFeature("CommandInterpreter controller", 3, true,
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "TextField", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@CommandInterpreter!setCommand:String->void"),
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController")
+     			
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "CommandInterpreterController")
+//     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController")
      			);
      	addManualFeature("CommandInterpreter controller issues commands correctly", 7,true);
      	
@@ -97,7 +104,9 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      			
      			new CheckstyleInterfaceDefinedTestCase("ObservableCommandInterpreter", "PropertyListenerRegisterer"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreterView", "PropertyChangeListener"),
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterViewFactoryMethod:->@CommandInterpreterView")
+     			
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "CommandInterpreterView")
+//     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@commandInterpreterViewFactoryMethod:->@CommandInterpreterView")
      			);
      	addManualFeature("CommandInterpreter view shows error property correctly", 5,true);
      	

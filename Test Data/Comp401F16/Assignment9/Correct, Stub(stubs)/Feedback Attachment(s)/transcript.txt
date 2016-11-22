@@ -2,50 +2,66 @@
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase: 1.0
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Trying to get inheriting painter
 Could not find inheriting painter
 Trying to get observable painter
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 Trying to get bridge scene controller
 Factory method:[bridgescenecontrollerfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.controller.BridgeSceneController()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@117bcfdc 293326812 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase: 0.0
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.LancelotBridgeSceneControllerTestCase: 1.0
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Trying to get inheriting painter
 Could not find inheriting painter
 Trying to get observable painter
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 Trying to get bridge scene controller
 Factory method:[bridgescenecontrollerfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.controller.BridgeSceneController()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@2324bfe7 589610983 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.LancelotBridgeSceneControllerTestCase: 0.0
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.GalahadBridgeSceneControllerTestCase: 1.0
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Trying to get inheriting painter
 Could not find inheriting painter
 Trying to get observable painter
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 Trying to get bridge scene controller
 Factory method:[bridgescenecontrollerfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.controller.BridgeSceneController()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@4da9f723 1302984483 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.GalahadBridgeSceneControllerTestCase: 0.0
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.RobinBridgeSceneControllerTestCase: 1.0
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Trying to get inheriting painter
 Could not find inheriting painter
 Trying to get observable painter
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 Trying to get bridge scene controller
 Factory method:[bridgescenecontrollerfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.controller.BridgeSceneController()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7b78ed6a 2071522666 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.RobinBridgeSceneControllerTestCase: 0.0
 *****************************(FactoryMethodSuiteA9)*****************************
 ### gradingTools.comp401f16.assignment9.testcases.factory.BridgeSceneControllerFactoryMethodTest: 1.0
@@ -56,12 +72,15 @@ Trying parameterless constructor
 ### gradingTools.comp401f16.assignment9.testcases.observablepainter.ExistingPaintListenerTestCase: 1.0
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.observablepainter.ExistingPaintListenerTestCase: 0.0
 ### gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase: 1.0
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[observablebridgescenepainterfactorymethod] not found.
 Trying parameterless constructor
+Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase: 0.0
 *****************************(ExtraCreditFactoryMethodSuiteA9)*****************************
 ### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterViewFactoryMethodTest: 1.0
@@ -74,12 +93,12 @@ Trying parameterless constructor
 ### gradingTools.comp401f16.assignment9.testcases.factory.ObservableBridgeScenePainterFactoryMethodTest: 0.0
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
-*****************************(Normal credit view (0 if extra credit instead))*****************************
+*****************************(Normal credit view (0.0 if extra credit instead))*****************************
 ### InheritingBridgeScenePainter!paint:Graphics(.*)->void: 0.0
-### InheritingBridgeScenePainter!propertyChange:PropertyChangeEvent->void: 0.0
-### InheritingBridgeScenePainter defined: 0.0
-### InheritingBridgeScenePainter!:: 0.0
-### SingletonsCreator!@inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter: 0.0
+### InheritingBridgeScenePainter defined: 1.0
+### InheritingBridgeScenePainter!repaint:->void: 0.0
+### InheritingBridgeScenePainter defined: 1.0
+### SingletonsCreator!InheritingBridgeScenePainter: 0.0
 *****************************(Extra credit view)*****************************
 ### PaintListener!paint:Graphics(.*)->void(.*): 1.0
 ### PaintListener defined: 1.0
@@ -89,8 +108,8 @@ Trying parameterless constructor
 ### ObservableBridgeScenePainter defined: 1.0
 ### DelegatingBridgeSceneView!@SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter: 0.0
 ### DelegatingBridgeSceneView!(.*)!addPaintListener:@PaintListener->void: 0.0
-### SingletonsCreator!@delegatingBridgeSceneViewFactoryMethod:->@DelegatingBridgeSceneView//EC: 0.0
-### SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter//EC: 0.0
+### SingletonsCreator!DelegatingBridgeSceneView: 0.0
+### SingletonsCreator!ObservableBridgeScenePainter: 0.0
 *****************************(BridgeSceneController)*****************************
 ### BridgeSceneController defined: 1.0
 ### BridgeSceneController defined: 1.0
@@ -98,16 +117,16 @@ Trying parameterless constructor
 ### BridgeSceneController!(.*)!addMouseListener:MouseListener->void: 0.0
 *****************************(CommandInterpreter controller)*****************************
 ### CommandInterpreterControllerdefines getter for property TextField: 1.0
-### CommandInterpreterController!@CommandInterpreter!setCommand:String->void: 1.0
-### SingletonsCreator!@commandInterpreterControllerFactoryMethod:->@CommandInterpreterController: 0.0
+### CommandInterpreterController!@CommandInterpreter!setCommand:String->void: 0.0
+### SingletonsCreator!CommandInterpreterController: 0.0
 *****************************(CommandInterpreter view)*****************************
 ### ObservableCommandInterpreter defined: 1.0
-### CommandInterpreterView!propertyChange:PropertyChangeEvent->void: 0.0
-### SingletonsCreator!@commandInterpreterViewFactoryMethod:->@CommandInterpreterView: 0.0
+### CommandInterpreterView!PropertyChangeListener: 1.0
+### SingletonsCreator!CommandInterpreterView: 0.0
 *****************************(Menu item and button)*****************************
 ### CommandInterpreterControllerdefines getter for property MenuItem: 1.0
-### CommandInterpreterControllerdefines getter for property Button: 0.0
+### CommandInterpreterControllerdefines getter for property Button: 1.0
 ### CommandInterpreterController defined: 1.0
-*****************************(Progress bar or slider (max 2))*****************************
+*****************************(Progress bar or slider (max 2.0))*****************************
 ### ProgressBarCreatordefines getter for property ProgressBar: 0.0
 ### ProgressBarCreatordefines getter for property Slider: 0.0

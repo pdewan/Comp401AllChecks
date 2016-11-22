@@ -602,6 +602,9 @@ import java.beans.PropertyChangeListener;
 import javax.swing.JButton;
 import javax.swing.JTextField;
 
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterView"})
 public interface CommandInterpreterViewInterface {
 
 }
@@ -691,7 +694,7 @@ import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterController"})
-@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach"})
+@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach", "MenuItem", "Button"})
 public class CommandInterpreterController implements CommandInterpreterControllerInterface {
 	
 }
@@ -739,7 +742,7 @@ import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterView"})
-@PropertyNames({"TextField", "ProgressBar", "Say", "Pass", "Fail", "Approach"})
+@PropertyNames({"TextField", "ProgressBar", "Say", "Pass", "Fail", "Approach", "MenuItem", "Button"})
 public class CommandInterpreterView extends JFrame implements CommandInterpreterViewInterface{
 	
 }
@@ -775,6 +778,23 @@ import util.annotations.Tags;
 
 @Tags({"DelegatingBridgeSceneView"})
 public class DelegatingBridgeSceneView implements DelegatingBridgeSceneViewInterface{
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/inheritingbridgescenepainter.java
+package grail.mvc.view;
+
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Paint;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import grail.SingletonsCreator;
+import grail.interfaces.BridgeSceneInterface;
+
+public class InheritingBridgeScenePainter extends Component {
 	
 }
 //END OF FILE

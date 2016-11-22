@@ -1,6 +1,0 @@
-  -- InheritingBridgeScenePainter not found by checkstyle
-  -- InheritingBridgeScenePainter not found by checkstyle
-  -- InheritingBridgeScenePainter not found by checkstyle
-  -- InheritingBridgeScenePainter not found by checkstyle
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @inheritingBridgeScenePainterFactoryMethod:->@InheritingBridgeScenePainter
-
