@@ -1,0 +1,8 @@
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @prePassed:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preFailed:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preSay:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preApproach:->boolean
+

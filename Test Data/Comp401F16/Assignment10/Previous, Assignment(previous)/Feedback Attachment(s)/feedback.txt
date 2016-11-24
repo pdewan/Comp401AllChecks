@@ -1,0 +1,100 @@
+Grading result for: Previous, Assignment(previous)
+
+Grading features...
+----------------------------------
+AssertingBridgeSceneDynamicTestCase                    0.0 / 72.0
+CommandObjectSuite                                     0.0 / 20.0
+AsyncAnimationSuite                                    0.0 / 40.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Preconditions defined                                  0.0 /  8.0
+Event notifications fired and received                 2.0 /  6.0
+Command objects created for parsing                    8.0 /  8.0
+Parsing methods made, setter calls run()               6.0 / 10.0
+Animator and animation commands created and used       0.0 /  6.0
+Asynchronous methods create new threads                1.0 / 10.0
+Asynchronous guard                                     0.0 /  2.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions0.0 /  6.0 (Extra credit)
+Console shows all precondition events being fired      0.0 / 10.0
+Animation shows animations acting asynchronously       0.0 / 10.0
+CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
+Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
+----------------------------------
+  Points Awarded: 27.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 22.0
+
+Notes from grading features:
+----------------------------------
+AssertingBridgeSceneDynamicTestCase:
+  -- Method matching addPropertyChangeListener not found in class: class grail.graphics.BridgeScene
+
+CommandObjectSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+AsyncAnimationSuite:
+  -- Method matching animateArthur not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching animateGalahad not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching animateLancelot not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching animateRobin not found in class: class grail.scanner.CommandInterpreter
+
+Preconditions defined:
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @prePassed:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preFailed:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preSay:->boolean
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @preApproach:->boolean
+
+
+Event notifications fired and received:
+  -- Class matching PropertyChangeEvent not instantiated in BridgeScene
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+
+Animator and animation commands created and used:
+  -- Animator not found by checkstyle
+  -- AnimatingCommand not found by checkstyle
+  -- AnimatingCommand not found by checkstyle
+
+Asynchronous methods create new threads:
+  -- Class matching AnimatingCommand not instantiated in CommandInterpreter
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousArthur:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousGalahad:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousLancelot:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
+
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+
+Asynchronous guard:
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousGuard:->void
+
+  -- main.Assignment10 not found by checkstyle
+
+CommandInterpreter new buttons respond to preconditions:
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+
+
+Early benefit: 105.0%
+  Total Score: 23.1

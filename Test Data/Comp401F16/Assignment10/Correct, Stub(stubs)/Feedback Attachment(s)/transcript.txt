@@ -1,0 +1,105 @@
+*****************************(AssertingBridgeSceneDynamicTestCase)*****************************
+### gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase: 1.0
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public void grail.graphics.BridgeScene.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase@11dee337]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public boolean grail.graphics.BridgeScene.preApproach() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public boolean grail.graphics.BridgeScene.preFailed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public boolean grail.graphics.BridgeScene.prePassed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public boolean grail.graphics.BridgeScene.preSay() args:[]timeOut:2000
+preApproach Before Approach:false
+preSay Before Approach:false
+preFailed Before Approach:false
+prePassed Before Approach:false
+Calling on object grail.graphics.BridgeScene@7997b197 2039984535 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase: 0.0
+*****************************(CommandObjectSuite)*****************************
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.MoveCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.MoveCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.SayCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.SayCommandObjectTestCase: 0.0
+*****************************(AsyncAnimationSuite)*****************************
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@4a8ab068 1250603112 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@74bdc168 1958592872 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@7bb3a9fe 2075372030 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@4089713 67671827 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Preconditions defined)*****************************
+### BridgeScene!@prePassed:->boolean: 1.0
+### BridgeScene!@preFailed:->boolean: 1.0
+### BridgeScene!@preSay:->boolean: 1.0
+### BridgeScene!@preApproach:->boolean: 1.0
+*****************************(Event notifications fired and received)*****************************
+### BridgeScene defined: 1.0
+### BridgeScene!PropertyChangeEvent: 0.0
+### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+*****************************(Command objects created for parsing)*****************************
+### SayCommand defined: 1.0
+### SayCommand!:@BridgeScene; String: 1.0
+### MoveCommand defined: 1.0
+### MoveCommand!:@Avatar; int; int: 1.0
+*****************************(Parsing methods made, setter calls run())*****************************
+### CommandInterpreter!@parseMove:*->Runnable: 0.0
+### CommandInterpreter!@parseSay:*->Runnable: 0.0
+### CommandInterpreter!@parseMove:*->Runnable: 1.0
+### CommandInterpreter!@parseSay:*->Runnable: 1.0
+### CommandInterpreter!Runnable!run:->void: 1.0
+*****************************(Animator and animation commands created and used)*****************************
+### Animator!(.*)!sleep:long->void: 1.0
+### AnimatingCommand!@Animator!@animateAvatar:@Avatar->void: 0.0
+### AnimatingCommand!:@Animator; @Avatar: 1.0
+*****************************(Asynchronous methods create new threads)*****************************
+### CommandInterpreter!AnimatingCommand: 0.0
+### CommandInterpreter!Thread:start:->void: 1.0
+### CommandInterpreter!@asynchronousArthur:->void: 0.0
+### CommandInterpreter!@asynchronousGalahad:->void: 0.0
+### CommandInterpreter!@asynchronousLancelot:->void: 0.0
+### CommandInterpreter!@asynchronousRobin:->void: 0.0
+### main.Assignment10!@CommandInterpreter!@asynchronousArthur:->void: 1.0
+### main.Assignment10!@CommandInterpreter!@asynchronousGalahad:->void: 1.0
+### main.Assignment10!@CommandInterpreter!@asynchronousLancelot:->void: 1.0
+### main.Assignment10!@CommandInterpreter!@asynchronousRobin:->void: 1.0
+*****************************(Asynchronous guard)*****************************
+### CommandInterpreter!@asynchronousGuard:->void: 0.0
+### main.Assignment10!@CommandInterpreter!@asynchronousGuard->void: 1.0
+*****************************(CommandInterpreter new buttons respond to preconditions)*****************************
+### CommandInterpreterController!@BridgeScene!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+### CommandInterpreterController!JButton!setEnabled:boolean->void: 0.0
+### CommandInterpreterControllerdefines getter for property Say: 0.0
+### CommandInterpreterControllerdefines getter for property Approach: 0.0
+### CommandInterpreterControllerdefines getter for property Pass: 0.0
+### CommandInterpreterControllerdefines getter for property Fail: 0.0

@@ -55,7 +55,7 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      	addFeature("Event notifications fired and received", 6,
      			new CheckstyleInterfaceDefinedTestCase("BridgeScene", "PropertyListenerRegisterer"),
      			new CheckstyleClassInstantiatedTestCase("BridgeScene" ,"PropertyChangeEvent"),
-     			new CheckstyleMethodCalledTestCase("ConsoleSceneView", "BridgeScene!addPropertyChangeListener:PropertyChangeListener->void")
+     			new CheckstyleMethodCalledTestCase("ConsoleSceneView", "(.*)!addPropertyChangeListener:PropertyChangeListener->void")
      			);
      	
      	// command objects
@@ -72,20 +72,20 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@parseSay:*->Runnable"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@parseMove:*->Runnable"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@parseSay:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Runnable!run:->void")	//TODO: check specific commands?
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Runnable!run:->void")
      			);
      	
      	// animator, animation commands
      	addFeature("Animator and animation commands created and used", 6,
      			new CheckstyleMethodCalledTestCase("Animator", "(.*)!sleep:long->void"),
      			new CheckstyleMethodCalledTestCase("AnimatingCommand", "@Animator!@animateAvatar:@Avatar->void"),
-     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand",":@Animator; @Avatar") //TODO: add constructor to xml
+     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand",":@Animator; @Avatar")
      			);
      	
      	// asynch methods, thread instantiations
      	addFeature("Asynchronous methods create new threads", 10,
      			new CheckstyleClassInstantiatedTestCase("CommandInterpreter", "AnimatingCommand"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Thread:start:->void"), //TODO: any other way to check threads?
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Thread:start:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousArthur:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousGalahad:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousLancelot:->void"),
@@ -104,7 +104,6 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      	
      	// EC: setEnabled calls, button properties
      	addFeature("CommandInterpreter new buttons respond to preconditions", 6 ,true,
-     			//TODO: add checks for method calls inside CommandInterpreterController
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@BridgeScene!addPropertyChangeListener:PropertyChangeListener->void"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "JButton!setEnabled:boolean->void"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Say", "JButton"),

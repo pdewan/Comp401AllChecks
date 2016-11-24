@@ -1,0 +1,3 @@
+  -- Class matching PropertyChangeEvent not instantiated in BridgeScene
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+

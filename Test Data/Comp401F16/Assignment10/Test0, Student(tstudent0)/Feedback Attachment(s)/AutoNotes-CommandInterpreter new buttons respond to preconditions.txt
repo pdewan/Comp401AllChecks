@@ -1,0 +1,6 @@
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle
+  -- CommandInterpreterController not found by checkstyle

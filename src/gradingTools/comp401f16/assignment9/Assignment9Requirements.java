@@ -125,7 +125,6 @@ public class Assignment9Requirements  extends AJUnitProjectRequirements{
      	addManualFeature("Progress bar or slider works", 4, true);
      	
      	addManualFeature("Animation shows function of command interpreter and correct output in all frames", 15, false); 
-     	addManualFeature("Table demonstrated in console, works correctly", 10, false);
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
