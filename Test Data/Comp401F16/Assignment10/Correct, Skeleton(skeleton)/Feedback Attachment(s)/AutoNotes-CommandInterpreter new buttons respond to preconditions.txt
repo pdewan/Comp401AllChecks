@@ -1,6 +1,10 @@
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Say of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Approach of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Pass of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Fail of type JButton//EC
+

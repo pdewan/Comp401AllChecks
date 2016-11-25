@@ -9,17 +9,17 @@ Public methods are in implemented interfaces           10.0 / 10.0
 Preconditions defined                                  8.0 /  8.0
 Event notifications fired and received                 6.0 /  6.0
 Command objects created for parsing                    8.0 /  8.0
-Parsing methods made, setter calls run()               6.0 / 10.0
+Parsing methods made, setter calls run()               10.0 / 10.0
 Animator and animation commands created and used       6.0 /  6.0
-Asynchronous methods create new threads                10.0 / 10.0
-Asynchronous guard                                     2.0 /  2.0 (Extra credit)
-CommandInterpreter new buttons respond to preconditions0.0 /  6.0 (Extra credit)
+Asynchronous methods create new threads                6.0 / 10.0
+Asynchronous guard                                     1.0 /  2.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions6.0 /  6.0 (Extra credit)
 Console shows all precondition events being fired      0.0 / 10.0
 Animation shows animations acting asynchronously       0.0 / 10.0
 CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
 Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 188.0
+  Points Awarded: 193.0
 
 Grading restrictions...
 ----------------------------------
@@ -30,24 +30,19 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 183.0
+  Features Score: 188.0
 
 Notes from grading features:
 ----------------------------------
-Parsing methods made, setter calls run():
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseMove:*->Runnable
+Asynchronous methods create new threads:
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
 
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseSay:*->Runnable
-
-
-CommandInterpreter new buttons respond to preconditions:
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
+Asynchronous guard:
+  -- main.Assignment10 not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 192.15
+  Total Score: 197.4

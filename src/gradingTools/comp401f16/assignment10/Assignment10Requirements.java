@@ -72,7 +72,7 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@parseSay:*->Runnable"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@parseMove:*->Runnable"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@parseSay:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Runnable!run:->void")
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Runnable!run:-> void")
      			);
      	
      	// animator, animation commands
@@ -85,7 +85,7 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      	// asynch methods, thread instantiations
      	addFeature("Asynchronous methods create new threads", 10,
      			new CheckstyleClassInstantiatedTestCase("CommandInterpreter", "AnimatingCommand"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Thread:start:->void"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Thread!start:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousArthur:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousGalahad:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousLancelot:->void"),
@@ -104,7 +104,7 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      	
      	// EC: setEnabled calls, button properties
      	addFeature("CommandInterpreter new buttons respond to preconditions", 6 ,true,
-     			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "@BridgeScene!addPropertyChangeListener:PropertyChangeListener->void"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "(.*)!addPropertyChangeListener:PropertyChangeListener->void"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreterController", "JButton!setEnabled:boolean->void"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Say", "JButton"),
      			new CheckStylePropertyDefinedTestCase("CommandInterpreterController", "Approach", "JButton"),

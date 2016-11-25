@@ -7,19 +7,19 @@ CommandObjectSuite                                     0.0 / 20.0
 AsyncAnimationSuite                                    0.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Preconditions defined                                  0.0 /  8.0
-Event notifications fired and received                 2.0 /  6.0
-Command objects created for parsing                    8.0 /  8.0
-Parsing methods made, setter calls run()               6.0 / 10.0
+Event notifications fired and received                 0.0 /  6.0
+Command objects created for parsing                    0.0 /  8.0
+Parsing methods made, setter calls run()               4.0 / 10.0
 Animator and animation commands created and used       4.0 /  6.0
-Asynchronous methods create new threads                5.0 / 10.0
-Asynchronous guard                                     1.0 /  2.0 (Extra credit)
-CommandInterpreter new buttons respond to preconditions0.0 /  6.0 (Extra credit)
+Asynchronous methods create new threads                1.0 / 10.0
+Asynchronous guard                                     0.0 /  2.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions1.0 /  6.0 (Extra credit)
 Console shows all precondition events being fired      0.0 / 10.0
 Animation shows animations acting asynchronously       0.0 / 10.0
 CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
 Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 36.0
+  Points Awarded: 20.0
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 31.0
+  Features Score: 15.0
 
 Notes from grading features:
 ----------------------------------
@@ -58,18 +58,32 @@ Preconditions defined:
 
 
 Event notifications fired and received:
+  -- expectedInterfaces: (BridgeScene.java:17) In type BridgeScene, missing interface: PropertyListenerRegisterer
+
   -- Class matching PropertyChangeEvent not instantiated in BridgeScene
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+
+Command objects created for parsing:
+  -- expectedInterfaces: (SayCommand.java:7) In type SayCommand, missing interface: Runnable
+
+  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
+
+  -- expectedInterfaces: (MoveCommand.java:8) In type MoveCommand, missing interface: Runnable
+
+  -- expectedConstructors: (MoveCommand.java:8) In type MoveCommand, missing constructor: :@Avatar; int; int
 
 
 Parsing methods made, setter calls run():
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseMove:*->Runnable
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @parseMove:*->Runnable
 
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseSay:*->Runnable
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @parseSay:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Runnable!run:-> void
 
 
 Animator and animation commands created and used:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call  @Animator!@animateAvatar:@Avatar->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
 
 
 Asynchronous methods create new threads:
@@ -82,19 +96,28 @@ Asynchronous methods create new threads:
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
 
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
 
 Asynchronous guard:
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousGuard:->void
 
+  -- main.Assignment10 not found by checkstyle
 
 CommandInterpreter new buttons respond to preconditions:
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Say of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Approach of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Pass of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Fail of type JButton//EC
+
 
 
 Early benefit: 105.0%
-  Total Score: 32.550000000000004
+  Total Score: 15.75

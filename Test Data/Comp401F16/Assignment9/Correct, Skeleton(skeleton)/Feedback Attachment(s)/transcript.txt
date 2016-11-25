@@ -100,7 +100,7 @@ Calling constructor public grail.mvc.view.ObservableBridgeScenePainter()with arg
 ### PaintListener defined: 0.0
 ### PaintListener!(.*)!repaint:->void: 0.0
 ### ObservableBridgeScenePainter!@addPaintListener:@PaintListener->void: 0.0
-### ObservableBridgeScenePainter!@PaintListener!paint:Graphics(.*)->void(.*): 0.0
+### ObservableBridgeScenePainter!@PaintListener!paint:Graphics(.*)->void(.*): 1.0
 ### ObservableBridgeScenePainter defined: 1.0
 ### DelegatingBridgeSceneView!@SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter: 0.0
 ### DelegatingBridgeSceneView!(.*)!addPaintListener:@PaintListener->void: 0.0

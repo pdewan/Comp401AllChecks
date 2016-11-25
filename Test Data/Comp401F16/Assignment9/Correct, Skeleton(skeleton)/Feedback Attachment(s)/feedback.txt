@@ -8,7 +8,7 @@ ObservablePainterSuite                                 0.0 / 30.0 (Extra credit)
 ExtraCreditFactoryMethodSuiteA9                        0.0 / 20.0 (Extra credit)
 Public methods are in implemented interfaces           10.0 / 10.0
 Normal credit view (0.0 if extra credit instead)       3.0 / 15.0
-Extra credit view                                      2.5 / 25.0 (Extra credit)
+Extra credit view                                      5.0 / 25.0 (Extra credit)
 BridgeSceneController                                  0.0 / 12.0
 Clicking and pressing buttons in display works correctly 0.0 /  8.0
 CommandInterpreter controller                          0.0 /  3.0 (Extra credit)
@@ -20,9 +20,8 @@ Menu item and button result in some action in display  0.0 /  7.0 (Extra credit)
 Progress bar or slider (max 2.0)                       0.0 /  4.0 (Extra credit)
 Progress bar or slider works                           0.0 /  4.0 (Extra credit)
 Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
 ----------------------------------
-  Points Awarded: 17.5
+  Points Awarded: 20.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,7 +32,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 12.5
+  Features Score: 15.0
 
 Notes from grading features:
 ----------------------------------
@@ -62,7 +61,7 @@ Normal credit view (0.0 if extra credit instead):
 
   -- expectedInterfaces: (InheritingBridgeScenePainter.java:13) In type InheritingBridgeScenePainter, missing interface: PropertyChangeListener
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\InheritingBridgeScenePainter.java:1: warning: missingMethodCall: (InheritingBridgeScenePainter.java:1) has not made expected call            (.*)!repaint:->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\InheritingBridgeScenePainter.java:1: warning: missingMethodCall: (InheritingBridgeScenePainter.java:1) has not made expected call (.*)!repaint:->void
 
   -- Class matching InheritingBridgeScenePainter not instantiated in SingletonsCreator
 
@@ -71,15 +70,13 @@ Extra credit view:
 
   -- expectedInterfaces: (AvatarView.java:12) In type AvatarView, missing interface: PropertyChangeListener
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\AvatarView.java:1: warning: missingMethodCall: (AvatarView.java:1) has not made expected call        (.*)!repaint:->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\AvatarView.java:1: warning: missingMethodCall: (AvatarView.java:1) has not made expected call (.*)!repaint:->void
 
   -- expectedDeclaredSignatures: (ObservableBridgeScenePainter.java:12) In type ObservableBridgeScenePainter, missing declared signature: @addPaintListener:@PaintListener->void
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ObservableBridgeScenePainter.java:1: warning: missingMethodCall: (ObservableBridgeScenePainter.java:1) has not made expected call          @PaintListener!paint:Graphics->void(.*)
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call @SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call           @SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter 
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call             (.*)!addPaintListener:@PaintListener->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call (.*)!addPaintListener:@PaintListener->void
 
   -- Class matching DelegatingBridgeSceneView not instantiated in SingletonsCreator
   -- Class matching ObservableBridgeScenePainter not instantiated in SingletonsCreator
@@ -89,15 +86,15 @@ BridgeSceneController:
 
   -- expectedInterfaces: (BridgeSceneController.java:14) In type BridgeSceneController, missing interface: KeyListener
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call         (.*)!addKeyListener:KeyListener->void 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call (.*)!addKeyListener:KeyListener->void
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call         (.*)!addMouseListener:MouseListener->void 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\BridgeSceneController.java:1: warning: missingMethodCall: (BridgeSceneController.java:1) has not made expected call (.*)!addMouseListener:MouseListener->void
 
 
 CommandInterpreter controller:
   -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property TextField of type JTextField
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call        @CommandInterpreter!setCommand:String->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call @CommandInterpreter!setCommand:String->void
 
   -- Class matching CommandInterpreterController not instantiated in SingletonsCreator
 
@@ -120,4 +117,4 @@ Progress bar or slider (max 2.0):
 
 
 Early benefit: 105.0%
-  Total Score: 13.65
+  Total Score: 15.75

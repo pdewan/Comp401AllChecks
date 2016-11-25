@@ -50,41 +50,41 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### BridgeScene!@preSay:->boolean: 0.0
 ### BridgeScene!@preApproach:->boolean: 0.0
 *****************************(Event notifications fired and received)*****************************
-### BridgeScene defined: 1.0
+### BridgeScene defined: 0.0
 ### BridgeScene!PropertyChangeEvent: 0.0
 ### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
 *****************************(Command objects created for parsing)*****************************
-### SayCommand defined: 1.0
-### SayCommand!:@BridgeScene; String: 1.0
-### MoveCommand defined: 1.0
-### MoveCommand!:@Avatar; int; int: 1.0
+### SayCommand defined: 0.0
+### SayCommand!:@BridgeScene; String: 0.0
+### MoveCommand defined: 0.0
+### MoveCommand!:@Avatar; int; int: 0.0
 *****************************(Parsing methods made, setter calls run())*****************************
-### CommandInterpreter!@parseMove:*->Runnable: 0.0
-### CommandInterpreter!@parseSay:*->Runnable: 0.0
 ### CommandInterpreter!@parseMove:*->Runnable: 1.0
 ### CommandInterpreter!@parseSay:*->Runnable: 1.0
-### CommandInterpreter!Runnable!run:->void: 1.0
+### CommandInterpreter!@parseMove:*->Runnable: 0.0
+### CommandInterpreter!@parseSay:*->Runnable: 0.0
+### CommandInterpreter!Runnable!run:-> void: 0.0
 *****************************(Animator and animation commands created and used)*****************************
 ### Animator!(.*)!sleep:long->void: 1.0
 ### AnimatingCommand!@Animator!@animateAvatar:@Avatar->void: 0.0
 ### AnimatingCommand!:@Animator; @Avatar: 1.0
 *****************************(Asynchronous methods create new threads)*****************************
 ### CommandInterpreter!AnimatingCommand: 0.0
-### CommandInterpreter!Thread:start:->void: 1.0
+### CommandInterpreter!Thread!start:->void: 1.0
 ### CommandInterpreter!@asynchronousArthur:->void: 0.0
 ### CommandInterpreter!@asynchronousGalahad:->void: 0.0
 ### CommandInterpreter!@asynchronousLancelot:->void: 0.0
 ### CommandInterpreter!@asynchronousRobin:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousArthur:->void: 1.0
-### main.Assignment10!@CommandInterpreter!@asynchronousGalahad:->void: 1.0
-### main.Assignment10!@CommandInterpreter!@asynchronousLancelot:->void: 1.0
-### main.Assignment10!@CommandInterpreter!@asynchronousRobin:->void: 1.0
+### main.Assignment10!@CommandInterpreter!@asynchronousArthur:->void: 0.0
+### main.Assignment10!@CommandInterpreter!@asynchronousGalahad:->void: 0.0
+### main.Assignment10!@CommandInterpreter!@asynchronousLancelot:->void: 0.0
+### main.Assignment10!@CommandInterpreter!@asynchronousRobin:->void: 0.0
 *****************************(Asynchronous guard)*****************************
 ### CommandInterpreter!@asynchronousGuard:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousGuard->void: 1.0
+### main.Assignment10!@CommandInterpreter!@asynchronousGuard->void: 0.0
 *****************************(CommandInterpreter new buttons respond to preconditions)*****************************
-### CommandInterpreterController!@BridgeScene!addPropertyChangeListener:PropertyChangeListener->void: 0.0
-### CommandInterpreterController!JButton!setEnabled:boolean->void: 0.0
+### CommandInterpreterController!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+### CommandInterpreterController!JButton!setEnabled:boolean->void: 1.0
 ### CommandInterpreterControllerdefines getter for property Say: 0.0
 ### CommandInterpreterControllerdefines getter for property Approach: 0.0
 ### CommandInterpreterControllerdefines getter for property Pass: 0.0

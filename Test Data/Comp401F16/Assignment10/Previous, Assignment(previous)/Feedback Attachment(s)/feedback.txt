@@ -7,19 +7,19 @@ CommandObjectSuite                                     0.0 / 20.0
 AsyncAnimationSuite                                    0.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Preconditions defined                                  0.0 /  8.0
-Event notifications fired and received                 2.0 /  6.0
-Command objects created for parsing                    8.0 /  8.0
-Parsing methods made, setter calls run()               6.0 / 10.0
+Event notifications fired and received                 0.0 /  6.0
+Command objects created for parsing                    2.0 /  8.0
+Parsing methods made, setter calls run()               10.0 / 10.0
 Animator and animation commands created and used       0.0 /  6.0
 Asynchronous methods create new threads                1.0 / 10.0
 Asynchronous guard                                     0.0 /  2.0 (Extra credit)
-CommandInterpreter new buttons respond to preconditions0.0 /  6.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions1.0 /  6.0 (Extra credit)
 Console shows all precondition events being fired      0.0 / 10.0
 Animation shows animations acting asynchronously       0.0 / 10.0
 CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
 Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 27.0
+  Points Awarded: 24.0
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 22.0
+  Features Score: 19.0
 
 Notes from grading features:
 ----------------------------------
@@ -58,8 +58,18 @@ Preconditions defined:
 
 
 Event notifications fired and received:
+  -- expectedInterfaces: (BridgeScene.java:12) In type BridgeScene, missing interface: PropertyListenerRegisterer
+
   -- Class matching PropertyChangeEvent not instantiated in BridgeScene
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+
+Command objects created for parsing:
+  -- expectedInterfaces: (SayCommand.java:10) In type SayCommand, missing interface: Runnable
+
+  -- expectedInterfaces: (MoveCommand.java:10) In type MoveCommand, missing interface: Runnable
+
+  -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :@Avatar; int; int
 
 
 Animator and animation commands created and used:
@@ -88,13 +98,17 @@ Asynchronous guard:
   -- main.Assignment10 not found by checkstyle
 
 CommandInterpreter new buttons respond to preconditions:
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
-  -- CommandInterpreterController not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Say of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Approach of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Pass of type JButton//EC
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Fail of type JButton//EC
+
 
 
 Early benefit: 105.0%
-  Total Score: 23.1
+  Total Score: 19.95

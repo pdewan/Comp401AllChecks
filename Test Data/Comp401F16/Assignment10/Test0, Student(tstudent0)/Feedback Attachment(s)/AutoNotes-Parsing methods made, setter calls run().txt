@@ -1,4 +1,0 @@
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseMove:*->Runnable
-
-  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseSay:*->Runnable
-

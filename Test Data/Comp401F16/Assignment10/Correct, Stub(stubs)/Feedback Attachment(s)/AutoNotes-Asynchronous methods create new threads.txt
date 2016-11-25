@@ -7,3 +7,7 @@
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
 
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
+  -- main.Assignment10 not found by checkstyle
