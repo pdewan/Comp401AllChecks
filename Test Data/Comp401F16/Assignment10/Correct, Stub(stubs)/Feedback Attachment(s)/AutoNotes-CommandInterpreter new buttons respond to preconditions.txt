@@ -1,2 +1,4 @@
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call JButton!setEnabled:boolean->void
+

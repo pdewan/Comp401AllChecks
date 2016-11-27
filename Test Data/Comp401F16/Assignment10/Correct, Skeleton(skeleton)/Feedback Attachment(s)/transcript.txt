@@ -22,7 +22,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[commandInterpreterFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Factory method:[bridgescenefactorymethod] not found.
+Factory method:[bridgeSceneFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase: 0.0
@@ -30,7 +30,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[commandInterpreterFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Factory method:[bridgescenefactorymethod] not found.
+Factory method:[bridgeSceneFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase: 0.0
@@ -38,7 +38,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[commandInterpreterFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Factory method:[bridgescenefactorymethod] not found.
+Factory method:[bridgeSceneFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase: 0.0
@@ -59,32 +59,28 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### MoveCommand defined: 0.0
 ### MoveCommand!:@Avatar; int; int: 0.0
 *****************************(Parsing methods made, setter calls run())*****************************
-### CommandInterpreter!@parseMove:*->Runnable: 1.0
-### CommandInterpreter!@parseSay:*->Runnable: 1.0
+### CommandInterpreter!@parseMove:*->Runnable: 0.0
+### CommandInterpreter!@parseSay:*->Runnable: 0.0
 ### CommandInterpreter!@parseMove:*->Runnable: 0.0
 ### CommandInterpreter!@parseSay:*->Runnable: 0.0
 ### CommandInterpreter!Runnable!run:-> void: 0.0
 *****************************(Animator and animation commands created and used)*****************************
-### Animator!(.*)!sleep:long->void: 1.0
+### Animator!(.*)!sleep:long->void: 0.0
 ### AnimatingCommand!@Animator!@animateAvatar:@Avatar->void: 0.0
-### AnimatingCommand!:@Animator; @Avatar: 1.0
+### AnimatingCommand!:@Animator;@Avatar: 0.0
 *****************************(Asynchronous methods create new threads)*****************************
 ### CommandInterpreter!AnimatingCommand: 0.0
-### CommandInterpreter!Thread!start:->void: 1.0
+### CommandInterpreter!Thread!start:->void: 0.0
 ### CommandInterpreter!@asynchronousArthur:->void: 0.0
 ### CommandInterpreter!@asynchronousGalahad:->void: 0.0
 ### CommandInterpreter!@asynchronousLancelot:->void: 0.0
 ### CommandInterpreter!@asynchronousRobin:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousArthur:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousGalahad:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousLancelot:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousRobin:->void: 0.0
+### main.Assignment10!(.*)!@asynchronous(.*):->void: 0.0
 *****************************(Asynchronous guard)*****************************
 ### CommandInterpreter!@asynchronousGuard:->void: 0.0
-### main.Assignment10!@CommandInterpreter!@asynchronousGuard->void: 0.0
 *****************************(CommandInterpreter new buttons respond to preconditions)*****************************
 ### CommandInterpreterController!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
-### CommandInterpreterController!JButton!setEnabled:boolean->void: 1.0
+### CommandInterpreterController!JButton!setEnabled:boolean->void: 0.0
 ### CommandInterpreterControllerdefines getter for property Say: 0.0
 ### CommandInterpreterControllerdefines getter for property Approach: 0.0
 ### CommandInterpreterControllerdefines getter for property Pass: 0.0

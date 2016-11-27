@@ -471,3 +471,4 @@
 6,Sun Nov 20 21:56:25 EST 2016,false,CommandInterpreterController,expectedGetters,CommandInterpreterController,Button,JButton
 7,Tue Nov 22 18:06:50 EST 2016,true,main\Assignment10.java,typeDefined,Assignment10,@ProgressBarCreator//EC,Class
 7,Tue Nov 22 18:06:50 EST 2016,true,grail\SingletonsCreator.java,typeDefined,SingletonsCreator,@SingletonsCreator,Class
+8,Sat Nov 26 22:20:18 EST 2016,true,grail\interfaces\AnimatorInterface.java,typeDefined,AnimatorInterface,@Animator,Interface

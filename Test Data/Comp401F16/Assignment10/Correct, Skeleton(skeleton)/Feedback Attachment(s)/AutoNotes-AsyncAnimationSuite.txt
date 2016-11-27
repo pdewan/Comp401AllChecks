@@ -1,4 +1,4 @@
-  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
-  -- Method matching getGalahad not found in class: class grail.graphics.BridgeScene
-  -- Method matching getLancelot not found in class: class grail.graphics.BridgeScene
-  -- Method matching getRobin not found in class: class grail.graphics.BridgeScene
+  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.

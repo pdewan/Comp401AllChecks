@@ -8,18 +8,18 @@ AsyncAnimationSuite                                    0.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Preconditions defined                                  8.0 /  8.0
 Event notifications fired and received                 2.0 /  6.0
-Command objects created for parsing                    6.0 /  8.0
-Parsing methods made, setter calls run()               4.0 / 10.0
-Animator and animation commands created and used       4.0 /  6.0
-Asynchronous methods create new threads                1.0 / 10.0
+Command objects created for parsing                    4.0 /  8.0
+Parsing methods made, setter calls run()               0.0 / 10.0
+Animator and animation commands created and used       0.0 /  6.0
+Asynchronous methods create new threads                0.0 /  7.0
 Asynchronous guard                                     0.0 /  2.0 (Extra credit)
-CommandInterpreter new buttons respond to preconditions5.0 /  6.0 (Extra credit)
+CommandInterpreter new buttons respond to preconditions4.0 /  6.0 (Extra credit)
 Console shows all precondition events being fired      0.0 / 10.0
 Animation shows animations acting asynchronously       0.0 / 10.0
 CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
 Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 40.0
+  Points Awarded: 28.0
 
 Grading restrictions...
 ----------------------------------
@@ -30,7 +30,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 35.0
+  Features Score: 23.0
 
 Notes from grading features:
 ----------------------------------
@@ -42,10 +42,10 @@ CommandObjectSuite:
   -- java.lang.NoSuchMethodException grail.scanner.commands.SayCommand.<init>(grail.interfaces.BridgeSceneInterface, java.lang.String)
 
 AsyncAnimationSuite:
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
-  -- java.lang.NullPointerException null
+  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
 Event notifications fired and received:
   -- Class matching PropertyChangeEvent not instantiated in BridgeScene
@@ -53,10 +53,16 @@ Event notifications fired and received:
 
 
 Command objects created for parsing:
+  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
+
   -- expectedConstructors: (MoveCommand.java:8) In type MoveCommand, missing constructor: :@Avatar; int; int
 
 
 Parsing methods made, setter calls run():
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseMove:*->Runnable
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @parseSay:*->Runnable
+
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @parseMove:*->Runnable
 
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @parseSay:*->Runnable
@@ -65,11 +71,17 @@ Parsing methods made, setter calls run():
 
 
 Animator and animation commands created and used:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
+
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
+
+  -- expectedConstructors: (AnimatingCommand.java:8) In type AnimatingCommand, missing constructor: :@Animator;@Avatar
 
 
 Asynchronous methods create new threads:
   -- Class matching AnimatingCommand not instantiated in CommandInterpreter
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousArthur:->void
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousGalahad:->void//EC
@@ -78,20 +90,19 @@ Asynchronous methods create new threads:
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
 
-  -- main.Assignment10 not found by checkstyle
-  -- main.Assignment10 not found by checkstyle
-  -- main.Assignment10 not found by checkstyle
-  -- main.Assignment10 not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\main\Assignment10.java:1: warning: missingMethodCall: (Assignment10.java:1) has not made expected call (.*)!@asynchronous(.*):->void
+
 
 Asynchronous guard:
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousGuard:->void
 
-  -- main.Assignment10 not found by checkstyle
 
 CommandInterpreter new buttons respond to preconditions:
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
 
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call JButton!setEnabled:boolean->void
+
 
 
 Early benefit: 105.0%
-  Total Score: 36.75
+  Total Score: 24.150000000000002

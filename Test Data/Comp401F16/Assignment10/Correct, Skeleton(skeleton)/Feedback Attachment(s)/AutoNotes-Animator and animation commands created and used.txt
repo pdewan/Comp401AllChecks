@@ -1,2 +1,6 @@
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
+
   -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
+
+  -- expectedConstructors: (AnimatingCommand.java:8) In type AnimatingCommand, missing constructor: :@Animator;@Avatar
 

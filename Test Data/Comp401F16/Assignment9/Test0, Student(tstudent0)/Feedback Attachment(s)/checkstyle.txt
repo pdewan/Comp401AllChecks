@@ -77,18 +77,7 @@ C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\T
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\BridgeSceneController.java:1: typeDefined: (BridgeSceneController.java:1) Class BridgeSceneController matching tag @BridgeSceneController defined
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\BridgeSceneController.java:24:57: warning: 'painter' hides a field.
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: expectedClassInstantiations: (CommandInterpreterController.java:1) Type JButton should be instantiated by grail.mvc.controller.CommandInterpreterController 
-C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: expectedClassInstantiations: (CommandInterpFound Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-Found Singleton
-reterController.java:1) Type JMenuItem should be instantiated by grail.mvc.controller.CommandInterpreterController 
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: expectedClassInstantiations: (CommandInterpreterController.java:1) Type JMenuItem should be instantiated by grail.mvc.controller.CommandInterpreterController 
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\CommandInterpreterController.java:1: warning: expectedClassInstantiations: (CommandInterpreterController.java:1) Type JTextField should be instantiated by grail.mvc.controller.CommandInterpreterController 
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\controller\CommandInterpreterController.java:1: typeDefined: (CommandInterpreterController.java:1) Class CommandInterpreterController matching tag @CommandInterpreterController//EC defined
 C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Test0, Student(tstudent0)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\mvc\view\AvatarView.java:1: warning: missingMethodCall: (AvatarView.java:1) has not made expected call (.*)!draw(.*):*->(.*)

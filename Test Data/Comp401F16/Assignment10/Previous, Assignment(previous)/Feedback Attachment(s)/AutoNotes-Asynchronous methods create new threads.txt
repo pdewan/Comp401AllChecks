@@ -1,4 +1,19 @@
   -- Class matching AnimatingCommand not instantiated in CommandInterpreter
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\scanner\ScannerBean.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\scanner\ScanningIterator.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\EndToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\GenericToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\MinusToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\NumberToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\PlusToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\QuoteToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\StartToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\grail\tokenBeans\WordToken.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\main\Assignment9.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Previous, Assignment(previous)\Submission attachment(s)\Assignment9Final\Assignment9Final\src\main\RunTests.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+
   -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousArthur:->void
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousGalahad:->void//EC
@@ -7,7 +22,4 @@
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
 
-  -- main.Assignment10 not found by checkstyle
-  -- main.Assignment10 not found by checkstyle
-  -- main.Assignment10 not found by checkstyle
   -- main.Assignment10 not found by checkstyle

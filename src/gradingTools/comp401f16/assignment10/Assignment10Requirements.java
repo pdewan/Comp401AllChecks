@@ -63,7 +63,7 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleInterfaceDefinedTestCase("SayCommand", "Runnable"),
      			new CheckstyleConstructorDefinedTestCase("SayCommand", ":@BridgeScene; String"),
      			new CheckstyleInterfaceDefinedTestCase("MoveCommand", "Runnable"),
-     			new CheckstyleConstructorDefinedTestCase("MoveCommand", ":@Avatar; int; int") //TODO: constructor checks don't work
+     			new CheckstyleConstructorDefinedTestCase("MoveCommand", ":@Avatar; int; int")
      			);
      			
      	// parsing methods, run() calls
@@ -79,27 +79,23 @@ public class Assignment10Requirements  extends AJUnitProjectRequirements{
      	addFeature("Animator and animation commands created and used", 6,
      			new CheckstyleMethodCalledTestCase("Animator", "(.*)!sleep:long->void"),
      			new CheckstyleMethodCalledTestCase("AnimatingCommand", "@Animator!@animateAvatar:@Avatar->void"),
-     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand",":@Animator; @Avatar")
+     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand",":@Animator;@Avatar")
      			);
      	
      	// asynch methods, thread instantiations
-     	addFeature("Asynchronous methods create new threads", 10,
+     	addFeature("Asynchronous methods create new threads", 7,
      			new CheckstyleClassInstantiatedTestCase("CommandInterpreter", "AnimatingCommand"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "Thread!start:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousArthur:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousGalahad:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousLancelot:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousRobin:->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment10", "@CommandInterpreter!@asynchronousArthur:->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment10", "@CommandInterpreter!@asynchronousGalahad:->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment10", "@CommandInterpreter!@asynchronousLancelot:->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment10", "@CommandInterpreter!@asynchronousRobin:->void")
+     			new CheckstyleMethodCalledTestCase("main.Assignment10", "(.*)!@asynchronous(.*):->void")
      			);
      	
      	// EC: asynch guard
      	addFeature("Asynchronous guard", 2, true,
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousGuard:->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment10", "@CommandInterpreter!@asynchronousGuard->void")
+     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@asynchronousGuard:->void")
      			);
      	
      	// EC: setEnabled calls, button properties
