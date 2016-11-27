@@ -1,0 +1,8 @@
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: next:->*
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: peek:->*
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: hasNext:->boolean//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: reset:->*
+

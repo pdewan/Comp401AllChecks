@@ -2,100 +2,180 @@ Grading result for: Correct, Skeleton(skeleton)
 
 Grading features...
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
-ConsoleSceneViewOutputTestCase                         0.0 / 50.0
+CommandObjectSuiteA11                                  0.0 / 70.0
+CommandInterpreterSuiteA11                             0.0 / 195.0
+SyncAnimationSuite                                     0.0 / 50.0
+ParserSuite                                            0.0 / 45.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Observables send events, observer registers and listens3.0 / 12.0
-ConsoleSceneView created and used with SingletonCreator3.0 / 12.0
-Proper interfaces implemented                          0.0 /  9.0
-Main calls proper methods                              0.0 / 10.0
-Rotate method called                                   0.0 /  3.0 (Extra credit)
-Console shows proper events being fired                0.0 / 15.0
-Animation shows correct behavior                       0.0 /  5.0
+Iterator methods exist and are used                    3.0 /  7.0
+Basic command classes defined and used                 0.8 /  3.0
+Composite command classes defined and used             1.7 /  3.0
+Parsing methods are created and used                   0.2 /  3.0
+Parser has correct properties                          0.0 /  3.0
+parseNumber exists and is used                         1.5 /  3.0 (Extra credit)
+Parser has error property                              0.0 /  2.0 (Extra credit)
+Console shows all precondition events being fired      0.0 / 10.0
+Animation shows animations acting asynchronously       0.0 / 10.0
+CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
+Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 16.0
+  Points Awarded: 17.2
 
 Grading restrictions...
 ----------------------------------
 Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            0.0 /  -10.0
+No magic numbers                            -2.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
-  Points Deducted: -30.0
+  Points Deducted: -32.0
 
-  Features Score: -14.0
+  Features Score: -14.8
 
 Notes from grading features:
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest:
-  -- Factory method:[consolesceneviewfactorymethod] not found.
+CommandObjectSuiteA11:
+  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
+  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
+  -- java.lang.NoSuchMethodException grail.scanner.commands.ApproachCommand.<init>(grail.interfaces.BridgeSceneInterface, grail.interfaces.AvatarInterface)
+  -- java.lang.NoSuchMethodException grail.scanner.commands.PassCommand.<init>(grail.interfaces.BridgeSceneInterface)
+  -- java.lang.NoSuchMethodException grail.scanner.commands.FailCommand.<init>(grail.interfaces.BridgeSceneInterface)
 
-ConsoleSceneViewOutputTestCase:
-  -- Could not instantiate/find class matching:[]
+CommandInterpreterSuiteA11:
+  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-Observables send events, observer registers and listens:
-  -- Class matching PropertyChangeEvent not instantiated in ObservableLocatableObject
-  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+SyncAnimationSuite:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+ParserSuite:
+  -- Factory method:[parserfactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+Iterator methods exist and are used:
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: next:->*
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: peek:->*
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: hasNext:->boolean//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: reset:->*
 
 
-ConsoleSceneView created and used with SingletonCreator:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call                @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+Basic command classes defined and used:
+  -- expectedConstructors: (ApproachCommand.java:8) In type ApproachCommand, missing constructor: :@BridgeScene;@Avatar
 
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+  -- expectedConstructors: (PassCommand.java:7) In type PassCommand, missing constructor: :@BridgeScene
 
-  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
+  -- expectedConstructors: (FailCommand.java:7) In type FailCommand, missing constructor: :@BridgeScene
 
-Proper interfaces implemented:
-  -- expectedInterfaces: (ConsoleSceneView.java:13) In type ConsoleSceneView, missing interface: PropertyChangeListener
+  -- expectedInterfaces: (ApproachCommand.java:8) In type ApproachCommand, missing interface: Runnable
 
-  -- expectedInterfaces: (ObservableLocatableObject.java:15) In type ObservableLocatableObject, missing interface: PropertyListenerRegisterer
+  -- expectedInterfaces: (PassCommand.java:7) In type PassCommand, missing interface: Runnable
 
-  -- expectedInterfaces: (BoundedShape.java:12) In type BoundedShape, missing interface: PropertyListenerRegisterer
+  -- expectedInterfaces: (FailCommand.java:7) In type FailCommand, missing interface: Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (ApproachCommand.java:1) has not made expected call (.*)!@approach:@Avatar->*
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\PassCommand.java:1: warning: missingMethodCall: (PassCommand.java:1) has not made expected call (.*)!@passed:->*
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
 
 
-Main calls proper methods:
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
+Composite command classes defined and used:
+  -- Class matching CommandList not instantiated in Parser
+  -- expectedInterfaces: (CommandList.java:9) In type CommandList, missing interface: Runnable
 
-Rotate method called:
-  -- main.Assignment8 not found by checkstyle
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\CommandList.java:1: warning: missingMethodCall: (CommandList.java:1) has not made expected call Runnable!run:->void
+
+  -- expectedDeclaredSignatures: (CommandList.java:9) In type CommandList, missing declared signature: @add:Runnable->*
+
+
+Parsing methods are created and used:
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSayCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseMoveCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseApproachCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parsePassCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseFailCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRepeatCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommandList:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSayCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseMoveCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseApproachCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parsePassCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseFailCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRepeatCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommandList:*->Runnable
+
+
+Parser has correct properties:
+  -- expectedSetters: (Parser.java:1) In type Parser, missing setter for property CommandText of type String
+
+  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandText of type String
+
+  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
+
+
+parseNumber exists and is used:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseNumber:*->*//EC
+
+
+Parser has error property:
+  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property Errors of type *//EC
+
 
 
 Notes from grading restrictions:
 ----------------------------------
+No magic numbers:
+  -- magic.number: (ABroadcastingClearanceManager.java:14) In type ABroadcastingClearanceManager, magic number 100 in expression list EXPR 100 
+magic.number: (AClearanceManager.java:25) In type AClearanceManager, magic number 100 in expression list EXPR 100 
+
+
 Illegal import or call:
   -- Illegal type or call in:
-illegalTypeImported: (BridgeSceneControllerInterface.java:3) Used disallowed class java.awt.event.KeyListener 
-illegalTypeImported: (BridgeSceneControllerInterface.java:4) Used disallowed class java.awt.event.MouseListener 
-illegalTypeImported: (CommandInterpreterControllerInterface.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (CommandInterpreterViewInterface.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (PaintingViewMaster.java:3) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (PaintingViewModule.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintListener.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (BridgeSceneController.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (BridgeSceneController.java:4) Used disallowed class java.awt.event.KeyEvent 
-illegalTypeImported: (BridgeSceneController.java:5) Used disallowed class java.awt.event.MouseEvent 
-illegalTypeImported: (CommandInterpreterController.java:3) Used disallowed class java.awt.event.ActionEvent 
-illegalTypeImported: (CommandInterpreterController.java:4) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (AvatarView.java:3) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (AvatarView.java:4) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (CommandInterpreterView.java:3) Used disallowed class java.awt.GridLayout 
-illegalTypeImported: (CommandInterpreterView.java:4) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (ObservableBridgeScenePainter.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (ObservableBridgeScenePainter.java:4) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (ObservableBridgeScenePainter.java:5) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintingSupport.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintingSupport.java:4) Used disallowed class java.awt.Toolkit 
-illegalTypeImported: (SceneBackgroundView.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (SingletonsCreator.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (Assignment10.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (Assignment10.java:4) Used disallowed class java.awt.GridLayout 
-illegalTypeImported: (Assignment10.java:5) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (Parser.java:3) Used disallowed class java.text.ParseException 
+illegalTypeImported: (Parser.java:4) Used disallowed class java.util.HashSet 
+illegalTypeImported: (Parser.java:5) Used disallowed class java.util.Set 
+illegalTypeImported: (ParsingException.java:3) Used disallowed class java.io.IOException 
+illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.ParseException 
+illegalTypeImported: (ScanningException.java:3) Used disallowed class java.io.IOException 
 
 
 

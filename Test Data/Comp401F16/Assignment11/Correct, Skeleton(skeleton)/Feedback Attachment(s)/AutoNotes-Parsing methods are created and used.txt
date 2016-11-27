@@ -1,0 +1,32 @@
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSayCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseMoveCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseApproachCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parsePassCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseFailCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRepeatCommand:*->Runnable
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommandList:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSayCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseMoveCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseApproachCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parsePassCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseFailCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRepeatCommand:*->Runnable
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommandList:*->Runnable
+

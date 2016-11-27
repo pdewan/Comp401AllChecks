@@ -1,15 +1,20 @@
 //START OF FILE: src/grail/singletonscreator.java
 package grail;
 
-import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 
+import grail.animations.fromJavaTeaching.ABroadcastingClearanceManager;
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
+import grail.collections.MoveCommandUndoer;
 import grail.collections.MyTable;
 import grail.graphics.BridgeScene;
+import grail.interfaces.AvatarInterface;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.ParserInterface;
 import grail.interfaces.ScannerBeanInterface;
 import grail.interfaces.Table;
+import grail.interfaces.Undoer;
 import grail.interfaces.mvc.BridgeSceneControllerInterface;
 import grail.interfaces.mvc.CommandInterpreterControllerInterface;
 import grail.interfaces.mvc.CommandInterpreterViewInterface;
@@ -22,6 +27,7 @@ import grail.mvc.view.ConsoleSceneView;
 import grail.mvc.view.DelegatingBridgeSceneView;
 import grail.mvc.view.ObservableBridgeScenePainter;
 import grail.scanner.CommandInterpreter;
+import grail.scanner.Parser;
 import grail.scanner.ScannerBean;
 import util.annotations.Tags;
 
@@ -33,6 +39,7 @@ public class SingletonsCreator {
 //START OF FILE: src/grail/animations/animatingcommand.java
 package grail.animations;
 
+import grail.SingletonsCreator;
 import grail.interfaces.AnimatorInterface;
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.CommandThread;
@@ -47,11 +54,13 @@ public class AnimatingCommand implements CommandThread{
 		
 	}
 
+
 }
 //END OF FILE
 //START OF FILE: src/grail/animations/animator.java
 package grail.animations;
 
+import grail.SingletonsCreator;
 import grail.interfaces.AnimatorInterface;
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.BridgeSceneInterface;
@@ -60,22 +69,9 @@ import util.annotations.Tags;
 import util.misc.ThreadSupport;
 
 
-@Tags({"Animator"})
-public class Animator implements AnimatorInterface {
+@Tags({"Animator", "CoordinatingAnimator"})
+public abstract class Animator implements AnimatorInterface {
 
-	@Override
-	public void animateAvatar(AvatarInterface avatar) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void clapGuard(BridgeSceneInterface scene) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	
 }
 //END OF FILE
 //START OF FILE: src/grail/animations/clapcommand.java
@@ -94,6 +90,325 @@ public class ClapCommand implements CommandThread{
 	}
 
 
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/claplockstepcommand.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"CoordinatingAnimatingCommand"})
+public class ClapLockstepCommand implements CommandThread{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/lockstepanimatingcommand.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"CoordinatedAnimator"})
+public class LockstepAnimatingCommand implements CommandThread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/sleepbasedanimator.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+
+@Tags({"Animator"})
+public class SleepBasedAnimator extends Animator {
+
+	@Override
+	public void animateAvatar(AvatarInterface avatar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clapGuard(BridgeSceneInterface scene) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clapGuardLockstep(BridgeSceneInterface scene) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/waitbasedanimator.java
+package grail.animations;
+
+import grail.SingletonsCreator;
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+
+@Tags({"CoordinatedAnimator"})
+public class WaitBasedAnimator extends Animator {
+
+	@Override
+	public void animateAvatar(AvatarInterface avatar) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clapGuard(BridgeSceneInterface scene) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clapGuardLockstep(BridgeSceneInterface scene) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/abroadcastingclearancemanager.java
+package grail.animations.fromJavaTeaching;
+
+/**
+ * Copied from JavaTeaching, as required from assignment
+ */
+
+import util.annotations.ComponentWidth;
+import util.annotations.Row;
+
+public class ABroadcastingClearanceManager extends AClearanceManager 
+					implements BroadcastingClearanceManager {
+
+	@Row(1)
+	@ComponentWidth(100)
+	public synchronized void proceedAll() {
+		notifyAll(); // not notify, hover over the method and see Java's explanation for it		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/aclearancemanager.java
+package grail.animations.fromJavaTeaching;
+
+/**
+ * Copied from JavaTeaching, as required by assignment
+ */
+
+import java.beans.PropertyChangeListener;
+
+import util.annotations.ComponentWidth;
+import util.annotations.Row;
+import util.models.AListenableVector;
+import util.models.ListenableVector;
+import bus.uigen.ObjectEditor;
+
+/*
+ Does the println after notify ever not follow the println before notify?
+ Does the println after wait ever not follow the println before wait?
+ Does the wait ended message ever not follow wait started?
+ Does the same thread ever execute both wait and notify?
+ */
+public class AClearanceManager implements ClearanceManager {
+	ListenableVector waitingThreads = new AListenableVector<>();
+	PropertyListenerSupport propertyListenerSupport = new APropertyListenerSupport();
+	@Row(0)
+	@ComponentWidth(100)
+	public synchronized void proceed() {
+		System.out.println( Thread.currentThread() + ": before notify");
+		notify(); // Defined in call Object. Hover over it to see its explanation. Think of a monitor as simply an object.
+		System.out.println( Thread.currentThread() + ": after notify");
+	}
+	public 
+//		 Comment out the synchronized keyword. What error do you get? 
+		synchronized 
+			void waitForProceed() {
+			try {
+				String aThreadID = Thread.currentThread().toString();
+				System.out.println( aThreadID + ": before wait");
+				waitingThreads.addElement(aThreadID);
+				wait(); // Defined in call Object. Hover over it to see its explanation. Think of a monitor as simply an object.
+				System.out.println( aThreadID + ": after wait");
+				waitingThreads.removeElement(aThreadID);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+//		}
+	}
+	@Row(2)
+	public ListenableVector getWaitingThreads() {
+		return waitingThreads;
+
+	}
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		propertyListenerSupport.add(arg0);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/apropertylistenersupport.java
+package grail.animations.fromJavaTeaching;
+
+/**
+ * Copied from JavaTeaching, as required by assignment
+ */
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+public class APropertyListenerSupport implements PropertyListenerSupport {
+	public final int MAX_SIZE = 50;
+	
+	// Here we see an array that is capable of storing listeners. Each observer will
+	// register a listener with an observable.
+	PropertyChangeListener[] contents = new PropertyChangeListener[MAX_SIZE];
+	int size = 0;
+
+	public int size() {
+		return size;
+	}
+	
+	public PropertyChangeListener get (int index) {
+		return contents[index];
+	}
+
+	public boolean isFull() {
+		return size == MAX_SIZE;
+
+	}
+
+	public void add(PropertyChangeListener l) {
+		if (isFull())
+			System.out.println("Adding item to a full collection");
+		else {
+			contents[size] = l;
+			size++;
+		}
+	}
+	
+	/**
+	 * The method notifyAllListeners calls propertyChange():
+	 *  (a) a single time on one of the registered observers.
+	 *  (b) once for each registered observer.
+	 *  (c) never.
+	 *  
+	 * The method propertyChange is:
+	 *  (a) a notification method invoked on a registered observer.
+	 *  (b) a registration method invoked on an observer.
+	 *  (c) a setter invoked on an observer.
+	 */
+	public void notifyAllListeners(PropertyChangeEvent event) {
+		for (int index = 0; index < size(); index++) {
+			/*
+			 * Hover over propertyChange to see its documentation
+			 * Hover over event to see its instance variables
+			 * What kind of object does get(index) return?
+			 */
+			get(index).propertyChange(event);
+		}
+	}
+	public void remove(PropertyChangeListener element) {
+		contents[indexOf(element)] = contents[size - 1];
+		size--;
+	}
+
+	public void remove(int startIndex) {
+		shiftUp(startIndex);
+		size--;
+	}
+
+	void shiftUp(int startIndex) {
+		for (int index = startIndex; index + 1 < size; index++)
+			contents[index] = contents[index + 1];
+	}
+
+	public int indexOf(PropertyChangeListener element) {
+		int index;
+		for (index = 0; index < size && !element.equals(contents[index]); index++)
+			;
+		return index;
+	}
+
+	public boolean member(PropertyChangeListener element) {
+		return indexOf(element) < size;
+
+	}
+
+	public void clear() {
+		size = 0;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/broadcastingclearancemanager.java
+package grail.animations.fromJavaTeaching;
+
+public interface BroadcastingClearanceManager extends ClearanceManager {
+	public void proceedAll();
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/clearancemanager.java
+package grail.animations.fromJavaTeaching;
+
+import util.models.PropertyListenerRegisterer;
+
+public interface ClearanceManager extends PropertyListenerRegisterer{
+	public void proceed();
+	public void waitForProceed();	
+	
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/fromjavateaching/propertylistenersupport.java
+package grail.animations.fromJavaTeaching;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+public interface PropertyListenerSupport {
+	public void add(PropertyChangeListener l);
+	public PropertyChangeListener get(int index); 
+	public int size();
+	public void notifyAllListeners(PropertyChangeEvent event);
+	public void remove(PropertyChangeListener element) ;
+	public void remove(int startIndex) ;
+	public int indexOf(PropertyChangeListener element);
+	public boolean member(PropertyChangeListener element);
 }
 //END OF FILE
 //START OF FILE: src/grail/collections/abasehistory.java
@@ -149,6 +464,46 @@ public class ClearableHistory extends ABaseHistory implements ClearableHistoryIn
 
 }
 //END OF FILE
+//START OF FILE: src/grail/collections/movecommandundoer.java
+package grail.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.CommandThread;
+import grail.interfaces.UndoableCommandThread;
+import grail.interfaces.Undoer;
+import grail.scanner.commands.MoveCommand;
+
+public class MoveCommandUndoer implements Undoer {
+
+	@Override
+	public void execute(UndoableCommandThread c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void undo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void redo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clear() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}
+//END OF FILE
 //START OF FILE: src/grail/collections/mytable.java
 package grail.collections;
 
@@ -162,19 +517,20 @@ import util.annotations.Tags;
 
 @StructurePattern(StructurePatternNames.MAP_PATTERN)
 @Tags({"Table"})
-public class MyTable implements Table {
+public class MyTable<KeyType> implements Table<KeyType> {
 
 	@Override
-	public void put(String key, Object val) {
+	public void put(String key, KeyType val) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public Object get(String key) {
+	public KeyType get(String key) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
 	
 }//end class
 //END OF FILE
@@ -279,7 +635,6 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 package grail.graphics;
 
 import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
 
 import grail.interfaces.BoundedShapeInterface;
 import util.annotations.EditablePropertyNames;
@@ -292,67 +647,7 @@ import util.annotations.Tags;
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 @Tags({"BoundedShape"})
-public class BoundedShape extends ObservableLocatableObject implements BoundedShapeInterface {
-
-	@Override
-	public void setX(int newX) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getX() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setY(int newY) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getY() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void addPropertyChangeListener(PropertyChangeListener arg0) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void setWidth(int newWidth) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getWidth() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void setHeight(int newHeight) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getHeight() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void move(int moveX, int moveY) {
-		// TODO Auto-generated method stub
-		
-	}
+public abstract class BoundedShape extends ObservableLocatableObject implements BoundedShapeInterface {
 
 }
 //END OF FILE
@@ -608,6 +903,7 @@ public class GorgeWithBridge implements GorgeWithBridgeInterface {
 package grail.graphics;
 
 import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -624,30 +920,34 @@ import util.annotations.StructurePatternNames;
 public class Image extends Rectangle implements ImageInterface {
 
 	@Override
-	public void setImageFileName(String imageFileName) {
+	public void setWidth(int newWidth) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public String getImageFileName() {
+	public int getWidth() {
 		// TODO Auto-generated method stub
-		return null;
+		return 0;
 	}
 
+	@Override
+	public void setHeight(int newHeight) {
+		// TODO Auto-generated method stub
+		
+	}
 
-}
-//END OF FILE
-//START OF FILE: src/grail/graphics/locatableobject.java
-package grail.graphics;
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
-import java.util.ArrayList;
-
-import grail.interfaces.Locatable;
-
-public class LocatableObject implements Locatable{
+	@Override
+	public void move(int moveX, int moveY) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public void setX(int newX) {
@@ -673,6 +973,32 @@ public class LocatableObject implements Locatable{
 		return 0;
 	}
 
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setImageFileName(String imageFileName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getImageFileName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/locatableobject.java
+package grail.graphics;
+
+import grail.interfaces.Locatable;
+
+public abstract class LocatableObject implements Locatable{
 
 }
 //END OF FILE
@@ -695,18 +1021,14 @@ import util.annotations.Tags;
 @PropertyNames({"X", "Y"})
 @EditablePropertyNames({"X", "Y"})
 @Tags({"Locatable"})
-public class ObservableLocatableObject extends LocatableObject implements ObservableLocatable{
-
-	@Override
-	public void addPropertyChangeListener(PropertyChangeListener arg0) {
-		// TODO Auto-generated method stub
-		
-	}
+public abstract class ObservableLocatableObject extends LocatableObject implements ObservableLocatable{
 
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/oval.java
 package grail.graphics;
+
+import java.beans.PropertyChangeListener;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -717,11 +1039,73 @@ import util.annotations.StructurePatternNames;
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 public class Oval extends BoundedShape{
+
+	@Override
+	public void setWidth(int newWidth) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setHeight(int newHeight) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void move(int moveX, int moveY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setX(int newX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setY(int newY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/rectangle.java
 package grail.graphics;
+
+import java.beans.PropertyChangeListener;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -733,12 +1117,74 @@ import util.annotations.StructurePatternNames;
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 public class Rectangle extends BoundedShape {
 
+	@Override
+	public void setWidth(int newWidth) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setHeight(int newHeight) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void move(int moveX, int moveY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setX(int newX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setY(int newY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/rotatingline.java
 package grail.graphics;
 
 import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 import grail.interfaces.RotatingLineInterface;
 import util.annotations.EditablePropertyNames;
@@ -752,6 +1198,66 @@ import util.annotations.Tags;
 @PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
 @EditablePropertyNames({"X", "Y","Angle", "Radius"})
 public class RotatingLine extends BoundedShape implements RotatingLineInterface{
+
+	@Override
+	public void setWidth(int newWidth) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setHeight(int newHeight) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getHeight() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void move(int moveX, int moveY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setX(int newX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setY(int newY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	@Override
 	public void setRadius(double r) {
@@ -782,6 +1288,7 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 		// TODO Auto-generated method stub
 		
 	}
+	
 
 }
 //END OF FILE
@@ -789,6 +1296,7 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 package grail.graphics;
 
 import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
 
 import grail.interfaces.StringShapeInterface;
 import util.annotations.EditablePropertyNames;
@@ -802,6 +1310,36 @@ import util.annotations.StructurePatternNames;
 public class StringShape extends ObservableLocatableObject implements StringShapeInterface {
 
 	@Override
+	public void setX(int newX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setY(int newY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
 	public void setText(String newString) {
 		// TODO Auto-generated method stub
 		
@@ -812,6 +1350,7 @@ public class StringShape extends ObservableLocatableObject implements StringShap
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 }
 //END OF FILE
@@ -834,6 +1373,30 @@ import util.annotations.Visible;
 @PropertyNames({"X", "Y","LeftLine", "RightLine", "LinesLength"})
 @EditablePropertyNames({"X", "Y", "LinesLength"})
 public class VShape extends LocatableObject implements VShapeInterface {
+
+	@Override
+	public void setX(int newX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setY(int newY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	@Override
 	public RotatingLineInterface getLeftLine() {
@@ -878,11 +1441,14 @@ package grail.interfaces;
 
 import util.annotations.Tags;
 
+@Tags({"Animator"})
 public interface AnimatorInterface {
+	
 	@Tags({"animateAvatar"})
 	public void animateAvatar(AvatarInterface avatar);
 	
-	void clapGuard(BridgeSceneInterface scene);
+	public void clapGuard(BridgeSceneInterface scene);
+	public void clapGuardLockstep(BridgeSceneInterface scene);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/avatarinterface.java
@@ -1018,7 +1584,37 @@ public interface CommandInterpreterInterface {
 	public void animateRobin();
 	
 	@Tags({"asynchronousGuard"})
-	void clapGuard();
+	public void clapGuard();
+	
+	@Tags({"waitingArthur"})
+	public void animateArthurWithWait();
+	
+	@Tags({"waitingGalahad"})
+	public void animateGalahadWithWait();
+	
+	@Tags({"waitingLancelot"})
+	public void animateLancelotWithWait();
+	
+	@Tags({"waitingRobin"})
+	public void animateRobinWithWait();
+	
+	@Tags({"startAnimation"})
+	public void startAnimation();
+
+	@Tags({"lockstepArthur"})
+	public void animateArthurWithLockstep();
+	
+	@Tags({"lockstepGalahad"})
+	public void animateGalahadWithLockstep();
+	
+	@Tags({"lockstepLancelot"})
+	public void animateLancelotWithLockstep();
+	
+	@Tags({"lockstepRobin"})
+	public void animateRobinWithLockstep();
+	
+	@Tags({"lockstepGuard"})
+	public void clapGuardLockstep();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/commandthread.java
@@ -1026,6 +1622,13 @@ package grail.interfaces;
 
 public interface CommandThread extends Runnable{
 
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/compositecommandthread.java
+package grail.interfaces;
+
+public interface CompositeCommandThread extends CommandThread{
+	public void add(Runnable r);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/gorgewithbridgeinterface.java
@@ -1072,7 +1675,6 @@ public interface ImageInterface extends BoundedShapeInterface{
 package grail.interfaces;
 
 import util.annotations.Tags;
-import util.models.PropertyListenerRegisterer;
 
 @Tags({"Locatable"})
 public interface Locatable {
@@ -1104,6 +1706,39 @@ public interface ObservableLocatable extends Locatable, PropertyListenerRegister
 
 }
 //END OF FILE
+//START OF FILE: src/grail/interfaces/parserinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Parser"})
+public interface ParserInterface {
+
+	public String getCommandText();
+	public void setCommandText(String string);
+	public CommandThread getCommandObject();
+	public String getErrors();
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/parsingexceptioninterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+/**
+ * Only exists to fulfill requirements regarding public methods being
+ * in interfaces
+ *
+ */
+@Tags({"ParsingException"})
+public interface ParsingExceptionInterface {
+
+	public String getExpected();
+	public String getEncountered();
+
+}
+//END OF FILE
 //START OF FILE: src/grail/interfaces/rotatinglineinterface.java
 package grail.interfaces;
 
@@ -1128,15 +1763,29 @@ public interface RotatingLineInterface extends BoundedShapeInterface{
 //START OF FILE: src/grail/interfaces/scannerbeaninterface.java
 package grail.interfaces;
 
+import grail.scanner.ScanningException;
 import util.annotations.Tags;
 
 @Tags({"ScannerBean"})
 public interface ScannerBeanInterface {
 	public String getScannedString();
-	public void setScannedString(String s);
+	public void setScannedString(String s) throws ScanningException;
 	public Token[] getTokens();
 	public String[] getErrors();
 	public ClearableHistoryInterface getTokenList();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/scanningexceptioninterface.java
+package grail.interfaces;
+
+/**
+ * Only exists to fulfill requirements regarding public methods being
+ * in interfaces
+ *
+ */
+public interface ScanningExceptionInterface {
+
+	public String[] getErrors();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/stringshapeinterface.java
@@ -1159,11 +1808,10 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"Table"})
-public interface Table {
+public interface Table<KeyType> {
 
-	void put(String key, Object val);
-
-	Object get(String key);
+	public void put(String key, KeyType val);
+	public KeyType get(String key);
 
 }
 //END OF FILE
@@ -1178,6 +1826,23 @@ public interface Token {
 	public void setInput(String newString);
 	public String getInput();
 
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/undoablecommandthread.java
+package grail.interfaces;
+
+public interface UndoableCommandThread extends CommandThread {
+	public void undo();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/undoer.java
+package grail.interfaces;
+
+public interface Undoer {
+	public void execute(UndoableCommandThread c);
+	public void undo();
+	public void redo();
+	public void clear();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/vshapeinterface.java
@@ -1230,6 +1895,8 @@ package grail.interfaces.mvc;
 import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 
+import javax.swing.JButton;
+import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 
 import util.annotations.Tags;
@@ -1237,6 +1904,12 @@ import util.annotations.Tags;
 @Tags({"CommandInterpreterController"})
 public interface CommandInterpreterControllerInterface extends ActionListener, PropertyChangeListener{
 	public JTextField getTextField();
+	public JButton getSay();
+	public JButton getPass();
+	public JButton getFail();
+	public JButton getApproach();
+	public JButton getButton();
+	public JMenuItem getMenuItem();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/mvc/commandinterpreterviewinterface.java
@@ -1246,8 +1919,12 @@ import java.awt.event.ActionListener;
 import java.beans.PropertyChangeListener;
 
 import javax.swing.JButton;
+import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterView"})
 public interface CommandInterpreterViewInterface extends PropertyChangeListener {
 	public void addControllerListener(ActionListener listener);
 	public JTextField getTextField();
@@ -1255,6 +1932,8 @@ public interface CommandInterpreterViewInterface extends PropertyChangeListener 
 	public JButton getApproach();
 	public JButton getFail();
 	public JButton getPass();
+	public JButton getButton();
+	public JMenuItem getMenuItem();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/mvc/delegatingbridgesceneviewinterface.java
@@ -1283,25 +1962,12 @@ public interface PaintListener extends PropertyChangeListener{
 //START OF FILE: src/grail/interfaces/mvc/paintingviewmaster.java
 package grail.interfaces.mvc;
 
-import java.awt.Graphics;
 import util.annotations.Tags;
 
 @Tags({"ObservableBridgeScenePainter"})
-public interface PaintingViewMaster {
+public interface PaintingViewMaster{
 	public void addPaintListener(PaintListener listener);
 	public void repaint();
-}
-//END OF FILE
-//START OF FILE: src/grail/interfaces/mvc/paintingviewmodule.java
-package grail.interfaces.mvc;
-
-import java.awt.Graphics2D;
-
-import util.annotations.Tags;
-
-@Tags({"PaintListener"})
-public interface PaintingViewModule extends PaintListener{
-	public void paint(Graphics2D g);
 }
 //END OF FILE
 //START OF FILE: src/grail/mvc/controller/bridgescenecontroller.java
@@ -1375,10 +2041,10 @@ public class BridgeSceneController implements BridgeSceneControllerInterface{
 package grail.mvc.controller;
 
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.beans.PropertyChangeEvent;
 
 import javax.swing.JButton;
+import javax.swing.JMenuItem;
 import javax.swing.JTextField;
 
 import grail.SingletonsCreator;
@@ -1391,7 +2057,7 @@ import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterController"})
-@PropertyNames({"TextField"})
+@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach", "MenuItem", "Button"})
 public class CommandInterpreterController implements CommandInterpreterControllerInterface {
 
 	@Override
@@ -1401,7 +2067,7 @@ public class CommandInterpreterController implements CommandInterpreterControlle
 	}
 
 	@Override
-	public void propertyChange(PropertyChangeEvent evt) {
+	public void propertyChange(PropertyChangeEvent arg0) {
 		// TODO Auto-generated method stub
 		
 	}
@@ -1411,23 +2077,58 @@ public class CommandInterpreterController implements CommandInterpreterControlle
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public JButton getSay() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getPass() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getFail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getApproach() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JButton getButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JMenuItem getMenuItem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
 //END OF FILE
 //START OF FILE: src/grail/mvc/view/avatarview.java
 package grail.mvc.view;
 
-import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.beans.PropertyChangeEvent;
 
 import grail.interfaces.AvatarInterface;
+import grail.interfaces.mvc.PaintListener;
 import grail.interfaces.mvc.PaintingViewMaster;
-import grail.interfaces.mvc.PaintingViewModule;
 import util.annotations.Tags;
 
 @Tags({"PaintListener"})
-public class AvatarView implements PaintingViewModule{
+public class AvatarView implements PaintListener{
 
 	@Override
 	public void propertyChange(PropertyChangeEvent evt) {
@@ -1457,19 +2158,16 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
-import javax.swing.JProgressBar;
 import javax.swing.JTextField;
 
 import grail.SingletonsCreator;
 import grail.interfaces.CommandInterpreterInterface;
-import grail.interfaces.mvc.CommandInterpreterControllerInterface;
 import grail.interfaces.mvc.CommandInterpreterViewInterface;
-import grail.mvc.controller.CommandInterpreterController;
 import util.annotations.PropertyNames;
 import util.annotations.Tags;
 
 @Tags({"CommandInterpreterView"})
-@PropertyNames({"TextField", "ProgressBar", "Say", "Pass", "Fail", "Approach"})
+@PropertyNames({"TextField", "ProgressBar", "Say", "Pass", "Fail", "Approach", "MenuItem", "Button"})
 public class CommandInterpreterView extends JFrame implements CommandInterpreterViewInterface{
 
 	@Override
@@ -1513,6 +2211,18 @@ public class CommandInterpreterView extends JFrame implements CommandInterpreter
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public JButton getButton() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JMenuItem getMenuItem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
 //END OF FILE
@@ -1523,10 +2233,7 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 import grail.SingletonsCreator;
-import grail.graphics.Avatar;
-import grail.interfaces.AvatarInterface;
 import grail.interfaces.BridgeSceneInterface;
-import grail.interfaces.VShapeInterface;
 import util.annotations.Tags;
 
 @Tags({"ConsoleSceneView"})
@@ -1540,19 +2247,37 @@ public class ConsoleSceneView implements PropertyChangeListener{
 
 }
 //END OF FILE
+//START OF FILE: src/grail/mvc/view/customswingtextfieldfactory.java
+package grail.mvc.view;
+
+import javax.swing.JTextField;
+
+import bus.uigen.widgets.VirtualTextField;
+import bus.uigen.widgets.swing.SwingTextFieldFactory;
+import util.annotations.Tags;
+
+/**
+ * Used for object editor
+ * @author
+ *
+ */
+@Tags({"CustomSwingTextFieldFactory"})
+public class CustomSwingTextFieldFactory extends SwingTextFieldFactory {
+	
+}
+//END OF FILE
 //START OF FILE: src/grail/mvc/view/delegatingbridgesceneview.java
 package grail.mvc.view;
 
-import bus.uigen.widgets.Painter;
 import grail.SingletonsCreator;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.mvc.DelegatingBridgeSceneViewInterface;
 import grail.interfaces.mvc.PaintingViewMaster;
-import grail.interfaces.mvc.PaintingViewModule;
 import util.annotations.Tags;
 
 @Tags({"DelegatingBridgeSceneView"})
 public class DelegatingBridgeSceneView implements DelegatingBridgeSceneViewInterface{
+
 	
 }
 //END OF FILE
@@ -1563,6 +2288,7 @@ import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
+import java.util.List;
 
 import grail.interfaces.mvc.PaintListener;
 import grail.interfaces.mvc.PaintingViewMaster;
@@ -1622,7 +2348,7 @@ public class SceneBackgroundView implements PaintListener{
 		// TODO Auto-generated method stub
 		
 	}
-	
+
 	
 }
 //END OF FILE
@@ -1632,34 +2358,30 @@ package grail.scanner;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.util.ArrayList;
+import java.util.List;
 
 import grail.SingletonsCreator;
 import grail.animations.AnimatingCommand;
-import grail.animations.Animator;
+import grail.animations.SleepBasedAnimator;
+import grail.animations.WaitBasedAnimator;
 import grail.animations.ClapCommand;
-import grail.collections.MyTable;
-import grail.interfaces.AvatarInterface;
+import grail.animations.ClapLockstepCommand;
+import grail.animations.LockstepAnimatingCommand;
+import grail.animations.fromJavaTeaching.ABroadcastingClearanceManager;
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
+import grail.interfaces.AnimatorInterface;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
 import grail.interfaces.CommandThread;
 import grail.interfaces.ScannerBeanInterface;
 import grail.interfaces.Table;
-import grail.interfaces.Token;
-import grail.interfaces.Word;
-import grail.scanner.commands.MoveCommand;
-import grail.scanner.commands.SayCommand;
-import grail.tokenBeans.MinusToken;
-import grail.tokenBeans.NumberToken;
-import grail.tokenBeans.PlusToken;
-import grail.tokenBeans.QuoteToken;
-import grail.tokenBeans.commandBeans.MoveCommandToken;
-import grail.tokenBeans.commandBeans.SayCommandToken;
+import grail.interfaces.Undoer;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
-import grail.interfaces.Number;
+import grail.interfaces.ParserInterface;
 
 @Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter","ObservableCommandInterpreter"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
@@ -1720,8 +2442,189 @@ public class CommandInterpreter implements CommandInterpreterInterface {
 		// TODO Auto-generated method stub
 		
 	}
-	
-	
+
+	@Override
+	public void animateArthurWithWait() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateGalahadWithWait() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateLancelotWithWait() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateRobinWithWait() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void startAnimation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateArthurWithLockstep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateGalahadWithLockstep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateLancelotWithLockstep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void animateRobinWithLockstep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clapGuardLockstep() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/parser.java
+package grail.scanner;
+
+import java.text.ParseException;
+import java.util.HashSet;
+import java.util.Set;
+
+import grail.SingletonsCreator;
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
+import grail.collections.MyTable;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.Number;
+import grail.interfaces.ParserInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Table;
+import grail.interfaces.Token;
+import grail.interfaces.UndoableCommandThread;
+import grail.interfaces.Undoer;
+import grail.interfaces.Word;
+import grail.scanner.commands.ApproachCommand;
+import grail.scanner.commands.CallCommand;
+import grail.scanner.commands.CommandList;
+import grail.scanner.commands.DefineCommand;
+import grail.scanner.commands.ExecuteUndoableCommand;
+import grail.scanner.commands.FailCommand;
+import grail.scanner.commands.MoveCommand;
+import grail.scanner.commands.PassCommand;
+import grail.scanner.commands.ProceedAllCommand;
+import grail.scanner.commands.RedoCommand;
+import grail.scanner.commands.RepeatCommand;
+import grail.scanner.commands.RotateLeftArmCommand;
+import grail.scanner.commands.RotateRightArmCommand;
+import grail.scanner.commands.SayCommand;
+import grail.scanner.commands.SleepCommand;
+import grail.scanner.commands.ThreadCommand;
+import grail.scanner.commands.UndoCommand;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+import grail.tokenBeans.commandBeans.ApproachCommandToken;
+import grail.tokenBeans.commandBeans.FailCommandToken;
+import grail.tokenBeans.commandBeans.MoveCommandToken;
+import grail.tokenBeans.commandBeans.PassCommandToken;
+import grail.tokenBeans.commandBeans.RepeatCommandToken;
+import grail.tokenBeans.commandBeans.SayCommandToken;
+import grail.tokenBeans.extraCommandBeans.CallCommandToken;
+import grail.tokenBeans.extraCommandBeans.DefineCommandToken;
+import grail.tokenBeans.extraCommandBeans.ProceedAllCommandToken;
+import grail.tokenBeans.extraCommandBeans.RedoCommandToken;
+import grail.tokenBeans.extraCommandBeans.RotateLeftArmCommandToken;
+import grail.tokenBeans.extraCommandBeans.RotateRightArmCommandToken;
+import grail.tokenBeans.extraCommandBeans.SleepCommandToken;
+import grail.tokenBeans.extraCommandBeans.ThreadCommandToken;
+import grail.tokenBeans.extraCommandBeans.UndoCommandToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.Tags;
+
+@Tags({"Parser"})
+@PropertyNames({"CommandText", "CommandObject", "Errors"})
+@EditablePropertyNames({"CommandText"})
+public class Parser implements ParserInterface {
+
+	@Override
+	public String getCommandText() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setCommandText(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public CommandThread getCommandObject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getErrors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/parsingexception.java
+package grail.scanner;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+import grail.interfaces.ParsingExceptionInterface;
+import util.annotations.Tags;
+
+@Tags({"ParsingException"})
+public class ParsingException extends IOException implements ParsingExceptionInterface {
+
+	@Override
+	public String getExpected() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getEncountered() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
 //END OF FILE
 //START OF FILE: src/grail/scanner/scannerbean.java
@@ -1782,7 +2685,7 @@ public class ScannerBean implements ScannerBeanInterface{
 	}
 
 	@Override
-	public void setScannedString(String s) {
+	public void setScannedString(String s) throws ScanningException {
 		// TODO Auto-generated method stub
 		
 	}
@@ -1807,6 +2710,25 @@ public class ScannerBean implements ScannerBeanInterface{
 
 }//end class
 //END OF FILE
+//START OF FILE: src/grail/scanner/scanningexception.java
+package grail.scanner;
+
+import java.io.IOException;
+
+import grail.interfaces.ScanningExceptionInterface;
+import util.annotations.Tags;
+
+@Tags({"ScanningException"})
+public class ScanningException extends IOException implements ScanningExceptionInterface {
+
+	@Override
+	public String[] getErrors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
+//END OF FILE
 //START OF FILE: src/grail/scanner/scanningiterator.java
 package grail.scanner;
 
@@ -1828,7 +2750,7 @@ public class ScanningIterator implements Iterator<String>{
 
 }
 //END OF FILE
-//START OF FILE: src/grail/scanner/commands/movecommand.java
+//START OF FILE: src/grail/scanner/commands/approachcommand.java
 package grail.scanner.commands;
 
 import grail.interfaces.AvatarInterface;
@@ -1836,8 +2758,8 @@ import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandThread;
 import util.annotations.Tags;
 
-@Tags({"MoveCommand"})
-public class MoveCommand implements CommandThread{
+@Tags({"ApproachCommand"})
+public class ApproachCommand implements CommandThread{
 
 	@Override
 	public void run() {
@@ -1846,6 +2768,229 @@ public class MoveCommand implements CommandThread{
 	}
 
 
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/callcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.Table;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+@Tags({"CallCommandObject"})
+public class CallCommand implements CommandThread{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/commandlist.java
+package grail.scanner.commands;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.CompositeCommandThread;
+import util.annotations.Tags;
+
+@Tags({"CommandList"})
+public class CommandList implements CompositeCommandThread{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void add(Runnable r) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/definecommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.Table;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+@Tags({"DefineCommandObject"})
+public class DefineCommand implements CommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/executeundoablecommand.java
+package grail.scanner.commands;
+
+import grail.collections.MoveCommandUndoer;
+import grail.interfaces.CommandThread;
+import grail.interfaces.UndoableCommandThread;
+import grail.interfaces.Undoer;
+
+public class ExecuteUndoableCommand implements CommandThread {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/failcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"FailCommand"})
+public class FailCommand implements CommandThread{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/movecommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.UndoableCommandThread;
+import util.annotations.Tags;
+
+@Tags({"MoveCommand"})
+public class MoveCommand implements UndoableCommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void undo() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/passcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"PassCommand"})
+public class PassCommand implements CommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/proceedallcommand.java
+package grail.scanner.commands;
+
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+@Tags({"ProceedAllCommand"})
+public class ProceedAllCommand implements CommandThread{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/redocommand.java
+package grail.scanner.commands;
+
+import grail.collections.MoveCommandUndoer;
+import grail.interfaces.CommandThread;
+import grail.interfaces.UndoableCommandThread;
+import grail.interfaces.Undoer;
+import util.annotations.Tags;
+
+@Tags({"RedoCommand"})
+public class RedoCommand implements CommandThread {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/repeatcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"RepeatCommand"})
+public class RepeatCommand implements CommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/rotateleftarmcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"RotateLeftArmCommandObject"})
+public class RotateLeftArmCommand implements CommandThread {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/rotaterightarmcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"RotateRightArmCommandObject"})
+public class RotateRightArmCommand implements CommandThread {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 //END OF FILE
 //START OF FILE: src/grail/scanner/commands/saycommand.java
@@ -1857,20 +3002,73 @@ import util.annotations.Tags;
 
 @Tags({"SayCommand"})
 public class SayCommand implements CommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/sleepcommand.java
+package grail.scanner.commands;
 
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+@Tags({"SleepCommandObject"})
+public class SleepCommand implements CommandThread{
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
 		
 	}
 
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/threadcommand.java
+package grail.scanner.commands;
 
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.Table;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+/**
+ * Does not call command if such a command does not exist
+ *
+ */
+@Tags({"ThreadCommandObject"})
+public class ThreadCommand implements CommandThread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/undocommand.java
+package grail.scanner.commands;
+
+import grail.collections.MoveCommandUndoer;
+import grail.interfaces.CommandThread;
+import grail.interfaces.UndoableCommandThread;
+import grail.interfaces.Undoer;
+import util.annotations.Tags;
+@Tags({"UndoCommand"})
+public class UndoCommand implements CommandThread {
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/endtoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -1898,27 +3096,17 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input"})
 @EditablePropertyNames({"Input"})
-public class GenericToken implements Token{
-
-	@Override
-	public void setInput(String newString) {
-		// TODO Auto-generated method stub
+public abstract class GenericToken implements Token{
+	public void setInput(String newString){
 		
-	}
-
-	@Override
-	public String getInput() {
-		// TODO Auto-generated method stub
+	};
+	public String getInput(){
 		return null;
-	}
-	
-
+	};
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/minustoken.java
 package grail.tokenBeans;
-
-import grail.interfaces.Token;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
@@ -1959,7 +3147,6 @@ public class NumberToken extends GenericToken implements Number{
 //START OF FILE: src/grail/tokenbeans/plustoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -1975,7 +3162,6 @@ public class PlusToken extends GenericToken {
 //START OF FILE: src/grail/tokenbeans/quotetoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -1991,8 +3177,6 @@ public class QuoteToken extends GenericToken{
 //START OF FILE: src/grail/tokenbeans/starttoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
-
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -2002,7 +3186,6 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @EditablePropertyNames({"Input"})
 public class StartToken extends GenericToken{
-	
 	
 }
 //END OF FILE
@@ -2028,7 +3211,6 @@ public class WordToken extends GenericToken implements Word{
 		return null;
 	}
 
-	
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/commandbeans/approachcommandtoken.java
@@ -2047,6 +3229,7 @@ import util.annotations.Tags;
 @EditablePropertyNames({"Input"})
 public class ApproachCommandToken extends WordToken {
 
+	
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/commandbeans/failcommandtoken.java
@@ -2101,7 +3284,6 @@ import util.annotations.Tags;
 @EditablePropertyNames({"Input"})
 public class PassCommandToken extends WordToken {
 
-	
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/commandbeans/repeatcommandtoken.java
@@ -2156,7 +3338,6 @@ import util.annotations.Tags;
 @EditablePropertyNames({"Input"})
 public class CallCommandToken extends WordToken {
 
-	
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/extracommandbeans/definecommandtoken.java
@@ -2193,7 +3374,6 @@ import util.annotations.Tags;
 @EditablePropertyNames({"Input"})
 public class ProceedAllCommandToken extends WordToken {
 
-
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/extracommandbeans/redocommandtoken.java
@@ -2211,7 +3391,6 @@ import util.annotations.Tags;
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
 public class RedoCommandToken extends WordToken {
-
 
 }
 //END OF FILE
@@ -2250,6 +3429,7 @@ import util.annotations.Tags;
 @EditablePropertyNames({"Input"})
 public class RotateRightArmCommandToken extends WordToken {
 
+
 }
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/extracommandbeans/sleepcommandtoken.java
@@ -2285,7 +3465,6 @@ import util.annotations.Tags;
 @PropertyNames({"Input", "Value"})
 @EditablePropertyNames({"Input"})
 public class ThreadCommandToken extends WordToken {
-
 
 }
 //END OF FILE
@@ -2324,45 +3503,30 @@ public class WaitCommandToken extends WordToken {
 
 }
 //END OF FILE
-//START OF FILE: src/main/assignment10.java
+//START OF FILE: src/main/assignment12.java
 package main;
 
 import java.awt.Component;
-import java.awt.GridLayout;
-import java.awt.event.ActionListener;
-import java.beans.PropertyChangeListener;
-
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
 
 import bus.uigen.OEFrame;
 import bus.uigen.ObjectEditor;
 import grail.SingletonsCreator;
-import grail.collections.MyTable;
-import grail.graphics.BridgeScene;
+import grail.animations.fromJavaTeaching.BroadcastingClearanceManager;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
-import grail.interfaces.ScannerBeanInterface;
-import grail.interfaces.Table;
-import grail.interfaces.mvc.BridgeSceneControllerInterface;
-import grail.interfaces.mvc.CommandInterpreterControllerInterface;
-import grail.interfaces.mvc.CommandInterpreterViewInterface;
 import grail.interfaces.mvc.DelegatingBridgeSceneViewInterface;
 import grail.interfaces.mvc.PaintingViewMaster;
-import grail.mvc.controller.CommandInterpreterController;
-import grail.mvc.view.CommandInterpreterView;
-import grail.mvc.view.ConsoleSceneView;
-import grail.mvc.view.DelegatingBridgeSceneView;
-import grail.scanner.CommandInterpreter;
-import grail.scanner.ScannerBean;
+import grail.mvc.view.CustomSwingTextFieldFactory;
 import util.annotations.Tags;
 import util.misc.ThreadSupport;
 
 @Tags({"ProgressBarCreator"})
-public class Assignment10 {
+public class Assignment12 {
 
 		public static void main(String[] args) throws InterruptedException {
+		}//end main
 		
-		}
 }//end class
 //END OF FILE

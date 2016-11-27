@@ -1,0 +1,5 @@
+  -- classHasAtLeastOneInterface: (SleepBasedAnimator.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (WaitBasedAnimator.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (Oval.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (Rectangle.java:1) Classes with public instance methods should implement interfaces
+

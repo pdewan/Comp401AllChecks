@@ -57,7 +57,7 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	// command classes exist
-     	addFeature("Basic command classes defined and used", 3,
+     	addFeature("Basic command classes defined and used", 12,
      			new CheckstyleConstructorDefinedTestCase("ApproachCommand", ":@BridgeScene;@Avatar"),
      			new CheckstyleConstructorDefinedTestCase("PassCommand",":@BridgeScene"),
      			new CheckstyleConstructorDefinedTestCase("FailCommand",":@BridgeScene"),
@@ -73,7 +73,7 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	
-     	addFeature("Composite command classes defined and used", 3,
+     	addFeature("Composite command classes defined and used", 9,
      			new CheckstyleConstructorDefinedTestCase("CommandList", ":int;@Runnable"),
      			new CheckstyleConstructorDefinedTestCase("RepeatCommand",":@BridgeScene"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "CommandList"),
@@ -87,7 +87,7 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	
      	
      	// parsing methods exist
-     	addFeature("Parsing methods are created and used", 3, 
+     	addFeature("Parsing methods are created and used", 17, 
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseSayCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseMoveCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseCommand:*->Runnable"),
@@ -109,14 +109,14 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	// Parser properties
-     	addFeature("Parser has correct properties", 3, 
+     	addFeature("Parser has correct properties", 6, 
      			new CheckStyleEditablePropertyDefinedTestCase("Parser", "CommandText", "String"),
      			new CheckStylePropertyDefinedTestCase("Parser", "CommandText", "String"),
      			new CheckStylePropertyDefinedTestCase("Parser", "CommandObject", "Runnable")
      			);
      	
      	// parseNumber extra credit
-     	addFeature("parseNumber exists and is used", 3, true,
+     	addFeature("parseNumber exists and is used", 4, true,
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseNumber:*->*//EC"),
      			new CheckstyleMethodCalledTestCase("Parser", "@parseNumber:*->*//EC")
      			);
@@ -126,17 +126,16 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			new CheckStylePropertyDefinedTestCase("Parser", "Errors", "*")
      			);
      	
-     	// Manual: All preconditions shown, precondition events fired
-   	addManualFeature("Console shows all precondition events being fired", 10, false); 
-     	
      	// Manual: asynch methods
-   	addManualFeature("Animation shows animations acting asynchronously", 10, false); 
+   	addManualFeature("Two animation calls on different avatars are concurrent", 5, false); 
       
      	// Manual, EC: buttons deactivated properly, work
-   	addManualFeature("CommandInterpreter buttons activate and deactivate properly", 9, true); 
+   	addManualFeature("Two animation calls on same avatar are sequential", 5, false); 
    	
      	// Manual, EC: clap animation
-   	addManualFeature("Animation shows clapping guard", 3, true); 
+   	addManualFeature("One of the shown commands is ...{ ...repeat # {...}...}", 7, false);
+   	addManualFeature("Animation shows all other relevant commands", 6, false);
+   	addManualFeature("Animation shows use of negative numbers", 5, true);
       
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
