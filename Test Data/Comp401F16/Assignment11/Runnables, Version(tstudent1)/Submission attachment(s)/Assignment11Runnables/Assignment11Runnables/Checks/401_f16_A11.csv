@@ -570,3 +570,4 @@
 16,Tue Nov 29 09:38:11 EST 2016,true,grail\interfaces\CommandInterpreterInterface.java,typeDefined,CommandInterpreterInterface,@ObservableCommandInterpreter//EC,Interface
 16,Tue Nov 29 09:38:11 EST 2016,true,grail\mvc\view\ConsoleSceneView.java,typeDefined,ConsoleSceneView,@ConsoleSceneView,Class
 16,Tue Nov 29 09:38:11 EST 2016,true,grail\tokenBeans\commandBeans\PassCommandToken.java,typeDefined,PassCommandToken,@Pass,Class
+17,Sat Dec 03 17:07:27 EST 2016,true,grail\interfaces\CommandListInterface.java,typeDefined,CommandListInterface,@CommandList,Interface

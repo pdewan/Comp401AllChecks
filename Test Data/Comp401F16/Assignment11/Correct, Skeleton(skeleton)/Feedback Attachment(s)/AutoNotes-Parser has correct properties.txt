@@ -2,5 +2,3 @@
 
   -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandText of type String
 
-  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
-

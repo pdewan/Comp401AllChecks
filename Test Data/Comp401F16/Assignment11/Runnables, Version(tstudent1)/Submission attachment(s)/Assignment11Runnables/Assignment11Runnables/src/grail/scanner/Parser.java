@@ -3,7 +3,7 @@ package grail.scanner;
 import grail.SingletonsCreator;
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.BridgeSceneInterface;
-import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.CommandListInterface;
 import grail.interfaces.Number;
 import grail.interfaces.ParserInterface;
 import grail.interfaces.ScannerBeanInterface;
@@ -343,7 +343,7 @@ public class Parser implements ParserInterface {
 	private CommandList parseCommandList(){
 		next();	// Skip first token
 		
-		CompositeCommandThread commandList = new CommandList();
+		CommandListInterface commandList = new CommandList();
 		
 		while(hasNext() && !(peek() instanceof EndToken)){
 			commandList.add(parseCommand());

@@ -1575,10 +1575,13 @@ public interface CommandInterpreterInterface {
 	void clapGuard();
 }
 //END OF FILE
-//START OF FILE: src/grail/interfaces/compositecommandthread.java
+//START OF FILE: src/grail/interfaces/commandlistinterface.java
 package grail.interfaces;
 
-public interface CompositeCommandThread extends Runnable{
+import util.annotations.Tags;
+
+@Tags("CommandList")
+public interface CommandListInterface extends Runnable{
 	public void add(Runnable r);
 }
 //END OF FILE
@@ -2667,7 +2670,7 @@ package grail.scanner;
 import grail.SingletonsCreator;
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.BridgeSceneInterface;
-import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.CommandListInterface;
 import grail.interfaces.Number;
 import grail.interfaces.ParserInterface;
 import grail.interfaces.ScannerBeanInterface;
@@ -3007,7 +3010,7 @@ public class Parser implements ParserInterface {
 	private CommandList parseCommandList(){
 		next();	// Skip first token
 		
-		CompositeCommandThread commandList = new CommandList();
+		CommandListInterface commandList = new CommandList();
 		
 		while(hasNext() && !(peek() instanceof EndToken)){
 			commandList.add(parseCommand());
@@ -3538,11 +3541,11 @@ package grail.scanner.commands;
 import java.util.ArrayList;
 import java.util.List;
 
-import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.CommandListInterface;
 import util.annotations.Tags;
 
 @Tags({"CommandList"})
-public class CommandList implements CompositeCommandThread{
+public class CommandList implements CommandListInterface{
 
 	private List<Runnable> commands = new ArrayList<Runnable>();
 	

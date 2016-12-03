@@ -2,6 +2,7 @@ package gradingTools.comp401f16.assignment11;
 
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import gradingTools.comp401f15.assignment11.testcases.AbstractClassTestCase;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f16.assignment10.testcases.Assignment10Suite;
 import gradingTools.comp401f16.assignment11.testcases.Assignment11Suite;
@@ -44,7 +45,11 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
 
-     	// TODO: is there a way to check that classes are abstract, or that methods are synchronized?
+     	addFeature("Abstract classes", 9,
+            new AbstractClassTestCase("Locatable"),
+            new AbstractClassTestCase("BoundedShape"),
+            new AbstractClassTestCase("Token")
+            );
      	
      	// iterator methods exist and are used
      	addFeature("Iterator methods exist and are used", 7, 
@@ -75,7 +80,7 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	
      	
      	addFeature("Composite command classes defined and used", 8,
-     			new CheckstyleConstructorDefinedTestCase("RepeatCommand",":int;@Runnable"),
+     			new CheckstyleConstructorDefinedTestCase("RepeatCommand",":int;Runnable"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "CommandList"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RepeatCommand"),
      			new CheckstyleInterfaceDefinedTestCase("CommandList", "Runnable"),
@@ -111,8 +116,8 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	// Parser properties
      	addFeature("Parser has correct properties", 6, 
      			new CheckStyleEditablePropertyDefinedTestCase("Parser", "CommandText", "String"),
-     			new CheckStylePropertyDefinedTestCase("Parser", "CommandText", "String"),
-     			new CheckStylePropertyDefinedTestCase("Parser", "CommandObject", "Runnable")
+     			new CheckStylePropertyDefinedTestCase("Parser", "CommandText", "String")
+//     			new CheckStylePropertyDefinedTestCase("Parser", "CommandObject", "Runnable")	// May not be runnable
      			);
      	
      	// parseNumber extra credit
@@ -126,11 +131,11 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			new CheckStylePropertyDefinedTestCase("Parser", "Errors", "*")
      			);
      	
-     	addManualFeature("Two animation calls on different avatars are concurrent", 5, false); 
-   	addManualFeature("Two animation calls on same avatar are sequential", 5, false); 
+     	addManualFeature("Animation shows different animators animating concurrently.", 5, false); 
+   	addManualFeature("Animation shows same avatar animating sequentially", 5, false); 
    
    	addManualFeature("One of the shown commands is ...{ ...repeat # {...}...}", 7, false);
-   	addManualFeature("Animation shows all other relevant commands", 6, false);
+   	addManualFeature("Animation shows all other relevant commands", 8, false);
    	addManualFeature("Animation shows use of negative numbers", 5, true);
       
      	addManualRestriction(INTERACTIVE_RUN, 5, 

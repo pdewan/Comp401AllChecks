@@ -1,5 +1,5 @@
 Starting audit...
-src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment11, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @AnimatingCommand, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @Parser, @Token, @SingletonsCreator, @ProgressBarCreator//EC]
+src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment11, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @Parser, @Token, @SingletonsCreator, @ProgressBarCreator//EC]
 src\grail\animations\AnimatingCommand.java:1: typeDefined: (AnimatingCommand.java:1) Class AnimatingCommand matching tag @AnimatingCommand defined
 src\grail\animations\AnimatingCommand.java:13:51: warning: 'animator' hides a field.
 src\grail\animations\AnimatingCommand.java:13:77: warning: 'avatar' hides a field.
@@ -41,7 +41,7 @@ src\grail\interfaces\CommandInterpreterInterface.java:1: typeDefined: (CommandIn
 src\grail\interfaces\CommandInterpreterInterface.java:1: typeDefined: (CommandInterpreterInterface.java:1) Interface CommandInterpreterInterface matching tag @ErrorResilientCommandInterpreter//EC defined
 src\grail\interfaces\CommandInterpreterInterface.java:1: typeDefined: (CommandInterpreterInterface.java:1) Interface CommandInterpreterInterface matching tag @ObservableCommandInterpreter//EC defined
 src\grail\interfaces\CommandInterpreterInterface.java:1: typeDefined: (CommandInterpreterInterface.java:1) Interface CommandInterpreterInterface matching tag @SignedMoveCommandInterpreter//EC defined
-src\grail\interfaces\CompositeCommandThread.java:1: typeDefined: (CompositeCommandThread.java:1) Interface CompositeCommandThread matching tag No Expected Tag defined
+src\grail\interfaces\CommandListInterface.java:1: typeDefined: (CommandListInterface.java:1) Interface CommandListInterface matching tag @CommandList defined
 src\grail\interfaces\GorgeWithBridgeInterface.java:1: typeDefined: (GorgeWithBridgeInterface.java:1) Interface GorgeWithBridgeInterface matching tag No Expected Tag defined
 src\grail\interfaces\ImageInterface.java:1: typeDefined: (ImageInterface.java:1) Interface ImageInterface matching tag No Expected Tag defined
 src\grail\interfaces\Locatable.java:1: typeDefined: (Locatable.java:1) Interface Locatable matching tag @Locatable defined
@@ -111,16 +111,11 @@ src\grail\scanner\commands\MoveCommand.java:13:69: warning: 'yOffset' hides a fi
 src\grail\scanner\commands\PassCommand.java:1: typeDefined: (PassCommand.java:1) Class PassCommand matching tag @PassCommand defined
 src\grail\scanner\commands\PassCommand.java:11:49: warning: 'scene' hides a field.
 src\grail\scanner\commands\RepeatCommand.java:1: typeDefined: (RepeatCommand.java:1) Class RepeatCommand matching tag @RepeatCommand defined
-src\grail\scanner\commands\RepeatCommand.java:5: warning: expectedConstructors: (RepeatCommand.java:5) In type RepeatCommand, missing constructor: :int;@Runnable
 src\grail\scanner\commands\RepeatCommand.java:11:34: warning: 'count' hides a field.
 src\grail\scanner\commands\RepeatCommand.java:11:50: warning: 'command' hides a field.
 src\grail\scanner\commands\SayCommand.java:1: typeDefined: (SayCommand.java:1) Class SayCommand matching tag @SayCommand defined
 src\grail\scanner\commands\SayCommand.java:12:48: warning: 'scene' hides a field.
 src\grail\scanner\commands\SayCommand.java:12:62: warning: 'quote' hides a field.
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @RotateLeftArmCommand//EC should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @RotateRightArmCommand//EC should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @SleepCommand should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
 src\grail\scanner\Parser.java:1: typeDefined: (Parser.java:1) Class Parser matching tag @Parser defined
 src\grail\scanner\Parser.java:151: warning: variableHasClassType: (Parser.java:151) Class SayCommand rather than interface used as the type of variable/function parseSayCommand
 src\grail\scanner\Parser.java:182: warning: variableHasClassType: (Parser.java:182) Class MoveCommand rather than interface used as the type of variable/function parseMoveCommand

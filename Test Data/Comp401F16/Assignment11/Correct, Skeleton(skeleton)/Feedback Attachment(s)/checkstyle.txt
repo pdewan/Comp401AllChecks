@@ -1,7 +1,8 @@
 Starting audit...
-src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment11, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @AnimatingCommand, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @Parser, @Token, @SingletonsCreator, @ProgressBarCreator//EC]
+src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment11, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @Parser, @Token, @SingletonsCreator, @ProgressBarCreator//EC]
 src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call @Animator!@AnimateAvatar:@Avatar->void
 src\grail\animations\AnimatingCommand.java:1: typeDefined: (AnimatingCommand.java:1) Class AnimatingCommand matching tag @AnimatingCommand defined
+src\grail\animations\AnimatingCommand.java:9: warning: expectedConstructors: (AnimatingCommand.java:9) In type AnimatingCommand, missing constructor: :@Animator;@Avatar
 src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
 src\grail\animations\Animator.java:1: typeDefined: (Animator.java:1) Class Animator matching tag @Animator defined
 src\grail\animations\Animator.java:12: warning: expectedDeclaredSignatures: (Animator.java:12) In type Animator, missing declared signature: @animateAvatar:@Avatar->void
@@ -281,17 +282,12 @@ src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (
 src\grail\scanner\commands\ApproachCommand.java:1: typeDefined: (ApproachCommand.java:1) Class ApproachCommand matching tag @ApproachCommand defined
 src\grail\scanner\commands\ApproachCommand.java:8: warning: expectedConstructors: (ApproachCommand.java:8) In type ApproachCommand, missing constructor: :@BridgeScene;@Avatar
 src\grail\scanner\commands\ApproachCommand.java:8: warning: expectedInterfaces: (ApproachCommand.java:8) In type ApproachCommand, missing interface: Runnable
-src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call (.*)!get:Object->Object
 src\grail\scanner\commands\CallCommand.java:1: typeDefined: (CallCommand.java:1) Class CallCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\CallCommand.java:9: warning: expectedInterfaces: (CallCommand.java:9) In type CallCommand, missing interface: Runnable
 src\grail\scanner\commands\CommandList.java:1: warning: missingMethodCall: (CommandList.java:1) has not made expected call Runnable!run:->void
 src\grail\scanner\commands\CommandList.java:1: typeDefined: (CommandList.java:1) Class CommandList matching tag @CommandList defined
 src\grail\scanner\commands\CommandList.java:9: warning: expectedDeclaredSignatures: (CommandList.java:9) In type CommandList, missing declared signature: @add:Runnable->*
 src\grail\scanner\commands\CommandList.java:9: warning: expectedInterfaces: (CommandList.java:9) In type CommandList, missing interface: Runnable
-src\grail\scanner\commands\DefineCommand.java:1: warning: missingMethodCall: (DefineCommand.java:1) has not made expected call (.*)!put:Object;Object->*
 src\grail\scanner\commands\DefineCommand.java:1: typeDefined: (DefineCommand.java:1) Class DefineCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\DefineCommand.java:9: warning: expectedConstructors: (DefineCommand.java:9) In type DefineCommand, missing constructor: :String;@Runnable;@Table
-src\grail\scanner\commands\DefineCommand.java:9: warning: expectedInterfaces: (DefineCommand.java:9) In type DefineCommand, missing interface: Runnable
 src\grail\scanner\commands\ExecuteUndoableCommand.java:1: typeDefined: (ExecuteUndoableCommand.java:1) Class ExecuteUndoableCommand matching tag No Expected Tag defined
 src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
 src\grail\scanner\commands\FailCommand.java:1: typeDefined: (FailCommand.java:1) Class FailCommand matching tag @FailCommand defined
@@ -308,42 +304,26 @@ src\grail\scanner\commands\ProceedAllCommand.java:1: typeDefined: (ProceedAllCom
 src\grail\scanner\commands\RedoCommand.java:1: typeDefined: (RedoCommand.java:1) Class RedoCommand matching tag No Expected Tag defined
 src\grail\scanner\commands\RepeatCommand.java:1: warning: missingMethodCall: (RepeatCommand.java:1) has not made expected call Runnable!run:->void
 src\grail\scanner\commands\RepeatCommand.java:1: typeDefined: (RepeatCommand.java:1) Class RepeatCommand matching tag @RepeatCommand defined
-src\grail\scanner\commands\RepeatCommand.java:6: warning: expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;@Runnable
+src\grail\scanner\commands\RepeatCommand.java:6: warning: expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
 src\grail\scanner\commands\RepeatCommand.java:6: warning: expectedInterfaces: (RepeatCommand.java:6) In type RepeatCommand, missing interface: Runnable
-src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotateLeftArm:int->void
 src\grail\scanner\commands\RotateLeftArmCommand.java:1: typeDefined: (RotateLeftArmCommand.java:1) Class RotateLeftArmCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\RotateLeftArmCommand.java:7: warning: expectedConstructors: (RotateLeftArmCommand.java:7) In type RotateLeftArmCommand, missing constructor: :@Avatar; int
-src\grail\scanner\commands\RotateLeftArmCommand.java:7: warning: expectedInterfaces: (RotateLeftArmCommand.java:7) In type RotateLeftArmCommand, missing interface: Runnable
-src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotateRightArm:int->void
 src\grail\scanner\commands\RotateRightArmCommand.java:1: typeDefined: (RotateRightArmCommand.java:1) Class RotateRightArmCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\RotateRightArmCommand.java:7: warning: expectedConstructors: (RotateRightArmCommand.java:7) In type RotateRightArmCommand, missing constructor: :@Avatar; int
 src\grail\scanner\commands\SayCommand.java:1: warning: missingMethodCall: (SayCommand.java:1) has not made expected call (.*)!@say:String->*
 src\grail\scanner\commands\SayCommand.java:1: typeDefined: (SayCommand.java:1) Class SayCommand matching tag @SayCommand defined
 src\grail\scanner\commands\SayCommand.java:7: warning: expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
 src\grail\scanner\commands\SayCommand.java:7: warning: expectedInterfaces: (SayCommand.java:7) In type SayCommand, missing interface: Runnable
-src\grail\scanner\commands\SleepCommand.java:1: warning: missingMethodCall: (SleepCommand.java:1) has not made expected call (.*)!sleep:long->void
 src\grail\scanner\commands\SleepCommand.java:1: typeDefined: (SleepCommand.java:1) Class SleepCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\SleepCommand.java:8: warning: expectedConstructors: (SleepCommand.java:8) In type SleepCommand, missing constructor: :long
-src\grail\scanner\commands\SleepCommand.java:8: warning: expectedInterfaces: (SleepCommand.java:8) In type SleepCommand, missing interface: Runnable
-src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call (.*)!get:Object->Object
-src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call Thread!start:->void
 src\grail\scanner\commands\ThreadCommand.java:1: typeDefined: (ThreadCommand.java:1) Class ThreadCommand matching tag No Expected Tag defined
-src\grail\scanner\commands\ThreadCommand.java:13: warning: expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String;@Table
-src\grail\scanner\commands\ThreadCommand.java:13: warning: expectedInterfaces: (ThreadCommand.java:13) In type ThreadCommand, missing interface: Runnable
 src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag No Expected Tag defined
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @ApproachCommand should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @CommandList should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @FailCommand should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @PassCommand should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @RepeatCommand should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @RotateLeftArmCommand//EC should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @RotateRightArmCommand//EC should be instantiated by grail.scanner.Parser 
-src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @SleepCommand should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
 src\grail\scanner\Parser.java:1: warning: expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandText of type String
 src\grail\scanner\Parser.java:1: warning: expectedGetters: (Parser.java:1) In type Parser, missing getter for property Errors of type *//EC
 src\grail\scanner\Parser.java:1: warning: expectedSetters: (Parser.java:1) In type Parser, missing setter for property CommandText of type String
-src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @SingletonsCreator!@scannerFactoryMethod:->@ScannerBean
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseApproachCommand:*->Runnable
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommand:*->Runnable
@@ -354,6 +334,7 @@ src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parsePassCommand:*->Runnable
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRepeatCommand:*->Runnable
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSayCommand:*->Runnable
+src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call Runnable@add:Runnable->*
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call next:->*
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call peek:->*
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call reset:->*

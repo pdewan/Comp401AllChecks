@@ -1,4 +1,4 @@
-  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;@Runnable
+  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
 
   -- Class matching CommandList not instantiated in Parser
   -- Class matching RepeatCommand not instantiated in Parser

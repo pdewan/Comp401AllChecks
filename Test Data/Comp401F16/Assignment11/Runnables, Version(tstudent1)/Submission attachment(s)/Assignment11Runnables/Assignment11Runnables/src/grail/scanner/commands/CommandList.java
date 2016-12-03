@@ -3,11 +3,11 @@ package grail.scanner.commands;
 import java.util.ArrayList;
 import java.util.List;
 
-import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.CommandListInterface;
 import util.annotations.Tags;
 
 @Tags({"CommandList"})
-public class CommandList implements CompositeCommandThread{
+public class CommandList implements CommandListInterface{
 
 	private List<Runnable> commands = new ArrayList<Runnable>();
 	

@@ -7,20 +7,21 @@ CommandInterpreterSuiteA11                             145.0 / 145.0
 SyncAnimationSuite                                     50.0 / 50.0
 ParserSuite                                            40.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
+Abstract classes                                       9.0 /  9.0
 Iterator methods exist and are used                    7.0 /  7.0
 Basic command classes defined and used                 12.0 / 12.0
 Composite command classes defined and used             7.0 /  8.0
 Parsing methods are created and used                   16.0 / 17.0
-Parser has correct properties                          4.0 /  6.0
+Parser has correct properties                          6.0 /  6.0
 parseNumber exists and is used                         4.0 /  4.0 (Extra credit)
 Parser has error property                              2.0 /  2.0 (Extra credit)
-Two animation calls on different avatars are concurrent0.0 /  5.0
-Two animation calls on same avatar are sequential      0.0 /  5.0
+Animation shows different animators animating concurrently. 0.0 /  5.0
+Animation shows same avatar animating sequentially     0.0 /  5.0
 One of the shown commands is ...{ ...repeat # {...}...}0.0 /  7.0
-Animation shows all other relevant commands            0.0 /  6.0
+Animation shows all other relevant commands            0.0 /  8.0
 Animation shows use of negative numbers                0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 337.0
+  Points Awarded: 348.0
 
 Grading restrictions...
 ----------------------------------
@@ -30,22 +31,18 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 332.0
+  Features Score: 343.0
 
 Notes from grading features:
 ----------------------------------
 Composite command classes defined and used:
-  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;@Runnable
+  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
 
 
 Parsing methods are created and used:
   -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
 
 
-Parser has correct properties:
-  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
-
-
 
 Early benefit: 105.0%
-  Total Score: 348.6
+  Total Score: 360.15000000000003
