@@ -341,7 +341,7 @@ public class Parser implements ParserInterface {
 	}
 	
 	
-	private CompositeCommandThread parseCommandList(){
+	private CommandList parseCommandList(){
 		next();	// Skip first token
 		
 		CompositeCommandThread commandList = new CommandList();
@@ -367,7 +367,7 @@ public class Parser implements ParserInterface {
 			return null;
 		}
 		
-		return commandList;
+		return (CommandList)commandList;
 	}
 	
 	

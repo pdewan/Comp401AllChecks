@@ -1,5 +1,5 @@
   -- Class matching AnimatingCommand not instantiated in CommandInterpreter
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+  -- src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousArthur:->void
 
@@ -9,5 +9,5 @@
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\main\Assignment10.java:1: warning: missingMethodCall: (Assignment10.java:1) has not made expected call (.*)!@asynchronous(.*):->void
+  -- src\main\Assignment10.java:1: warning: missingMethodCall: (Assignment10.java:1) has not made expected call (.*)!@asynchronous(.*):->void
 

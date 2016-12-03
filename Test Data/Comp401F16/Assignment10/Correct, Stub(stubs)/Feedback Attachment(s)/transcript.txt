@@ -3,16 +3,16 @@
 Factory method:[bridgescenefactorymethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public void grail.graphics.BridgeScene.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase@62923ee6]timeOut:2000
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public boolean grail.graphics.BridgeScene.preApproach() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public boolean grail.graphics.BridgeScene.preFailed() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public boolean grail.graphics.BridgeScene.prePassed() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public boolean grail.graphics.BridgeScene.preSay() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public void grail.graphics.BridgeScene.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase@3d278b4d]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public boolean grail.graphics.BridgeScene.preApproach() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public boolean grail.graphics.BridgeScene.preFailed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public boolean grail.graphics.BridgeScene.prePassed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public boolean grail.graphics.BridgeScene.preSay() args:[]timeOut:2000
 preApproach Before Approach:false
 preSay Before Approach:false
 preFailed Before Approach:false
 prePassed Before Approach:false
-Calling on object grail.graphics.BridgeScene@7f811d00 2139168000 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@12ffd1de 318755294 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase: 0.0
 *****************************(CommandObjectSuite)*****************************
 ### gradingTools.comp401f16.assignment10.commandObjects.testcases.MoveCommandObjectTestCase: 1.0

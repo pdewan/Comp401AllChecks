@@ -4,9 +4,12 @@
 
   -- expectedConstructors: (FailCommand.java:7) In type FailCommand, missing constructor: :@BridgeScene
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (ApproachCommand.java:1) has not made expected call (.*)!@approach:@Avatar->*
+  -- Class matching ApproachCommand not instantiated in Parser
+  -- Class matching PassCommand not instantiated in Parser
+  -- Class matching FailCommand not instantiated in Parser
+  -- src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (ApproachCommand.java:1) has not made expected call (.*)!@approach:@Avatar->*
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\commands\PassCommand.java:1: warning: missingMethodCall: (PassCommand.java:1) has not made expected call (.*)!@passed:->*
+  -- src\grail\scanner\commands\PassCommand.java:1: warning: missingMethodCall: (PassCommand.java:1) has not made expected call (.*)!@passed:->*
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
+  -- src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
 

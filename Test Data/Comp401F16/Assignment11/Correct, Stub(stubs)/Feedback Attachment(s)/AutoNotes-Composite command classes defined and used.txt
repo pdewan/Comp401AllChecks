@@ -1,3 +1,8 @@
+  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;@Runnable
+
   -- Class matching CommandList not instantiated in Parser
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\commands\CommandList.java:1: warning: missingMethodCall: (CommandList.java:1) has not made expected call Runnable!run:->void
+  -- Class matching RepeatCommand not instantiated in Parser
+  -- src\grail\scanner\commands\CommandList.java:1: warning: missingMethodCall: (CommandList.java:1) has not made expected call Runnable!run:->void
+
+  -- src\grail\scanner\commands\RepeatCommand.java:1: warning: missingMethodCall: (RepeatCommand.java:1) has not made expected call Runnable!run:->void
 

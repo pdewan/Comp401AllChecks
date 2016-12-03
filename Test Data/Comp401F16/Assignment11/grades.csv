@@ -1,7 +1,8 @@
 Assignment 1,Points,,,
 ,,,,
 Display ID,ID,Last Name,First Name,grade
-previous,previous,Previous,Assignment,31.5
+previous,previous,Previous,Assignment,15.75
 skeleton,skeleton,Correct,Skeleton,0.0
 stubs,stubs,Correct,Stub,0.0
-tstudent0,tstudent0,Test0,Student,393.75
+tstudent0,tstudent0,Test0,Student,348.6
+tstudent1,tstudent1,Runnables,Version,350.7

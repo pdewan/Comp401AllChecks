@@ -1,7 +1,0 @@
-  -- variableHasClassType: (Parser.java:152) Class SayCommand rather than interface used as the type of variable/function parseSayCommand
-variableHasClassType: (Parser.java:183) Class MoveCommand rather than interface used as the type of variable/function parseMoveCommand
-variableHasClassType: (Parser.java:290) Class ApproachCommand rather than interface used as the type of variable/function parseApproachCommand
-variableHasClassType: (Parser.java:327) Class PassCommand rather than interface used as the type of variable/function parsePassCommand
-variableHasClassType: (Parser.java:338) Class FailCommand rather than interface used as the type of variable/function parseFailCommand
-variableHasClassType: (Parser.java:374) Class RepeatCommand rather than interface used as the type of variable/function parseRepeatCommand
-

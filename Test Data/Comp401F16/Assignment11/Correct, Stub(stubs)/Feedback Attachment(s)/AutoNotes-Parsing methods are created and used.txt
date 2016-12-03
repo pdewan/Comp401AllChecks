@@ -1,32 +1,18 @@
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSayCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSayCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseMoveCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseMoveCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseApproachCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseApproachCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parsePassCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parsePassCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseFailCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseFailCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRepeatCommand:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRepeatCommand:*->Runnable
 
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCommandList:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommandList:*->Runnable
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSayCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseMoveCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseApproachCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parsePassCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseFailCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRepeatCommand:*->Runnable
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Stub(stubs)\Submission attachment(s)\Assignment12Stubs\Assignment12Stubs\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommandList:*->Runnable
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
 

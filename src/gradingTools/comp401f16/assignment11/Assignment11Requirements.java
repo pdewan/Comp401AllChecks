@@ -38,8 +38,9 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	addFeature("Public methods are in implemented interfaces", 10, 
      			new ClassHasAtLeastOneInterfaceTestCase());
      	
-     	addRestriction("Variables should have interface, not class, type", 10, 
-     			new CheckStyleVariableHasClassTypeTestCase());
+     	//not used due to parse methods returning non-interfaces
+//     	addRestriction("Variables should have interface, not class, type", 10, 
+//     			new CheckStyleVariableHasClassTypeTestCase());
      	
      	addRestriction("No magic numbers", 10, new CheckStyleMagicNumberTestCase());
 
@@ -73,9 +74,8 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	
-     	addFeature("Composite command classes defined and used", 9,
-     			new CheckstyleConstructorDefinedTestCase("CommandList", ":int;@Runnable"),
-     			new CheckstyleConstructorDefinedTestCase("RepeatCommand",":@BridgeScene"),
+     	addFeature("Composite command classes defined and used", 8,
+     			new CheckstyleConstructorDefinedTestCase("RepeatCommand",":int;@Runnable"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "CommandList"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RepeatCommand"),
      			new CheckstyleInterfaceDefinedTestCase("CommandList", "Runnable"),
@@ -88,23 +88,23 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	
      	// parsing methods exist
      	addFeature("Parsing methods are created and used", 17, 
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSayCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseMoveCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseApproachCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parsePassCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseFailCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRepeatCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseCommandList:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseSayCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseMoveCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseApproachCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parsePassCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseFailCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseRepeatCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "parseCommandList:*->Runnable"),
 
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseSayCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseMoveCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseApproachCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parsePassCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseFailCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseRepeatCommand:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseCommandList:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseSayCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseMoveCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseApproachCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parsePassCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseFailCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseRepeatCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "parseCommandList:*->Runnable"),
      			new CheckstyleMethodCalledTestCase("Parser", "@CommandList!@add:Runnable->*")
      			);
      	
@@ -126,13 +126,9 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      			new CheckStylePropertyDefinedTestCase("Parser", "Errors", "*")
      			);
      	
-     	// Manual: asynch methods
-   	addManualFeature("Two animation calls on different avatars are concurrent", 5, false); 
-      
-     	// Manual, EC: buttons deactivated properly, work
+     	addManualFeature("Two animation calls on different avatars are concurrent", 5, false); 
    	addManualFeature("Two animation calls on same avatar are sequential", 5, false); 
-   	
-     	// Manual, EC: clap animation
+   
    	addManualFeature("One of the shown commands is ...{ ...repeat # {...}...}", 7, false);
    	addManualFeature("Animation shows all other relevant commands", 6, false);
    	addManualFeature("Animation shows use of negative numbers", 5, true);

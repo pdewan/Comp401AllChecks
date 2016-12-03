@@ -4,15 +4,18 @@
 
   -- expectedConstructors: (FailCommand.java:7) In type FailCommand, missing constructor: :@BridgeScene
 
+  -- Class matching ApproachCommand not instantiated in Parser
+  -- Class matching PassCommand not instantiated in Parser
+  -- Class matching FailCommand not instantiated in Parser
   -- expectedInterfaces: (ApproachCommand.java:8) In type ApproachCommand, missing interface: Runnable
 
   -- expectedInterfaces: (PassCommand.java:7) In type PassCommand, missing interface: Runnable
 
   -- expectedInterfaces: (FailCommand.java:7) In type FailCommand, missing interface: Runnable
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (ApproachCommand.java:1) has not made expected call (.*)!@approach:@Avatar->*
+  -- src\grail\scanner\commands\ApproachCommand.java:1: warning: missingMethodCall: (ApproachCommand.java:1) has not made expected call (.*)!@approach:@Avatar->*
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\PassCommand.java:1: warning: missingMethodCall: (PassCommand.java:1) has not made expected call (.*)!@passed:->*
+  -- src\grail\scanner\commands\PassCommand.java:1: warning: missingMethodCall: (PassCommand.java:1) has not made expected call (.*)!@passed:->*
 
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
+  -- src\grail\scanner\commands\FailCommand.java:1: warning: missingMethodCall: (FailCommand.java:1) has not made expected call (.*)!@failed:->*
 

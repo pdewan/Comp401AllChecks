@@ -1,4 +1,0 @@
-  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
-
-  -- expectedConstructors: (MoveCommand.java:8) In type MoveCommand, missing constructor: :@Avatar; int; int
-

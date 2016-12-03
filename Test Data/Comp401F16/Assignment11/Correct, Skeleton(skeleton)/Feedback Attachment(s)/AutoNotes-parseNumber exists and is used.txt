@@ -1,2 +1,4 @@
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment11\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment12Skeleton\Assignment12Skeleton\src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseNumber:*->*//EC
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseNumber:*->*//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseNumber:*->*//EC
 

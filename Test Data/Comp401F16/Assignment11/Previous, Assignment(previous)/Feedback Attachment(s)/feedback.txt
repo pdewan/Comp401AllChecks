@@ -2,35 +2,35 @@ Grading result for: Previous, Assignment(previous)
 
 Grading features...
 ----------------------------------
-CommandObjectSuiteA11                                  0.0 / 70.0
-CommandInterpreterSuiteA11                             15.0 / 195.0
+CommandObjectSuiteA11                                  0.0 / 40.0
+CommandInterpreterSuiteA11                             0.0 / 145.0
 SyncAnimationSuite                                     10.0 / 50.0
-ParserSuite                                            0.0 / 45.0
+ParserSuite                                            0.0 / 40.0
 Public methods are in implemented interfaces           10.0 / 10.0
 Iterator methods exist and are used                    0.0 /  7.0
-Basic command classes defined and used                 0.0 /  3.0
-Composite command classes defined and used             0.0 /  3.0
-Parsing methods are created and used                   0.0 /  3.0
-Parser has correct properties                          0.0 /  3.0
-parseNumber exists and is used                         0.0 /  3.0 (Extra credit)
+Basic command classes defined and used                 0.0 / 12.0
+Composite command classes defined and used             0.0 /  8.0
+Parsing methods are created and used                   0.0 / 17.0
+Parser has correct properties                          0.0 /  6.0
+parseNumber exists and is used                         0.0 /  4.0 (Extra credit)
 Parser has error property                              0.0 /  2.0 (Extra credit)
-Console shows all precondition events being fired      0.0 / 10.0
-Animation shows animations acting asynchronously       0.0 / 10.0
-CommandInterpreter buttons activate and deactivate properly 0.0 /  9.0 (Extra credit)
-Animation shows clapping guard                         0.0 /  3.0 (Extra credit)
+Two animation calls on different avatars are concurrent0.0 /  5.0
+Two animation calls on same avatar are sequential      0.0 /  5.0
+One of the shown commands is ...{ ...repeat # {...}...}0.0 /  7.0
+Animation shows all other relevant commands            0.0 /  6.0
+Animation shows use of negative numbers                0.0 /  5.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 35.0
+  Points Awarded: 20.0
 
 Grading restrictions...
 ----------------------------------
-Variables should have interface, not class, type0.0 /  -10.0
 No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 30.0
+  Features Score: 15.0
 
 Notes from grading features:
 ----------------------------------
@@ -43,15 +43,15 @@ CommandObjectSuiteA11:
 
 CommandInterpreterSuiteA11:
   -- After approach occupied should be true and knight turn false
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 117
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 134
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 216
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 120
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 140
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 140
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 270
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 780
-  -- In: grail.graphics.RotatingLine@67ec8477 computedX 100 != correctX 2420
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 117
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 134
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 216
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 120
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 140
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 140
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 270
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 780
+  -- In: grail.graphics.RotatingLine@25aca718 computedX 100 != correctX 2420
 
 SyncAnimationSuite:
   -- Child 1 and Child 2 are not synchronized 
@@ -93,7 +93,6 @@ Basic command classes defined and used:
   -- FailCommand not found by checkstyle
 
 Composite command classes defined and used:
-  -- CommandList not found by checkstyle
   -- RepeatCommand not found by checkstyle
   -- Parser not found by checkstyle
   -- Parser not found by checkstyle
@@ -136,4 +135,4 @@ Parser has error property:
 
 
 Early benefit: 105.0%
-  Total Score: 31.5
+  Total Score: 15.75

@@ -1,5 +1,5 @@
   -- expectedInterfaces: (BridgeScene.java:17) In type BridgeScene, missing interface: PropertyListenerRegisterer
 
   -- Class matching PropertyChangeEvent not instantiated in BridgeScene
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment10\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
+  -- src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
 
