@@ -1,75 +1,89 @@
 *****************************(CommandObjectSuiteA11)*****************************
 ### gradingTools.comp401f16.assignment11.commandObjects.testcases.CommandListCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(100, 220)
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(117, 243)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(100, 220)
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(117, 243)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.commandObjects.testcases.RepeatCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(117, 243)
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(137, 293)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(117, 243)
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(137, 293)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.commandObjects.testcases.ApproachCommandObjectTestCase: 1.0
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@4fcee388 1338958728 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@3af17be2 988904418 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Avatar(images/lancelot.jpg) Approaches
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Fraction complete:0.05
+Interacting Knight Passed
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public void grail.graphics.BridgeScene.passed() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@1568159 22446425 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Fraction complete:0.15000000000000002
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.PassCommandObjectTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 Calling on object grail.graphics.Avatar@6e521c1e 1850874910 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
 Calling on object grail.graphics.Image@5d5d9e5 97901029 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
 Avatar(images/lancelot.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@6e521c1e]timeOut:2000
 Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.05
 Interacting Knight Passed
-Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public void grail.graphics.BridgeScene.passed() args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@5f4d427e 1598898814 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
-Fraction complete:0.15000000000000002
-### gradingTools.comp401f16.assignment11.commandObjects.testcases.PassCommandObjectTestCase: 1.0
+Fraction complete:0.1
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.FailCommandObjectTestCase: 1.0
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
 Calling on object grail.graphics.Avatar@1d9bec4d 496757837 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
@@ -79,270 +93,256 @@ Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public vo
 Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.05
-Interacting Knight Passed
+Interacting Knight Failed
 Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
 Calling on object grail.graphics.BridgeScene@362a019c 908722588 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.1
-### gradingTools.comp401f16.assignment11.commandObjects.testcases.FailCommandObjectTestCase: 1.0
-Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5ab14cb9 1521568953 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@439a8f59 1134202713 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
-Avatar(images/lancelot.jpg) Approaches
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@5ab14cb9]timeOut:2000
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
-Fraction complete:0.05
-Interacting Knight Failed
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@3f23a3a0 1059300256 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
-Fraction complete:0.1
 *****************************(CommandInterpreterSuiteA11)*****************************
 ### gradingTools.comp401f16.assignment11.testcases.commandInterpreterA11.ParsingAtomicCommandTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
 lancelot Approaches
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach lancelot ]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach lancelot ]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.6
 Interacting Knight Passed
 Executing command:pass 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[pass ]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[pass ]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:0.7
 robin Approaches
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach robin ]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach robin ]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:1.2999999999999998
 Interacting Knight Failed
 Executing command:fail 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getOccupied() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public boolean grail.graphics.BridgeScene.getKnightTurn() args:[]timeOut:2000
 Fraction complete:1.4
 ### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListMovesTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(137, 293)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(137, 293)
 Executing command:{ move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(154, 316)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(154, 316)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.list.TwoLevelListMovesTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(154, 316)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(154, 316)
 Executing command:{ move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(188, 354)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(188, 354)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.list.ManyLevelListMovesTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(188, 354)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(188, 354)
 Executing command:{ move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(304, 456)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(304, 456)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.OneLevelRepeatTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(304, 456)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(304, 456)
 Executing command:repeat 10 move arthur 2 5 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 10 move arthur 2 5 ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(324, 506)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 10 move arthur 2 5 ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(324, 506)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.TwoLevelRepeatTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(324, 506)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(324, 506)
 Executing command:repeat 2 repeat 10 move arthur 2 5 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 2 repeat 10 move arthur 2 5 ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(364, 606)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 2 repeat 10 move arthur 2 5 ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(364, 606)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.ManyLevelRepeatTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(364, 606)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(364, 606)
 Executing command:repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 move arthur 2 5 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 move arthur 2 5 ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(404, 706)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 move arthur 2 5 ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(404, 706)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.OneLevelRepeatOneLevelList: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(404, 706)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(404, 706)
 Executing command:repeat 10 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 10 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(574, 936)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 10 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(574, 936)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.TwoLevelRepeatTwoLevelList: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(574, 936)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(574, 936)
 Executing command:repeat 2 repeat 10 { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 2 repeat 10 { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } ]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(1254, 1696)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 2 repeat 10 { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } ]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(1254, 1696)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.ManyLevelRepeatManyLevelList: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Original location of:grail.graphics.RotatingLine@3af17be2 is:(1254, 1696)
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Original location of:grail.graphics.RotatingLine@6c345c5f is:(1254, 1696)
 Executing command:repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 { move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 { move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 1 repeat 1 repeat 1 repeat 2 repeat 10 { move arthur 77 6 { move arthur 4 55 { { move arthur 10 8 move arthur 4 6 { move arthur 2 5 move arthur 3 10 move arthur 5 2 move arthur 7 6 } move arthur 3 1 } } move arthur 1 3 } } ]timeOut:2000
 Cannot add item to a full history
 Cannot add item to a full history
 Cannot add item to a full history
@@ -353,52 +353,52 @@ Cannot add item to a full history
 Cannot add item to a full history
 Cannot add item to a full history
 Cannot add item to a full history
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Actual location of:grail.graphics.RotatingLine@3af17be2 is:(3574, 3736)
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public int grail.graphics.LocatableObject.getY() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Actual location of:grail.graphics.RotatingLine@6c345c5f is:(3574, 3736)
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
 *****************************(SyncAnimationSuite)*****************************
 ### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@591e58fa]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3954d008 961859592 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@591e58fa]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@593e824f 1497268815 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@6d8792db 1837601499 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@591e58fa]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@593e824f 1497268815 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@493dfb8e 1228798862 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@591e58fa]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@ce5a68e 216376974 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@591e58fa]timeOut:2000
-Previous threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@3a4e343]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6a1d204a 1780293706 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@3a4e343]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@4b6579e8 1264941544 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c6357f9 1818449913 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@3a4e343]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@4b6579e8 1264941544 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@3954d008 961859592 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@3a4e343]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@593e824f 1497268815 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase@3a4e343]timeOut:2000
+Previous threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Signal Dispatcher,9,system], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Reference Handler,10,system]]
 Animating arthur
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
-New notifying child thread:Thread[Thread-19,5,main]
-Current threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-19,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
+Current threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Signal Dispatcher,9,system], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Thread-19,5,main], Thread[Reference Handler,10,system]]
 New threads:[Thread[Thread-19,5,main]]
-Previous threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-19,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+New notifying child thread:Thread[Thread-19,5,main]
+Previous threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Signal Dispatcher,9,system], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Thread-19,5,main], Thread[Reference Handler,10,system]]
 Animating arthur
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
-Current threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-19,5,main], Thread[Thread-20,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
+Current threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Signal Dispatcher,9,system], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[Thread-20,5,main], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Thread-19,5,main], Thread[Reference Handler,10,system]]
 New threads:[Thread[Thread-20,5,main]]
 Waiting for child threads to be created within time (ms):1000
 Finished waiting for child threads to be created within time (ms):1000
@@ -408,96 +408,96 @@ child 2:Thread[Thread-20,5,main]
 Notifying child2 thread executed for minimun time
 Finished waiting for child thread to finish amimation in(ms):5000
 ### gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7f69d591 2137642385 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7f69d591 2137642385 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@1cb3ec38 481553464 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@71c5b236]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7f69d591 2137642385 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@2cab9998 749443480 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@71c5b236]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@669513d8 1721045976 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@4a8a60bc 1250582716 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@71c5b236]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@669513d8 1721045976 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@7859e786 2019157894 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@71c5b236]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@314b8f2d 827035437 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@71c5b236]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ce5a68e 216376974 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ce5a68e 216376974 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2f162cc0 789982400 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@7c041b41]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ce5a68e 216376974 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@7f69d591 2137642385 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@7c041b41]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1cb3ec38 481553464 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@71c5b236 1908781622 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@7c041b41]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1cb3ec38 481553464 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2f7a7219 796553753 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@7c041b41]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@3a1d593e 975001918 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase@7c041b41]timeOut:2000
 Animating Lancelot
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
 Animating Lancelot
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
 Waiting for child threads to be created within time (ms):1000
-New notifying child thread:Thread[Thread-22,5,main]
+New notifying child thread:Thread[Thread-21,5,main]
 Finished waiting for child threads to be created within time (ms):1000
 Waiting for child thread to finish amimation in(ms):5000
-New notifying child thread:Thread[Thread-21,5,main]
-child 2:Thread[Thread-21,5,main]
+New notifying child thread:Thread[Thread-22,5,main]
+child 2:Thread[Thread-22,5,main]
 Notifying child2 thread executed for minimun time
 Finished waiting for child thread to finish amimation in(ms):5000
 ### gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7876d598 2021053848 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7876d598 2021053848 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5af28b27 1525844775 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@4985cbcb]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7876d598 2021053848 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@72f46e16 1928621590 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@4985cbcb]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@332a7fce 858423246 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@54361a9 88301993 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@4985cbcb]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@332a7fce 858423246 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@5217f3d0 1377301456 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@4985cbcb]timeOut:2000
-Calling on object grail.graphics.Avatar@5118388b 1360541835 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@293bb8a5 691779749 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@4985cbcb]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@285d851a 677217562 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@285d851a 677217562 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@664a9613 1716164115 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@15a902e7]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@285d851a 677217562 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@7876d598 2021053848 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@15a902e7]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5af28b27 1525844775 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@4985cbcb 1233505227 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@15a902e7]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5af28b27 1525844775 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@3c9168dc 1016162524 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@15a902e7]timeOut:2000
+Calling on object grail.graphics.Avatar@361c294e 907815246 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@549621f3 1419125235 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase@15a902e7]timeOut:2000
 Animating Galahad
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateGalahad() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateGalahad() args:[]timeOut:2000
 Animating Galahad
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateGalahad() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateGalahad() args:[]timeOut:2000
 Waiting for child threads to be created within time (ms):1000
-New notifying child thread:Thread[Thread-24,5,main]
+New notifying child thread:Thread[Thread-23,5,main]
 Finished waiting for child threads to be created within time (ms):1000
 Waiting for child thread to finish amimation in(ms):5000
-New notifying child thread:Thread[Thread-23,5,main]
-child 2:Thread[Thread-23,5,main]
+New notifying child thread:Thread[Thread-24,5,main]
+child 2:Thread[Thread-24,5,main]
 Notifying child2 thread executed for minimun time
 Finished waiting for child thread to finish amimation in(ms):5000
 ### gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@72e34f77 1927499639 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@72e34f77 1927499639 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@389adf1d 949673757 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@1fc0053e]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@72e34f77 1927499639 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@290b1b2e 688593710 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@1fc0053e]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@33617539 862025017 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@209775a9 546796969 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@1fc0053e]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@33617539 862025017 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@f9b7332 261845810 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@1fc0053e]timeOut:2000
-Calling on object grail.graphics.Avatar@6fa590ba 1873121466 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@6fefce9e 1877986974 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@1fc0053e]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@37ebc9d8 938199512 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@37ebc9d8 938199512 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2416a51 37841489 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@6e9319f]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@37ebc9d8 938199512 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@72e34f77 1927499639 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@6e9319f]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@389adf1d 949673757 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@290b1b2e 688593710 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@6e9319f]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@389adf1d 949673757 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@33617539 862025017 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@6e9319f]timeOut:2000
+Calling on object grail.graphics.Avatar@32232e55 841166421 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@5db4c359 1572127577 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase@6e9319f]timeOut:2000
 Animating Robin
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateRobin() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateRobin() args:[]timeOut:2000
 Animating Robin
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateRobin() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateRobin() args:[]timeOut:2000
 Waiting for child threads to be created within time (ms):1000
 New notifying child thread:Thread[Thread-25,5,main]
 Finished waiting for child threads to be created within time (ms):1000
@@ -507,52 +507,52 @@ child 2:Thread[Thread-26,5,main]
 Notifying child2 thread executed for minimun time
 Finished waiting for child thread to finish amimation in(ms):5000
 ### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3af17be2 988904418 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@4fcee388 1338958728 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@3954d008 961859592 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@593e824f 1497268815 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@6d8792db 1837601499 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@593e824f 1497268815 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@493dfb8e 1228798862 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@65e61854 1709578324 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@ce5a68e 216376974 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.BridgeScene@6c345c5f 1815370847 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7f69d591 2137642385 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@1cb3ec38 481553464 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@7f69d591 2137642385 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@2cab9998 749443480 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@669513d8 1721045976 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@4a8a60bc 1250582716 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
-Calling on object grail.graphics.VShape@669513d8 1721045976 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
-Calling on object grail.graphics.RotatingLine@7859e786 2019157894 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Calling on object grail.graphics.Avatar@5df417a7 1576277927 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
-Calling on object grail.graphics.Image@314b8f2d 827035437 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@1bdf8190]timeOut:2000
-Previous threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-26,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c345c5f 1815370847 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@27a5328c 665137804 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6a1d204a 1780293706 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@4b6579e8 1264941544 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6c6357f9 1818449913 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@4b6579e8 1264941544 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@3954d008 961859592 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@66629f63 1717739363 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@593e824f 1497268815 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.BridgeScene@28a0fd6c 681639276 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ce5a68e 216376974 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2f162cc0 789982400 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ce5a68e 216376974 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@7f69d591 2137642385 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1cb3ec38 481553464 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@71c5b236 1908781622 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1cb3ec38 481553464 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2f7a7219 796553753 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Calling on object grail.graphics.Avatar@493dfb8e 1228798862 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@3a1d593e 975001918 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase@18e7143f]timeOut:2000
+Previous threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Thread-26,5,main], Thread[Signal Dispatcher,9,system], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Reference Handler,10,system]]
 Animating arthur
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateArthur() args:[]timeOut:2000
 New notifying child thread:Thread[Thread-27,5,main]
-Current threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[Thread-27,5,main], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-26,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Current threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Thread-26,5,main], Thread[Signal Dispatcher,9,system], Thread[Thread-27,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Reference Handler,10,system]]
 New threads:[Thread[Thread-27,5,main]]
-Previous threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[Thread-27,5,main], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-26,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Previous threads:[Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Thread-26,5,main], Thread[Signal Dispatcher,9,system], Thread[Thread-27,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Reference Handler,10,system]]
 Animating lancelot
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.animateLancelot() args:[]timeOut:2000
 New notifying child thread:Thread[Thread-28,5,main]
-Current threads:[Thread[Signal Dispatcher,9,system], Thread[pool-1-thread-1,5,main], Thread[AWT-EventQueue-0,6,main], Thread[AWT-Shutdown,5,system], Thread[Thread-27,5,main], Thread[TimerQueue,5,system], Thread[pool-3-thread-1,5,main], Thread[Thread-2,5,main], Thread[Reference Handler,10,system], Thread[Thread-26,5,main], Thread[main,5,main], Thread[Attach Listener,5,system], Thread[Thread-28,5,main], Thread[Finalizer,8,system], Thread[AWT-Windows,6,system], Thread[Java2D Disposer,10,system], Thread[Swing-Shell,5,system]]
+Current threads:[Thread[Thread-28,5,main], Thread[AWT-EventQueue-0,6,main], Thread[Java2D Disposer,10,system], Thread[Thread-26,5,main], Thread[Signal Dispatcher,9,system], Thread[Thread-27,5,main], Thread[Attach Listener,5,system], Thread[Finalizer,8,system], Thread[main,5,main], Thread[Swing-Shell,5,system], Thread[TimerQueue,5,system], Thread[AWT-Windows,6,system], Thread[pool-3-thread-1,5,main], Thread[pool-1-thread-1,5,main], Thread[Thread-2,5,main], Thread[AWT-Shutdown,5,system], Thread[Reference Handler,10,system]]
 child 2:Thread[Thread-28,5,main]
 New threads:[Thread[Thread-28,5,main]]
 Waiting for child threads to be created within time (ms):1000
@@ -563,74 +563,74 @@ Notifying child2 thread executed for minimun time
 Finished waiting for child thread to finish amimation in(ms):5000
 *****************************(ParserSuite)*****************************
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserFactoryMethodTest: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesApproachCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:approach Arthur 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesPassCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:approach Arthur 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
 Executing command:fail 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesFailCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:approach Arthur 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach Arthur ]timeOut:2000
 Executing command:fail 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[fail ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesMoveCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:move Arthur 2 3 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[move Arthur 2 3 ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[move Arthur 2 3 ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesSayCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:approach arthur } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach arthur } ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[approach arthur } ]timeOut:2000
 Executing command:say "quest?" 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[say "quest?" ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[say "quest?" ]timeOut:2000
 Executing command:say "grail" 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[say "grail" ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[say "grail" ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 Executing command:passed 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[passed ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[passed ]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesRepeatCommandObjectTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:repeat 5 move arthur 2 3 } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 5 move arthur 2 3 } ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[repeat 5 move arthur 2 3 } ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesCommandListTestCase: 1.0
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
-Calling on object class grail.SingletonsCreator 1970073944 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 438151297 method:public static grail.interfaces.ParserInterface grail.SingletonsCreator.parserFactoryMethod() args:[]timeOut:2000
 Executing command:{ approach Arthur fail } 
-Calling on object grail.scanner.CommandInterpreter@27a5328c 665137804 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ approach Arthur fail } ]timeOut:2000
+Calling on object grail.scanner.CommandInterpreter@495083a0 1230013344 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[{ approach Arthur fail } ]timeOut:2000
 Getting parser command object
-Calling on object grail.scanner.Parser@8a589a2 145066402 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
+Calling on object grail.scanner.Parser@f9b7332 261845810 method:public java.lang.Runnable grail.scanner.Parser.getCommandObject() args:[]timeOut:2000
 *****************************(Public methods are in implemented interfaces)*****************************
 ### Interfaces defined: 1.0
 *****************************(Abstract classes)*****************************

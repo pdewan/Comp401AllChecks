@@ -17,9 +17,7 @@ parseNumber exists and is used                         4.0 /  4.0 (Extra credit)
 Parser has error property                              2.0 /  2.0 (Extra credit)
 Animation shows different animators animating concurrently. 0.0 /  5.0
 Animation shows same avatar animating sequentially     0.0 /  5.0
-One of the shown commands is ...{ ...repeat # {...}...}0.0 /  7.0
-Animation shows all other relevant commands            0.0 /  8.0
-Animation shows use of negative numbers                0.0 /  5.0 (Extra credit)
+Command interpreter is animated                        0.0 /  8.0
 ----------------------------------
   Points Awarded: 350.0
 

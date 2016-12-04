@@ -133,10 +133,10 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	
      	addManualFeature("Animation shows different animators animating concurrently.", 5, false); 
    	addManualFeature("Animation shows same avatar animating sequentially", 5, false); 
-   
-   	addManualFeature("One of the shown commands is ...{ ...repeat # {...}...}", 7, false);
-   	addManualFeature("Animation shows all other relevant commands", 8, false);
-   	addManualFeature("Animation shows use of negative numbers", 5, true);
+   	addManualFeature("Command interpreter is animated", 8, false);
+//   	addManualFeature("One of the shown commands is ...{ ...repeat # {...}...}", 7, false);
+//   	addManualFeature("Animation shows all other relevant commands", 8, false);
+//   	addManualFeature("Animation shows use of negative numbers", 5, true);
       
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));
