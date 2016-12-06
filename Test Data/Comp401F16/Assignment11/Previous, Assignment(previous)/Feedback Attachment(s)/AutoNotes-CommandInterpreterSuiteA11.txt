@@ -1,10 +1,10 @@
   -- After approach occupied should be true and knight turn false
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 117
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 134
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 216
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 120
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 140
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 140
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 270
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 780
-  -- In: grail.graphics.RotatingLine@1afdd473 computedX 100 != correctX 2420
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 117
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 134
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 216
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 120
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 140
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 140
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 270
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 780
+  -- In: grail.graphics.RotatingLine@4ce1d6d0 computedX 100 != correctX 2420

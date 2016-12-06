@@ -2,6 +2,7 @@ Grading result for: Correct, Stub(stubs)
 
 Grading features...
 ----------------------------------
+OneLevelListWithPositiveNegativeMovesTestCase          0.0 / 15.0 (Extra credit)
 CommandObjectSuiteA11                                  0.0 / 40.0
 CommandInterpreterSuiteA11                             0.0 / 145.0
 SyncAnimationSuite                                     0.0 / 50.0
@@ -11,17 +12,15 @@ Abstract classes                                       9.0 /  9.0
 Iterator methods exist and are used                    0.0 /  7.0
 Basic command classes defined and used                 3.0 / 12.0
 Composite command classes defined and used             3.0 /  8.0
-Parsing methods are created and used                   9.0 / 17.0
+Parsing methods are created and used                   8.0 / 17.0
 Parser has correct properties                          6.0 /  6.0
 parseNumber exists and is used                         0.0 /  4.0 (Extra credit)
 Parser has error property                              2.0 /  2.0 (Extra credit)
 Animation shows different animators animating concurrently. 0.0 /  5.0
 Animation shows same avatar animating sequentially     0.0 /  5.0
-One of the shown commands is ...{ ...repeat # {...}...}0.0 /  7.0
-Animation shows all other relevant commands            0.0 /  8.0
-Animation shows use of negative numbers                0.0 /  5.0 (Extra credit)
+Command interpreter is animated                        0.0 /  8.0
 ----------------------------------
-  Points Awarded: 34.0
+  Points Awarded: 33.0
 
 Grading restrictions...
 ----------------------------------
@@ -31,10 +30,13 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -32.0
 
-  Features Score: 2.0
+  Features Score: 1.0
 
 Notes from grading features:
 ----------------------------------
+OneLevelListWithPositiveNegativeMovesTestCase:
+  -- Factory method:[bridgescenefactorymethod] not found.
+
 CommandObjectSuiteA11:
   -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
   -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
@@ -43,7 +45,7 @@ CommandObjectSuiteA11:
   -- java.lang.NoSuchMethodException grail.scanner.commands.FailCommand.<init>(grail.interfaces.BridgeSceneInterface)
 
 CommandInterpreterSuiteA11:
-  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
   -- Factory method:[bridgeSceneFactoryMethod] not found.
@@ -138,6 +140,8 @@ Parsing methods are created and used:
 
   -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCommandList:*->Runnable
 
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
+
 
 parseNumber exists and is used:
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseNumber:*->*//EC
@@ -165,4 +169,4 @@ illegalTypeImported: (ScanningException.java:3) Used disallowed class java.io.IO
 
 
 Early benefit: 105.0%
-  Total Score: 2.1
+  Total Score: 1.05

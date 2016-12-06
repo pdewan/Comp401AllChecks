@@ -2,6 +2,7 @@ Grading result for: Runnables, Version(tstudent1)
 
 Grading features...
 ----------------------------------
+OneLevelListWithPositiveNegativeMovesTestCase          15.0 / 15.0 (Extra credit)
 CommandObjectSuiteA11                                  40.0 / 40.0
 CommandInterpreterSuiteA11                             145.0 / 145.0
 SyncAnimationSuite                                     50.0 / 50.0
@@ -19,7 +20,7 @@ Animation shows different animators animating concurrently. 0.0 /  5.0
 Animation shows same avatar animating sequentially     0.0 /  5.0
 Command interpreter is animated                        0.0 /  8.0
 ----------------------------------
-  Points Awarded: 350.0
+  Points Awarded: 365.0
 
 Grading restrictions...
 ----------------------------------
@@ -29,7 +30,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 345.0
+  Features Score: 360.0
 
 Early benefit: 105.0%
-  Total Score: 362.25
+  Total Score: 378.0

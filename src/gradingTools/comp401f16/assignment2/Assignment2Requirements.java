@@ -16,7 +16,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
      	addDueDate("09/10/2016 00:59:00", 1); // fri due
      	addDueDate("09/13/2016 00:59:00", 0.95);// mon after due
      	addDueDate("09/17/2016 00:59:00", 0.85); // fri after due
-     	addDueDate("12/05/2016 00:59:00", 0.8); // infinity
+     	addDueDate("12/12/2016 00:59:00", 0.8); // infinity
      	
      	BasicProjectExecution.setReRunInfiniteProcesses(true);
       // Functionality

@@ -30,7 +30,7 @@ public class Assignment11Requirements  extends AJUnitProjectRequirements{
      	addDueDate("11/19/2016 00:59:00", 1); 		// fri due
      	addDueDate("11/29/2016 00:59:00", 0.95);	// mon after due
      	addDueDate("12/03/2016 00:59:00", 0.90); 	// fri after due
-     	addDueDate("12/05/2016 00:59:00", 0.85); 	// infinity
+     	addDueDate("12/12/2016 00:59:00", 0.85); 	// infinity
      	
      	// Functionality
      	GradingMode.setGraderRun(true);

@@ -20,6 +20,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
 	public Assignment12Requirements(){
 		addDueDate("12/06/2016 00:59:00", 1.05); 	// mon before
      	addDueDate("11/08/2016 00:59:00", 1); 		// wed due
+     	addDueDate("12/12/2016 00:59:00", 0.85); 
      	
      	// Functionality
      	GradingMode.setGraderRun(true);

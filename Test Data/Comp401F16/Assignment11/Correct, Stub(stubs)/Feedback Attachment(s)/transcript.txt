@@ -1,3 +1,12 @@
+*****************************(OneLevelListWithPositiveNegativeMovesTestCase)*****************************
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListWithPositiveNegativeMovesTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListWithPositiveNegativeMovesTestCase: 0.0
 *****************************(CommandObjectSuiteA11)*****************************
 ### gradingTools.comp401f16.assignment11.commandObjects.testcases.CommandListCommandObjectTestCase: 1.0
 ### gradingTools.comp401f16.assignment11.commandObjects.testcases.CommandListCommandObjectTestCase: 0.0
@@ -14,7 +23,7 @@
 Factory method:[commandinterpreterfactorymethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Factory method:[bridgescenefactorymethod] not found.
+Factory method:[bridgeSceneFactoryMethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment11.testcases.commandInterpreterA11.ParsingAtomicCommandTestCase: 0.0
@@ -243,7 +252,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### Parser!parseFailCommand:*->Runnable: 0.0
 ### Parser!parseRepeatCommand:*->Runnable: 0.0
 ### Parser!parseCommandList:*->Runnable: 0.0
-### Parser!@CommandList!@add:Runnable->*: 1.0
+### Parser!@CommandList!@add:Runnable->*: 0.0
 *****************************(Parser has correct properties)*****************************
 ### Parser defines setter for property CommandText: 1.0
 ### Parserdefines getter for property CommandText: 1.0
