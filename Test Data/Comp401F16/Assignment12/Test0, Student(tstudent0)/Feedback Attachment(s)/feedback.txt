@@ -2,54 +2,78 @@ Grading result for: Test0, Student(tstudent0)
 
 Grading features...
 ----------------------------------
-CommandInterpreterMoveSuite                            40.0 / 40.0
-CommandInterpreterApproachedArthurSayTestCase          20.0 / 20.0
-CommandInterpreterMixedCaseSuite                       10.0 / 10.0
-StringTableTest                                        25.0 / 25.0
-CommandInterpreterErrorsSuite                          15.0 / 15.0 (Extra credit)
-CommandInterpreterSignedMoveSuite                      20.0 / 20.0 (Extra credit)
-FactoryMethodSuite                                     20.0 / 20.0
+ParserSuiteA12                                         40.0 / 40.0
+BroadcastingClearanceManagerFactoryMethodTest          5.0 /  5.0
+CommandInterpreterSuiteA12                             65.0 / 65.0 (Extra credit)
+CommandObjectSuiteA12                                  65.0 / 65.0
+SwingTextFieldFactoryTestCase                          10.0 / 10.0 (Extra credit)
+LockstepAvatarsAnimationTestCase                       20.0 / 20.0 (Extra credit)
+ExceptionSuite                                         20.0 / 20.0 (Extra credit)
+UndoRedoTestCase                                       20.0 / 20.0 (Extra credit)
+WaitingAvatarsAnimationTestCase                        20.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Graphics inheritance hierarchy                         18.0 / 24.0
-CommandInterpreter properly uses the other classes     8.0 /  8.0
-SingletonCreator created and used in main              8.0 / 16.0
-Command interpreter has required property and is instantiated 12.0 / 12.0
-Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
-Table demonstrated in console, works correctly         0.0 / 10.0
+ABroadcastigClearanceManager used as a singleton       5.8 /  7.0
+Waiting animations created                             7.0 /  7.0
+Generics added to Table                                15.0 / 15.0
+Lockstep and coordinating methods created and used     11.0 / 14.0
+Methods and classes for extended grammar created       19.0 / 21.0
+Exceptions used                                        8.0 /  8.0
+Custom text field color                                4.0 /  6.0
+Undo and redo commands created                         4.7 /  7.0
+4 animations wait until press of proceedAll            0.0 / 10.0
+Lockstep animations work                               0.0 / 10.0 (Extra credit)
+New commands showcased (3 points each)                 0.0 / 27.0
 ----------------------------------
-  Points Awarded: 206.0
+  Points Awarded: 349.5
 
 Grading restrictions...
 ----------------------------------
-Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            -1.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
-Illegal import or call                      0.0 /  -25.0
+Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
-  Points Deducted: -6.0
+  Points Deducted: -30.0
 
-  Features Score: 200.0
+  Features Score: 319.5
 
 Notes from grading features:
 ----------------------------------
-Graphics inheritance hierarchy:
-  -- @LINE_PATTERN not found by checkstyle
-  -- @STRING_PATTERN not found by checkstyle
-  -- @IMAGE_PATTERN not found by checkstyle
+ABroadcastigClearanceManager used as a singleton:
+  -- CoordinatingAnimator not found by checkstyle
 
-SingletonCreator created and used in main:
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
+Lockstep and coordinating methods created and used:
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+
+Methods and classes for extended grammar created:
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String;Runnable
+
+  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
+
+
+Custom text field color:
+  -- Assignment12.main not found by checkstyle
+  -- Assignment12.main not found by checkstyle
+
+Undo and redo commands created:
+  -- UndoCommand not found by checkstyle
+  -- RedoCommand not found by checkstyle
 
 
 Notes from grading restrictions:
 ----------------------------------
-No magic numbers:
-  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (Parser.java:3) Used disallowed class java.text.ParseException 
+illegalTypeImported: (Parser.java:4) Used disallowed class java.util.HashSet 
+illegalTypeImported: (Parser.java:5) Used disallowed class java.util.Set 
+illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.ParseException 
 
 
 
 Early benefit: 105.0%
-  Total Score: 210.0
+  Total Score: 336.0

@@ -1,13 +1,28 @@
 //START OF FILE: src/grail/singletonscreator.java
 package grail;
 
+import java.beans.PropertyChangeListener;
+
 import grail.collections.MyTable;
 import grail.graphics.BridgeScene;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.ParserInterface;
 import grail.interfaces.ScannerBeanInterface;
 import grail.interfaces.Table;
+import grail.interfaces.mvc.BridgeSceneControllerInterface;
+import grail.interfaces.mvc.CommandInterpreterControllerInterface;
+import grail.interfaces.mvc.CommandInterpreterViewInterface;
+import grail.interfaces.mvc.DelegatingBridgeSceneViewInterface;
+import grail.interfaces.mvc.PaintingViewMaster;
+import grail.mvc.controller.BridgeSceneController;
+import grail.mvc.controller.CommandInterpreterController;
+import grail.mvc.view.CommandInterpreterView;
+import grail.mvc.view.ConsoleSceneView;
+import grail.mvc.view.DelegatingBridgeSceneView;
+import grail.mvc.view.ObservableBridgeScenePainter;
 import grail.scanner.CommandInterpreter;
+import grail.scanner.Parser;
 import grail.scanner.ScannerBean;
 import util.annotations.Tags;
 
@@ -18,6 +33,61 @@ public class SingletonsCreator {
 	private static BridgeSceneInterface bridgeScene = null;
 	private static Table avatarTable = null;
 	private static CommandInterpreterInterface commandInterpreter = null;
+	private static PropertyChangeListener consoleSceneView = null;
+	private static PaintingViewMaster painter = null;
+	private static DelegatingBridgeSceneViewInterface view = null;
+	private static BridgeSceneControllerInterface mainControl = null;
+	private static CommandInterpreterControllerInterface interpreterController = null;
+	private static CommandInterpreterViewInterface interpreterView = null;
+	private static ParserInterface parser = null;
+	
+	@Tags({"parserFactoryMethod"})
+	public static ParserInterface parserFactoryMethod(){
+		if (null == parser){
+			parser = new Parser();
+		}
+		return parser;
+	}
+	
+	@Tags({"commandInterpreterViewFactoryMethod"})
+	public static CommandInterpreterViewInterface commandInterpreterViewFactoryMethod(){
+		if (null == interpreterView){
+			interpreterView = new CommandInterpreterView();
+		}
+		return interpreterView;
+	}
+	
+	@Tags({"commandInterpreterControllerFactoryMethod"})
+	public static CommandInterpreterControllerInterface commandInterpreterControllerFactoryMethod(){
+		if (null == interpreterController){
+			interpreterController = new CommandInterpreterController(commandInterpreterViewFactoryMethod());
+		}
+		return interpreterController;
+	}
+	
+	@Tags({"bridgeSceneControllerFactoryMethod"})
+	public static BridgeSceneControllerInterface bridgeSceneControllerFactoryMethod(){
+		if (null == mainControl){
+			mainControl = new BridgeSceneController(observableBridgeScenePainterFactoryMethod());
+		}
+		return mainControl;
+	}
+	
+	@Tags({"observableBridgeScenePainterFactoryMethod"})
+	public static PaintingViewMaster observableBridgeScenePainterFactoryMethod(){
+		if (null == painter){
+			painter = new ObservableBridgeScenePainter();
+		}
+		return painter;
+	}
+	
+	@Tags({"delegatingBridgeSceneViewFactoryMethod"})
+	public static DelegatingBridgeSceneViewInterface delegatingBridgeSceneViewFactoryMethod(){
+		if (null == view){
+			view = new DelegatingBridgeSceneView(bridgeSceneFactoryMethod());
+		}
+		return view;
+	}
 	
 	@Tags({"scannerFactoryMethod"})
 	public static ScannerBeanInterface scannerFactoryMethod(){
@@ -65,6 +135,121 @@ public class SingletonsCreator {
 		}
 		return commandInterpreter;
 	}
+	
+	@Tags({"consoleSceneViewFactoryMethod"})
+	public static PropertyChangeListener consoleSceneViewFactoryMethod(){
+		if (null == consoleSceneView){
+			consoleSceneView = new ConsoleSceneView();
+		}
+		return consoleSceneView;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/animatingcommand.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"AnimatingCommand"})
+public class AnimatingCommand implements CommandThread{
+
+	private AnimatorInterface animator;
+	AvatarInterface avatar;
+	
+	public AnimatingCommand(AnimatorInterface animator, AvatarInterface avatar){
+		this.animator = animator;
+		this.avatar = avatar;
+	}
+
+	@Override
+	public void run() {
+		animator.animateAvatar(avatar);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/animator.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.Tags;
+import util.misc.ThreadSupport;
+
+
+@Tags({"Animator"})
+public class Animator implements AnimatorInterface {
+
+	private static final int NUM_FRAMES = 45;
+	private static final int DEGREES_PER_ROTATE = 2;
+	private static final int ROTATE_DELAY = 20;
+	
+	private static final int CLAP_DELAY = 1000;
+	private static final double CLAP_ANGLE = Math.PI / 2;
+	
+	// Empty constructor
+	public Animator() {}
+
+	@Override
+	@Tags({"animateAvatar"})
+	public synchronized void animateAvatar(AvatarInterface avatar) {
+		// Arm up
+		for (int i = 0; i < NUM_FRAMES; ++i){
+			avatar.getArms().getRightLine().rotateByClockwiseDegrees(-DEGREES_PER_ROTATE);
+			ThreadSupport.sleep(ROTATE_DELAY);
+		}
+		// Arm down
+		for (int i = 0; i < NUM_FRAMES; ++i){
+			avatar.getArms().getRightLine().rotateByClockwiseDegrees(DEGREES_PER_ROTATE);
+			ThreadSupport.sleep(ROTATE_DELAY);
+		}
+	}
+
+	@Override
+	public synchronized void clapGuard(BridgeSceneInterface scene) {
+		RotatingLineInterface leftArm = scene.getGuard().getArms().getLeftLine();
+		RotatingLineInterface rightArm = scene.getGuard().getArms().getRightLine();
+		
+		double oldLeftAngle = leftArm.getAngle();
+		double oldRightAngle = rightArm.getAngle();
+		leftArm.setAngle(CLAP_ANGLE);
+		rightArm.setAngle(CLAP_ANGLE);
+		
+		ThreadSupport.sleep(CLAP_DELAY);
+		
+		leftArm.setAngle(oldLeftAngle);
+		rightArm.setAngle(oldRightAngle);
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/animations/clapcommand.java
+package grail.animations;
+
+import grail.interfaces.AnimatorInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+
+public class ClapCommand implements CommandThread{
+
+	AnimatorInterface animator;
+	BridgeSceneInterface scene;
+	
+	public ClapCommand(AnimatorInterface animator, BridgeSceneInterface scene){
+		this.animator = animator;
+		this.scene = scene;
+	}
+	
+	@Override
+	public void run() {
+		animator.clapGuard(scene);
+	}
+
 }
 //END OF FILE
 //START OF FILE: src/grail/collections/abasehistory.java
@@ -189,359 +374,10 @@ public class MyTable implements Table {
 	
 }//end class
 //END OF FILE
-//START OF FILE: src/grail/commandbeans/approachcommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Approach"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class ApproachCommand extends WordToken {
-
-	public ApproachCommand(String input) {
-		super(input);
-	}
-	
-}
-//END OF FILE
-//START OF FILE: src/grail/commandbeans/failcommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Fail"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class FailCommand extends WordToken {
-
-	public FailCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/commandbeans/movecommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Move"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class MoveCommand extends WordToken {
-
-	public MoveCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/commandbeans/passcommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Pass"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class PassCommand extends WordToken {
-
-	public PassCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/commandbeans/repeatcommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Repeat"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class RepeatCommand extends WordToken {
-
-	public RepeatCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/commandbeans/saycommand.java
-package grail.commandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Say"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class SayCommand extends WordToken {
-
-	public SayCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/callcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Call"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class CallCommand extends WordToken {
-
-	public CallCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/definecommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Define"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class DefineCommand extends WordToken {
-
-	public DefineCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/proceedallcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"ProceedAll"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class ProceedAllCommand extends WordToken {
-
-	public ProceedAllCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/redocommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Redo"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class RedoCommand extends WordToken {
-
-	public RedoCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/rotateleftarmcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"RotateLeftArm"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class RotateLeftArmCommand extends WordToken {
-
-	public RotateLeftArmCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/rotaterightarmcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"RotateRightArm"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class RotateRightArmCommand extends WordToken {
-
-	public RotateRightArmCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/sleepcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Sleep"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class SleepCommand extends WordToken {
-
-	public SleepCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/threadcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Thread"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class ThreadCommand extends WordToken {
-
-	public ThreadCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/undocommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Undo"})
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class UndoCommand extends WordToken {
-
-	public UndoCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
-//START OF FILE: src/grail/extracommandbeans/waitcommand.java
-package grail.extraCommandBeans;
-
-import grail.tokenBeans.WordToken;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
-
-@Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"Input", "Value"})
-@EditablePropertyNames({"Input"})
-public class WaitCommand extends WordToken {
-
-	public WaitCommand(String input) {
-		super(input);
-	}
-
-}
-//END OF FILE
 //START OF FILE: src/grail/graphics/avatar.java
 package grail.graphics;
+
+import java.beans.PropertyChangeListener;
 
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.ImageInterface;
@@ -560,8 +396,10 @@ import util.annotations.Visible;
 @PropertyNames({"X", "Y","Head", "Legs", "Arms", "Torso", "StringShape"})
 @EditablePropertyNames({"X", "Y"})
 public class Avatar extends LocatableObject implements AvatarInterface {
-
-	// The anchor is between the feet
+	
+	// The anchor (avatar location) is the spot between the avatar's feet when the
+	// avatar is first created. This is the distance from waist to that point.
+	private int floorToWaist;
 	
 	private static final double TORSO_LENGTH = 80;
 	private static final double ARMS_LENGTH = 80;
@@ -583,11 +421,13 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 		legs = new VShape(0, 0, LEGS_LENGTH);
 		stringShape = new StringShape(0, 0, "");
 		
+		floorToWaist = legs.getRightLine().getHeight();
+		
 		// Figure out the postion of the avatar anchor
 		int xPos = head.getX() + (head.getWidth()/2);
 		int yPos = (int)(head.getY() + head.getHeight()
 						+ torso.getRadius() 
-						+ legs.getRightLine().getHeight());	
+						+ floorToWaist);	
 		
 		// Use setters to build character
 		setX(xPos);
@@ -631,7 +471,7 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 		super.setY(newY);
 		
 		// Place the character:
-		legs.setY(newY-legs.getRightLine().getHeight());
+		legs.setY(newY-floorToWaist);
 		
 		int torsoTop = legs.getY()-torso.getHeight();
 		torso.setY(torsoTop);
@@ -691,10 +531,21 @@ public class Avatar extends LocatableObject implements AvatarInterface {
 		setX(getX());
 		setY(getY());
 	}
+	
+	@Override
+	public void addPropertyChangeListenerToAtomics(PropertyChangeListener listener){
+		getArms().addPropertyChangeListenerToAtomics(listener);
+		getLegs().addPropertyChangeListenerToAtomics(listener);
+		getHead().addPropertyChangeListener(listener);
+		getStringShape().addPropertyChangeListener(listener);
+		getTorso().addPropertyChangeListener(listener);
+	}
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/boundedshape.java
 package grail.graphics;
+
+import java.beans.PropertyChangeEvent;
 
 import grail.interfaces.BoundedShapeInterface;
 import util.annotations.EditablePropertyNames;
@@ -707,7 +558,7 @@ import util.annotations.Tags;
 @PropertyNames({"X", "Y", "Width", "Height"})
 @EditablePropertyNames({"X", "Y", "Width", "Height"})
 @Tags({"BoundedShape"})
-public class BoundedShape extends LocatableObject implements BoundedShapeInterface {
+public abstract class BoundedShape extends ObservableLocatableObject implements BoundedShapeInterface {
 
 	private int width;
 	private int height;
@@ -723,7 +574,9 @@ public class BoundedShape extends LocatableObject implements BoundedShapeInterfa
 	
 	@Override
 	public void setWidth(int newWidth) {
+		int oldWidth = width;
 		width = newWidth;
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, newWidth));
 	}
 
 	@Override
@@ -733,7 +586,9 @@ public class BoundedShape extends LocatableObject implements BoundedShapeInterfa
 
 	@Override
 	public void setHeight(int newHeight) {
+		int oldHeight = height;
 		height = newHeight;
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, newHeight));
 	}
 
 	@Override
@@ -752,6 +607,11 @@ public class BoundedShape extends LocatableObject implements BoundedShapeInterfa
 //END OF FILE
 //START OF FILE: src/grail/graphics/bridgescene.java
 package grail.graphics;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
+import java.util.List;
 
 import grail.interfaces.AvatarInterface;
 import grail.interfaces.BoundedShapeInterface;
@@ -803,6 +663,12 @@ public class BridgeScene implements BridgeSceneInterface {
 	private static final String GALAHAD_FILE_LOCATION = "images/galahad.jpg";
 	private static final String GUARD_FILE_LOCATION = "images/guard.jpg";
 	
+	private static final String PRECONDITION_PROPERTY = "this";
+	private static final String APPROACH_METHOD_TAG = "approach";
+	private static final String SAY_METHOD_TAG = "say";
+	private static final String PASSED_METHOD_TAG = "passed";
+	private static final String FAILED_METHOD_TAG = "failed";
+	
 	private AvatarInterface arthur;
 	private AvatarInterface lancelot;
 	private AvatarInterface robin;
@@ -817,6 +683,8 @@ public class BridgeScene implements BridgeSceneInterface {
 	
 	private boolean occupied;
 	private boolean knightTurn;
+	
+	private List<PropertyChangeListener> listeners = new ArrayList<PropertyChangeListener>();
 	
 	public BridgeScene(){
 		arthur = new Avatar(ARTHUR_LOCATION_X, ARTHUR_LOCATION_Y, ARTHUR_FILE_LOCATION);
@@ -836,9 +704,7 @@ public class BridgeScene implements BridgeSceneInterface {
 	@Override
 	@Tags({"approach"})
 	public void approach(AvatarInterface knight){
-		if (getOccupied()){
-			return;
-		}
+		assert preApproach();	//cannot be occupied
 		
 		// Place knight in middle of proper area
 		knight.setX(knightArea.getX() + knightArea.getWidth()/2);
@@ -846,14 +712,23 @@ public class BridgeScene implements BridgeSceneInterface {
 		occupied = true;
 		knightTurn = false;
 		occupyingKnight = knight;
+		
+		// Can now say, pass, or fail, but not approach
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, APPROACH_METHOD_TAG, false));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, SAY_METHOD_TAG, true));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, PASSED_METHOD_TAG, true));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, FAILED_METHOD_TAG, true));
+	}
+	
+	@Override
+	public boolean preApproach(){
+		return !getOccupied();
 	}
 	
 	@Override
 	@Tags({"say"})
 	public void say(String string){
-		if (!getOccupied()){
-			return;
-		}
+		assert getOccupied();
 		
 		if (getKnightTurn()){
 			occupyingKnight.getStringShape().setText(string);
@@ -864,14 +739,20 @@ public class BridgeScene implements BridgeSceneInterface {
 			occupyingKnight.getStringShape().setText(EMPTY_STRING);
 			knightTurn = true;
 		}
+		
+		// Pass alternates between being allowed and not allowed
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, PASSED_METHOD_TAG, prePassed()));
+	}
+	
+	@Override
+	public boolean preSay(){
+		return getOccupied();
 	}
 	
 	@Override
 	@Tags({"passed"})
 	public void passed(){
-		if (!getOccupied() || getKnightTurn()){
-			return;
-		}
+		assert prePassed();	// has to be occupied, has to be guard's turn
 		
 		occupyingKnight.setX(PASS_DESTINATION_X);
 		
@@ -880,27 +761,49 @@ public class BridgeScene implements BridgeSceneInterface {
 		getGuard().getStringShape().setText(EMPTY_STRING);
 		occupied = false;
 		occupyingKnight = null;
+
+		// Can now approach, but not say, pass, or fail
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, APPROACH_METHOD_TAG, true));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, SAY_METHOD_TAG, false));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, PASSED_METHOD_TAG, false));
+		notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, FAILED_METHOD_TAG, false));
+	}
+	
+	@Override
+	public boolean prePassed(){
+		return (getOccupied() && !getKnightTurn());
 	}
 	
 	@Override
 	@Tags({"failed"})
 	public void failed(){
-		if (!getOccupied()){
-			return;
-		}
+		assert preFailed();	//has to be occupied
 		
 		// if knight's turn, then guard falls
 		if (getKnightTurn()){
 			getGuard().getStringShape().setText(EMPTY_STRING);
 			getGuard().setX(FAIL_DESTINATION_X);
 			getGuard().setY(FAIL_DESTINATION_Y);
+			
+			// Still can't approach, everything stays the same.
 		}else{
 			occupyingKnight.setX(FAIL_DESTINATION_X);
 			occupyingKnight.setY(FAIL_DESTINATION_Y);
 			occupyingKnight.getStringShape().setText(EMPTY_STRING);
 			occupied = false;
 			occupyingKnight = null;
+			
+			// Can now approach, but not say, pass, or fail
+			notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, APPROACH_METHOD_TAG, true));
+			notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, SAY_METHOD_TAG, false));
+			notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, PASSED_METHOD_TAG, false));
+			notifyAllListeners(new PropertyChangeEvent(this, PRECONDITION_PROPERTY, FAILED_METHOD_TAG, false));
 		}
+	}
+	
+	@Override
+	public boolean preFailed(){
+		return getOccupied();
 	}
 	
 	@Override
@@ -967,6 +870,16 @@ public class BridgeScene implements BridgeSceneInterface {
 		return guard;
 	}
 
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener listener) {
+		listeners.add(listener);
+	}
+	
+	protected void notifyAllListeners(PropertyChangeEvent e){
+		for (PropertyChangeListener listener : listeners){
+			listener.propertyChange(e);
+		}
+	}
 }
 //END OF FILE
 //START OF FILE: src/grail/graphics/gorgewithbridge.java
@@ -1099,6 +1012,8 @@ public class GorgeWithBridge implements GorgeWithBridgeInterface {
 //START OF FILE: src/grail/graphics/image.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
@@ -1133,7 +1048,9 @@ public class Image extends Rectangle implements ImageInterface {
 	
 	@Override
 	public void setImageFileName(String newFileName) {
+		String oldFileName = imageFileName;
 		imageFileName = newFileName;
+		notifyAllListeners(new PropertyChangeEvent(this, "ImageFileName", oldFileName, newFileName));
 	}
 
 	@Override
@@ -1147,21 +1064,13 @@ public class Image extends Rectangle implements ImageInterface {
 package grail.graphics;
 
 import grail.interfaces.Locatable;
-import util.annotations.EditablePropertyNames;
-import util.annotations.PropertyNames;
-import util.annotations.StructurePattern;
-import util.annotations.StructurePatternNames;
-import util.annotations.Tags;
 
-@StructurePattern(StructurePatternNames.BEAN_PATTERN)
-@PropertyNames({"X", "Y"})
-@EditablePropertyNames({"X", "Y"})
-@Tags({"Locatable"})
-public class LocatableObject implements Locatable{
+public abstract class LocatableObject implements Locatable{
+
 
 	private int x;
 	private int y;
-
+	
 	public LocatableObject(int xPos, int yPos){
 		x = xPos;
 		y = yPos;
@@ -1188,6 +1097,63 @@ public class LocatableObject implements Locatable{
 	@Override
 	public void setY(int newY) {
 		y = newY;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/graphics/observablelocatableobject.java
+package grail.graphics;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.ObservableLocatable;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"X", "Y"})
+@EditablePropertyNames({"X", "Y"})
+@Tags({"Locatable"})
+public abstract class ObservableLocatableObject extends LocatableObject implements ObservableLocatable{
+
+	private List<PropertyChangeListener> listeners = new ArrayList<PropertyChangeListener>();
+	
+	public ObservableLocatableObject(int xPos, int yPos){
+		super(xPos,yPos);
+	}
+	
+	// Empty constructor
+	public ObservableLocatableObject(){}
+	
+	@Override
+	public void setX(int newX) {
+		int oldX = getX();
+		super.setX(newX);
+		notifyAllListeners(new PropertyChangeEvent(this, "X", oldX, newX));
+	}
+	
+	@Override
+	public void setY(int newY) {
+		int oldY = getY();
+		super.setY(newY);
+		notifyAllListeners(new PropertyChangeEvent(this, "Y", oldY, newY));
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener listener) {
+		listeners.add(listener);
+	}
+	
+	protected void notifyAllListeners(PropertyChangeEvent e){
+		for (PropertyChangeListener listener : listeners){
+			listener.propertyChange(e);
+		}
 	}
 
 }
@@ -1235,6 +1201,8 @@ public class Rectangle extends BoundedShape {
 //START OF FILE: src/grail/graphics/rotatingline.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import grail.interfaces.RotatingLineInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -1247,7 +1215,7 @@ import util.annotations.Tags;
 @PropertyNames({"Height", "Width", "X", "Y","Angle", "Radius"})
 @EditablePropertyNames({"X", "Y","Angle", "Radius"})
 public class RotatingLine extends BoundedShape implements RotatingLineInterface{
-
+	
 	private static final double DEGREE_IN_RADIANS = Math.PI / 180;
 	private static final double DEFAULT_RADIUS = 100;
 	
@@ -1278,7 +1246,13 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 
 	@Override
 	public void setRadius(double r) {
+		int oldWidth = getWidth();
+		int oldHeight = getHeight();
+		
 		radius = r;
+		
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, getWidth()));
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, getHeight()));
 	}
 
 	@Override
@@ -1286,11 +1260,23 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 		return radius;
 	}
 
+	/**
+	 * Angle is in radians, clockwise from right horizontal
+	 */
 	@Override
 	public void setAngle(double theta) {
+		int oldWidth = getWidth();
+		int oldHeight = getHeight();
+		
 		angle = theta;
+		
+		notifyAllListeners(new PropertyChangeEvent(this, "Width", oldWidth, getWidth()));
+		notifyAllListeners(new PropertyChangeEvent(this, "Height", oldHeight, getHeight()));
 	}
-
+	
+	/**
+	 * Angle is in radians, clockwise from right horizontal
+	 */
 	@Override
 	public double getAngle() {
 		return angle;
@@ -1307,6 +1293,8 @@ public class RotatingLine extends BoundedShape implements RotatingLineInterface{
 //START OF FILE: src/grail/graphics/stringshape.java
 package grail.graphics;
 
+import java.beans.PropertyChangeEvent;
+
 import grail.interfaces.StringShapeInterface;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
@@ -1316,7 +1304,7 @@ import util.annotations.StructurePatternNames;
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
 @PropertyNames({"X", "Y", "Text"})
 @EditablePropertyNames({"X", "Y", "Text"})
-public class StringShape extends LocatableObject implements StringShapeInterface {
+public class StringShape extends ObservableLocatableObject implements StringShapeInterface {
 
 	private String text;
 	
@@ -1327,7 +1315,9 @@ public class StringShape extends LocatableObject implements StringShapeInterface
 	
 	@Override
 	public void setText(String newString) {
+		String oldString = text;
 		text = newString;
+		notifyAllListeners(new PropertyChangeEvent(this, "Text", oldString, newString));
 	}
 
 	@Override
@@ -1339,6 +1329,8 @@ public class StringShape extends LocatableObject implements StringShapeInterface
 //END OF FILE
 //START OF FILE: src/grail/graphics/vshape.java
 package grail.graphics;
+
+import java.beans.PropertyChangeListener;
 
 import grail.interfaces.RotatingLineInterface;
 import grail.interfaces.VShapeInterface;
@@ -1427,10 +1419,32 @@ public class VShape extends LocatableObject implements VShapeInterface {
 		leftLine.setRadius(newLength);
 		rightLine.setRadius(newLength);
 	}
+	
+	@Override
+	public void addPropertyChangeListenerToAtomics(PropertyChangeListener listener){
+		getLeftLine().addPropertyChangeListener(listener);
+		getRightLine().addPropertyChangeListener(listener);
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/animatorinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Animator"})
+public interface AnimatorInterface {
+	
+	@Tags({"animateAvatar"})
+	public void animateAvatar(AvatarInterface avatar);
+	
+	void clapGuard(BridgeSceneInterface scene);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/avatarinterface.java
 package grail.interfaces;
+
+import java.beans.PropertyChangeListener;
 
 import util.annotations.Tags;
 
@@ -1449,6 +1463,8 @@ public interface AvatarInterface extends Locatable{
 	
 	public void move(int changeInX, int changeInY);
 	public void scale(double scalar);
+
+	void addPropertyChangeListenerToAtomics(PropertyChangeListener listener);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/basehistory.java
@@ -1466,7 +1482,7 @@ package grail.interfaces;
 import util.annotations.Tags;
 
 @Tags({"BoundedShape"})
-public interface BoundedShapeInterface extends Locatable{
+public interface BoundedShapeInterface extends ObservableLocatable{
 
 	public void setWidth(int newWidth);
 	public int getWidth();
@@ -1482,9 +1498,10 @@ public interface BoundedShapeInterface extends Locatable{
 package grail.interfaces;
 
 import util.annotations.Tags;
+import util.models.PropertyListenerRegisterer;
 
 @Tags({"BridgeScene"})
-public interface BridgeSceneInterface {
+public interface BridgeSceneInterface extends PropertyListenerRegisterer{
 	public AvatarInterface getArthur();
 	public AvatarInterface getLancelot();
 	public AvatarInterface getRobin();
@@ -1511,6 +1528,11 @@ public interface BridgeSceneInterface {
 	
 	@Tags({"scroll"})
 	public void scroll(int scrollAmount, int i);
+	
+	public boolean preFailed();
+	public boolean prePassed();
+	public boolean preSay();
+	public boolean preApproach();
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/clearablehistoryinterface.java
@@ -1526,15 +1548,47 @@ public interface ClearableHistoryInterface extends BaseHistory {
 //START OF FILE: src/grail/interfaces/commandinterpreterinterface.java
 package grail.interfaces;
 
+import java.beans.PropertyChangeListener;
+
 import util.annotations.Tags;
 
-@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter"})
+@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter","ObservableCommandInterpreter"})
 public interface CommandInterpreterInterface {
 
 	public String getCommand();
 	public void setCommand(String command);
 
 	public String getErrors();
+	public void addPropertyChangeListener(PropertyChangeListener listener);
+	
+	@Tags({"asynchronousArthur"})
+	public void animateArthur();
+	
+	@Tags({"asynchronousGalahad"})
+	public void animateGalahad();
+	
+	@Tags({"asynchronousLancelot"})
+	public void animateLancelot();
+	
+	@Tags({"asynchronousRobin"})
+	public void animateRobin();
+	
+	@Tags({"asynchronousGuard"})
+	void clapGuard();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/commandthread.java
+package grail.interfaces;
+
+public interface CommandThread extends Runnable{
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/compositecommandthread.java
+package grail.interfaces;
+
+public interface CompositeCommandThread extends CommandThread{
+	public void add(Runnable r);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/gorgewithbridgeinterface.java
@@ -1603,6 +1657,30 @@ public interface Number extends Token {
 	public int getValue();
 }
 //END OF FILE
+//START OF FILE: src/grail/interfaces/observablelocatable.java
+package grail.interfaces;
+
+import util.models.PropertyListenerRegisterer;
+
+public interface ObservableLocatable extends Locatable, PropertyListenerRegisterer{
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/parserinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Parser"})
+public interface ParserInterface {
+
+	public String getCommandText();
+	public void setCommandText(String string);
+	public CommandThread getCommandObject();
+	public String getErrors();
+
+}
+//END OF FILE
 //START OF FILE: src/grail/interfaces/rotatinglineinterface.java
 package grail.interfaces;
 
@@ -1645,7 +1723,7 @@ import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 
 @StructurePattern(StructurePatternNames.STRING_PATTERN)
-public interface StringShapeInterface extends Locatable{
+public interface StringShapeInterface extends ObservableLocatable{
 	
 	public void setText(String newString);
 	public String getText();
@@ -1682,6 +1760,8 @@ public interface Token {
 //START OF FILE: src/grail/interfaces/vshapeinterface.java
 package grail.interfaces;
 
+import java.beans.PropertyChangeListener;
+
 import util.annotations.Tags;
 
 @Tags({"Angle", "move"})
@@ -1695,6 +1775,8 @@ public interface VShapeInterface extends Locatable{
 	
 	@Tags({"move"})
 	public void move(int changeInX, int changeInY);
+	
+	void addPropertyChangeListenerToAtomics(PropertyChangeListener listener);
 }
 //END OF FILE
 //START OF FILE: src/grail/interfaces/word.java
@@ -1706,45 +1788,759 @@ public interface Word extends Token {
 	public String getValue();
 }
 //END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/bridgescenecontrollerinterface.java
+package grail.interfaces.mvc;
+
+import java.awt.event.KeyListener;
+import java.awt.event.MouseListener;
+
+import util.annotations.Tags;
+
+@Tags({"BridgeSceneController"})
+public interface BridgeSceneControllerInterface extends MouseListener, KeyListener {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/commandinterpretercontrollerinterface.java
+package grail.interfaces.mvc;
+
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeListener;
+
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterController"})
+public interface CommandInterpreterControllerInterface extends ActionListener, PropertyChangeListener{
+	public JTextField getTextField();
+	public JButton getSay();
+	public JButton getPass();
+	public JButton getFail();
+	public JButton getApproach();
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/commandinterpreterviewinterface.java
+package grail.interfaces.mvc;
+
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeListener;
+
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+public interface CommandInterpreterViewInterface extends PropertyChangeListener {
+	public void addControllerListener(ActionListener listener);
+	public JTextField getTextField();
+	public JButton getSay();
+	public JButton getApproach();
+	public JButton getFail();
+	public JButton getPass();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/delegatingbridgesceneviewinterface.java
+package grail.interfaces.mvc;
+
+import util.annotations.Tags;
+
+@Tags({"DelegatingBridgeSceneView"})
+public interface DelegatingBridgeSceneViewInterface {
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/paintlistener.java
+package grail.interfaces.mvc;
+
+import java.awt.Graphics2D;
+import java.beans.PropertyChangeListener;
+
+import util.annotations.Tags;
+
+@Tags({"PaintListener"})
+public interface PaintListener extends PropertyChangeListener{
+	void paint(Graphics2D g);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/mvc/paintingviewmaster.java
+package grail.interfaces.mvc;
+
+import util.annotations.Tags;
+
+@Tags({"ObservableBridgeScenePainter"})
+public interface PaintingViewMaster{
+	public void addPaintListener(PaintListener listener);
+	public void repaint();
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/controller/bridgescenecontroller.java
+package grail.mvc.controller;
+
+import java.awt.Component;
+import java.awt.event.KeyEvent;
+import java.awt.event.MouseEvent;
+
+import grail.SingletonsCreator;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.mvc.BridgeSceneControllerInterface;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
+
+@Tags({"BridgeSceneController"})
+public class BridgeSceneController implements BridgeSceneControllerInterface{
+	
+	PaintingViewMaster painter;
+	BridgeSceneInterface scene;
+	
+	private int lastClickX;
+	private int lastClickY;
+	private boolean clicked = false;	// to only respond to keys after click
+	
+	public BridgeSceneController(PaintingViewMaster painter){
+		this.painter = painter;
+		scene = SingletonsCreator.bridgeSceneFactoryMethod();
+		((Component)painter).addKeyListener(this);
+		((Component)painter).setFocusable(true);
+		((Component)painter).addMouseListener(this);
+	}
+
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		clicked = true;
+		lastClickX = e.getX();
+		lastClickY = e.getY();
+	}
+	
+	@Override
+	public void keyTyped(KeyEvent e) {
+		// Do nothing if haven't clicked
+		if (!clicked){
+			return;
+		}
+		
+		AvatarInterface knightToMove = null;
+		switch (e.getKeyChar()){
+		case 'a':
+			knightToMove = scene.getArthur();
+			break;
+		case 'g':
+			knightToMove = scene.getGalahad();
+			break;
+		case 'l':
+			knightToMove = scene.getLancelot();
+			break;
+		case 'r':
+			knightToMove = scene.getRobin();
+			break;
+		}
+		
+		if (knightToMove != null){
+			knightToMove.setX(lastClickX);
+			knightToMove.setY(lastClickY);
+		}
+	}
+	
+	
+	
+	/* Unused: */
+	
+	@Override
+	public void mouseEntered(MouseEvent e) {}
+
+	@Override
+	public void mouseExited(MouseEvent e) {}
+
+	@Override
+	public void mousePressed(MouseEvent e) {}
+
+	@Override
+	public void mouseReleased(MouseEvent e) {}
+
+	@Override
+	public void keyPressed(KeyEvent e) {}
+
+	@Override
+	public void keyReleased(KeyEvent e) {}
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/controller/commandinterpretercontroller.java
+package grail.mvc.controller;
+
+import java.awt.event.ActionEvent;
+import java.beans.PropertyChangeEvent;
+
+import javax.swing.JButton;
+import javax.swing.JTextField;
+
+import grail.SingletonsCreator;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.mvc.CommandInterpreterViewInterface;
+import grail.mvc.view.CommandInterpreterView;
+import grail.interfaces.mvc.CommandInterpreterControllerInterface;
+import util.annotations.PropertyNames;
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterController"})
+@PropertyNames({"TextField", "Say", "Pass", "Fail", "Approach"})
+public class CommandInterpreterController implements CommandInterpreterControllerInterface {
+	
+	public static final String SAY_TAG = "Say";
+	public static final String APPROACH_TAG = "Approach";
+	public static final String PASS_TAG = "Passed";
+	public static final String FAIL_TAG = "Failed";
+	
+	private static final String MOVE_ARTHUR_LEFT_COMMAND = "move arthur - 20 0";
+	private static final String MOVE_ARTHUR_RIGHT_COMMAND = "move arthur 20 0";
+	private static final String SAY_COMMAND = "say \"Guess someone clicked a button\"";
+	
+	private CommandInterpreterInterface interpreter;
+	private CommandInterpreterViewInterface uiFrame;
+	private BridgeSceneInterface scene;
+	
+	private JTextField textField;
+	private JButton sayButton;
+	private JButton approachButton;
+	private JButton failButton;
+	private JButton passButton;
+	
+	public CommandInterpreterController(CommandInterpreterViewInterface frame){
+		uiFrame = frame;
+		frame.addControllerListener(this);
+		
+		textField = frame.getTextField();
+		sayButton = frame.getSay();
+		approachButton = frame.getApproach();
+		failButton = frame.getFail();
+		passButton = frame.getPass();
+		
+		interpreter = SingletonsCreator.commandInterpreterFactoryMethod();
+		interpreter.addPropertyChangeListener(this);
+		
+		scene = SingletonsCreator.bridgeSceneFactoryMethod();
+		scene.addPropertyChangeListener(this);
+		
+		//Set initial buttons settings
+		sayButton.setEnabled(scene.preSay());
+		approachButton.setEnabled(scene.preApproach());
+		failButton.setEnabled(scene.preFailed());
+		passButton.setEnabled(scene.prePassed());
+	}
+
+	@Override
+	public JTextField getTextField(){
+		return textField;
+	}
+	
+	@Override
+	public JButton getSay(){
+		return sayButton;
+	}
+	
+	@Override
+	public JButton getPass(){
+		return passButton;
+	}
+	
+	@Override
+	public JButton getFail(){
+		return failButton;
+	}
+	
+	@Override
+	public JButton getApproach(){
+		return approachButton;
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent event) {
+		Object source =event.getSource();
+		
+		if (source == textField){
+			interpreter.setCommand(event.getActionCommand());
+			return;
+			
+		}else if (source == sayButton){
+			interpreter.setCommand(SAY_COMMAND);
+			
+		}else if (source == approachButton){
+			scene.approach(scene.getArthur());
+			
+		}else if (source == passButton){
+			scene.passed();
+			
+		}else if (source == failButton){
+			scene.failed();
+			
+		}else	if (CommandInterpreterView.MOVE_ARTHUR_LEFT.equals(event.getActionCommand())){
+			interpreter.setCommand(MOVE_ARTHUR_LEFT_COMMAND);
+		
+		}else if (CommandInterpreterView.MOVE_ARTHUR_RIGHT.equals(event.getActionCommand())){
+			interpreter.setCommand(MOVE_ARTHUR_RIGHT_COMMAND);
+			
+		}
+	}
+
+	@Override
+	public void propertyChange(PropertyChangeEvent event) {
+		String methodName = (String)(event.getOldValue());
+		Object newValue= event.getNewValue();
+		
+		if (SAY_TAG.equalsIgnoreCase(methodName)){
+			sayButton.setEnabled((Boolean)newValue);
+			
+		} else if (APPROACH_TAG.equalsIgnoreCase(methodName)){
+			approachButton.setEnabled((Boolean)newValue);
+			
+		}else if (PASS_TAG.equalsIgnoreCase(methodName)){
+			passButton.setEnabled((Boolean)newValue);
+			
+		}else if (FAIL_TAG.equalsIgnoreCase(methodName)){
+			failButton.setEnabled((Boolean)newValue);
+		}
+	}
+
+
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/avatarview.java
+package grail.mvc.view;
+
+import java.awt.Graphics2D;
+import java.beans.PropertyChangeEvent;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.mvc.PaintListener;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
+
+@Tags({"PaintListener"})
+public class AvatarView implements PaintListener{
+	
+	PaintingViewMaster painter;
+	AvatarInterface avatar;
+	
+	public AvatarView(AvatarInterface avatar, PaintingViewMaster painter){
+		this.painter = painter;
+		this.avatar = avatar;
+		
+		avatar.addPropertyChangeListenerToAtomics(this);
+	}
+
+	@Override
+	public void propertyChange(PropertyChangeEvent evt) {
+		painter.repaint();
+	}
+	
+	@Override
+	public void paint(Graphics2D g){
+		PaintingSupport.paintAvatar(g, avatar);
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/commandinterpreterview.java
+package grail.mvc.view;
+
+import java.awt.GridLayout;
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import grail.SingletonsCreator;
+import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.mvc.CommandInterpreterViewInterface;
+import util.annotations.PropertyNames;
+import util.annotations.Tags;
+
+@Tags({"CommandInterpreterView"})
+@PropertyNames({"TextField", "ProgressBar", "Say", "Pass", "Fail", "Approach"})
+public class CommandInterpreterView extends JFrame implements CommandInterpreterViewInterface{
+	
+	private static final int FRAME_ROWS = 4;
+	private static final int FRAME_COLUMNS = 1;
+	private static final int PANEL_ROWS = 1;
+	private static final int PANEL_COLUMNS = 2;
+	private static final String ERRORS_PROPERTY = "Errors";
+	
+	private static final int BUTTON_GRID_ROWS = 2;
+	private static final int BUTTON_GRID_COLUMNS = 2;
+	
+	public static final String MOVE_ARTHUR_LEFT = "Move Arthur left";
+	public static final String MOVE_ARTHUR_RIGHT = "Move Arthur right";
+	public static final String SAY = "Say";
+	public static final String APPROACH = "Approach";
+	public static final String PASS = "Pass";
+	public static final String FAIL = "Fail";
+	
+	private JLabel commandLabel;
+	private JTextField commandField;
+	
+	private JMenuItem moveArthurLeft;
+	private JButton moveArthurRight;
+	
+	private JTextField errorField;
+	private JLabel errorLabel;
+	
+	private JButton sayButton;
+	private JButton approachButton;
+	private JButton failButton;
+	private JButton passButton;
+	
+	private CommandInterpreterInterface interpreter;
+	
+	public CommandInterpreterView(){
+		super("CommandInterpreter UI");
+		
+		interpreter = SingletonsCreator.commandInterpreterFactoryMethod();
+		interpreter.addPropertyChangeListener(this);
+		
+		setLayout(new GridLayout(FRAME_ROWS, FRAME_COLUMNS));
+		
+		commandField = new JTextField("");
+		commandLabel = new JLabel("Command:");
+		JPanel commandPanel = new JPanel();
+		commandPanel.setLayout(new GridLayout(PANEL_ROWS, PANEL_COLUMNS));
+		commandPanel.add(commandLabel);
+		commandPanel.add(commandField);
+		
+		errorField = new JTextField();
+		errorField.setEditable(false);
+		errorLabel = new JLabel("Errors:");
+		JPanel errorPanel = new JPanel();
+		errorPanel.setLayout(new GridLayout(PANEL_ROWS, PANEL_COLUMNS));
+		errorPanel.add(errorLabel);
+		errorPanel.add(errorField);
+		
+		moveArthurLeft = new JMenuItem(MOVE_ARTHUR_LEFT);
+		JMenu menu = new JMenu("move");
+		JMenuBar menuBar = new JMenuBar();
+		menu.add(moveArthurLeft);
+		menuBar.add(menu);
+		
+		moveArthurRight = new JButton(MOVE_ARTHUR_RIGHT);
+		
+		sayButton = new JButton(SAY);
+		approachButton = new JButton(APPROACH);
+		failButton = new JButton(FAIL);
+		passButton = new JButton(PASS);
+		
+		JPanel buttonGrid = new JPanel();
+		buttonGrid.setLayout(new GridLayout(BUTTON_GRID_ROWS, BUTTON_GRID_COLUMNS));
+		buttonGrid.add(sayButton);
+		buttonGrid.add(approachButton);
+		buttonGrid.add(failButton);
+		buttonGrid.add(passButton);
+		
+		
+		setJMenuBar(menuBar);
+		add(commandPanel);
+		add(moveArthurRight);
+		add(errorPanel);
+		add(buttonGrid);
+	}
+
+	@Override
+	public void addControllerListener(ActionListener listener) {
+		commandField.addActionListener(listener);
+		moveArthurLeft.addActionListener(listener);
+		moveArthurRight.addActionListener(listener);
+		sayButton.addActionListener(listener);
+		approachButton.addActionListener(listener);
+		failButton.addActionListener(listener);
+		passButton.addActionListener(listener);
+	}
+
+	@Override
+	public void propertyChange(PropertyChangeEvent event) {
+		if (event.getPropertyName().equalsIgnoreCase(ERRORS_PROPERTY)){
+			errorField.setText(interpreter.getErrors());
+		}
+	}
+	
+	@Override
+	public JTextField getTextField(){
+		return commandField;
+	}
+	
+	@Override
+	public JButton getSay(){
+		return sayButton;
+	}
+	
+	@Override
+	public JButton getApproach(){
+		return approachButton;
+	}
+	
+	@Override
+	public JButton getFail(){
+		return failButton;
+	}
+	
+	@Override
+	public JButton getPass(){
+		return passButton;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/consolesceneview.java
+package grail.mvc.view;
+
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import grail.SingletonsCreator;
+import grail.interfaces.BridgeSceneInterface;
+import util.annotations.Tags;
+
+@Tags({"ConsoleSceneView"})
+public class ConsoleSceneView implements PropertyChangeListener{
+
+	/**
+	 * Constructor automatically registers this class as an observer of BridgeSceneInterface
+	 */
+	public ConsoleSceneView(){
+		BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
+		
+		// Register as listener of knights
+		scene.getArthur().addPropertyChangeListenerToAtomics(this);
+		scene.getGalahad().addPropertyChangeListenerToAtomics(this);
+		scene.getGuard().addPropertyChangeListenerToAtomics(this);
+		scene.getLancelot().addPropertyChangeListenerToAtomics(this);
+		scene.getRobin().addPropertyChangeListenerToAtomics(this);
+			
+		SceneBackgroundView.registerAsListenerOfBackground(scene, this);
+		
+		scene.addPropertyChangeListener(this); // for assertion events
+	}
+	
+	@Override
+	public void propertyChange(PropertyChangeEvent evt) {
+		System.out.println(evt);
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/delegatingbridgesceneview.java
+package grail.mvc.view;
+
+import grail.SingletonsCreator;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.mvc.DelegatingBridgeSceneViewInterface;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
+
+@Tags({"DelegatingBridgeSceneView"})
+public class DelegatingBridgeSceneView implements DelegatingBridgeSceneViewInterface{
+	
+	public DelegatingBridgeSceneView(BridgeSceneInterface scene){
+		PaintingViewMaster painter = SingletonsCreator.observableBridgeScenePainterFactoryMethod();
+		
+		painter.addPaintListener(new AvatarView(scene.getArthur(), painter));
+		painter.addPaintListener(new AvatarView(scene.getGalahad(), painter));
+		painter.addPaintListener(new AvatarView(scene.getGuard(), painter));
+		painter.addPaintListener(new AvatarView(scene.getLancelot(), painter));
+		painter.addPaintListener(new AvatarView(scene.getRobin(), painter));
+		
+		painter.addPaintListener(new SceneBackgroundView(scene, painter));
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/observablebridgescenepainter.java
+package grail.mvc.view;
+
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.mvc.PaintListener;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
+
+@Tags({"ObservableBridgeScenePainter"})
+public class ObservableBridgeScenePainter extends Component implements PaintingViewMaster{
+	
+	List<PaintListener> listeners;
+	
+	public ObservableBridgeScenePainter() {
+		listeners = new ArrayList<PaintListener>();
+		setFocusable(true);
+	}
+	
+	@Override
+	@Tags({"addPaintListener"})
+	public void addPaintListener(PaintListener listener){
+		listeners.add(listener);
+	}
+	
+	@Override
+	public void paint(Graphics g){
+		super.paint(g);
+		
+		for (PaintListener listener : listeners){
+			listener.paint((Graphics2D) g);
+		}
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/paintingsupport.java
+package grail.mvc.view;
+
+import java.awt.Graphics2D;
+import java.awt.Toolkit;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BoundedShapeInterface;
+import grail.interfaces.ImageInterface;
+import grail.interfaces.RotatingLineInterface;
+import grail.interfaces.StringShapeInterface;
+import grail.interfaces.VShapeInterface;
+
+public class PaintingSupport {
+	
+	public static void paintRectangle(Graphics2D g, BoundedShapeInterface shape){
+		g.drawRect(shape.getX(), shape.getY(), shape.getWidth(), shape.getHeight());
+	}
+	
+	public static void paintOval(Graphics2D g, BoundedShapeInterface shape){
+		g.drawOval(shape.getX(), shape.getY(), shape.getWidth(), shape.getHeight());
+	}
+	
+	public static void paintStringShape(Graphics2D g, StringShapeInterface shape){
+		g.drawString(shape.getText(), shape.getX(), shape.getY());
+	}
+	
+	public static void paintImage(Graphics2D g, ImageInterface shape){
+		g.drawImage(Toolkit.getDefaultToolkit().getImage(shape.getImageFileName()),
+				shape.getX(), shape.getY(), null);
+	}
+	
+	public static void paintLine(Graphics2D g, RotatingLineInterface line){
+		g.drawLine(line.getX(), line.getY(), line.getX() + line.getWidth(), line.getY()+line.getHeight());
+	}
+	
+	public static void paintVShape(Graphics2D g, VShapeInterface shape){
+		paintLine(g, shape.getLeftLine());
+		paintLine(g, shape.getRightLine());
+	}
+	
+	public static void paintAvatar(Graphics2D g, AvatarInterface avatar){
+		paintImage(g, avatar.getHead());
+		paintLine(g, avatar.getTorso());
+		paintStringShape(g, avatar.getStringShape());
+		paintVShape(g, avatar.getArms());
+		paintVShape(g, avatar.getLegs());
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/mvc/view/scenebackgroundview.java
+package grail.mvc.view;
+
+import java.awt.Graphics2D;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.mvc.PaintListener;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
+
+@Tags({"PaintListener"})
+public class SceneBackgroundView implements PaintListener{
+	BridgeSceneInterface scene;
+	PaintingViewMaster painter;
+	
+	public SceneBackgroundView(BridgeSceneInterface scene, PaintingViewMaster painter){
+		this.scene = scene;
+		this.painter = painter;
+		
+		// Register for gorge
+		scene.getGorge().getBridge().addPropertyChangeListener(this);
+		scene.getGorge().getLeftSide().addPropertyChangeListener(this);
+		scene.getGorge().getRightSide().addPropertyChangeListener(this);
+		
+		scene.getGuardArea().addPropertyChangeListener(this);
+		scene.getKnightArea().addPropertyChangeListener(this);
+	}
+	
+	public static void registerAsListenerOfBackground(BridgeSceneInterface scene, PropertyChangeListener listener){	
+		
+		// Register for gorge
+		scene.getGorge().getBridge().addPropertyChangeListener(listener);
+		scene.getGorge().getLeftSide().addPropertyChangeListener(listener);
+		scene.getGorge().getRightSide().addPropertyChangeListener(listener);
+		
+		scene.getGuardArea().addPropertyChangeListener(listener);
+		scene.getKnightArea().addPropertyChangeListener(listener);
+	}
+
+	@Override
+	public void propertyChange(PropertyChangeEvent evt) {
+		painter.repaint();
+	}
+
+	@Override
+	public void paint(Graphics2D g) {
+		PaintingSupport.paintLine(g, scene.getGorge().getLeftSide());
+		PaintingSupport.paintLine(g, scene.getGorge().getRightSide());
+		PaintingSupport.paintRectangle(g, scene.getGorge().getBridge());
+		PaintingSupport.paintOval(g, scene.getGuardArea());
+		PaintingSupport.paintOval(g, scene.getKnightArea());
+	}
+	
+	
+}
+//END OF FILE
 //START OF FILE: src/grail/scanner/commandinterpreter.java
 package grail.scanner;
 
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.ArrayList;
+import java.util.List;
+
 import grail.SingletonsCreator;
-import grail.collections.MyTable;
-import grail.commandBeans.MoveCommand;
-import grail.commandBeans.SayCommand;
-import grail.interfaces.AvatarInterface;
+import grail.animations.AnimatingCommand;
+import grail.animations.Animator;
+import grail.animations.ClapCommand;
+import grail.interfaces.AnimatorInterface;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
+import grail.interfaces.CommandThread;
 import grail.interfaces.ScannerBeanInterface;
 import grail.interfaces.Table;
-import grail.interfaces.Token;
-import grail.interfaces.Word;
-import grail.tokenBeans.MinusToken;
-import grail.tokenBeans.NumberToken;
-import grail.tokenBeans.PlusToken;
-import grail.tokenBeans.QuoteToken;
 import util.annotations.EditablePropertyNames;
 import util.annotations.PropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
 import util.annotations.Tags;
-import grail.interfaces.Number;
+import grail.interfaces.ParserInterface;
 
-@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter"})
+@Tags({"CommandInterpreter", "SignedMoveCommandInterpreter", "ErrorResilientCommandInterpreter","ObservableCommandInterpreter"})
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Command", "Errors"})
 @EditablePropertyNames({"Command"})
 public class CommandInterpreter implements CommandInterpreterInterface {
-	private static final String EOI = "end of input";
-	private static final String QUOTE_TOKEN = "quoted string";
-	private static final String COMMAND = "move or say";
-	private static final String NUMBER_TOKEN = "integer";
-	private static final String AVATAR_NAME = "avatar name";
 
+	private List<PropertyChangeListener> listeners = new ArrayList<PropertyChangeListener>();
+	
 	// Key references
 	private ScannerBeanInterface scannerBean;
 	private BridgeSceneInterface scene;
+	private ParserInterface parser;
 	
 	// Required table
 	private Table avatars;
@@ -1753,19 +2549,18 @@ public class CommandInterpreter implements CommandInterpreterInterface {
 	private String command ="";
 	private String errorString = "";
 	
-	// Convenience fields- these could be passed as parameters
-	private Token[] tokens;
-	private Token currentToken;
-	private int currentIndex;
-	
-	// Needed since not using exceptions, to let called functions 
-	// indicate whether they succeeded
-	boolean parsingError;
+	// Avatar-specific animators
+	AnimatorInterface arthurAnimator = new Animator();
+	AnimatorInterface robinAnimator = new Animator();
+	AnimatorInterface galahadAnimator = new Animator();
+	AnimatorInterface lancelotAnimator = new Animator();
+	AnimatorInterface guardAnimator = new Animator();
 	
 	// Constructor
 	public CommandInterpreter(BridgeSceneInterface scene, ScannerBeanInterface scannerBean){
 		this.scannerBean = scannerBean;
 		this.scene = scene;
+		parser = SingletonsCreator.parserFactoryMethod();
 		avatars = SingletonsCreator.avatarTableFactoryMethod();
 	}
 	
@@ -1776,101 +2571,276 @@ public class CommandInterpreter implements CommandInterpreterInterface {
 	
 	@Override
 	public void setCommand(String command){
+		String oldCommand = this.command;
 		this.command = command;
+		parser.setCommandText(command);
+		
+		String oldErrorString = errorString;
+		errorString = parser.getErrors();
+		notifyAllListeners("Errors", oldErrorString, errorString);
+		notifyAllListeners("Command", oldCommand, command);
+		
+		// Execute the command
+		CommandThread commandThread = parser.getCommandObject();
+		if (null == commandThread){
+			return;
+		}else{
+			commandThread.run();
+		}
+	}//end setCommand
+
+	@Override
+	public String getErrors() {
+		return errorString;
+	}
+
+	@Override
+	public void addPropertyChangeListener(PropertyChangeListener listener) {
+		listeners.add(listener);
+	}
+	
+	private void notifyAllListeners(String propertyName, Object oldValue, Object newValue){
+		for (PropertyChangeListener listener : listeners){
+			listener.propertyChange(new PropertyChangeEvent(this, propertyName, oldValue, newValue));
+		}
+	}
+
+	@Override
+	@Tags({"asynchronousArthur"})
+	public void animateArthur() {
+		Thread thread = new Thread(new AnimatingCommand(arthurAnimator, scene.getArthur()));
+		thread.start();
+	}
+
+	@Tags({"asynchronousGalahad"})
+	@Override
+	public void animateGalahad() {
+		Thread thread = new Thread(new AnimatingCommand(galahadAnimator, scene.getGalahad()));
+		thread.start();
+	}
+
+	@Tags({"asynchronousLancelot"})
+	@Override
+	public void animateLancelot() {
+		Thread thread = new Thread(new AnimatingCommand(lancelotAnimator, scene.getLancelot()));
+		thread.start();
+	}
+
+	@Override
+	@Tags({"asynchronousRobin"})
+	public void animateRobin() {
+		Thread thread = new Thread(new AnimatingCommand(robinAnimator, scene.getRobin()));
+		thread.start();
+	}
+	
+	@Override
+	@Tags({"asynchronousGuard"})
+	public void clapGuard(){
+		Thread thread = new Thread(new ClapCommand(guardAnimator, scene));
+		thread.start();
+	}
+	
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/parser.java
+package grail.scanner;
+
+import grail.SingletonsCreator;
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import grail.interfaces.CompositeCommandThread;
+import grail.interfaces.Number;
+import grail.interfaces.ParserInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Table;
+import grail.interfaces.Token;
+import grail.interfaces.Word;
+import grail.scanner.commands.ApproachCommand;
+import grail.scanner.commands.CommandList;
+import grail.scanner.commands.FailCommand;
+import grail.scanner.commands.MoveCommand;
+import grail.scanner.commands.PassCommand;
+import grail.scanner.commands.RepeatCommand;
+import grail.scanner.commands.SayCommand;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.commandBeans.ApproachCommandToken;
+import grail.tokenBeans.commandBeans.FailCommandToken;
+import grail.tokenBeans.commandBeans.MoveCommandToken;
+import grail.tokenBeans.commandBeans.PassCommandToken;
+import grail.tokenBeans.commandBeans.RepeatCommandToken;
+import grail.tokenBeans.commandBeans.SayCommandToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.Tags;
+
+@Tags({"Parser"})
+@PropertyNames({"CommandText", "CommandObject", "Errors"})
+@EditablePropertyNames({"CommandText"})
+public class Parser implements ParserInterface {
+
+	private static final String EOI = "end of input";
+	private static final String QUOTE_TOKEN = "quoted string";
+	private static final String COMMAND = "move/say/approach/pass/fail/repeat/{";
+	private static final String NUMBER_TOKEN = "integer";
+	private static final String AVATAR_NAME = "avatar name";
+	private static final String END_TOKEN = "end token (})";
+	private static final String EMPTY_STRING = "";
+	
+	
+	private ScannerBeanInterface scanner = SingletonsCreator.scannerFactoryMethod();
+	private BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
+	private Table avatars = SingletonsCreator.avatarTableFactoryMethod();
+	
+	// Property-backing fields
+	private String commandText = "";
+	private CommandThread commandObject;
+	private String errorString = "";
+	
+	private Token[] tokens;
+	private int tokenIndex;
+	
+	@Override
+	public String getCommandText(){
+		return commandText;
+	}
+	
+	
+	@Override
+	public void setCommandText(String string){
+		commandText = string;
 		errorString = "";
-		scannerBean.setScannedString(command);
-		tokens = scannerBean.getTokens();
+		reset();
+	
+		scanner.setScannedString(string);
+		tokens = scanner.getTokens();
 		
 		// Check for unparseable tokens
-		String[] errors = scannerBean.getErrors();
-		if (scannerBean.getErrors().length != 0){
+		String[] errors = scanner.getErrors();
+		if (errors.length != 0){
 			errorString = "ERROR- Invalid tokens in command: " + errors[0];
 			for (int i = 1; i < errors.length; ++i){
 				errorString += (", " + errors[i]);
 			}
-			return;
-		
-		// If no unparsable tokens
-		}else{
-			currentIndex = 0;
-			executeCommand();	
 		}
-	}//end setCommand
+		
+		// If parseable, parse into one command
+		commandObject = parseCommand();
+		if (!EMPTY_STRING.equals(errorString)){
+			return;
+		}
+		
+		// Make sure command has ended
+		if (hasNext()){
+			fillErrorString(next().getInput(), EOI);
+		}
+	}
 	
-	/**
-	 * This, like the other helper functions, expects currentIndex to be set
-	 * to the index in tokens of the command to be parsed, and leaves currentIndex
-	 * pointing to right past the last command token. 
-	 * 
-	 */
-	private void executeCommand(){
+	@Override
+	public CommandThread getCommandObject(){
+		return commandObject;
+	}
+	
+	@Override
+	public String getErrors(){
+		return errorString;
+	}
+	
+	private CommandThread parseCommand(){
 		
-		if (currentIndex >= tokens.length){
+		if (!hasNext()){
 			fillErrorString(EOI, COMMAND);
-			return;
+			return null;
 		}
 		
-		currentToken = tokens[currentIndex];
+		// Parse proper command based on first token
+		Token currentToken = peek();
 		
-		// Check if it's a say command
-		if (currentToken instanceof SayCommand){
-			++currentIndex;
-			executeSayCommand();
+		if (currentToken instanceof SayCommandToken){
+			return parseSayCommand();
 			
-		// Check if it's a move command
-		}else if (currentToken instanceof MoveCommand){
-			++currentIndex;
-			executeMoveCommand();
+		}else if (currentToken instanceof MoveCommandToken){
+			return parseMoveCommand();
+			
+		}else if (currentToken instanceof ApproachCommandToken){
+			return parseApproachCommand();
+			
+		}else if (currentToken instanceof PassCommandToken){
+			return parsePassCommand();
+			
+		}else if (currentToken instanceof FailCommandToken){
+			return parseFailCommand();
+			
+		}else if (currentToken instanceof RepeatCommandToken){
+			return parseRepeatCommand();
+			
+		}else if (currentToken instanceof StartToken){
+			return parseCommandList();
 			
 		}else {
 			fillErrorString(currentToken.getInput(), COMMAND);
-			return;
+			return null;
 		}
 	}
-
-	private void executeSayCommand() {
-		String quote;
+	
+	/**
+	 * Like the other helper methods, expects index to point to first token of command,
+	 * and the first token to be correct.
+	 * 
+	 * @return SayCommand
+	 */
+	private SayCommand parseSayCommand(){
+		
+		next(); 	// skip the move token
 		
 		// Check for additional token
-		if (currentIndex >= tokens.length){
+		if (!hasNext()){
 			fillErrorString(EOI, QUOTE_TOKEN);
-			return;
+			return null;
 		}
 		
-		currentToken = tokens[currentIndex];
+		String quote;
+		Token currentToken = next();	// grab the quote
 		
 		// Make sure it's a quote
 		if (currentToken instanceof QuoteToken){
-			quote = tokens[currentIndex].getInput();
+			quote = currentToken.getInput();
 		
 		}else {	
 			fillErrorString(currentToken.getInput(), QUOTE_TOKEN);
-			return;
-		}
-
-		++currentIndex;
-		
-		// Make sure command has ended
-		if (!(currentIndex >= tokens.length)){
-			fillErrorString(tokens[currentIndex].getInput(), EOI);
-			return;
+			return null;
 		}
 		
-		scene.say(quote);
+		return new SayCommand(scene, quote);
 	}
-
-	private void executeMoveCommand() {
+	
+	/**
+	 * Like the other helper methods, expects index to point to first token of command,
+	 * and the first token to be correct.
+	 * 
+	 * @return MoveCommand
+	 */
+	private MoveCommand parseMoveCommand(){
+		next(); // Skip first token
+		
+		// The three things we need
 		String avatarName;
 		int moveX;
 		int moveY;
 		
 		// Check for additional token
-		if (currentIndex >= tokens.length){
-			fillErrorString(EOI, QUOTE_TOKEN);
-			return;
+		if (!hasNext()){
+			fillErrorString(EOI, AVATAR_NAME);
+			return null;
 		}
 		
-		currentToken = tokens[currentIndex];
+		Token currentToken = next();
 		
 		// Make sure it's a word
 		if (currentToken instanceof Word){
@@ -1878,102 +2848,228 @@ public class CommandInterpreter implements CommandInterpreterInterface {
 		
 		}else {	
 			fillErrorString(currentToken.getInput(), AVATAR_NAME);
-			return;
+			return null;
 		}
 		
 		// Check that word is valid avatar name
 		AvatarInterface avatar = (AvatarInterface)avatars.get(avatarName);
 		if (null == avatar){
 			fillErrorString(currentToken.getInput(), AVATAR_NAME);
-			return;
+			return null;
 		}
 		
-		++currentIndex;
-		
-		moveX = processSignedInteger();
-		if (parsingError){
-			return;
-		}
-		moveY = processSignedInteger();
-		if (parsingError){
-			return;
+		moveX = parseNumber();
+		if (!EMPTY_STRING.equals(getErrors())){
+			return null;	//processSignedInteger already filled errorString
 		}
 		
-		// Make sure command has ended
-		if (!(currentIndex >= tokens.length)){
-			fillErrorString(tokens[currentIndex].getInput(), EOI);
-			return;
+		moveY = parseNumber();
+		if (!EMPTY_STRING.equals(getErrors())){
+			return null;
 		}
 		
-		avatar.move(moveX,moveY);
+		return new MoveCommand(avatar, moveX, moveY);
 	}
 	
 	/**
-	 * Expects currentIndex to be pointing to first token of signed integer,
+	 * Expects index to be pointing to first token of signed integer,
 	 * and leaves it pointing just past the last token. Sets parsingError to
 	 * true if there was an incorrect token (reports it itself in console).
 	 * 
 	 * @return parsed signed integer.
 	 */
-	private int processSignedInteger() {
+	@Tags({"parseNumber"})
+	private int parseNumber() {
 
-		parsingError = false;
-		int returnValue = 1;
+		int returnValue = 1;	// Must start at 1 to allow multiplication
 		
 		// Check for additional token
-		if (currentIndex >= tokens.length){
+		if (!hasNext()){
 			fillErrorString(EOI, NUMBER_TOKEN);
-			parsingError = true;
 			return 0;
 		}
 		
-		currentToken = tokens[currentIndex];
+		Token currentToken = next();
 		
 		// See if it's a sign
 		if (currentToken instanceof PlusToken){
-			++currentIndex;
-			
+
 			// Check for additional token after sign
-			if (currentIndex >= tokens.length){
+			if (!hasNext()){
 				fillErrorString(EOI, NUMBER_TOKEN);
-				parsingError = true;
 				return 0;
 			}
-		
+			
+			// No modifications necessary
+			currentToken = next();
+					
 		} else if (currentToken instanceof MinusToken) {
 			returnValue *= -1;
-			++currentIndex;
 			
 			// Check for additional token
-			if (currentIndex >= tokens.length){
+			if (!hasNext()){
 				fillErrorString(EOI, NUMBER_TOKEN);
-				parsingError = true;
 				return 0;
 			}
+			
+			currentToken = next();
 		}
 
-		currentToken = tokens[currentIndex];
+		// Grab the actual number
 		if (currentToken instanceof NumberToken){
 			returnValue *= ((Number)currentToken).getValue();
+		
 		}else{
 			fillErrorString(currentToken.getInput(), NUMBER_TOKEN);
-			parsingError = true;
 			return 0;
 		}
-		++currentIndex;
 		
 		return returnValue;
 	}
-
+	
+	/**
+	 * Like the other helper methods, expects index to point to first token of command,
+	 * and the first token to be correct.
+	 * 
+	 * @return ApproachCommand
+	 */
+	private ApproachCommand parseApproachCommand(){
+		next(); 	// skip the first token
+		
+		// Check for additional token
+		if (!hasNext()){
+			fillErrorString(EOI, AVATAR_NAME);
+			return null;
+		}
+		
+		Token currentToken = next();
+		String avatarName;
+		
+		// Make sure it's a word
+		if (currentToken instanceof Word){
+			avatarName = ((Word)currentToken).getValue();
+		
+		}else {	
+			fillErrorString(currentToken.getInput(), AVATAR_NAME);
+			return null;
+		}
+		
+		// Check that word is valid avatar name
+		AvatarInterface avatar = (AvatarInterface)avatars.get(avatarName);
+		if (null == avatar){
+			fillErrorString(currentToken.getInput(), AVATAR_NAME);
+			return null;
+		}
+		
+		return new ApproachCommand(scene, avatar);
+	}
+	
+	/**
+	 * Like the other helper methods, expects index to point to first token of command,
+	 * and the first token to be correct.
+	 * 
+	 * @return PassCommand
+	 */
+	private PassCommand parsePassCommand(){
+		next(); 	// skip token
+		return new PassCommand(scene);
+	}
+	
+	/**
+	 * Like the other helper methods, expects index to point to first token of command,
+	 * and the first token to be correct.
+	 * 
+	 * @return FailCommand
+	 */
+	private FailCommand parseFailCommand(){
+		next(); 	// skip token
+		return new FailCommand(scene);
+	}
+	
+	
+	private CompositeCommandThread parseCommandList(){
+		next();	// Skip first token
+		
+		CompositeCommandThread commandList = new CommandList();
+		
+		while(hasNext() && !(peek() instanceof EndToken)){
+			commandList.add(parseCommand());
+			
+			// Check that each command was properly parsed
+			if (!EMPTY_STRING.equals(getErrors())){
+				return null;
+			}
+		}
+		
+		// See if there is a closing bracket
+		if (!hasNext()){
+			fillErrorString(EOI, END_TOKEN);	
+			return null;
+		}
+		
+		Token currentToken = next();
+		if (!(currentToken instanceof EndToken)){
+			fillErrorString(currentToken.getInput(), END_TOKEN);
+			return null;
+		}
+		
+		return commandList;
+	}
+	
+	
+	private RepeatCommand parseRepeatCommand(){
+		next();	// Skip first token
+		
+		// Check for additional token
+		if (!hasNext()){
+			fillErrorString(EOI, NUMBER_TOKEN);
+			return null;
+		}
+		
+		Token currentToken = next();
+		int numRepetitions = 0;
+		
+		if (currentToken instanceof NumberToken){
+			numRepetitions = ((NumberToken) currentToken).getValue();
+		
+		}else{
+			fillErrorString(currentToken.getInput(), NUMBER_TOKEN);
+			return null;
+		}
+			
+		// Check for additional token
+		if (!hasNext()){
+			fillErrorString(EOI, COMMAND);
+			return null;
+		}
+		
+		CommandThread command = parseCommand();
+		
+		return new RepeatCommand(numRepetitions, command);
+	}
+	
 	private void fillErrorString(String encountered, String expected) {
 		errorString = "ERROR- Encountered: " + encountered 
 				+ " Expected: " + expected;
 	}
-
-	@Override
-	public String getErrors() {
-		return errorString;
+	
+	private Token next(){
+		Token toReturn = tokens[tokenIndex];
+		++tokenIndex;
+		return toReturn;
 	}
+	private Token peek(){
+		return tokens[tokenIndex];
+	}
+	
+	private boolean hasNext(){
+		return tokenIndex < tokens.length;
+	}
+
+	private void reset(){
+		tokenIndex = 0;
+	}
+	
 }
 //END OF FILE
 //START OF FILE: src/grail/scanner/scannerbean.java
@@ -1988,22 +3084,6 @@ import util.annotations.Tags;
 import java.util.Iterator;
 
 import grail.collections.ClearableHistory;
-import grail.commandBeans.ApproachCommand;
-import grail.commandBeans.FailCommand;
-import grail.commandBeans.MoveCommand;
-import grail.commandBeans.PassCommand;
-import grail.commandBeans.RepeatCommand;
-import grail.commandBeans.SayCommand;
-import grail.extraCommandBeans.CallCommand;
-import grail.extraCommandBeans.DefineCommand;
-import grail.extraCommandBeans.ProceedAllCommand;
-import grail.extraCommandBeans.RedoCommand;
-import grail.extraCommandBeans.RotateLeftArmCommand;
-import grail.extraCommandBeans.RotateRightArmCommand;
-import grail.extraCommandBeans.SleepCommand;
-import grail.extraCommandBeans.ThreadCommand;
-import grail.extraCommandBeans.UndoCommand;
-import grail.extraCommandBeans.WaitCommand;
 import grail.interfaces.ClearableHistoryInterface;
 import grail.interfaces.ScannerBeanInterface;
 import grail.interfaces.Token;
@@ -2014,6 +3094,22 @@ import grail.tokenBeans.PlusToken;
 import grail.tokenBeans.QuoteToken;
 import grail.tokenBeans.StartToken;
 import grail.tokenBeans.WordToken;
+import grail.tokenBeans.commandBeans.ApproachCommandToken;
+import grail.tokenBeans.commandBeans.FailCommandToken;
+import grail.tokenBeans.commandBeans.MoveCommandToken;
+import grail.tokenBeans.commandBeans.PassCommandToken;
+import grail.tokenBeans.commandBeans.RepeatCommandToken;
+import grail.tokenBeans.commandBeans.SayCommandToken;
+import grail.tokenBeans.extraCommandBeans.CallCommandToken;
+import grail.tokenBeans.extraCommandBeans.DefineCommandToken;
+import grail.tokenBeans.extraCommandBeans.ProceedAllCommandToken;
+import grail.tokenBeans.extraCommandBeans.RedoCommandToken;
+import grail.tokenBeans.extraCommandBeans.RotateLeftArmCommandToken;
+import grail.tokenBeans.extraCommandBeans.RotateRightArmCommandToken;
+import grail.tokenBeans.extraCommandBeans.SleepCommandToken;
+import grail.tokenBeans.extraCommandBeans.ThreadCommandToken;
+import grail.tokenBeans.extraCommandBeans.UndoCommandToken;
+import grail.tokenBeans.extraCommandBeans.WaitCommandToken;
 
 
 /**
@@ -2174,71 +3270,71 @@ public class ScannerBean implements ScannerBeanInterface{
 	private Token constructCommandOrWord(String tokenString) {
 		
 		if ("approach".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new ApproachCommand(tokenString));
-			return new ApproachCommand(tokenString);
+			tokenList.addElement(new ApproachCommandToken(tokenString));
+			return new ApproachCommandToken(tokenString);
 			
 		}else if ("fail".equalsIgnoreCase(tokenString)){
 
-			tokenList.addElement(new FailCommand(tokenString));
-			return new FailCommand(tokenString);
+			tokenList.addElement(new FailCommandToken(tokenString));
+			return new FailCommandToken(tokenString);
 			
 		}else if ("move".equalsIgnoreCase(tokenString)){
 
-			tokenList.addElement(new MoveCommand(tokenString));
-			return new MoveCommand(tokenString);
+			tokenList.addElement(new MoveCommandToken(tokenString));
+			return new MoveCommandToken(tokenString);
 			
 		}else if ("pass".equalsIgnoreCase(tokenString)){
 
-			tokenList.addElement(new PassCommand(tokenString));
-			return new PassCommand(tokenString);
+			tokenList.addElement(new PassCommandToken(tokenString));
+			return new PassCommandToken(tokenString);
 			
 		}else if ("repeat".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new RepeatCommand(tokenString));
-			return new RepeatCommand(tokenString);
+			tokenList.addElement(new RepeatCommandToken(tokenString));
+			return new RepeatCommandToken(tokenString);
 			
 		}else if ("say".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new SayCommand(tokenString));
-			return new SayCommand(tokenString);
+			tokenList.addElement(new SayCommandToken(tokenString));
+			return new SayCommandToken(tokenString);
 			
 		}else if ("call".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new CallCommand(tokenString));
-			return new CallCommand(tokenString);
+			tokenList.addElement(new CallCommandToken(tokenString));
+			return new CallCommandToken(tokenString);
 			
 		}else if ("define".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new DefineCommand(tokenString));
-			return new DefineCommand(tokenString);
+			tokenList.addElement(new DefineCommandToken(tokenString));
+			return new DefineCommandToken(tokenString);
 			
 		}else if ("proceedall".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new ProceedAllCommand(tokenString));
-			return new ProceedAllCommand(tokenString);
+			tokenList.addElement(new ProceedAllCommandToken(tokenString));
+			return new ProceedAllCommandToken(tokenString);
 			
 		}else if ("redo".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new RedoCommand(tokenString));
-			return new RedoCommand(tokenString);
+			tokenList.addElement(new RedoCommandToken(tokenString));
+			return new RedoCommandToken(tokenString);
 			
 		}else if ("rotateleftarm".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new RotateLeftArmCommand(tokenString));
-			return new RotateLeftArmCommand(tokenString);
+			tokenList.addElement(new RotateLeftArmCommandToken(tokenString));
+			return new RotateLeftArmCommandToken(tokenString);
 			
 		}else if ("rotaterightarm".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new RotateRightArmCommand(tokenString));
-			return new RotateRightArmCommand(tokenString);
+			tokenList.addElement(new RotateRightArmCommandToken(tokenString));
+			return new RotateRightArmCommandToken(tokenString);
 			
 		}else if ("sleep".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new SleepCommand(tokenString));
-			return new SleepCommand(tokenString);
+			tokenList.addElement(new SleepCommandToken(tokenString));
+			return new SleepCommandToken(tokenString);
 			
 		}else if ("thread".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new ThreadCommand(tokenString));
-			return new ThreadCommand(tokenString);
+			tokenList.addElement(new ThreadCommandToken(tokenString));
+			return new ThreadCommandToken(tokenString);
 			
 		}else if ("undo".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new UndoCommand(tokenString));
-			return new UndoCommand(tokenString);
+			tokenList.addElement(new UndoCommandToken(tokenString));
+			return new UndoCommandToken(tokenString);
 			
 		}else if ("wait".equalsIgnoreCase(tokenString)){
-			tokenList.addElement(new WaitCommand(tokenString));
-			return new WaitCommand(tokenString);
+			tokenList.addElement(new WaitCommandToken(tokenString));
+			return new WaitCommandToken(tokenString);
 		}
 		
 		// If none matched, return generic word
@@ -2394,10 +3490,190 @@ public class ScanningIterator implements Iterator<String>{
 
 }
 //END OF FILE
+//START OF FILE: src/grail/scanner/commands/approachcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"ApproachCommand"})
+public class ApproachCommand implements CommandThread{
+
+	private BridgeSceneInterface scene;
+	private AvatarInterface avatar;
+	
+	public ApproachCommand(BridgeSceneInterface scene, AvatarInterface avatar){
+		this.scene = scene;
+		this.avatar = avatar;
+	}
+	
+	@Override
+	public void run() {
+		scene.approach(avatar);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/commandlist.java
+package grail.scanner.commands;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import grail.interfaces.CompositeCommandThread;
+import util.annotations.Tags;
+
+@Tags({"CommandList"})
+public class CommandList implements CompositeCommandThread{
+
+	private List<Runnable> commands = new ArrayList<Runnable>();
+	
+	//Empty constructor
+	public CommandList(){}
+
+	@Override
+	public void add(Runnable r) {
+		commands.add(r);
+	}
+	
+	@Override
+	public void run() {
+		for (Runnable command : commands){
+			command.run();
+		}
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/failcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"FailCommand"})
+public class FailCommand implements CommandThread{
+
+	private BridgeSceneInterface scene;
+	
+	public FailCommand(BridgeSceneInterface scene){
+		this.scene = scene;
+	}
+	
+	@Override
+	public void run() {
+		scene.failed();
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/movecommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.AvatarInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"MoveCommand"})
+public class MoveCommand implements CommandThread{
+
+	private AvatarInterface avatar;
+	private int xOffset;
+	private int yOffset;
+	
+	public MoveCommand(AvatarInterface avatar, int xOffset, int yOffset){
+		this.avatar = avatar;
+		this.xOffset = xOffset;
+		this.yOffset = yOffset;
+	}
+	
+	@Override
+	public void run() {
+		avatar.move(xOffset, yOffset);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/passcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"PassCommand"})
+public class PassCommand implements CommandThread{
+
+	private BridgeSceneInterface scene;
+	
+	public PassCommand(BridgeSceneInterface scene){
+		this.scene = scene;
+	}
+	
+	@Override
+	public void run() {
+		scene.passed();
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/repeatcommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"RepeatCommand"})
+public class RepeatCommand implements CommandThread{
+
+	private int count;
+	private CommandThread command;
+	
+	public RepeatCommand(int count, CommandThread command){
+		this.count = count;
+		this.command = command;
+	}
+	
+	@Override
+	public void run() {
+		for (int i = 0; i < count; ++i){
+			command.run();
+		}
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/scanner/commands/saycommand.java
+package grail.scanner.commands;
+
+import grail.interfaces.BridgeSceneInterface;
+import grail.interfaces.CommandThread;
+import util.annotations.Tags;
+
+@Tags({"SayCommand"})
+public class SayCommand implements CommandThread{
+
+	private BridgeSceneInterface scene;
+	private String quote;
+	
+	public SayCommand(BridgeSceneInterface scene, String quote){
+		this.scene = scene;
+		this.quote = quote;
+	}
+	
+	@Override
+	public void run() {
+		scene.say(quote);
+	}
+
+}
+//END OF FILE
 //START OF FILE: src/grail/tokenbeans/endtoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -2429,7 +3705,7 @@ import util.annotations.Tags;
 @StructurePattern(StructurePatternNames.BEAN_PATTERN)
 @PropertyNames({"Input"})
 @EditablePropertyNames({"Input"})
-public class GenericToken implements Token{
+public abstract class GenericToken implements Token{
 	private String input;
 		
 	public GenericToken(String input){
@@ -2450,8 +3726,6 @@ public class GenericToken implements Token{
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/minustoken.java
 package grail.tokenBeans;
-
-import grail.interfaces.Token;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
@@ -2507,7 +3781,6 @@ public class NumberToken extends GenericToken implements Number{
 //START OF FILE: src/grail/tokenbeans/plustoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -2527,7 +3800,6 @@ public class PlusToken extends GenericToken {
 //START OF FILE: src/grail/tokenbeans/quotetoken.java
 package grail.tokenBeans;
 
-import grail.interfaces.Token;
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
 import util.annotations.StructurePatternNames;
@@ -2546,8 +3818,6 @@ public class QuoteToken extends GenericToken{
 //END OF FILE
 //START OF FILE: src/grail/tokenbeans/starttoken.java
 package grail.tokenBeans;
-
-import grail.interfaces.Token;
 
 import util.annotations.EditablePropertyNames;
 import util.annotations.StructurePattern;
@@ -2601,83 +3871,445 @@ public class WordToken extends GenericToken implements Word{
 
 }
 //END OF FILE
-//START OF FILE: src/main/assignment7.java
+//START OF FILE: src/grail/tokenbeans/commandbeans/approachcommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Approach"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ApproachCommandToken extends WordToken {
+
+	public ApproachCommandToken(String input) {
+		super(input);
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/commandbeans/failcommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Fail"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class FailCommandToken extends WordToken {
+
+	public FailCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/commandbeans/movecommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Move"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class MoveCommandToken extends WordToken {
+
+	public MoveCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/commandbeans/passcommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Pass"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class PassCommandToken extends WordToken {
+
+	public PassCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/commandbeans/repeatcommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Repeat"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RepeatCommandToken extends WordToken {
+
+	public RepeatCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/commandbeans/saycommandtoken.java
+package grail.tokenBeans.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Say"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SayCommandToken extends WordToken {
+
+	public SayCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/callcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Call"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class CallCommandToken extends WordToken {
+
+	public CallCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/definecommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Define"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class DefineCommandToken extends WordToken {
+
+	public DefineCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/proceedallcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"ProceedAll"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ProceedAllCommandToken extends WordToken {
+
+	public ProceedAllCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/redocommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Redo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RedoCommandToken extends WordToken {
+
+	public RedoCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/rotateleftarmcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateLeftArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateLeftArmCommandToken extends WordToken {
+
+	public RotateLeftArmCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/rotaterightarmcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateRightArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateRightArmCommandToken extends WordToken {
+
+	public RotateRightArmCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/sleepcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Sleep"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SleepCommandToken extends WordToken {
+
+	public SleepCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/threadcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Thread"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ThreadCommandToken extends WordToken {
+
+	public ThreadCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/undocommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Undo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class UndoCommandToken extends WordToken {
+
+	public UndoCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/extracommandbeans/waitcommandtoken.java
+package grail.tokenBeans.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WaitCommandToken extends WordToken {
+
+	public WaitCommandToken(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/main/assignment11.java
 package main;
+
+import java.awt.Component;
+import javax.swing.JFrame;
+import javax.swing.JProgressBar;
 
 import bus.uigen.OEFrame;
 import bus.uigen.ObjectEditor;
 import grail.SingletonsCreator;
-import grail.collections.MyTable;
-import grail.graphics.BridgeScene;
 import grail.interfaces.BridgeSceneInterface;
 import grail.interfaces.CommandInterpreterInterface;
-import grail.interfaces.ScannerBeanInterface;
-import grail.interfaces.Table;
-import grail.scanner.CommandInterpreter;
-import grail.scanner.ScannerBean;
+import grail.interfaces.mvc.DelegatingBridgeSceneViewInterface;
+import grail.interfaces.mvc.PaintingViewMaster;
+import util.annotations.Tags;
 import util.misc.ThreadSupport;
 
-public class Assignment7 {
-	
-	private static final int SLOW_DELAY = 2000;
-	
-	private static final int OEFRAME_WIDTH = 1000;
-	private static final int OEFRAME_HEIGHT = 500;
-	
-	private static final String[] TEST_STRINGS = {
-			"say \"Well what do we have here\"",
-			"say \"This town ain't big enough for both of us\"",
-			"move guard 50 50",
-			"move arthur - 50 - 50",
-			"move galahad + 50 - 50",
-			"move RoBIN 50 - 0",
-			"move LANCELot + 0 + 50",
-			"move notAvatar 20 20",
-			"unparseable123 tokens*( here",
-			"move arthur \"notNumber\"",
-			"say 25"
-			};
-	
-	public static void main(String[] args) {
+@Tags({"ProgressBarCreator"})
+public class Assignment11 {
+
+		private static JProgressBar progressBar;
+		private static final int BAR_ROWS = 1;
+		private static final int BAR_COLUMNS = 1;
+		private static final int BAR_WIDTH = 500;
+		private static final int BAR_HEIGHT = 100;
 		
-		// Table test
-		Table table = new MyTable();
-		table.put("monkey", "Hugo");
-		table.put("twelve", new Integer(12));
-		table.put("null value", null);
-		System.out.println(table.get("twelve"));
-		System.out.println(table.get("monkey"));
-		System.out.println(table.get("null value"));
-		System.out.println(table.get("random"));
-		System.out.println(table.get(null));
+		private static final int PROGRESS_BAR_MAX = 100;
+		private static final int BAR_INCREMENT = 25;
 		
-		BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
-		ScannerBeanInterface scannerBean = SingletonsCreator.scannerFactoryMethod();
-		CommandInterpreterInterface interpreter = SingletonsCreator.commandInterpreterFactoryMethod();
+		private static final int LONG_DELAY = 1500;
+
+		private static final int OEFRAME_WIDTH = 1000;
+		private static final int OEFRAME_HEIGHT = 500;
 		
-		OEFrame sceneFrame = ObjectEditor.edit(scene);
-		OEFrame scannerFrame = ObjectEditor.edit(scannerBean);
-		OEFrame interpreterFrame = ObjectEditor.edit(interpreter);
+		private static final int SCENE_VIEW_WIDTH = 1500;
+		private static final int SCENE_VIEW_HEIGHT = 500;
 		
-		sceneFrame.hideMainPanel();
-		sceneFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
-		scannerFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
-		interpreterFrame.setSize(OEFRAME_WIDTH, OEFRAME_HEIGHT);
+		private static final int INTERPRETER_VIEW_WIDTH = 300;
+		private static final int INTERPRETER_VIEW_HEIGHT = 300;
 		
-		ThreadSupport.sleep(SLOW_DELAY);
-		scene.approach(scene.getGalahad());
-		sceneFrame.refresh();
-		scannerFrame.refresh();
-		interpreterFrame.refresh();
+		private static final int INTERPRETER_OE_WIDTH = 300;
+		private static final int INTERPRETER_OE_HEIGHT = 500;
 		
-		for (int i = 0; i < TEST_STRINGS.length; ++i){
-			ThreadSupport.sleep(SLOW_DELAY);
-			interpreter.setCommand(TEST_STRINGS[i]);
-			sceneFrame.refresh();
-			scannerFrame.refresh();
-			interpreterFrame.refresh();
+		private static final String[] COMMAND_LIST = {"approach arthur", 
+				"{ say \"Hello!\" say \"Howdy\" pass }", 
+				"{ approach galahad repeat 3 { move galahad 10 10 say \"Hi!\" } }",
+				"move robin - 20 - 20"
+		};
+
+		
+		public static void main(String[] args) throws InterruptedException {
+			
+			// Model
+			BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
+			
+			// Painting view
+			DelegatingBridgeSceneViewInterface sceneView = SingletonsCreator.delegatingBridgeSceneViewFactoryMethod();
+			PaintingViewMaster sceneViewComponent = SingletonsCreator.observableBridgeScenePainterFactoryMethod();
+			
+			JFrame sceneFrame = new JFrame("Bridge Scene");
+			sceneFrame.add((Component)sceneViewComponent);
+			sceneFrame.setSize(SCENE_VIEW_WIDTH, SCENE_VIEW_HEIGHT);
+			sceneFrame.setVisible(true);
+			
+			// Command Interpreter:
+			// Model
+			CommandInterpreterInterface commandInterpreter = SingletonsCreator.commandInterpreterFactoryMethod();
+			
+			// View
+			OEFrame interpreterFrame = ObjectEditor.edit(commandInterpreter);
+			
+			
+			// Demo of asynchronous animations
+			commandInterpreter.animateArthur();
+			commandInterpreter.animateArthur();
+			commandInterpreter.animateLancelot();
+			
+			ThreadSupport.sleep(LONG_DELAY);
+			
+			for (int i = 0; i < COMMAND_LIST.length; ++i){
+				ThreadSupport.sleep(LONG_DELAY);
+				commandInterpreter.setCommand(COMMAND_LIST[i]);
+			}
+			
+		}//end main
+		
+		public static JProgressBar getProgressBar(){
+			return progressBar;
 		}
-		
-	}//end main
 }//end class
 //END OF FILE

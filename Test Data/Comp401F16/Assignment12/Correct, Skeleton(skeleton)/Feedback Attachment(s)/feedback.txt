@@ -2,102 +2,252 @@ Grading result for: Correct, Skeleton(skeleton)
 
 Grading features...
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
-ConsoleSceneViewOutputTestCase                         0.0 / 50.0
+ParserSuiteA12                                         0.0 / 40.0
+BroadcastingClearanceManagerFactoryMethodTest          0.0 /  5.0
+CommandInterpreterSuiteA12                             0.0 / 65.0 (Extra credit)
+CommandObjectSuiteA12                                  0.0 / 65.0
+SwingTextFieldFactoryTestCase                          0.0 / 10.0 (Extra credit)
+LockstepAvatarsAnimationTestCase                       0.0 / 20.0 (Extra credit)
+ExceptionSuite                                         6.0 / 20.0 (Extra credit)
+UndoRedoTestCase                                       0.0 / 20.0 (Extra credit)
+WaitingAvatarsAnimationTestCase                        0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-Observables send events, observer registers and listens3.0 / 12.0
-ConsoleSceneView created and used with SingletonCreator3.0 / 12.0
-Proper interfaces implemented                          0.0 /  9.0
-Main calls proper methods                              0.0 / 10.0
-Rotate method called                                   0.0 /  3.0 (Extra credit)
-Console shows proper events being fired                0.0 / 15.0
-Animation shows correct behavior                       0.0 /  5.0
+ABroadcastigClearanceManager used as a singleton       1.2 /  7.0
+Waiting animations created                             0.0 /  7.0
+Generics added to Table                                15.0 / 15.0
+Lockstep and coordinating methods created and used     0.0 / 14.0
+Methods and classes for extended grammar created       0.0 / 21.0
+Exceptions used                                        2.7 /  8.0
+Custom text field color                                1.0 /  6.0
+Undo and redo commands created                         0.0 /  7.0
+4 animations wait until press of proceedAll            0.0 / 10.0
+Lockstep animations work                               0.0 / 10.0 (Extra credit)
+New commands showcased (3 points each)                 0.0 / 27.0
 ----------------------------------
-  Points Awarded: 16.0
+  Points Awarded: 35.900000000000006
 
 Grading restrictions...
 ----------------------------------
-Variables should have interface, not class, type0.0 /  -10.0
-No magic numbers                            0.0 /  -10.0
 Interactive Run                             -5.0 /  -5.0
 Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -14.0
+  Features Score: 5.900000000000006
 
 Notes from grading features:
 ----------------------------------
-ConsoleSceneViewFactoryMethodTest:
-  -- Factory method:[consolesceneviewfactorymethod] not found.
+ParserSuiteA12:
+  -- Factory method:[bridgescenefactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
 
-ConsoleSceneViewOutputTestCase:
-  -- Could not instantiate/find class matching:[]
+BroadcastingClearanceManagerFactoryMethodTest:
+  -- Factory method:[broadcastingclearancemanagerfactorymethod] not found.
 
-Observables send events, observer registers and listens:
-  -- Class matching PropertyChangeEvent not instantiated in ObservableLocatableObject
-  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+CommandInterpreterSuiteA12:
+  -- Method matching setCommand not found in class: class grail.scanner.CommandInterpreter
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+CommandObjectSuiteA12:
+  -- Factory method:[environmentfactorymethod] not found.
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Could not find class  matching SleepCommand
+  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
+  -- Could not find class  matching ThreadCommand
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+SwingTextFieldFactoryTestCase:
+  -- Foreground color property of javax.swing.JTextField[,0,0,0x0,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@796065aa,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],disabledTextColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],selectedTextColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],selectionColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING] is same as default value sun.swing.PrintColorUIResource[r=51,g=51,b=51]
+
+LockstepAvatarsAnimationTestCase:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+ExceptionSuite:
+  -- Factory method:[scannerfactorymethod] not found.
+  -- Factory method:[parserfactorymethod] not found.
+
+UndoRedoTestCase:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+WaitingAvatarsAnimationTestCase:
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+
+ABroadcastigClearanceManager used as a singleton:
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:33) In type SingletonsCreator, missing declared signature: @broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
+
+  -- Class matching ABroadcastingClearanceManager not instantiated in SingletonsCreator
+  -- src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
+
+  -- src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
+
+  -- CoordinatingAnimator not found by checkstyle
+
+Waiting animations created:
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingArthur:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingGalahad:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingLancelot:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingRobin:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @startAnimation:->void
+
+  -- src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
+src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
+
+  -- expectedConstructors: (AnimatingCommand.java:9) In type AnimatingCommand, missing constructor: :@Animator;@Avatar;boolean
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@waiting(.*):->void
 
 
-ConsoleSceneView created and used with SingletonCreator:
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call                @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+Lockstep and coordinating methods created and used:
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepArthur:->void//EC
 
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGalahad:->void//EC
 
-  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepLancelot:->void//EC
 
-Proper interfaces implemented:
-  -- expectedInterfaces: (ConsoleSceneView.java:13) In type ConsoleSceneView, missing interface: PropertyChangeListener
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepRobin:->void//EC
 
-  -- expectedInterfaces: (ObservableLocatableObject.java:15) In type ObservableLocatableObject, missing interface: PropertyListenerRegisterer
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
 
-  -- expectedInterfaces: (BoundedShape.java:12) In type BoundedShape, missing interface: PropertyListenerRegisterer
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
+
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@lockstep(.*):->void//EC
 
 
-Main calls proper methods:
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
-  -- main.Assignment8 not found by checkstyle
+Methods and classes for extended grammar created:
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:33) In type SingletonsCreator, missing declared signature: @environmentFactoryMethod:->@Table
 
-Rotate method called:
-  -- main.Assignment8 not found by checkstyle
+  -- src\grail\scanner\commands\DefineCommand.java:1: warning: missingMethodCall: (DefineCommand.java:1) has not made expected call @SingletonsCreator!@environmentFactoryMethod:->@Table
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call @SingletonsCreator!@environmentFactoryMethod:->@Table
+
+  -- expectedConstructors: (RotateLeftArmCommand.java:7) In type RotateLeftArmCommand, missing constructor: :@Avatar; int
+
+  -- expectedConstructors: (RotateRightArmCommand.java:7) In type RotateRightArmCommand, missing constructor: :@Avatar; int
+
+  -- expectedConstructors: (SleepCommand.java:8) In type SleepCommand, missing constructor: :long
+
+  -- expectedConstructors: (DefineCommand.java:9) In type DefineCommand, missing constructor: :String;Runnable
+
+  -- expectedConstructors: (CallCommand.java:9) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String
+
+  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- src\grail\scanner\commands\SleepCommand.java:1: warning: missingMethodCall: (SleepCommand.java:1) has not made expected call (.*)!sleep:long->void
+
+  -- src\grail\scanner\commands\DefineCommand.java:1: warning: missingMethodCall: (DefineCommand.java:1) has not made expected call (.*)!put:Object;Object->*
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call (.*)!get:Object->Object
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call Runnable!run:->void
+
+  -- src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call (.*)!get:Object->Object
+
+  -- src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call Thread!start:->void
+
+  -- src\grail\scanner\commands\ProceedAllCommand.java:1: warning: missingMethodCall: (ProceedAllCommand.java:1) has not made expected call (.*)!proceedAll:->void
+
+  -- Class matching RotateLeftArmCommand not instantiated in Parser
+  -- Class matching RotateRightArmCommand not instantiated in Parser
+  -- Class matching SleepCommand not instantiated in Parser
+  -- Class matching DefineCommand not instantiated in Parser
+  -- Class matching CallCommand not instantiated in Parser
+  -- Class matching ThreadCommand not instantiated in Parser
+  -- Class matching ProceedAllCommand not instantiated in Parser
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCallCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseThreadCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseProceedAllCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSleepCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseDefineCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCallCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseThreadCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseProceedAllCommand:*->Runnable//EC
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setCommand:String->*
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!waitForProceed:->void
+
+
+Exceptions used:
+  -- Class matching ScanningException not instantiated in ScannerBean
+  -- Class matching ParsingException not instantiated in Parser
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @ScanningException!getMessage:->String
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @ParsingException!getMessage:->String
+
+
+Custom text field color:
+  -- Class matching JTextField not instantiated in CustomSwingTextFieldFactory
+  -- src\grail\mvc\view\CustomSwingTextFieldFactory.java:1: warning: missingMethodCall: (CustomSwingTextFieldFactory.java:1) has not made expected call JTextField!setBackground:*->void
+
+  -- src\grail\mvc\view\CustomSwingTextFieldFactory.java:1: warning: missingMethodCall: (CustomSwingTextFieldFactory.java:1) has not made expected call JTextField!setForeground:*->void
+
+  -- Assignment12.main not found by checkstyle
+  -- Assignment12.main not found by checkstyle
+
+Undo and redo commands created:
+  -- Class matching UndoCommand not instantiated in Parser
+  -- Class matching RedoCommand not instantiated in Parser
+  -- UndoCommand not found by checkstyle
+  -- RedoCommand not found by checkstyle
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseUndoCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRedoCommand:*->Runnable//EC
+
 
 
 Notes from grading restrictions:
 ----------------------------------
 Illegal import or call:
   -- Illegal type or call in:
-illegalTypeImported: (BridgeSceneControllerInterface.java:3) Used disallowed class java.awt.event.KeyListener 
-illegalTypeImported: (BridgeSceneControllerInterface.java:4) Used disallowed class java.awt.event.MouseListener 
-illegalTypeImported: (CommandInterpreterControllerInterface.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (CommandInterpreterViewInterface.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (PaintingViewMaster.java:3) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (PaintingViewModule.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintListener.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (BridgeSceneController.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (BridgeSceneController.java:4) Used disallowed class java.awt.event.KeyEvent 
-illegalTypeImported: (BridgeSceneController.java:5) Used disallowed class java.awt.event.MouseEvent 
-illegalTypeImported: (CommandInterpreterController.java:3) Used disallowed class java.awt.event.ActionEvent 
-illegalTypeImported: (CommandInterpreterController.java:4) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (AvatarView.java:3) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (AvatarView.java:4) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (CommandInterpreterView.java:3) Used disallowed class java.awt.GridLayout 
-illegalTypeImported: (CommandInterpreterView.java:4) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (ObservableBridgeScenePainter.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (ObservableBridgeScenePainter.java:4) Used disallowed class java.awt.Graphics 
-illegalTypeImported: (ObservableBridgeScenePainter.java:5) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintingSupport.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (PaintingSupport.java:4) Used disallowed class java.awt.Toolkit 
-illegalTypeImported: (SceneBackgroundView.java:3) Used disallowed class java.awt.Graphics2D 
-illegalTypeImported: (SingletonsCreator.java:3) Used disallowed class java.awt.event.ActionListener 
-illegalTypeImported: (Assignment10.java:3) Used disallowed class java.awt.Component 
-illegalTypeImported: (Assignment10.java:4) Used disallowed class java.awt.GridLayout 
-illegalTypeImported: (Assignment10.java:5) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (Parser.java:3) Used disallowed class java.text.ParseException 
+illegalTypeImported: (Parser.java:4) Used disallowed class java.util.HashSet 
+illegalTypeImported: (Parser.java:5) Used disallowed class java.util.Set 
+illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.ParseException 
 
 
 
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 6.300000000000001

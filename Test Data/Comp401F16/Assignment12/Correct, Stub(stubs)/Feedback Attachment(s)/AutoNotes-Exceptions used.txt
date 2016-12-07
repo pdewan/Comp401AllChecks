@@ -1,0 +1,6 @@
+  -- Class matching ScanningException not instantiated in ScannerBean
+  -- Class matching ParsingException not instantiated in Parser
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @ScanningException!getMessage:->String
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @ParsingException!getMessage:->String
+

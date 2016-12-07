@@ -38,24 +38,25 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
 
      	
      	// BroadCastingClearanceManager has singletonsCreator method
-     	addFeature("", 7, 
-     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@broadcastingClearanceManagerFactoryMethod:->@BroadCastingClearanceManager"),
-     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "BroadCastingClearanceManager"),
-     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->@BroadCastingClearanceManager"),
-     			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->@BroadCastingClearanceManager"),
-     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->@BroadCastingClearanceManager"),
-     			new CheckstyleMethodCalledTestCase("ProceedAllCommand", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->@BroadCastingClearanceManager")
+     	addFeature("ABroadcastigClearanceManager used as a singleton", 7, 
+     			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
+     			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "ABroadcastingClearanceManager"),
+     			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
+     			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
+     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
+     			new CheckstyleMethodCalledTestCase("ProceedAllCommand", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager")
      			);
      	
-     	// Coordinating methods defined, used, startAnimation
-     	addFeature("", 7,
+     	// Waiting methods defined, startAnimation
+     	addFeature("Waiting animations created", 7,
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingArthur:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingGalahad:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingLancelot:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingRobin:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@startAnimation:->void"),
-     			new CheckstyleMethodCalledTestCase("AnimatingCommand", "BroadCastingClearanceManager!waitForProceed:->void"),
-     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand", ":@Animator;@Avatar;boolean")
+     			new CheckstyleMethodCalledTestCase("AnimatingCommand", "(.*)!waitForProceed:->void"),
+     			new CheckstyleConstructorDefinedTestCase("AnimatingCommand", ":@Animator;@Avatar;boolean"), 
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!@waiting(.*):->void")
      			);
      	
      	// Check that generics are used
@@ -66,115 +67,110 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	//Extra credit:
      	
      	// Lockstep methods:
-     	addFeature("", 1, 
+     	addFeature("Lockstep and coordinating methods created and used", 14, 
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepArthur:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGalahad:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepLancelot:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepRobin:->void//EC"),
      			new CheckstyleConstructorDefinedTestCase("CoordinatedAnimationCommand", ":@CoordinatedAnimator;@Avatar"),
      			new CheckstyleMethodCalledTestCase("CoordinatedAnimationCommand", ":@CoordinatedAnimator:*->void"),
-     			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "BroadCastingClearanceManager!waitForProceed:->void"),
+     			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "(.*)!waitForProceed:->void"),
      			
-     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGuard//EC->void"),
+     			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGuard:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CoordinatingAnimator", "@animateAvatar:@Avatar->void"),
      			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!sleep:long->void"), 
-     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "BroadCastingClearanceManager!proceedAll:->void"),
+     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!proceedAll:->void"),
      			new CheckstyleConstructorDefinedTestCase("CoordinatingAnimatingCommand", ":@CoordinatingAnimator;@Avatar"),
      			new CheckstyleMethodCalledTestCase("CoordinatingAnimatingCommand", "@CoordinatingAnimator!@animateAvatar:@Avatar->void"),
      			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!@lockstep(.*):->void//EC")
      			);
      	
-     	addFeature("", 7, 
+     	addFeature("Methods and classes for extended grammar created", 21, 
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@environmentFactoryMethod:->@Table"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@SingletonsCreator!@environmentFactoryMethod:->@Table"),
+     			new CheckstyleMethodCalledTestCase("DefineCommand", "@SingletonsCreator!@environmentFactoryMethod:->@Table"),
+     			new CheckstyleMethodCalledTestCase("CallCommand", "@SingletonsCreator!@environmentFactoryMethod:->@Table"),
 		
      			// Constructors
      			new CheckstyleConstructorDefinedTestCase("RotateLeftArmCommand", ":@Avatar; int"),
      			new CheckstyleConstructorDefinedTestCase("RotateRightArmCommand",":@Avatar; int"),
      			new CheckstyleConstructorDefinedTestCase("SleepCommand", ":long"),
-     			new CheckstyleConstructorDefinedTestCase("DefineCommandObject", ":String;Runnable"),
-     			new CheckstyleConstructorDefinedTestCase("CallCommandObject", "String"),
-     			new CheckstyleConstructorDefinedTestCase("ThreadCommandObject", "String"),
+     			new CheckstyleConstructorDefinedTestCase("DefineCommand", ":String;Runnable"),
+     			new CheckstyleConstructorDefinedTestCase("CallCommand", ":String"),
+     			new CheckstyleConstructorDefinedTestCase("ThreadCommand", ":String"),
 //     			new CheckstyleConstructorDefinedTestCase("ProceedAllCommand", ":"), //no args
      			
      			// Method calls inside command objects
-     			new CheckstyleMethodCalledTestCase("RotateLeftArmCommand", "(.*)!@rotateLeftArm:int->void"),
-     			new CheckstyleMethodCalledTestCase("RotateRightArmCommand","(.*)!@rotateLeftArm:int->void"),
+     			new CheckstyleMethodCalledTestCase("RotateLeftArmCommand", "(.*)!@rotate:int->void"),
+     			new CheckstyleMethodCalledTestCase("RotateRightArmCommand","(.*)!@rotate:int->void"),
      			new CheckstyleMethodCalledTestCase("SleepCommand", "(.*)!sleep:long->void"),
-     			new CheckstyleMethodCalledTestCase("DefineCommandObject", "(.*)!put:Object;Object->*"),
-     			new CheckstyleMethodCalledTestCase("CallCommandObject", "(.*)!get:Object->Object"),
-     			new CheckstyleMethodCalledTestCase("CallCommandObject", "Runnable!run:->void"),
-     			new CheckstyleMethodCalledTestCase("ThreadCommandObject", "(.*)!get:Object->Object"),
-     			new CheckstyleMethodCalledTestCase("ThreadCommandObject", "Thread!start:->void"),
-     			new CheckstyleMethodCalledTestCase("ProceedAllCommand", "BroadCastingClearanceManager!proceedAll:->void"),
+     			new CheckstyleMethodCalledTestCase("DefineCommand", "(.*)!put:Object;Object->*"),
+     			new CheckstyleMethodCalledTestCase("CallCommand", "(.*)!get:Object->Object"),
+     			new CheckstyleMethodCalledTestCase("CallCommand", "Runnable!run:->void"),
+     			new CheckstyleMethodCalledTestCase("ThreadCommand", "(.*)!get:Object->Object"),
+     			new CheckstyleMethodCalledTestCase("ThreadCommand", "Thread!start:->void"),
+     			new CheckstyleMethodCalledTestCase("ProceedAllCommand", "(.*)!proceedAll:->void"),
      			
      			// Instantiations
      			new CheckstyleClassInstantiatedTestCase("Parser", "RotateLeftArmCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RotateRightArmCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "SleepCommand"),
-     			new CheckstyleClassInstantiatedTestCase("Parser", "DefineCommandObject"),
-     			new CheckstyleClassInstantiatedTestCase("Parser", "CallCommandObject"),
-     			new CheckstyleClassInstantiatedTestCase("Parser", "ThreadCommandObject"),
+     			new CheckstyleClassInstantiatedTestCase("Parser", "DefineCommand"),
+     			new CheckstyleClassInstantiatedTestCase("Parser", "CallCommand"),
+     			new CheckstyleClassInstantiatedTestCase("Parser", "ThreadCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "ProceedAllCommand"),
      			
      			// Parse methods
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateLeftArm:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateRightArm:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleep:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseDefine:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseCall:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseThread:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseProceedAll:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateLeftArmCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateRightArmCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleepCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseDefineCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseCallCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseThreadCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseProceedAllCommand:*->Runnable"),
 
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseRotateLeftArm:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseRotateRightArm:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseSleep:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseDefine:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseCall:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseThread:*->Runnable"),
-     			new CheckstyleMethodCalledTestCase("Parser", "@parseProceedAll:*->Runnable")
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseRotateLeftArmCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseRotateRightArmCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseSleepCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseDefineCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseCallCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseThreadCommand:*->Runnable"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@parseProceedAllCommand:*->Runnable"),
+     			
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!setCommand:String->*"),
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!waitForProceed:->void")
      			);     	
      	
      	// Exceptions
-     	addFeature("", 1, 
+     	addFeature("Exceptions used", 8, 
      			new CheckstyleSuperTypeDefinedTestCase("ScanningException", "IOException"),
      			new CheckstyleSuperTypeDefinedTestCase("ParsingException", "IOException"),
      			new CheckstyleClassInstantiatedTestCase("ScannerBean", "ScanningException"),
-     			new CheckstyleClassInstantiatedTestCase("Parser", "ParsingException")
+     			new CheckstyleClassInstantiatedTestCase("Parser", "ParsingException"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@ScanningException!getMessage:->String"),
+     			new CheckstyleMethodCalledTestCase("Parser", "@ParsingException!getMessage:->String")
      			);
      	//TODO: any other checks for exceptions?
      	
      	// custom text fields
-     	addFeature("", 1, 
+     	addFeature("Custom text field color", 6, 
      			new CheckstyleSuperTypeDefinedTestCase("CustomSwingTextFieldFactory", "SwingTextFieldFactory"),
      			new CheckstyleClassInstantiatedTestCase("CustomSwingTextFieldFactory", "JTextField"),
-     			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setBackground:String->"),
-     			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setForeground:String->"),
+     			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setBackground:*->void"),
+     			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setForeground:*->void"),
      			new CheckstyleMethodCalledTestCase("Assignment12.main", "TextFieldSelector!setTextFieldFactory:TextFieldFactory->void"),
      			new CheckstyleMethodCalledTestCase("Assignment12.main", "ObjectEditor!initialize:->void")
      			);
      	// TODO: is there a way to check that a method is overriden?
      	
      	// Undo and redo
-     	addFeature("", 1,
+     	addFeature("Undo and redo commands created", 7,
      			new CheckstyleClassInstantiatedTestCase("Parser", "UndoCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RedoCommand"),
      			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),
      			new CheckstyleMethodCalledTestCase("RedoCommand", "*!redo:->void"),
-     			new CheckstyleMethodDefinedTestCase("MoveCommand", "undo:->void"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "parseUndo:*->Runnable"),//TODO parseUndo or parseUndoCommand?
-     			new CheckstyleMethodDefinedTestCase("Parser", "parseRedo:*->Runnable")
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseUndoCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseRedoCommand:*->Runnable")
      			);
-     	
-      // main method calls
-     	addFeature("", 1,
-     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!@waiting(.*):->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!setCommand:String->*")
-     			);
-     	
-     	
-     	//If they call the lockstepGuard method, there will be problem
-     	
      	
      	// manual features
      	addManualFeature("4 animations wait until press of proceedAll", 10, false);

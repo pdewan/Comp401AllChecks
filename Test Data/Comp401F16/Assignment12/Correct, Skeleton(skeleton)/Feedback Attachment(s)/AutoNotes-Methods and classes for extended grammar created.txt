@@ -1,0 +1,75 @@
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:33) In type SingletonsCreator, missing declared signature: @environmentFactoryMethod:->@Table
+
+  -- src\grail\scanner\commands\DefineCommand.java:1: warning: missingMethodCall: (DefineCommand.java:1) has not made expected call @SingletonsCreator!@environmentFactoryMethod:->@Table
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call @SingletonsCreator!@environmentFactoryMethod:->@Table
+
+  -- expectedConstructors: (RotateLeftArmCommand.java:7) In type RotateLeftArmCommand, missing constructor: :@Avatar; int
+
+  -- expectedConstructors: (RotateRightArmCommand.java:7) In type RotateRightArmCommand, missing constructor: :@Avatar; int
+
+  -- expectedConstructors: (SleepCommand.java:8) In type SleepCommand, missing constructor: :long
+
+  -- expectedConstructors: (DefineCommand.java:9) In type DefineCommand, missing constructor: :String;Runnable
+
+  -- expectedConstructors: (CallCommand.java:9) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String
+
+  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
+
+  -- src\grail\scanner\commands\SleepCommand.java:1: warning: missingMethodCall: (SleepCommand.java:1) has not made expected call (.*)!sleep:long->void
+
+  -- src\grail\scanner\commands\DefineCommand.java:1: warning: missingMethodCall: (DefineCommand.java:1) has not made expected call (.*)!put:Object;Object->*
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call (.*)!get:Object->Object
+
+  -- src\grail\scanner\commands\CallCommand.java:1: warning: missingMethodCall: (CallCommand.java:1) has not made expected call Runnable!run:->void
+
+  -- src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call (.*)!get:Object->Object
+
+  -- src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call Thread!start:->void
+
+  -- src\grail\scanner\commands\ProceedAllCommand.java:1: warning: missingMethodCall: (ProceedAllCommand.java:1) has not made expected call (.*)!proceedAll:->void
+
+  -- Class matching RotateLeftArmCommand not instantiated in Parser
+  -- Class matching RotateRightArmCommand not instantiated in Parser
+  -- Class matching SleepCommand not instantiated in Parser
+  -- Class matching DefineCommand not instantiated in Parser
+  -- Class matching CallCommand not instantiated in Parser
+  -- Class matching ThreadCommand not instantiated in Parser
+  -- Class matching ProceedAllCommand not instantiated in Parser
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseCallCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseThreadCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseProceedAllCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSleepCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseDefineCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCallCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseThreadCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseProceedAllCommand:*->Runnable//EC
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setCommand:String->*
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!waitForProceed:->void
+

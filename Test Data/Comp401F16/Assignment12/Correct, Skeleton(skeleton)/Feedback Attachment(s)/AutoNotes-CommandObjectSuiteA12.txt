@@ -1,0 +1,7 @@
+  -- Factory method:[environmentfactorymethod] not found.
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Could not find class  matching SleepCommand
+  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
+  -- Could not find class  matching ThreadCommand
+  -- Factory method:[bridgeSceneFactoryMethod] not found.

@@ -1,4 +1,0 @@
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle
-  -- SingletonsCreator not found by checkstyle

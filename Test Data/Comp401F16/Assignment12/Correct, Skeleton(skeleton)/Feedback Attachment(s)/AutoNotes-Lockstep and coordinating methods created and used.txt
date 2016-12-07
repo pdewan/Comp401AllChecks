@@ -1,0 +1,21 @@
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepArthur:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGalahad:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepLancelot:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepRobin:->void//EC
+
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
+
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@lockstep(.*):->void//EC
+

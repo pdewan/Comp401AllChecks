@@ -1,0 +1,56 @@
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:28) In type SingletonsCreator, missing declared signature: @environmentFactoryMethod:->@Table
+
+  -- DefineCommand not found by checkstyle
+  -- CallCommand not found by checkstyle
+  -- RotateLeftArmCommand not found by checkstyle
+  -- RotateRightArmCommand not found by checkstyle
+  -- SleepCommand not found by checkstyle
+  -- DefineCommand not found by checkstyle
+  -- CallCommand not found by checkstyle
+  -- ThreadCommand not found by checkstyle
+  -- RotateLeftArmCommand not found by checkstyle
+  -- RotateRightArmCommand not found by checkstyle
+  -- SleepCommand not found by checkstyle
+  -- DefineCommand not found by checkstyle
+  -- CallCommand not found by checkstyle
+  -- CallCommand not found by checkstyle
+  -- ThreadCommand not found by checkstyle
+  -- ThreadCommand not found by checkstyle
+  -- ProceedAllCommand not found by checkstyle
+  -- Class matching RotateLeftArmCommand not instantiated in Parser
+  -- Class matching RotateRightArmCommand not instantiated in Parser
+  -- Class matching SleepCommand not instantiated in Parser
+  -- Class matching DefineCommand not instantiated in Parser
+  -- Class matching CallCommand not instantiated in Parser
+  -- Class matching ThreadCommand not instantiated in Parser
+  -- Class matching ProceedAllCommand not instantiated in Parser
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseCallCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseThreadCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseProceedAllCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateLeftArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseSleepCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseDefineCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseCallCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseThreadCommand:*->Runnable//EC
+
+  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseProceedAllCommand:*->Runnable//EC
+
+  -- main.Assignment12 not found by checkstyle
+  -- main.Assignment12 not found by checkstyle
