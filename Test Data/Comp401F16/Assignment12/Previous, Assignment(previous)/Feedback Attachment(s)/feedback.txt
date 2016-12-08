@@ -12,19 +12,19 @@ ExceptionSuite                                         0.0 / 20.0 (Extra credit)
 UndoRedoTestCase                                       0.0 / 20.0 (Extra credit)
 WaitingAvatarsAnimationTestCase                        0.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-ABroadcastigClearanceManager used as a singleton       0.0 /  7.0
-Waiting animations created                             0.0 /  7.0
+ABroadcastigClearanceManager used as a singleton       0.0 /  9.0
+Waiting animations created                             0.0 / 16.0
 Generics added to Table                                0.0 / 15.0
-Lockstep and coordinating methods created and used     0.0 / 14.0
-Methods and classes for extended grammar created       0.0 / 21.0
-Exceptions used                                        1.3 /  8.0
-Custom text field color                                0.0 /  6.0
-Undo and redo commands created                         0.0 /  7.0
+Lockstep and coordinating methods created and used     0.0 / 14.0 (Extra credit)
+Methods and classes for extended grammar created       0.0 / 20.0 (Extra credit)
+Exceptions used                                        1.5 /  9.0 (Extra credit)
+Custom text field color                                0.0 /  6.0 (Extra credit)
+Undo and redo commands created                         0.0 /  6.0 (Extra credit)
 4 animations wait until press of proceedAll            0.0 / 10.0
 Lockstep animations work                               0.0 / 10.0 (Extra credit)
 New commands showcased (3 points each)                 0.0 / 27.0
 ----------------------------------
-  Points Awarded: 11.3
+  Points Awarded: 11.5
 
 Grading restrictions...
 ----------------------------------
@@ -33,7 +33,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 6.300000000000001
+  Features Score: 6.5
 
 Notes from grading features:
 ----------------------------------
@@ -51,7 +51,7 @@ BroadcastingClearanceManagerFactoryMethodTest:
 CommandInterpreterSuiteA12:
   -- Did not sleep for minimum time:
   -- Child thread not found:
-  -- In: grail.graphics.RotatingLine@4748a0f9 computedX 100 != correctX 117
+  -- In: grail.graphics.RotatingLine@18a136ac computedX 100 != correctX 117
   -- Could not find class  matching RotateLeftArmCommand
   -- Could not find class  matching RotateRightArmCommand
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -76,7 +76,7 @@ ExceptionSuite:
   -- Could not find ExceptionClass
 
 UndoRedoTestCase:
-  -- In: grail.graphics.RotatingLine@4748a0f9 computedX 112 != correctX 100
+  -- In: grail.graphics.RotatingLine@18a136ac computedX 112 != correctX 100
 
 WaitingAvatarsAnimationTestCase:
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -127,8 +127,6 @@ Lockstep and coordinating methods created and used:
 
   -- CoordinatingAnimator not found by checkstyle
   -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
   -- CoordinatingAnimatingCommand not found by checkstyle
   -- main.Assignment12 not found by checkstyle
 
@@ -159,6 +157,8 @@ Methods and classes for extended grammar created:
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
+
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 
@@ -205,8 +205,6 @@ Custom text field color:
 Undo and redo commands created:
   -- Class matching UndoCommand not instantiated in Parser
   -- Class matching RedoCommand not instantiated in Parser
-  -- UndoCommand not found by checkstyle
-  -- RedoCommand not found by checkstyle
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseUndoCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRedoCommand:*->Runnable//EC
@@ -214,4 +212,4 @@ Undo and redo commands created:
 
 
 Early benefit: 105.0%
-  Total Score: 6.300000000000001
+  Total Score: 7.35

@@ -13,7 +13,5 @@
 
   -- CoordinatingAnimator not found by checkstyle
   -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
   -- CoordinatingAnimatingCommand not found by checkstyle
   -- main.Assignment12 not found by checkstyle

@@ -25,6 +25,8 @@
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
 
+  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
+
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseCallCommand:*->Runnable//EC

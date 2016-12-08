@@ -77,10 +77,10 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "(.*)!waitForProceed:->void"),
      			
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGuard:->void//EC"),
-     			new CheckstyleMethodDefinedTestCase("CoordinatingAnimator", "@animateAvatar:@Avatar->void"),
+     			new CheckstyleMethodDefinedTestCase("CoordinatingAnimator", "@CoordinatingAnimator!@animateAvatar:@Avatar->void"),
      			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!sleep:long->void"), 
-     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!proceedAll:->void"),
-     			new CheckstyleConstructorDefinedTestCase("CoordinatingAnimatingCommand", ":@CoordinatingAnimator;@Avatar"),
+//     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!proceedAll:->void"),	//false positive in skeleton
+//     			new CheckstyleConstructorDefinedTestCase("CoordinatingAnimatingCommand", ":@CoordinatingAnimator;@Avatar"), //false positive in skeleton
      			new CheckstyleMethodCalledTestCase("CoordinatingAnimatingCommand", "@CoordinatingAnimator!@animateAvatar:@Avatar->void"),
      			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!@lockstep(.*):->void//EC")
      			);
@@ -122,7 +122,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			// Parse methods
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateLeftArmCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateRightArmCommand:*->Runnable"),
-//     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleepCommand:*->Runnable"),
+     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleepCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseDefineCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseCallCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseThreadCommand:*->Runnable"),
@@ -144,7 +144,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	addFeature("Exceptions used", 9, true,
      			new CheckstyleSuperTypeDefinedTestCase("ScanningException", "IOException"),
      			new CheckstyleSuperTypeDefinedTestCase("ParsingException", "IOException"),
-     			new CheckstyleClassInstantiatedTestCase("ScannerBean", "ScanningException"),
+//     			new CheckstyleClassInstantiatedTestCase("ScannerBean", "ScanningException"), //False positive in "previous"
      			new CheckstyleClassInstantiatedTestCase("Parser", "ParsingException"),
      			new CheckstyleMethodCalledTestCase("Parser", "@ScanningException!getMessage:->String"),
      			new CheckstyleMethodCalledTestCase("Parser", "@ParsingException!getMessage:->String")
@@ -157,17 +157,17 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleClassInstantiatedTestCase("CustomSwingTextFieldFactory", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setBackground:*->void"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setForeground:*->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment12", "TextFieldSelector!setTextFieldFactory:TextFieldFactory->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment12", "ObjectEditor!initialize:->void")
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!setTextFieldFactory:->void"),
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!initialize:->void")
      			);
      	// TODO: is there a way to check that a method is overriden?
      	
      	// Undo and redo
-     	addFeature("Undo and redo commands created", 9, true,
+     	addFeature("Undo and redo commands created", 6, true,	//change to 9 if debugged
      			new CheckstyleClassInstantiatedTestCase("Parser", "UndoCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RedoCommand"),
-     			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),
-     			new CheckstyleMethodCalledTestCase("RedoCommand", "*!redo:->void"),
+//     			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),	// false postivies in skeleton
+//     			new CheckstyleMethodCalledTestCase("RedoCommand", "*!redo:->void"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseUndoCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRedoCommand:*->Runnable")
      			);
