@@ -3344,7 +3344,6 @@ public class Parser implements ParserInterface {
 	private ScannerBeanInterface scanner = SingletonsCreator.scannerFactoryMethod();
 	private BridgeSceneInterface scene = SingletonsCreator.bridgeSceneFactoryMethod();
 	private Table<AvatarInterface> avatars = SingletonsCreator.avatarTableFactoryMethod();
-	private Table<CommandThread> routines = new MyTable<CommandThread>();
 	private BroadcastingClearanceManager clearanceManager = SingletonsCreator.broadcastingClearanceManagerMethod();
 	private Set<String> routineNames = new HashSet<String>();
 	private Undoer undoer = SingletonsCreator.undoerFactoryMethod();
@@ -3511,7 +3510,7 @@ public class Parser implements ParserInterface {
 			throw new ParsingException(currentToken.getInput(), DEFINED_COMMAND_NAME);
 		}
 		
-		return new ThreadCommand(commandName, routines);
+		return new ThreadCommand(commandName);
 	}
 
 	@Tags({"parseCallCommand"})
@@ -3538,7 +3537,7 @@ public class Parser implements ParserInterface {
 			throw new ParsingException(currentToken.getInput(), DEFINED_COMMAND_NAME);
 		}
 		
-		return new CallCommand(commandName, routines);
+		return new CallCommand(commandName);
 	}
 
 	@Tags({"parseDefineCommand"})
@@ -3563,7 +3562,7 @@ public class Parser implements ParserInterface {
 		
 		CommandThread command = parseCommand();
 		
-		return new DefineCommand(commandName, command, routines);
+		return new DefineCommand(commandName, command);
 	}
 
 	@Tags({"parseSleepCommand"})
@@ -4426,13 +4425,9 @@ public class CallCommand implements CommandThread{
 	private String name;
 	private Table<CommandThread> environment;
 	
-	public CallCommand(String name, Table<CommandThread> environment){
+	public CallCommand(String name){
 		this.name = name;
 		this.environment = SingletonsCreator.environmentFactoryMethod();
-	}
-	
-	public CallCommand(String name){
-		this (name, SingletonsCreator.environmentFactoryMethod());
 	}
 	
 	@Override
@@ -4491,13 +4486,10 @@ public class DefineCommand implements CommandThread{
 	private CommandThread body;
 	private Table<CommandThread> environment;
 	
-	public DefineCommand(String name, CommandThread body, Table<CommandThread> environment){
+	public DefineCommand(String name, CommandThread body){
 		this.name = name;
 		this.body = body;
 		this.environment = SingletonsCreator.environmentFactoryMethod();
-	}
-	public DefineCommand(String name, CommandThread body){
-		this(name, body, SingletonsCreator.environmentFactoryMethod());
 	}
 	
 	@Override
@@ -4809,14 +4801,10 @@ public class ThreadCommand implements CommandThread{
 	private String name;
 	private Table<CommandThread> environment;
 	
-	public ThreadCommand(String name, Table<CommandThread> environment){
+	public ThreadCommand(String name){
 		this.name = name;
 		this.environment = SingletonsCreator.environmentFactoryMethod();
 	}
-	public ThreadCommand(String name){
-		this (name, SingletonsCreator.environmentFactoryMethod());
-	}
-	
 	
 	@Override
 	public void run() {

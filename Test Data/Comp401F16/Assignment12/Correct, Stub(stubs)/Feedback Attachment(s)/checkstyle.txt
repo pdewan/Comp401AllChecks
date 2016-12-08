@@ -1,15 +1,16 @@
 Starting audit...
-src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment12, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @Animator, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @RotateLeftArmCommand//EC, @RotateRightArmCommand//EC, @SleepCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @ProceedAllCommand//EC, @Parser, @ScanningException//EC, @ParsingException//EC, BroadcastingClearanceManager, @SingletonsCreator, @ProgressBarCreator//EC, @CustomSwingTextFieldFactory//EC, @CoordinatingAnimationCommand, @CoordinatedAnimationCommand//EC, @CoordinatedAnimator, @Token, SingletonsCreator]
+src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment12, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @Animator, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @RotateLeftArmCommand//EC, @RotateRightArmCommand//EC, @SleepCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @ProceedAllCommand//EC, @Parser, @ScanningException//EC, @ParsingException//EC, BroadcastingClearanceManager, @SingletonsCreator, @ProgressBarCreator//EC, @CustomSwingTextFieldFactory//EC, @CoordinatingAnimatingCommand, @CoordinatedAnimationCommand//EC, @CoordinatedAnimator//EC, @CoordinatingAnimator//EC, @Token, @UndoCommand//EC, @RedoCommand//EC, SingletonsCreator]
 src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
 src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
 src\grail\animations\AnimatingCommand.java:1: typeDefined: (AnimatingCommand.java:1) Class AnimatingCommand matching tag @AnimatingCommand defined
 src\grail\animations\AnimatingCommand.java:9: warning: expectedConstructors: (AnimatingCommand.java:9) In type AnimatingCommand, missing constructor: :@Animator;@Avatar;boolean
 src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
 src\grail\animations\Animator.java:1: typeDefined: (Animator.java:1) Class Animator matching tag @Animator defined
+src\grail\animations\Animator.java:1: typeDefined: (Animator.java:1) Class Animator matching tag @CoordinatingAnimator//EC defined
 src\grail\animations\Animator.java:12: warning: expectedSignatures: (Animator.java:12) In type Animator, missing signature: @animateAvatar:@Avatar->void
 src\grail\animations\ClapCommand.java:1: typeDefined: (ClapCommand.java:1) Class ClapCommand matching tag No Expected Tag defined
 src\grail\animations\ClapLockstepCommand.java:1: warning: missingMethodCall: (ClapLockstepCommand.java:1) has not made expected call @CoordinatingAnimator!@animateAvatar:@Avatar->void
-src\grail\animations\ClapLockstepCommand.java:1: typeDefined: (ClapLockstepCommand.java:1) Class ClapLockstepCommand matching tag No Expected Tag defined
+src\grail\animations\ClapLockstepCommand.java:1: typeDefined: (ClapLockstepCommand.java:1) Class ClapLockstepCommand matching tag @CoordinatingAnimatingCommand defined
 src\grail\animations\fromJavaTeaching\ABroadcastingClearanceManager.java:1: typeDefined: (ABroadcastingClearanceManager.java:1) Class ABroadcastingClearanceManager matching tag No Expected Tag defined
 src\grail\animations\fromJavaTeaching\ABroadcastingClearanceManager.java:14: warning: magic.number: (ABroadcastingClearanceManager.java:14) In type ABroadcastingClearanceManager, magic number 100 in expression list EXPR 100 
 src\grail\animations\fromJavaTeaching\AClearanceManager.java:1: typeDefined: (AClearanceManager.java:1) Class AClearanceManager matching tag No Expected Tag defined
@@ -27,7 +28,7 @@ src\grail\animations\fromJavaTeaching\PropertyListenerSupport.java:1: typeDefine
 src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
 src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @Animator!@AnimateAvatar:@Avatar->void
 src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
-src\grail\animations\LockstepAnimatingCommand.java:1: typeDefined: (LockstepAnimatingCommand.java:1) Class LockstepAnimatingCommand matching tag @CoordinatedAnimator defined
+src\grail\animations\LockstepAnimatingCommand.java:1: typeDefined: (LockstepAnimatingCommand.java:1) Class LockstepAnimatingCommand matching tag @CoordinatedAnimator//EC defined
 src\grail\animations\SleepBasedAnimator.java:1: warning: classHasAtLeastOneInterface: (SleepBasedAnimator.java:1) Classes with public instance methods should implement interfaces
 src\grail\animations\SleepBasedAnimator.java:1: warning: missingMethodCall: (SleepBasedAnimator.java:1) has not made expected call (.*)!sleep:long->void
 src\grail\animations\SleepBasedAnimator.java:1: typeDefined: (SleepBasedAnimator.java:1) Class SleepBasedAnimator matching tag @Animator defined
@@ -35,7 +36,7 @@ src\grail\animations\WaitBasedAnimator.java:1: warning: classHasAtLeastOneInterf
 src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call (.*)!waitForProceed:->void
 src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @Animator!@AnimateAvatar:@Avatar->void
 src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
-src\grail\animations\WaitBasedAnimator.java:1: typeDefined: (WaitBasedAnimator.java:1) Class WaitBasedAnimator matching tag @CoordinatedAnimator defined
+src\grail\animations\WaitBasedAnimator.java:1: typeDefined: (WaitBasedAnimator.java:1) Class WaitBasedAnimator matching tag @CoordinatedAnimator//EC defined
 src\grail\collections\ABaseHistory.java:1: typeDefined: (ABaseHistory.java:1) Class ABaseHistory matching tag No Expected Tag defined
 src\grail\collections\ClearableHistory.java:1: typeDefined: (ClearableHistory.java:1) Class ClearableHistory matching tag No Expected Tag defined
 src\grail\collections\MoveCommandUndoer.java:1: typeDefined: (MoveCommandUndoer.java:1) Class MoveCommandUndoer matching tag No Expected Tag defined
@@ -251,7 +252,7 @@ src\grail\scanner\commands\PassCommand.java:7: warning: expectedConstructors: (P
 src\grail\scanner\commands\ProceedAllCommand.java:1: warning: missingMethodCall: (ProceedAllCommand.java:1) has not made expected call (.*)!proceedAll:->void
 src\grail\scanner\commands\ProceedAllCommand.java:1: warning: missingMethodCall: (ProceedAllCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
 src\grail\scanner\commands\ProceedAllCommand.java:1: typeDefined: (ProceedAllCommand.java:1) Class ProceedAllCommand matching tag @ProceedAllCommand//EC defined
-src\grail\scanner\commands\RedoCommand.java:1: typeDefined: (RedoCommand.java:1) Class RedoCommand matching tag No Expected Tag defined
+src\grail\scanner\commands\RedoCommand.java:1: typeDefined: (RedoCommand.java:1) Class RedoCommand matching tag @RedoCommand//EC defined
 src\grail\scanner\commands\RepeatCommand.java:1: warning: missingMethodCall: (RepeatCommand.java:1) has not made expected call Runnable!run:->void
 src\grail\scanner\commands\RepeatCommand.java:1: typeDefined: (RepeatCommand.java:1) Class RepeatCommand matching tag @RepeatCommand defined
 src\grail\scanner\commands\RepeatCommand.java:6: warning: expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
@@ -272,7 +273,7 @@ src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (Th
 src\grail\scanner\commands\ThreadCommand.java:1: warning: missingMethodCall: (ThreadCommand.java:1) has not made expected call Thread!start:->void
 src\grail\scanner\commands\ThreadCommand.java:1: typeDefined: (ThreadCommand.java:1) Class ThreadCommand matching tag @ThreadCommand//EC defined
 src\grail\scanner\commands\ThreadCommand.java:13: warning: expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String
-src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag No Expected Tag defined
+src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag @UndoCommand//EC defined
 src\grail\scanner\Parser.java:0: warning: setterAssignsGlobal: (Parser.java:76) In type Parser, setter setCommandText does not assign to a global variable 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @ApproachCommand should be instantiated by grail.scanner.Parser 
 src\grail\scanner\Parser.java:1: warning: expectedClassInstantiations: (Parser.java:1) Type @CallCommand//EC should be instantiated by grail.scanner.Parser 
@@ -461,7 +462,9 @@ src\main\Assignment12.java:1: warning: expectedGetters: (Assignment12.java:1) In
 src\main\Assignment12.java:1: warning: expectedGetters: (Assignment12.java:1) In type Assignment12, missing getter for property Slider of type JSlider
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@lockstep(.*):->void//EC
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@waiting(.*):->void
+src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!initialize:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setCommand:String->*
+src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!sleep:long->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!waitForProceed:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager

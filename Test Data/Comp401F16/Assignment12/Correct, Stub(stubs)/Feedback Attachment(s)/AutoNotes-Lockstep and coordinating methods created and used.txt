@@ -12,10 +12,10 @@
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
 
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
+src\grail\animations\SleepBasedAnimator.java:1: warning: missingMethodCall: (SleepBasedAnimator.java:1) has not made expected call (.*)!sleep:long->void
+
+  -- src\grail\animations\ClapLockstepCommand.java:1: warning: missingMethodCall: (ClapLockstepCommand.java:1) has not made expected call @CoordinatingAnimator!@animateAvatar:@Avatar->void
+
   -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@lockstep(.*):->void//EC
 

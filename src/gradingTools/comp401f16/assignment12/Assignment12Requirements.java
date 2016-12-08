@@ -38,7 +38,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
 
      	
      	// BroadCastingClearanceManager has singletonsCreator method
-     	addFeature("ABroadcastigClearanceManager used as a singleton", 7, 
+     	addFeature("ABroadcastigClearanceManager used as a singleton", 9, 
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
      			new CheckstyleClassInstantiatedTestCase("SingletonsCreator", "ABroadcastingClearanceManager"),
      			new CheckstyleMethodCalledTestCase("CommandInterpreter", "@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager"),
@@ -48,7 +48,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			);
      	
      	// Waiting methods defined, startAnimation
-     	addFeature("Waiting animations created", 7,
+     	addFeature("Waiting animations created", 16,
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingArthur:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingGalahad:->void"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@waitingLancelot:->void"),
@@ -67,7 +67,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	//Extra credit:
      	
      	// Lockstep methods:
-     	addFeature("Lockstep and coordinating methods created and used", 14, 
+     	addFeature("Lockstep and coordinating methods created and used", 14, true,
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepArthur:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGalahad:->void//EC"),
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepLancelot:->void//EC"),
@@ -85,7 +85,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!@lockstep(.*):->void//EC")
      			);
      	
-     	addFeature("Methods and classes for extended grammar created", 21, 
+     	addFeature("Methods and classes for extended grammar created", 20, true,
      			new CheckstyleMethodDefinedTestCase("SingletonsCreator", "@environmentFactoryMethod:->@Table"),
      			new CheckstyleMethodCalledTestCase("DefineCommand", "@SingletonsCreator!@environmentFactoryMethod:->@Table"),
      			new CheckstyleMethodCalledTestCase("CallCommand", "@SingletonsCreator!@environmentFactoryMethod:->@Table"),
@@ -100,8 +100,8 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
 //     			new CheckstyleConstructorDefinedTestCase("ProceedAllCommand", ":"), //no args
      			
      			// Method calls inside command objects
-     			new CheckstyleMethodCalledTestCase("RotateLeftArmCommand", "(.*)!@rotate:int->void"),
-     			new CheckstyleMethodCalledTestCase("RotateRightArmCommand","(.*)!@rotate:int->void"),
+//     			new CheckstyleMethodCalledTestCase("RotateLeftArmCommand", "(.*)!@rotate:int->void"),	//errors in "tstudent0",
+//     			new CheckstyleMethodCalledTestCase("RotateRightArmCommand","(.*)!@rotate:int->void"),	//did not have a chance to debug
      			new CheckstyleMethodCalledTestCase("SleepCommand", "(.*)!sleep:long->void"),
      			new CheckstyleMethodCalledTestCase("DefineCommand", "(.*)!put:Object;Object->*"),
      			new CheckstyleMethodCalledTestCase("CallCommand", "(.*)!get:Object->Object"),
@@ -122,7 +122,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			// Parse methods
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateLeftArmCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRotateRightArmCommand:*->Runnable"),
-     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleepCommand:*->Runnable"),
+//     			new CheckstyleMethodDefinedTestCase("Parser", "@parseSleepCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseDefineCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseCallCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseThreadCommand:*->Runnable"),
@@ -141,7 +141,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			);     	
      	
      	// Exceptions
-     	addFeature("Exceptions used", 8, 
+     	addFeature("Exceptions used", 9, true,
      			new CheckstyleSuperTypeDefinedTestCase("ScanningException", "IOException"),
      			new CheckstyleSuperTypeDefinedTestCase("ParsingException", "IOException"),
      			new CheckstyleClassInstantiatedTestCase("ScannerBean", "ScanningException"),
@@ -152,18 +152,18 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	//TODO: any other checks for exceptions?
      	
      	// custom text fields
-     	addFeature("Custom text field color", 6, 
+     	addFeature("Custom text field color", 6, true,
      			new CheckstyleSuperTypeDefinedTestCase("CustomSwingTextFieldFactory", "SwingTextFieldFactory"),
      			new CheckstyleClassInstantiatedTestCase("CustomSwingTextFieldFactory", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setBackground:*->void"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setForeground:*->void"),
-     			new CheckstyleMethodCalledTestCase("Assignment12.main", "TextFieldSelector!setTextFieldFactory:TextFieldFactory->void"),
-     			new CheckstyleMethodCalledTestCase("Assignment12.main", "ObjectEditor!initialize:->void")
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "TextFieldSelector!setTextFieldFactory:TextFieldFactory->void"),
+     			new CheckstyleMethodCalledTestCase("main.Assignment12", "ObjectEditor!initialize:->void")
      			);
      	// TODO: is there a way to check that a method is overriden?
      	
      	// Undo and redo
-     	addFeature("Undo and redo commands created", 7,
+     	addFeature("Undo and redo commands created", 9, true,
      			new CheckstyleClassInstantiatedTestCase("Parser", "UndoCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RedoCommand"),
      			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),
@@ -175,7 +175,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	// manual features
      	addManualFeature("4 animations wait until press of proceedAll", 10, false);
      	addManualFeature("Lockstep animations work", 10, true);
-     	addManualFeature("New commands showcased (3 points each)", 27);
+     	addManualFeature("New commands showcased (3 points each)", 27, false);
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));

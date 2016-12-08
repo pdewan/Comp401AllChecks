@@ -10,15 +10,9 @@
 
   -- expectedConstructors: (SleepCommand.java:8) In type SleepCommand, missing constructor: :long
 
-  -- expectedConstructors: (DefineCommand.java:9) In type DefineCommand, missing constructor: :String;Runnable
-
   -- expectedConstructors: (CallCommand.java:9) In type CallCommand, missing constructor: :String
 
   -- expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String
-
-  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
-
-  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
 
   -- src\grail\scanner\commands\SleepCommand.java:1: warning: missingMethodCall: (SleepCommand.java:1) has not made expected call (.*)!sleep:long->void
 
@@ -44,8 +38,6 @@
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
-
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 

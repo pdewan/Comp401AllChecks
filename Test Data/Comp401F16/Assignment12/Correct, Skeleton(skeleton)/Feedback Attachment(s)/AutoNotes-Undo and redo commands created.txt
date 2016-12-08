@@ -1,7 +1,5 @@
   -- Class matching UndoCommand not instantiated in Parser
   -- Class matching RedoCommand not instantiated in Parser
-  -- UndoCommand not found by checkstyle
-  -- RedoCommand not found by checkstyle
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseUndoCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRedoCommand:*->Runnable//EC

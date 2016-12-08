@@ -55,10 +55,10 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[commandinterpreterfactorymethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Pre sleep time:1481143564843
+Pre sleep time:1481161733945
 Sleeping for (ms):100
-Calling on object grail.scanner.CommandInterpreter@5f2bd6d9 1596708569 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[sleep 100 ]timeOut:2000
-Post sleep time:1481143564843
+Calling on object grail.scanner.CommandInterpreter@44b29496 1152554134 method:public void grail.scanner.CommandInterpreter.setCommand(java.lang.String) args:[sleep 100 ]timeOut:2000
+Post sleep time:1481161733946
 ### gradingTools.comp401f16.assignment12.testcases.commandInterpreterA12.SleepCommandTestCase: 0.0
 ### gradingTools.comp401f16.assignment12.testcases.commandInterpreterA12.ThreadCommandTestCase: 1.0
 Factory method:[commandInterpreterFactoryMethod] not found.
@@ -119,7 +119,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment12.testcases.commandObjects.ProceedAllCommandObjectTestCase: 0.0
 *****************************(SwingTextFieldFactoryTestCase)*****************************
 ### gradingTools.comp401f16.assignment12.testcases.SwingTextFieldFactoryTestCase: 1.0
-Creating text field for hello using grail.mvc.view.CustomSwingTextFieldFactory@2fcd7d3f
+Creating text field for hello using grail.mvc.view.CustomSwingTextFieldFactory@51ec2856
 ### gradingTools.comp401f16.assignment12.testcases.SwingTextFieldFactoryTestCase: 0.0
 *****************************(LockstepAvatarsAnimationTestCase)*****************************
 ### gradingTools.comp401f16.assignment12.waitnotify.testcases.LockstepAvatarsAnimationTestCase: 1.0
@@ -163,7 +163,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CommandInterpreter!@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager: 0.0
 ### CoordinatedAnimator!@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager: 0.0
 ### CoordinatingAnimator!@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager: 0.0
-### ProceedAllCommand!@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadCastingClearanceManager: 1.0
+### ProceedAllCommand!@SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager: 0.0
 *****************************(Waiting animations created)*****************************
 ### CommandInterpreter!@waitingArthur:->void: 0.0
 ### CommandInterpreter!@waitingGalahad:->void: 0.0
@@ -184,10 +184,10 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CoordinatedAnimationCommand!:@CoordinatedAnimator:*->void: 0.0
 ### CoordinatedAnimator!(.*)!waitForProceed:->void: 0.0
 ### CommandInterpreter!@lockstepGuard:->void//EC: 0.0
-### CoordinatingAnimator!@animateAvatar:@Avatar->void: 0.0
+### CoordinatingAnimator!@animateAvatar:@Avatar->void: 1.0
 ### CoordinatingAnimator!(.*)!sleep:long->void: 0.0
-### CoordinatingAnimator!(.*)!proceedAll:->void: 0.0
-### CoordinatingAnimatingCommand!:@CoordinatingAnimator;@Avatar: 0.0
+### CoordinatingAnimator!(.*)!proceedAll:->void: 1.0
+### CoordinatingAnimatingCommand!:@CoordinatingAnimator;@Avatar: 1.0
 ### CoordinatingAnimatingCommand!@CoordinatingAnimator!@animateAvatar:@Avatar->void: 0.0
 ### main.Assignment12!(.*)!@lockstep(.*):->void//EC: 0.0
 *****************************(Methods and classes for extended grammar created)*****************************
@@ -197,11 +197,8 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### RotateLeftArmCommand!:@Avatar; int: 0.0
 ### RotateRightArmCommand!:@Avatar; int: 0.0
 ### SleepCommand!:long: 0.0
-### DefineCommand!:String;Runnable: 0.0
 ### CallCommand!:String: 0.0
 ### ThreadCommand!:String: 0.0
-### RotateLeftArmCommand!(.*)!@rotate:int->void: 0.0
-### RotateRightArmCommand!(.*)!@rotate:int->void: 0.0
 ### SleepCommand!(.*)!sleep:long->void: 0.0
 ### DefineCommand!(.*)!put:Object;Object->*: 0.0
 ### CallCommand!(.*)!get:Object->Object: 0.0
@@ -218,7 +215,6 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### Parser!ProceedAllCommand: 0.0
 ### Parser!@parseRotateLeftArmCommand:*->Runnable: 0.0
 ### Parser!@parseRotateRightArmCommand:*->Runnable: 0.0
-### Parser!@parseSleepCommand:*->Runnable: 0.0
 ### Parser!@parseDefineCommand:*->Runnable: 0.0
 ### Parser!@parseCallCommand:*->Runnable: 0.0
 ### Parser!@parseThreadCommand:*->Runnable: 0.0
@@ -244,12 +240,12 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CustomSwingTextFieldFactory!JTextField: 0.0
 ### CustomSwingTextFieldFactory!JTextField!setBackground:*->void: 0.0
 ### CustomSwingTextFieldFactory!JTextField!setForeground:*->void: 0.0
-### Assignment12.main!TextFieldSelector!setTextFieldFactory:TextFieldFactory->void: 0.0
-### Assignment12.main!ObjectEditor!initialize:->void: 0.0
+### main.Assignment12!TextFieldSelector!setTextFieldFactory:TextFieldFactory->void: 1.0
+### main.Assignment12!ObjectEditor!initialize:->void: 1.0
 *****************************(Undo and redo commands created)*****************************
 ### Parser!UndoCommand: 0.0
 ### Parser!RedoCommand: 0.0
-### UndoCommand!*!undo->void: 0.0
-### RedoCommand!*!redo:->void: 0.0
+### UndoCommand!*!undo->void: 1.0
+### RedoCommand!*!redo:->void: 1.0
 ### Parser!@parseUndoCommand:*->Runnable: 0.0
 ### Parser!@parseRedoCommand:*->Runnable: 0.0

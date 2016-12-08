@@ -51,7 +51,7 @@ BroadcastingClearanceManagerFactoryMethodTest:
 CommandInterpreterSuiteA12:
   -- Did not sleep for minimum time:
   -- Child thread not found:
-  -- In: grail.graphics.RotatingLine@18a136ac computedX 100 != correctX 117
+  -- In: grail.graphics.RotatingLine@4748a0f9 computedX 100 != correctX 117
   -- Could not find class  matching RotateLeftArmCommand
   -- Could not find class  matching RotateRightArmCommand
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -76,7 +76,7 @@ ExceptionSuite:
   -- Could not find ExceptionClass
 
 UndoRedoTestCase:
-  -- In: grail.graphics.RotatingLine@18a136ac computedX 112 != correctX 100
+  -- In: grail.graphics.RotatingLine@4748a0f9 computedX 112 != correctX 100
 
 WaitingAvatarsAnimationTestCase:
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -140,11 +140,8 @@ Methods and classes for extended grammar created:
   -- RotateLeftArmCommand not found by checkstyle
   -- RotateRightArmCommand not found by checkstyle
   -- SleepCommand not found by checkstyle
-  -- DefineCommand not found by checkstyle
   -- CallCommand not found by checkstyle
   -- ThreadCommand not found by checkstyle
-  -- RotateLeftArmCommand not found by checkstyle
-  -- RotateRightArmCommand not found by checkstyle
   -- SleepCommand not found by checkstyle
   -- DefineCommand not found by checkstyle
   -- CallCommand not found by checkstyle
@@ -162,8 +159,6 @@ Methods and classes for extended grammar created:
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
-
-  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 
@@ -204,8 +199,8 @@ Custom text field color:
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- CustomSwingTextFieldFactory not found by checkstyle
-  -- Assignment12.main not found by checkstyle
-  -- Assignment12.main not found by checkstyle
+  -- main.Assignment12 not found by checkstyle
+  -- main.Assignment12 not found by checkstyle
 
 Undo and redo commands created:
   -- Class matching UndoCommand not instantiated in Parser

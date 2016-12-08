@@ -136,16 +136,11 @@ src\grail\scanner\commands\ApproachCommand.java:14:53: warning: 'scene' hides a 
 src\grail\scanner\commands\ApproachCommand.java:14:76: warning: 'avatar' hides a field.
 src\grail\scanner\commands\CallCommand.java:1: typeDefined: (CallCommand.java:1) Class CallCommand matching tag @CallCommand//EC defined
 src\grail\scanner\commands\CallCommand.java:16:35: warning: 'name' hides a field.
-src\grail\scanner\commands\CallCommand.java:16:62: warning: 'environment' hides a field.
-src\grail\scanner\commands\CallCommand.java:21:35: warning: 'name' hides a field.
 src\grail\scanner\commands\CommandList.java:1: typeDefined: (CommandList.java:1) Class CommandList matching tag @CommandList defined
 src\grail\scanner\commands\DefineCommand.java:1: typeDefined: (DefineCommand.java:1) Class DefineCommand matching tag @DefineCommand//EC defined
 src\grail\scanner\commands\DefineCommand.java:10: warning: expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String;Runnable
 src\grail\scanner\commands\DefineCommand.java:17:37: warning: 'name' hides a field.
 src\grail\scanner\commands\DefineCommand.java:17:57: warning: 'body' hides a field.
-src\grail\scanner\commands\DefineCommand.java:17:84: warning: 'environment' hides a field.
-src\grail\scanner\commands\DefineCommand.java:22:37: warning: 'name' hides a field.
-src\grail\scanner\commands\DefineCommand.java:22:57: warning: 'body' hides a field.
 src\grail\scanner\commands\ExecuteUndoableCommand.java:1: typeDefined: (ExecuteUndoableCommand.java:1) Class ExecuteUndoableCommand matching tag No Expected Tag defined
 src\grail\scanner\commands\FailCommand.java:1: typeDefined: (FailCommand.java:1) Class FailCommand matching tag @FailCommand defined
 src\grail\scanner\commands\FailCommand.java:12:49: warning: 'scene' hides a field.
@@ -175,8 +170,6 @@ src\grail\scanner\commands\SayCommand.java:13:62: warning: 'quote' hides a field
 src\grail\scanner\commands\SleepCommand.java:1: typeDefined: (SleepCommand.java:1) Class SleepCommand matching tag @SleepCommand//EC defined
 src\grail\scanner\commands\ThreadCommand.java:1: typeDefined: (ThreadCommand.java:1) Class ThreadCommand matching tag @ThreadCommand//EC defined
 src\grail\scanner\commands\ThreadCommand.java:20:37: warning: 'name' hides a field.
-src\grail\scanner\commands\ThreadCommand.java:20:64: warning: 'environment' hides a field.
-src\grail\scanner\commands\ThreadCommand.java:24:37: warning: 'name' hides a field.
 src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag @UndoCommand//EC defined
 src\grail\scanner\Parser.java:1: warning: expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
@@ -186,12 +179,12 @@ src\grail\scanner\Parser.java:4: warning: illegalTypeImported: (Parser.java:4) U
 src\grail\scanner\Parser.java:5: warning: illegalTypeImported: (Parser.java:5) Used disallowed class java.util.Set 
 src\grail\scanner\Parser.java:65: warning: expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseNumberCommand:*->*//EC
 src\grail\scanner\Parser.java:65: warning: expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
-src\grail\scanner\Parser.java:394: warning: variableHasClassType: (Parser.java:394) Class SayCommand rather than interface used as the type of variable/function parseSayCommand
-src\grail\scanner\Parser.java:424: warning: variableHasClassType: (Parser.java:424) Class MoveCommand rather than interface used as the type of variable/function parseMoveCommand
-src\grail\scanner\Parser.java:519: warning: variableHasClassType: (Parser.java:519) Class ApproachCommand rather than interface used as the type of variable/function parseApproachCommand
-src\grail\scanner\Parser.java:553: warning: variableHasClassType: (Parser.java:553) Class PassCommand rather than interface used as the type of variable/function parsePassCommand
-src\grail\scanner\Parser.java:564: warning: variableHasClassType: (Parser.java:564) Class FailCommand rather than interface used as the type of variable/function parseFailCommand
-src\grail\scanner\Parser.java:593: warning: variableHasClassType: (Parser.java:593) Class RepeatCommand rather than interface used as the type of variable/function parseRepeatCommand
+src\grail\scanner\Parser.java:393: warning: variableHasClassType: (Parser.java:393) Class SayCommand rather than interface used as the type of variable/function parseSayCommand
+src\grail\scanner\Parser.java:423: warning: variableHasClassType: (Parser.java:423) Class MoveCommand rather than interface used as the type of variable/function parseMoveCommand
+src\grail\scanner\Parser.java:518: warning: variableHasClassType: (Parser.java:518) Class ApproachCommand rather than interface used as the type of variable/function parseApproachCommand
+src\grail\scanner\Parser.java:552: warning: variableHasClassType: (Parser.java:552) Class PassCommand rather than interface used as the type of variable/function parsePassCommand
+src\grail\scanner\Parser.java:563: warning: variableHasClassType: (Parser.java:563) Class FailCommand rather than interface used as the type of variable/function parseFailCommand
+src\grail\scanner\Parser.java:592: warning: variableHasClassType: (Parser.java:592) Class RepeatCommand rather than interface used as the type of variable/function parseRepeatCommand
 src\grail\scanner\ParsingException.java:1: typeDefined: (ParsingException.java:1) Class ParsingException matching tag @ParsingException//EC defined
 src\grail\scanner\ParsingException.java:4: warning: illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.ParseException 
 src\grail\scanner\ParsingException.java:15:40: warning: 'encountered' hides a field.
@@ -238,6 +231,7 @@ src\grail\tokenBeans\WordToken.java:1: typeDefined: (WordToken.java:1) Class Wor
 src\main\Assignment12.java:1: warning: expectedClassInstantiations: (Assignment12.java:1) Type JProgressBar should be instantiated by main.Assignment12 
 src\main\Assignment12.java:1: warning: expectedClassInstantiations: (Assignment12.java:1) Type JSlider should be instantiated by main.Assignment12 
 src\main\Assignment12.java:1: warning: expectedGetters: (Assignment12.java:1) In type Assignment12, missing getter for property Slider of type JSlider
+src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!sleep:long->void
 src\main\Assignment12.java:1: typeDefined: (Assignment12.java:1) Class Assignment12 matching tag @ProgressBarCreator//EC defined
 src\main\Assignment12.java:1: typeDefined: (Assignment12.java:1) Class Assignment12 matching tag main.Assignment12 defined

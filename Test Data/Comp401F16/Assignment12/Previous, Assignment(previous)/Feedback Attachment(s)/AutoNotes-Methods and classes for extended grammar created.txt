@@ -5,11 +5,8 @@
   -- RotateLeftArmCommand not found by checkstyle
   -- RotateRightArmCommand not found by checkstyle
   -- SleepCommand not found by checkstyle
-  -- DefineCommand not found by checkstyle
   -- CallCommand not found by checkstyle
   -- ThreadCommand not found by checkstyle
-  -- RotateLeftArmCommand not found by checkstyle
-  -- RotateRightArmCommand not found by checkstyle
   -- SleepCommand not found by checkstyle
   -- DefineCommand not found by checkstyle
   -- CallCommand not found by checkstyle
@@ -27,8 +24,6 @@
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
-
-  -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:37) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 

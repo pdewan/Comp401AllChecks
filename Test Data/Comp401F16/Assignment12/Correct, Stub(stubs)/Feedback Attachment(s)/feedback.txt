@@ -12,19 +12,19 @@ ExceptionSuite                                         6.0 / 20.0 (Extra credit)
 UndoRedoTestCase                                       0.0 / 20.0 (Extra credit)
 WaitingAvatarsAnimationTestCase                        0.0 / 20.0
 Public methods are in implemented interfaces           2.0 / 10.0
-ABroadcastigClearanceManager used as a singleton       1.2 /  7.0
+ABroadcastigClearanceManager used as a singleton       0.0 /  7.0
 Waiting animations created                             0.9 /  7.0
 Generics added to Table                                15.0 / 15.0
-Lockstep and coordinating methods created and used     0.0 / 14.0
+Lockstep and coordinating methods created and used     3.0 / 14.0
 Methods and classes for extended grammar created       0.0 / 21.0
 Exceptions used                                        2.7 /  8.0
-Custom text field color                                1.0 /  6.0
-Undo and redo commands created                         0.0 /  7.0
+Custom text field color                                3.0 /  6.0
+Undo and redo commands created                         2.3 /  7.0
 4 animations wait until press of proceedAll            0.0 / 10.0
 Lockstep animations work                               0.0 / 10.0 (Extra credit)
 New commands showcased (3 points each)                 0.0 / 27.0
 ----------------------------------
-  Points Awarded: 28.8
+  Points Awarded: 34.89999999999999
 
 Grading restrictions...
 ----------------------------------
@@ -33,7 +33,7 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: -1.1999999999999993
+  Features Score: 4.8999999999999915
 
 Notes from grading features:
 ----------------------------------
@@ -66,7 +66,7 @@ CommandObjectSuiteA12:
   -- Factory method:[bridgeSceneFactoryMethod] not found.
 
 SwingTextFieldFactoryTestCase:
-  -- Foreground color property of javax.swing.JTextField[,0,0,0x0,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@796065aa,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],disabledTextColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],selectedTextColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],selectionColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING] is same as default value sun.swing.PrintColorUIResource[r=51,g=51,b=51]
+  -- Foreground color property of javax.swing.JTextField[,0,0,0x0,invalid,layout=javax.swing.plaf.basic.BasicTextUI$UpdateHandler,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@6c298dc,flags=296,maximumSize=,minimumSize=,preferredSize=,caretColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],disabledTextColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],editable=true,margin=javax.swing.plaf.InsetsUIResource[top=0,left=0,bottom=0,right=0],selectedTextColor=sun.swing.PrintColorUIResource[r=51,g=51,b=51],selectionColor=javax.swing.plaf.ColorUIResource[r=184,g=207,b=229],columns=0,columnWidth=0,command=,horizontalAlignment=LEADING] is same as default value sun.swing.PrintColorUIResource[r=51,g=51,b=51]
 
 LockstepAvatarsAnimationTestCase:
   -- Factory method:[bridgeSceneFactoryMethod] not found.
@@ -96,7 +96,10 @@ ABroadcastigClearanceManager used as a singleton:
 
   -- src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
 
-  -- CoordinatingAnimator not found by checkstyle
+  -- src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
+
+  -- src\grail\scanner\commands\ProceedAllCommand.java:1: warning: missingMethodCall: (ProceedAllCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
+
 
 Waiting animations created:
   -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingArthur:->void
@@ -130,11 +133,11 @@ Lockstep and coordinating methods created and used:
 
   -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
 
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
-  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- src\grail\animations\Animator.java:1: warning: missingMethodCall: (Animator.java:1) has not made expected call (.*)!sleep:long->void
+src\grail\animations\SleepBasedAnimator.java:1: warning: missingMethodCall: (SleepBasedAnimator.java:1) has not made expected call (.*)!sleep:long->void
+
+  -- src\grail\animations\ClapLockstepCommand.java:1: warning: missingMethodCall: (ClapLockstepCommand.java:1) has not made expected call @CoordinatingAnimator!@animateAvatar:@Avatar->void
+
   -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@lockstep(.*):->void//EC
 
 
@@ -151,15 +154,9 @@ Methods and classes for extended grammar created:
 
   -- expectedConstructors: (SleepCommand.java:8) In type SleepCommand, missing constructor: :long
 
-  -- expectedConstructors: (DefineCommand.java:9) In type DefineCommand, missing constructor: :String;Runnable
-
   -- expectedConstructors: (CallCommand.java:9) In type CallCommand, missing constructor: :String
 
   -- expectedConstructors: (ThreadCommand.java:13) In type ThreadCommand, missing constructor: :String
-
-  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
-
-  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
 
   -- src\grail\scanner\commands\SleepCommand.java:1: warning: missingMethodCall: (SleepCommand.java:1) has not made expected call (.*)!sleep:long->void
 
@@ -185,8 +182,6 @@ Methods and classes for extended grammar created:
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateLeftArmCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRotateRightArmCommand:*->Runnable//EC
-
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseDefineCommand:*->Runnable//EC
 
@@ -229,14 +224,10 @@ Custom text field color:
 
   -- src\grail\mvc\view\CustomSwingTextFieldFactory.java:1: warning: missingMethodCall: (CustomSwingTextFieldFactory.java:1) has not made expected call JTextField!setForeground:*->void
 
-  -- Assignment12.main not found by checkstyle
-  -- Assignment12.main not found by checkstyle
 
 Undo and redo commands created:
   -- Class matching UndoCommand not instantiated in Parser
   -- Class matching RedoCommand not instantiated in Parser
-  -- UndoCommand not found by checkstyle
-  -- RedoCommand not found by checkstyle
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseUndoCommand:*->Runnable//EC
 
   -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseRedoCommand:*->Runnable//EC
@@ -255,4 +246,4 @@ illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.P
 
 
 Early benefit: 105.0%
-  Total Score: 0.0
+  Total Score: 5.25
