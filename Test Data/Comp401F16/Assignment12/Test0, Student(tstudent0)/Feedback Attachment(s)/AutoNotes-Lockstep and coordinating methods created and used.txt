@@ -1,3 +1,0 @@
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle

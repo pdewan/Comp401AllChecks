@@ -1,8 +1,0 @@
-  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String;Runnable
-
-  -- src\grail\scanner\commands\RotateLeftArmCommand.java:1: warning: missingMethodCall: (RotateLeftArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
-
-  -- src\grail\scanner\commands\RotateRightArmCommand.java:1: warning: missingMethodCall: (RotateRightArmCommand.java:1) has not made expected call (.*)!@rotate:int->void
-
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
-

@@ -1,5 +1,5 @@
 Starting audit...
-src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment12, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @Animator, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @RotateLeftArmCommand//EC, @RotateRightArmCommand//EC, @SleepCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @ProceedAllCommand//EC, @Parser, @ScanningException//EC, @ParsingException//EC, BroadcastingClearanceManager, @SingletonsCreator, @ProgressBarCreator//EC, @CustomSwingTextFieldFactory//EC, @CoordinatingAnimatingCommand, @CoordinatedAnimationCommand//EC, @CoordinatedAnimator, @Token, SingletonsCreator]
+src\grail\animations\AnimatingCommand.java:0: expectedTypes: Expected type names/tags [main.Assignment12, @ScannerBean, @Number, @Word, @Quote, @Start, @End, @Plus//EC, @Minus//EC, ScanningIterator//EC, @RotatingLine//EC, @Move, @Pass, @Fail, @Say, @RotateLeftArm//EC, @RotateRightArm//EC, @Repeat//EC, @Define//EC, @Call//EC, @Thread//EC, @Wait//EC, @ProceedAll//EC, @Sleep//EC, @Undo//EC, @Redo//EC, @Angle, @Avatar, @BridgeScene, @Locatable, @BoundedShape, @Table, @CommandInterpreter, @SignedMoveCommandInterpreter//EC, @ErrorResilientCommandInterpreter//EC, @ConsoleSceneView, @InheritingBridgeScenePainter, @ObservableBridgeScenePainter, @DelegatingBridgeSceneView, @PaintListener, @BridgeSceneController, @CommandInterpreterController//EC, @ObservableCommandInterpreter//EC, @Animator, @AnimatingCommand, @SayCommand, @MoveCommand, @PassCommand, @Animator, @FailCommand, @ApproachCommand, @RepeatCommand, @CommandList, @RotateLeftArmCommand//EC, @RotateRightArmCommand//EC, @SleepCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @DefineCommand//EC, @CallCommand//EC, @ThreadCommand//EC, @ProceedAllCommand//EC, @Parser, @ScanningException//EC, @ParsingException//EC, BroadcastingClearanceManager, @SingletonsCreator, @ProgressBarCreator//EC, @CustomSwingTextFieldFactory//EC, @CoordinatingAnimatingCommand, @CoordinatedAnimationCommand//EC, @CoordinatedAnimator//EC, @CoordinatingAnimator//EC, @Token, @UndoCommand//EC, @RedoCommand//EC, SingletonsCreator]
 src\grail\animations\AnimatingCommand.java:1: typeDefined: (AnimatingCommand.java:1) Class AnimatingCommand matching tag @AnimatingCommand defined
 src\grail\animations\AnimatingCommand.java:1: typeDefined: (AnimatingCommand.java:1) Class AnimatingCommand matching tag @CoordinatedAnimationCommand//EC defined
 src\grail\animations\AnimatingCommand.java:16:51: warning: 'animator' hides a field.
@@ -8,6 +8,7 @@ src\grail\animations\AnimatingCommand.java:28:51: warning: 'animator' hides a fi
 src\grail\animations\AnimatingCommand.java:28:77: warning: 'avatar' hides a field.
 src\grail\animations\AnimatingCommand.java:28:93: warning: 'wait' hides a field.
 src\grail\animations\Animator.java:1: typeDefined: (Animator.java:1) Class Animator matching tag @Animator defined
+src\grail\animations\Animator.java:1: typeDefined: (Animator.java:1) Class Animator matching tag @CoordinatingAnimator//EC defined
 src\grail\animations\ClapCommand.java:1: typeDefined: (ClapCommand.java:1) Class ClapCommand matching tag No Expected Tag defined
 src\grail\animations\ClapCommand.java:12:46: warning: 'animator' hides a field.
 src\grail\animations\ClapCommand.java:12:77: warning: 'scene' hides a field.
@@ -29,7 +30,7 @@ src\grail\animations\fromJavaTeaching\BroadcastingClearanceManager.java:1: typeD
 src\grail\animations\fromJavaTeaching\ClearanceManager.java:1: typeDefined: (ClearanceManager.java:1) Interface ClearanceManager matching tag No Expected Tag defined
 src\grail\animations\fromJavaTeaching\PropertyListenerSupport.java:1: typeDefined: (PropertyListenerSupport.java:1) Interface PropertyListenerSupport matching tag No Expected Tag defined
 src\grail\animations\SleepBasedAnimator.java:1: typeDefined: (SleepBasedAnimator.java:1) Class SleepBasedAnimator matching tag @Animator defined
-src\grail\animations\WaitBasedAnimator.java:1: typeDefined: (WaitBasedAnimator.java:1) Class WaitBasedAnimator matching tag @CoordinatedAnimator defined
+src\grail\animations\WaitBasedAnimator.java:1: typeDefined: (WaitBasedAnimator.java:1) Class WaitBasedAnimator matching tag @CoordinatedAnimator//EC defined
 src\grail\collections\ABaseHistory.java:1: typeDefined: (ABaseHistory.java:1) Class ABaseHistory matching tag No Expected Tag defined
 src\grail\collections\ClearableHistory.java:1: typeDefined: (ClearableHistory.java:1) Class ClearableHistory matching tag No Expected Tag defined
 src\grail\collections\MoveCommandUndoer.java:1: typeDefined: (MoveCommandUndoer.java:1) Class MoveCommandUndoer matching tag No Expected Tag defined
@@ -157,7 +158,7 @@ src\grail\scanner\commands\PassCommand.java:12:49: warning: 'scene' hides a fiel
 src\grail\scanner\commands\ProceedAllCommand.java:1: typeDefined: (ProceedAllCommand.java:1) Class ProceedAllCommand matching tag @ProceedAllCommand//EC defined
 src\grail\scanner\commands\ProceedAllCommand.java:15:63: warning: 'clearanceManager' hides a field.
 src\grail\scanner\commands\ProceedAllCommand.java:16:96: warning: Empty statement.
-src\grail\scanner\commands\RedoCommand.java:1: typeDefined: (RedoCommand.java:1) Class RedoCommand matching tag No Expected Tag defined
+src\grail\scanner\commands\RedoCommand.java:1: typeDefined: (RedoCommand.java:1) Class RedoCommand matching tag @RedoCommand//EC defined
 src\grail\scanner\commands\RepeatCommand.java:1: typeDefined: (RepeatCommand.java:1) Class RepeatCommand matching tag @RepeatCommand defined
 src\grail\scanner\commands\RepeatCommand.java:6: warning: expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
 src\grail\scanner\commands\RepeatCommand.java:12:34: warning: 'count' hides a field.
@@ -176,7 +177,7 @@ src\grail\scanner\commands\ThreadCommand.java:1: typeDefined: (ThreadCommand.jav
 src\grail\scanner\commands\ThreadCommand.java:20:37: warning: 'name' hides a field.
 src\grail\scanner\commands\ThreadCommand.java:20:64: warning: 'environment' hides a field.
 src\grail\scanner\commands\ThreadCommand.java:24:37: warning: 'name' hides a field.
-src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag No Expected Tag defined
+src\grail\scanner\commands\UndoCommand.java:1: typeDefined: (UndoCommand.java:1) Class UndoCommand matching tag @UndoCommand//EC defined
 src\grail\scanner\Parser.java:1: warning: expectedGetters: (Parser.java:1) In type Parser, missing getter for property CommandObject of type Runnable
 src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @CommandList!@add:Runnable->*
 src\grail\scanner\Parser.java:1: typeDefined: (Parser.java:1) Class Parser matching tag @Parser defined

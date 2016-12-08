@@ -94,7 +94,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleConstructorDefinedTestCase("RotateLeftArmCommand", ":@Avatar; int"),
      			new CheckstyleConstructorDefinedTestCase("RotateRightArmCommand",":@Avatar; int"),
      			new CheckstyleConstructorDefinedTestCase("SleepCommand", ":long"),
-     			new CheckstyleConstructorDefinedTestCase("DefineCommand", ":String;Runnable"),
+//     			new CheckstyleConstructorDefinedTestCase("DefineCommand", ":String;Runnable"), // problems if Runnable is extended
      			new CheckstyleConstructorDefinedTestCase("CallCommand", ":String"),
      			new CheckstyleConstructorDefinedTestCase("ThreadCommand", ":String"),
 //     			new CheckstyleConstructorDefinedTestCase("ProceedAllCommand", ":"), //no args

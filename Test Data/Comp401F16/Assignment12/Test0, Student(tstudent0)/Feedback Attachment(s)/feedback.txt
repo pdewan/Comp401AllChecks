@@ -12,19 +12,19 @@ ExceptionSuite                                         20.0 / 20.0 (Extra credit
 UndoRedoTestCase                                       20.0 / 20.0 (Extra credit)
 WaitingAvatarsAnimationTestCase                        20.0 / 20.0
 Public methods are in implemented interfaces           10.0 / 10.0
-ABroadcastigClearanceManager used as a singleton       5.8 /  7.0
+ABroadcastigClearanceManager used as a singleton       7.0 /  7.0
 Waiting animations created                             7.0 /  7.0
 Generics added to Table                                15.0 / 15.0
-Lockstep and coordinating methods created and used     11.0 / 14.0
+Lockstep and coordinating methods created and used     14.0 / 14.0
 Methods and classes for extended grammar created       19.0 / 21.0
 Exceptions used                                        8.0 /  8.0
 Custom text field color                                4.0 /  6.0
-Undo and redo commands created                         4.7 /  7.0
+Undo and redo commands created                         7.0 /  7.0
 4 animations wait until press of proceedAll            0.0 / 10.0
 Lockstep animations work                               0.0 / 10.0 (Extra credit)
 New commands showcased (3 points each)                 0.0 / 27.0
 ----------------------------------
-  Points Awarded: 349.5
+  Points Awarded: 356.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,18 +33,10 @@ Illegal import or call                      -25.0 /  -25.0
 ----------------------------------
   Points Deducted: -30.0
 
-  Features Score: 319.5
+  Features Score: 326.0
 
 Notes from grading features:
 ----------------------------------
-ABroadcastigClearanceManager used as a singleton:
-  -- CoordinatingAnimator not found by checkstyle
-
-Lockstep and coordinating methods created and used:
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-
 Methods and classes for extended grammar created:
   -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String;Runnable
 
@@ -59,10 +51,6 @@ Custom text field color:
   -- Assignment12.main not found by checkstyle
   -- Assignment12.main not found by checkstyle
 
-Undo and redo commands created:
-  -- UndoCommand not found by checkstyle
-  -- RedoCommand not found by checkstyle
-
 
 Notes from grading restrictions:
 ----------------------------------
@@ -76,4 +64,4 @@ illegalTypeImported: (ParsingException.java:4) Used disallowed class java.text.P
 
 
 Early benefit: 105.0%
-  Total Score: 336.0
+  Total Score: 342.3
