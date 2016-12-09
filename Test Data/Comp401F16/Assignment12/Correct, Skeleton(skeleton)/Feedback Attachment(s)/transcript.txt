@@ -55,7 +55,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 Factory method:[commandinterpreterfactorymethod] not found.
 Trying parameterless constructor
 Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
-Pre sleep time:1481184555154
+Pre sleep time:1481273862992
 Sleeping for (ms):100
 ### gradingTools.comp401f16.assignment12.testcases.commandInterpreterA12.SleepCommandTestCase: 0.0
 ### gradingTools.comp401f16.assignment12.testcases.commandInterpreterA12.ThreadCommandTestCase: 1.0
@@ -117,7 +117,7 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### gradingTools.comp401f16.assignment12.testcases.commandObjects.ProceedAllCommandObjectTestCase: 0.0
 *****************************(SwingTextFieldFactoryTestCase)*****************************
 ### gradingTools.comp401f16.assignment12.testcases.SwingTextFieldFactoryTestCase: 1.0
-Creating text field for hello using grail.mvc.view.CustomSwingTextFieldFactory@723ed581
+Creating text field for hello using grail.mvc.view.CustomSwingTextFieldFactory@3b0ee03a
 ### gradingTools.comp401f16.assignment12.testcases.SwingTextFieldFactoryTestCase: 0.0
 *****************************(LockstepAvatarsAnimationTestCase)*****************************
 ### gradingTools.comp401f16.assignment12.waitnotify.testcases.LockstepAvatarsAnimationTestCase: 1.0
@@ -182,7 +182,6 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CoordinatedAnimationCommand!:@CoordinatedAnimator:*->void: 0.0
 ### CoordinatedAnimator!(.*)!waitForProceed:->void: 0.0
 ### CommandInterpreter!@lockstepGuard:->void//EC: 0.0
-### CoordinatingAnimator!@Animator!@animateAvatar:@Avatar->void: 1.0
 ### CoordinatingAnimator!(.*)!sleep:long->void: 0.0
 ### CoordinatingAnimatingCommand!@CoordinatingAnimator!@animateAvatar:@Avatar->void: 0.0
 ### main.Assignment12!(.*)!@lockstep(.*):->void//EC: 0.0
@@ -228,7 +227,6 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 *****************************(Exceptions used)*****************************
 ### ScanningException defined: 1.0
 ### ParsingException defined: 1.0
-### ScannerBean!ScanningException: 0.0
 ### Parser!ParsingException: 0.0
 ### Parser!@ScanningException!getMessage:->String: 0.0
 ### Parser!@ParsingException!getMessage:->String: 0.0
@@ -237,7 +235,6 @@ Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
 ### CustomSwingTextFieldFactory!JTextField: 0.0
 ### CustomSwingTextFieldFactory!JTextField!setBackground:*->void: 0.0
 ### CustomSwingTextFieldFactory!JTextField!setForeground:*->void: 0.0
-### main.Assignment12!(.*)!setTextFieldFactory:->void: 0.0
 ### main.Assignment12!(.*)!initialize:->void: 0.0
 *****************************(Undo and redo commands created)*****************************
 ### Parser!UndoCommand: 0.0

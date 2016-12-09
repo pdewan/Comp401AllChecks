@@ -26,7 +26,7 @@ src\grail\animations\fromJavaTeaching\BroadcastingClearanceManager.java:1: typeD
 src\grail\animations\fromJavaTeaching\ClearanceManager.java:1: typeDefined: (ClearanceManager.java:1) Interface ClearanceManager matching tag No Expected Tag defined
 src\grail\animations\fromJavaTeaching\PropertyListenerSupport.java:1: typeDefined: (PropertyListenerSupport.java:1) Interface PropertyListenerSupport matching tag No Expected Tag defined
 src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
-src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @Animator!@AnimateAvatar:@Avatar->void
+src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
 src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
 src\grail\animations\LockstepAnimatingCommand.java:1: typeDefined: (LockstepAnimatingCommand.java:1) Class LockstepAnimatingCommand matching tag @CoordinatedAnimator//EC defined
 src\grail\animations\SleepBasedAnimator.java:1: warning: classHasAtLeastOneInterface: (SleepBasedAnimator.java:1) Classes with public instance methods should implement interfaces
@@ -34,7 +34,7 @@ src\grail\animations\SleepBasedAnimator.java:1: warning: missingMethodCall: (Sle
 src\grail\animations\SleepBasedAnimator.java:1: typeDefined: (SleepBasedAnimator.java:1) Class SleepBasedAnimator matching tag @Animator defined
 src\grail\animations\WaitBasedAnimator.java:1: warning: classHasAtLeastOneInterface: (WaitBasedAnimator.java:1) Classes with public instance methods should implement interfaces
 src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call (.*)!waitForProceed:->void
-src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @Animator!@AnimateAvatar:@Avatar->void
+src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @Animator!@animateAvatar:@Avatar->void
 src\grail\animations\WaitBasedAnimator.java:1: warning: missingMethodCall: (WaitBasedAnimator.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
 src\grail\animations\WaitBasedAnimator.java:1: typeDefined: (WaitBasedAnimator.java:1) Class WaitBasedAnimator matching tag @CoordinatedAnimator//EC defined
 src\grail\collections\ABaseHistory.java:1: typeDefined: (ABaseHistory.java:1) Class ABaseHistory matching tag No Expected Tag defined
@@ -464,7 +464,7 @@ src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) 
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@waiting(.*):->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!initialize:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setCommand:String->*
-src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:->void
+src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:*->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!sleep:long->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!waitForProceed:->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager

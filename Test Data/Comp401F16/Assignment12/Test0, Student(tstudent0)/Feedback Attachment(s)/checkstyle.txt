@@ -178,7 +178,6 @@ src\grail\scanner\Parser.java:3: warning: illegalTypeImported: (Parser.java:3) U
 src\grail\scanner\Parser.java:4: warning: illegalTypeImported: (Parser.java:4) Used disallowed class java.util.HashSet 
 src\grail\scanner\Parser.java:5: warning: illegalTypeImported: (Parser.java:5) Used disallowed class java.util.Set 
 src\grail\scanner\Parser.java:65: warning: expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseNumberCommand:*->*//EC
-src\grail\scanner\Parser.java:65: warning: expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseSleepCommand:*->Runnable//EC
 src\grail\scanner\Parser.java:393: warning: variableHasClassType: (Parser.java:393) Class SayCommand rather than interface used as the type of variable/function parseSayCommand
 src\grail\scanner\Parser.java:423: warning: variableHasClassType: (Parser.java:423) Class MoveCommand rather than interface used as the type of variable/function parseMoveCommand
 src\grail\scanner\Parser.java:518: warning: variableHasClassType: (Parser.java:518) Class ApproachCommand rather than interface used as the type of variable/function parseApproachCommand
@@ -231,7 +230,7 @@ src\grail\tokenBeans\WordToken.java:1: typeDefined: (WordToken.java:1) Class Wor
 src\main\Assignment12.java:1: warning: expectedClassInstantiations: (Assignment12.java:1) Type JProgressBar should be instantiated by main.Assignment12 
 src\main\Assignment12.java:1: warning: expectedClassInstantiations: (Assignment12.java:1) Type JSlider should be instantiated by main.Assignment12 
 src\main\Assignment12.java:1: warning: expectedGetters: (Assignment12.java:1) In type Assignment12, missing getter for property Slider of type JSlider
-src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:->void
+src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!setTextFieldFactory:*->void
 src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!sleep:long->void
 src\main\Assignment12.java:1: typeDefined: (Assignment12.java:1) Class Assignment12 matching tag @ProgressBarCreator//EC defined
 src\main\Assignment12.java:1: typeDefined: (Assignment12.java:1) Class Assignment12 matching tag main.Assignment12 defined

@@ -17,14 +17,14 @@ Waiting animations created                             0.0 / 16.0
 Generics added to Table                                0.0 / 15.0
 Lockstep and coordinating methods created and used     0.0 / 14.0 (Extra credit)
 Methods and classes for extended grammar created       0.0 / 20.0 (Extra credit)
-Exceptions used                                        1.5 /  9.0 (Extra credit)
-Custom text field color                                0.0 /  6.0 (Extra credit)
+Exceptions used                                        0.0 /  9.0 (Extra credit)
+Custom text field color                                0.0 /  5.0 (Extra credit)
 Undo and redo commands created                         0.0 /  6.0 (Extra credit)
 4 animations wait until press of proceedAll            0.0 / 10.0
 Lockstep animations work                               0.0 / 10.0 (Extra credit)
-New commands showcased (3 points each)                 0.0 / 27.0
+Commands showcased (9 possible commands)               0.0 / 18.0 (Extra credit)
 ----------------------------------
-  Points Awarded: 11.5
+  Points Awarded: 10.0
 
 Grading restrictions...
 ----------------------------------
@@ -33,7 +33,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: -5.0
 
-  Features Score: 6.5
+  Features Score: 5.0
 
 Notes from grading features:
 ----------------------------------
@@ -51,7 +51,7 @@ BroadcastingClearanceManagerFactoryMethodTest:
 CommandInterpreterSuiteA12:
   -- Did not sleep for minimum time:
   -- Child thread not found:
-  -- In: grail.graphics.RotatingLine@18a136ac computedX 100 != correctX 117
+  -- In: grail.graphics.RotatingLine@4b14918a computedX 100 != correctX 117
   -- Could not find class  matching RotateLeftArmCommand
   -- Could not find class  matching RotateRightArmCommand
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -76,7 +76,7 @@ ExceptionSuite:
   -- Could not find ExceptionClass
 
 UndoRedoTestCase:
-  -- In: grail.graphics.RotatingLine@18a136ac computedX 112 != correctX 100
+  -- In: grail.graphics.RotatingLine@4b14918a computedX 112 != correctX 100
 
 WaitingAvatarsAnimationTestCase:
   -- Could not instantiate/find class matching:[BroadcastingClearanceManager]
@@ -125,7 +125,6 @@ Lockstep and coordinating methods created and used:
   -- CoordinatedAnimator not found by checkstyle
   -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
 
-  -- CoordinatingAnimator not found by checkstyle
   -- CoordinatingAnimator not found by checkstyle
   -- CoordinatingAnimatingCommand not found by checkstyle
   -- main.Assignment12 not found by checkstyle
@@ -200,7 +199,6 @@ Custom text field color:
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- main.Assignment12 not found by checkstyle
-  -- main.Assignment12 not found by checkstyle
 
 Undo and redo commands created:
   -- Class matching UndoCommand not instantiated in Parser
@@ -212,4 +210,4 @@ Undo and redo commands created:
 
 
 Early benefit: 105.0%
-  Total Score: 7.35
+  Total Score: 5.25

@@ -77,7 +77,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      			new CheckstyleMethodCalledTestCase("CoordinatedAnimator", "(.*)!waitForProceed:->void"),
      			
      			new CheckstyleMethodDefinedTestCase("CommandInterpreter", "@lockstepGuard:->void//EC"),
-     			new CheckstyleMethodDefinedTestCase("CoordinatingAnimator", "@CoordinatingAnimator!@animateAvatar:@Avatar->void"),
+//     			new CheckstyleMethodDefinedTestCase("CoordinatingAnimator", "@animateAvatar:@Avatar->void"), //false positive in skeleton
      			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!sleep:long->void"), 
 //     			new CheckstyleMethodCalledTestCase("CoordinatingAnimator", "(.*)!proceedAll:->void"),	//false positive in skeleton
 //     			new CheckstyleConstructorDefinedTestCase("CoordinatingAnimatingCommand", ":@CoordinatingAnimator;@Avatar"), //false positive in skeleton
@@ -152,12 +152,12 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	//TODO: any other checks for exceptions?
      	
      	// custom text fields
-     	addFeature("Custom text field color", 6, true,
+     	addFeature("Custom text field color", 5, true,
      			new CheckstyleSuperTypeDefinedTestCase("CustomSwingTextFieldFactory", "SwingTextFieldFactory"),
      			new CheckstyleClassInstantiatedTestCase("CustomSwingTextFieldFactory", "JTextField"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setBackground:*->void"),
      			new CheckstyleMethodCalledTestCase("CustomSwingTextFieldFactory", "JTextField!setForeground:*->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!setTextFieldFactory:->void"),
+//     			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!setTextFieldFactory:*->void"), //false negative in tstudent0
      			new CheckstyleMethodCalledTestCase("main.Assignment12", "(.*)!initialize:->void")
      			);
      	// TODO: is there a way to check that a method is overriden?
@@ -166,7 +166,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	addFeature("Undo and redo commands created", 6, true,	//change to 9 if debugged
      			new CheckstyleClassInstantiatedTestCase("Parser", "UndoCommand"),
      			new CheckstyleClassInstantiatedTestCase("Parser", "RedoCommand"),
-//     			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),	// false postivies in skeleton
+//     			new CheckstyleMethodCalledTestCase("UndoCommand", "*!undo->void"),	// false positives in skeleton
 //     			new CheckstyleMethodCalledTestCase("RedoCommand", "*!redo:->void"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseUndoCommand:*->Runnable"),
      			new CheckstyleMethodDefinedTestCase("Parser", "@parseRedoCommand:*->Runnable")
@@ -175,7 +175,7 @@ public class Assignment12Requirements  extends AJUnitProjectRequirements{
      	// manual features
      	addManualFeature("4 animations wait until press of proceedAll", 10, false);
      	addManualFeature("Lockstep animations work", 10, true);
-     	addManualFeature("New commands showcased (3 points each)", 27, false);
+     	addManualFeature("Commands showcased (9 possible commands)", 18, true);
      	
      	addManualRestriction(INTERACTIVE_RUN, 5, 
      			new NoWarningOrErrorTestCase("No OE Warnings", ".*(efresh|not in range).*", null, 0.3));

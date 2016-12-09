@@ -3,4 +3,3 @@
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- CustomSwingTextFieldFactory not found by checkstyle
   -- main.Assignment12 not found by checkstyle
-  -- main.Assignment12 not found by checkstyle
