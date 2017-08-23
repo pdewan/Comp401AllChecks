@@ -1,0 +1,5 @@
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- Could not find class  matching ApproachCommand
+  -- Could not find class  matching PassCommand
+  -- Could not find class  matching FailCommand

@@ -1,0 +1,10 @@
+  -- expectedConstructors: (WordInput.java:7) In type WordInput, missing constructor: :String
+
+  -- expectedConstructors: (NumberInput.java:7) In type NumberInput, missing constructor: :String
+
+  -- expectedConstructors: (QuoteInput.java:7) In type QuoteInput, missing constructor: :String
+
+  -- expectedConstructors: (StartInput.java:7) In type StartInput, missing constructor: :String
+
+  -- expectedConstructors: (EndInput.java:7) In type EndInput, missing constructor: :String
+

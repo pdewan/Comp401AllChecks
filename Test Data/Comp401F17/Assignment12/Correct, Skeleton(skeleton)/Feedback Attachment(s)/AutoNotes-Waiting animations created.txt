@@ -1,0 +1,17 @@
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingArthur:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingGalahad:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingLancelot:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @waitingRobin:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:31) In type CommandInterpreter, missing declared signature: @startAnimation:->void
+
+  -- src\grail\animations\AnimatingCommand.java:1: warning: missingMethodCall: (AnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
+src\grail\animations\LockstepAnimatingCommand.java:1: warning: missingMethodCall: (LockstepAnimatingCommand.java:1) has not made expected call (.*)!waitForProceed:->void
+
+  -- expectedConstructors: (AnimatingCommand.java:9) In type AnimatingCommand, missing constructor: :@Animator;@Avatar;boolean
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!@waiting(.*):->void
+

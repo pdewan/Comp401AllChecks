@@ -1,0 +1,6 @@
+  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLine.java:10) In type RotatingLine, missing supertype: @Locatable
+expectedSuperTypes: (StringShape.java:9) In type StringShape, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLineInterface.java:7) In type RotatingLineInterface, missing supertype: @Locatable
+expectedSuperTypes: (StringShapeInterface.java:6) In type StringShapeInterface, missing supertype: @Locatable
+

@@ -1,0 +1,59 @@
+0,Tue Sep 06 14:29:43 EDT 2016,true,main/Assignment2.java,typeDefined,Assignment2,main.Assignment(.*)
+1,Tue Sep 06 14:29:55 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,typeDefined,Bean,No Expected Tag
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,scanString:String->void,Bean
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,indexOf:String;char;int->int,Bean
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,expectedGetters,Bean,ScannedString,String
+2,Thu Sep 08 15:01:18 EDT 2016,true,main/Bean.java,expectedSetters,Bean,ScannedString,String
+3,Thu Sep 08 15:08:14 EDT 2016,false,[main.Assignment(.*),expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,scanString:String->void,Bean
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,typeDefined,Bean,No Expected Tag
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,expectedGetters,Bean,ScannedString,String
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,indexOf:String;char;int->int,Bean
+4,Thu Sep 08 15:11:04 EDT 2016,false,Bean,expectedSetters,Bean,ScannedString,String
+5,Sun Sep 11 15:45:20 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,typeDefined,Bean,No Expected Tag
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,scanString:String->void,Bean
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,indexOf:String;char;int->int,Bean
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,expectedSetters,Bean,ScannedString,String
+6,Tue Sep 13 14:35:41 EDT 2016,true,main/Bean.java,expectedGetters,Bean,ScannedString,String
+7,Tue Sep 13 14:36:34 EDT 2016,false,[main.Assignment(.*),expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,scanString:String->void,Bean
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,typeDefined,Bean,No Expected Tag
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,expectedGetters,Bean,ScannedString,String
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,indexOfNot:String;char;int->int//EC,Bean
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,expectedDeclaredSignatures,Bean,indexOf:String;char;int->int,Bean
+8,Tue Sep 13 14:38:23 EDT 2016,false,Bean,expectedSetters,Bean,ScannedString,String
+25,Tue Sep 13 15:11:52 EDT 2016,true,main/Assignment2.java,magic.number,Assignment2,3,3
+27,Tue Sep 13 15:16:34 EDT 2016,false,Assignment2,magic.number,Assignment2,3,3
+65,Tue Sep 13 19:38:59 EDT 2016,true,main/Bean.java,typeDefined,Bean,@ScannerBean
+65,Tue Sep 13 19:39:00 EDT 2016,true,main/Test.java,typeDefined,Test,No Expected Tag
+66,Tue Sep 13 20:05:39 EDT 2016,true,main/Bean.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+67,Tue Sep 13 20:17:06 EDT 2016,false,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+67,Tue Sep 13 20:17:06 EDT 2016,false,Assignment2,typeDefined,Assignment2,main.Assignment(.*)
+68,Tue Sep 13 20:18:27 EDT 2016,false,Test,typeDefined,Test,No Expected Tag
+69,Tue Sep 13 22:34:51 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+69,Tue Sep 13 22:34:51 EDT 2016,true,main/Assignment2.java,typeDefined,Assignment2,main.Assignment(.*)
+69,Tue Sep 13 22:34:51 EDT 2016,true,main/Bean.java,typeDefined,Bean,No Expected Tag
+69,Tue Sep 13 22:34:51 EDT 2016,true,main/Bean.java,uncessaryMethodCall,Bean,scanString-->String.equals
+69,Tue Sep 13 22:34:51 EDT 2016,true,main/Test.java,typeDefined,Test,No Expected Tag
+70,Tue Sep 13 22:35:38 EDT 2016,false,Bean,typeDefined,Bean,@ScannerBean
+71,Tue Sep 13 22:35:55 EDT 2016,false,Test,typeDefined,Test,No Expected Tag
+71,Tue Sep 13 22:35:55 EDT 2016,false,Bean,typeDefined,Bean,No Expected Tag
+71,Tue Sep 13 22:35:55 EDT 2016,false,Bean,uncessaryMethodCall,Bean,scanString-->String.equals
+76,Tue Sep 13 22:47:34 EDT 2016,true,main/Bean.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+76,Tue Sep 13 22:47:34 EDT 2016,true,main/Bean.java,typeDefined,Bean,@ScannerBean
+76,Tue Sep 13 22:47:34 EDT 2016,true,main/Bean.java,uncessaryMethodCall,Bean,scanString-->String.equals
+77,Tue Sep 13 22:48:50 EDT 2016,false,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+77,Tue Sep 13 22:48:50 EDT 2016,false,Assignment2,typeDefined,Assignment2,main.Assignment(.*)
+80,Tue Sep 13 23:13:52 EDT 2016,true,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+80,Tue Sep 13 23:13:52 EDT 2016,true,main/Assignment2.java,typeDefined,Assignment2,main.Assignment(.*)
+81,Tue Sep 13 23:14:56 EDT 2016,false,main/Bean.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+81,Tue Sep 13 23:14:56 EDT 2016,true,main/Bean.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+82,Tue Sep 13 23:16:28 EDT 2016,false,main/Assignment2.java,expectedTypes,[main.Assignment(.*), @ScannerBean, mp.scanner.ScanningIterator//EC]
+82,Tue Sep 13 23:16:28 EDT 2016,false,Assignment2,typeDefined,Assignment2,main.Assignment(.*)

@@ -1,0 +1,6 @@
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property MenuItem of type JMenuItem
+
+  -- expectedGetters: (CommandInterpreterController.java:1) In type CommandInterpreterController, missing getter for property Button of type JButton
+
+  -- expectedInterfaces: (CommandInterpreterController.java:19) In type CommandInterpreterController, missing interface: ActionListener
+

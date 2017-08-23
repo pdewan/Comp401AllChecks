@@ -1,0 +1,9 @@
+  -- classHasAtLeastOneInterface: (ScannerBean.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (EndToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (MinusToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (NumberToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (PlusToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (QuoteToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (StartToken.java:1) Classes with public instance methods should implement interfaces
+classHasAtLeastOneInterface: (WordToken.java:1) Classes with public instance methods should implement interfaces
+

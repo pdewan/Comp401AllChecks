@@ -1,0 +1,95 @@
+Grading result for: Correct, Stub(stubs)
+
+Grading features...
+----------------------------------
+ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
+ConsoleSceneViewOutputTestCase                         0.0 / 50.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Observables send events, observer registers and listens0.0 /  9.0
+ConsoleSceneView created and used with SingletonCreator0.0 /  9.0
+Proper interfaces implemented                          9.0 /  9.0
+Main calls proper methods                              0.0 / 10.0
+Rotate method called                                   0.0 /  3.0 (Extra credit)
+Console shows proper events being fired                0.0 / 15.0
+Animation shows correct behavior                       0.0 /  5.0
+----------------------------------
+  Points Awarded: 19.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
+----------------------------------
+  Points Deducted: -30.0
+
+  Features Score: -11.0
+
+Notes from grading features:
+----------------------------------
+ConsoleSceneViewFactoryMethodTest:
+  -- Factory method:[consolesceneviewfactorymethod] not found.
+
+ConsoleSceneViewOutputTestCase:
+  -- Could not instantiate/find class matching:[]
+
+Observables send events, observer registers and listens:
+  -- Class matching PropertyChangeEvent not instantiated in ObservableLocatableObject
+  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call        (.*)!addPropertyChangeListener:PropertyChangeListener->void
+
+
+ConsoleSceneView created and used with SingletonCreator:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call                @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+
+  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
+
+Main calls proper methods:
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+
+Rotate method called:
+  -- main.Assignment8 not found by checkstyle
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (BridgeSceneControllerInterface.java:3) Used disallowed class java.awt.event.KeyListener 
+illegalTypeImported: (BridgeSceneControllerInterface.java:4) Used disallowed class java.awt.event.MouseListener 
+illegalTypeImported: (CommandInterpreterControllerInterface.java:3) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (CommandInterpreterViewInterface.java:3) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (PaintingViewMaster.java:3) Used disallowed class java.awt.Graphics 
+illegalTypeImported: (PaintingViewModule.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (PaintListener.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (BridgeSceneController.java:3) Used disallowed class java.awt.Component 
+illegalTypeImported: (BridgeSceneController.java:4) Used disallowed class java.awt.event.KeyEvent 
+illegalTypeImported: (BridgeSceneController.java:5) Used disallowed class java.awt.event.MouseEvent 
+illegalTypeImported: (CommandInterpreterController.java:3) Used disallowed class java.awt.event.ActionEvent 
+illegalTypeImported: (CommandInterpreterController.java:4) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (AvatarView.java:3) Used disallowed class java.awt.Graphics 
+illegalTypeImported: (AvatarView.java:4) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (CommandInterpreterView.java:3) Used disallowed class java.awt.GridLayout 
+illegalTypeImported: (CommandInterpreterView.java:4) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (ObservableBridgeScenePainter.java:3) Used disallowed class java.awt.Component 
+illegalTypeImported: (ObservableBridgeScenePainter.java:4) Used disallowed class java.awt.Graphics 
+illegalTypeImported: (ObservableBridgeScenePainter.java:5) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (PaintingSupport.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (PaintingSupport.java:4) Used disallowed class java.awt.Toolkit 
+illegalTypeImported: (SceneBackgroundView.java:3) Used disallowed class java.awt.Graphics2D 
+illegalTypeImported: (SingletonsCreator.java:3) Used disallowed class java.awt.event.ActionListener 
+illegalTypeImported: (Assignment10.java:3) Used disallowed class java.awt.Component 
+illegalTypeImported: (Assignment10.java:4) Used disallowed class java.awt.GridLayout 
+illegalTypeImported: (Assignment10.java:5) Used disallowed class java.awt.event.ActionListener 
+
+
+
+Early benefit: 105.0%
+  Total Score: 0.0

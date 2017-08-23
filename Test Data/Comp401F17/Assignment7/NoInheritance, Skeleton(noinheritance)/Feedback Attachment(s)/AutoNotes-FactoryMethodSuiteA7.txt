@@ -1,0 +1,4 @@
+  -- Factory method:[avatarTableFactoryMethod] not found.
+  -- Factory method:[commandInterpreterFactoryMethod] not found.
+  -- Factory method:[scannerfactorymethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.

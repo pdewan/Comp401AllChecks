@@ -1,0 +1,147 @@
+*****************************(AssertingBridgeSceneDynamicTestCase)*****************************
+### gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase: 1.0
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment10.testcases.AssertingBridgeSceneDynamicTestCase: 0.0
+*****************************(CommandObjectSuite)*****************************
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.MoveCommandObjectTestCase: 1.0
+Could not find class tagged:[movecommand]
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.MoveCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.SayCommandObjectTestCase: 1.0
+Could not find class tagged:[saycommand]
+### gradingTools.comp401f16.assignment10.commandObjects.testcases.SayCommandObjectTestCase: 0.0
+*****************************(AsyncAnimationSuite)*****************************
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase: 1.0
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@16fe9c29 385784873 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@16fe9c29 385784873 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@1eea9d2d 518692141 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase@4d4960c8]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@16fe9c29 385784873 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@7808fb9 125865913 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase@4d4960c8]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@6b580b88 1800932232 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6e6fce47 1852821063 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase@4d4960c8]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@6b580b88 1800932232 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6ce90bc5 1827212229 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase@4d4960c8]timeOut:2000
+Calling on object grail.graphics.Avatar@715fb77 118881143 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@1a5b8489 442205321 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase@4d4960c8]timeOut:2000
+Animating arthur
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncArthurAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase: 1.0
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ddf20fd 232726781 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ddf20fd 232726781 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@695a69a1 1767532961 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase@3f36b447]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@ddf20fd 232726781 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6443b128 1682157864 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase@3f36b447]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@40021799 1073878937 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@332f25c8 858727880 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase@3f36b447]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@40021799 1073878937 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@4bdcaf36 1272753974 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase@3f36b447]timeOut:2000
+Calling on object grail.graphics.Avatar@34cf5a97 886004375 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@2b9b7f1f 731610911 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase@3f36b447]timeOut:2000
+Animating Galahad
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncGalahadAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase: 1.0
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5d39f2d8 1564078808 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5d39f2d8 1564078808 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@55ea2d70 1441410416 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase@175acfb2]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@5d39f2d8 1564078808 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@4a03bb68 1241758568 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase@175acfb2]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@71c905a3 1908999587 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@67a056f1 1738561265 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase@175acfb2]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@71c905a3 1908999587 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@247667dd 611739613 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase@175acfb2]timeOut:2000
+Calling on object grail.graphics.Avatar@69cac930 1774897456 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@afb5821 184244257 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase@175acfb2]timeOut:2000
+Animating Lancelot
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncLancelotAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase: 1.0
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.CommandInterpreterInterface grail.SingletonsCreator.commandInterpreterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 378814088 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1d4664d7 491152599 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@c3fa05a 205496410 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1d4664d7 491152599 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@56ccd751 1456265041 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase@6bcbf05b]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@1d4664d7 491152599 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2d66530f 761680655 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase@6bcbf05b]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@72ed9aad 1928174253 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59712875 1500588149 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase@6bcbf05b]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getLegs() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@72ed9aad 1928174253 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getRightLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@59942b48 1502882632 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase@6bcbf05b]timeOut:2000
+Calling on object grail.graphics.Avatar@7fedfe27 2146303527 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@6090f3ca 1620112330 method:public void grail.graphics.ObservableLocatableObject.addPropertyChangeListener(java.beans.PropertyChangeListener) args:[gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase@6bcbf05b]timeOut:2000
+Animating Robin
+### gradingTools.comp401f16.assignment10.async.testcases.AsyncRobinAnimationTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Preconditions defined)*****************************
+### BridgeScene!@prePassed:->boolean: 0.0
+### BridgeScene!@preFailed:->boolean: 0.0
+### BridgeScene!@preSay:->boolean: 0.0
+### BridgeScene!@preApproach:->boolean: 0.0
+*****************************(Event notifications fired and received)*****************************
+### BridgeScene defined: 0.0
+### BridgeScene!PropertyChangeEvent: 0.0
+### ConsoleSceneView!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+*****************************(Command objects created for parsing)*****************************
+### SayCommand defined: 0.0
+### SayCommand!:@BridgeScene; String: 1.0
+### MoveCommand defined: 0.0
+### MoveCommand!:@Avatar; int; int: 1.0
+*****************************(Parsing methods made, setter calls run())*****************************
+### CommandInterpreter!@parseMove:*->Runnable: 0.0
+### CommandInterpreter!@parseSay:*->Runnable: 0.0
+### CommandInterpreter!@parseMove:*->Runnable: 0.0
+### CommandInterpreter!@parseSay:*->Runnable: 0.0
+### CommandInterpreter!Runnable!run:-> void: 0.0
+*****************************(Animator and animation commands created and used)*****************************
+### Animator!(.*)!sleep:long->void: 0.0
+### AnimatingCommand!@Animator!@animateAvatar:@Avatar->void: 0.0
+### AnimatingCommand!:@Animator;@Avatar: 0.0
+*****************************(Asynchronous methods create new threads)*****************************
+### CommandInterpreter!AnimatingCommand: 0.0
+### CommandInterpreter!Thread!start:->void: 0.0
+### CommandInterpreter!@asynchronousArthur:->void: 0.0
+### CommandInterpreter!@asynchronousGalahad:->void: 0.0
+### CommandInterpreter!@asynchronousLancelot:->void: 0.0
+### CommandInterpreter!@asynchronousRobin:->void: 0.0
+### main.Assignment10!(.*)!@asynchronous(.*):->void: 0.0
+*****************************(Asynchronous guard)*****************************
+### CommandInterpreter!@asynchronousGuard:->void: 0.0
+*****************************(CommandInterpreter new buttons respond to preconditions)*****************************
+### CommandInterpreterController!(.*)!addPropertyChangeListener:PropertyChangeListener->void: 0.0
+### CommandInterpreterController!JButton!setEnabled:boolean->void: 0.0
+### CommandInterpreterControllerdefines getter for property Say: 0.0
+### CommandInterpreterControllerdefines getter for property Approach: 0.0
+### CommandInterpreterControllerdefines getter for property Pass: 0.0
+### CommandInterpreterControllerdefines getter for property Fail: 0.0

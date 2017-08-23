@@ -1,0 +1,12 @@
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle
+  -- Quote not found by checkstyle
+  -- Start not found by checkstyle
+  -- End not found by checkstyle
+  -- Word not found by checkstyle
+  -- Number not found by checkstyle

@@ -1,0 +1,6 @@
+  -- Did not sleep for minimum time:
+  -- Child thread not found:
+  -- In: grail.graphics.RotatingLine@4b14918a computedX 100 != correctX 117
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Could not instantiate/find class matching:[BroadcastingClearanceManager]

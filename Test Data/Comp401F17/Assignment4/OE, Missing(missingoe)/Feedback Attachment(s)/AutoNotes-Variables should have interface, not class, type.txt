@@ -1,0 +1,15 @@
+  -- variableHasClassType: (Assignment4.java:12) Class ScannerBean rather than interface used as the type of variable/function scanner
+variableHasClassType: (ScannerBean.java:33) Class Number rather than interface used as the type of variable/function scannedNumber
+variableHasClassType: (ScannerBean.java:43) Class Move rather than interface used as the type of variable/function scannedMove
+variableHasClassType: (ScannerBean.java:49) Class Say rather than interface used as the type of variable/function scannedSay
+variableHasClassType: (ScannerBean.java:55) Class Repeat rather than interface used as the type of variable/function scannedRepeat
+variableHasClassType: (ScannerBean.java:61) Class Approach rather than interface used as the type of variable/function scannedApproach
+variableHasClassType: (ScannerBean.java:67) Class Pass rather than interface used as the type of variable/function scannedPass
+variableHasClassType: (ScannerBean.java:73) Class Fail rather than interface used as the type of variable/function scannedFail
+variableHasClassType: (ScannerBean.java:90) Class Quote rather than interface used as the type of variable/function scannedQuote
+variableHasClassType: (ScannerBean.java:98) Class Plus rather than interface used as the type of variable/function scannedPlus
+variableHasClassType: (ScannerBean.java:106) Class Minus rather than interface used as the type of variable/function scannedMinus
+variableHasClassType: (ScannerBean.java:114) Class End rather than interface used as the type of variable/function scannedEnd
+variableHasClassType: (ScannerBean.java:122) Class Start rather than interface used as the type of variable/function scannedStart
+variableHasClassType: (ScannerBean.java:79) Class Word rather than interface used as the type of variable/function scannedWord
+

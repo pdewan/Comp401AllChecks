@@ -1,0 +1,2 @@
+  -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Errors of type *//EC
+

@@ -1,0 +1,8 @@
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @approach:@Avatar->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @say:String->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @passed:->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @failed:->*
+

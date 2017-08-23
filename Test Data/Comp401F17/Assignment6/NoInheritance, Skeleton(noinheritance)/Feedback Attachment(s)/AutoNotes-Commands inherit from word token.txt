@@ -1,0 +1,12 @@
+  -- expectedSuperTypes: (MoveCommand.java:10) In type MoveCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (SayCommand.java:10) In type SayCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (FailCommand.java:10) In type FailCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (PassCommand.java:10) In type PassCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (ApproachCommand.java:10) In type ApproachCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (RepeatCommand.java:10) In type RepeatCommand, missing supertype: @Word
+

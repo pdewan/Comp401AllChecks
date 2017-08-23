@@ -1,0 +1,10 @@
+  -- expectedInterfaces: (WordToken.java:9) In type WordToken, missing interface: @Token
+
+  -- expectedInterfaces: (NumberToken.java:9) In type NumberToken, missing interface: @Token
+
+  -- expectedInterfaces: (QuoteToken.java:8) In type QuoteToken, missing interface: @Token
+
+  -- expectedInterfaces: (StartToken.java:8) In type StartToken, missing interface: @Token
+
+  -- expectedInterfaces: (EndToken.java:8) In type EndToken, missing interface: @Token
+

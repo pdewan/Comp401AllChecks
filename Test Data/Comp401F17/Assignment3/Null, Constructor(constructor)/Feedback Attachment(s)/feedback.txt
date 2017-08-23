@@ -1,0 +1,129 @@
+Grading result for: Orr, Carson(carson16)
+
+Grading features...
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+  Points Awarded: 166.0
+
+Grading restrictions...
+----------------------------------
+
+
+----------------------------------
+  Points Deducted: -6.0
+
+  Features Score: 160.0
+
+Notes from grading features:
+----------------------------------
+PlusBeanTest:
+  -- No class matching: [Plus]
+
+EndBeanTest:
+  -- java.lang.NullPointerException null
+
+StartBeanTest:
+  -- java.lang.NullPointerException null
+
+MultipleSignTokenOutputTest:Multiple Signs Output:
+  -- Incorrect output (Pattern:(.*)\Q-\E(.*) not found in output line: []) 
+
+MinusBeanTest:
+  -- No class matching: [Minus]
+
+QuoteBeanTest:
+  -- java.lang.NullPointerException null
+
+WordBeanTest:
+  -- java.lang.NullPointerException null
+
+NumberBeanTest:
+  -- java.lang.NullPointerException null
+
+Necessary calls in tagged interfaces:
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+
+Required token classes instantiated:
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+
+Single parameter constructors defined:
+  -- expectedConstructors: (WordInput.java:7) In type WordInput, missing constructor: :String
+
+  -- expectedConstructors: (NumberInput.java:7) In type NumberInput, missing constructor: :String
+
+  -- expectedConstructors: (QuoteInput.java:7) In type QuoteInput, missing constructor: :String
+
+  -- expectedConstructors: (StartInput.java:7) In type StartInput, missing constructor: :String
+
+  -- expectedConstructors: (EndInput.java:7) In type EndInput, missing constructor: :String
+
+
+Properties defined for token classes:
+  -- expectedGetters: (WordInput.java:1) In type WordInput, missing getter for property Value of type String
+
+  -- expectedGetters: (NumberInput.java:1) In type NumberInput, missing getter for property Value of type int
+
+
+Necessary interfaces created and used:
+  -- expectedInterfaces: (WordInput.java:7) In type WordInput, missing interface: @Token
+
+  -- expectedInterfaces: (NumberInput.java:7) In type NumberInput, missing interface: @Token
+
+  -- expectedInterfaces: (QuoteInput.java:7) In type QuoteInput, missing interface: @Token
+
+  -- expectedInterfaces: (StartInput.java:7) In type StartInput, missing interface: @Token
+
+  -- expectedInterfaces: (EndInput.java:7) In type EndInput, missing interface: @Token
+
+
+Extra credit classes instantiated, with proper interfaces:
+  -- ScannerBean not found by checkstyle
+  -- ScannerBean not found by checkstyle
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
+
+Extra credit constructors and properties defined:
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
+  -- Plus not found by checkstyle
+  -- Minus not found by checkstyle
+
+
+Notes from grading restrictions:
+----------------------------------
+Variables should have interface, not class, type:
+  -- variableHasClassType: (Assignment3.java:8) Class StringScanner rather than interface used as the type of variable/function typedString
+variableHasClassType: (StringScanner.java:39) Class NumberInput rather than interface used as the type of variable/function aNumberInput
+variableHasClassType: (StringScanner.java:17) Class WordInput rather than interface used as the type of variable/function aWordInput
+
+
+
+Early benefit: 105.0%
+  Total Score: 168.0

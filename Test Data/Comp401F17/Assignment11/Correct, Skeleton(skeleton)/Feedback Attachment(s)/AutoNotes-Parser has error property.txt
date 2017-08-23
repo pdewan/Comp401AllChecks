@@ -1,0 +1,2 @@
+  -- expectedGetters: (Parser.java:1) In type Parser, missing getter for property Errors of type *//EC
+

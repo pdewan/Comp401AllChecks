@@ -1,0 +1,3 @@
+  -- Angle not found by checkstyle
+  -- Avatar not found by checkstyle
+  -- BridgeScene not found by checkstyle

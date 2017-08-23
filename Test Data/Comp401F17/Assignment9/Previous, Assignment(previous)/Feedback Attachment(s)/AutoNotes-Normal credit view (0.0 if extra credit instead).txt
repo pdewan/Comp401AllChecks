@@ -1,0 +1,5 @@
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- InheritingBridgeScenePainter not found by checkstyle
+  -- Class matching InheritingBridgeScenePainter not instantiated in SingletonsCreator

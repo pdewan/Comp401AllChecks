@@ -1,0 +1,4 @@
+  -- expectedInterfaces: (SayCommand.java:10) In type SayCommand, missing interface: Runnable
+
+  -- expectedInterfaces: (MoveCommand.java:10) In type MoveCommand, missing interface: Runnable
+

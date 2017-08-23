@@ -1,0 +1,4 @@
+  -- expectedGetters: (WordInput.java:1) In type WordInput, missing getter for property Value of type String
+
+  -- expectedGetters: (NumberInput.java:1) In type NumberInput, missing getter for property Value of type int
+

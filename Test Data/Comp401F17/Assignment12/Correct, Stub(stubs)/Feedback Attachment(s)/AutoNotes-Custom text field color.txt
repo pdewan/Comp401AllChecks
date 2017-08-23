@@ -1,0 +1,7 @@
+  -- Class matching JTextField not instantiated in CustomSwingTextFieldFactory
+  -- src\grail\mvc\view\CustomSwingTextFieldFactory.java:1: warning: missingMethodCall: (CustomSwingTextFieldFactory.java:1) has not made expected call JTextField!setBackground:*->void
+
+  -- src\grail\mvc\view\CustomSwingTextFieldFactory.java:1: warning: missingMethodCall: (CustomSwingTextFieldFactory.java:1) has not made expected call JTextField!setForeground:*->void
+
+  -- src\main\Assignment12.java:1: warning: missingMethodCall: (Assignment12.java:1) has not made expected call (.*)!initialize:->void
+

@@ -1,0 +1,313 @@
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+INPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+OUTPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+Please enter a line of text: 
+quoted string:    weird spacing    
+quoted string: 23more_numbers234
+quoted string: 12334
+quoted string:  AND SYMBOLS #@!
+quoted string:  1 ! - end
+Please enter a line of text: 
+
+ERRORS(MultipleQuoteOutputTest:Multiple Quotes Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:quoted string:    weird spacing    
+quoted string:    weird spacing    
+Process line:quoted string: 23more_numbers234
+quoted string: 23more_numbers234
+Process line:quoted string: 12334
+quoted string: 12334
+Process line:quoted string:  AND SYMBOLS #@!
+quoted string:  AND SYMBOLS #@!
+Process line:quoted string:  1 ! - end
+quoted string:  1 ! - end
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)   weird spacing    (.*), (.*)(.*)uot(.*)23more_numbers234(.*), (.*)(.*)uot(.*)12334(.*), (.*)(.*)uot(.*) AND SYMBOLS #@!(.*), (.*)(.*)uot(.*) 1 ! - end(.*)]
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+INPUT(MixedOutputTest:Mixed Types of Tokens Output)
+"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+OUTPUT(MixedOutputTest:Mixed Types of Tokens Output)
+Please enter a line of text: 
+quoted string: 12   3 and to the 4!  
+word: CAPS
+number: 000231
+quoted string: oneQuotedword
+word: I
+Illegal characters entered: "C", "0", "I" 
+Please enter a line of text: 
+
+ERRORS(MixedOutputTest:Mixed Types of Tokens Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:quoted string: 12   3 and to the 4!  
+quoted string: 12   3 and to the 4!  
+Process line:word: CAPS
+word: CAPS
+Process line:number: 000231
+number: 000231
+Process line:quoted string: oneQuotedword
+quoted string: oneQuotedword
+Process line:word: I
+word: I
+Process line:Illegal characters entered: "C", "0", "I" 
+Illegal characters entered: "C", "0", "I" 
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)12   3 and to the 4!  (.*), (.*)(.*)ord(.*)CAPS(.*), (.*)(.*)umber(.*)000231(.*), (.*)(.*)uot(.*)oneQuotedword(.*), (.*)(.*)ord(.*)I(.*)]
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignOutputTest:Multiple Signs Output)
+- - + + - 
+. 
+
+OUTPUT(MultipleSignOutputTest:Multiple Signs Output)
+Please enter a line of text: 
+sign: -
+sign: -
+sign: +
+sign: +
+sign: -
+Please enter a line of text: 
+
+ERRORS(MultipleSignOutputTest:Multiple Signs Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$- - + + - 
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:sign: -
+sign: -
+Process line:sign: -
+sign: -
+Process line:sign: +
+sign: +
+Process line:sign: +
+sign: +
+Process line:sign: -
+sign: -
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:- - + + - 
+. 
+
+Expected outputs:[(.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q-\E(.*)]
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+INPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+10 11 0 4 
+. 
+
+OUTPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+Please enter a line of text: 
+number: 10
+number: 11
+number: 0
+number: 4
+Illegal characters entered: "1", "1", "0", "4" 
+Please enter a line of text: 
+
+ERRORS(MultipleNumberOutputTest:Multiple Numbers Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$10 11 0 4 
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:number: 10
+number: 10
+Process line:number: 11
+number: 11
+Process line:number: 0
+number: 0
+Process line:number: 4
+number: 4
+Process line:Illegal characters entered: "1", "1", "0", "4" 
+Illegal characters entered: "1", "1", "0", "4" 
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)(.*)umber(.*)10(.*), (.*)(.*)umber(.*)11(.*), (.*)(.*)umber(.*)0(.*), (.*)(.*)umber(.*)4(.*)]
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+INPUT(MissingQuoteOutputTest:Missing Quote Output)
+"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+OUTPUT(MissingQuoteOutputTest:Missing Quote Output)
+Please enter a line of text: 
+quoted string: an unfinished quote...
+quoted string:  One quote   there
+quoted string:    and  
+quoted string:  the other so remote 
+ERROR: Closing double quote is missing!
+Good thing my program is smarter than you are!
+Here is your "quoted" string anyway:
+quoted string: !! !# ! @    
+Please enter a line of text: 
+
+ERRORS(MissingQuoteOutputTest:Missing Quote Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:quoted string: an unfinished quote...
+quoted string: an unfinished quote...
+Process line:quoted string:  One quote   there
+quoted string:  One quote   there
+Process line:quoted string:    and  
+quoted string:    and  
+Process line:quoted string:  the other so remote 
+quoted string:  the other so remote 
+Process line:ERROR: Closing double quote is missing!
+ERROR: Closing double quote is missing!
+Process line:Good thing my program is smarter than you are!
+Good thing my program is smarter than you are!
+Process line:Here is your "quoted" string anyway:
+Here is your "quoted" string anyway:
+Process line:quoted string: !! !# ! @    
+quoted string: !! !# ! @    
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)an unfinished quote...(.*), (.*)(.*)uot(.*) One quote   there(.*), (.*)(.*)uot(.*)   and  (.*), (.*)(.*)uot(.*) the other so remote (.*), (.*)(.*)uot(.*)!! !# ! @  (.*)]
+*****************************(ScannerBeanTest)*****************************
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 1.0
+Finding constructor matching:
+calling constructor: public main.BeanA2() 
+called constructor: public main.BeanA2() 
+Calling  interactive method:setScannedString with args [10 11 0 4 ] and input 10 11 0 4 
+. 
+
+Creating:tmpMethodOut2.txt
+number: 10
+number: 11
+number: 0
+number: 4
+Illegal characters entered: "1", "1", "0", "4" 
+Creating:tmpIn
+Deleting:tmpMethodOut2.txt
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+INPUT(MultipleWordOutputTest:Multiple Words Output)
+DOTH I perhaps surmise surprise 
+. 
+
+OUTPUT(MultipleWordOutputTest:Multiple Words Output)
+Please enter a line of text: 
+word: DOTH
+word: I
+word: perhaps
+word: surmise
+word: surprise
+Illegal characters entered: "D", "I", "p", "s", "s" 
+Please enter a line of text: 
+
+ERRORS(MultipleWordOutputTest:Multiple Words Output)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.util.Scanner.nextLine(Scanner.java:1540)
+	at main.Assignment2.main(Assignment2.java:12)
+
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment2
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Test, Student(tstudent)\Submission attachment(s)\Assignment2\Assignment2\Assignment2\bin
+$DOTH I perhaps surmise surprise 
+. 
+
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Process line:word: DOTH
+word: DOTH
+Process line:word: I
+word: I
+Process line:word: perhaps
+word: perhaps
+Process line:word: surmise
+word: surmise
+Process line:word: surprise
+word: surprise
+Process line:Illegal characters entered: "D", "I", "p", "s", "s" 
+Illegal characters entered: "D", "I", "p", "s", "s" 
+Process line:Please enter a line of text: 
+Please enter a line of text: 
+Called main:main.Assignment2
+Provided input:DOTH I perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)perhaps(.*), (.*)(.*)ord(.*)surmise(.*), (.*)(.*)ord(.*)surprise(.*)]
+*****************************(ScanString and IndexOf now called in ScannerBean)*****************************
+### ScannerBean!scanString:String->void: 0.0
+### ScannerBean!indexOf:String;char;int->int: 0.0
+*****************************(ScanString and IndexOf now called in ScaningIterator)*****************************
+### ScannerBean!scanString:String->void: 0.0
+*****************************(Scanner Bean Instantiated in Corectly Named Main)*****************************
+### main.Assignment2!ScannerBean: 0.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 1.0
+*****************************(Scanner Bean Tagged Correctly )*****************************
+### @ScannerBean defined: 0.0
+### @ScannerBean defined: 0.0
