@@ -1,6 +1,0 @@
-  -- expectedGetters: (MoveCommand.java:1) In type MoveCommand, missing getter for property Value of type String
-
-  -- expectedGetters: (RepeatCommand.java:1) In type RepeatCommand, missing getter for property Value of type String
-
-  -- expectedGetters: (PassCommand.java:1) In type PassCommand, missing getter for property Value of type String
-

@@ -1,8 +1,0 @@
-  -- Factory method:[parserfactorymethod] not found.
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]
-  -- Could not instantiate/find class matching:[TestParser, Parser]

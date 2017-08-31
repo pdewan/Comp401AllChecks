@@ -1,4 +1,0 @@
-  -- Method matching setAngle not found in class: class grail.graphics.RotatingLine
-  -- Method matching setAngle not found in class: class grail.graphics.RotatingLine
-  -- Method matching setX not found in class: class grail.graphics.RotatingLine
-  -- Method matching setX not found in class: class grail.graphics.RotatingLine

@@ -1,4 +1,0 @@
-  -- ScannerBean not found by checkstyle
-  -- ScannerBean not found by checkstyle
-  -- Plus not found by checkstyle
-  -- Minus not found by checkstyle

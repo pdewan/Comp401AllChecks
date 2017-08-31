@@ -1,4 +1,0 @@
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
-  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]

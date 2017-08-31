@@ -1,4 +1,0 @@
-  -- expectedGetters: (Assignment10.java:1) In type Assignment10, missing getter for property ProgressBar of type JProgressBar
-
-  -- expectedGetters: (Assignment10.java:1) In type Assignment10, missing getter for property Slider of type JSlider
-

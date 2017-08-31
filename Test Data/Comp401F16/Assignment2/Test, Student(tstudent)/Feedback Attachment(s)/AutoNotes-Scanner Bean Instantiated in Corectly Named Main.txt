@@ -1,1 +1,0 @@
-  -- Type main.Assignment2 not defined, cannot check

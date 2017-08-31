@@ -1,4 +1,0 @@
-  -- Child 1 and Child 2 are not synchronized 
-  -- Child 1 and Child 2 are not synchronized 
-  -- Child 1 and Child 2 are not synchronized 
-  -- Child 1 and Child 2 are not synchronized 

@@ -1,3 +1,0 @@
-  -- Factory method returns null object
-  -- Factory method returns null object
-  -- Factory method returns null object

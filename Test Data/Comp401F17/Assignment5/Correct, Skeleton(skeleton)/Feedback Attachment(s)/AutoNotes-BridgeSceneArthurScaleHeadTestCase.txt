@@ -1,1 +1,0 @@
-  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene

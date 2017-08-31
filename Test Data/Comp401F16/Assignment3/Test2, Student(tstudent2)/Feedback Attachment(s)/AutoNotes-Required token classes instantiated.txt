@@ -1,5 +1,0 @@
-  -- Class matching Word not instantiated in ScannerBean
-  -- Class matching Number not instantiated in ScannerBean
-  -- Class matching Quote not instantiated in ScannerBean
-  -- Class matching Start not instantiated in ScannerBean
-  -- Class matching End not instantiated in ScannerBean

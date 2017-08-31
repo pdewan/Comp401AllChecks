@@ -1,8 +1,0 @@
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,expectedTypes,[main.Assignment(.*), ScanningIterator//EC]
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOf:String;char;int->int 
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOfNot:String;char;int->int//EC 
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOf:String;char;int->int,Assignment1
-0,Thu Sep 22 11:18:44 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOfNot:String;char;int->int//EC,Assignment1
-0,Thu Sep 22 11:18:44 EDT 2016,true,mp\scanner\ScanningIterator.java,typeDefined,ScanningIterator,ScanningIterator//EC
-0,Thu Sep 22 11:18:44 EDT 2016,true,mp\scanner\ScanningIterator.java,functionAssignsGlobal,ScanningIterator,hasNext

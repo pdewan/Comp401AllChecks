@@ -1,1 +1,0 @@
-  -- main.Assignment4 not found by checkstyle

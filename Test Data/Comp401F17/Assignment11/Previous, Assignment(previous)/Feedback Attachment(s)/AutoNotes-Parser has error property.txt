@@ -1,1 +1,0 @@
-  -- Parser not found by checkstyle

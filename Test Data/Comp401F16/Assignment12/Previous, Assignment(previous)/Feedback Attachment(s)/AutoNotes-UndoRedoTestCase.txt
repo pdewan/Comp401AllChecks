@@ -1,1 +1,0 @@
-  -- In: grail.graphics.RotatingLine@4b14918a computedX 112 != correctX 100

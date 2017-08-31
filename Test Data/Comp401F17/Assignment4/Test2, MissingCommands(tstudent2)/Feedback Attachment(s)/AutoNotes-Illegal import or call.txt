@@ -1,3 +1,0 @@
-  -- Illegal type or call in:
-illegalTypeImported: (Assignment4.java:3) Used disallowed class java.util.Arrays 
-

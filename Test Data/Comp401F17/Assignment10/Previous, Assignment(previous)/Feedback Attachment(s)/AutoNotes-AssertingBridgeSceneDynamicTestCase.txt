@@ -1,1 +1,0 @@
-  -- Method matching addPropertyChangeListener not found in class: class grail.graphics.BridgeScene

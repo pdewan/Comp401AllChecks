@@ -1,3 +1,0 @@
-  -- ObservableCommandInterpreter not found by checkstyle
-  -- CommandInterpreterView not found by checkstyle
-  -- Class matching CommandInterpreterView not instantiated in SingletonsCreator

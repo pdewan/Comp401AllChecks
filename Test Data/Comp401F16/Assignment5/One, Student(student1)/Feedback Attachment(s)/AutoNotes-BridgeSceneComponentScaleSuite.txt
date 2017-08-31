@@ -1,5 +1,0 @@
-  -- Method matching scale not found in class: class grail.shapes.AvatarClass
-  -- Method matching scale not found in class: class grail.shapes.AvatarClass
-  -- Method matching scale not found in class: class grail.shapes.AvatarClass
-  -- Method matching scale not found in class: class grail.shapes.AvatarClass
-  -- Method matching scale not found in class: class grail.shapes.AvatarClass

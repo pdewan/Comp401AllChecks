@@ -1,4 +1,0 @@
-  -- src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void
-
-  -- src\grail\mvc\controller\CommandInterpreterController.java:1: warning: missingMethodCall: (CommandInterpreterController.java:1) has not made expected call JButton!setEnabled:boolean->void
-

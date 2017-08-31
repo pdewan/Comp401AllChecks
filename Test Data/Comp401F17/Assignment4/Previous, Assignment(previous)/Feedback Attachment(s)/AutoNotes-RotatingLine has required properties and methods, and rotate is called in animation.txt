@@ -1,4 +1,0 @@
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- RotatingLine not found by checkstyle
-  -- main.Assignment4 not found by checkstyle

@@ -1,6 +1,0 @@
-  -- Class matching Move not instantiated in ScannerBean
-  -- Class matching Say not instantiated in ScannerBean
-  -- Class matching Repeat not instantiated in ScannerBean
-  -- Class matching Approach not instantiated in ScannerBean
-  -- Class matching Pass not instantiated in ScannerBean
-  -- Class matching Fail not instantiated in ScannerBean

@@ -1,9 +1,0 @@
-  -- variableHasClassType: (ScannerBean.java:114) Class EndToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:102) Class MinusToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:61) Class NumberToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:97) Class PlusToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:90) Class QuoteToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:108) Class StartToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (ScannerBean.java:71) Class WordToken rather than interface used as the type of variable/function tokenObject
-variableHasClassType: (Assignment3.java:17) Class ScannerBean rather than interface used as the type of variable/function myScanner
-

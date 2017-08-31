@@ -1,8 +1,0 @@
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]
-  -- No class matching: [ScannerBean, Bean, bean, BeanClass, MyScanner, ScanningBean, Assignment2Bean]

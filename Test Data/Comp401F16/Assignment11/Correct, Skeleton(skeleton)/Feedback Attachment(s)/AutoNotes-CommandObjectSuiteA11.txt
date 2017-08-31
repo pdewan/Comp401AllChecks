@@ -1,5 +1,0 @@
-  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
-  -- java.lang.NoSuchMethodException grail.scanner.commands.MoveCommand.<init>(grail.interfaces.AvatarInterface, int, int)
-  -- java.lang.NoSuchMethodException grail.scanner.commands.ApproachCommand.<init>(grail.interfaces.BridgeSceneInterface, grail.interfaces.AvatarInterface)
-  -- java.lang.NoSuchMethodException grail.scanner.commands.PassCommand.<init>(grail.interfaces.BridgeSceneInterface)
-  -- java.lang.NoSuchMethodException grail.scanner.commands.FailCommand.<init>(grail.interfaces.BridgeSceneInterface)

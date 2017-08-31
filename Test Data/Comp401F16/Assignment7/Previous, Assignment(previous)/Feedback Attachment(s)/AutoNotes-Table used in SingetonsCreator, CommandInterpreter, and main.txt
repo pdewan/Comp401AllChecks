@@ -1,3 +1,0 @@
-  -- CommandInterpreter not found by checkstyle
-  -- main.Assignment7 not found by checkstyle
-  -- main.Assignment7 not found by checkstyle

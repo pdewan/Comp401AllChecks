@@ -1,3 +1,0 @@
-  -- No class tagged: Quote
-  -- No class tagged: Start
-  -- No class tagged: End

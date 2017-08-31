@@ -1,4 +1,0 @@
-  -- expectedDeclaredSignatures: (Parser.java:65) In type Parser, missing declared signature: @parseNumber:*->*//EC
-
-  -- src\grail\scanner\Parser.java:1: warning: missingMethodCall: (Parser.java:1) has not made expected call @parseNumber:*->*//EC
-

@@ -1,4 +1,0 @@
-  -- BridgeSceneController not found by checkstyle
-  -- BridgeSceneController not found by checkstyle
-  -- BridgeSceneController not found by checkstyle
-  -- BridgeSceneController not found by checkstyle

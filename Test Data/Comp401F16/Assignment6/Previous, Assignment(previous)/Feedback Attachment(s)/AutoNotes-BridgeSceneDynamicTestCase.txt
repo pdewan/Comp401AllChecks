@@ -1,1 +1,0 @@
-  -- Method matching approach not found in class: class grail.graphics.BridgeScene

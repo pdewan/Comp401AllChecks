@@ -1,2 +1,0 @@
-  -- expectedDeclaredSignatures: (BridgeScene.java:10) In type BridgeScene, missing declared signature: @scroll:int;int->*
-

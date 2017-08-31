@@ -1,3 +1,0 @@
-  -- Illegal type or call in:
-illegalMethodCall: (Bean.java:42) called disallowed method scanString-->String.split
-

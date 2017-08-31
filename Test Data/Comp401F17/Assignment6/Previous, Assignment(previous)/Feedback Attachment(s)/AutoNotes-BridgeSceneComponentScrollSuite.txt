@@ -1,5 +1,0 @@
-  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
-  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
-  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
-  -- Method matching scroll not found in class: class grail.graphics.BridgeScene
-  -- Method matching scroll not found in class: class grail.graphics.BridgeScene

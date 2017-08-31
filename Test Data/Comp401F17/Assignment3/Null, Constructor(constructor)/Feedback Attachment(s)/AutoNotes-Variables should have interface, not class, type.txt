@@ -1,4 +1,0 @@
-  -- variableHasClassType: (Assignment3.java:8) Class StringScanner rather than interface used as the type of variable/function typedString
-variableHasClassType: (StringScanner.java:39) Class NumberInput rather than interface used as the type of variable/function aNumberInput
-variableHasClassType: (StringScanner.java:17) Class WordInput rather than interface used as the type of variable/function aWordInput
-

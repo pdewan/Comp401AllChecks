@@ -1,4 +1,0 @@
-  -- Factory class:[singletonscreator] not found.
-  -- Factory class:[singletonscreator] not found.
-  -- Factory class:[singletonscreator] not found.
-  -- Factory class:[singletonscreator] not found.

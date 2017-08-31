@@ -1,8 +1,0 @@
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\AvatarView.java:1: warning: missingMethodCall: (AvatarView.java:1) has not made expected call (.*)!repaint:->void
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call @SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter
-
-  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment9\Correct, Stub(stubs)\Submission attachment(s)\Assignment10Stubs\Assignment10Stubs\src\grail\mvc\view\DelegatingBridgeSceneView.java:1: warning: missingMethodCall: (DelegatingBridgeSceneView.java:1) has not made expected call (.*)!addPaintListener:@PaintListener->void
-
-  -- Class matching DelegatingBridgeSceneView not instantiated in SingletonsCreator
-  -- Class matching ObservableBridgeScenePainter not instantiated in SingletonsCreator

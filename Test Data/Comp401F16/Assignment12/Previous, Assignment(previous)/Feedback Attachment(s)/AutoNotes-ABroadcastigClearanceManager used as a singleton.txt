@@ -1,8 +1,0 @@
-  -- expectedDeclaredSignatures: (SingletonsCreator.java:28) In type SingletonsCreator, missing declared signature: @broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
-
-  -- Class matching ABroadcastingClearanceManager not instantiated in SingletonsCreator
-  -- src\grail\SingletonsCreator.java:0: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call @SingletonsCreator!@broadcastingClearanceManagerFactoryMethod:->BroadcastingClearanceManager
-
-  -- CoordinatedAnimator not found by checkstyle
-  -- CoordinatingAnimator not found by checkstyle
-  -- ProceedAllCommand not found by checkstyle

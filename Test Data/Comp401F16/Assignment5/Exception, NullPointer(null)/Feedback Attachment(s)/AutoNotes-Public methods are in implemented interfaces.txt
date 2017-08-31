@@ -1,4 +1,0 @@
-  -- classHasAtLeastOneInterface: (Angle.java:1) Classes with public instance methods should implement interfaces
-classHasAtLeastOneInterface: (Avatar.java:1) Classes with public instance methods should implement interfaces
-classHasAtLeastOneInterface: (BridgeScene.java:1) Classes with public instance methods should implement interfaces
-

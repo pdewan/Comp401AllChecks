@@ -1,1 +1,0 @@
-  -- Did not ask again for input upon user confirming wish to enter another gene sequence.Did not print out error message when user did not print yes or no when asked if they wished to go again

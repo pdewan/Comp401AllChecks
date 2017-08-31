@@ -1,1 +1,0 @@
-  -- does not check color correctly

@@ -1,4 +1,0 @@
-  -- expectedDeclaredSignatures: (VShape.java:12) In type VShape, missing declared signature: @move:int;int->void
-
-  -- expectedDeclaredSignatures: (Avatar.java:15) In type Avatar, missing declared signature: @move:int;int->void
-

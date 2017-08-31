@@ -1,4 +1,0 @@
-  -- expectedGetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing getter for property Command of type String
-
-  -- expectedSetters: (CommandInterpreter.java:1) In type CommandInterpreter, missing setter for property Command of type String
-
