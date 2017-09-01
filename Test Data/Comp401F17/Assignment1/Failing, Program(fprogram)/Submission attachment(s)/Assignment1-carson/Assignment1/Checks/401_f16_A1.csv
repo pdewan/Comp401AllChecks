@@ -1,0 +1,11 @@
+-1,Sun Aug 27 21:32:19 EDT 2017,true,main\numberScanner.java,expectedTypes,[main.Assignment1, ScanningIterator//EC]
+-1,Sun Aug 27 21:32:19 EDT 2017,true,main\numberScanner.java,typeDefined,numberScanner,No Expected Tag,Class
+0,Sun Aug 27 22:41:12 EDT 2017,true,main\RunTests.java,expectedTypes,[main.Assignment1, ScanningIterator//EC]
+0,Sun Aug 27 22:41:12 EDT 2017,true,main\RunTests.java,typeDefined,RunTests,No Expected Tag,Class
+1,Sun Aug 27 22:49:21 EDT 2017,false,[main.Assignment1,expectedTypes,[main.Assignment1, ScanningIterator//EC]
+1,Sun Aug 27 22:49:21 EDT 2017,false,numberScanner,typeDefined,numberScanner,No Expected Tag,Class
+1,Sun Aug 27 22:49:21 EDT 2017,true,main\Assignment1.java,expectedTypes,[main.Assignment1, ScanningIterator//EC]
+1,Sun Aug 27 22:49:21 EDT 2017,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment1,Class
+1,Sun Aug 27 22:49:21 EDT 2017,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOfNot:String;char;int->int//EC,Assignment1
+1,Sun Aug 27 22:49:21 EDT 2017,true,main\Assignment1.java,missingMethodCall,Assignment1,indexOfNot:String;char;int->int//EC
+1,Sun Aug 27 22:49:21 EDT 2017,true,main\Assignment1.java,missingMethodCall,Assignment1

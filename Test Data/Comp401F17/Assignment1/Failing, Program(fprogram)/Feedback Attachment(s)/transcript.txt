@@ -1,0 +1,846 @@
+*****************************(ScanStringTestSuite:ScanString functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanStringTest: 1.0
+Calling  interactive method:scanString with args [22 44 66 ] and input 22 44 66 
+. 
+
+Calling on object class main.Assignment1 1427247001 method:public static void main.Assignment1.scanString(java.lang.String) args:[22 44 66 ]timeOut:2000
+Tokens:
+22
+44
+66
+Sum: 132
+Product: 63888
+(.*)22(.*)appeared in output
+(.*)44(.*)appeared in output
+(.*)66(.*)appeared in output
+Comparing actial return value: null with expected return value: null
+*****************************(ScanningIteratorSuite:Scanning Iterator)*****************************
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.ScanningIteratorTest: 0.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 1.0
+### gradingTools.comp401f16.assignment1.testcases.HasNextSideEffectTest: 0.0
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+101 12 34 43 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+101 12 34 43 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+INPUT(MultipleTokenSuite:Can process multiple tokens)
+101 12 34 43 
+. 
+
+OUTPUT(MultipleTokenSuite:Can process multiple tokens)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(MultipleTokenSuite:Can process multiple tokens)*****************************
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokensOutputTest: 1.0
+_________________________________________________________________________
+Providing input:101 12 34 43 
+. 
+
+Expected outputs:[(.*)101(.*), (.*)12(.*), (.*)34(.*), (.*)43(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 12 34 43 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)101(.*)appeared in output
+(.*)12(.*)appeared in output
+(.*)34(.*)appeared in output
+(.*)43(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenSumTest: 1.0
+_________________________________________________________________________
+Providing input:101 12 34 43 
+. 
+
+Expected outputs:[(.*)190(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 12 34 43 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)190(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.MultipleTokenProductTest: 1.0
+_________________________________________________________________________
+Providing input:101 12 34 43 
+. 
+
+Expected outputs:[(.*)1771944(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 12 34 43 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)1771944(.*)appeared in output
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+101 two 12 !@ 34 ,; 43 x. 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+101 two 12 !@ 34 ,; 43 x. 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+INPUT(InvalidCharacterSuite:Handles Invalid Characters)
+101 two 12 !@ 34 ,; 43 x. 
+. 
+
+OUTPUT(InvalidCharacterSuite:Handles Invalid Characters)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(InvalidCharacterSuite:Handles Invalid Characters)*****************************
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterOutputTest: 1.0
+_________________________________________________________________________
+Providing input:101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Expected outputs:[(.*)101(.*), (.*)12(.*), (.*)34(.*), (.*)43(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)101(.*)appeared in output
+(.*)12(.*)appeared in output
+(.*)34(.*)appeared in output
+(.*)43(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterSumTest: 1.0
+_________________________________________________________________________
+Providing input:101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Expected outputs:[(.*)190(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)190(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.InvalidCharacterProductTest: 1.0
+_________________________________________________________________________
+Providing input:101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Expected outputs:[(.*)1771944(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101 two 12 !@ 34 ,; 43 x. 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)1771944(.*)appeared in output
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+INPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+. 
+45 
+
+OUTPUT(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithStartingPeriodSuite:Terminating period forms complete line)*****************************
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodOutputTest: 1.0
+_________________________________________________________________________
+Providing input:. 
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodSumTest: 1.0
+_________________________________________________________________________
+Providing input:. 
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithStartingPeriodProductTest: 1.0
+_________________________________________________________________________
+Providing input:. 
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$. 
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+*****************************(IndexOfNotTestSuite:IndexOfNot functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceAtEnd: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [Number 111112, 1, 7]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Number 111112, 1, 7]timeOut:2000
+Return value =12
+Comparing actial return value: 12 with expected return value: 12
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceFirst: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [PPPPProgrammer's wife asked him to go to the store, P, 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[PPPPProgrammer's wife asked him to go to the store, P, 0]timeOut:2000
+Return value =5
+Comparing actial return value: 5 with expected return value: 5
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotNonSpaceStartAt: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [Said, while you're there, get some bread, l, 8]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Said, while you're there, get some bread, l, 8]timeOut:2000
+Return value =8
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceAllSpace: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [Start:           ,  , 6]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[Start:           ,  , 6]timeOut:2000
+Return value =-1
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceFirst: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [        The programmer never came back,  , 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[        The programmer never came back,  , 0]timeOut:2000
+Return value =8
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotSpaceSecond: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [    456   10,  , 7]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[    456   10,  , 7]timeOut:2000
+Return value =10
+Comparing actial return value: 10 with expected return value: 10
+### gradingTools.comp401f16.assignment1.testcases.IndexOfNotTest: 1.0
+Calling on object class main.Assignment1  method:indexOfNot with args [The buzzzz of bees, z, 6]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOfNot(java.lang.String,char,int) args:[The buzzzz of bees, z, 6]timeOut:2000
+Return value =10
+Comparing actial return value: 10 with expected return value: 10
+*****************************(IndexOfTestSuite:IndexOf functions correctly)*****************************
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTest: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [2 nice zebras, z, 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[2 nice zebras, z, 0]timeOut:2000
+Return value =7
+Comparing actial return value: 7 with expected return value: 7
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestCharacterNotFound: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [went for a walk, 9, 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[went for a walk, 9, 0]timeOut:2000
+Return value =-1
+Comparing actial return value: -1 with expected return value: -1
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestFirstSpace: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [One said to the other,  , 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[One said to the other,  , 0]timeOut:2000
+Return value =3
+Comparing actial return value: 3 with expected return value: 3
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceAtEnd: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [Let's run!, !, 0]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[Let's run!, !, 0]timeOut:2000
+Return value =9
+Comparing actial return value: 9 with expected return value: 9
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestNonSpaceStartAt: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [run run run, r, 8]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[run run run, r, 8]timeOut:2000
+Return value =8
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSecondSpace: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [They got tired eventually,  , 5]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[They got tired eventually,  , 5]timeOut:2000
+Return value =8
+Comparing actial return value: 8 with expected return value: 8
+### gradingTools.comp401f16.assignment1.testcases.IndexOfTestSpaceSameIndex: 1.0
+Calling on object class main.Assignment1  method:indexOf with args [0 2 4 6,  , 5]
+Calling on object class main.Assignment1 1427247001 method:public static int main.Assignment1.indexOf(java.lang.String,char,int) args:[0 2 4 6,  , 5]timeOut:2000
+Return value =5
+Comparing actial return value: 5 with expected return value: 5
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+INPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+.
+45 
+
+OUTPUT(TerminatesWithPeriodLineSuite:Handles Space After Period)
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(TerminatesWithPeriodLineSuite:Handles Space After Period)*****************************
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineOutputTest: 1.0
+_________________________________________________________________________
+Providing input:.
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineSumTest: 1.0
+_________________________________________________________________________
+Providing input:.
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+### gradingTools.comp401f16.assignment1.testcases.TerminatesWithPeriodLineProductTest: 1.0
+_________________________________________________________________________
+Providing input:.
+45 
+
+Expected outputs:[]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$.
+45 
+
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+INPUT(SingleTokenSuite:Can process a single token)
+0010010 
+. 
+
+OUTPUT(SingleTokenSuite:Can process a single token)
+String?
+Tokens:
+0010010
+Sum: 10010
+Product: 10010
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(SingleTokenSuite:Can process a single token)*****************************
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:0010010 
+. 
+
+Expected outputs:[(.*)0010010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)0010010(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenSumTest: 1.0
+_________________________________________________________________________
+Providing input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)10010(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.SingleTokenProductTest: 1.0
+_________________________________________________________________________
+Providing input:0010010 
+. 
+
+Expected outputs:[(.*)10010(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$0010010 
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:0010010
+0010010
+Process line:Sum: 10010
+Sum: 10010
+Process line:Product: 10010
+Product: 10010
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)10010(.*)appeared in output
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+101    12 34     43   
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+101    12 34     43   
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+INPUT(VariableSpaceSuite:Handles Variable Spaces)
+101    12 34     43   
+. 
+
+OUTPUT(VariableSpaceSuite:Handles Variable Spaces)
+String?
+Tokens:
+101
+12
+34
+43
+Sum: 190
+Product: 1771944
+String?
+Thank you for using number scanner, have a nice day!
+
+*****************************(VariableSpaceSuite:Handles Variable Spaces)*****************************
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceOutputTest: 1.0
+_________________________________________________________________________
+Providing input:101    12 34     43   
+. 
+
+Expected outputs:[(.*)101(.*), (.*)12(.*), (.*)34(.*), (.*)43(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101    12 34     43   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)101(.*)appeared in output
+(.*)12(.*)appeared in output
+(.*)34(.*)appeared in output
+(.*)43(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceSumTest: 1.0
+_________________________________________________________________________
+Providing input:101    12 34     43   
+. 
+
+Expected outputs:[(.*)190(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101    12 34     43   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)190(.*)appeared in output
+### gradingTools.comp401f16.assignment1.testcases.VariableSpaceProductTest: 1.0
+_________________________________________________________________________
+Providing input:101    12 34     43   
+. 
+
+Expected outputs:[(.*)190(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-SR2-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F17\Assignment1\Failing, Program(fprogram)\Submission attachment(s)\Assignment1-carson\Assignment1\bin
+$101    12 34     43   
+. 
+
+Process line:String?
+String?
+Process line:Tokens:
+Tokens:
+Process line:101
+101
+Process line:12
+12
+Process line:34
+34
+Process line:43
+43
+Process line:Sum: 190
+Sum: 190
+Process line:Product: 1771944
+Product: 1771944
+Process line:String?
+String?
+Process line:Thank you for using number scanner, have a nice day!
+Thank you for using number scanner, have a nice day!
+_________________________________________________________________________
+(.*)190(.*)appeared in output
+*****************************(Required Methods Called in Main or Iterator)*****************************
+### main.Assignment!processInput:->void: 1.0
+### main.Assignment!indexOf:String;char;int->int: 1.0
+### main.Assignment!scanString:String->void: 1.0
+*****************************(IndexOf  Called in Iterator)*****************************
+### ScanningIterator!indexOf:String;char;int->int: 0.0
+*****************************(indexOfNot Called in Main)*****************************
+### main.Assignment!indexOfNot:String;char;int->int: 1.0
+*****************************(IndexOfNot Called in Iterator)*****************************
+### ScanningIterator!indexOfNot:String;char;int->int: 0.0
+*****************************(Iterator Methods Called in Main)*****************************
+### main.Assignment!!hasNext:->boolean: 0.0
+### main.Assignment!!next:->String: 0.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 1.0

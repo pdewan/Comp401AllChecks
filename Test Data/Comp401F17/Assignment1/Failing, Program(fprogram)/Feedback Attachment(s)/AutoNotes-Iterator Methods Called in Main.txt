@@ -1,0 +1,4 @@
+  -- src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call (.*)!hasNext:->boolean//EC
+
+  -- src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call (.*)!next:->String//EC
+

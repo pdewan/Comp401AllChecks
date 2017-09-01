@@ -1,0 +1,7 @@
+Starting audit...
+src\main\Assignment1.java:0: expectedTypes: Expected type names/tags [main.Assignment1, ScanningIterator//EC]
+src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call (.*)!hasNext:->boolean//EC
+src\main\Assignment1.java:1: warning: missingMethodCall: (Assignment1.java:1) has not made expected call (.*)!next:->String//EC
+src\main\Assignment1.java:1: typeDefined: (Assignment1.java:1) Class Assignment1 matching tag main.Assignment1 defined
+src\main\RunTests.java:1: typeDefined: (RunTests.java:1) Class RunTests matching tag No Expected Tag defined
+Audit done.
