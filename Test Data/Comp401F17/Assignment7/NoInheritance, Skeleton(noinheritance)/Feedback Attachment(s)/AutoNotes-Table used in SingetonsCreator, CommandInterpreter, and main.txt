@@ -1,0 +1,7 @@
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!get:String->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\main\Assignment7.java:1: warning: missingMethodCall: (Assignment7.java:1) has not made expected call             (.*)!put:String;Object->void 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call        (.*)!get:String->* 
+C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment7\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\main\Assignment7.java:1: warning: missingMethodCall: (Assignment7.java:1) has not made expected call        (.*)!get:String->Object
+

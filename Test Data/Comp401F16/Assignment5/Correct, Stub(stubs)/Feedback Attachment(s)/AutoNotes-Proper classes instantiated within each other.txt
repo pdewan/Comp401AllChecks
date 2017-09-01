@@ -1,0 +1,3 @@
+  -- Class matching BridgeScene not instantiated in Assignment5
+  -- Class matching Avatar not instantiated in BridgeScene
+  -- Class matching Angle not instantiated in Avatar

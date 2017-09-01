@@ -1,0 +1,138 @@
+Grading result for: NoInheritance, Skeleton(noinheritance)
+
+Grading features...
+----------------------------------
+BridgeSceneDynamicTestCase                             0.0 / 50.0
+TokenHistorySuite                                      0.0 / 15.0 (Extra credit)
+BridgeSceneComponentScrollSuite                        0.0 / 10.0 (Extra credit)
+InitialBridgeSceneSuite                                0.0 / 20.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Tokens inherit from general class                      0.0 / 14.0
+Commands inherit from word token                       0.0 / 12.0
+Bridge scene has new methods defined                   0.0 / 12.0
+BridgeScene uses avatar move method and setText        0.0 /  6.0
+Scroll method defined                                  0.0 /  2.0 (Extra credit)
+Graphical classes have proper properties defined       0.0 / 15.0
+Scene has a gorge with a bridge.                       0.0 / 10.0
+Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
+Animation shows boolean properties, acting correctly.  0.0 /  8.0
+Scanner animation shows proper functionality.          0.0 / 10.0
+Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
+Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
+----------------------------------
+  Points Awarded: 10.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      -25.0 /  -25.0
+----------------------------------
+  Points Deducted: -30.0
+
+  Features Score: -20.0
+
+Notes from grading features:
+----------------------------------
+BridgeSceneDynamicTestCase:
+  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
+
+TokenHistorySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+BridgeSceneComponentScrollSuite:
+  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
+  -- Method matching getGalahad not found in class: class grail.graphics.BridgeScene
+  -- Method matching getLancelot not found in class: class grail.graphics.BridgeScene
+  -- Method matching getRobin not found in class: class grail.graphics.BridgeScene
+  -- Method matching getArthur not found in class: class grail.graphics.BridgeScene
+
+InitialBridgeSceneSuite:
+  -- Missing property:Gorge in grail.graphics.BridgeScene@7f132176
+  -- Missing property:KnightArea in grail.graphics.BridgeScene@8ad6665
+  -- Missing property:GuardArea in grail.graphics.BridgeScene@68b32e3e
+  -- Missing property:Occupied in grail.graphics.BridgeScene@42039326
+  -- Missing property:KnightTurn in grail.graphics.BridgeScene@a87f8ec
+
+Tokens inherit from general class:
+  -- expectedGetters: (GenericToken.java:1) In type GenericToken, missing getter for property Input of type String
+
+  -- expectedSetters: (GenericToken.java:1) In type GenericToken, missing setter for property Input of type String
+
+  -- expectedSuperTypes: (WordToken.java:10) In type WordToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (NumberToken.java:10) In type NumberToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (QuoteToken.java:9) In type QuoteToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (EndToken.java:9) In type EndToken, missing supertype: @Token
+
+  -- expectedSuperTypes: (StartToken.java:10) In type StartToken, missing supertype: @Token
+
+
+Commands inherit from word token:
+  -- expectedSuperTypes: (MoveCommand.java:10) In type MoveCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (SayCommand.java:10) In type SayCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (FailCommand.java:10) In type FailCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (PassCommand.java:10) In type PassCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (ApproachCommand.java:10) In type ApproachCommand, missing supertype: @Word
+
+  -- expectedSuperTypes: (RepeatCommand.java:10) In type RepeatCommand, missing supertype: @Word
+
+
+Bridge scene has new methods defined:
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @approach:@Avatar->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @say:String->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @passed:->*
+
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @failed:->*
+
+
+BridgeScene uses avatar move method and setText:
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\NoInheritance, Skeleton(noinheritance)\Submission attachment(s)\Assignment7NoInheritanceSkeleton\Assignment7NoInheritanceSkeleton\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!setText:String->void
+
+
+Scroll method defined:
+  -- expectedDeclaredSignatures: (BridgeScene.java:12) In type BridgeScene, missing declared signature: @scroll:int;int->*
+
+
+Graphical classes have proper properties defined:
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Gorge of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightArea of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property GuardArea of type *
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property Occupied of type boolean
+
+  -- expectedGetters: (BridgeScene.java:1) In type BridgeScene, missing getter for property KnightTurn of type boolean
+
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- Illegal type or call in:
+illegalTypeImported: (MyTable.java:3) Used disallowed class java.util.ArrayList 
+illegalTypeImported: (MyTable.java:4) Used disallowed class java.util.List 
+
+
+
+Early benefit: 105.0%
+  Total Score: 0.0

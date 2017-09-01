@@ -1,0 +1,263 @@
+*****************************(OneLevelListWithPositiveNegativeMovesTestCase)*****************************
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListWithPositiveNegativeMovesTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListWithPositiveNegativeMovesTestCase: 0.0
+*****************************(CommandObjectSuiteA11)*****************************
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.CommandListCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.CommandListCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.RepeatCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.RepeatCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.ApproachCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.ApproachCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.PassCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.PassCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.FailCommandObjectTestCase: 1.0
+### gradingTools.comp401f16.assignment11.commandObjects.testcases.FailCommandObjectTestCase: 0.0
+*****************************(CommandInterpreterSuiteA11)*****************************
+### gradingTools.comp401f16.assignment11.testcases.commandInterpreterA11.ParsingAtomicCommandTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.commandInterpreterA11.ParsingAtomicCommandTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListMovesTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.OneLevelListMovesTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.TwoLevelListMovesTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.TwoLevelListMovesTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.ManyLevelListMovesTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.list.ManyLevelListMovesTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.OneLevelRepeatTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.OneLevelRepeatTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.TwoLevelRepeatTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.TwoLevelRepeatTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.ManyLevelRepeatTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeat.ManyLevelRepeatTestCase: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.OneLevelRepeatOneLevelList: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.OneLevelRepeatOneLevelList: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.TwoLevelRepeatTwoLevelList: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.TwoLevelRepeatTwoLevelList: 0.0
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.ManyLevelRepeatManyLevelList: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.testcases.parsing.repeatAndList.ManyLevelRepeatManyLevelList: 0.0
+*****************************(SyncAnimationSuite)*****************************
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncLancelotAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncGalahadAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncRobinAnimationTestCase: 0.0
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.sync.testcases.SyncArthurLancelotTestCase: 0.0
+*****************************(ParserSuite)*****************************
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesApproachCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesApproachCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesPassCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesPassCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesFailCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesFailCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesMoveCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesMoveCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesSayCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesSayCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesRepeatCommandObjectTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesRepeatCommandObjectTestCase: 0.0
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesCommandListTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment11.parser.testcases.ParserCreatesCommandListTestCase: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 0.19999999999999996
+*****************************(Abstract classes)*****************************
+### Locatable is Abstract Test Case: 1.0
+### BoundedShape is Abstract Test Case: 1.0
+### Token is Abstract Test Case: 1.0
+*****************************(Iterator methods exist and are used)*****************************
+### Parser!next:->*: 0.0
+### Parser!peek:->*: 0.0
+### Parser!hasNext:->boolean: 0.0
+### Parser!reset:->*: 0.0
+### Parser!next:->*: 0.0
+### Parser!peek:->*: 0.0
+### Parser!reset:->*: 0.0
+*****************************(Basic command classes defined and used)*****************************
+### ApproachCommand!:@BridgeScene;@Avatar: 0.0
+### PassCommand!:@BridgeScene: 0.0
+### FailCommand!:@BridgeScene: 0.0
+### Parser!ApproachCommand: 0.0
+### Parser!PassCommand: 0.0
+### Parser!FailCommand: 0.0
+### ApproachCommand defined: 1.0
+### PassCommand defined: 1.0
+### FailCommand defined: 1.0
+### ApproachCommand!(.*)!@approach:@Avatar->*: 0.0
+### PassCommand!(.*)!@passed:->*: 0.0
+### FailCommand!(.*)!@failed:->*: 0.0
+*****************************(Composite command classes defined and used)*****************************
+### RepeatCommand!:int;Runnable: 0.0
+### Parser!CommandList: 0.0
+### Parser!RepeatCommand: 0.0
+### CommandList defined: 1.0
+### RepeatCommand defined: 1.0
+### CommandList!Runnable!run:->void: 0.0
+### RepeatCommand!Runnable!run:->void: 0.0
+### CommandList!@add:Runnable->*: 1.0
+*****************************(Parsing methods are created and used)*****************************
+### Parser!parseSayCommand:*->Runnable: 1.0
+### Parser!parseMoveCommand:*->Runnable: 1.0
+### Parser!parseCommand:*->Runnable: 1.0
+### Parser!parseApproachCommand:*->Runnable: 1.0
+### Parser!parsePassCommand:*->Runnable: 1.0
+### Parser!parseFailCommand:*->Runnable: 1.0
+### Parser!parseRepeatCommand:*->Runnable: 1.0
+### Parser!parseCommandList:*->Runnable: 1.0
+### Parser!parseSayCommand:*->Runnable: 0.0
+### Parser!parseMoveCommand:*->Runnable: 0.0
+### Parser!parseCommand:*->Runnable: 0.0
+### Parser!parseApproachCommand:*->Runnable: 0.0
+### Parser!parsePassCommand:*->Runnable: 0.0
+### Parser!parseFailCommand:*->Runnable: 0.0
+### Parser!parseRepeatCommand:*->Runnable: 0.0
+### Parser!parseCommandList:*->Runnable: 0.0
+### Parser!@CommandList!@add:Runnable->*: 0.0
+*****************************(Parser has correct properties)*****************************
+### Parser defines setter for property CommandText: 1.0
+### Parserdefines getter for property CommandText: 1.0
+*****************************(parseNumber exists and is used)*****************************
+### Parser!@parseNumber:*->*//EC: 0.0
+### Parser!@parseNumber:*->*//EC: 0.0
+*****************************(Parser has error property)*****************************
+### Parserdefines getter for property Errors: 1.0

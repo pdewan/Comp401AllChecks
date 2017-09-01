@@ -1,0 +1,12 @@
+  -- ApproachCommand not found by checkstyle
+  -- PassCommand not found by checkstyle
+  -- FailCommand not found by checkstyle
+  -- Parser not found by checkstyle
+  -- Parser not found by checkstyle
+  -- Parser not found by checkstyle
+  -- ApproachCommand not found by checkstyle
+  -- PassCommand not found by checkstyle
+  -- FailCommand not found by checkstyle
+  -- ApproachCommand not found by checkstyle
+  -- PassCommand not found by checkstyle
+  -- FailCommand not found by checkstyle

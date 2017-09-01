@@ -1,0 +1,322 @@
+*****************************(CommandSuite)*****************************
+### gradingTools.comp401f16.assignment4.testcases.commands.SayBeanTest: 1.0
+Calling constructor public main.Say(java.lang.String)with args:[SaY]timeOut:2000
+Calling on object main.Say@4ebadd3d 1320869181 method:public void main.Say.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object main.Say@4ebadd3d 1320869181 method:public java.lang.String main.Say.getInput() args:[]timeOut:2000
+Calling on object main.Say@4ebadd3d 1320869181 method:public java.lang.String main.Say.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.RepeatBeanTest: 1.0
+Calling constructor public main.Pass(java.lang.String)with args:[pass]timeOut:2000
+Calling on object main.Pass@6ac97b84 1791589252 method:public void main.Pass.setInput(java.lang.String) args:[pass]timeOut:2000
+Calling on object main.Pass@6ac97b84 1791589252 method:public java.lang.String main.Pass.getInput() args:[]timeOut:2000
+Calling on object main.Pass@6ac97b84 1791589252 method:public java.lang.String main.Pass.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.ApproachBeanTest: 1.0
+Calling constructor public main.Approach(java.lang.String)with args:[AppRoach]timeOut:2000
+Calling on object main.Approach@4917d36b 1226298219 method:public void main.Approach.setInput(java.lang.String) args:[AppRoach]timeOut:2000
+Calling on object main.Approach@4917d36b 1226298219 method:public java.lang.String main.Approach.getInput() args:[]timeOut:2000
+Calling on object main.Approach@4917d36b 1226298219 method:public java.lang.String main.Approach.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.PassBeanTest: 1.0
+Calling constructor public main.Say(java.lang.String)with args:[SaY]timeOut:2000
+Calling on object main.Say@35c09b94 901815188 method:public void main.Say.setInput(java.lang.String) args:[SaY]timeOut:2000
+Calling on object main.Say@35c09b94 901815188 method:public java.lang.String main.Say.getInput() args:[]timeOut:2000
+Calling on object main.Say@35c09b94 901815188 method:public java.lang.String main.Say.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.FailBeanTest: 1.0
+Calling constructor public main.Fail(java.lang.String)with args:[FAIL]timeOut:2000
+Calling on object main.Fail@2d0bfb24 755759908 method:public void main.Fail.setInput(java.lang.String) args:[FAIL]timeOut:2000
+Calling on object main.Fail@2d0bfb24 755759908 method:public java.lang.String main.Fail.getInput() args:[]timeOut:2000
+Calling on object main.Fail@2d0bfb24 755759908 method:public java.lang.String main.Fail.getValue() args:[]timeOut:2000
+*****************************(TokenArraySuite)*****************************
+### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@c3fa05a 205496410 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@7b44b63d 2068100669 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:ARthur GaLahad Lancelot
+### gradingTools.comp401f16.assignment4.testcases.array.WordArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@4a699efa 1248435962 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:0234 3023 111 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@38499e48 944348744 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:0234 3023 111
+### gradingTools.comp401f16.assignment4.testcases.array.NumberArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@4905c46b 1225114731 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean " 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@17ae7628 397309480 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:"Sea Gull " " A m e r i c a n " " E uropean "
+### gradingTools.comp401f16.assignment4.testcases.array.QuoteArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@1136b469 288797801 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:pass PAss PASS 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@6579c3d9 1702478809 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:pass PAss PASS
+### gradingTools.comp401f16.assignment4.testcases.array.PassArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@2b87581 45643137 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:fail FAil FAIL 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@66434cc8 1715686600 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:fail FAil FAIL
+### gradingTools.comp401f16.assignment4.testcases.array.FailArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@42f22995 1123166613 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:approach APProach APPROACH 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@693e4d19 1765690649 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:approach APProach APPROACH
+### gradingTools.comp401f16.assignment4.testcases.array.ApproachArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@286b39c2 678115778 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@5432050b 1412564235 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:repeat REpeat REPEAT
+### gradingTools.comp401f16.assignment4.testcases.array.RepeatArrayTest: 0.0
+### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 1.0
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@75f2099 123674777 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:say SAy SAY 
+Calling constructor public main.ScannerBean()with args:[]timeOut:2000
+Property ScannedString not found
+Property ScannedString not found in ScannerBean
+Define a getter for the property (named: getScannedString)
+Property ScannedString not found
+Calling on object main.ScannerBean@1c12f3ee 471004142 method:public main.Token[] main.ScannerBean.getTokens() args:[]timeOut:2000
+For property:ScannedString getter returned:null, instead of:say SAy SAY
+### gradingTools.comp401f16.assignment4.testcases.array.SayArrayTest: 0.0
+*****************************(ExtraCommandSuite)*****************************
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.CallBeanTest: 1.0
+Calling constructor public main.Call(java.lang.String)with args:[CaLL]timeOut:2000
+Calling on object main.Call@6d467c87 1833335943 method:public void main.Call.setInput(java.lang.String) args:[CaLL]timeOut:2000
+Calling on object main.Call@6d467c87 1833335943 method:public java.lang.String main.Call.getInput() args:[]timeOut:2000
+Calling on object main.Call@6d467c87 1833335943 method:public java.lang.String main.Call.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.DefineBeanTest: 1.0
+Calling constructor public main.Define(java.lang.String)with args:[DeFine]timeOut:2000
+Calling on object main.Define@29182679 689448569 method:public void main.Define.setInput(java.lang.String) args:[DeFine]timeOut:2000
+Calling on object main.Define@29182679 689448569 method:public java.lang.String main.Define.getInput() args:[]timeOut:2000
+Calling on object main.Define@29182679 689448569 method:public java.lang.String main.Define.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.ProceedAllBeanTest: 1.0
+Calling constructor public main.ProceedAll(java.lang.String)with args:[proceEdAll]timeOut:2000
+Calling on object main.ProceedAll@57bd802b 1472036907 method:public void main.ProceedAll.setInput(java.lang.String) args:[proceEdAll]timeOut:2000
+Calling on object main.ProceedAll@57bd802b 1472036907 method:public java.lang.String main.ProceedAll.getInput() args:[]timeOut:2000
+Calling on object main.ProceedAll@57bd802b 1472036907 method:public java.lang.String main.ProceedAll.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.RedoBeanTest: 1.0
+Calling constructor public main.Define(java.lang.String)with args:[RedO]timeOut:2000
+Calling on object main.Define@5cbb84b1 1555793073 method:public void main.Define.setInput(java.lang.String) args:[RedO]timeOut:2000
+Calling on object main.Define@5cbb84b1 1555793073 method:public java.lang.String main.Define.getInput() args:[]timeOut:2000
+Calling on object main.Define@5cbb84b1 1555793073 method:public java.lang.String main.Define.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateLeftArmBeanTest: 1.0
+Calling constructor public main.RotateLeftArm(java.lang.String)with args:[RotateLeftArm]timeOut:2000
+Calling on object main.RotateLeftArm@2c779e5 46627301 method:public void main.RotateLeftArm.setInput(java.lang.String) args:[RotateLeftArm]timeOut:2000
+Calling on object main.RotateLeftArm@2c779e5 46627301 method:public java.lang.String main.RotateLeftArm.getInput() args:[]timeOut:2000
+Calling on object main.RotateLeftArm@2c779e5 46627301 method:public java.lang.String main.RotateLeftArm.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.RotateRightArmBeanTest: 1.0
+Calling constructor public main.RotateRightArm(java.lang.String)with args:[RotateRightArm]timeOut:2000
+Calling on object main.RotateRightArm@6a84bc2a 1787083818 method:public void main.RotateRightArm.setInput(java.lang.String) args:[RotateRightArm]timeOut:2000
+Calling on object main.RotateRightArm@6a84bc2a 1787083818 method:public java.lang.String main.RotateRightArm.getInput() args:[]timeOut:2000
+Calling on object main.RotateRightArm@6a84bc2a 1787083818 method:public java.lang.String main.RotateRightArm.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.SleepBeanTest: 1.0
+Calling constructor public main.Sleep(java.lang.String)with args:[Sleep]timeOut:2000
+Calling on object main.Sleep@5183d589 1367594377 method:public void main.Sleep.setInput(java.lang.String) args:[Sleep]timeOut:2000
+Calling on object main.Sleep@5183d589 1367594377 method:public java.lang.String main.Sleep.getInput() args:[]timeOut:2000
+Calling on object main.Sleep@5183d589 1367594377 method:public java.lang.String main.Sleep.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.ThreadBeanTest: 1.0
+Calling constructor public main.Thread(java.lang.String)with args:[Thread]timeOut:2000
+Calling on object main.Thread@511d5d04 1360878852 method:public void main.Thread.setInput(java.lang.String) args:[Thread]timeOut:2000
+Calling on object main.Thread@511d5d04 1360878852 method:public java.lang.String main.Thread.getInput() args:[]timeOut:2000
+Calling on object main.Thread@511d5d04 1360878852 method:public java.lang.String main.Thread.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.UndoBeanTest: 1.0
+Calling constructor public main.Undo(java.lang.String)with args:[Undo]timeOut:2000
+Calling on object main.Undo@682c1e93 1747721875 method:public void main.Undo.setInput(java.lang.String) args:[Undo]timeOut:2000
+Calling on object main.Undo@682c1e93 1747721875 method:public java.lang.String main.Undo.getInput() args:[]timeOut:2000
+Calling on object main.Undo@682c1e93 1747721875 method:public java.lang.String main.Undo.getValue() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment4.testcases.commands.extra.WaitBeanTest: 1.0
+Calling constructor public main.Wait(java.lang.String)with args:[wait]timeOut:2000
+Calling on object main.Wait@27068a50 654740048 method:public void main.Wait.setInput(java.lang.String) args:[wait]timeOut:2000
+Calling on object main.Wait@27068a50 654740048 method:public java.lang.String main.Wait.getInput() args:[]timeOut:2000
+Calling on object main.Wait@27068a50 654740048 method:public java.lang.String main.Wait.getValue() args:[]timeOut:2000
+*****************************(MovingRotatingLineSuite)*****************************
+### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineFortyFiveDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineFortyFiveDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineMinusFortyFiveDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.moving.MovingRotatingLineMinusFortyFiveDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineFortyFiveDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineFortyFiveDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineMinusFortyFiveDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.detached.DetachedRotatingLineMinusFortyFiveDegreeTest: 0.0
+*****************************(FixedRotatingLineSuite)*****************************
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineZeroDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineZeroDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineFortyFiveDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineFortyFiveDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineNinetyDegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLineNinetyDegreeTest: 0.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLine180DegreeTest: 1.0
+### gradingTools.shared.testcases.shapes.rotate.fixed.RotatingLine180DegreeTest: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Required command token classes instantiated)*****************************
+### ScannerBean!Move: 1.0
+### ScannerBean!Say: 1.0
+### ScannerBean!Repeat: 1.0
+### ScannerBean!Approach: 1.0
+### ScannerBean!Pass: 1.0
+### ScannerBean!Fail: 1.0
+*****************************(Single parameter constructors defined for command tokens)*****************************
+### Move!:String: 1.0
+### Say!:String: 1.0
+### Repeat!:String: 1.0
+### Approach!:String: 1.0
+### Pass!:String: 1.0
+### Fail!:String: 1.0
+*****************************(Properties defined for command token classes)*****************************
+### Move defines setter for property Input: 1.0
+### Say defines setter for property Input: 1.0
+### Repeat defines setter for property Input: 1.0
+### Approach defines setter for property Input: 1.0
+### Pass defines setter for property Input: 1.0
+### Fail defines setter for property Input: 1.0
+### Movedefines getter for property Input: 1.0
+### Saydefines getter for property Input: 1.0
+### Repeatdefines getter for property Input: 1.0
+### Approachdefines getter for property Input: 1.0
+### Passdefines getter for property Input: 1.0
+### Faildefines getter for property Input: 1.0
+### Movedefines getter for property Value: 1.0
+### Saydefines getter for property Value: 1.0
+### Repeatdefines getter for property Value: 1.0
+### Approachdefines getter for property Value: 1.0
+### Passdefines getter for property Value: 1.0
+### Faildefines getter for property Value: 1.0
+*****************************(ScannerBean has Tokens property)*****************************
+### ScannerBeandefines getter for property Tokens: 1.0
+*****************************(Sleep called in animation)*****************************
+### main.Assignment4!ThreadSupport!sleep:long->void: 0.0
+*****************************(ScannerBean has Errors property)*****************************
+### ScannerBeandefines getter for property Errors: 0.0
+*****************************(Extra credit command classes instantiated)*****************************
+### ScannerBean!RotateLeftArm: 0.0
+### ScannerBean!RotateRightArm: 0.0
+### ScannerBean!Define: 0.0
+### ScannerBean!Call: 0.0
+### ScannerBean!Thread: 0.0
+### ScannerBean!Wait: 0.0
+### ScannerBean!ProceedAll: 0.0
+### ScannerBean!Sleep: 0.0
+### ScannerBean!Undo: 0.0
+### ScannerBean!Redo: 0.0
+*****************************(Extra credit constructors and properties defined)*****************************
+### RotateLeftArm!:String: 1.0
+### RotateRightArm!:String: 1.0
+### Define!:String: 1.0
+### Call!:String: 1.0
+### Thread!:String: 1.0
+### Wait!:String: 1.0
+### ProceedAll!:String: 1.0
+### Sleep!:String: 1.0
+### Undo!:String: 1.0
+### Redo!:String: 1.0
+### RotateLeftArm defines setter for property Input: 1.0
+### RotateRightArm defines setter for property Input: 1.0
+### Define defines setter for property Input: 1.0
+### Call defines setter for property Input: 1.0
+### Thread defines setter for property Input: 1.0
+### Wait defines setter for property Input: 1.0
+### ProceedAll defines setter for property Input: 1.0
+### Sleep defines setter for property Input: 1.0
+### Undo defines setter for property Input: 1.0
+### Redo defines setter for property Input: 1.0
+### RotateLeftArmdefines getter for property Input: 1.0
+### RotateRightArmdefines getter for property Input: 1.0
+### Definedefines getter for property Input: 1.0
+### Calldefines getter for property Input: 1.0
+### Threaddefines getter for property Input: 1.0
+### Waitdefines getter for property Input: 1.0
+### ProceedAlldefines getter for property Input: 1.0
+### Sleepdefines getter for property Input: 1.0
+### Undodefines getter for property Input: 1.0
+### Redodefines getter for property Input: 1.0
+### RotateLeftArmdefines getter for property Value: 1.0
+### RotateRightArmdefines getter for property Value: 1.0
+### Definedefines getter for property Value: 1.0
+### Calldefines getter for property Value: 1.0
+### Threaddefines getter for property Value: 1.0
+### Waitdefines getter for property Value: 1.0
+### ProceedAlldefines getter for property Value: 1.0
+### Sleepdefines getter for property Value: 1.0
+### Undodefines getter for property Value: 1.0
+### Redodefines getter for property Value: 1.0
+*****************************(RotatingLine has required properties and methods, and rotate is called in animation)*****************************
+### RotatingLine!@rotate:int->*: 0.0
+### RotatingLine!setAngle:double->void: 0.0
+### RotatingLine!setRadius:double->void: 0.0
+### main.Assignment4!@RotatingLine!@rotate:int->*: 0.0

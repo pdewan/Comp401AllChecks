@@ -1,0 +1,16 @@
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepArthur:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepGalahad:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepLancelot:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepRobin:->void//EC
+
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- CoordinatedAnimationCommand not found by checkstyle
+  -- CoordinatedAnimator not found by checkstyle
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:25) In type CommandInterpreter, missing declared signature: @lockstepGuard:->void//EC
+
+  -- CoordinatingAnimator not found by checkstyle
+  -- CoordinatingAnimatingCommand not found by checkstyle
+  -- main.Assignment12 not found by checkstyle

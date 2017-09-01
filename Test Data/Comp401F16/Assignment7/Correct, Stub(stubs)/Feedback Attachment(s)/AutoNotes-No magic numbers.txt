@@ -1,0 +1,2 @@
+  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+

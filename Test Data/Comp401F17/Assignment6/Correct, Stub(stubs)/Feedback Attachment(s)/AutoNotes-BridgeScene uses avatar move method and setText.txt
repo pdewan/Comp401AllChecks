@@ -1,0 +1,4 @@
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!@move:int;int->* 
+
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment6\Correct, Stub(stubs)\Submission attachment(s)\Assignment7Stubs\Assignment7Stubs\src\grail\graphics\BridgeScene.java:1: warning: missingMethodCall: (BridgeScene.java:1) has not made expected call        (.*)!setText:String->void
+

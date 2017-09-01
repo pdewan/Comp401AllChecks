@@ -1,0 +1,6 @@
+  -- Method matching setCommand not found in class: class grail.scanner.CommandInterpreter
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Factory method:[bridgeSceneFactoryMethod] not found.
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Factory method:[bridgeSceneFactoryMethod] not found.

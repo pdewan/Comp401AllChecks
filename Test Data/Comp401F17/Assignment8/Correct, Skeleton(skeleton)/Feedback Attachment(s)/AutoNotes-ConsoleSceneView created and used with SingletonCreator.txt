@@ -1,0 +1,5 @@
+  -- C:\work\comp401grader\Grader\Comp401AllChecks\Test Data\Comp401F16\Assignment8\Correct, Skeleton(skeleton)\Submission attachment(s)\Assignment10Skeleton\Assignment10Skeleton\src\grail\mvc\view\ConsoleSceneView.java:1: warning: missingMethodCall: (ConsoleSceneView.java:1) has not made expected call                @SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene 
+
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:27) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+
+  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator

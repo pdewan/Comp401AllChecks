@@ -1,0 +1,144 @@
+Grading result for: Correct, Stub(stubs)
+
+Grading features...
+----------------------------------
+CommandSuite                                           3.0 / 15.0
+TokenArraySuite                                        0.0 / 40.0
+ExtraCommandSuite                                      2.0 / 10.0 (Extra credit)
+MovingRotatingLineSuite                                0.0 / 16.0 (Extra credit)
+FixedRotatingLineSuite                                 0.0 / 16.0 (Extra credit)
+Public methods are in implemented interfaces           10.0 / 10.0
+Required command token classes instantiated            0.0 / 12.0
+Single parameter constructors defined for command tokens 0.0 /  6.0
+Properties defined for command token classes           18.0 / 18.0
+ScannerBean has Tokens property                        15.0 / 15.0
+Sleep called in animation                              0.0 /  4.0
+ScannerBean has Errors property                        5.0 /  5.0 (Extra credit)
+Extra credit command classes instantiated              0.0 /  5.0 (Extra credit)
+Extra credit constructors and properties defined       7.5 / 10.0 (Extra credit)
+RotatingLine has required properties and methods, and rotate is called in animation 8.0 / 16.0 (Extra credit)
+ScannerBean properly animated                          0.0 / 15.0
+RotatingLine properly animated                         0.0 /  5.0 (Extra credit)
+----------------------------------
+  Points Awarded: 68.5
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 63.5
+
+Notes from grading features:
+----------------------------------
+CommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+ExtraCommandSuite:
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+  --  Gets does not return sets for:[Input] Output property wrong:[Value] Constructor not found with args:[class java.lang.String]
+
+MovingRotatingLineSuite:
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight -4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight -4
+
+FixedRotatingLineSuite:
+  -- In: grail.graphics.RotatingLine@23202c31 computedWidth 0 != correctWidth 5
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 4
+  -- In: grail.graphics.RotatingLine@23202c31 computedHeight 0 != correctHeight 5
+  -- In: grail.graphics.RotatingLine@23202c31 computedWidth 0 != correctWidth -5
+
+Required command token classes instantiated:
+  -- Class matching Move not instantiated in ScannerBean
+  -- Class matching Say not instantiated in ScannerBean
+  -- Class matching Repeat not instantiated in ScannerBean
+  -- Class matching Approach not instantiated in ScannerBean
+  -- Class matching Pass not instantiated in ScannerBean
+  -- Class matching Fail not instantiated in ScannerBean
+
+Single parameter constructors defined for command tokens:
+  -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:10) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:10) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:10) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:10) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:10) In type FailCommand, missing constructor: :String
+
+
+Sleep called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+Extra credit command classes instantiated:
+  -- Class matching RotateLeftArm not instantiated in ScannerBean
+  -- Class matching RotateRightArm not instantiated in ScannerBean
+  -- Class matching Define not instantiated in ScannerBean
+  -- Class matching Call not instantiated in ScannerBean
+  -- Class matching Thread not instantiated in ScannerBean
+  -- Class matching Wait not instantiated in ScannerBean
+  -- Class matching ProceedAll not instantiated in ScannerBean
+  -- Class matching Sleep not instantiated in ScannerBean
+  -- Class matching Undo not instantiated in ScannerBean
+  -- Class matching Redo not instantiated in ScannerBean
+
+Extra credit constructors and properties defined:
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (ProceedAllCommand.java:10) In type ProceedAllCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedConstructors: (UndoCommand.java:10) In type UndoCommand, missing constructor: :String
+
+  -- expectedConstructors: (RedoCommand.java:10) In type RedoCommand, missing constructor: :String
+
+
+RotatingLine has required properties and methods, and rotate is called in animation:
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: @rotate:int->*
+
+  -- main.Assignment4 not found by checkstyle
+
+
+Early benefit: 105.0%
+  Total Score: 67.2

@@ -1,0 +1,2 @@
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:28) In type CommandInterpreter, missing declared signature: @asynchronousGuard:->void
+

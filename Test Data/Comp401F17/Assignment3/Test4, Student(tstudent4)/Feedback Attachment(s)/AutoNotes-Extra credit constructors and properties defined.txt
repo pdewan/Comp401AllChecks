@@ -1,0 +1,4 @@
+  -- expectedSetters: (PlusToken.java:1) In type PlusToken, missing setter for property Input of type String
+
+  -- expectedSetters: (MinusToken.java:1) In type MinusToken, missing setter for property Input of type String
+

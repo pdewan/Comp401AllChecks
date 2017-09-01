@@ -1,0 +1,4 @@
+  -- Method matching asynchronousArthur not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching asynchronousGalahad not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching asynchronousLancelot not found in class: class grail.scanner.CommandInterpreter
+  -- Method matching asynchronousRobin not found in class: class grail.scanner.CommandInterpreter

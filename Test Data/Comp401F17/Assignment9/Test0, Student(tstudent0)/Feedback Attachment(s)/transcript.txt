@@ -1,0 +1,295 @@
+*****************************(BridgeSceneControllerSuite)*****************************
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Trying to get inheriting painter
+Could not find inheriting painter
+Trying to get observable painter
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Trying to get bridge scene controller
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@acdcf71 181260145 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bda1d19 1809456409 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Mouse Click, x = 100
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mousePressed(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_PRESSED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseReleased(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseClicked(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@acdcf71 181260145 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bda1d19 1809456409 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Key Type, x = 100
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='a',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@acdcf71 181260145 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bda1d19 1809456409 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Key Type, x = 50
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public void grail.graphics.Avatar.move(int,int) args:[20, 20]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@acdcf71 181260145 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bda1d19 1809456409 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Move , x = 70
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='a',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=65,keyText=A,keyChar='a',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@acdcf71 181260145 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@6bda1d19 1809456409 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.LancelotBridgeSceneControllerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Trying to get inheriting painter
+Could not find inheriting painter
+Trying to get observable painter
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Trying to get bridge scene controller
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@56f521c6 1458905542 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2dd8239 48071225 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Mouse Click, x = 200
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mousePressed(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_PRESSED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseReleased(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseClicked(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@56f521c6 1458905542 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2dd8239 48071225 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Key Type, x = 200
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=76,keyText=L,keyChar='l',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='l',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=76,keyText=L,keyChar='l',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@56f521c6 1458905542 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2dd8239 48071225 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Key Type, x = 50
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public void grail.graphics.Avatar.move(int,int) args:[100, 100]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@56f521c6 1458905542 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2dd8239 48071225 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Move , x = 150
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=76,keyText=L,keyChar='l',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='l',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=76,keyText=L,keyChar='l',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@2c58dcb1 744021169 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@56f521c6 1458905542 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@2dd8239 48071225 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.GalahadBridgeSceneControllerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Trying to get inheriting painter
+Could not find inheriting painter
+Trying to get observable painter
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Trying to get bridge scene controller
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@33a3c44a 866370634 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@499ef98e 1235155342 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Mouse Click, x = 400
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mousePressed(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_PRESSED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseReleased(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseClicked(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@33a3c44a 866370634 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@499ef98e 1235155342 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Key Type, x = 400
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=71,keyText=G,keyChar='g',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=71,keyText=G,keyChar='g',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@33a3c44a 866370634 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@499ef98e 1235155342 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Key Type, x = 50
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public void grail.graphics.Avatar.move(int,int) args:[100, 100]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@33a3c44a 866370634 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@499ef98e 1235155342 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Move , x = 150
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=71,keyText=G,keyChar='g',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='g',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=71,keyText=G,keyChar='g',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@53b8afea 1404612586 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@33a3c44a 866370634 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@499ef98e 1235155342 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+### gradingTools.comp401f16.assignment9.testcases.bridgecontroller.RobinBridgeSceneControllerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Trying to get inheriting painter
+Could not find inheriting painter
+Trying to get observable painter
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Trying to get bridge scene controller
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@66c38e51 1724091985 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@34f392be 888378046 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Mouse Click, x = 300
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Building mouse event with component:grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mousePressed(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_PRESSED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseReleased(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.mouseClicked(java.awt.event.MouseEvent) args:[java.awt.event.MouseEvent[MOUSE_RELEASED,(50,50),absolute(0,0),button=0,clickCount=0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@66c38e51 1724091985 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@34f392be 888378046 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+Before Key Type, x = 300
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=82,keyText=R,keyChar='r',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='r',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=82,keyText=R,keyChar='r',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@66c38e51 1724091985 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@34f392be 888378046 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Key Type, x = 50
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public void grail.graphics.Avatar.move(int,int) args:[100, 100]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@66c38e51 1724091985 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@34f392be 888378046 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Move , x = 150
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyPressed(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_PRESSED,keyCode=82,keyText=R,keyChar='r',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyTyped(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_TYPED,keyCode=0,keyText=Unknown keyCode: 0x0,keyChar='r',keyLocation=KEY_LOCATION_UNKNOWN,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.mvc.controller.BridgeSceneController@c2e3264 204354148 method:public void grail.mvc.controller.BridgeSceneController.keyReleased(java.awt.event.KeyEvent) args:[java.awt.event.KeyEvent[KEY_RELEASED,keyCode=82,keyText=R,keyChar='r',keyLocation=KEY_LOCATION_STANDARD,rawCode=0,primaryLevelUnicode=0,scancode=0,extendedKeyCode=0x0] on grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid]]timeOut:2000
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@58cf8f94 1489997716 method:public grail.interfaces.VShapeInterface grail.graphics.Avatar.getArms() args:[]timeOut:2000
+Calling on object grail.graphics.VShape@66c38e51 1724091985 method:public grail.interfaces.RotatingLineInterface grail.graphics.VShape.getLeftLine() args:[]timeOut:2000
+Calling on object grail.graphics.RotatingLine@34f392be 888378046 method:public int grail.graphics.LocatableObject.getX() args:[]timeOut:2000
+After Second Key Type, x = 50
+TEST SUCCESSFUL, x is the same after first and second key type event
+Finished submiting events
+*****************************(FactoryMethodSuiteA9)*****************************
+### gradingTools.comp401f16.assignment9.testcases.factory.BridgeSceneControllerFactoryMethodTest: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.BridgeSceneControllerInterface grail.SingletonsCreator.bridgeSceneControllerFactoryMethod() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment9.testcases.factory.InheritingBridgeScenePainterFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment9.testcases.factory.InheritingBridgeScenePainterFactoryMethodTest: 0.0
+*****************************(ObservablePainterSuite)*****************************
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.ExistingPaintListenerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.DelegatingBridgeSceneViewInterface grail.SingletonsCreator.delegatingBridgeSceneViewFactoryMethod() args:[]timeOut:2000
+Getting PaintListener property of observable painter
+Could not find PaintListener property
+Getting List field of observable painter 
+### gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.BridgeSceneInterface grail.SingletonsCreator.bridgeSceneFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.DelegatingBridgeSceneViewInterface grail.SingletonsCreator.delegatingBridgeSceneViewFactoryMethod() args:[]timeOut:2000
+Adding paint listener to observable bridge scene painter 
+Calling on object gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5 297031141 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.mvc.view.ObservableBridgeScenePainter[,0,0,0x0,invalid] 448782465 method:public void grail.mvc.view.ObservableBridgeScenePainter.addPaintListener(grail.interfaces.mvc.PaintListener) args:[gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5]timeOut:2000
+Calling on object class main.Assignment9 390374517 method:public static void main.Assignment9.main(java.lang.String[]) throws java.lang.InterruptedException args:[[Ljava.lang.String;@5e2a3040]timeOut:2000
+Calling on object gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5 297031141 method:public void gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase.paint(java.awt.Graphics2D) args:[sun.java2d.SunGraphics2D[font=javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12],color=sun.swing.PrintColorUIResource[r=51,g=51,b=51]]]timeOut:2000
+Received Paint Event, NewPaintListener Test Successful
+W***The Y property of .robin.head is < 0. Parts of it may not be visible
+W***Implicitly editable property: height of class class grail.graphics.RotatingLine not considered editable as it is not in editable property names list. 
+
+W***Implicitly editable property: width of class class grail.graphics.RotatingLine not considered editable as it is not in editable property names list. 
+
+W***Lower Y = -30 < 0 of (grail.graphics.StringShape@4ea12876)
+W***The Y property of .galahad.head is < 0. Parts of it may not be visible
+W***Lower Y = -30 < 0 of (grail.graphics.StringShape@7dd98518)
+W***The Y property of .arthur.head is < 0. Parts of it may not be visible
+W***Lower Y = -30 < 0 of (grail.graphics.StringShape@32656fc5)
+W***The Y property of .lancelot.head is < 0. Parts of it may not be visible
+W***Lower Y = -30 < 0 of (grail.graphics.StringShape@564f9ac1)
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public grail.interfaces.AvatarInterface grail.graphics.BridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.graphics.Avatar@75a118e6 1973491942 method:public grail.interfaces.ImageInterface grail.graphics.Avatar.getHead() args:[]timeOut:2000
+Calling on object grail.graphics.Image@49c8b1df 1237889503 method:public java.lang.String grail.graphics.Image.getImageFileName() args:[]timeOut:2000
+Avatar(images/arthur.jpg) Approaches
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public void grail.graphics.BridgeScene.approach(grail.interfaces.AvatarInterface) args:[grail.graphics.Avatar@75a118e6]timeOut:2000
+Calling on object gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5 297031141 method:public void gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase.paint(java.awt.Graphics2D) args:[sun.java2d.SunGraphics2D[font=javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12],color=sun.swing.PrintColorUIResource[r=51,g=51,b=51]]]timeOut:2000
+Calling on object gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5 297031141 method:public void gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase.paint(java.awt.Graphics2D) args:[sun.java2d.SunGraphics2D[font=javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12],color=sun.swing.PrintColorUIResource[r=51,g=51,b=51]]]timeOut:2000
+Interacting Knight Failed
+Calling on object grail.graphics.BridgeScene@6428591a 1680365850 method:public void grail.graphics.BridgeScene.failed() args:[]timeOut:2000
+Calling on object gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase@11b455e5 297031141 method:public void gradingTools.comp401f16.assignment9.testcases.observablepainter.NewPaintListenerTestCase.paint(java.awt.Graphics2D) args:[sun.java2d.SunGraphics2D[font=javax.swing.plaf.FontUIResource[family=Dialog,name=Dialog,style=plain,size=12],color=sun.swing.PrintColorUIResource[r=51,g=51,b=51]]]timeOut:2000
+Checking results
+*****************************(ExtraCreditFactoryMethodSuiteA9)*****************************
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterViewFactoryMethodTest: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.CommandInterpreterViewInterface grail.SingletonsCreator.commandInterpreterViewFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.CommandInterpreterViewInterface grail.SingletonsCreator.commandInterpreterViewFactoryMethod() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment9.testcases.factory.CommandInterpreterControllerFactoryMethodTest: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.CommandInterpreterControllerInterface grail.SingletonsCreator.commandInterpreterControllerFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.CommandInterpreterControllerInterface grail.SingletonsCreator.commandInterpreterControllerFactoryMethod() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment9.testcases.factory.DelegatingBridgeSceneViewFactoryMethodTest: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.DelegatingBridgeSceneViewInterface grail.SingletonsCreator.delegatingBridgeSceneViewFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.DelegatingBridgeSceneViewInterface grail.SingletonsCreator.delegatingBridgeSceneViewFactoryMethod() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment9.testcases.factory.ObservableBridgeScenePainterFactoryMethodTest: 1.0
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+Calling on object class grail.SingletonsCreator 389519344 method:public static grail.interfaces.mvc.PaintingViewMaster grail.SingletonsCreator.observableBridgeScenePainterFactoryMethod() args:[]timeOut:2000
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Normal credit view (0.0 if extra credit instead))*****************************
+### InheritingBridgeScenePainter!paint:Graphics(.*)->void: 0.0
+### InheritingBridgeScenePainter defined: 0.0
+### InheritingBridgeScenePainter!repaint:->void: 0.0
+### InheritingBridgeScenePainter defined: 0.0
+### SingletonsCreator!InheritingBridgeScenePainter: 0.0
+*****************************(Extra credit view)*****************************
+### PaintListener!paint:Graphics(.*)->void(.*): 1.0
+### PaintListener defined: 1.0
+### PaintListener!(.*)!repaint:->void: 1.0
+### ObservableBridgeScenePainter!@addPaintListener:@PaintListener->void: 1.0
+### ObservableBridgeScenePainter!@PaintListener!paint:Graphics(.*)->void(.*): 1.0
+### ObservableBridgeScenePainter defined: 1.0
+### DelegatingBridgeSceneView!@SingletonsCreator!@observableBridgeScenePainterFactoryMethod:->@ObservableBridgeScenePainter: 1.0
+### DelegatingBridgeSceneView!(.*)!addPaintListener:@PaintListener->void: 1.0
+### SingletonsCreator!DelegatingBridgeSceneView: 1.0
+### SingletonsCreator!ObservableBridgeScenePainter: 1.0
+*****************************(BridgeSceneController)*****************************
+### BridgeSceneController defined: 1.0
+### BridgeSceneController defined: 1.0
+### BridgeSceneController!(.*)!addKeyListener:KeyListener->void: 1.0
+### BridgeSceneController!(.*)!addMouseListener:MouseListener->void: 1.0
+*****************************(CommandInterpreter controller)*****************************
+### CommandInterpreterControllerdefines getter for property TextField: 1.0
+### CommandInterpreterController!@CommandInterpreter!setCommand:String->void: 1.0
+### SingletonsCreator!CommandInterpreterController: 1.0
+*****************************(CommandInterpreter view)*****************************
+### ObservableCommandInterpreter defined: 1.0
+### CommandInterpreterView!PropertyChangeListener: 1.0
+### SingletonsCreator!CommandInterpreterView: 1.0
+*****************************(Menu item and button)*****************************
+### CommandInterpreterControllerdefines getter for property MenuItem: 1.0
+### CommandInterpreterControllerdefines getter for property Button: 1.0
+### CommandInterpreterController defined: 1.0
+*****************************(Progress bar or slider (max 2.0))*****************************
+### ProgressBarCreatordefines getter for property ProgressBar: 1.0
+### ProgressBarCreatordefines getter for property Slider: 0.0

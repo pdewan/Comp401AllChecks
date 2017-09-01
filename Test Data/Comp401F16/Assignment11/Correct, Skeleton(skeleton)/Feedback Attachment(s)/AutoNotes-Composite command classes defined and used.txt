@@ -1,0 +1,14 @@
+  -- expectedConstructors: (RepeatCommand.java:6) In type RepeatCommand, missing constructor: :int;Runnable
+
+  -- Class matching CommandList not instantiated in Parser
+  -- Class matching RepeatCommand not instantiated in Parser
+  -- expectedInterfaces: (CommandList.java:9) In type CommandList, missing interface: Runnable
+
+  -- expectedInterfaces: (RepeatCommand.java:6) In type RepeatCommand, missing interface: Runnable
+
+  -- src\grail\scanner\commands\CommandList.java:1: warning: missingMethodCall: (CommandList.java:1) has not made expected call Runnable!run:->void
+
+  -- src\grail\scanner\commands\RepeatCommand.java:1: warning: missingMethodCall: (RepeatCommand.java:1) has not made expected call Runnable!run:->void
+
+  -- expectedDeclaredSignatures: (CommandList.java:9) In type CommandList, missing declared signature: @add:Runnable->*
+

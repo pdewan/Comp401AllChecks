@@ -1,0 +1,80 @@
+  -- expectedConstructors: (RotateLeftArmCommand.java:10) In type RotateLeftArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (RotateRightArmCommand.java:10) In type RotateRightArmCommand, missing constructor: :String
+
+  -- expectedConstructors: (DefineCommand.java:10) In type DefineCommand, missing constructor: :String
+
+  -- expectedConstructors: (CallCommand.java:10) In type CallCommand, missing constructor: :String
+
+  -- expectedConstructors: (ThreadCommand.java:10) In type ThreadCommand, missing constructor: :String
+
+  -- expectedConstructors: (WaitCommand.java:10) In type WaitCommand, missing constructor: :String
+
+  -- expectedConstructors: (ProceedAllCommand.java:10) In type ProceedAllCommand, missing constructor: :String
+
+  -- expectedConstructors: (SleepCommand.java:10) In type SleepCommand, missing constructor: :String
+
+  -- expectedConstructors: (UndoCommand.java:10) In type UndoCommand, missing constructor: :String
+
+  -- expectedConstructors: (RedoCommand.java:10) In type RedoCommand, missing constructor: :String
+
+  -- expectedSetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (DefineCommand.java:1) In type DefineCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (CallCommand.java:1) In type CallCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (ThreadCommand.java:1) In type ThreadCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (WaitCommand.java:1) In type WaitCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (SleepCommand.java:1) In type SleepCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (UndoCommand.java:1) In type UndoCommand, missing setter for property Input of type String
+
+  -- expectedSetters: (RedoCommand.java:1) In type RedoCommand, missing setter for property Input of type String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RedoCommand.java:1) In type RedoCommand, missing getter for property Input of type String
+
+  -- expectedGetters: (RotateLeftArmCommand.java:1) In type RotateLeftArmCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RotateRightArmCommand.java:1) In type RotateRightArmCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (DefineCommand.java:1) In type DefineCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (CallCommand.java:1) In type CallCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (ThreadCommand.java:1) In type ThreadCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (WaitCommand.java:1) In type WaitCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (ProceedAllCommand.java:1) In type ProceedAllCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (SleepCommand.java:1) In type SleepCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (UndoCommand.java:1) In type UndoCommand, missing getter for property Value of type String
+
+  -- expectedGetters: (RedoCommand.java:1) In type RedoCommand, missing getter for property Value of type String
+

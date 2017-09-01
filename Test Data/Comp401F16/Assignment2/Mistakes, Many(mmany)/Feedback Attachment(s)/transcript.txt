@@ -1,0 +1,1401 @@
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+INPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+OUTPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+please enter a string:
+unexpected character:"
+unexpected character:w
+unexpected character:e
+unexpected character:i
+unexpected character:r
+unexpected character:d
+unexpected character:s
+unexpected character:p
+unexpected character:a
+unexpected character:c
+unexpected character:i
+unexpected character:n
+unexpected character:g
+unexpected character:"
+unexpected character:"
+unexpected character:m
+unexpected character:o
+unexpected character:r
+unexpected character:e
+unexpected character:_
+unexpected character:n
+unexpected character:u
+unexpected character:m
+unexpected character:b
+unexpected character:e
+unexpected character:r
+unexpected character:s
+unexpected character:"
+unexpected character:"
+unexpected character:"
+unexpected character:"
+unexpected character:A
+unexpected character:N
+unexpected character:D
+unexpected character:S
+unexpected character:Y
+unexpected character:M
+unexpected character:B
+unexpected character:O
+unexpected character:L
+unexpected character:S
+unexpected character:#
+unexpected character:@
+unexpected character:!
+unexpected character:"
+unexpected character:"
+unexpected character:!
+unexpected character:-
+unexpected character:e
+unexpected character:n
+unexpected character:d
+unexpected character:"
+Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+INPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end"
+.
+
+OUTPUT(MultipleQuoteOutputTest:Multiple Quotes Output)
+please enter a string:
+unexpected character:"
+unexpected character:w
+unexpected character:e
+unexpected character:i
+unexpected character:r
+unexpected character:d
+unexpected character:s
+unexpected character:p
+unexpected character:a
+unexpected character:c
+unexpected character:i
+unexpected character:n
+unexpected character:g
+unexpected character:"
+unexpected character:"
+unexpected character:m
+unexpected character:o
+unexpected character:r
+unexpected character:e
+unexpected character:_
+unexpected character:n
+unexpected character:u
+unexpected character:m
+unexpected character:b
+unexpected character:e
+unexpected character:r
+unexpected character:s
+unexpected character:"
+unexpected character:"
+unexpected character:"
+unexpected character:"
+unexpected character:A
+unexpected character:N
+unexpected character:D
+unexpected character:S
+unexpected character:Y
+unexpected character:M
+unexpected character:B
+unexpected character:O
+unexpected character:L
+unexpected character:S
+unexpected character:#
+unexpected character:@
+unexpected character:!
+unexpected character:"
+unexpected character:"
+unexpected character:!
+unexpected character:-
+unexpected character:e
+unexpected character:n
+unexpected character:d
+unexpected character:"
+Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+
+*****************************(MultipleQuoteOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:w
+unexpected character:w
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:c
+unexpected character:c
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:g
+unexpected character:g
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:_
+unexpected character:_
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:b
+unexpected character:b
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:A
+unexpected character:A
+Process line:unexpected character:N
+unexpected character:N
+Process line:unexpected character:D
+unexpected character:D
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:Y
+unexpected character:Y
+Process line:unexpected character:M
+unexpected character:M
+Process line:unexpected character:B
+unexpected character:B
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:L
+unexpected character:L
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:#
+unexpected character:#
+Process line:unexpected character:@
+unexpected character:@
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+Called main:main.Assignment2
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)   weird spacing    (.*), (.*)(.*)uot(.*)23more_numbers234(.*), (.*)(.*)uot(.*)12334(.*), (.*)(.*)uot(.*) AND SYMBOLS #@!(.*), (.*)(.*)uot(.*) 1 ! - end(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end"
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:w
+unexpected character:w
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:c
+unexpected character:c
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:g
+unexpected character:g
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:_
+unexpected character:_
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:b
+unexpected character:b
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:A
+unexpected character:A
+Process line:unexpected character:N
+unexpected character:N
+Process line:unexpected character:D
+unexpected character:D
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:Y
+unexpected character:Y
+Process line:unexpected character:M
+unexpected character:M
+Process line:unexpected character:B
+unexpected character:B
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:L
+unexpected character:L
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:#
+unexpected character:#
+Process line:unexpected character:@
+unexpected character:@
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+Numbers: 23 234 12334 1 Sum: 12592 Product: 66381588
+Called main:main.Assignment2
+Provided input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end"
+.
+
+Expected outputs:[(.*)(.*)uot(.*)   weird spacing    (.*), (.*)(.*)uot(.*)23more_numbers234(.*), (.*)(.*)uot(.*)12334(.*), (.*)(.*)uot(.*) AND SYMBOLS #@!(.*), (.*)(.*)uot(.*) 1 ! - end(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleQuoteOutputTest: 0.0
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+INPUT(MixedOutputTest:Mixed Types of Tokens Output)
+"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+OUTPUT(MixedOutputTest:Mixed Types of Tokens Output)
+please enter a string:
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:d
+unexpected character:t
+unexpected character:o
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:!
+unexpected character:"
+unexpected character:C
+unexpected character:A
+unexpected character:P
+unexpected character:S
+unexpected character:"
+unexpected character:o
+unexpected character:n
+unexpected character:e
+unexpected character:Q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:d
+unexpected character:w
+unexpected character:o
+unexpected character:r
+unexpected character:d
+unexpected character:"
+unexpected character:I
+Numbers: 12 3 4 231 Sum: 250 Product: 33264
+
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+INPUT(MixedOutputTest:Mixed Types of Tokens Output)
+"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I
+.
+
+OUTPUT(MixedOutputTest:Mixed Types of Tokens Output)
+please enter a string:
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:d
+unexpected character:t
+unexpected character:o
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:!
+unexpected character:"
+unexpected character:C
+unexpected character:A
+unexpected character:P
+unexpected character:S
+unexpected character:"
+unexpected character:o
+unexpected character:n
+unexpected character:e
+unexpected character:Q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:d
+unexpected character:w
+unexpected character:o
+unexpected character:r
+unexpected character:d
+unexpected character:"
+unexpected character:I
+Numbers: 12 3 4 231 Sum: 250 Product: 33264
+
+*****************************(MixedOutputTest:Mixed Types of Tokens Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:C
+unexpected character:C
+Process line:unexpected character:A
+unexpected character:A
+Process line:unexpected character:P
+unexpected character:P
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:Q
+unexpected character:Q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:w
+unexpected character:w
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:I
+unexpected character:I
+Process line:Numbers: 12 3 4 231 Sum: 250 Product: 33264
+Numbers: 12 3 4 231 Sum: 250 Product: 33264
+Called main:main.Assignment2
+Provided input:"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I 
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)12   3 and to the 4!  (.*), (.*)(.*)ord(.*)CAPS(.*), (.*)(.*)umber(.*)000231(.*), (.*)(.*)uot(.*)oneQuotedword(.*), (.*)(.*)ord(.*)I(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:C
+unexpected character:C
+Process line:unexpected character:A
+unexpected character:A
+Process line:unexpected character:P
+unexpected character:P
+Process line:unexpected character:S
+unexpected character:S
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:Q
+unexpected character:Q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:w
+unexpected character:w
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:I
+unexpected character:I
+Process line:Numbers: 12 3 4 231 Sum: 250 Product: 33264
+Numbers: 12 3 4 231 Sum: 250 Product: 33264
+Called main:main.Assignment2
+Provided input:"12   3 and to the 4!  " CAPS 000231 "oneQuotedword" I
+.
+
+Expected outputs:[(.*)(.*)uot(.*)12   3 and to the 4!  (.*), (.*)(.*)ord(.*)CAPS(.*), (.*)(.*)umber(.*)000231(.*), (.*)(.*)uot(.*)oneQuotedword(.*), (.*)(.*)ord(.*)I(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MixedOutputTest: 0.0
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignOutputTest:Multiple Signs Output)
+- - + + - 
+. 
+
+OUTPUT(MultipleSignOutputTest:Multiple Signs Output)
+please enter a string:
+unexpected character:-
+unexpected character:-
+unexpected character:+
+unexpected character:+
+unexpected character:-
+Numbers: Sum: 0 Product: 1
+
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignOutputTest:Multiple Signs Output)
+- - + + -
+.
+
+OUTPUT(MultipleSignOutputTest:Multiple Signs Output)
+please enter a string:
+unexpected character:-
+unexpected character:-
+unexpected character:+
+unexpected character:+
+unexpected character:-
+Numbers: Sum: 0 Product: 1
+
+*****************************(MultipleSignOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$- - + + - 
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:+
+unexpected character:+
+Process line:unexpected character:+
+unexpected character:+
+Process line:unexpected character:-
+unexpected character:-
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:- - + + - 
+. 
+
+Expected outputs:[(.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q-\E(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$- - + + -
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:-
+unexpected character:-
+Process line:unexpected character:+
+unexpected character:+
+Process line:unexpected character:+
+unexpected character:+
+Process line:unexpected character:-
+unexpected character:-
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:- - + + -
+.
+
+Expected outputs:[(.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q-\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q+\E(.*), (.*)(.*)ign(.*)\Q-\E(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleSignOutputTest: 0.0
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+INPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+10 11 0 4 
+. 
+
+OUTPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+please enter a string:
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+INPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+10 11 0 4
+.
+
+OUTPUT(MultipleNumberOutputTest:Multiple Numbers Output)
+please enter a string:
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+
+*****************************(MultipleNumberOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4 
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:Numbers: 10 11 0 4 Sum: 25 Product: 0
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+Called main:main.Assignment2
+Provided input:10 11 0 4 
+. 
+
+Expected outputs:[(.*)(.*)umber(.*)10(.*), (.*)(.*)umber(.*)11(.*), (.*)(.*)umber(.*)0(.*), (.*)(.*)umber(.*)4(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$10 11 0 4
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:Numbers: 10 11 0 4 Sum: 25 Product: 0
+Numbers: 10 11 0 4 Sum: 25 Product: 0
+Called main:main.Assignment2
+Provided input:10 11 0 4
+.
+
+Expected outputs:[(.*)(.*)umber(.*)10(.*), (.*)(.*)umber(.*)11(.*), (.*)(.*)umber(.*)0(.*), (.*)(.*)umber(.*)4(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleNumberOutputTest: 0.0
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+INPUT(MissingQuoteOutputTest:Missing Quote Output)
+"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+OUTPUT(MissingQuoteOutputTest:Missing Quote Output)
+please enter a string:
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:u
+unexpected character:n
+unexpected character:f
+unexpected character:i
+unexpected character:n
+unexpected character:i
+unexpected character:s
+unexpected character:h
+unexpected character:e
+unexpected character:d
+unexpected character:q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:.
+unexpected character:.
+unexpected character:.
+unexpected character:"
+unexpected character:"
+unexpected character:O
+unexpected character:n
+unexpected character:e
+unexpected character:q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:r
+unexpected character:e
+unexpected character:"
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:d
+unexpected character:"
+unexpected character:"
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:o
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:r
+unexpected character:s
+unexpected character:o
+unexpected character:r
+unexpected character:e
+unexpected character:m
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:"
+unexpected character:"
+unexpected character:!
+unexpected character:!
+unexpected character:!
+unexpected character:#
+unexpected character:!
+unexpected character:@
+Numbers: Sum: 0 Product: 1
+
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+INPUT(MissingQuoteOutputTest:Missing Quote Output)
+"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @  
+.
+
+OUTPUT(MissingQuoteOutputTest:Missing Quote Output)
+please enter a string:
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:u
+unexpected character:n
+unexpected character:f
+unexpected character:i
+unexpected character:n
+unexpected character:i
+unexpected character:s
+unexpected character:h
+unexpected character:e
+unexpected character:d
+unexpected character:q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:.
+unexpected character:.
+unexpected character:.
+unexpected character:"
+unexpected character:"
+unexpected character:O
+unexpected character:n
+unexpected character:e
+unexpected character:q
+unexpected character:u
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:r
+unexpected character:e
+unexpected character:"
+unexpected character:"
+unexpected character:a
+unexpected character:n
+unexpected character:d
+unexpected character:"
+unexpected character:"
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:o
+unexpected character:t
+unexpected character:h
+unexpected character:e
+unexpected character:r
+unexpected character:s
+unexpected character:o
+unexpected character:r
+unexpected character:e
+unexpected character:m
+unexpected character:o
+unexpected character:t
+unexpected character:e
+unexpected character:"
+unexpected character:"
+unexpected character:!
+unexpected character:!
+unexpected character:!
+unexpected character:#
+unexpected character:!
+unexpected character:@
+Numbers: Sum: 0 Product: 1
+
+*****************************(MissingQuoteOutputTest:Missing Quote Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:f
+unexpected character:f
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:q
+unexpected character:q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:q
+unexpected character:q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:#
+unexpected character:#
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:@
+unexpected character:@
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @   
+. 
+
+Expected outputs:[(.*)(.*)uot(.*)an unfinished quote...(.*), (.*)(.*)uot(.*) One quote   there(.*), (.*)(.*)uot(.*)   and  (.*), (.*)(.*)uot(.*) the other so remote (.*), (.*)(.*)uot(.*)!! !# ! @  (.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @  
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:f
+unexpected character:f
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:q
+unexpected character:q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:.
+unexpected character:.
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:q
+unexpected character:q
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:n
+unexpected character:n
+Process line:unexpected character:d
+unexpected character:d
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:o
+unexpected character:o
+Process line:unexpected character:t
+unexpected character:t
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:"
+unexpected character:"
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:#
+unexpected character:#
+Process line:unexpected character:!
+unexpected character:!
+Process line:unexpected character:@
+unexpected character:@
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:"an unfinished quote..." " One quote   there" "   and  " " the other so remote " "!! !# ! @  
+.
+
+Expected outputs:[(.*)(.*)uot(.*)an unfinished quote...(.*), (.*)(.*)uot(.*) One quote   there(.*), (.*)(.*)uot(.*)   and  (.*), (.*)(.*)uot(.*) the other so remote (.*), (.*)(.*)uot(.*)!! !# ! @  (.*)]
+### gradingTools.comp401f16.assignment2.testcases.MissingQuoteOutputTest: 0.0
+*****************************(ScannerBeanTest)*****************************
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 1.0
+### gradingTools.comp401f16.assignment2.testcases.ScannerBeanTest: 0.0
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+INPUT(MultipleWordOutputTest:Multiple Words Output)
+DOTH I perhaps surmise surprise 
+. 
+
+OUTPUT(MultipleWordOutputTest:Multiple Words Output)
+please enter a string:
+unexpected character:D
+unexpected character:O
+unexpected character:T
+unexpected character:H
+unexpected character:I
+unexpected character:p
+unexpected character:e
+unexpected character:r
+unexpected character:h
+unexpected character:a
+unexpected character:p
+unexpected character:s
+unexpected character:s
+unexpected character:u
+unexpected character:r
+unexpected character:m
+unexpected character:i
+unexpected character:s
+unexpected character:e
+unexpected character:s
+unexpected character:u
+unexpected character:r
+unexpected character:p
+unexpected character:r
+unexpected character:i
+unexpected character:s
+unexpected character:e
+Numbers: Sum: 0 Product: 1
+
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+INPUT(MultipleWordOutputTest:Multiple Words Output)
+DOTH I perhaps surmise surprise
+.
+
+OUTPUT(MultipleWordOutputTest:Multiple Words Output)
+please enter a string:
+unexpected character:D
+unexpected character:O
+unexpected character:T
+unexpected character:H
+unexpected character:I
+unexpected character:p
+unexpected character:e
+unexpected character:r
+unexpected character:h
+unexpected character:a
+unexpected character:p
+unexpected character:s
+unexpected character:s
+unexpected character:u
+unexpected character:r
+unexpected character:m
+unexpected character:i
+unexpected character:s
+unexpected character:e
+unexpected character:s
+unexpected character:u
+unexpected character:r
+unexpected character:p
+unexpected character:r
+unexpected character:i
+unexpected character:s
+unexpected character:e
+Numbers: Sum: 0 Product: 1
+
+*****************************(MultipleWordOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 1.0
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$DOTH I perhaps surmise surprise 
+. 
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:D
+unexpected character:D
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:T
+unexpected character:T
+Process line:unexpected character:H
+unexpected character:H
+Process line:unexpected character:I
+unexpected character:I
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:e
+unexpected character:e
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:DOTH I perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)perhaps(.*), (.*)(.*)ord(.*)surmise(.*), (.*)(.*)ord(.*)surprise(.*)]
+Running command:java -cp ".;..;D:\dewan_backup\Java\lib\UNCChecks_6.5.0.jar;D:\Program Files\eclipse-standard-kepler-SR1-win32-x86_64\eclipse\plugins\net.sf.eclipsecs.checkstyle_6.5.0.201504121610\checkstyle-6.5-all.jar;D:\dewan_backup\Java\lib\oeall22.jar;D:\Program Files\eclipse-java-luna-R-win32-x86_64\eclipse\plugins\org.junit_4.11.0.v201303080030\junit.jar" main.Assignment1
+Running in folder: D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment2\Mistakes, Many(mmany)\Submission attachment(s)\Assignment1\Assignment1\bin
+$DOTH I perhaps surmise surprise
+.
+
+Process line:please enter a string:
+please enter a string:
+Process line:unexpected character:D
+unexpected character:D
+Process line:unexpected character:O
+unexpected character:O
+Process line:unexpected character:T
+unexpected character:T
+Process line:unexpected character:H
+unexpected character:H
+Process line:unexpected character:I
+unexpected character:I
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:h
+unexpected character:h
+Process line:unexpected character:a
+unexpected character:a
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:m
+unexpected character:m
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:e
+unexpected character:e
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:u
+unexpected character:u
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:p
+unexpected character:p
+Process line:unexpected character:r
+unexpected character:r
+Process line:unexpected character:i
+unexpected character:i
+Process line:unexpected character:s
+unexpected character:s
+Process line:unexpected character:e
+unexpected character:e
+Process line:Numbers: Sum: 0 Product: 1
+Numbers: Sum: 0 Product: 1
+Called main:main.Assignment2
+Provided input:DOTH I perhaps surmise surprise
+.
+
+Expected outputs:[(.*)(.*)ord(.*)DOTH(.*), (.*)(.*)ord(.*)I(.*), (.*)(.*)ord(.*)perhaps(.*), (.*)(.*)ord(.*)surmise(.*), (.*)(.*)ord(.*)surprise(.*)]
+### gradingTools.comp401f16.assignment2.testcases.MultipleWordOutputTest: 0.0
+*****************************(ScanString and IndexOf now called in ScannerBean)*****************************
+### ScannerBean!scanString:String->void: 0.0
+### ScannerBean!indexOf:String;char;int->int: 0.0
+*****************************(ScanString and IndexOf now called in ScaningIterator)*****************************
+### ScannerBean!scanString:String->void: 0.0
+*****************************(Scanner Bean Instantiated in Corectly Named Main)*****************************
+### main.Assignment2!ScannerBean: 0.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 0.0
+*****************************(Scanner Bean Tagged Correctly )*****************************
+### @ScannerBean defined: 0.0
+### @ScannerBean defined: 0.0

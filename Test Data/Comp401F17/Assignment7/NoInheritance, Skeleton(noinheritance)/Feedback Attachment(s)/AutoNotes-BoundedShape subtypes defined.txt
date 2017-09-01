@@ -1,0 +1,3 @@
+  -- expectedSuperTypes: (Image.java:12) In type Image, missing supertype: @BoundedShape
+expectedSuperTypes: (ImageInterface.java:6) In type ImageInterface, missing supertype: @BoundedShape
+

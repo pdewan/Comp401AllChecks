@@ -1,0 +1,43 @@
+Grading result for: Bug, Occupied(occupiedbug)
+
+Grading features...
+----------------------------------
+BridgeSceneDynamicTestCase                             5.0 / 50.0
+TokenHistorySuite                                      15.0 / 15.0 (Extra credit)
+BridgeSceneComponentScrollSuite                        10.0 / 10.0 (Extra credit)
+InitialBridgeSceneSuite                                20.0 / 20.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Tokens inherit from general class                      14.0 / 14.0
+Commands inherit from word token                       12.0 / 12.0
+Bridge scene has new methods defined                   12.0 / 12.0
+BridgeScene uses avatar move method and setText        6.0 /  6.0
+Scroll method defined                                  2.0 /  2.0 (Extra credit)
+Graphical classes have proper properties defined       15.0 / 15.0
+Scene has a gorge with a bridge.                       0.0 / 10.0
+Animation shows approach, say, pass, fail correctly.   0.0 / 20.0
+Animation shows boolean properties, acting correctly.  0.0 /  8.0
+Scanner animation shows proper functionality.          0.0 / 10.0
+Animation shows scroll feature                         0.0 /  3.0 (Extra credit)
+Scanner animation shows TokenList property (correctly).0.0 /  3.0 (Extra credit)
+----------------------------------
+  Points Awarded: 121.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 116.0
+
+Notes from grading features:
+----------------------------------
+BridgeSceneDynamicTestCase:
+  -- Avatar(images/arthur.jpg) said  "" instead of "Grail"
+
+
+Early benefit: 105.0%
+  Total Score: 121.8

@@ -1,0 +1,13 @@
+  -- Class matching AnimatingCommand not instantiated in CommandInterpreter
+  -- src\grail\scanner\CommandInterpreter.java:1: warning: missingMethodCall: (CommandInterpreter.java:1) has not made expected call Thread!start:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousArthur:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousGalahad:->void//EC
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousLancelot:->void
+
+  -- expectedDeclaredSignatures: (CommandInterpreter.java:35) In type CommandInterpreter, missing declared signature: @asynchronousRobin:->void
+
+  -- src\main\Assignment10.java:1: warning: missingMethodCall: (Assignment10.java:1) has not made expected call (.*)!@asynchronous(.*):->void
+

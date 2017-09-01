@@ -1,0 +1,12 @@
+  -- expectedConstructors: (MoveCommand.java:10) In type MoveCommand, missing constructor: :String
+
+  -- expectedConstructors: (SayCommand.java:10) In type SayCommand, missing constructor: :String
+
+  -- expectedConstructors: (RepeatCommand.java:10) In type RepeatCommand, missing constructor: :String
+
+  -- expectedConstructors: (ApproachCommand.java:10) In type ApproachCommand, missing constructor: :String
+
+  -- expectedConstructors: (PassCommand.java:10) In type PassCommand, missing constructor: :String
+
+  -- expectedConstructors: (FailCommand.java:10) In type FailCommand, missing constructor: :String
+

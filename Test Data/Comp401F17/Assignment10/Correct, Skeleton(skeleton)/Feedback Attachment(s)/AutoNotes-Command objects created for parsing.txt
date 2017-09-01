@@ -1,0 +1,8 @@
+  -- expectedInterfaces: (SayCommand.java:7) In type SayCommand, missing interface: Runnable
+
+  -- expectedConstructors: (SayCommand.java:7) In type SayCommand, missing constructor: :@BridgeScene; String
+
+  -- expectedInterfaces: (MoveCommand.java:8) In type MoveCommand, missing interface: Runnable
+
+  -- expectedConstructors: (MoveCommand.java:8) In type MoveCommand, missing constructor: :@Avatar; int; int
+

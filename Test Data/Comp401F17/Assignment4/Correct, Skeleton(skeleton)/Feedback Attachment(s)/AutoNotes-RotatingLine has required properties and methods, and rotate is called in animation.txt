@@ -1,0 +1,7 @@
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: @rotate:int->*
+
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: setAngle:double->void
+
+  -- expectedDeclaredSignatures: (RotatingLine.java:10) In type RotatingLine, missing declared signature: setRadius:double->void
+
+  -- main.Assignment4 not found by checkstyle

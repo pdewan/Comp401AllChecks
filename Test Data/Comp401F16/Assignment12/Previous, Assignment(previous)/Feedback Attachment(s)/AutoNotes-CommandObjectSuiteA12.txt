@@ -1,0 +1,7 @@
+  -- Factory method:[environmentfactorymethod] not found.
+  -- Could not find class  matching RotateLeftArmCommand
+  -- Could not find class  matching RotateRightArmCommand
+  -- Could not find class  matching SleepCommand
+  -- java.lang.NullPointerException null
+  -- Could not find class  matching ThreadCommand
+  -- Could not find class  matching ProceedAllCommand

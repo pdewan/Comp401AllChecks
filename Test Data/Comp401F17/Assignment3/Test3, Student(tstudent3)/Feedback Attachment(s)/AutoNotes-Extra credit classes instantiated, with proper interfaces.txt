@@ -1,0 +1,4 @@
+  -- expectedInterfaces: (PlusToken.java:8) In type PlusToken, missing interface: @Token
+
+  -- expectedInterfaces: (MinusToken.java:8) In type MinusToken, missing interface: @Token
+

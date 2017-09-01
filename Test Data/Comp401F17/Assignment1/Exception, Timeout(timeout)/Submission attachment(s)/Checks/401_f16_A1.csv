@@ -1,0 +1,15 @@
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,expectedTypes,[main.Assignment(.*), ScanningIterator//EC]
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,typeDefined,Assignment1,main.Assignment(.*)
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,uncessaryMethodCall,Assignment1,main-->String.indexOf
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,illegalMethodCall,Assignment1,main-->String.indexOf
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,magic.number,Assignment1,9,9
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,        processInput:->void 
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       scanString:String->void 
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOf:String;char;int->int 
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       indexOfNot:String;char;int->int//EC 
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!hasNext:->boolean//EC 
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,missingMethodCall,Assignment1,       (.*)!next:->String//EC
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOf:String;char;int->int,Assignment1
+0,Thu Sep 22 11:18:05 EDT 2016,true,main\Assignment1.java,expectedDeclaredSignatures,Assignment1,indexOfNot:String;char;int->int//EC,Assignment1
+0,Thu Sep 22 11:18:05 EDT 2016,true,main2\main.java,typeDefined,main,No Expected Tag
+0,Thu Sep 22 11:18:05 EDT 2016,true,main2\main.java,magic.number,main,9,9

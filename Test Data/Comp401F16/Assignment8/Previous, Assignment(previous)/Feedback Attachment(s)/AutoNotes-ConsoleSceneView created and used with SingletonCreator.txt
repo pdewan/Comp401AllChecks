@@ -1,0 +1,4 @@
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+
+  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator

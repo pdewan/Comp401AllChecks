@@ -1,0 +1,4 @@
+Starting audit...
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\src\main\Scan.java:0: expectedTypes: Expected type names/tags [main.Assignment(.*), ScanningIterator//EC]
+D:\dewan_backup\Java\Comp401AllChecks\Test Data\Comp401F16\Assignment1\Test, Student(tstudent)\Submission attachment(s)\Assignment1\A1\src\main\Scan.java:1: typeDefined: (Scan.java:1) Class/Interface Scan matching tag No Expected Tag defined
+Audit done.

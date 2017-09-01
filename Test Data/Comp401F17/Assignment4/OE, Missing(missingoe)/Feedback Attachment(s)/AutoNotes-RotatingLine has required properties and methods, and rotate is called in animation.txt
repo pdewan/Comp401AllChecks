@@ -1,0 +1,5 @@
+  -- RotatingLine not found by checkstyle
+  -- RotatingLine not found by checkstyle
+  -- RotatingLine not found by checkstyle
+  -- /Users/andrewwg94/401 TA '16/Assignments/Assignment 4/Smith, Ellen(ellenecs)/Submission attachment(s)/Assignment4/Assignment4/src/main/Assignment4.java:1: warning: missingMethodCall: (Assignment4.java:1) has not made expected call        @RotatingLine!@rotate:int->* //EC
+

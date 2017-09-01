@@ -1,0 +1,374 @@
+*****************************(PlusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 1.0
+No class matching: [Plus]
+### gradingTools.comp401f16.assignment3.testcases.PlusBeanTest: 0.0
+*****************************(EndBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Constructor not found:main.EndInput.<init>(java.lang.String)
+### gradingTools.comp401f16.assignment3.testcases.EndBeanTest: 0.0
+*****************************(StartBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Constructor not found:main.StartInput.<init>(java.lang.String)
+### gradingTools.comp401f16.assignment3.testcases.StartBeanTest: 0.0
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+- - + + - 
+. 
+
+OUTPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+main.NumberInput@4aa298b7
+-
+
+ERRORS(MultipleSignTokenOutputTest:Multiple Signs Output)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "-"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:572)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.NumberInput.getIntProperty(NumberInput.java:31)
+	at main.StringScanner.scanString(StringScanner.java:43)
+	at main.StringScanner.setScannedString(StringScanner.java:68)
+	at main.Assignment3.main(Assignment3.java:17)
+
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+INPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+- - + + -
+.
+
+OUTPUT(MultipleSignTokenOutputTest:Multiple Signs Output)
+main.NumberInput@4aa298b7
+-
+
+ERRORS(MultipleSignTokenOutputTest:Multiple Signs Output)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "-"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:572)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at main.NumberInput.getIntProperty(NumberInput.java:31)
+	at main.StringScanner.scanString(StringScanner.java:43)
+	at main.StringScanner.setScannedString(StringScanner.java:68)
+	at main.Assignment3.main(Assignment3.java:17)
+
+*****************************(MultipleSignTokenOutputTest:Multiple Signs Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:- - + + - 
+. 
+
+Expected outputs:[(.*)\Q-\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+$- - + + - 
+. 
+
+Process line:main.NumberInput@4aa298b7
+main.NumberInput@4aa298b7
+Process line:-
+-
+_________________________________________________________________________
+_________________________________________________________________________
+Providing input:- - + + -
+.
+
+Expected outputs:[(.*)\Q-\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q+\E(.*), (.*)@(.*), (.*)\Q-\E(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+$- - + + -
+.
+
+Process line:main.NumberInput@4aa298b7
+main.NumberInput@4aa298b7
+Process line:-
+-
+_________________________________________________________________________
+### gradingTools.comp401f16.assignment3.testcases.MultipleSignTokenOutputTest: 0.0
+*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
+INPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
+1019 1221 3413 4321 
+. 
+
+OUTPUT(MultipleNumberTokenOutputTest:Multiple Numbers Output)
+main.NumberInput@4aa298b7
+1019
+1019
+main.NumberInput@7d4991ad
+1221
+1221
+main.NumberInput@28d93b30
+3413
+3413
+main.NumberInput@1b6d3586
+4321
+4321
+
+*****************************(MultipleNumberTokenOutputTest:Multiple Numbers Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleNumberTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:1019 1221 3413 4321 
+. 
+
+Expected outputs:[(.*)1019(.*), (.*)1019(.*), (.*)@(.*), (.*)1221(.*), (.*)1221(.*), (.*)@(.*), (.*)3413(.*), (.*)3413(.*), (.*)@(.*), (.*)4321(.*), (.*)4321(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+$1019 1221 3413 4321 
+. 
+
+Process line:main.NumberInput@4aa298b7
+main.NumberInput@4aa298b7
+Process line:1019
+1019
+Process line:1019
+1019
+Process line:main.NumberInput@7d4991ad
+main.NumberInput@7d4991ad
+Process line:1221
+1221
+Process line:1221
+1221
+Process line:main.NumberInput@28d93b30
+main.NumberInput@28d93b30
+Process line:3413
+3413
+Process line:3413
+3413
+Process line:main.NumberInput@1b6d3586
+main.NumberInput@1b6d3586
+Process line:4321
+4321
+Process line:4321
+4321
+_________________________________________________________________________
+*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
+INPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
+"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+OUTPUT(MultipleQuoteTokenOutputTest:Multiple Quotes Output)
+main.QuoteInput@4aa298b7
+   weird spacing    
+main.QuoteInput@7d4991ad
+23more_numbers234
+main.QuoteInput@28d93b30
+12334
+main.QuoteInput@1b6d3586
+ AND SYMBOLS #@!
+main.QuoteInput@4554617c
+ 1 ! - end
+
+*****************************(MultipleQuoteTokenOutputTest:Multiple Quotes Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleQuoteTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Expected outputs:[(.*)   weird spacing    (.*), (.*)@(.*), (.*)23more_numbers234(.*), (.*)@(.*), (.*)12334(.*), (.*)@(.*), (.*) AND SYMBOLS #@!(.*), (.*)@(.*), (.*) 1 ! - end(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+$"   weird spacing    " "23more_numbers234" "12334" " AND SYMBOLS #@!" " 1 ! - end" 
+. 
+
+Process line:main.QuoteInput@4aa298b7
+main.QuoteInput@4aa298b7
+Process line:   weird spacing    
+   weird spacing    
+Process line:main.QuoteInput@7d4991ad
+main.QuoteInput@7d4991ad
+Process line:23more_numbers234
+23more_numbers234
+Process line:main.QuoteInput@28d93b30
+main.QuoteInput@28d93b30
+Process line:12334
+12334
+Process line:main.QuoteInput@1b6d3586
+main.QuoteInput@1b6d3586
+Process line: AND SYMBOLS #@!
+ AND SYMBOLS #@!
+Process line:main.QuoteInput@4554617c
+main.QuoteInput@4554617c
+Process line: 1 ! - end
+ 1 ! - end
+_________________________________________________________________________
+*****************************(MinusBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 1.0
+No class matching: [Minus]
+### gradingTools.comp401f16.assignment3.testcases.MinusBeanTest: 0.0
+*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
+INPUT(MultipleWordTokenOutputTest:Multiple Words Output)
+DOTH IORME perhaps surmise surprise 
+. 
+
+OUTPUT(MultipleWordTokenOutputTest:Multiple Words Output)
+main.WordInput@4aa298b7
+DOTH
+doth
+main.WordInput@7d4991ad
+IORME
+iorme
+main.WordInput@28d93b30
+perhaps
+perhaps
+main.WordInput@1b6d3586
+surmise
+surmise
+main.WordInput@4554617c
+surprise
+surprise
+
+*****************************(MultipleWordTokenOutputTest:Multiple Words Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleWordTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:DOTH IORME perhaps surmise surprise 
+. 
+
+Expected outputs:[(.*)DOTH(.*), (.*)doth(.*), (.*)@(.*), (.*)IORME(.*), (.*)iorme(.*), (.*)@(.*), (.*)perhaps(.*), (.*)perhaps(.*), (.*)@(.*), (.*)surmise(.*), (.*)surmise(.*), (.*)@(.*), (.*)surprise(.*), (.*)surprise(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+$DOTH IORME perhaps surmise surprise 
+. 
+
+Process line:main.WordInput@4aa298b7
+main.WordInput@4aa298b7
+Process line:DOTH
+DOTH
+Process line:doth
+doth
+Process line:main.WordInput@7d4991ad
+main.WordInput@7d4991ad
+Process line:IORME
+IORME
+Process line:iorme
+iorme
+Process line:main.WordInput@28d93b30
+main.WordInput@28d93b30
+Process line:perhaps
+perhaps
+Process line:perhaps
+perhaps
+Process line:main.WordInput@1b6d3586
+main.WordInput@1b6d3586
+Process line:surmise
+surmise
+Process line:surmise
+surmise
+Process line:main.WordInput@4554617c
+main.WordInput@4554617c
+Process line:surprise
+surprise
+Process line:surprise
+surprise
+_________________________________________________________________________
+*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
+INPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
+{ { } } } 
+. 
+
+OUTPUT(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)
+main.StartInput@4aa298b7
+{
+main.StartInput@7d4991ad
+{
+main.EndInput@28d93b30
+}
+main.EndInput@1b6d3586
+}
+main.EndInput@4554617c
+}
+
+*****************************(MultipleGroupingTokenOutputTest:Multiple Grouping Symbols Output)*****************************
+### gradingTools.comp401f16.assignment3.testcases.MultipleGroupingTokenOutputTest: 1.0
+_________________________________________________________________________
+Providing input:{ { } } } 
+. 
+
+Expected outputs:[(.*)\Q{\E(.*), (.*)@(.*), (.*)\Q{\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*), (.*)\Q}\E(.*), (.*)@(.*)]
+Running command:java -cp .:..:/Users/andrewwg94/401 TA '16/oeall22.jar:/Applications/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar main.Assignment3
+Running in folder: /Users/andrewwg94/401 TA '16/Assignments/Assignment 3/Orr, Carson(carson16)/Submission attachment(s)/Assignment3/Assignment3/bin
+${ { } } } 
+. 
+
+Process line:main.StartInput@4aa298b7
+main.StartInput@4aa298b7
+Process line:{
+{
+Process line:main.StartInput@7d4991ad
+main.StartInput@7d4991ad
+Process line:{
+{
+Process line:main.EndInput@28d93b30
+main.EndInput@28d93b30
+Process line:}
+}
+Process line:main.EndInput@1b6d3586
+main.EndInput@1b6d3586
+Process line:}
+}
+Process line:main.EndInput@4554617c
+main.EndInput@4554617c
+Process line:}
+}
+_________________________________________________________________________
+*****************************(QuoteBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Constructor not found:main.QuoteInput.<init>(java.lang.String)
+### gradingTools.comp401f16.assignment3.testcases.QuoteBeanTest: 0.0
+*****************************(WordBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Constructor not found:main.WordInput.<init>(java.lang.String)
+### gradingTools.comp401f16.assignment3.testcases.WordBeanTest: 0.0
+*****************************(NumberBeanTest)*****************************
+### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 1.0
+Finding constructor matching:class java.lang.String
+Constructor not found:main.NumberInput.<init>(java.lang.String)
+### gradingTools.comp401f16.assignment3.testcases.NumberBeanTest: 0.0
+*****************************(Necessary calls in tagged interfaces)*****************************
+### ScannerBean!getInput:->String: 0.0
+### ScannerBean!Number!getValue:->String: 0.0
+### ScannerBean!Word!getValue:->String: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Required token classes instantiated)*****************************
+### ScannerBean!Word: 0.0
+### ScannerBean!Number: 0.0
+### ScannerBean!Quote: 0.0
+### ScannerBean!Start: 0.0
+### ScannerBean!End: 0.0
+*****************************(Single parameter constructors defined)*****************************
+### Word!:String: 0.0
+### Number!:String: 0.0
+### Quote!:String: 0.0
+### Start!:String: 0.0
+### End!:String: 0.0
+*****************************(Properties defined for token classes)*****************************
+### Word defines setter for property Input: 1.0
+### Number defines setter for property Input: 1.0
+### Quote defines setter for property Input: 1.0
+### Start defines setter for property Input: 1.0
+### End defines setter for property Input: 1.0
+### Worddefines getter for property Input: 1.0
+### Numberdefines getter for property Input: 1.0
+### Quotedefines getter for property Input: 1.0
+### Startdefines getter for property Input: 1.0
+### Enddefines getter for property Input: 1.0
+### Worddefines getter for property Value: 0.0
+### Numberdefines getter for property Value: 0.0
+*****************************(Necessary interfaces created and used)*****************************
+### Word defined: 0.0
+### Number defined: 0.0
+### Quote defined: 0.0
+### Start defined: 0.0
+### End defined: 0.0
+*****************************(Extra credit classes instantiated, with proper interfaces)*****************************
+### ScannerBean!Plus: 0.0
+### ScannerBean!Minus: 0.0
+### Plus defined: 0.0
+### Minus defined: 0.0
+*****************************(Extra credit constructors and properties defined)*****************************
+### Plus!:String: 0.0
+### Minus!:String: 0.0
+### Plus defines setter for property Input: 0.0
+### Minus defines setter for property Input: 0.0
+*****************************(Screenshots enclosed)*****************************
+### Image enclosed test case: 1.0

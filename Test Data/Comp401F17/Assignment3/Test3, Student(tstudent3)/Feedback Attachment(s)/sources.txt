@@ -1,0 +1,533 @@
+//START OF FILE: src/grail/scannerbean.java
+package grail;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+import java.util.Iterator;
+
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+import mp.scanner.ScanningIterator;
+
+
+/**
+ * A "Bean" object whose setter for scannedString prints the tokens and their types.
+ * @author Semion
+ *
+ */
+@Tags({"ScannerBean"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"ScannedString"})
+@EditablePropertyNames({"ScannedString"})
+public class ScannerBean {
+
+	String scannedString;
+	
+	public String getScannedString(){
+		return scannedString;
+	};
+	
+	public void setScannedString(String s){
+		scanString(s);
+		scannedString = s;
+	};
+	
+	/**
+	 * Produces output from each string
+	 */
+	private static void scanString(String s){
+		
+		Iterator<String> iterator = new ScanningIterator(s);
+		
+		System.out.println("Tokens:");
+		
+		while (iterator.hasNext()){
+			String tokenString = iterator.next();
+
+			boolean valid = true; // will be used to mark invalid tokens
+			
+			// Check for number
+			if (Character.isDigit(tokenString.charAt(0))){
+				valid = isValidNumber(tokenString);
+				if (valid){
+					NumberToken tokenObject = new NumberToken(tokenString);
+					System.out.println(tokenObject);
+					System.out.println(tokenObject.getInput());
+					System.out.println((tokenObject).getValue());
+				}
+				
+			// Check for word
+			} else if (Character.isLetter(tokenString.charAt(0))){
+				valid = isValidWord(tokenString);
+				if (valid){
+					WordToken tokenObject = new WordToken(tokenString);
+					System.out.println(tokenObject);
+					System.out.println(tokenObject.getInput());
+					System.out.println((tokenObject).getValue());
+				}
+			
+			// Check for quoted string
+			} else if (tokenString.charAt(0) == '\"'){
+				
+				// The only invalid token would be an empty quoted string
+				if (tokenString.length() <= "\"\"".length()){
+					valid = false;
+				}
+				
+				if (valid){
+					
+					// Trim quotation marks off the ends of the token
+					tokenString = tokenString.substring(1, tokenString.length()-1);
+					
+					QuoteToken tokenObject = new QuoteToken(tokenString);
+					System.out.println(tokenObject);
+					System.out.println(tokenObject.getInput());
+				}
+			
+			// Check for sign (these comparisons would be simpler if we were allowed to use .equals())
+			} else if (tokenString.length() == 1 && (tokenString.charAt(0) == '+')){
+				PlusToken tokenObject = new PlusToken(tokenString);
+				System.out.println(tokenObject);
+				System.out.println(tokenObject.getInput());
+				
+			} else if (tokenString.length() == 1 && (tokenString.charAt(0) == '-')){
+				MinusToken tokenObject = new MinusToken(tokenString);
+				System.out.println(tokenObject);
+				System.out.println(tokenObject.getInput());
+			
+			// Check for "start" token
+			} else if (tokenString.length() == 1 && tokenString.charAt(0) == '{'){
+				StartToken tokenObject = new StartToken(tokenString);
+				System.out.println(tokenObject);
+				System.out.println(tokenObject.getInput());
+				
+			// Check for "end" token
+			} else if (tokenString.length() == 1 && tokenString.charAt(0) == '}'){
+				EndToken tokenObject = new EndToken(tokenString);
+				System.out.println(tokenObject);
+				System.out.println(tokenObject.getInput());
+				
+			// Otherwise invalid
+			} else{
+				valid = false;
+			}
+			
+			if (!valid){
+				System.out.print("INVALID TOKEN: ");
+				System.out.println(tokenString);
+			}
+			
+		}//end printing tokens
+	}//end scanString()
+	
+	private static boolean isValidWord(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isLetter(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+	
+	private static boolean isValidNumber(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isDigit(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+}//end class
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/endtoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"End"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class EndToken {
+
+	private String input;
+	
+	public EndToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/minustoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Minus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class MinusToken {
+
+	private String input;
+	
+	public MinusToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/numbertoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Number"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class NumberToken{
+	
+	private String input;
+	private int value;
+	
+	public NumberToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+		value = Integer.parseInt(newString);
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+	public int getValue() {
+		return value;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/plustoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Plus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class PlusToken {
+
+	private String input;
+	
+	public PlusToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+	}
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/quotetoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Quote"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class QuoteToken {
+
+	private String input;
+	
+	public QuoteToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/starttoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Start"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class StartToken {
+
+	private String input;
+	
+	public StartToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/wordtoken.java
+package grail.tokenBeans;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Word"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WordToken {
+
+	private String input;
+	private String value;
+	
+	public WordToken(String input){
+		setInput(input);
+	}
+	
+	public void setInput(String newString) {
+		input = newString;
+		value = newString.toLowerCase();
+	}
+
+	public String getInput() {
+		return input;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/main/assignment3.java
+package main;
+
+import java.util.Scanner;
+
+import grail.ScannerBean;
+
+public class Assignment3 {
+	
+	public static void main(String[] args) {
+		processInput();
+		System.out.println("Goodbye!");
+	}
+	
+	private static void processInput(){
+
+		Scanner in = new Scanner(System.in);
+		ScannerBean myScanner = new ScannerBean();
+		
+		// Read first line
+		System.out.println("String?");
+		String line = in.nextLine();
+		
+		// Process until period
+		while (line.isEmpty() || line.charAt(0) != '.'){
+			
+			myScanner.setScannedString(line);
+			
+			System.out.println("String?");
+			line = in.nextLine();
+		}
+	}
+	
+	
+	
+}
+//END OF FILE
+//START OF FILE: src/mp/scanner/scanningiterator.java
+package mp.scanner;
+
+import java.util.Iterator;
+
+public class ScanningIterator implements Iterator<String>{
+
+	private String stringData;
+	private int position = 0;
+	
+	/**
+	 * Constructor
+	 * @param s string to iterate over
+	 */
+	public ScanningIterator(String s){
+		stringData = s;
+	}
+
+	/**
+	 * Checks whether there is another token to be had
+	 */
+	@Override
+	public boolean hasNext() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			position = stringData.length();
+		}
+		return (position < stringData.length());
+	}
+
+	/**
+	 * Gets the next token
+	 */
+	@Override
+	public String next() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			
+			// Rest of string was spaces
+			position = stringData.length();
+			return "";
+		}
+		
+		// Get token
+		int tokenStart = position;
+		int tokenEnd = position;
+		
+		// Treat quoted strings differently
+		if (stringData.charAt(tokenStart) == '\"'){
+			
+			// Look for the closing quote after this quote
+			tokenEnd = indexOf(stringData, '\"', tokenStart + 1);
+			
+			if (tokenEnd == -1){
+				System.out.println("ERROR: No closing quote found. Assumed line end to be closing quote.");
+				tokenEnd = stringData.length();
+				position = tokenEnd;
+				return stringData.substring(tokenStart, tokenEnd)+ "\"";
+			
+			// If closing quote exists, make sure it is grabbed
+			} else {
+				++tokenEnd;
+			}
+			
+		// If not a quoted string, end of token is a space or line end	
+		} else {
+			tokenEnd = indexOf(stringData, ' ', tokenStart);
+		}
+			
+		if (tokenEnd == -1){
+			tokenEnd = stringData.length();
+		}
+		
+		position = tokenEnd;
+		
+		return stringData.substring(tokenStart, tokenEnd);
+	}
+	
+	/**
+	 * Returns index of first character equal to ch
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first ocurrence of ch after fromIndex, or -1 if not found
+	 */
+	private static int indexOf(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)==ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/**
+	 * Returns index of first character not equal to ch
+	 * 
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first character that is not ch after fromIndex, or -1 if no non-ch characters found
+	 */
+	private static int indexOfNot(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)!=ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+}
+//END OF FILE

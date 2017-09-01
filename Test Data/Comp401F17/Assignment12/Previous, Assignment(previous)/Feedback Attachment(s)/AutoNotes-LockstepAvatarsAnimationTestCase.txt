@@ -1,0 +1,1 @@
+  -- Method matching lockstepArthur not found in class: class grail.scanner.CommandInterpreter

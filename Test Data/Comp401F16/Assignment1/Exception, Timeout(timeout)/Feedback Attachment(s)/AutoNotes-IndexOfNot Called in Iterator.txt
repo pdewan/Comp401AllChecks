@@ -1,0 +1,1 @@
+  -- Type ScanningIterator not defined, cannot check

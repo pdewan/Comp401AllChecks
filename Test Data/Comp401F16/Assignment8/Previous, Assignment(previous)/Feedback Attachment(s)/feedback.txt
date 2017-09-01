@@ -1,0 +1,74 @@
+Grading result for: Previous, Assignment(previous)
+
+Grading features...
+----------------------------------
+ConsoleSceneViewFactoryMethodTest                      0.0 / 10.0
+ConsoleSceneViewOutputTestCase                         0.0 / 50.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Observables send events, observer registers and listens0.0 /  9.0
+ConsoleSceneView created and used with SingletonCreator0.0 /  9.0
+Proper interfaces implemented                          0.0 /  9.0
+Main calls proper methods                              0.0 / 10.0
+Rotate method called                                   0.0 /  3.0 (Extra credit)
+Console shows proper events being fired                0.0 / 15.0
+Animation shows correct behavior                       0.0 /  5.0
+----------------------------------
+  Points Awarded: 10.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            -1.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -6.0
+
+  Features Score: 4.0
+
+Notes from grading features:
+----------------------------------
+ConsoleSceneViewFactoryMethodTest:
+  -- Factory method:[consolesceneviewfactorymethod] not found.
+
+ConsoleSceneViewOutputTestCase:
+  -- Could not instantiate/find class matching:[]
+
+Observables send events, observer registers and listens:
+  -- Class matching PropertyChangeEvent not instantiated in LocatableObject
+  -- Class matching PropertyChangeEvent not instantiated in BoundedShape
+  -- ConsoleSceneView not found by checkstyle
+
+ConsoleSceneView created and used with SingletonCreator:
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedDeclaredSignatures: (SingletonsCreator.java:13) In type SingletonsCreator, missing declared signature: @consoleSceneViewFactoryMethod:->@ConsoleSceneView
+
+  -- Class matching ConsoleSceneView not instantiated in SingletonsCreator
+
+Proper interfaces implemented:
+  -- ConsoleSceneView not found by checkstyle
+  -- expectedInterfaces: (LocatableObject.java:10) In type LocatableObject, missing interface: PropertyListenerRegisterer
+
+  -- expectedInterfaces: (BoundedShape.java:10) In type BoundedShape, missing interface: PropertyListenerRegisterer
+
+
+Main calls proper methods:
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+  -- main.Assignment8 not found by checkstyle
+
+Rotate method called:
+  -- main.Assignment8 not found by checkstyle
+
+
+Notes from grading restrictions:
+----------------------------------
+No magic numbers:
+  -- magic.number: (Assignment7.java:42) In type Assignment7, magic number 12 in expression list EXPR 12 
+
+
+
+Early benefit: 105.0%
+  Total Score: 4.2

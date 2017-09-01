@@ -1,0 +1,61 @@
+Grading result for: Call, Split(split)
+
+Grading features...
+----------------------------------
+MultipleQuoteOutputTest:Multiple Quotes Output         0.0 / 20.0
+MixedOutputTest:Mixed Types of Tokens Output           0.0 / 10.0
+MultipleSignOutputTest:Multiple Signs Output           0.0 /  5.0 (Extra credit)
+MultipleNumberOutputTest:Multiple Numbers Output       10.0 / 10.0
+MissingQuoteOutputTest:Missing Quote Output            0.0 /  5.0 (Extra credit)
+ScannerBeanTest                                        25.0 / 25.0
+MultipleWordOutputTest:Multiple Words Output           10.0 / 10.0
+ScanString and IndexOf now called in ScannerBean       0.0 / 10.0
+ScanString and IndexOf now called in ScaningIterator   0.0 /  5.0 (Extra credit)
+Scanner Bean Instantiated in Corectly Named Main       0.0 /  5.0
+Screenshots enclosed                                   10.0 / 10.0
+Breakpoint step into/over/return screenhots            0.0 / 20.0
+Scanner Bean Tagged Correctly                          5.0 /  5.0
+----------------------------------
+  Points Awarded: 60.0
+
+Grading restrictions...
+----------------------------------
+Illegal import or call                      -25.0 /  -25.0
+----------------------------------
+  Points Deducted: -25.0
+
+  Features Score: 35.0
+
+Notes from grading features:
+----------------------------------
+MultipleQuoteOutputTest:Multiple Quotes Output:
+  -- Incorrect output
+
+MixedOutputTest:Mixed Types of Tokens Output:
+  -- Incorrect output
+
+MultipleSignOutputTest:Multiple Signs Output:
+  -- Incorrect output
+
+MissingQuoteOutputTest:Missing Quote Output:
+  -- Incorrect output
+
+ScanString and IndexOf now called in ScannerBean:
+  -- Type ScannerBean not defined, cannot check
+  -- Type ScannerBean not defined, cannot check
+
+ScanString and IndexOf now called in ScaningIterator:
+  -- Type ScannerBean not defined, cannot check
+
+Scanner Bean Instantiated in Corectly Named Main:
+  -- Type main.Assignment2 not defined, cannot check
+
+
+Notes from grading restrictions:
+----------------------------------
+Illegal import or call:
+  -- Illegal type or call in:
+illegalMethodCall: (Bean.java:42) called disallowed method scanString-->String.split
+
+
+  Total Score: 35.0

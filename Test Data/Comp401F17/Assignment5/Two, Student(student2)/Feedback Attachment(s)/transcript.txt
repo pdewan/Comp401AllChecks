@@ -1,0 +1,206 @@
+*****************************(AngleMoveSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveLeftLineTestCase: 1.0
+Calling constructor public grail.shapes.AnAngle()with args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@33a630fa 866529530 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@33a630fa 866529530 method:public void grail.shapes.AnAngle.moveAngle(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@5767b2af 1466413743 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.angle.AngleMoveRightLineTestCase: 1.0
+Calling on object grail.shapes.AnAngle@33a630fa 866529530 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getRightLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@33a630fa 866529530 method:public void grail.shapes.AnAngle.moveAngle(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@1d2644e3 489047267 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+*****************************(BridgeSceneArthurScaleHeadTestCase)*****************************
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleHeadTestCase: 1.0
+Calling constructor public grail.shapes.ABridgeScene()with args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.HeadImage grail.shapes.AnAvatar.getHead() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+*****************************(BridgeSceneComponentMoveSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@30b9eadd 817490653 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneLancelotMoveLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2f4919b0 793319856 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@75b21c3b 1974606907 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2f4919b0 793319856 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneGalahadMoveLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2c42b421 742568993 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@deb3b60 233519968 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2c42b421 742568993 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.others.BridgeSceneRobinMoveLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@27ead29e 669700766 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@40620d8e 1080167822 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@27ead29e 669700766 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveRightLegTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getLegs() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@2424686b 606365803 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getRightLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveHeadTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.HeadImage grail.shapes.AnAvatar.getHead() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getX() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getX() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public int grail.shapes.AHeadImage.getY() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.AHeadImage@4a60ee36 1247866422 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.move.arthur.BridgeSceneArthurMoveStringShapeTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.DisplayString grail.shapes.AnAvatar.getStringShape() args:[]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public int grail.shapes.ADisplayString.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public int grail.shapes.ADisplayString.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.moveAll(int,int) args:[12, 13]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public int grail.shapes.ADisplayString.getX() args:[]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public int grail.shapes.ADisplayString.getY() args:[]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ADisplayString@56febdc 91220956 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+*****************************(BridgeSceneComponentScaleSuite)*****************************
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@30b9eadd 817490653 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@412c995d 1093441885 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneLancelotScaleLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2f4919b0 793319856 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@75b21c3b 1974606907 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getLancelot() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2f4919b0 793319856 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@155d1021 358420513 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneGalahadScaleLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2c42b421 742568993 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@deb3b60 233519968 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getGalahad() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@2c42b421 742568993 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@39aa45a1 967460257 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.others.BridgeSceneRobinScaleLeftArmTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@27ead29e 669700766 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getArms() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@40620d8e 1080167822 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getLeftLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getRobin() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@27ead29e 669700766 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@49b07ee3 1236303587 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+### gradingTools.comp401f16.assignment5.testcases.scale.arthur.BridgeSceneArthurScaleRightLegTestCase: 1.0
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public grail.interfaces.Angle grail.shapes.AnAvatar.getLegs() args:[]timeOut:2000
+Calling on object grail.shapes.AnAngle@2424686b 606365803 method:public grail.interfaces.RotatingLine grail.shapes.AnAngle.getRightLine() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ABridgeScene@4ee33af7 1323514615 method:public grail.interfaces.Avatar grail.shapes.ABridgeScene.getArthur() args:[]timeOut:2000
+Calling on object grail.shapes.AnAvatar@6b04acb2 1795468466 method:public void grail.shapes.AnAvatar.scaleAvatar(double) args:[2.0]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getWidth() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public int grail.shapes.ARotatingLine.getHeight() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+Calling on object grail.shapes.ARotatingLine@28486680 675833472 method:public java.lang.String java.lang.Object.toString() args:[]timeOut:2000
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Move methods defined in Angle and Avatar)*****************************
+### Angle!@move:int;int->void: 0.0
+### Avatar!@move:int;int->void: 0.0
+*****************************(Sleep called in animation)*****************************
+### main.Assignment5!ThreadSupport!sleep:long->void: 0.0
+*****************************(Scale method defined in avatar)*****************************
+### Avatar!scale:double->void: 0.0
+*****************************(Proper classes instantiated within each other)*****************************
+### main.Assignment5!BridgeScene: 0.0
+### BridgeScene!Avatar: 0.0
+### Avatar!Angle: 0.0
+*****************************(Required constructors defined for graphical classes)*****************************
+### Angle!:: 0.0
+### Avatar!:@IMAGE_PATTERN: 0.0
+### BridgeScene!:: 0.0
+*****************************(Graphical classes have proper properties defined)*****************************
+### Angledefines getter for property LeftLine: 0.0
+### Angledefines getter for property RightLine: 0.0
+### Avatardefines getter for property Text: 0.0
+### Avatardefines getter for property Head: 0.0
+### Avatardefines getter for property Arms: 0.0
+### Avatardefines getter for property Legs: 0.0
+### BridgeScenedefines getter for property Arthur: 0.0
+### BridgeScenedefines getter for property Galahad: 0.0
+### BridgeScenedefines getter for property Lancelot: 0.0
+### BridgeScenedefines getter for property Robin: 0.0
+### BridgeScenedefines getter for property Guard: 0.0

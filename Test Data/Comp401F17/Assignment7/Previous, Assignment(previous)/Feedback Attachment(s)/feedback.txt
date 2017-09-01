@@ -1,0 +1,118 @@
+Grading result for: Previous, Assignment(previous)
+
+Grading features...
+----------------------------------
+CommandInterpreterMoveSuite                            0.0 / 40.0
+CommandInterpreterApproachedArthurSayTestCase          0.0 / 20.0
+CommandInterpreterMixedCaseSuite                       0.0 / 10.0
+StringTableTest                                        0.0 / 25.0
+CommandInterpreterErrorsSuite                          0.0 / 15.0 (Extra credit)
+CommandInterpreterSignedMoveSuite                      0.0 / 20.0 (Extra credit)
+FactoryMethodSuiteA7                                   0.0 / 20.0
+Public methods are in implemented interfaces           10.0 / 10.0
+Graphics supertypes defined                            8.0 / 16.0
+Locatable subtypes defined                             2.0 / 12.0
+BoundedShape subtypes defined                          2.0 /  4.0
+CommandInterpreter makes calls to move and say         0.0 /  6.0
+SingletonCreator created and used                      0.0 / 16.0
+Table used in SingetonsCreator, CommandInterpreter, and main 0.0 /  8.0
+Command interpreter has required property              0.0 /  6.0
+Command interpreter has errors property                0.0 /  2.0
+Animation shows function of command interpreter and correct output in all frames 0.0 / 15.0
+Table demonstrated in console, works correctly         0.0 /  8.0
+----------------------------------
+  Points Awarded: 22.0
+
+Grading restrictions...
+----------------------------------
+Variables should have interface, not class, type0.0 /  -10.0
+No magic numbers                            0.0 /  -10.0
+Interactive Run                             -5.0 /  -5.0
+Illegal import or call                      0.0 /  -25.0
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 17.0
+
+Notes from grading features:
+----------------------------------
+CommandInterpreterMoveSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+
+CommandInterpreterApproachedArthurSayTestCase:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+
+CommandInterpreterMixedCaseSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+
+StringTableTest:
+  -- Factory class:[singletonscreator] not found.
+
+CommandInterpreterErrorsSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+
+CommandInterpreterSignedMoveSuite:
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+  -- Could not instantiate/find class matching:[ErrorResilientCommandInterpreter, CommandInterpreter]
+
+FactoryMethodSuiteA7:
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.
+  -- Factory class:[singletonscreator] not found.
+
+Graphics supertypes defined:
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+  -- Locatable not found by checkstyle
+
+Locatable subtypes defined:
+  -- expectedSuperTypes: (BoundedShape.java:10) In type BoundedShape, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLine.java:10) In type RotatingLine, missing supertype: @Locatable
+expectedSuperTypes: (StringShape.java:9) In type StringShape, missing supertype: @Locatable
+expectedSuperTypes: (RotatingLineInterface.java:7) In type RotatingLineInterface, missing supertype: @Locatable
+expectedSuperTypes: (StringShapeInterface.java:6) In type StringShapeInterface, missing supertype: @Locatable
+
+
+BoundedShape subtypes defined:
+  -- expectedSuperTypes: (ImageInterface.java:6) In type ImageInterface, missing supertype: @BoundedShape
+
+
+CommandInterpreter makes calls to move and say:
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+
+SingletonCreator created and used:
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- SingletonsCreator not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+
+Table used in SingetonsCreator, CommandInterpreter, and main:
+  -- CommandInterpreter not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+  -- main.Assignment7 not found by checkstyle
+
+Command interpreter has required property:
+  -- CommandInterpreter not found by checkstyle
+  -- CommandInterpreter not found by checkstyle
+
+Command interpreter has errors property:
+  -- CommandInterpreter not found by checkstyle
+
+
+Early benefit: 105.0%
+  Total Score: 17.85

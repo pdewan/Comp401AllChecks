@@ -1,0 +1,150 @@
+Grading result for: Previous, Assignment(previous)
+
+Grading features...
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+  Points Awarded: 57.0
+
+Grading restrictions...
+----------------------------------
+
+
+
+----------------------------------
+  Points Deducted: -5.0
+
+  Features Score: 52.0
+
+Notes from grading features:
+----------------------------------
+TokenArraySuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+ExtraCommandSuite:
+  -- No class matching: [Call]
+  -- No class matching: [Define]
+  -- No class matching: [ProceedAll]
+  -- No class matching: [Define]
+  -- No class matching: [RotateLeftArm]
+  -- No class matching: [RotateRightArm]
+  -- No class matching: [Sleep]
+  -- No class matching: [Thread]
+  -- No class matching: [Undo]
+  -- No class matching: [Wait]
+
+MovingRotatingLineSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+FixedRotatingLineSuite:
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+  -- java.lang.NullPointerException null
+
+Single parameter constructors defined for command tokens:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+
+Properties defined for command token classes:
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+  -- Move not found by checkstyle
+  -- Say not found by checkstyle
+  -- Repeat not found by checkstyle
+  -- Approach not found by checkstyle
+  -- Pass not found by checkstyle
+  -- Fail not found by checkstyle
+
+Sleep called in animation:
+  -- main.Assignment4 not found by checkstyle
+
+ScannerBean has Errors property:
+  -- expectedGetters: (ScannerBean.java:1) In type ScannerBean, missing getter for property Errors of type *//EC
+
+
+Extra credit constructors and properties defined:
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+  -- RotateLeftArm not found by checkstyle
+  -- RotateRightArm not found by checkstyle
+  -- Define not found by checkstyle
+  -- Call not found by checkstyle
+  -- Thread not found by checkstyle
+  -- Wait not found by checkstyle
+  -- ProceedAll not found by checkstyle
+  -- Sleep not found by checkstyle
+  -- Undo not found by checkstyle
+  -- Redo not found by checkstyle
+
+
+Early benefit: 105.0%
+  Total Score: 54.6

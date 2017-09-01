@@ -1,0 +1,165 @@
+*****************************(CommandInterpreterMoveSuite)*****************************
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 1.0
+Factory method:[commandinterpreterfactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgescenefactorymethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterArthurMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterGalahadMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterLancelotMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.CommandInterpreterRobinMoveLeftArmTestCase: 0.0
+*****************************(CommandInterpreterApproachedArthurSayTestCase)*****************************
+### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.say.CommandInterpreterApproachedArthurSayTestCase: 0.0
+*****************************(CommandInterpreterMixedCaseSuite)*****************************
+### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterApproachedArthurMixedSayTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.mixedCase.CommandInterpreterArthurMixedMoveLeftArmTestCase: 0.0
+*****************************(StringTableTest)*****************************
+### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 1.0
+### gradingTools.comp401f16.assignment7.testcases.StringTableTest: 0.0
+*****************************(CommandInterpreterErrorsSuite)*****************************
+### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.errors.IllegalCommandNameTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.errors.MissingFirstArgumentTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.errors.MissingSecondArgumentTestCase: 0.0
+*****************************(CommandInterpreterSignedMoveSuite)*****************************
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterArthurSignedMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterGalahadSignedMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterLancelotSignedMoveLeftArmTestCase: 0.0
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 1.0
+Factory method:[commandInterpreterFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.scanner.CommandInterpreter()with args:[]timeOut:2000
+Factory method:[bridgeSceneFactoryMethod] not found.
+Trying parameterless constructor
+Calling constructor public grail.graphics.BridgeScene()with args:[]timeOut:2000
+### gradingTools.comp401f16.assignment7.testcases.move.signed.CommandInterpreterRobinSignedMoveLeftArmTestCase: 0.0
+*****************************(FactoryMethodSuiteA7)*****************************
+### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment7.testcases.factory.StringTableFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment7.testcases.factory.CommandInterpreterFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment7.testcases.factory.ScannerFactoryMethodTest: 0.0
+### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 1.0
+### gradingTools.comp401f16.assignment7.testcases.factory.BridgeSceneFactoryMethodTest: 0.0
+*****************************(Public methods are in implemented interfaces)*****************************
+### Interfaces defined: 1.0
+*****************************(Graphics supertypes defined)*****************************
+### Locatabledefines getter for property X: 0.0
+### Locatabledefines getter for property Y: 0.0
+### Locatable defines setter for property X: 0.0
+### Locatable defines setter for property Y: 0.0
+### BoundedShapedefines getter for property Width: 0.0
+### BoundedShapedefines getter for property Height: 0.0
+### BoundedShape defines setter for property Width: 0.0
+### BoundedShape defines setter for property Height: 0.0
+*****************************(Locatable subtypes defined)*****************************
+### Subtypes of Locatable defined: 1.0
+*****************************(BoundedShape subtypes defined)*****************************
+### Subtypes of BoundedShape defined: 1.0
+*****************************(CommandInterpreter makes calls to move and say)*****************************
+### CommandInterpreter!@BridgeScene!@say:String->*: 0.0
+### CommandInterpreter!(.*)!@move:int;int->*: 0.0
+*****************************(SingletonCreator created and used)*****************************
+### SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
+### SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
+### SingletonsCreator!@scannerFactoryMethod:->@ScannerBean: 0.0
+### SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 0.0
+### CommandInterpreter!@SingletonsCreator!@avatarTableFactoryMethod:->@Table: 0.0
+### main.Assignment7!@SingletonsCreator!@bridgeSceneFactoryMethod:->@BridgeScene: 0.0
+### main.Assignment7!@SingletonsCreator!@scannerFactoryMethod:->@ScannerBean: 0.0
+### main.Assignment7!@SingletonsCreator!@commandInterpreterFactoryMethod:->@CommandInterpreter: 0.0
+*****************************(Table used in SingetonsCreator, CommandInterpreter, and main)*****************************
+### CommandInterpreter!(.*)!get:String->*: 0.0
+### main.Assignment7!(.*)!put:String;Object->void: 0.0
+### main.Assignment7!(.*)!get:String->*: 0.0
+*****************************(Command interpreter has required property)*****************************
+### CommandInterpreterdefines getter for property Command: 0.0
+### CommandInterpreter defines setter for property Command: 0.0
+*****************************(Command interpreter has errors property)*****************************
+### CommandInterpreterdefines getter for property Errors: 0.0

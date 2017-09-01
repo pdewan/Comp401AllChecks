@@ -1,0 +1,1184 @@
+//START OF FILE: src/grail/scannerbean.java
+package grail;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+import java.util.Iterator;
+
+import grail.commandBeans.ApproachCommand;
+import grail.commandBeans.FailCommand;
+import grail.commandBeans.MoveCommand;
+import grail.commandBeans.PassCommand;
+import grail.commandBeans.RepeatCommand;
+import grail.commandBeans.SayCommand;
+import grail.extraCommandBeans.CallCommand;
+import grail.extraCommandBeans.DefineCommand;
+import grail.extraCommandBeans.ProceedAllCommand;
+import grail.extraCommandBeans.RedoCommand;
+import grail.extraCommandBeans.RotateLeftArmCommand;
+import grail.extraCommandBeans.RotateRightArmCommand;
+import grail.extraCommandBeans.SleepCommand;
+import grail.extraCommandBeans.ThreadCommand;
+import grail.extraCommandBeans.UndoCommand;
+import grail.extraCommandBeans.WaitCommand;
+import grail.interfaces.ScannerBeanInterface;
+import grail.interfaces.Token;
+import grail.tokenBeans.EndToken;
+import grail.tokenBeans.MinusToken;
+import grail.tokenBeans.NumberToken;
+import grail.tokenBeans.PlusToken;
+import grail.tokenBeans.QuoteToken;
+import grail.tokenBeans.StartToken;
+import grail.tokenBeans.WordToken;
+import mp.scanner.ScanningIterator;
+
+
+/**
+ * A "Bean" object whose setter for scannedString prints the tokens and their types.
+ * @author Semion
+ *
+ */
+@Tags({"ScannerBean"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"ScannedString", "Tokens", "Errors"})
+@EditablePropertyNames({"ScannedString"})
+public class ScannerBean implements ScannerBeanInterface{
+
+	private String scannedString = "";
+	
+	private Token[] tokenStorage = new Token[100];
+	private Token[] tokens = {};
+	private int numTokens = 0;
+	
+	private String[] errorStorage = new String[100];
+	private String[] errors = {};
+	private int numErrors = 0;
+	
+	public String getScannedString(){
+		return scannedString;
+	};
+	
+	public void setScannedString(String s){
+		scanString(s);
+		scannedString = s;
+	};
+	
+	public Token[] getTokens(){
+		return tokens;
+	}
+	
+	public String[] getErrors(){
+		return errors;
+	}
+	
+	
+	/**
+	 * Produces output from each string
+	 */
+	private void scanString(String s){
+		
+		// Reset arrays
+		numTokens = 0;
+		numErrors = 0;
+		
+		Iterator<String> iterator = new ScanningIterator(s);
+		
+		Token tokenObject = null;	// used to grab each token
+		
+		// Take each space-delimited token
+		while (iterator.hasNext()){
+			String tokenString = iterator.next();
+
+			boolean valid = true; // will be used to mark invalid tokens
+			
+			// Check for number
+			if (Character.isDigit(tokenString.charAt(0))){
+				valid = isValidNumber(tokenString);
+				if (valid){
+					tokenObject = new NumberToken(tokenString);
+				}
+				
+			// Check for word
+			} else if (Character.isLetter(tokenString.charAt(0))){
+				valid = isValidWord(tokenString);
+				if (valid){
+					tokenObject = constructCommandOrWord(tokenString);
+				}
+			
+			// Check for quoted string
+			} else if (tokenString.charAt(0) == '\"'){
+				
+				// The only invalid token would be an empty quoted string
+				if (tokenString.length() <= "\"\"".length()){
+					valid = false;
+				}
+				
+				if (valid){
+					
+					// Trim quotation marks off the ends of the token
+					tokenString = tokenString.substring(1, tokenString.length()-1);
+					
+					tokenObject = new QuoteToken(tokenString);
+				}
+			
+			// Check for plus token
+			} else if (tokenString.equals("+")){
+				tokenObject = new PlusToken(tokenString);
+			
+			// Check for minus token
+			} else if (tokenString.equals("-")){
+				tokenObject = new MinusToken(tokenString);
+			
+			// Check for "start" token
+			} else if (tokenString.equals("{")){
+				tokenObject = new StartToken(tokenString);
+				
+			// Check for "end" token
+			} else if (tokenString.equals("}")){
+				tokenObject = new EndToken(tokenString);
+				
+			// Otherwise invalid
+			} else{
+				valid = false;
+			}
+			
+			if (valid){
+				tokenStorage[numTokens] = tokenObject;
+				++numTokens;
+			} else {
+				errorStorage[numErrors] = tokenString;
+				++numErrors;
+			}
+		}//end grabbing tokens
+		
+		// Compress arrays
+		tokens = new Token[numTokens];
+		for (int i = 0; i < numTokens; ++i){
+			tokens[i] = tokenStorage[i];
+		}
+		
+		errors = new String[numErrors];
+		for (int i = 0; i < numErrors; ++i){
+			errors[i] = errorStorage[i];
+		}
+	}//end scanString()
+	
+	/**
+	 * Constructs proper command from word, or just a word if no command matches.
+	 * Assumes that word is non-empty and valid.
+	 * 
+	 * @param tokenString
+	 * @return proper command object, or word object otherwise
+	 */
+	private static Token constructCommandOrWord(String tokenString) {
+		
+		if ("approach".equalsIgnoreCase(tokenString)){
+			return new ApproachCommand(tokenString);
+			
+		}else if ("fail".equalsIgnoreCase(tokenString)){
+			return new FailCommand(tokenString);
+			
+		}else if ("move".equalsIgnoreCase(tokenString)){
+			return new MoveCommand(tokenString);
+			
+		}else if ("pass".equalsIgnoreCase(tokenString)){
+			return new PassCommand(tokenString);
+			
+		}else if ("repeat".equalsIgnoreCase(tokenString)){
+			return new RepeatCommand(tokenString);
+			
+		}else if ("say".equalsIgnoreCase(tokenString)){
+			return new SayCommand(tokenString);
+			
+		}else if ("call".equalsIgnoreCase(tokenString)){
+			return new CallCommand(tokenString);
+			
+		}else if ("define".equalsIgnoreCase(tokenString)){
+			return new DefineCommand(tokenString);
+			
+		}else if ("proceedall".equalsIgnoreCase(tokenString)){
+			return new ProceedAllCommand(tokenString);
+			
+		}else if ("redo".equalsIgnoreCase(tokenString)){
+			return new RedoCommand(tokenString);
+			
+		}else if ("rotateleftarm".equalsIgnoreCase(tokenString)){
+			return new RotateLeftArmCommand(tokenString);
+			
+		}else if ("rotaterightarm".equalsIgnoreCase(tokenString)){
+			return new RotateRightArmCommand(tokenString);
+			
+		}else if ("sleep".equalsIgnoreCase(tokenString)){
+			return new SleepCommand(tokenString);
+			
+		}else if ("thread".equalsIgnoreCase(tokenString)){
+			return new ThreadCommand(tokenString);
+			
+		}else if ("undo".equalsIgnoreCase(tokenString)){
+			return new UndoCommand(tokenString);
+			
+		}else if ("wait".equalsIgnoreCase(tokenString)){
+			return new WaitCommand(tokenString);
+		}
+		
+		// If none matched, return generic word
+		return new WordToken(tokenString);
+	}
+
+	private static boolean isValidWord(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isLetter(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+	
+	private static boolean isValidNumber(String s){
+		
+		// Assume correct to begin with
+		boolean validity = true;
+		
+		// Go through and stop at any invalid character
+		for (int i = 0; i < s.length(); ++i){
+			if (!Character.isDigit(s.charAt(i))){
+				validity = false;
+				break;
+			}
+		}
+		return validity;
+	}
+}//end class
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/approachcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Approach"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ApproachCommand extends WordToken {
+
+	public ApproachCommand(String input) {
+		super(input);
+	}
+	
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/failcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Fail"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class FailCommand extends WordToken {
+
+	public FailCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/movecommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Move"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class MoveCommand extends WordToken {
+
+	public MoveCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/passcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Pass"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class PassCommand extends WordToken {
+
+	public PassCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/repeatcommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Repeat"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RepeatCommand extends WordToken {
+
+	public RepeatCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/commandbeans/saycommand.java
+package grail.commandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Say"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SayCommand extends WordToken {
+
+	public SayCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/callcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Call"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class CallCommand extends WordToken {
+
+	public CallCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/definecommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Define"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class DefineCommand extends WordToken {
+
+	public DefineCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/proceedallcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"ProceedAll"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ProceedAllCommand extends WordToken {
+
+	public ProceedAllCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/redocommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Redo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RedoCommand extends WordToken {
+
+	public RedoCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotateleftarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateLeftArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateLeftArmCommand extends WordToken {
+
+	public RotateLeftArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/rotaterightarmcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotateRightArm"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class RotateRightArmCommand extends WordToken {
+
+	public RotateRightArmCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/sleepcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Sleep"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class SleepCommand extends WordToken {
+
+	public SleepCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/threadcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Thread"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class ThreadCommand extends WordToken {
+
+	public ThreadCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/undocommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Undo"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class UndoCommand extends WordToken {
+
+	public UndoCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/extracommandbeans/waitcommand.java
+package grail.extraCommandBeans;
+
+import grail.tokenBeans.WordToken;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Wait"})@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WaitCommand extends WordToken {
+
+	public WaitCommand(String input) {
+		super(input);
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/number.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Number"})
+public interface Number extends Token {
+	public int getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/rotatinglineinterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"RotatingLine","rotate"})
+public interface RotatingLineInterface {
+	public int getHeight();
+	public int getWidth();
+	
+	public int getX();
+	public void setX(int x);
+	public int getY();
+	public void setY(int y);
+	public void setRadius(double r);
+	public double getRadius();
+	
+	public void setAngle(double theta);
+	public double getAngle();
+	
+	public void rotateByClockwiseDegrees(int degrees);
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/scannerbeaninterface.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"ScannerBean"})
+public interface ScannerBeanInterface {
+	public String getScannedString();
+	public void setScannedString(String s);
+	public Token[] getTokens();
+	public String[] getErrors();
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/token.java
+package grail.interfaces;
+
+import util.annotations.Tags;
+
+@Tags({"Token", "Number", "Word", "Quote", "Plus", "Minus", "Start", "End"})
+public interface Token {
+	
+	public void setInput(String newString);
+	public String getInput();
+
+}
+//END OF FILE
+//START OF FILE: src/grail/interfaces/word.java
+package grail.interfaces;
+import util.annotations.Tags;
+
+@Tags({"Word"})
+public interface Word extends Token {
+	public String getValue();
+}
+//END OF FILE
+//START OF FILE: src/grail/shapes/rotatingline.java
+package grail.shapes;
+
+import grail.interfaces.RotatingLineInterface;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"RotatingLine"})
+@StructurePattern(StructurePatternNames.LINE_PATTERN)
+@PropertyNames({"Height", "Width","X", "Y","Angle", "Radius"})
+@EditablePropertyNames({"X", "Y","Angle", "Radius"})
+public class RotatingLine implements RotatingLineInterface{
+
+	private static double DEGREE_IN_RADIANS = Math.PI / 180;
+	private static double DEFAULT_RADIUS = 100;
+	
+	int upperLeftX = 0;
+	int upperLeftY = 0;
+	double radius = DEFAULT_RADIUS;
+	double angle = 0;
+	
+	public RotatingLine(){
+		// Keep default values
+	}
+	
+	public RotatingLine(int x, int y, double r, double a){
+		upperLeftX = x;
+		upperLeftY = y;
+		radius = r;
+		angle = a;
+	}
+	
+	@Override
+	public int getX() {
+		return upperLeftX;
+	}
+	
+	@Override
+	public void setX(int x) {
+		upperLeftX = x;
+	}
+
+	@Override
+	public int getY() {
+		return upperLeftY;
+	}
+	
+	@Override
+	public void setY(int y) {
+		upperLeftY = y;
+	}
+	
+	@Override
+	public int getHeight() {
+		return (int)(radius*Math.sin(angle));
+	}
+
+	@Override
+	public int getWidth() {
+		return (int)(radius*Math.cos(angle));
+	}
+
+	@Override
+	public void setRadius(double r) {
+		radius = r;
+	}
+
+	@Override
+	public double getRadius() {
+		return radius;
+	}
+
+	@Override
+	public void setAngle(double theta) {
+		angle = theta;
+	}
+
+	@Override
+	public double getAngle() {
+		return angle;
+	}
+
+	@Override
+	@Tags({"rotate"})
+	public void rotateByClockwiseDegrees(int degrees) {
+		setAngle(getAngle() + (degrees * DEGREE_IN_RADIANS));
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/endtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"End"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class EndToken implements Token {
+
+	private String input;
+	
+	public EndToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/minustoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Minus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class MinusToken implements Token {
+
+	private String input;
+	
+	public MinusToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/numbertoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Number;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Number"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class NumberToken implements Number{
+	
+	private String input;
+	private int value;
+	
+	public NumberToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = Integer.parseInt(newString);
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+	@Override
+	public int getValue() {
+		return value;
+	}
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/plustoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Plus"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class PlusToken implements Token {
+
+	private String input;
+	
+	public PlusToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/quotetoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Quote"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class QuoteToken implements Token{
+
+	private String input;
+	
+	public QuoteToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/starttoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Token;
+
+import util.annotations.EditablePropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Start"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@EditablePropertyNames({"Input"})
+public class StartToken implements Token{
+
+	private String input;
+	
+	public StartToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/grail/tokenbeans/wordtoken.java
+package grail.tokenBeans;
+
+import grail.interfaces.Word;
+import util.annotations.EditablePropertyNames;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags({"Word"})
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({"Input", "Value"})
+@EditablePropertyNames({"Input"})
+public class WordToken implements Word{
+
+	private String input;
+	private String value;
+	
+	public WordToken(String input){
+		setInput(input);
+	}
+	
+	@Override
+	public void setInput(String newString) {
+		input = newString;
+		value = newString.toLowerCase();
+	}
+
+	@Override
+	public String getInput() {
+		return input;
+	}
+
+	@Override
+	public String getValue() {
+		return value;
+	}
+
+}
+//END OF FILE
+//START OF FILE: src/main/assignment4.java
+package main;
+
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import grail.ScannerBean;
+import grail.interfaces.RotatingLineInterface;
+import grail.interfaces.ScannerBeanInterface;
+import grail.shapes.RotatingLine;
+import util.misc.ThreadSupport;
+
+public class Assignment4 {
+	
+	private static final int ROTATIONS = 60; //for rotating line
+	private static final int TIME_BETWEEN_ROTATIONS = 100;
+	
+	private static final int TIME_BETWEEN_UPDATES = 3000;
+	private static final String[] testStrings = {
+			"{ } - + 0029",
+			"\" quoted string! \" someWORD er$$or e#ror",
+			"aPproacH FAil mOve PaSS",
+			"repEaT Say cAll defINE PROCeed",
+			"redo ROTATELEFTARM RotateRightArm slEep THread",
+			"Undo waiT M#re eR1ors"
+	};
+	
+	public static void main(String[] args) {
+
+		ScannerBeanInterface myScanner = new ScannerBean();
+		OEFrame oeFrame = ObjectEditor.edit(myScanner);
+		
+		// Animate the properties
+		for (int i= 0; i < 0; ++i){
+			myScanner.setScannedString(testStrings[i]);
+			oeFrame.refresh();
+			ThreadSupport.sleep(TIME_BETWEEN_UPDATES);
+		}
+		
+		// Animate rotating line
+		RotatingLineInterface myLine = new RotatingLine(100, 100, 100, 0);
+		oeFrame = ObjectEditor.edit(myLine);
+		for (int i = 0; i < 0 ; ++i){
+			myLine.rotateByClockwiseDegrees(6);
+			oeFrame.refresh();
+			ThreadSupport.sleep(TIME_BETWEEN_ROTATIONS);
+		}
+		
+	}//end main
+}//end class
+//END OF FILE
+//START OF FILE: src/mp/scanner/scanningiterator.java
+package mp.scanner;
+
+import java.util.Iterator;
+
+public class ScanningIterator implements Iterator<String>{
+
+	private String stringData;
+	private int position = 0;
+	
+	/**
+	 * Constructor
+	 * @param s string to iterate over
+	 */
+	public ScanningIterator(String s){
+		stringData = s;
+	}
+
+	/**
+	 * Checks whether there is another token to be had
+	 */
+	@Override
+	public boolean hasNext() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			position = stringData.length();
+		}
+		return (position < stringData.length());
+	}
+
+	/**
+	 * Gets the next token
+	 */
+	@Override
+	public String next() {
+		
+		// Consume spaces
+		position = indexOfNot(stringData, ' ', position);
+		if (position == -1){
+			
+			// Rest of string was spaces
+			position = stringData.length();
+			return "";
+		}
+		
+		// Get token
+		int tokenStart = position;
+		int tokenEnd = position;
+		
+		// Treat quoted strings differently
+		if (stringData.charAt(tokenStart) == '\"'){
+			
+			// Look for the closing quote after this quote
+			tokenEnd = indexOf(stringData, '\"', tokenStart + 1);
+			
+			if (tokenEnd == -1){
+				System.out.println("ERROR: No closing quote found. Assumed line end to be closing quote.");
+				tokenEnd = stringData.length();
+				position = tokenEnd;
+				return stringData.substring(tokenStart, tokenEnd)+ "\"";
+			
+			// If closing quote exists, make sure it is grabbed
+			} else {
+				++tokenEnd;
+			}
+			
+		// If not a quoted string, end of token is a space or line end	
+		} else {
+			tokenEnd = indexOf(stringData, ' ', tokenStart);
+		}
+			
+		if (tokenEnd == -1){
+			tokenEnd = stringData.length();
+		}
+		
+		position = tokenEnd;
+		
+		return stringData.substring(tokenStart, tokenEnd);
+	}
+	
+	/**
+	 * Returns index of first character equal to ch
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first ocurrence of ch after fromIndex, or -1 if not found
+	 */
+	private static int indexOf(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)==ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+	/**
+	 * Returns index of first character not equal to ch
+	 * 
+	 * @param s
+	 * @param ch
+	 * @param fromIndex index at which to start search
+	 * @return index of first character that is not ch after fromIndex, or -1 if no non-ch characters found
+	 */
+	private static int indexOfNot(String s, char ch, int fromIndex){
+		for (int i=fromIndex; i < s.length(); ++i){
+			if (s.charAt(i)!=ch){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+}
+//END OF FILE
