@@ -1,1 +1,1 @@
-  -- Type ScanningIterator not defined, cannot check
+  -- ScanningIterator not found by checkstyle

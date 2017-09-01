@@ -1,7 +1,7 @@
 //START OF FILE: src/main/scan.java
 package main;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Scanner
 public class Scan 
 {
 	public static void main(String[] args)

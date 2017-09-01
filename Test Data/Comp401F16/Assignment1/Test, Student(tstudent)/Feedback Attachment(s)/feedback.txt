@@ -5,7 +5,7 @@ Grading features...
 ScanStringTestSuite:ScanString functions correctly     0.0 / 15.0
 ScanningIteratorSuite:Scanning Iterator                0.0 / 30.0 (Extra credit)
 MultipleTokenSuite:Can process multiple tokens         20.0 / 30.0
-InvalidCharacterSuite:Handles Invalid Characters       1.7 / 10.0 (Extra credit)
+InvalidCharacterSuite:Handles Invalid Characters       0.0 / 10.0 (Extra credit)
 TerminatesWithStartingPeriodSuite:Terminating period forms complete line 5.0 /  5.0
 IndexOfNotTestSuite:IndexOfNot functions correctly     0.0 /  5.0 (Extra credit)
 IndexOfTestSuite:IndexOf functions correctly           0.0 / 18.0
@@ -20,7 +20,7 @@ Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   5.0 /  5.0
 Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 46.7
+  Points Awarded: 45.0
 
 Grading restrictions...
 ----------------------------------
@@ -28,7 +28,7 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 46.7
+  Features Score: 45.0
 
 Notes from grading features:
 ----------------------------------
@@ -36,16 +36,16 @@ ScanStringTestSuite:ScanString functions correctly:
   -- Did not find a class in:[main.Assignment1, (.*)Assignment(.*), ScanningIterator, (.*)ScanningIterator(.*), ScannerBean, (.*)Bean(.*)]%Did not find a class in:[main.Assignment1, (.*)Assignment(.*), ScanningIterator, (.*)ScanningIterator(.*), ScannerBean, (.*)Bean(.*)]
 
 ScanningIteratorSuite:Scanning Iterator:
-  -- java.lang.ArrayIndexOutOfBoundsException 0
-  -- java.lang.ArrayIndexOutOfBoundsException 0
+  -- Did not find a class in:[(.*)ScanningIterator(.*)]%Did not find a class in:[(.*)ScanningIterator(.*)]
+  -- Did not find a class in:[(.*)ScanningIterator(.*)]%Did not find a class in:[(.*)ScanningIterator(.*)]
 
 MultipleTokenSuite:Can process multiple tokens:
-  -- Incorrect output
+  -- Incorrect output (Pattern:(.*)12(.*) not found in output line: []) 
 
 InvalidCharacterSuite:Handles Invalid Characters:
-  -- Incorrect output
-  -- Incorrect output
-  -- Correct output but errors
+  -- Incorrect output (Pattern:(.*)12(.*) not found in output line: []) 
+  -- Incorrect output (Pattern:(.*)190(.*) not found in output line: [Numbers: 101 two ]) 
+  -- Incorrect output (Pattern:(.*)1771944(.*) not found in output line: [Numbers: 101 two ]) 
 
 IndexOfNotTestSuite:IndexOfNot functions correctly:
   -- Did not find a class in:[ScanningIterator, main.Assignment1]%Did not find a class in:[ScanningIterator, main.Assignment1]
@@ -66,28 +66,28 @@ IndexOfTestSuite:IndexOf functions correctly:
   -- Did not find a class in:[ScanningIterator, main.Assignment1]%Did not find a class in:[ScanningIterator, main.Assignment1]
 
 VariableSpaceSuite:Handles Variable Spaces:
-  -- Incorrect output
-  -- Incorrect output
-  -- Incorrect output
+  -- Incorrect output (Pattern:(.*)101(.*) not found in output line: [Numbers: ]) 
+  -- Incorrect output (Pattern:(.*)190(.*) not found in output line: [Numbers: ]) 
+  -- Incorrect output (Pattern:(.*)190(.*) not found in output line: [Numbers: ]) 
 
 Required Methods Called in Main or Iterator:
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
+  -- main.Assignment not found by checkstyle
+  -- main.Assignment not found by checkstyle
+  -- main.Assignment not found by checkstyle
 
 IndexOf  Called in Iterator:
-  -- Type ScanningIterator not defined, cannot check
+  -- ScanningIterator not found by checkstyle
 
 indexOfNot Called in Main:
-  -- Type main.Assignment not defined, cannot check
+  -- main.Assignment not found by checkstyle
 
 IndexOfNot Called in Iterator:
-  -- Type ScanningIterator not defined, cannot check
+  -- ScanningIterator not found by checkstyle
 
 Iterator Methods Called in Main:
-  -- Type main.Assignment not defined, cannot check
-  -- Type main.Assignment not defined, cannot check
+  -- main.Assignment not found by checkstyle
+  -- main.Assignment not found by checkstyle
 
 
 Early benefit: 105.0%
-  Total Score: 49.35
+  Total Score: 47.25

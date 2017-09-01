@@ -1,1 +1,1 @@
-  -- Type main.Assignment not defined, cannot check
+  -- main.Assignment not found by checkstyle

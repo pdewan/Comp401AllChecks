@@ -8,7 +8,7 @@
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/GraderBasics"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Grader"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Comp401LocalChecks"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/comp110-grader"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

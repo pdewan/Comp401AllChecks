@@ -12,15 +12,15 @@ IndexOfTestSuite:IndexOf functions correctly           18.0 / 18.0
 TerminatesWithPeriodLineSuite:Handles Space After Period 5.0 /  5.0
 SingleTokenSuite:Can process a single token            10.0 / 10.0
 VariableSpaceSuite:Handles Variable Spaces             5.0 /  5.0 (Extra credit)
-Required Methods Called in Main or Iterator            10.0 / 15.0
-IndexOf  Called in Iterator                            5.0 /  5.0 (Extra credit)
+Required Methods Called in Main or Iterator            0.0 / 15.0
+IndexOf  Called in Iterator                            0.0 /  5.0 (Extra credit)
 indexOfNot Called in Main                              0.0 /  3.0 (Extra credit)
-IndexOfNot Called in Iterator                          3.0 /  3.0 (Extra credit)
-Iterator Methods Called in Main                        10.0 / 10.0 (Extra credit)
+IndexOfNot Called in Iterator                          0.0 /  3.0 (Extra credit)
+Iterator Methods Called in Main                        0.0 / 10.0 (Extra credit)
 Screenshots enclosed                                   0.0 /  5.0
 Screenshots show tests                                 0.0 / 10.0
 ----------------------------------
-  Points Awarded: 161.0
+  Points Awarded: 133.0
 
 Grading restrictions...
 ----------------------------------
@@ -28,19 +28,13 @@ Illegal import or call                      0.0 /  -25.0
 ----------------------------------
   Points Deducted: 0.0
 
-  Features Score: 161.0
+  Features Score: 133.0
 
 Notes from grading features:
 ----------------------------------
-Required Methods Called in Main or Iterator:
-  -- Method matching indexOf:String;char;int->int not called in Assignment1
-
-indexOfNot Called in Main:
-  -- Method matching indexOfNot:String;char;int->int not called in Assignment1
-
 Screenshots enclosed:
   -- Missing images
 
 
 Early benefit: 105.0%
-  Total Score: 169.05
+  Total Score: 139.65
