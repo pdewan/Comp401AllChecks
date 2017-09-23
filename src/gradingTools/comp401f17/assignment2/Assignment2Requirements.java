@@ -23,7 +23,7 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
     	GradingMode.setGraderRun(true);
     	
     	// Method calls
-    	addFeature("ScanString and IndexOf now called in ScannerBean", 10,
+    	addFeature("ScanString and IndexOf not called in ScannerBean", 10,
 	   		new CheckstyleMethodCalledTestCase(
 	   				"ScannerBean", 
 	   				"scanString:String->void"),
