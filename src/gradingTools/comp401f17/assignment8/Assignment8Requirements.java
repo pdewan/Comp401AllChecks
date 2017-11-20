@@ -65,9 +65,9 @@ public class Assignment8Requirements  extends AJUnitProjectRequirements{
 
      	addFeature("Main calls proper methods", 10,
      			new CheckstyleMethodCalledTestCase("main.Assignment8", "@SingletonsCreator!consoleSceneViewFactoryMethod:->@ConsoleSceneView"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment8", "@SingletonsCreator!bridgeSceneFactoryMethod:->@BridgeScene"), 
+//     			new CheckstyleMethodCalledTestCase("main.Assignment8", "@SingletonsCreator!bridgeSceneFactoryMethod:->@BridgeScene"), 
      			new CheckstyleMethodCalledTestCase("main.Assignment8", "(.*)!sleep:long->void"),
-     			new CheckstyleMethodCalledTestCase("main.Assignment8", "(.*)!@move:int;int->*"),
+//     			new CheckstyleMethodCalledTestCase("main.Assignment8", "(.*)!@move:int;int->*"),
      			new CheckstyleMethodCalledTestCase("main.Assignment8", "(.*)!setText:String->void")
      			);
      	
