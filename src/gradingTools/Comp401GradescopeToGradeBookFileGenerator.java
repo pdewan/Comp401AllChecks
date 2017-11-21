@@ -1,5 +1,10 @@
 package gradingTools;
 
+import java.io.File;
+import java.util.Map;
+
+import gradingTools.sakai.gradebook.GradebookConverter;
+
 public class Comp401GradescopeToGradeBookFileGenerator {
 //	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu",
@@ -10,9 +15,11 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 	};
 
 	public static void main (String[] args) {
-		GradeScopeFileGenerator.gradescopeToGradeBook(
+//		Map aMap = GradebookConverter.gradeBookToMap(new File("D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv"));
+		GradebookConverter.gradescopeToGradebook(
 				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17.csv", 
 				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai.csv",
+				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 				onyensToEmail);
 		
 	 
