@@ -1,6 +1,6 @@
 package gradingTools;
 
-import gradingTools.sakai.gradebook.GradebookConverter;
+import gradingTools.sakai.gradebook.GradebookGradescopeConverter;
 
 public class Comp401GradeBookToGradesScopeFileGenerator {
 //	static String[] onyensToEmail = new String[] {
@@ -13,7 +13,7 @@ public class Comp401GradeBookToGradesScopeFileGenerator {
 		"whglaser:whglaser@ad.unc.edu"
 	};
 	public static void main (String[] args) {
-		GradebookConverter.gradebookToGradescope(
+		GradebookGradescopeConverter.gradebookToGradescope(
 				GRADEBOOK_TEMPLATE_FILE_NAME, 
 				"D:\\UNCGoogleDrive\\401-f15\\grades\\gradescope_import-F17.csv",				
 				onyensToEmail);
