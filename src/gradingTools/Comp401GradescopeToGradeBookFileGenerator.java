@@ -18,7 +18,7 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 //		Map aMap = GradebookConverter.gradeBookToMap(new File("D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv"));
 		GradebookConverter.gradescopeToGradebook(
 				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17.csv", 
-				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai.csv",
+				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai_2.csv",
 				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 				onyensToEmail);
 		
