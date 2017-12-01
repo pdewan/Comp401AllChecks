@@ -23,14 +23,20 @@ public class Comp401DiaryToGradeBookFileGenerator {
 //				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai_2.csv",
 //				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 //				onyensToEmail);
-		for (String aDate:dates) {
 		DiaryManagement.diaryToGradebook(				
-				aDate, 
+				dates, 
 				DIARY_FILE_NAME, 
-				aDate.isEmpty()?false:true,
+//				aDate.isEmpty()?false:true,
 				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
 				onyensToEmail);	
-		}
+//		for (String aDate:dates) {
+//		DiaryManagement.diaryToGradebook(				
+//				aDate, 
+//				DIARY_FILE_NAME, 
+//				aDate.isEmpty()?false:true,
+//				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
+//				onyensToEmail);	
+//		}
 		// print all diary
 		DiaryManagement.diaryToGradebook(				
 				"", 
