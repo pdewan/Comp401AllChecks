@@ -12,10 +12,11 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 public class Assignment2Requirements extends AJUnitProjectRequirements {
 
     public Assignment2Requirements() {
-     	addDueDate("09/07/2017 00:59:00", 1.05); // wed before
-     	addDueDate("09/09/2017 00:59:00", 1); // fri due
-     	addDueDate("09/13/2017 00:59:00", 0.90);// mon after due
-     	addDueDate("09/16/2017 00:59:00", 0.75); // fri after due
+//     	addDueDate("09/07/2017 00:59:00", 1.05); // wed before
+//     	addDueDate("09/09/2017 00:59:00", 1); // fri due
+//     	addDueDate("09/13/2017 00:59:00", 0.90);// mon after due
+//     	addDueDate("09/16/2017 00:59:00", 0.75); // fri after due
+    	addDueDate("12/07/2016 03:00:00", 1);
      	
      	BasicProjectExecution.setReRunInfiniteProcesses(true);
       // Functionality

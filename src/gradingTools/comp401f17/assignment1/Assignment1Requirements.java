@@ -12,10 +12,11 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
 	public static final String MAIN_SUBSTRING = "main.Assignment";
 	public static final String ITERATOR_SUSTRING = "ScanningIterator";
     public Assignment1Requirements() {
-    	addDueDate("08/31/2017 00:59:00", 1.05); // wed before + 1hr
-    	addDueDate("09/02/2017 00:59:00", 1); // fri due + 1 hr
-    	addDueDate("09/06/2017 00:59:00", 0.90);// tue after + 1 hr
-    	addDueDate("09/09/2017 00:59:00", 0.75); // fri after due + 1hr
+//    	addDueDate("08/31/2017 00:59:00", 1.05); // wed before + 1hr
+//    	addDueDate("09/02/2017 00:59:00", 1); // fri due + 1 hr
+//    	addDueDate("09/06/2017 00:59:00", 0.90);// tue after + 1 hr
+//    	addDueDate("09/09/2017 00:59:00", 0.75); // fri after due + 1hr
+    	addDueDate("12/07/2016 03:00:00", 1);
     	
         // Functionality
     	addJUnitTestSuite(Assignment1Suite.class);

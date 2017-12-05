@@ -18,8 +18,9 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 
 public class Assignment12Requirements  extends AJUnitProjectRequirements{
 	public Assignment12Requirements(){
-		addDueDate("11/30/2017 00:59:00", 1.05); 	// mon before
-     	addDueDate("12/01/2017 00:59:00", 1); 		// wed due
+//		addDueDate("11/30/2017 00:59:00", 1.05); 	// mon before
+//     	addDueDate("12/01/2017 00:59:00", 1); 		// wed due
+    	addDueDate("12/07/2016 03:00:00", 1);
      	
      	// Functionality
      	GradingMode.setGraderRun(true);
