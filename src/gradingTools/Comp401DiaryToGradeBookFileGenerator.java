@@ -15,7 +15,9 @@ public class Comp401DiaryToGradeBookFileGenerator {
 		"whglaser:whglaser@ad.unc.edu"
 	};
 	static final String DIARY_FILE_NAME = "D:\\UNCGoogleDrive\\401-f15\\grades\\401diaries.csv";
-	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9"};
+//	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/30"};
+	static String[] dates = {""};
+
 	public static void main (String[] args) {
 //		Map aMap = GradebookConverter.gradeBookToMap(new File("D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv"));
 //		GradebookGradescopeConverter.gradescopeToGradebook(
