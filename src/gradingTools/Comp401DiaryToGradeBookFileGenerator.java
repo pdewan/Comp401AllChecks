@@ -16,7 +16,12 @@ public class Comp401DiaryToGradeBookFileGenerator {
 	};
 	static final String DIARY_FILE_NAME = "D:\\UNCGoogleDrive\\401-f15\\grades\\401diaries.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/30"};
-	static String[] dates = {""};
+	static String[] dates = {"", ""};
+	static Integer[] diaryLimits = {-1};
+	static Integer[] qALimits = {20};
+	static Boolean[] isDiary = {true, false};
+	static Integer[] limits = {-1, 20};
+	
 
 	public static void main (String[] args) {
 //		Map aMap = GradebookConverter.gradeBookToMap(new File("D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv"));
@@ -28,9 +33,11 @@ public class Comp401DiaryToGradeBookFileGenerator {
 		DiaryManagement.diaryToGradebook(				
 				dates, 
 				DIARY_FILE_NAME, 
+				isDiary,
 //				aDate.isEmpty()?false:true,
 				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
-				onyensToEmail);	
+				onyensToEmail,
+				limits);	
 //		for (String aDate:dates) {
 //		DiaryManagement.diaryToGradebook(				
 //				aDate, 
@@ -39,13 +46,15 @@ public class Comp401DiaryToGradeBookFileGenerator {
 //				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
 //				onyensToEmail);	
 //		}
-		// print all diary
-		DiaryManagement.diaryToGradebook(				
-				"", 
-				DIARY_FILE_NAME, 
-				true,
-				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
-				onyensToEmail);	
+//		// print all diary
+//		DiaryManagement.diaryToGradebook(				
+////				"", 
+//				dates,
+//				DIARY_FILE_NAME, 
+//				true,
+//				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
+//				onyensToEmail,
+//				qALimits);	
 		
 	}
 
