@@ -25,7 +25,7 @@ public class Assignment6Requirements  extends AJUnitProjectRequirements{
 //     	addDueDate("10/25/2017 00:59:00", 1); 		// fri due
 //     	addDueDate("10/28/2017 00:59:00", 0.9);	// mon after due
 //     	addDueDate("11/01/2017 00:59:00", 0.75); 	// fri after due
-    	addDueDate("12/07/2016 03:00:00", 1);
+    	addDueDate("12/07/2017 03:00:00", 1);
      	
      	// Functionality
      	GradingMode.setGraderRun(true);
