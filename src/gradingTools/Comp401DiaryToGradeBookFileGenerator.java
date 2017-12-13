@@ -20,7 +20,7 @@ public class Comp401DiaryToGradeBookFileGenerator {
 	static Integer[] diaryLimits = {-1};
 	static Integer[] qALimits = {20};
 	static Boolean[] isDiary = {true, false};
-	static Integer[] limits = {-1, 20};
+	static Integer[] limits = {120, 20};
 	
 
 	public static void main (String[] args) {
