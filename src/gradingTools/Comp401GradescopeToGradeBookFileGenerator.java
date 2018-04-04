@@ -17,11 +17,11 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 	public static void main (String[] args) {
 //		Map aMap = GradebookConverter.gradeBookToMap(new File("D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv"));
 		GradebookGradescopeConverter.gradescopeToGradebook(
-				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17.csv", 
-				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai_2.csv",
+				"D:\\UNCGoogleDrive\\401-f15\\grades\\Final_scores.csv", 
+				"D:\\UNCGoogleDrive\\401-f15\\grades\\Final_scores_F17_Sakai.csv",
 				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 				onyensToEmail,
-				"Midterm");
+				"Final");
 		
 	 
 	}
