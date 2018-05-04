@@ -6,8 +6,10 @@ public class Comp533GradeBookToGradesScopeFileGenerator {
 	static String[] onyensToEmail = new String[] {
 		
 	};
+//	public static final String GRADEBOOK_TEMPLATE_FILE_NAME = 
+//			"D:\\UNCGoogleDrive\\533\\grades\\gradebook_export-template.csv";
 	public static final String GRADEBOOK_TEMPLATE_FILE_NAME = 
-			"D:\\UNCGoogleDrive\\533\\grades\\gradebook_export-template.csv";
+			"G:\\My Drive\\533\\grades\\gradebook_export-template.csv";
 	
 	public static void main (String[] args) {
 		GradebookGradescopeConverter.gradebookToGradescope(

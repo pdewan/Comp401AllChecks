@@ -10,8 +10,16 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 //		"whglaser:whglaser@ad.unc.edu",
 //		"ellenecs:ellenecs@email.unc.edu"
 //	};
+	public static final String GRADES_FOLDER = "D:\\UNCGoogleDrive\\401-f15\\grades\\";
+
+	public static final String GRADESCOPE_FILE_NAME = "Final_scores.csv";
+	public static final String SAKAI_FILE_NAME = "Final_scores_F17_Sakai.csv";
+	public static final String GRADE_COLUMN_NAME = "Final";
+
+
+	
 	static String[] onyensToEmail = new String[] {
-		"whglaser:whglaser@ad.unc.edu"
+//		"whglaser:whglaser@ad.unc.edu"
 	};
 
 	public static void main (String[] args) {
