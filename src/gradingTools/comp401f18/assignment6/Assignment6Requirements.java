@@ -25,6 +25,7 @@ public class Assignment6Requirements extends AJUnitProjectRequirements {
      	addDueDate("10/24/2018 00:59:00", 1); 		// tue due + 1hr
      	addDueDate("10/27/2018 00:59:00", 0.9);		// fri after due + 1hr
      	addDueDate("10/31/2018 00:59:00", 0.75); 	// tue after due + 1hr
+     	addDueDate("10/31/2018 00:59:01", 0); 	// tue after due + 1hr
 //		addDueDate("12/07/2017 03:00:00", 1);
 
 		// Functionality

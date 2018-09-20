@@ -19,10 +19,11 @@ import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCas
 public class Assignment3Requirements extends AJUnitProjectRequirements {
 
 	public Assignment3Requirements() {
-		addDueDate("09/13/2018 00:59:00", 1.05); 	// wed before + 1hr
-     	addDueDate("09/15/2018 00:59:00", 1); 		// fri due + 1hr
-     	addDueDate("09/19/2018 00:59:00", 0.9);		// tue after due + 1hr
-     	addDueDate("09/22/2018 00:59:00", 0.75); 	// fri after due + 1hr
+		addDueDate("09/20/2018 00:59:00", 1.05); 	// wed before + 1hr, shifted due to hurricane
+     	addDueDate("09/22/2018 00:59:00", 1); 		// fri due + 1hr, shifted due to hurricane
+     	addDueDate("09/26/2018 00:59:00", 0.9);		// tue after due + 1hr, shifted due to hurricane
+     	addDueDate("09/29/2018 00:59:00", 0.75); 	// fri after due + 1hr, shifted due to hurricane
+     	addDueDate("09/29/2018 00:59:01", 0); 	// fri after due + 1hr, shifted due to hurricane
 //		addDueDate("12/07/2017 03:00:00", 1);
 
 		// Functionality
