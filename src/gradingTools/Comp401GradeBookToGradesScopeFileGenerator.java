@@ -8,14 +8,14 @@ public class Comp401GradeBookToGradesScopeFileGenerator {
 //		"ellenecs:ellenecs@email.unc.edu"
 //	};
 	public static final String GRADEBOOK_TEMPLATE_FILE_NAME = 
-			"D:\\UNCGoogleDrive\\401-f15\\grades\\gradebook_export-F17 -Template.csv";
+			"G:\\My Drive\\401-f15\\grades\\f18\\gradebook_export_template.csv";
 	static String[] onyensToEmail = new String[] {
-		"whglaser:whglaser@ad.unc.edu"
+//		"whglaser:whglaser@ad.unc.edu"
 	};
 	public static void main (String[] args) {
 		GradebookGradescopeConverter.gradebookToGradescope(
 				GRADEBOOK_TEMPLATE_FILE_NAME, 
-				"D:\\UNCGoogleDrive\\401-f15\\grades\\gradescope_import-F17.csv",				
+				"G:\\My Drive\\401-f15\\grades\\f18\\gradescope_import.csv",				
 				onyensToEmail);
 		
 	 
