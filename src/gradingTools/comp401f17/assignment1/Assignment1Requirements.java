@@ -5,6 +5,7 @@ import grader.junit.AJUnitProjectRequirements;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment1.testcases.Assignment1Suite;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
+import util.trace.Tracer;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 
 
@@ -17,6 +18,7 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
 //    	addDueDate("09/06/2017 00:59:00", 0.90);// tue after + 1 hr
 //    	addDueDate("09/09/2017 00:59:00", 0.75); // fri after due + 1hr
     	addDueDate("12/07/2017 03:00:00", 1);
+    	Tracer.showInfo(true);
     	
         // Functionality
     	addJUnitTestSuite(Assignment1Suite.class);

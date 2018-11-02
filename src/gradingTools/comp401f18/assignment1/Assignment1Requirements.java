@@ -2,9 +2,11 @@ package gradingTools.comp401f18.assignment1;
 
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment1.testcases.Assignment1Suite;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 
 
@@ -20,6 +22,8 @@ public class Assignment1Requirements extends AJUnitProjectRequirements {
 //    	addDueDate("09/08/2018 00:59:00", 1);
     	
         // Functionality
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
     	addJUnitTestSuite(Assignment1Suite.class);
     	GradingMode.setGraderRun(true);
     	

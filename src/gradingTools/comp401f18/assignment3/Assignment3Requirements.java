@@ -4,6 +4,7 @@ import java.util.List;
 
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment3.testcases.Assignment3Suite;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleEditablePropertyDefinedTestCase;
@@ -15,6 +16,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleConstructorDefinedTestCa
 import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 
 public class Assignment3Requirements extends AJUnitProjectRequirements {
 
@@ -28,6 +30,8 @@ public class Assignment3Requirements extends AJUnitProjectRequirements {
 
 		// Functionality
 		GradingMode.setGraderRun(true);
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
 		addJUnitTestSuite(Assignment3Suite.class);
 
 		// Method calls

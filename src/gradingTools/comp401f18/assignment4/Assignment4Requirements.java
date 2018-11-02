@@ -2,6 +2,7 @@ package gradingTools.comp401f18.assignment4;
 
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment4.testcases.Assignment4Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
@@ -15,6 +16,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleInterfaceDefinedTestCase
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 
 public class Assignment4Requirements extends AJUnitProjectRequirements {
 	public Assignment4Requirements() {
@@ -27,6 +29,8 @@ public class Assignment4Requirements extends AJUnitProjectRequirements {
 
 		// Functionality
 		GradingMode.setGraderRun(true);
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
 		addJUnitTestSuite(Assignment4Suite.class);
 
 		addFeature("Public methods are in implemented interfaces", 10, new ClassHasAtLeastOneInterfaceTestCase());

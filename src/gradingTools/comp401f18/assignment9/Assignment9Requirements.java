@@ -5,6 +5,7 @@ import java.awt.event.ActionEvent;
 import grader.basics.execution.BasicProjectExecution;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment9.testcases.Assignment9Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
@@ -22,19 +23,25 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstylePatternBasedSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 
 public class Assignment9Requirements extends AJUnitProjectRequirements {
 	public Assignment9Requirements() {
+//		GraderTraceUtility.setTurnOn(true);
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
 
 		addDueDate("11/01/2018 00:59:00", 1.05); 	// wed before + 1hr
      	addDueDate("11/28/2018 00:59:00", 1); 		// tue due + 1hr
-     	addDueDate("12/01/2018 00:59:00", 0.9);		// fri after due + 1hr
-     	addDueDate("12/01/2018 00:59:01", 0);		// fri after due + 1hr
+     	addDueDate("12/03/2018 00:59:00", 0.9);		// fri after due + 1hr
+     	addDueDate("12/03/2018 00:59:01", 0);		// fri after due + 1hr
 //		addDueDate("12/07/2017 03:00:00", 1);
 
 		// Functionality
 		GradingMode.setGraderRun(true);
 		addJUnitTestSuite(Assignment9Suite.class);
+		BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
 
 		addFeature("Public methods are in implemented interfaces", 10, new ClassHasAtLeastOneInterfaceTestCase());
 

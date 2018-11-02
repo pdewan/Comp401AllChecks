@@ -2,6 +2,7 @@ package gradingTools.comp401f18.assignment7;
 
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f16.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment7.testcases.Assignment7Suite;
 import gradingTools.sharedTestCase.NoWarningOrErrorTestCase;
@@ -19,6 +20,7 @@ import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstylePatternBasedSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleSuperTypeDefinedTestCase;
 import gradingTools.sharedTestCase.checkstyle.ClassHasAtLeastOneInterfaceTestCase;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 
 public class Assignment7Requirements extends AJUnitProjectRequirements {
 	public Assignment7Requirements() {
@@ -29,6 +31,8 @@ public class Assignment7Requirements extends AJUnitProjectRequirements {
      	addDueDate("11/10/2018 00:59:01", 0); 	// fri after due + 1hr
 //		addDueDate("12/07/2017 03:00:00", 1);
 
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
 		// Functionality
 		GradingMode.setGraderRun(true);
 

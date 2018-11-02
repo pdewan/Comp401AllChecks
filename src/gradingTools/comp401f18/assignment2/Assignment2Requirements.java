@@ -3,11 +3,13 @@ package gradingTools.comp401f18.assignment2;
 import grader.basics.execution.BasicProjectExecution;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
+import grader.trace.GraderTraceUtility;
 import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment2.testcases.Assignment2Suite;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
+import trace.gradingTools.comp401.Comp401TraceUtility;
 
 public class Assignment2Requirements extends AJUnitProjectRequirements {
 
@@ -21,6 +23,8 @@ public class Assignment2Requirements extends AJUnitProjectRequirements {
 
 		BasicProjectExecution.setReRunInfiniteProcesses(true);
 		// Functionality
+		GraderTraceUtility.setTracing();
+		Comp401TraceUtility.setTracing();
 		addJUnitTestSuite(Assignment2Suite.class);
 		GradingMode.setGraderRun(true);
 
