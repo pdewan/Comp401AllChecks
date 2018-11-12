@@ -12,7 +12,7 @@ public class Comp401DiaryToGradeBookFileGenerator {
 //		"ellenecs:ellenecs@email.unc.edu"
 //	};
 	static String[] onyensToEmail = new String[] {
-		"whglaser:whglaser@ad.unc.edu"
+//		"whglaser:whglaser@ad.unc.edu"
 	};
 	static final String DIARY_FILE_NAME = "D:\\UNCGoogleDrive\\401-f15\\grades\\401diaries.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/23", "12/6"};
