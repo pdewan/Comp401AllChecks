@@ -136,7 +136,7 @@ public class Assignment7Requirements extends AJUnitProjectRequirements {
 				new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Command", "String"),
 				new CheckStyleEditablePropertyDefinedTestCase("CommandInterpreter", "Command", "String"));
 
-		addFeature("Command interpreter has errors property", 2,
+		addFeature("Command interpreter has errors property", 2, true,
 				new CheckStylePropertyDefinedTestCase("CommandInterpreter", "Errors", "*"));
 
 		addManualFeature("Animation shows function of command interpreter and correct output in all frames", 15, false);
