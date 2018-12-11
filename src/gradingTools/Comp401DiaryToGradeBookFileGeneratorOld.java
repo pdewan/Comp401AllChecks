@@ -6,7 +6,7 @@ import java.util.Map;
 import gradingTools.sakai.gradebook.DiaryManagement;
 import gradingTools.sakai.gradebook.GradebookGradescopeConverter;
 
-public class Comp401DiaryToGradeBookFileGenerator {
+public class Comp401DiaryToGradeBookFileGeneratorOld {
 //	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu",
 //		"ellenecs:ellenecs@email.unc.edu"
@@ -14,16 +14,13 @@ public class Comp401DiaryToGradeBookFileGenerator {
 	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu"
 	};
-//	static final String DIARY_FILE_NAME = 
-//			"D:\\UNCGoogleDrive\\401-f15\\grades\\f18\\401diaries_Direct.csv";
-	static final String DIARY_FILE_NAME = 
-			"401diaries_Direct.csv";
+	static final String DIARY_FILE_NAME = "D:\\UNCGoogleDrive\\401-f15\\grades\\401diaries.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/23", "12/6"};
 	static String[] dates = {"", ""};
-//	static Integer[] diaryLimits = {-1};
-//	static Integer[] qALimits = {-1};
+	static Integer[] diaryLimits = {-1};
+	static Integer[] qALimits = {20};
 	static Boolean[] isDiary = {true, false};
-	static Integer[] limits = {-1, -1};
+	static Integer[] limits = {120, 20};
 	
 
 	public static void main (String[] args) {
@@ -35,7 +32,6 @@ public class Comp401DiaryToGradeBookFileGenerator {
 //				onyensToEmail);
 		DiaryManagement.diaryToGradebook(				
 				dates, 
-				Comp401GradeBookToGradesScopeFileGenerator.GRADES_DIR +
 				DIARY_FILE_NAME, 
 				isDiary,
 //				aDate.isEmpty()?false:true,

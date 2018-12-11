@@ -41,7 +41,8 @@ public class Assignment9Requirements extends AJUnitProjectRequirements {
 		// Functionality
 		GradingMode.setGraderRun(true);
 		addJUnitTestSuite(Assignment9Suite.class);
-		BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
+		// this was in F16 but not in F17
+//		BasicProjectExecution.setUseMethodAndConstructorTimeOut(false);
 
 		addFeature("Public methods are in implemented interfaces", 10, new ClassHasAtLeastOneInterfaceTestCase());
 
