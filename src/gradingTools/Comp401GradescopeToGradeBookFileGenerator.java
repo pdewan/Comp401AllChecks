@@ -24,7 +24,12 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 	public static final String SAKAI_FILE_NAME = 
 			Comp401GradeBookToGradesScopeFileGenerator.GRADES_DIR +
 			"Midterm_scores_F18_Sakai.csv";
-	public static final String GRADE_COLUMN_NAME = "Midterm";
+//	public static final String GRADE_COLUMN_NAME = "Midterm";
+//	public static final String GRADE_COLUMN_NAME = "Assignment 11";
+//	public static final String GRADE_COLUMN_NAME = "Assignment 10";
+	public static final String GRADE_COLUMN_NAME = "Assignment 12";
+
+
 
     public static final String gradeScopeFileName() {
     	 return Comp401GradeBookToGradesScopeFileGenerator.GRADES_DIR + GRADE_COLUMN_NAME +"_scores.csv";
