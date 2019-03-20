@@ -27,7 +27,9 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 //	public static final String GRADE_COLUMN_NAME = "Midterm";
 //	public static final String GRADE_COLUMN_NAME = "Assignment 11";
 //	public static final String GRADE_COLUMN_NAME = "Assignment 10";
-	public static final String GRADE_COLUMN_NAME = "Assignment 12";
+//	public static final String GRADE_COLUMN_NAME = "Assignment 12";
+	public static final String GRADE_COLUMN_NAME = "Final";
+
 
 
 
@@ -59,8 +61,9 @@ public class Comp401GradescopeToGradeBookFileGenerator {
 //				"D:\\UNCGoogleDrive\\401-f15\\grades\\Final_scores_F17_Sakai.csv",
 				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 				onyensToEmail,
-				GRADE_COLUMN_NAME,
-				true);
+				GRADE_COLUMN_NAME
+//				,true
+				);
 		
 	 
 	}
