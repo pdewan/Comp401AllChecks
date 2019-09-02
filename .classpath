@@ -6,9 +6,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/GraderBasics"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/Comp401LocalChecks"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/comp110-grader"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GraderBasics"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Comp401LocalChecks"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
