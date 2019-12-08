@@ -12,10 +12,14 @@ public class Comp524GradescopeToGradeBookFileGenerator {
 //	};
 //	public static final String GRADES_FOLDER = "G:\\My Drive\\533\\grades\\";
 	public static final String GRADES_FOLDER = Comp524GradeBookToGradesScopeFileGenerator.GRADES_DIR;
-
-	public static final String GRADESCOPE_FILE_NAME = "Comp524_F19_Midterm_scores.csv";
-	public static final String SAKAI_FILE_NAME = "Midterm_scores_F19_Sakai.csv";
-	public static final String GRADE_COLUMN_NAME = "Midterm";
+//
+//	public static final String GRADESCOPE_FILE_NAME = "Comp524_F19_Midterm_scores.csv";
+//	public static final String SAKAI_FILE_NAME = "Midterm_scores_F19_Sakai.csv";
+//	public static final String GRADE_COLUMN_NAME = "Midterm";
+	
+	public static final String GRADESCOPE_FILE_NAME = "Comp524_F19_Final_scores.csv";
+	public static final String SAKAI_FILE_NAME = "Final_scores_F19_Sakai.csv";
+	public static final String GRADE_COLUMN_NAME = "Final";
 
 
 	
