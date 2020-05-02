@@ -6,8 +6,9 @@ import java.util.Map;
 import gradingTools.sakai.gradebook.DiaryManagement;
 import gradingTools.sakai.gradebook.GradebookGradescopeConverter;
 import gradingTools.sakai.gradebook.StaticDiaryManagement;
+import gradingTools.sakai.gradebook.SummaryDiaryManagement;
 
-public class Comp401DiaryToGradeBookFileGeneratorOld {
+public class Comp533DiarySummaryToGradeBookFileGenerator {
 //	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu",
 //		"ellenecs:ellenecs@email.unc.edu"
@@ -15,13 +16,18 @@ public class Comp401DiaryToGradeBookFileGeneratorOld {
 	static String[] onyensToEmail = new String[] {
 //		"whglaser:whglaser@ad.unc.edu"
 	};
-	static final String DIARY_FILE_NAME = "D:\\UNCGoogleDrive\\401-f15\\grades\\401diaries.csv";
+//	static final String DIARY_FILE_NAME = 
+//			"D:\\UNCGoogleDrive\\401-f15\\grades\\f18\\401diaries_Direct.csv";
+//	static final String DIARY_FILE_NAME = 
+//			"401diaries_Direct.csv";
+	static final String DIARY_FILE_NAME = 
+			"533diaries_4-29-2020_summary.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/23", "12/6"};
 	static String[] dates = {"", ""};
-	static Integer[] diaryLimits = {-1};
-	static Integer[] qALimits = {20};
+//	static Integer[] diaryLimits = {-1};
+//	static Integer[] qALimits = {-1};
 	static Boolean[] isDiary = {true, false};
-	static Integer[] limits = {120, 20};
+	static Integer[] limits = {-1, -1};
 	
 
 	public static void main (String[] args) {
@@ -31,12 +37,17 @@ public class Comp401DiaryToGradeBookFileGeneratorOld {
 //				"D:\\UNCGoogleDrive\\401-f15\\grades\\Midterm_scores_F17_Sakai_2.csv",
 //				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 //				onyensToEmail);
-		StaticDiaryManagement.diaryToGradebook(				
+		new SummaryDiaryManagement().diaryToGradebook(				
 				dates, 
+				Comp533GradeBookToGradesScopeFileGenerator.GRADES_DIR +
+
+//				Comp401GradeBookToGradesScopeFileGenerator.GRADES_DIR +
 				DIARY_FILE_NAME, 
 				isDiary,
 //				aDate.isEmpty()?false:true,
-				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
+//				Comp401GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
+				Comp533GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,				
+
 				onyensToEmail,
 				limits);	
 //		for (String aDate:dates) {

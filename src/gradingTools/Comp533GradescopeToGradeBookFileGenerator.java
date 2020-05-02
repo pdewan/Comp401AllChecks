@@ -10,11 +10,13 @@ public class Comp533GradescopeToGradeBookFileGenerator {
 //		"whglaser:whglaser@ad.unc.edu",
 //		"ellenecs:ellenecs@email.unc.edu"
 //	};
-	public static final String GRADES_FOLDER = "G:\\My Drive\\533\\grades\\";
+//	public static final String GRADES_FOLDER = "G:\\My Drive\\533\\grades\\";
+	public static final String GRADES_FOLDER = Comp533GradeBookToGradesScopeFileGenerator.GRADES_DIR;
 
-	public static final String GRADESCOPE_FILE_NAME = "Comp533_S18_Midterm_scores.csv";
-	public static final String SAKAI_FILE_NAME = "Midterm_scores_S18_Sakai.csv";
-	public static final String GRADE_COLUMN_NAME = "Midterm";
+
+	public static final String GRADESCOPE_FILE_NAME = "Comp533_S20_Final_scores.csv";
+	public static final String SAKAI_FILE_NAME = "Final_scores_S20_Sakai.csv";
+	public static final String GRADE_COLUMN_NAME = "Final";
 
 
 	
@@ -27,7 +29,7 @@ public class Comp533GradescopeToGradeBookFileGenerator {
 		GradebookGradescopeConverter.gradescopeToGradebook(
 				GRADES_FOLDER + GRADESCOPE_FILE_NAME, 
 				GRADES_FOLDER + SAKAI_FILE_NAME,
-				Comp524GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
+				Comp533GradeBookToGradesScopeFileGenerator.GRADEBOOK_TEMPLATE_FILE_NAME,
 				onyensToEmail,
 				GRADE_COLUMN_NAME);
 		
