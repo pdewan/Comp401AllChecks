@@ -3,10 +3,10 @@ package gradingTools.comp401f18.assignment1;
 import grader.basics.execution.GradingMode;
 import grader.junit.AJUnitProjectRequirements;
 import grader.trace.GraderTraceUtility;
-import gradingTools.comp401f15.assignment1.testcases.ImageEnclosedTestCase;
 import gradingTools.comp401f17.assignment1.testcases.Assignment1Suite;
 import gradingTools.sharedTestCase.checkstyle.CheckstyleMethodCalledTestCase;
 import trace.gradingTools.comp401.Comp401TraceUtility;
+import gradingTools.sharedTestCase.ImageEnclosedTestCase;
 import gradingTools.sharedTestCase.checkstyle.CheckStyleIllegalImportOrCallTestCase;
 
 

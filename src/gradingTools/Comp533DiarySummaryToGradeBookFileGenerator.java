@@ -21,7 +21,7 @@ public class Comp533DiarySummaryToGradeBookFileGenerator {
 //	static final String DIARY_FILE_NAME = 
 //			"401diaries_Direct.csv";
 	static final String DIARY_FILE_NAME = 
-			"533diaries_4-29-2020_summary.csv";
+			"533diaries_5-2-2020_summary.csv";
 //	static String[] dates = {"", "9/21", "10/5", "10/26", "11/9", "11/23", "12/6"};
 	static String[] dates = {"", ""};
 //	static Integer[] diaryLimits = {-1};
