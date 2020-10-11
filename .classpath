@@ -14,5 +14,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/comp110-grader"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/GraderBasics"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/Comp401LocalChecks"/>
+	<classpathentry kind="lib" path="/GraderBasics/lib/oeall22.jar" sourcepath="/util/src"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
