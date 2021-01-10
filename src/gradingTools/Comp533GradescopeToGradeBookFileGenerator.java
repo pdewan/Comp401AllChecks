@@ -3,7 +3,7 @@ package gradingTools;
 import java.io.File;
 import java.util.Map;
 
-import gradingTools.sakai.gradebook.GradebookGradescopeConverter;
+import gradingTools.gradebook.GradebookGradescopeConverter;
 
 public class Comp533GradescopeToGradeBookFileGenerator {
 //	static String[] onyensToEmail = new String[] {
