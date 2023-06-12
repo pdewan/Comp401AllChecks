@@ -14,6 +14,17 @@ public class Assignment21Requirements extends AJUnitProjectRequirements {
 		
 		
 		addJUnitTestSuite(SS21Assignment2_1Suite.class);
+        addManualFeature("Compact array displayed", 15, false);
+        
+        addManualFeature("CompactArray does not have null values", 15, false);
+
+        addManualFeature("Compact array has string, word, quote, command tokens ", 30, false);
+       
+        addManualFeature("History has string, word, quote, command tokens ", 15, false);
+   
+        addManualFeature("Compact array changes due to animation ", 15, false);
+        addManualFeature("History changes due to animation ", 15, false);
+
 
 	}
 }

@@ -15,5 +15,6 @@ public class Assignment11Requirements extends AJUnitProjectRequirements {
 		
 		addJUnitTestSuite(SS21Assignment1_1Suite.class);
 
+
 	}
 }

@@ -7,7 +7,9 @@ public class Comp401GradeBookToGradesScopeFileGenerator {
 //		"whglaser:whglaser@ad.unc.edu",
 //		"ellenecs:ellenecs@email.unc.edu"
 //	};
-	public static final String GRADES_DIR =  "G:\\My Drive\\401-f15\\grades\\f18\\";
+//	public static final String GRADES_DIR =  "G:\\My Drive\\401-f15\\grades\\f18\\";
+	public static final String GRADES_DIR =  "G:\\My Drive\\401-f15\\Comp401TA\\Sum21\\grades\\";
+//G:\My Drive\401-f15\Comp401TA\Sum21\grades
 	public static final String GRADEBOOK_TEMPLATE_FILE_NAME = 
 //			"G:\\My Drive\\401-f15\\grades\\f18\\"
 			GRADES_DIR
