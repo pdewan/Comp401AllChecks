@@ -16,5 +16,7 @@
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/GraderBasics"/>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/Comp401LocalChecks"/>
 	<classpathentry exported="true" kind="lib" path="/GraderBasics/lib/oeall22.jar" sourcepath="/util/src"/>
+	<classpathentry kind="lib" path="/GraderBasics/lib/checkstyle-8.33-all.jar"/>
+	<classpathentry kind="lib" path="/GraderBasics/lib/UNCChecks-8.jar" sourcepath="/UNC_Checkstyle_8"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
