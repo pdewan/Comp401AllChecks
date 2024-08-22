@@ -1,5 +1,7 @@
 package gradingTools;
 
+import trace.grader.basics.GraderBasicsTraceUtility;
+
 public class ExecuteHeadlessHardwired {
 //	static final String ASSIGNMENT = "C:\\Users\\dewan\\Downloads\\Comp524F20Assignments\\Assignment 0-1";
 //	static final String ASSIGNMENT = "C:\\Users\\dewan\\Downloads\\Comp524F20Assignments\\Assignment 0-2";
@@ -8,14 +10,14 @@ public class ExecuteHeadlessHardwired {
 //	static final String ASSIGNMENT = "C:\\Users\\dewan\\Downloads\\Comp524F20Assignments\\Assignment 2";
 //	static final String ASSIGNMENT = "C:\\Users\\dewan\\Downloads\\Comp524F20Assignments\\Assignment 0-4";
 	static final String ASSIGNMENT_FOLDER = "D:\\Assignment1";
-	static final String ASSIGNMENT = "Assignment1";
+	static final String ASSIGNMENT = "Assignment4";
 
 	
 //	static final String STUDENT = "kakiryan";
 //	static final String STUDENT = "justin2";
 //	static final String STUDENT = "sdgeorge";
 	static final String STUDENT = "acorrect";
-	static final String COURSE = "Comp301SS24";
+	static final String COURSE = "Comp301SS21";
 
 
 
@@ -30,6 +32,8 @@ public class ExecuteHeadlessHardwired {
 
 //		TestForkHeadlessOneStudent.main(MY_ARGS);
 //		HeadlessOneStudentComp524F20.main(MY_ARGS);
+		GraderBasicsTraceUtility.setBufferTracedMessages(false);
+
 		RunHeadlessOneStudent.runHeadlessOneStudent(COURSE, ASSIGNMENT, ASSIGNMENT_FOLDER, STUDENT);
 
 //		RunHeadlessOneStudent.main(MY_ARGS);
